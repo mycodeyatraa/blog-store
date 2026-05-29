@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "blog-1",
+    "title": "Redis in System Design: From Caching to Distributed Locking",
+    "slug": "redis-in-system-design-from-caching-to-distributed-locking",
+    "author": "Abhishek-sinha",
+    "excerpt": "Redis is an in-memory data structure store that powers some of the highest-throughput systems in production.. From caching to real-time leaderboards, its versatility makes it a cornerstone of modern s",
+    "date": "2026-05-30",
+    "readTime": "4 min read",
+    "category": "Redis",
+    "categories": [
+      "Redis",
+      "System Design",
+      "Caching"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "redis",
+      "system-design",
+      "caching",
+      "database",
+      "backend"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/redis-in-system-design-from-caching-to-distributed-locking.md",
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
+  }
+]
