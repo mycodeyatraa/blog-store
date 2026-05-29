@@ -1,31 +1,62 @@
-[{
-    "id":  "blog-1",
-    "draft":  false,
-    "image":  "",
-    "title":  "Setting Up MyCodeYatra: A GitHub-Powered Blog Platform",
-    "tags":  [
-                 "web-development",
-                 "github",
-                 "blog",
-                 "mcp",
-                 "react"
-             ],
-    "category":  "Web Development",
-    "contentPath":  "users/Abhishek-sinha/posts/setting-up-mycodeyatra-blog-platform.md",
-    "readTime":  "3 min read",
-    "slug":  "setting-up-mycodeyatra-blog-platform",
-    "author":  "Abhishek-sinha",
-    "excerpt":  "How I built a multi-author blog platform with a React frontend, an MCP server for content management, and a public GitHub repo as the data store — all without a traditional database.",
-    "date":  "2026-05-30",
-    "likes":  0,
-    "commentsCount":  0,
-    "authorDetails":  {
-                          "name":  "Abhishek Sinha",
-                          "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
-                          "github":  "https://github.com/abhisheksinha20p",
-                          "username":  "Abhishek-sinha",
-                          "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
-                          "role":  "Full Stack And Mobile Developer",
-                          "bio":  "Full Stack And Mobile Developer"
-                      }
-}]
+[
+  {
+    "id": "blog-1",
+    "draft": false,
+    "image": "",
+    "title": "Setting Up MyCodeYatra: A GitHub-Powered Blog Platform",
+    "tags": [
+      "web-development",
+      "github",
+      "blog",
+      "mcp",
+      "react"
+    ],
+    "category": "Web Development",
+    "contentPath": "users/Abhishek-sinha/posts/setting-up-mycodeyatra-blog-platform.md",
+    "readTime": "3 min read",
+    "slug": "setting-up-mycodeyatra-blog-platform",
+    "author": "Abhishek-sinha",
+    "excerpt": "How I built a multi-author blog platform with a React frontend, an MCP server for content management, and a public GitHub repo as the data store \u2014 all without a traditional database.",
+    "date": "2026-05-30",
+    "likes": 0,
+    "commentsCount": 0,
+    "authorDetails": {
+      "name": "Abhishek Sinha",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "github": "https://github.com/abhisheksinha20p",
+      "username": "Abhishek-sinha",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+      "role": "Full Stack And Mobile Developer",
+      "bio": "Full Stack And Mobile Developer"
+    }
+  },
+  {
+    "id": "blog-3",
+    "title": "Testing the MCP End-to-End",
+    "slug": "testing-the-mcp-end-to-end",
+    "author": "Abhishek-sinha",
+    "excerpt": "I set up a blog platform using three GitHub repos.. No database needed..",
+    "date": "2026-05-30",
+    "readTime": "1 min read",
+    "category": "Test",
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "test",
+      "mcp",
+      "demo"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/testing-the-mcp-end-to-end.md",
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
+  }
+]
