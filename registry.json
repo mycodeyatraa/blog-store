@@ -1,4 +1,4 @@
-{
+[{
     "id":  "blog-1",
     "draft":  false,
     "image":  "",
@@ -28,4 +28,4 @@
                           "role":  "Full Stack And Mobile Developer",
                           "bio":  "Full Stack And Mobile Developer"
                       }
-}
+}]
