@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Accidental env files
+.env
+.env*
+
+# Local output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
