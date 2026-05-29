@@ -75,20 +75,10 @@
     }
   },
   {
-    "id": 3,
+    "id": "blog-3",
     "title": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming",
     "slug": "apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming",
-    "url": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/posts/apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming.md",
     "author": "Abhishek-sinha",
-    "author_details": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    },
     "date": "2026-05-30",
     "tags": [
       "zookeeper",
@@ -106,9 +96,19 @@
     ],
     "excerpt": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming\n\nWhen building distributed systems, two names come up constantly \u2014 Apache Zookeeper and Apache Kafka.. They solve very differ",
     "readTime": "5 min read",
-    "diagrams": 4,
-    "status": "published",
-    "source": "github",
-    "created_at": "2026-05-30T02:47:02.762965"
+    "contentPath": "users/Abhishek-sinha/posts/apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming.md",
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
   }
 ]
