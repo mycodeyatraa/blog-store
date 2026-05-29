@@ -34,5 +34,44 @@
       "github": "https://github.com/abhisheksinha20p",
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
     }
+  },
+  {
+    "id": "blog-2",
+    "title": "PostgreSQL vs MongoDB vs Redis: Choosing the Right Database for Your System Design",
+    "slug": "postgresql-vs-mongodb-vs-redis-choosing-the-right-database",
+    "author": "Abhishek-sinha",
+    "excerpt": "Choosing the right database is one of the most critical decisions in system design. PostgreSQL, MongoDB, and Redis each excel in different scenarios \u2014 and understanding their strengths is the..",
+    "date": "2026-05-30",
+    "readTime": "6 min read",
+    "category": "Databases",
+    "categories": [
+      "System Design",
+      "Databases",
+      "Backend"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "database",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "system-design",
+      "backend",
+      "nosql",
+      "sql"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/postgresql-vs-mongodb-vs-redis-choosing-the-right-database.md",
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "# Leave empty to auto-derive from AUTHOR_GITHUB",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
   }
 ]
