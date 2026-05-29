@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "blog-test-1",
+    "title": "Test Connection from MCP",
+    "slug": "test-connection-from-mcp",
+    "author": "Abhishek-sinha",
+    "excerpt": "This is a test article to verify the MCP connection to the blog-store repo.",
+    "date": "2026-05-30",
+    "readTime": "1 min read",
+    "category": "Test",
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "test",
+      "mcp",
+      "connection"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/test-connection-from-mcp.md",
+    "authorDetails": {
+      "username": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p"
+    }
+  }
+]
