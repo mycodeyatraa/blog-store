@@ -110,5 +110,41 @@
       "github": "https://github.com/abhisheksinha20p",
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
     }
+  },
+  {
+    "id": "blog-2",
+    "title": "AI Usage in Mobile Automation: Beyond Basic Test Scripts",
+    "slug": "ai-usage-in-mobile-automation-beyond-basic-test-scripts",
+    "author": "Pankaj Kumar",
+    "excerpt": "AI Usage in Mobile Automation: Beyond Basic Test Scripts\n\n> Key insight: AI in mobile automation isn't just about generating tests\u00e2\u20ac\u201dit's about creating intelligent, self-healing systems that adapt to",
+    "date": "2026-05-30",
+    "readTime": "10 min read",
+    "category": "Ai",
+    "categories": [
+      "Ai",
+      "Mobile Automation",
+      "Test Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "AI",
+      "mobile automation",
+      "test automation",
+      "self-healing",
+      "Appium"
+    ],
+    "draft": false,
+    "contentPath": "users/Pankaj Kumar/posts/ai-usage-in-mobile-automation-beyond-basic-test-scripts.md",
+    "authorDetails": {
+      "id": "Pankaj Kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
