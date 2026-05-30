@@ -40,26 +40,9 @@ These aren't just annoyances—they directly impact release velocity and quality
 
 Here's how the AI-augmented mobile automation pipeline changes that picture:
 
-```mermaid
-graph TD;
-    A[Feature Request] --> B[AI Analyzes Requirements];
-    B --> C[Generates Test Scenarios];
-    C --> D[Happy Path];
-    C --> E[Edge Cases];
-    C --> F[Error Scenarios];
-    D --> G[AI Converts to Test Scripts];
-    E --> G;
-    F --> G;
-    G --> H[Appium / Espresso / XCUITest];
-    H --> I{Self-Healing Layer};
-    I --> J[Execute on Device Farm];
-    J --> K{Test Passed?};
-    K -->|Yes| L[Report Pass];
-    K -->|No| M[AI Diagnostic];
-    M --> N[Root Cause Analysis];
-    N --> O[Auto-Heal Locator / Flag Bug];
-    O --> J;
-```
+
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/ai-usage-in-mobile-automation-beyond-basic-test-scripts/images/diagram_1.png)
+
 
 > **Key insight:** The feedback loop between test execution and self-healing reduces the time spent on test maintenance by up to 80%.
 
@@ -129,27 +112,9 @@ The real test of any testing approach is how it performs in the crucible of cont
 
 **Self-Healing in Ephemeral Environments:** In containerized CI/CD nodes where environments are torn down after each run, AI self-healing ensures tests remain stable despite minor environmental variations that would break traditional selectors.
 
-```mermaid
-graph TD;
-    PR[PR Created] --> CI[CI Triggered];
-    CI --> P1[Job 1: Unit Tests];
-    CI --> P2[Job 2: UI Tests];
-    CI --> P3[Job 3: Integration];
-    P2 --> AI_P[AI Prioritization];
-    AI_P --> H{High Risk?};
-    H -->|Yes| FF[Full Regression Suite];
-    H -->|No| SF[Smoke Tests Only];
-    FF --> EXEC[Execute on Device Farm];
-    SF --> EXEC;
-    EXEC --> RES{Results};
-    RES -->|Pass| MERGE[Auto-Merge];
-    RES -->|Fail| HEAL[AI Self-Healing];
-    HEAL --> FIXED{Healed?};
-    FIXED -->|Yes| RES;
-    FIXED -->|No| LOG[Log Bug + Screenshot];
-    LOG --> BLOCK[Block PR];
-    MERGE --> DEPLOY[Deploy to Store];
-```
+
+![diagram_3](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/ai-usage-in-mobile-automation-beyond-basic-test-scripts/images/diagram_3.png)
+
 
 Teams implementing these capabilities report 50% faster feedback cycles and 35% reduction in false positives that previously wasted engineering investigation time.
 
