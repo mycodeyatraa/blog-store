@@ -184,5 +184,42 @@
       "github": "https://github.com/abhisheksinha20p",
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
     }
+  },
+  {
+    "id": "blog-6",
+    "title": "AWS Compute: EC2, Lambda, ECS, and EKS",
+    "slug": "aws-compute-ec2-lambda-ecs-and-eks",
+    "author": "Abhishek-sinha",
+    "excerpt": "A practical guide to AWS compute services \u2014 EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes \u2014 with decision framework for choosing the right service.",
+    "date": "2026-05-31",
+    "category": "AWS",
+    "categories": [
+      "aws",
+      "ec2",
+      "lambda"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "AWS",
+      "EC2",
+      "Lambda",
+      "ECS",
+      "EKS",
+      "cloud-computing",
+      "containers",
+      "serverless",
+      "devops",
+      "infrastructure"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/aws-compute-ec2-lambda-ecs-and-eks.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "username": "Abhishek-sinha",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/images/avatar.jpg"
+    }
   }
 ]
