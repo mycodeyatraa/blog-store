@@ -127,18 +127,15 @@ Create a new directory and a `pom.xml`:
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.yourcompany</groupId>
     <artifactId>playwright-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <playwright.version>1.59.0</playwright.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.microsoft.playwright</groupId>
@@ -152,7 +149,6 @@ Create a new directory and a `pom.xml`:
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
