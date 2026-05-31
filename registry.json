@@ -221,5 +221,41 @@
       "username": "Abhishek-sinha",
       "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p"
     }
+  },
+  {
+    "id": "blog-7",
+    "title": "AWS Storage & Databases: S3, RDS, DynamoDB, and ElastiCache",
+    "slug": "aws-storage-and-databases-s3-rds-dynamodb-and-elasticache",
+    "author": "Abhishek-sinha",
+    "excerpt": "A practical guide to AWS storage and database services \u2014 S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
+    "date": "2026-05-31",
+    "category": "AWS",
+    "categories": [
+      "aws",
+      "s3",
+      "rds"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "AWS",
+      "S3",
+      "RDS",
+      "DynamoDB",
+      "ElastiCache",
+      "databases",
+      "storage",
+      "cloud-computing",
+      "devops"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/aws-storage-and-databases-s3-rds-dynamodb-and-elasticache.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "username": "Abhishek-sinha",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p"
+    }
   }
 ]
