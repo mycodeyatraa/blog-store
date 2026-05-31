@@ -267,5 +267,46 @@
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
       "id": "Abhishek-sinha"
     }
+  },
+  {
+    "id": "blog-8",
+    "title": "AWS Networking & Security: VPC Deep Dive, Route53, CloudFront, and WAF",
+    "slug": "aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf",
+    "author": "Abhishek-sinha",
+    "excerpt": "A deep dive into AWS networking and security \u2014 advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
+    "date": "2026-05-31",
+    "category": "AWS",
+    "categories": [
+      "aws",
+      "vpc",
+      "route53"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "AWS",
+      "VPC",
+      "Route53",
+      "CloudFront",
+      "WAF",
+      "networking",
+      "security",
+      "cloud-computing",
+      "devops"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
   }
 ]
