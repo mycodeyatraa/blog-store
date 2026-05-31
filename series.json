@@ -13,5 +13,14 @@
     ],
     "status": "completed",
     "createdAt": "2026-05-31"
+  },
+  {
+    "id": "playwright-with-java-zero-to-automation",
+    "title": "Playwright with Java \u2014 Zero to Automation",
+    "description": "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
+    "author": "Pankaj Kumar",
+    "articleIds": [],
+    "status": "ongoing",
+    "createdAt": "2026-05-31"
   }
 ]
