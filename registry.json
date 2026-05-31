@@ -308,5 +308,45 @@
       "github": "https://github.com/abhisheksinha20p",
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
     }
+  },
+  {
+    "id": "blog-9",
+    "title": "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD",
+    "slug": "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
+    "author": "Abhishek-sinha",
+    "excerpt": "A comprehensive guide to production-ready AWS \u2014 Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
+    "date": "2026-05-31",
+    "category": "AWS",
+    "categories": [
+      "aws",
+      "high-availability",
+      "monitoring"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "AWS",
+      "high-availability",
+      "monitoring",
+      "cost-optimization",
+      "CI/CD",
+      "devops",
+      "production",
+      "cloud-computing"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/aws-production-high-availability-monitoring-cost-optimization-and-cicd.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
   }
 ]
