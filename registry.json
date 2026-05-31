@@ -113,39 +113,40 @@
   },
   {
     "id": "blog-4",
-    "title": "AI Usage in Mobile Automation: Beyond Basic Test Scripts",
-    "slug": "ai-usage-in-mobile-automation-beyond-basic-test-scripts",
-    "author": "pankaj-kumar",
-    "excerpt": "AI Usage in Mobile Automation: Beyond Basic Test Scripts\n\n> Key insight: AI in mobile automation isn't just about generating tests\u00e2\u20ac\u201dit's about creating intelligent, self-healing systems that adapt to",
-    "date": "2026-05-30",
-    "readTime": "10 min read",
-    "category": "Ai",
+    "title": "Playwright with Java \u2014 Zero to Automation: Introduction & Setup",
+    "slug": "playwright-with-java-zero-to-automation-introduction-setup",
+    "author": "Pankaj Kumar",
+    "excerpt": "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven \u2014 including writing and running your first test.",
+    "date": "2026-05-31",
+    "readTime": "8 min read",
+    "category": "Playwright",
     "categories": [
-      "Ai",
-      "Mobile Automation",
-      "Test Automation"
+      "Playwright",
+      "Java",
+      "Automation Testing"
     ],
     "image": "",
     "likes": 0,
     "commentsCount": 0,
     "tags": [
-      "AI",
-      "mobile automation",
-      "test automation",
-      "self-healing",
-      "Appium"
+      "playwright",
+      "java",
+      "automation-testing",
+      "e2e-testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/ai-usage-in-mobile-automation-beyond-basic-test-scripts.md",
+    "contentPath": "users/Pankaj Kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
     "authorDetails": {
-      "id": "pankaj-kumar",
+      "id": "Pankaj Kumar",
       "name": "Pankaj Kumar",
       "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
+      "avatar": "pankaj.JPG",
       "bio": "Automation Architect",
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
+    },
+    "series": "playwright-with-java-zero-to-automation",
+    "seriesOrder": 1
   },
   {
     "id": "blog-5",
