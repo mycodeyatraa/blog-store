@@ -364,7 +364,6 @@
       "self-healing",
       "Appium"
     ],
-    "series": "playwright-with-java-zero-to-automation",
     "excerpt": "AI in mobile automation isn't just about generating tests-it's about creating intelligent, self-healing systems that adapt to app changes while reducing maintenance overhead by up to 80%. Mobile application testing has reached a critical inflection point.",
     "categories": [
       "Ai",
@@ -385,7 +384,6 @@
     "readTime": "11 min read",
     "category": "Ai",
     "commentsCount": 0,
-    "image": "",
-    "seriesOrder": 2
+    "image": ""
   }
 ]
