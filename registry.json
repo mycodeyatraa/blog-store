@@ -146,5 +146,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-5",
+    "title": "AWS Fundamentals: IAM, VPC, EC2, and S3",
+    "slug": "aws-fundamentals-iam-vpc-ec2-and-s3",
+    "author": "Abhishek-sinha",
+    "excerpt": "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n> Key insight: Mastering these four AWS services \u2014 IAM, VPC, EC2, and S3 \u2014 gives you the foundation to build 90% of cloud architectures.. Everything else exten",
+    "date": "2026-05-31",
+    "readTime": "6 min read",
+    "category": "Aws",
+    "categories": [
+      "Aws",
+      "Fundamentals",
+      "Iam"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "aws",
+      "fundamentals",
+      "iam",
+      "ec2",
+      "s3"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/aws-fundamentals-iam-vpc-ec2-and-s3.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    }
   }
 ]
