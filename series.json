@@ -1,29 +1,29 @@
 [
-    {
-        "id":  "aws-from-zero-to-production",
-        "title":  "AWS From Zero to Production",
-        "description":  "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD — designed for developers transitioning from theory to real-world AWS deployments.",
-        "author":  "Abhishek-sinha",
-        "articleIds":  [
-                           "blog-5",
-                           "blog-6",
-                           "blog-7",
-                           "blog-8",
-                           "blog-9"
-                       ],
-        "status":  "completed",
-        "createdAt":  "2026-05-31"
-    },
-    {
-        "id":  "playwright-with-java-zero-to-automation",
-        "title":  "Playwright with Java — Zero to Automation",
-        "description":  "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
-        "author":  "pankaj-kumar",
-        "articleIds":  [
-                           "blog-4",
-                           "blog-10"
-                       ],
-        "status":  "ongoing",
-        "createdAt":  "2026-05-31"
-    }
+  {
+    "id": "aws-from-zero-to-production",
+    "title": "AWS From Zero to Production",
+    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
+    "author": "Abhishek-sinha",
+    "articleIds": [
+      "blog-5",
+      "blog-6",
+      "blog-7",
+      "blog-8",
+      "blog-9"
+    ],
+    "status": "completed",
+    "createdAt": "2026-05-31"
+  },
+  {
+    "id": "playwright-with-java-zero-to-automation",
+    "title": "Playwright with Java - Zero to Automation",
+    "description": "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
+    "author": "pankaj-kumar",
+    "articleIds": [
+      "blog-4",
+      "blog-10"
+    ],
+    "status": "ongoing",
+    "createdAt": "2026-05-31"
+  }
 ]
