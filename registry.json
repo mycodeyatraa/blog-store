@@ -1,353 +1,391 @@
 [
-  {
-    "id": "blog-1",
-    "title": "Redis in System Design: From Caching to Distributed Locking",
-    "slug": "redis-in-system-design-from-caching-to-distributed-locking",
-    "author": "Abhishek-sinha",
-    "excerpt": "Redis is an in-memory data structure store that powers some of the highest-throughput systems in production.. From caching to real-time leaderboards, its versatility makes it a cornerstone of modern s",
-    "date": "2026-05-30",
-    "readTime": "4 min read",
-    "category": "Redis",
-    "categories": [
-      "Redis",
-      "System Design",
-      "Caching"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "redis",
-      "system-design",
-      "caching",
-      "database",
-      "backend"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/redis-in-system-design-from-caching-to-distributed-locking.md",
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-2",
-    "title": "PostgreSQL vs MongoDB vs Redis: Choosing the Right Database for Your System Design",
-    "slug": "postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design",
-    "author": "Abhishek-sinha",
-    "excerpt": "Choosing the right database is one of the most critical decisions in system design.. PostgreSQL, MongoDB, and Redis each excel in different scenarios \u2014 and understanding their strengths is the differe",
-    "date": "2026-05-30",
-    "readTime": "3 min read",
-    "category": "Postgresql",
-    "categories": [
-      "Postgresql",
-      "Mongodb",
-      "Redis"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "postgresql",
-      "mongodb",
-      "redis",
-      "system-design",
-      "database",
-      "backend",
-      "nosql",
-      "sql"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design.md",
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-3",
-    "title": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming",
-    "slug": "apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming",
-    "author": "Abhishek-sinha",
-    "date": "2026-05-30",
-    "tags": [
-      "zookeeper",
-      "kafka",
-      "system-design",
-      "distributed-systems",
-      "microservices",
-      "event-streaming"
-    ],
-    "category": "Zookeeper",
-    "categories": [
-      "Zookeeper",
-      "Kafka",
-      "System Design"
-    ],
-    "excerpt": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming\n\nWhen building distributed systems, two names come up constantly \u2014 Apache Zookeeper and Apache Kafka.. They solve very differ",
-    "readTime": "5 min read",
-    "contentPath": "users/Abhishek-sinha/posts/apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming.md",
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-4",
-    "title": "Playwright with Java \u2014 Zero to Automation: Introduction & Setup",
-    "slug": "playwright-with-java-zero-to-automation-introduction-setup",
-    "author": "pankaj-kumar",
-    "excerpt": "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven \u2014 including writing and running your first test.",
-    "date": "2026-05-31",
-    "readTime": "8 min read",
-    "category": "Playwright",
-    "categories": [
-      "Playwright",
-      "Java",
-      "Automation Testing"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "playwright",
-      "java",
-      "automation-testing",
-      "e2e-testing"
-    ],
-    "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    {
+        "id":  "blog-1",
+        "title":  "Redis in System Design: From Caching to Distributed Locking",
+        "slug":  "redis-in-system-design-from-caching-to-distributed-locking",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "Redis is an in-memory data structure store that powers some of the highest-throughput systems in production.. From caching to real-time leaderboards, its versatility makes it a cornerstone of modern s",
+        "date":  "2026-05-30",
+        "readTime":  "4 min read",
+        "category":  "Redis",
+        "categories":  [
+                           "Redis",
+                           "System Design",
+                           "Caching"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "redis",
+                     "system-design",
+                     "caching",
+                     "database",
+                     "backend"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/redis-in-system-design-from-caching-to-distributed-locking.md",
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
     },
-    "series": "playwright-with-java-zero-to-automation",
-    "seriesOrder": 1
-  },
-  {
-    "id": "blog-5",
-    "title": "AWS Fundamentals: IAM, VPC, EC2, and S3",
-    "slug": "aws-fundamentals-iam-vpc-ec2-and-s3",
-    "author": "Abhishek-sinha",
-    "excerpt": "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n> Key insight: Mastering these four AWS services \u2014 IAM, VPC, EC2, and S3 \u2014 gives you the foundation to build 90% of cloud architectures.. Everything else exten",
-    "date": "2026-05-31",
-    "readTime": "6 min read",
-    "category": "Aws",
-    "categories": [
-      "Aws",
-      "Fundamentals",
-      "Iam"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "aws",
-      "fundamentals",
-      "iam",
-      "ec2",
-      "s3"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/aws-fundamentals-iam-vpc-ec2-and-s3.md",
-    "series": "aws-from-zero-to-production",
-    "seriesOrder": 1,
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    {
+        "id":  "blog-2",
+        "title":  "PostgreSQL vs MongoDB vs Redis: Choosing the Right Database for Your System Design",
+        "slug":  "postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "Choosing the right database is one of the most critical decisions in system design.. PostgreSQL, MongoDB, and Redis each excel in different scenarios — and understanding their strengths is the differe",
+        "date":  "2026-05-30",
+        "readTime":  "3 min read",
+        "category":  "Postgresql",
+        "categories":  [
+                           "Postgresql",
+                           "Mongodb",
+                           "Redis"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "postgresql",
+                     "mongodb",
+                     "redis",
+                     "system-design",
+                     "database",
+                     "backend",
+                     "nosql",
+                     "sql"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design.md",
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
+    },
+    {
+        "id":  "blog-3",
+        "title":  "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming",
+        "slug":  "apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming",
+        "author":  "Abhishek-sinha",
+        "date":  "2026-05-30",
+        "tags":  [
+                     "zookeeper",
+                     "kafka",
+                     "system-design",
+                     "distributed-systems",
+                     "microservices",
+                     "event-streaming"
+                 ],
+        "category":  "Zookeeper",
+        "categories":  [
+                           "Zookeeper",
+                           "Kafka",
+                           "System Design"
+                       ],
+        "excerpt":  "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming\n\nWhen building distributed systems, two names come up constantly — Apache Zookeeper and Apache Kafka.. They solve very differ",
+        "readTime":  "5 min read",
+        "contentPath":  "users/Abhishek-sinha/posts/apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming.md",
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "draft":  false,
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
+    },
+    {
+        "id":  "blog-4",
+        "title":  "Playwright with Java — Zero to Automation: Introduction \u0026 Setup",
+        "slug":  "playwright-with-java-zero-to-automation-introduction-setup",
+        "author":  "pankaj-kumar",
+        "excerpt":  "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven — including writing and running your first test.",
+        "date":  "2026-05-31",
+        "readTime":  "8 min read",
+        "category":  "Playwright",
+        "categories":  [
+                           "Playwright",
+                           "Java",
+                           "Automation Testing"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "playwright",
+                     "java",
+                     "automation-testing",
+                     "e2e-testing"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/pankaj-kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
+        "authorDetails":  {
+                              "id":  "pankaj-kumar",
+                              "name":  "Pankaj Kumar",
+                              "role":  "Automation Architect",
+                              "avatar":  "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
+                              "bio":  "Automation Architect",
+                              "github":  "https://github.com/pankajhyd",
+                              "linkedin":  "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+                          },
+        "series":  "playwright-with-java-zero-to-automation",
+        "seriesOrder":  1
+    },
+    {
+        "id":  "blog-5",
+        "title":  "AWS Fundamentals: IAM, VPC, EC2, and S3",
+        "slug":  "aws-fundamentals-iam-vpc-ec2-and-s3",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n\u003e Key insight: Mastering these four AWS services — IAM, VPC, EC2, and S3 — gives you the foundation to build 90% of cloud architectures.. Everything else exten",
+        "date":  "2026-05-31",
+        "readTime":  "6 min read",
+        "category":  "Aws",
+        "categories":  [
+                           "Aws",
+                           "Fundamentals",
+                           "Iam"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "aws",
+                     "fundamentals",
+                     "iam",
+                     "ec2",
+                     "s3"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/aws-fundamentals-iam-vpc-ec2-and-s3.md",
+        "series":  "aws-from-zero-to-production",
+        "seriesOrder":  1,
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
+    },
+    {
+        "id":  "blog-6",
+        "title":  "AWS Compute: EC2, Lambda, ECS, and EKS",
+        "slug":  "aws-compute-ec2-lambda-ecs-and-eks",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "A practical guide to AWS compute services — EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes — with decision framework for choosing the right service.",
+        "date":  "2026-05-31",
+        "category":  "AWS",
+        "categories":  [
+                           "aws",
+                           "ec2",
+                           "lambda"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "AWS",
+                     "EC2",
+                     "Lambda",
+                     "ECS",
+                     "EKS",
+                     "cloud-computing",
+                     "containers",
+                     "serverless",
+                     "devops",
+                     "infrastructure"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/aws-compute-ec2-lambda-ecs-and-eks.md",
+        "series":  "aws-from-zero-to-production",
+        "seriesOrder":  2,
+        "authorDetails":  {
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+                              "id":  "Abhishek-sinha"
+                          }
+    },
+    {
+        "id":  "blog-7",
+        "title":  "AWS Storage \u0026 Databases: S3, RDS, DynamoDB, and ElastiCache",
+        "slug":  "aws-storage-and-databases-s3-rds-dynamodb-and-elasticache",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "A practical guide to AWS storage and database services — S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
+        "date":  "2026-05-31",
+        "category":  "AWS",
+        "categories":  [
+                           "aws",
+                           "s3",
+                           "rds"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "AWS",
+                     "S3",
+                     "RDS",
+                     "DynamoDB",
+                     "ElastiCache",
+                     "databases",
+                     "storage",
+                     "cloud-computing",
+                     "devops"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/aws-storage-and-databases-s3-rds-dynamodb-and-elasticache.md",
+        "series":  "aws-from-zero-to-production",
+        "seriesOrder":  3,
+        "authorDetails":  {
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+                              "id":  "Abhishek-sinha"
+                          }
+    },
+    {
+        "id":  "blog-8",
+        "title":  "AWS Networking \u0026 Security: VPC Deep Dive, Route53, CloudFront, and WAF",
+        "slug":  "aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "A deep dive into AWS networking and security — advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
+        "date":  "2026-05-31",
+        "category":  "AWS",
+        "categories":  [
+                           "aws",
+                           "vpc",
+                           "route53"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "AWS",
+                     "VPC",
+                     "Route53",
+                     "CloudFront",
+                     "WAF",
+                     "networking",
+                     "security",
+                     "cloud-computing",
+                     "devops"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf.md",
+        "series":  "aws-from-zero-to-production",
+        "seriesOrder":  4,
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
+    },
+    {
+        "id":  "blog-9",
+        "title":  "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD",
+        "slug":  "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
+        "author":  "Abhishek-sinha",
+        "excerpt":  "A comprehensive guide to production-ready AWS — Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
+        "date":  "2026-05-31",
+        "category":  "AWS",
+        "categories":  [
+                           "aws",
+                           "high-availability",
+                           "monitoring"
+                       ],
+        "image":  "",
+        "likes":  0,
+        "commentsCount":  0,
+        "tags":  [
+                     "AWS",
+                     "high-availability",
+                     "monitoring",
+                     "cost-optimization",
+                     "CI/CD",
+                     "devops",
+                     "production",
+                     "cloud-computing"
+                 ],
+        "draft":  false,
+        "contentPath":  "users/Abhishek-sinha/posts/aws-production-high-availability-monitoring-cost-optimization-and-cicd.md",
+        "series":  "aws-from-zero-to-production",
+        "seriesOrder":  5,
+        "authorDetails":  {
+                              "id":  "Abhishek-sinha",
+                              "name":  "Abhishek Sinha",
+                              "role":  "Full Stack And Mobile Developer",
+                              "avatar":  "https://avatars.githubusercontent.com/abhisheksinha20p",
+                              "bio":  "Full Stack And Mobile Developer",
+                              "github":  "https://github.com/abhisheksinha20p",
+                              "linkedin":  "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+                          }
+    },
+    {
+        "id":  "blog-10",
+        "date":  "2026-05-30",
+        "contentPath":  "users/pankaj-kumar/posts/ai-usage-in-mobile-automation-beyond-basic-test-scripts.md",
+        "title":  "AI Usage in Mobile Automation: Beyond Basic Test Scripts",
+        "draft":  false,
+        "likes":  0,
+        "tags":  [
+                     "AI",
+                     "mobile automation",
+                     "test automation",
+                     "self-healing",
+                     "Appium"
+                 ],
+        "series":  "playwright-with-java-zero-to-automation",
+        "excerpt":  "AI in mobile automation isn\u0027t just about generating tests-it\u0027s about creating intelligent, self-healing systems that adapt to app changes while reducing maintenance overhead by up to 80%. Mobile application testing has reached a critical inflection point.",
+        "categories":  [
+                           "Ai",
+                           "Mobile Automation",
+                           "Test Automation"
+                       ],
+        "authorDetails":  {
+                              "id":  "pankaj-kumar",
+                              "name":  "Pankaj Kumar",
+                              "avatar":  "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
+                              "github":  "https://github.com/pankajhyd",
+                              "linkedin":  "https://www.linkedin.com/in/pankaj-kumar-94a2b227/",
+                              "role":  "Automation Architect",
+                              "bio":  "Automation Architect"
+                          },
+        "author":  "pankaj-kumar",
+        "slug":  "ai-usage-in-mobile-automation-beyond-basic-test-scripts",
+        "readTime":  "11 min read",
+        "category":  "Ai",
+        "commentsCount":  0,
+        "image":  "",
+        "seriesOrder":  2
     }
-  },
-  {
-    "id": "blog-6",
-    "title": "AWS Compute: EC2, Lambda, ECS, and EKS",
-    "slug": "aws-compute-ec2-lambda-ecs-and-eks",
-    "author": "Abhishek-sinha",
-    "excerpt": "A practical guide to AWS compute services \u2014 EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes \u2014 with decision framework for choosing the right service.",
-    "date": "2026-05-31",
-    "category": "AWS",
-    "categories": [
-      "aws",
-      "ec2",
-      "lambda"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "AWS",
-      "EC2",
-      "Lambda",
-      "ECS",
-      "EKS",
-      "cloud-computing",
-      "containers",
-      "serverless",
-      "devops",
-      "infrastructure"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/aws-compute-ec2-lambda-ecs-and-eks.md",
-    "series": "aws-from-zero-to-production",
-    "seriesOrder": 2,
-    "authorDetails": {
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
-      "id": "Abhishek-sinha"
-    }
-  },
-  {
-    "id": "blog-7",
-    "title": "AWS Storage & Databases: S3, RDS, DynamoDB, and ElastiCache",
-    "slug": "aws-storage-and-databases-s3-rds-dynamodb-and-elasticache",
-    "author": "Abhishek-sinha",
-    "excerpt": "A practical guide to AWS storage and database services \u2014 S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
-    "date": "2026-05-31",
-    "category": "AWS",
-    "categories": [
-      "aws",
-      "s3",
-      "rds"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "AWS",
-      "S3",
-      "RDS",
-      "DynamoDB",
-      "ElastiCache",
-      "databases",
-      "storage",
-      "cloud-computing",
-      "devops"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/aws-storage-and-databases-s3-rds-dynamodb-and-elasticache.md",
-    "series": "aws-from-zero-to-production",
-    "seriesOrder": 3,
-    "authorDetails": {
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
-      "id": "Abhishek-sinha"
-    }
-  },
-  {
-    "id": "blog-8",
-    "title": "AWS Networking & Security: VPC Deep Dive, Route53, CloudFront, and WAF",
-    "slug": "aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf",
-    "author": "Abhishek-sinha",
-    "excerpt": "A deep dive into AWS networking and security \u2014 advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
-    "date": "2026-05-31",
-    "category": "AWS",
-    "categories": [
-      "aws",
-      "vpc",
-      "route53"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "AWS",
-      "VPC",
-      "Route53",
-      "CloudFront",
-      "WAF",
-      "networking",
-      "security",
-      "cloud-computing",
-      "devops"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf.md",
-    "series": "aws-from-zero-to-production",
-    "seriesOrder": 4,
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-9",
-    "title": "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD",
-    "slug": "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
-    "author": "Abhishek-sinha",
-    "excerpt": "A comprehensive guide to production-ready AWS \u2014 Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
-    "date": "2026-05-31",
-    "category": "AWS",
-    "categories": [
-      "aws",
-      "high-availability",
-      "monitoring"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "AWS",
-      "high-availability",
-      "monitoring",
-      "cost-optimization",
-      "CI/CD",
-      "devops",
-      "production",
-      "cloud-computing"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/aws-production-high-availability-monitoring-cost-optimization-and-cicd.md",
-    "series": "aws-from-zero-to-production",
-    "seriesOrder": 5,
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  }
 ]
