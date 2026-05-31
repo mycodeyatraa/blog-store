@@ -115,7 +115,7 @@
     "id": "blog-4",
     "title": "Playwright with Java \u2014 Zero to Automation: Introduction & Setup",
     "slug": "playwright-with-java-zero-to-automation-introduction-setup",
-    "author": "Pankaj Kumar",
+    "author": "pankaj-kumar",
     "excerpt": "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven \u2014 including writing and running your first test.",
     "date": "2026-05-31",
     "readTime": "8 min read",
@@ -135,12 +135,12 @@
       "e2e-testing"
     ],
     "draft": false,
-    "contentPath": "users/Pankaj Kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
+    "contentPath": "users/pankaj-kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
     "authorDetails": {
-      "id": "Pankaj Kumar",
+      "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
       "role": "Automation Architect",
-      "avatar": "pankaj.JPG",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
       "bio": "Automation Architect",
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
