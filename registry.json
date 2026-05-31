@@ -218,13 +218,13 @@
     "series": "aws-from-zero-to-production",
     "seriesOrder": 2,
     "authorDetails": {
-      "username": "Abhishek-sinha",
       "name": "Abhishek Sinha",
       "role": "Full Stack And Mobile Developer",
       "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
       "bio": "Full Stack And Mobile Developer",
       "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+      "id": "Abhishek-sinha"
     }
   },
   {
@@ -259,13 +259,13 @@
     "series": "aws-from-zero-to-production",
     "seriesOrder": 3,
     "authorDetails": {
-      "username": "Abhishek-sinha",
       "name": "Abhishek Sinha",
       "role": "Full Stack And Mobile Developer",
       "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
       "bio": "Full Stack And Mobile Developer",
       "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/",
+      "id": "Abhishek-sinha"
     }
   }
 ]
