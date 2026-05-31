@@ -20,8 +20,7 @@
     "description": "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
     "author": "pankaj-kumar",
     "articleIds": [
-      "blog-4",
-      "blog-10"
+      "blog-4"
     ],
     "status": "ongoing",
     "createdAt": "2026-05-31"
