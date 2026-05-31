@@ -4,7 +4,9 @@
     "title": "AWS From Zero to Production",
     "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
     "author": "Abhishek-sinha",
-    "articleIds": [],
+    "articleIds": [
+      "blog-5"
+    ],
     "status": "ongoing",
     "createdAt": "2026-05-31"
   }
