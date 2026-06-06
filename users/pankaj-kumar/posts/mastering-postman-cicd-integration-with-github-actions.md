@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: CI/CD Integration with GitHub Actions  > Key insight: If you have to remember to run your tests, you aren't doing CI/CD. True automation means tests run automatically the moment a d
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: CI/CD Integration with GitHub Actions
 
