@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Pre-request Scripts for Dynamic Data
-date: 2025-01-03
+date: 03-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
