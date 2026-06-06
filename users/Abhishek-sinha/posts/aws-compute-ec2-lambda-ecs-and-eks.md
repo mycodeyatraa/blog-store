@@ -1,7 +1,7 @@
 ---
 title: "AWS Compute: EC2, Lambda, ECS, and EKS"
 excerpt: "A practical guide to AWS compute services — EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes — with decision framework for choosing the right service."
-date: 2026-05-31
+date: 31-May-2026
 author: Abhishek-sinha
 tags: ["AWS", "EC2", "Lambda", "ECS", "EKS", "cloud-computing", "containers", "serverless", "devops", "infrastructure"]
 ---
