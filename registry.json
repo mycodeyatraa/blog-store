@@ -2437,5 +2437,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-8",
+    "title": "Testing WebSocket Connections",
+    "slug": "testing-websocket-connections-jest",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to overcome SuperTest's HTTP limitations by integrating the 'ws' library to automate real-time WebSocket communication in Jest.",
+    "date": "26-Feb-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "WebSockets",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "websockets",
+      "ws",
+      "real-time",
+      "jest"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/testing-websocket-connections-jest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
