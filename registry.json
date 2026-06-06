@@ -1738,5 +1738,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-47",
+    "title": "Handling File Uploads and Downloads",
+    "slug": "handling-file-uploads-and-downloads-in-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "Discover how to automate file upload forms using multipart/form-data and successfully download and parse CSVs and binary files with RestAssured.",
+    "date": "08-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "multipart",
+      "file-upload",
+      "file-download"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/handling-file-uploads-and-downloads-in-restassured.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
