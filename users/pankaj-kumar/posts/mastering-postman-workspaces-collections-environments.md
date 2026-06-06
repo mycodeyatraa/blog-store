@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Workspaces, Collections & Environments  > Key insight: Organizing API tests isn't just about keeping things tidy; it's about making your automation scalable, shareable, and environm
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Workspaces, Collections & Environments
 
