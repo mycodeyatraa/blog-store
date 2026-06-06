@@ -32,8 +32,11 @@ In this tutorial, we will walk through exactly how to download, install, and run
 Because our Mock Server is built using Express.js (a popular Node.js framework), your computer needs to have Node.js installed to run it.
 
 1. **Download:** Go to the official [Node.js website](https://nodejs.org/).
+
 2. **Select Version:** Download the **LTS (Long Term Support)** version. This is the most stable version for Windows, Mac, or Linux.
+
 3. **Install:** Run the downloaded installer. Keep clicking "Next" to accept all the default settings.
+
 4. **Verify:** Open your computer's Terminal (or Command Prompt) and type the command shown below.
 
 ```bash
@@ -58,8 +61,11 @@ git clone https://github.com/MYCodeYatra/myct-api-test-server.git
 **Option B: Download ZIP**
 
 1. Navigate to the GitHub repository: [https://github.com/MYCodeYatra/myct-api-test-server](https://github.com/MYCodeYatra/myct-api-test-server)
+
 2. Click the green **"<> Code"** button.
+
 3. Select **"Download ZIP"**.
+
 4. Extract the ZIP folder on your computer.
 
 ---
@@ -68,6 +74,7 @@ git clone https://github.com/MYCodeYatra/myct-api-test-server.git
 Now that you have the code, you need to tell Node.js to download all the required third-party libraries (like `express` for the server, and `faker` for generating fake database data).
 
 1. Open your terminal.
+
 2. Navigate into the downloaded folder using the command below.
 
 ```bash
