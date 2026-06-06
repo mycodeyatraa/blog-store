@@ -1631,7 +1631,7 @@
     "slug": "advanced-json-parsing-with-jackson-and-gson",
     "author": "pankaj-kumar",
     "excerpt": "Master API automation by serializing and deserializing JSON payloads dynamically using the powerful Jackson library in RestAssured.",
-    "date": "2026-06-07",
+    "date": "2025-02-05",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
@@ -1669,7 +1669,7 @@
     "slug": "api-authentication-and-authorization-with-restassured",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to securely automate API endpoints by handling Basic Auth and Bearer Tokens using RestAssured's built-in authentication mechanisms.",
-    "date": "2026-06-07",
+    "date": "2025-02-06",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
