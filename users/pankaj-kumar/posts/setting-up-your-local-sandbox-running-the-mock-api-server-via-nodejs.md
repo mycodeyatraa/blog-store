@@ -34,11 +34,13 @@ Because our Mock Server is built using Express.js (a popular Node.js framework),
 1. **Download:** Go to the official [Node.js website](https://nodejs.org/).
 2. **Select Version:** Download the **LTS (Long Term Support)** version. This is the most stable version for Windows, Mac, or Linux.
 3. **Install:** Run the downloaded installer. Keep clicking "Next" to accept all the default settings.
-4. **Verify:** Open your computer's Terminal (or Command Prompt) and type:
-   ```bash
-   node -v
-   ```
-   If it prints a version number (like `v22.14.0`), you are good to go!
+4. **Verify:** Open your computer's Terminal (or Command Prompt) and type the command shown below.
+
+```bash
+node -v
+```
+
+If it prints a version number (like `v22.14.0`), you are good to go!
 
 ---
 
@@ -46,12 +48,15 @@ Because our Mock Server is built using Express.js (a popular Node.js framework),
 You need to pull the code from our official GitHub organization to your local machine. You can do this via Git, or by directly downloading the ZIP file.
 
 **Option A: Using Git (Recommended)**
-If you have Git installed, simply open your terminal and run:
+
+If you have Git installed, simply open your terminal and run the following command:
+
 ```bash
 git clone https://github.com/MYCodeYatra/myct-api-test-server.git
 ```
 
 **Option B: Download ZIP**
+
 1. Navigate to the GitHub repository: [https://github.com/MYCodeYatra/myct-api-test-server](https://github.com/MYCodeYatra/myct-api-test-server)
 2. Click the green **"<> Code"** button.
 3. Select **"Download ZIP"**.
@@ -63,32 +68,39 @@ git clone https://github.com/MYCodeYatra/myct-api-test-server.git
 Now that you have the code, you need to tell Node.js to download all the required third-party libraries (like `express` for the server, and `faker` for generating fake database data).
 
 1. Open your terminal.
-2. Navigate into the downloaded folder:
-   ```bash
-   cd path/to/myct-api-test-server
-   ```
-3. Run the installation command:
-   ```bash
-   npm install
-   ```
-   *Note: `npm` stands for Node Package Manager. It automatically reads the `package.json` file inside the folder and downloads everything the server needs to run.*
+2. Navigate into the downloaded folder using the command below.
+
+```bash
+cd path/to/myct-api-test-server
+```
+
+3. Run the installation command shown below.
+
+```bash
+npm install
+```
+
+*Note: `npm` stands for Node Package Manager. It automatically reads the `package.json` file inside the folder and downloads everything the server needs to run.*
 
 ---
 
 ## Step 4: Start the Server!
 Once the installation finishes, starting the server is incredibly simple.
 
-In the same terminal window, run:
+In the same terminal window, run this command:
+
 ```bash
 node index.js
 ```
 
 You should instantly see the following success messages in your terminal:
+
 ```text
 🚀 REST Mock API Server running at http://localhost:8080
 🚀 GraphQL Endpoint ready at http://localhost:8080/graphql
 🚀 WebSocket Server listening at ws://localhost:8080/ws/chat
 ```
+
 Congratulations! You now have a production-grade backend running right on your laptop!
 
 ---
@@ -113,8 +125,7 @@ Press **Enter**. You should instantly see a large JSON object returned to your s
       "email": "alice.j@example.com",
       "role": "admin",
       "createdAt": "2025-01-10T14:22:11.000Z"
-    },
-    ...
+    }
   ]
 }
 ```
