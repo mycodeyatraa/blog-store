@@ -1023,5 +1023,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-28",
+    "title": "Securing APIs: Testing JWT Authentication Workflows",
+    "slug": "securing-apis-testing-jwt-authentication-workflows",
+    "author": "pankaj-kumar",
+    "excerpt": "In a real-world production environment, you cannot let anyone access sensitive data. Modern APIs use security mechanisms like JSON Web Tokens (JWT) to ensure only authorized users can perform actions.",
+    "date": "2025-01-19",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Security"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "rest-api",
+      "api-testing",
+      "automation",
+      "security",
+      "jwt"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/securing-apis-testing-jwt-authentication-workflows.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
