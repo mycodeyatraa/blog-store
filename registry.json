@@ -2004,5 +2004,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-54",
+    "title": "RestAssured in CI/CD Pipelines",
+    "slug": "restassured-in-cicd-pipelines",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to integrate your automated RestAssured API test suites into GitHub Actions and Jenkins pipelines to guarantee production stability.",
+    "date": "15-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "CI/CD",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "cicd",
+      "github-actions",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/restassured-in-cicd-pipelines.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
