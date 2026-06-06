@@ -24,9 +24,9 @@ In this tutorial, we will use RestAssured to dynamically inject **Query Paramete
 
 ## 1. Using Query Parameters
 
-Query Parameters are attached to the end of a URL after a question mark `?` (e.g., `/api/users?page=1&limit=3`). They are used to filter, sort, or paginate data.
+Query Parameters are attached to the end of a URL after a question mark ? (e.g., /api/users?page=1&limit=3). They are used to filter, sort, or paginate data.
 
-Instead of hardcoding the URL string, RestAssured provides the `.queryParam()` method to construct the URL dynamically. This is much safer and easier to maintain.
+Instead of hardcoding the URL string, RestAssured provides the .queryParam() method to construct the URL dynamically. This is much safer and easier to maintain.
 
 Let's fetch exactly 3 users from our MyCodeYatra Mock Server:
 
@@ -57,9 +57,9 @@ public void testQueryParameters() {
 
 ## 2. Using Path Variables
 
-Path Variables are part of the URL structure itself (e.g., `/api/users/12345`). They are typically used to identify a specific resource.
+Path Variables are part of the URL structure itself (e.g., /api/users/12345). They are typically used to identify a specific resource.
 
-RestAssured uses the `.pathParam()` method to dynamically inject variables into `{placeholder}` markers in your URL string. In the following test, we will extract a random user's `id` and then use it as a Path Variable to fetch their specific profile:
+RestAssured uses the .pathParam() method to dynamically inject variables into {placeholder} markers in your URL string. In the following test, we will extract a random user's id and then use it as a Path Variable to fetch their specific profile:
 
 ```java
 @Test(priority = 2)
@@ -110,6 +110,6 @@ Returned Name: Taurean Walsh Sr.
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.55 s -- in TestSuite
 ```
 
-By mastering `.queryParam()` and `.pathParam()`, your automation scripts become completely dynamic, capable of adapting to varying test data on every single run!
+By mastering .queryParam() and .pathParam(), your automation scripts become completely dynamic, capable of adapting to varying test data on every single run!
 
 In our next tutorial, we will explore advanced JSON parsing using Jackson and Gson.
