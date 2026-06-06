@@ -1,6 +1,6 @@
 ---
 title: Mastering Pagination and Sorting in REST API Tests
-date: 2025-01-18
+date: 18-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
