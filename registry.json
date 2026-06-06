@@ -2198,5 +2198,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-2",
+    "title": "Setting up Supertest with Jest/Vitest",
+    "slug": "setting-up-supertest-with-jest",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to build a robust NodeJS API testing framework from scratch using SuperTest, Jest, and TypeScript, including powerful testing hooks.",
+    "date": "20-Feb-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Automation",
+      "TypeScript"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "nodejs",
+      "jest",
+      "typescript",
+      "api-testing"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/setting-up-supertest-with-jest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
