@@ -683,5 +683,43 @@
     },
     "series": "postman-api-automation-mastery",
     "seriesOrder": 8
+  },
+  {
+    "id": "blog-19",
+    "title": "Mastering Postman: Data-Driven Testing in Newman",
+    "slug": "mastering-postman-data-driven-testing-in-newman",
+    "author": "pankaj-kumar",
+    "excerpt": "Mastering Postman: Data-Driven Testing in Newman  > Key insight: You shouldn't duplicate a test request 100 times just to test 100 different input values. You write the test once, and run it 100 times",
+    "date": "2025-01-10",
+    "readTime": "2 min read",
+    "category": "API Testing",
+    "categories": [
+      "Api Testing",
+      "Postman",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "api-testing",
+      "automation",
+      "newman",
+      "data-driven"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-data-driven-testing-in-newman.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 9
   }
 ]
