@@ -1,6 +1,6 @@
 ---
 title: Advanced GraphQL: Using Variables and Dynamic Filters
-date: 2025-01-22
+date: 22-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
