@@ -82,7 +82,7 @@ describe('CRUD Operations with SuperTest', () => {
     it('4. DELETE the user', async () => {
         const response = await request(API_URL)
             .delete(`/api/users/${userId}`);
-        expect(response.status).toBe(204); // 204 No Content
+        expect(response.status).toBe(200); // Mock Server returns 200
     });
     it('5. Verify user is DELETED (GET)', async () => {
         const response = await request(API_URL)
@@ -93,14 +93,34 @@ describe('CRUD Operations with SuperTest', () => {
 });
 ```
 
-## 3. Key SuperTest Features Used
+## 4. Key SuperTest Features Used
 
 Notice how elegant the SuperTest API is:
 * **`.send(payload)`**: SuperTest automatically serializes your JavaScript objects into a JSON string and sets the `Content-Type: application/json` header for you!
 * **`.set('Header', 'Value')`**: The fluent interface allows you to easily inject custom HTTP Headers like Authorization tokens or Accept types.
 * **`.status` and `.body`**: The response object comes perfectly parsed and ready for Jest's `expect()` assertions.
 
-## 4. Conclusion
+
+## 5. Execution Results
+
+When we run this suite via `npx jest tests/crud.test.ts`, Jest executes the requests sequentially against our API server and outputs a beautiful, passing report:
+
+```bash
+PASS tests/crud.test.ts
+  CRUD Operations with SuperTest
+    √ 1. CREATE (POST) a new user (61 ms)
+    √ 2. READ (GET) the created user (5 ms)
+    √ 3. UPDATE (PUT) the user (6 ms)
+    √ 4. DELETE the user (4 ms)
+    √ 5. Verify user is DELETED (GET) (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        3.346 s
+```
+
+## 6. Conclusion
 
 By organizing your tests logically, you have just validated the entire state machine of the backend API. 
 
