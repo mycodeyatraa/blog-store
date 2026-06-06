@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Workspaces, Collections & Environments
-date: 2025-01-02
+date: 02-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
