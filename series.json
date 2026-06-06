@@ -108,7 +108,8 @@
     "description": "A complete 16-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
     "articleIds": [
       "blog-supertest-1",
-      "blog-supertest-2"
+      "blog-supertest-2",
+      "blog-supertest-3"
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
