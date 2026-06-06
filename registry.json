@@ -1251,5 +1251,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-34",
+    "title": "Webhooks: Testing Asynchronous Event Callbacks",
+    "slug": "webhooks-testing-asynchronous-event-callbacks",
+    "author": "pankaj-kumar",
+    "excerpt": "Keeping a WebSocket open 24/7 for a single, rare event is a massive waste of server resources. Instead, modern architectures use Webhooks to trigger asynchronous background events and listen for callbacks.",
+    "date": "2025-01-25",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Webhooks"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "webhooks",
+      "api-testing",
+      "automation",
+      "asynchronous",
+      "callbacks"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/webhooks-testing-asynchronous-event-callbacks.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 12,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
