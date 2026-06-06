@@ -721,5 +721,43 @@
     },
     "series": "postman-api-automation-mastery",
     "seriesOrder": 9
+  },
+  {
+    "id": "blog-20",
+    "title": "Mastering Postman: Generating HTML Reports with Newman",
+    "slug": "mastering-postman-generating-html-reports-with-newman",
+    "author": "pankaj-kumar",
+    "excerpt": "Mastering Postman: Generating HTML Reports with Newman  > Key insight: A test suite that runs silently in the background is useless if stakeholders can't easily read the results. You need beautiful, s",
+    "date": "2025-01-11",
+    "readTime": "2 min read",
+    "category": "API Testing",
+    "categories": [
+      "Api Testing",
+      "Postman",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "api-testing",
+      "automation",
+      "newman",
+      "reporting"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-generating-html-reports-with-newman.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 10
   }
 ]
