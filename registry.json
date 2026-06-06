@@ -2043,5 +2043,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-55",
+    "title": "Introduction to Observability-Driven Testing",
+    "slug": "introduction-to-observability-driven-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Move beyond traditional Black-Box API testing. Learn the core concepts of Observability-Driven Testing (ODT) and how asserting distributed traces is revolutionizing QA.",
+    "date": "16-Feb-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Observability",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "testing",
+      "observability",
+      "odt",
+      "opentelemetry",
+      "restassured"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-observability-driven-testing.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 16,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
