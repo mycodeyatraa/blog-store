@@ -108,11 +108,11 @@ When we run this suite via `npx jest tests/crud.test.ts`, Jest executes the requ
 ```bash
 PASS tests/crud.test.ts
   CRUD Operations with SuperTest
-    √ 1. CREATE (POST) a new user (61 ms)
-    √ 2. READ (GET) the created user (5 ms)
-    √ 3. UPDATE (PUT) the user (6 ms)
-    √ 4. DELETE the user (4 ms)
-    √ 5. Verify user is DELETED (GET) (6 ms)
+    [PASS] 1. CREATE (POST) a new user (61 ms)
+    [PASS] 2. READ (GET) the created user (5 ms)
+    [PASS] 3. UPDATE (PUT) the user (6 ms)
+    [PASS] 4. DELETE the user (4 ms)
+    [PASS] 5. Verify user is DELETED (GET) (6 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       5 passed, 5 total
