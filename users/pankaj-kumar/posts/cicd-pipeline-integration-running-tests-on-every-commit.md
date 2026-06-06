@@ -1,6 +1,6 @@
 ---
 title: CI/CD Pipeline Integration: Running Tests on Every Commit
-date: 2025-01-26
+date: 26-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
