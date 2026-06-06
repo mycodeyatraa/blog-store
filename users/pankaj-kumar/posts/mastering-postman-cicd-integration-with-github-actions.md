@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: CI/CD Integration with GitHub Actions
-date: 2025-01-12
+date: 12-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
