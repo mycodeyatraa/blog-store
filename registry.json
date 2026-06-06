@@ -2983,5 +2983,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-6",
+    "title": "Reading JSON Payloads from Files",
+    "slug": "reading-json-payloads-from-files-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Keep your Karate feature files clean! Learn how to read external JSON files natively, dynamically mutate their contents, and use them as API request payloads.",
+    "date": "12-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "bdd",
+      "json",
+      "payload",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/reading-json-payloads-from-files-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
