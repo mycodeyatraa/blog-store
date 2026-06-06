@@ -3141,5 +3141,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-10",
+    "title": "CI/CD Integration & Mocking with Karate",
+    "slug": "ci-cd-integration-mocking-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Master enterprise testing! Learn how to build native backend Mock Servers using Gherkin, and completely automate your test suite in a GitHub Actions CI/CD Pipeline.",
+    "date": "16-Mar-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "bdd",
+      "ci-cd",
+      "mocking",
+      "github-actions"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/ci-cd-integration-mocking-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
