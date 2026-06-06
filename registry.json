@@ -2357,5 +2357,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-6",
+    "title": "Authentication & Authorization",
+    "slug": "authentication-authorization-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to bypass security gateways in your test automation suite by mastering Basic Auth and dynamic JWT Bearer Tokens in SuperTest.",
+    "date": "24-Feb-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Security",
+      "TypeScript"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "authentication",
+      "jwt",
+      "basic-auth",
+      "bearer",
+      "jest"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/authentication-authorization-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
