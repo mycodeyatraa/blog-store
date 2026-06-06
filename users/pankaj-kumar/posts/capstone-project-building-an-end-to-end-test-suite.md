@@ -1,6 +1,6 @@
 ---
 title: Capstone Project: Building an End-to-End Test Suite
-date: 2025-01-27
+date: 27-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
