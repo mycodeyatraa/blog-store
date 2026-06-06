@@ -2593,5 +2593,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-12",
+    "title": "Setting up Global Setup & Teardown Hooks",
+    "slug": "setting-up-global-setup-teardown-hooks-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Architect scalable automation frameworks by mastering Jest lifecycle hooks. Learn how to manage state, databases, and Auth tokens efficiently across SuperTest suites.",
+    "date": "02-Mar-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "jest",
+      "hooks",
+      "beforeall",
+      "aftereach",
+      "framework"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/setting-up-global-setup-teardown-hooks-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 12,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
