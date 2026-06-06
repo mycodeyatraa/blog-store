@@ -12,7 +12,7 @@ tags: [api-testing, automation, nodejs, mock-server]
 category: API Testing
 categories: [API Testing, Automation]
 excerpt: >-
-  When you're diving into API testing—whether you're using RestAssured, Supertest, Postman, or Karate—the absolute best way to learn is by having your own local sandbox. Relying on public, free APIs fro
+  When you're diving into API testing—whether you're using RestAssured, Supertest, Postman, or Karate—the absolute best way to learn is by having your own local sandbox.
 readTime: 3 min read
 ---
 
