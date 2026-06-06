@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Pre-request Scripts for Dynamic Data  > Key insight: Stop hardcoding email addresses and timestamps in your JSON body. By mastering Pre-request Scripts, your API collections become 
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Pre-request Scripts for Dynamic Data
 
