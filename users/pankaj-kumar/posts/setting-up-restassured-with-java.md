@@ -28,7 +28,7 @@ We use Maven to handle all of our library dependencies. In your project's pom.xm
 
 Here is the exact dependency configuration we are using for this series:
 
-```
+<pre><code>
 <dependencies>
     <dependency>
         <groupId>io.rest-assured</groupId>
@@ -47,7 +47,7 @@ Here is the exact dependency configuration we are using for this series:
         <scope>test</scope>
     </dependency>
 </dependencies>
-```
+</code></pre>
 
 ---
 
@@ -57,7 +57,7 @@ With our dependencies installed, let's write a simple Health Check test. We want
 
 Create a new Java class named FirstRestAssuredTest.java in your src/test/java/com/mycodeyatra/tests directory:
 
-```
+<pre><code>
 package com.mycodeyatra.tests;
 
 import io.restassured.RestAssured;
@@ -96,7 +96,7 @@ public class FirstRestAssuredTest {
         System.out.println("Successfully validated GET /users response!");
     }
 }
-```
+</code></pre>
 
 ---
 
@@ -104,7 +104,7 @@ public class FirstRestAssuredTest {
 
 To run the test, we execute the mvn clean test command in our terminal. When we run this against our live mock server, here is the exact console output we receive:
 
-```
+<pre><code>
 [INFO] Running TestSuite
 --- Executing GET /api/users ---
 Response Status Code: 200
@@ -114,7 +114,7 @@ Successfully validated GET /users response!
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-```
+</code></pre>
 
 The server successfully returned a 200 OK status, and our RestAssured script successfully caught and validated it! 
 
