@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Writing Assertions with Chai
-date: 2025-01-04
+date: 04-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
