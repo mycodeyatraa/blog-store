@@ -107,7 +107,8 @@
     "title": "Mastering NodeJS API Testing with SuperTest",
     "description": "A complete 16-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
     "articleIds": [
-      "blog-supertest-1"
+      "blog-supertest-1",
+      "blog-supertest-2"
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
