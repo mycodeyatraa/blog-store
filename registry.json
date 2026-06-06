@@ -1928,5 +1928,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-52",
+    "title": "JSON Schema Validation in RestAssured",
+    "slug": "json-schema-validation-in-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "Replace dozens of fragile assertions by learning how to validate entire API payload structures and data types using RestAssured's JSON Schema Validator.",
+    "date": "13-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "json-schema",
+      "validation",
+      "testing"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/json-schema-validation-in-restassured.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 13,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
