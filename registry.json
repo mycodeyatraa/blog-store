@@ -5,7 +5,7 @@
     "slug": "redis-in-system-design-from-caching-to-distributed-locking",
     "author": "Abhishek-sinha",
     "excerpt": "Redis is an in-memory data structure store that powers some of the highest-throughput systems in production.. From caching to real-time leaderboards, its versatility makes it a cornerstone of modern s",
-    "date": "2026-05-30",
+    "date": "30-May-2026",
     "readTime": "4 min read",
     "category": "Redis",
     "categories": [
@@ -41,7 +41,7 @@
     "slug": "postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design",
     "author": "Abhishek-sinha",
     "excerpt": "Choosing the right database is one of the most critical decisions in system design.. PostgreSQL, MongoDB, and Redis each excel in different scenarios \u2014 and understanding their strengths is the differe",
-    "date": "2026-05-30",
+    "date": "30-May-2026",
     "readTime": "3 min read",
     "category": "Postgresql",
     "categories": [
@@ -79,7 +79,7 @@
     "title": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming",
     "slug": "apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming",
     "author": "Abhishek-sinha",
-    "date": "2026-05-30",
+    "date": "30-May-2026",
     "tags": [
       "zookeeper",
       "kafka",
@@ -117,7 +117,7 @@
     "slug": "playwright-with-java-zero-to-automation-introduction-setup",
     "author": "pankaj-kumar",
     "excerpt": "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven - including writing and running your first test.",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "readTime": "8 min read",
     "category": "Playwright",
     "categories": [
@@ -154,7 +154,7 @@
     "slug": "aws-fundamentals-iam-vpc-ec2-and-s3",
     "author": "Abhishek-sinha",
     "excerpt": "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n> Key insight: Mastering these four AWS services \u2014 IAM, VPC, EC2, and S3 \u2014 gives you the foundation to build 90% of cloud architectures.. Everything else exten",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "readTime": "6 min read",
     "category": "Aws",
     "categories": [
@@ -192,7 +192,7 @@
     "slug": "aws-compute-ec2-lambda-ecs-and-eks",
     "author": "Abhishek-sinha",
     "excerpt": "A practical guide to AWS compute services \u2014 EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes \u2014 with decision framework for choosing the right service.",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "category": "AWS",
     "categories": [
       "aws",
@@ -234,7 +234,7 @@
     "slug": "aws-storage-and-databases-s3-rds-dynamodb-and-elasticache",
     "author": "Abhishek-sinha",
     "excerpt": "A practical guide to AWS storage and database services \u2014 S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "category": "AWS",
     "categories": [
       "aws",
@@ -275,7 +275,7 @@
     "slug": "aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf",
     "author": "Abhishek-sinha",
     "excerpt": "A deep dive into AWS networking and security \u2014 advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "category": "AWS",
     "categories": [
       "aws",
@@ -316,7 +316,7 @@
     "slug": "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
     "author": "Abhishek-sinha",
     "excerpt": "A comprehensive guide to production-ready AWS \u2014 Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
-    "date": "2026-05-31",
+    "date": "31-May-2026",
     "category": "AWS",
     "categories": [
       "aws",
@@ -352,7 +352,7 @@
   },
   {
     "id": "blog-10",
-    "date": "2026-05-30",
+    "date": "30-May-2026",
     "contentPath": "users/pankaj-kumar/posts/ai-usage-in-mobile-automation-beyond-basic-test-scripts.md",
     "title": "AI Usage in Mobile Automation: Beyond Basic Test Scripts",
     "draft": false,
@@ -392,7 +392,7 @@
     "slug": "mastering-postman-workspaces-collections-environments",
     "author": "pankaj-kumar",
     "excerpt": "Organizing API tests isn't just about keeping things tidy; it's about making your automation scalable, shareable, and environment-agnostic. When you first start with Postman, it's tempting to just...",
-    "date": "2025-01-02",
+    "date": "02-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -428,7 +428,7 @@
     "slug": "mastering-postman-pre-request-scripts-for-dynamic-data",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Pre-request Scripts for Dynamic Data  > Key insight: Stop hardcoding email addresses and timestamps in your JSON body. By mastering Pre-request Scripts, your API collections become ",
-    "date": "2025-01-03",
+    "date": "03-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -465,7 +465,7 @@
     "slug": "mastering-postman-writing-assertions-with-chai",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Writing Assertions with Chai  > Key insight: Hitting an endpoint and getting a `200 OK` means the server didn't crash, but it doesn't mean your API is actually working. True automat",
-    "date": "2025-01-04",
+    "date": "04-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -502,7 +502,7 @@
     "slug": "mastering-postman-extracting-data-chaining-requests-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo",
-    "date": "2025-01-05",
+    "date": "05-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -539,7 +539,7 @@
     "slug": "mastering-postman-demystifying-variable-scopes",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Demystifying Variable Scopes  > Key insight: Using the wrong variable scope can lead to leaked tokens, cross-environment pollution, and incredibly hard-to-debug failures. Knowing *w",
-    "date": "2025-01-06",
+    "date": "06-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -576,7 +576,7 @@
     "slug": "mastering-postman-oauth-20-silent-token-refresh-v3",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: OAuth 2.0 & Silent Token Refresh  > Key insight: If you are manually clicking \"Get New Access Token\" every time your OAuth token expires, your tests are not truly automated. Silent ",
-    "date": "2025-01-07",
+    "date": "07-Jan-2025",
     "readTime": "3 min read",
     "category": "API Testing",
     "categories": [
@@ -614,7 +614,7 @@
     "slug": "mastering-postman-json-schema-validation-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: JSON Schema Validation  > Key insight: Validating individual fields like `jsonData.name` works for small payloads, but is unmaintainable for APIs returning 200+ lines of JSON. Schem",
-    "date": "2025-01-08",
+    "date": "08-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -652,7 +652,7 @@
     "slug": "mastering-postman-introduction-to-newman-cli",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Introduction to Newman CLI  > Key insight: A test suite that only runs when you manually click a button inside a GUI is a fragile test suite. To achieve true continuous integration,",
-    "date": "2025-01-09",
+    "date": "09-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -690,7 +690,7 @@
     "slug": "mastering-postman-data-driven-testing-in-newman",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Data-Driven Testing in Newman  > Key insight: You shouldn't duplicate a test request 100 times just to test 100 different input values. You write the test once, and run it 100 times",
-    "date": "2025-01-10",
+    "date": "10-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -728,7 +728,7 @@
     "slug": "mastering-postman-generating-html-reports-with-newman",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Generating HTML Reports with Newman  > Key insight: A test suite that runs silently in the background is useless if stakeholders can't easily read the results. You need beautiful, s",
-    "date": "2025-01-11",
+    "date": "11-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -766,7 +766,7 @@
     "slug": "mastering-postman-cicd-integration-with-github-actions",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: CI/CD Integration with GitHub Actions  > Key insight: If you have to remember to run your tests, you aren't doing CI/CD. True automation means tests run automatically the moment a d",
-    "date": "2025-01-12",
+    "date": "12-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -804,7 +804,7 @@
     "slug": "mastering-postman-mocking-apis-frontend-independence-v11",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Mocking APIs & Frontend Independence  > Key insight: You shouldn't have to wait for the backend team to finish building an API before the frontend team can start integrating it. Moc",
-    "date": "2025-01-13",
+    "date": "13-Jan-2025",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -842,7 +842,7 @@
     "slug": "setting-up-your-local-sandbox-running-the-mock-api-server-via-nodejs",
     "author": "pankaj-kumar",
     "excerpt": "When you're diving into API testing\u2014whether you're using RestAssured, Supertest, Postman, or Karate\u2014the absolute best way to learn is by having your own local sandbox.",
-    "date": "2025-01-14",
+    "date": "14-Jan-2025",
     "readTime": "3 min read",
     "category": "API Testing",
     "categories": [
@@ -878,7 +878,7 @@
     "slug": "dockerizing-your-test-environment-running-the-mock-server-via-docker",
     "author": "pankaj-kumar",
     "excerpt": "In the previous blog, we successfully set up our local mock API server using Node.js. While that works perfectly, configuring Node.js and managing dependencies can sometimes cause headaches.",
-    "date": "2025-01-15",
+    "date": "15-Jan-2025",
     "readTime": "3 min read",
     "category": "API Testing",
     "categories": [
@@ -916,7 +916,7 @@
     "slug": "understanding-core-rest-fetching-and-filtering-api-data-get",
     "author": "pankaj-kumar",
     "excerpt": "At the heart of every API test automation framework lies the GET request. In this tutorial, we will explore the core REST endpoints provided by the Mock API Server and extract data using query parameters.",
-    "date": "2025-01-16",
+    "date": "16-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -954,7 +954,7 @@
     "slug": "modifying-data-testing-post-put-and-delete-api-endpoints",
     "author": "pankaj-kumar",
     "excerpt": "Real-world applications don't just read data; they constantly create, update, and delete records. In this post, we will explore the core methods used to modify data in REST architectures: POST, PUT, and DELETE.",
-    "date": "2025-01-17",
+    "date": "17-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -992,7 +992,7 @@
     "slug": "mastering-pagination-and-sorting-in-rest-api-tests",
     "author": "pankaj-kumar",
     "excerpt": "In real-world applications, databases hold millions of records. To prevent servers from crashing, APIs return data in small, manageable chunks called pages. In this tutorial, we will learn how to master pagination and sorting.",
-    "date": "2025-01-18",
+    "date": "18-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1030,7 +1030,7 @@
     "slug": "securing-apis-testing-jwt-authentication-workflows",
     "author": "pankaj-kumar",
     "excerpt": "In a real-world production environment, you cannot let anyone access sensitive data. Modern APIs use security mechanisms like JSON Web Tokens (JWT) to ensure only authorized users can perform actions.",
-    "date": "2025-01-19",
+    "date": "19-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1068,7 +1068,7 @@
     "slug": "chaos-engineering-simulating-latency-and-server-timeouts",
     "author": "pankaj-kumar",
     "excerpt": "In the real world, servers get overloaded and network connections drop. In this tutorial, we will perform Chaos Engineering by intentionally sabotaging our own API requests to simulate severe latency.",
-    "date": "2025-01-20",
+    "date": "20-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1106,7 +1106,7 @@
     "slug": "beyond-rest-an-introduction-to-graphql-querying",
     "author": "pankaj-kumar",
     "excerpt": "REST is fantastic, but it has a massive flaw: over-fetching data. Enter GraphQL, a modern query language that allows clients to ask the server for exactly what they need, and nothing more.",
-    "date": "2025-01-21",
+    "date": "21-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1144,7 +1144,7 @@
     "slug": "advanced-graphql-using-variables-and-dynamic-filters",
     "author": "pankaj-kumar",
     "excerpt": "Real applications don't just fetch static data. They fetch dynamic data based on user input. In this tutorial, we will learn the correct way to pass dynamic data into our queries using GraphQL Variables.",
-    "date": "2025-01-22",
+    "date": "22-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1182,7 +1182,7 @@
     "slug": "graphql-mutations-creating-and-updating-data",
     "author": "pankaj-kumar",
     "excerpt": "In REST, we use specific HTTP methods like POST and PUT to modify data. In GraphQL, everything goes through a single endpoint. To modify data, GraphQL introduces the powerful concept of a Mutation.",
-    "date": "2025-01-23",
+    "date": "23-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1220,7 +1220,7 @@
     "slug": "real-time-testing-connecting-to-websockets",
     "author": "pankaj-kumar",
     "excerpt": "What if you are testing a live chat application or a stock ticker? To solve this, modern applications use WebSockets. In this tutorial, we will connect to the server's built-in WebSocket chat room.",
-    "date": "2025-01-24",
+    "date": "24-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1258,7 +1258,7 @@
     "slug": "webhooks-testing-asynchronous-event-callbacks",
     "author": "pankaj-kumar",
     "excerpt": "Keeping a WebSocket open 24/7 for a single, rare event is a massive waste of server resources. Instead, modern architectures use Webhooks to trigger asynchronous background events and listen for callbacks.",
-    "date": "2025-01-25",
+    "date": "25-Jan-2025",
     "readTime": "4 min read",
     "category": "API Testing",
     "categories": [
@@ -1296,7 +1296,7 @@
     "slug": "cicd-pipeline-integration-running-tests-on-every-commit",
     "author": "pankaj-kumar",
     "excerpt": "An automation script is useless if it only runs on your local laptop. In this tutorial, we will pull everything together by integrating our tests directly into a GitHub Actions CI/CD Pipeline!",
-    "date": "2025-01-26",
+    "date": "26-Jan-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1334,7 +1334,7 @@
     "slug": "capstone-project-building-an-end-to-end-test-suite",
     "author": "pankaj-kumar",
     "excerpt": "It is now time to prove everything you have learned. In this final Capstone Project, you will build a comprehensive test suite that touches every feature of the mock server in a single execution flow.",
-    "date": "2025-01-27",
+    "date": "27-Jan-2025",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
@@ -1372,7 +1372,7 @@
     "slug": "testing-real-time-websocket-connections-in-postman",
     "author": "pankaj-kumar",
     "excerpt": "Postman isn't just for HTTP requests. It has robust, native support for WebSockets. In this tutorial, we will use Postman to connect to a live WebSocket server.",
-    "date": "2025-01-28",
+    "date": "28-Jan-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1408,7 +1408,7 @@
     "slug": "automating-graphql-queries-and-mutations-in-postman",
     "author": "pankaj-kumar",
     "excerpt": "GraphQL solves over-fetching by allowing explicit queries. In this tutorial, we will execute GraphQL Queries and Mutations natively within Postman.",
-    "date": "2025-01-29",
+    "date": "29-Jan-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1444,7 +1444,7 @@
     "slug": "end-to-end-postman-capstone",
     "author": "pankaj-kumar",
     "excerpt": "To prove that you are an API Automation Master, it is time to build a comprehensive, portfolio-grade End-to-End Postman Collection.",
-    "date": "2025-01-30",
+    "date": "30-Jan-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1481,7 +1481,7 @@
     "slug": "introduction-to-rest-apis-and-http-methods",
     "author": "pankaj-kumar",
     "excerpt": "Before we write a single line of Java code, we must understand the language of the web. Modern web applications communicate through REST APIs.",
-    "date": "2025-02-01",
+    "date": "01-Feb-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1518,7 +1518,7 @@
     "slug": "setting-up-restassured-with-java",
     "author": "pankaj-kumar",
     "excerpt": "Now that we understand how REST APIs work, it's time to build our automation framework using Java 17, RestAssured, and TestNG.",
-    "date": "2025-02-02",
+    "date": "02-Feb-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1555,7 +1555,7 @@
     "slug": "writing-your-first-get-post-request",
     "author": "pankaj-kumar",
     "excerpt": "In this tutorial, we will use RestAssured to extract information from our MyCodeYatra Mock API Server using a GET request, and then we will create entirely new data using a POST request.",
-    "date": "2025-02-03",
+    "date": "03-Feb-2025",
     "readTime": "5 min read",
     "category": "API Testing",
     "categories": [
@@ -1593,7 +1593,7 @@
     "slug": "handling-query-parameters-and-path-variables",
     "author": "pankaj-kumar",
     "excerpt": "Real-world API testing requires dynamic URL construction. In this tutorial, we will use RestAssured to inject Query Parameters and Path Variables dynamically.",
-    "date": "2025-02-04",
+    "date": "04-Feb-2025",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
@@ -1631,7 +1631,7 @@
     "slug": "advanced-json-parsing-with-jackson-and-gson",
     "author": "pankaj-kumar",
     "excerpt": "Master API automation by serializing and deserializing JSON payloads dynamically using the powerful Jackson library in RestAssured.",
-    "date": "2025-02-05",
+    "date": "05-Feb-2025",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
@@ -1669,7 +1669,7 @@
     "slug": "api-authentication-and-authorization-with-restassured",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to securely automate API endpoints by handling Basic Auth and Bearer Tokens using RestAssured's built-in authentication mechanisms.",
-    "date": "2025-02-06",
+    "date": "06-Feb-2025",
     "readTime": "6 min read",
     "category": "API Testing",
     "categories": [
