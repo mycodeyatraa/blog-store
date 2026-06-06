@@ -1099,5 +1099,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-30",
+    "title": "Beyond REST: An Introduction to GraphQL Querying",
+    "slug": "beyond-rest-an-introduction-to-graphql-querying",
+    "author": "pankaj-kumar",
+    "excerpt": "REST is fantastic, but it has a massive flaw: over-fetching data. Enter GraphQL, a modern query language that allows clients to ask the server for exactly what they need, and nothing more.",
+    "date": "2025-01-21",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "GraphQL"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "graphql",
+      "api-testing",
+      "automation",
+      "rest-api",
+      "queries"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/beyond-rest-an-introduction-to-graphql-querying.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
