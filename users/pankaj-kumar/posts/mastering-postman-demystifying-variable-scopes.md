@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Demystifying Variable Scopes  > Key insight: Using the wrong variable scope can lead to leaked tokens, cross-environment pollution, and incredibly hard-to-debug failures. Knowing *w
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Demystifying Variable Scopes
 
