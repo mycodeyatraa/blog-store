@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: OAuth 2.0 & Silent Token Refresh  > Key insight: If you are manually clicking "Get New Access Token" every time your OAuth token expires, your tests are not truly automated. Silent 
 readTime: 3 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: OAuth 2.0 & Silent Token Refresh
 
