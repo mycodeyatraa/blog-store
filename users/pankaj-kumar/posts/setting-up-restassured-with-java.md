@@ -28,7 +28,7 @@ We use Maven to handle all of our library dependencies. In your project's pom.xm
 
 Here is the exact dependency configuration we are using for this series:
 
-<pre><code>
+```xml
 <dependencies>
     <dependency>
         <groupId>io.rest-assured</groupId>
@@ -47,7 +47,7 @@ Here is the exact dependency configuration we are using for this series:
         <scope>test</scope>
     </dependency>
 </dependencies>
-</code></pre>
+```
 
 ---
 
@@ -57,46 +57,34 @@ With our dependencies installed, let's write a simple Health Check test. We want
 
 Create a new Java class named FirstRestAssuredTest.java in your src/test/java/com/mycodeyatra/tests directory:
 
-<pre><code>
+```java
 package com.mycodeyatra.tests;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 public class FirstRestAssuredTest {
-
     @BeforeClass
     public void setup() {
-        // Set the global base URL for all RestAssured requests
         RestAssured.baseURI = "http://localhost:8080";
         RestAssured.basePath = "/api";
     }
-
     @Test
     public void testGetUsers() {
         System.out.println("--- Executing GET /api/users ---");
-        
-        // Construct and execute the request
         Response response = RestAssured.given()
                 .when()
                 .get("/users")
                 .then()
                 .extract().response();
-
-        // Print the result
         System.out.println("Response Status Code: " + response.getStatusCode());
-        
-        // Validate the response using TestNG Assertions
         Assert.assertEquals(response.getStatusCode(), 200, "Expected status code 200");
         Assert.assertTrue(response.getBody().asString().contains("data"), "Response body does not contain 'data' array");
-        
         System.out.println("Successfully validated GET /users response!");
     }
 }
-</code></pre>
+```
 
 ---
 
@@ -104,17 +92,16 @@ public class FirstRestAssuredTest {
 
 To run the test, we execute the mvn clean test command in our terminal. When we run this against our live mock server, here is the exact console output we receive:
 
-<pre><code>
+```text
 [INFO] Running TestSuite
 --- Executing GET /api/users ---
 Response Status Code: 200
 Successfully validated GET /users response!
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.735 s -- in TestSuite
-[INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-</code></pre>
+```
 
 The server successfully returned a 200 OK status, and our RestAssured script successfully caught and validated it! 
 
