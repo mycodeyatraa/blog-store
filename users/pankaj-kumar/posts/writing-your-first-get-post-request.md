@@ -16,7 +16,7 @@ excerpt: >-
 readTime: 5 min read
 ---
 
-Now that your Java environment is fully configured, it is time to write real automation tests! In this tutorial, we will use RestAssured to extract information from our MyCodeYatra Mock API Server using a `GET` request, and then we will create entirely new data using a `POST` request.
+Now that your Java environment is fully configured, it is time to write real automation tests! In this tutorial, we will use RestAssured to extract information from our MyCodeYatra Mock API Server using a GET request, and then we will create entirely new data using a POST request.
 
 ---
 
@@ -48,7 +48,7 @@ public void testGetRequest() {
 
 ## 2. Creating Data with POST
 
-Fetching data is easy, but modern automation requires us to actively manipulate the database. To create a new user, we must construct a JSON payload. Instead of manipulating ugly strings, we will use a Java `Map` which RestAssured will automatically serialize into JSON!
+Fetching data is easy, but modern automation requires us to actively manipulate the database. To create a new user, we must construct a JSON payload. Instead of manipulating ugly strings, we will use a Java Map which RestAssured will automatically serialize into JSON!
 
 ```java
 @Test(priority = 2)
@@ -103,6 +103,6 @@ Response Body: {
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.84 s -- in TestSuite
 ```
 
-As you can see, the `GET` request correctly identified 50 users, and the `POST` request successfully created our new admin user, instantly returning the newly generated `id` and `createdAt` timestamp!
+As you can see, the GET request correctly identified 50 users, and the POST request successfully created our new admin user, instantly returning the newly generated id and createdAt timestamp!
 
 In the next tutorial, we will look at how to dynamically filter this data using Query Parameters and Path Variables.
