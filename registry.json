@@ -385,5 +385,41 @@
     "category": "Ai",
     "commentsCount": 0,
     "image": ""
+  },
+  {
+    "id": "blog-11",
+    "title": "Mastering Postman: Workspaces, Collections & Environments",
+    "slug": "mastering-postman-workspaces-collections-environments",
+    "author": "pankaj-kumar",
+    "excerpt": "Organizing API tests isn't just about keeping things tidy; it's about making your automation scalable, shareable, and environment-agnostic. When you first start with Postman, it's tempting to just...",
+    "date": "2025-01-02",
+    "readTime": "2 min read",
+    "category": "API Testing",
+    "categories": [
+      "Api Testing",
+      "Postman",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "api-testing",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-workspaces-collections-environments.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 1
   }
 ]
