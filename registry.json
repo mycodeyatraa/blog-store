@@ -3061,5 +3061,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-8",
+    "title": "Karate UI Testing & API Combinations",
+    "slug": "ui-testing-api-combinations-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Ditch Selenium! Learn how to combine lightning-fast API calls for test setup with native Chrome UI automation in a single Karate script.",
+    "date": "14-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation",
+      "UI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "ui-testing",
+      "chrome",
+      "hybrid",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/ui-testing-api-combinations-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
