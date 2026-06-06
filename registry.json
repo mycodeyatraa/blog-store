@@ -2672,5 +2672,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-14",
+    "title": "Generating Test Coverage Reports",
+    "slug": "generating-test-coverage-reports-jest-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop guessing if your APIs are fully tested. Learn how to generate beautiful tabular test coverage reports using Jest and SuperTest to catch missing edge cases.",
+    "date": "04-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Automation",
+      "Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "jest",
+      "coverage",
+      "istanbul",
+      "reporting"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/generating-test-coverage-reports-jest-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 14,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
