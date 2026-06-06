@@ -1,6 +1,6 @@
 ---
 title: API Authentication and Authorization
-date: 2025-02-06
+date: 06-Feb-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
