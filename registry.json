@@ -2711,5 +2711,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-15",
+    "title": "Configuring CI/CD for Jest/SuperTest",
+    "slug": "configuring-cicd-jest-supertest-github-actions",
+    "author": "pankaj-kumar",
+    "excerpt": "Never merge a broken API again. Learn how to configure GitHub Actions to automatically execute your SuperTest suite on every pull request.",
+    "date": "05-Mar-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "DevOps",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "jest",
+      "ci-cd",
+      "github-actions",
+      "devops"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/configuring-cicd-jest-supertest-github-actions.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
