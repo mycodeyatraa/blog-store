@@ -801,7 +801,7 @@
   {
     "id": "blog-22",
     "title": "Mastering Postman: Mocking APIs & Frontend Independence",
-    "slug": "mastering-postman-mocking-apis-frontend-independence-v3",
+    "slug": "mastering-postman-mocking-apis-frontend-independence-v4",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Mocking APIs & Frontend Independence  > Key insight: You shouldn't have to wait for the backend team to finish building an API before the frontend team can start integrating it. Moc",
     "date": "2025-01-13",
@@ -823,7 +823,7 @@
       "frontend"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-mocking-apis-frontend-independence-v3.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-mocking-apis-frontend-independence-v4.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
