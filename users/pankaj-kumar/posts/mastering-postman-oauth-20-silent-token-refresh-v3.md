@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: OAuth 2.0 & Silent Token Refresh
-date: 2025-01-07
+date: 07-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
