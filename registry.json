@@ -947,5 +947,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-26",
+    "title": "Modifying Data: Testing POST, PUT, and DELETE API Endpoints",
+    "slug": "modifying-data-testing-post-put-and-delete-api-endpoints",
+    "author": "pankaj-kumar",
+    "excerpt": "Real-world applications don't just read data; they constantly create, update, and delete records. In this post, we will explore the core methods used to modify data in REST architectures: POST, PUT, and DELETE.",
+    "date": "2025-01-17",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "REST API"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "rest-api",
+      "api-testing",
+      "automation",
+      "crud",
+      "postman"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/modifying-data-testing-post-put-and-delete-api-endpoints.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
