@@ -2081,5 +2081,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-56",
+    "title": "OpenTelemetry Integration with RestAssured",
+    "slug": "opentelemetry-integration-with-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to inject W3C Trace Context headers into your RestAssured tests to initiate distributed OpenTelemetry traces across your backend microservices.",
+    "date": "17-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Observability",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "opentelemetry",
+      "tracing",
+      "odt"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/opentelemetry-integration-with-restassured.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 17,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
