@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Data-Driven Testing in Newman  > Key insight: You shouldn't duplicate a test request 100 times just to test 100 different input values. You write the test once, and run it 100 times
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Data-Driven Testing in Newman
 
