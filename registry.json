@@ -2397,5 +2397,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-7",
+    "title": "Testing GraphQL APIs",
+    "slug": "testing-graphql-apis-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Demystify GraphQL test automation. Learn how to execute Queries and Mutations by passing schema strings into SuperTest HTTP POST payloads.",
+    "date": "25-Feb-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "GraphQL",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "graphql",
+      "query",
+      "mutation",
+      "apollo",
+      "jest"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/testing-graphql-apis-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
