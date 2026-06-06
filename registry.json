@@ -569,5 +569,43 @@
     },
     "series": "postman-api-automation-mastery",
     "seriesOrder": 5
+  },
+  {
+    "id": "blog-16",
+    "title": "Mastering Postman: OAuth 2.0 & Silent Token Refresh",
+    "slug": "mastering-postman-oauth-20-silent-token-refresh",
+    "author": "pankaj-kumar",
+    "excerpt": "Mastering Postman: OAuth 2.0 & Silent Token Refresh  > Key insight: If you are manually clicking \"Get New Access Token\" every time your OAuth token expires, your tests are not truly automated. Silent ",
+    "date": "2025-01-07",
+    "readTime": "3 min read",
+    "category": "API Testing",
+    "categories": [
+      "Api Testing",
+      "Postman",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "api-testing",
+      "automation",
+      "oauth",
+      "security"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-oauth-20-silent-token-refresh.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 6
   }
 ]
