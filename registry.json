@@ -2120,5 +2120,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-57",
+    "title": "Tracetest Deep Dive with RestAssured",
+    "slug": "tracetest-deep-dive-with-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "The grand finale! Master Observability-Driven Testing by writing fluent assertions against your distributed backend databases and message queues using Tracetest.",
+    "date": "18-Feb-2025",
+    "readTime": "7 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Observability",
+      "Advanced",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "tracetest",
+      "opentelemetry",
+      "observability"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/tracetest-deep-dive-with-restassured.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 18,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
