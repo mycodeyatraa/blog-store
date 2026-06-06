@@ -28,23 +28,18 @@ We use Maven to handle all of our library dependencies. In your project's pom.xm
 
 Here is the exact dependency configuration we are using for this series:
 
-```xml
+```
 <dependencies>
-    <!-- RestAssured -->
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>rest-assured</artifactId>
         <version>5.5.0</version>
     </dependency>
-    
-    <!-- JSON Parsing -->
     <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
         <version>2.17.2</version>
     </dependency>
-
-    <!-- TestNG -->
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
@@ -62,7 +57,7 @@ With our dependencies installed, let's write a simple Health Check test. We want
 
 Create a new Java class named FirstRestAssuredTest.java in your src/test/java/com/mycodeyatra/tests directory:
 
-```java
+```
 package com.mycodeyatra.tests;
 
 import io.restassured.RestAssured;
@@ -109,7 +104,7 @@ public class FirstRestAssuredTest {
 
 To run the test, we execute the mvn clean test command in our terminal. When we run this against our live mock server, here is the exact console output we receive:
 
-```text
+```
 [INFO] Running TestSuite
 --- Executing GET /api/users ---
 Response Status Code: 200
