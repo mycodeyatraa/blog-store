@@ -1,6 +1,6 @@
 ---
 title: Advanced JSON Parsing with Jackson
-date: 2026-06-07
+date: 2025-02-05
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
