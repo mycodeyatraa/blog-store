@@ -1,7 +1,7 @@
 ---
 title: "AWS Storage & Databases: S3, RDS, DynamoDB, and ElastiCache"
 excerpt: "A practical guide to AWS storage and database services — S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies."
-date: 2026-05-31
+date: 31-May-2026
 author: Abhishek-sinha
 tags: ["AWS", "S3", "RDS", "DynamoDB", "ElastiCache", "databases", "storage", "cloud-computing", "devops"]
 ---
