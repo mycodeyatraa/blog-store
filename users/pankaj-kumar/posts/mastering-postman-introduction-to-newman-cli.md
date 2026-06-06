@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Introduction to Newman CLI
-date: 2025-01-09
+date: 09-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
