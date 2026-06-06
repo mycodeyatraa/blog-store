@@ -1,6 +1,6 @@
 ---
 title: Modifying Data: Testing POST, PUT, and DELETE API Endpoints
-date: 2025-01-17
+date: 17-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
