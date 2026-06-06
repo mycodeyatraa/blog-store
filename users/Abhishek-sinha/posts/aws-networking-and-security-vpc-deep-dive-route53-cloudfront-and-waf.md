@@ -1,7 +1,7 @@
 ---
 title: "AWS Networking & Security: VPC Deep Dive, Route53, CloudFront, and WAF"
 excerpt: "A deep dive into AWS networking and security — advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection."
-date: 2026-05-31
+date: 31-May-2026
 author: Abhishek-sinha
 tags: ["AWS", "VPC", "Route53", "CloudFront", "WAF", "networking", "security", "cloud-computing", "devops"]
 ---
