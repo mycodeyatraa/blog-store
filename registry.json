@@ -573,7 +573,7 @@
   {
     "id": "blog-16",
     "title": "Mastering Postman: OAuth 2.0 & Silent Token Refresh",
-    "slug": "mastering-postman-oauth-20-silent-token-refresh",
+    "slug": "mastering-postman-oauth-20-silent-token-refresh-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: OAuth 2.0 & Silent Token Refresh  > Key insight: If you are manually clicking \"Get New Access Token\" every time your OAuth token expires, your tests are not truly automated. Silent ",
     "date": "2025-01-07",
@@ -595,7 +595,7 @@
       "security"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-oauth-20-silent-token-refresh.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-oauth-20-silent-token-refresh-fixed.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
