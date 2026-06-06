@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Extracting Data & Chaining Requests
-date: 2025-01-05
+date: 05-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
