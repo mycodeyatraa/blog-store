@@ -871,5 +871,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-24",
+    "title": "Dockerizing Your Test Environment: Running the Mock Server via Docker",
+    "slug": "dockerizing-your-test-environment-running-the-mock-server-via-docker",
+    "author": "pankaj-kumar",
+    "excerpt": "In the previous blog, we successfully set up our local mock API server using Node.js. While that works perfectly, configuring Node.js, ensuring you have the right version, and managing `npm install` d",
+    "date": "2025-01-15",
+    "readTime": "3 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Docker"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "docker",
+      "api-testing",
+      "automation",
+      "mock-server",
+      "containerization"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/dockerizing-your-test-environment-running-the-mock-server-via-docker.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
