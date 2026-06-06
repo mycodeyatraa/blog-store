@@ -73,5 +73,14 @@
     "author": "pankaj-kumar",
     "status": "ongoing",
     "createdAt": "2025-01-14"
+  },
+  {
+    "id": "java-restassured-api-testing",
+    "title": "Java RestAssured API Testing",
+    "description": "Master API Test Automation using Java, RestAssured, TestNG, and Allure.",
+    "articleIds": [
+      "blog-40",
+      "blog-41"
+    ]
   }
 ]
