@@ -1,6 +1,6 @@
 ---
 title: AI Usage in Mobile Automation: Beyond Basic Test Scripts
-date: 2026-05-30
+date: 30-May-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
