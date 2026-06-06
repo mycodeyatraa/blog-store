@@ -1437,5 +1437,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-39",
+    "title": "End-to-End Postman Capstone",
+    "slug": "end-to-end-postman-capstone",
+    "author": "pankaj-kumar",
+    "excerpt": "To prove that you are an API Automation Master, it is time to build a comprehensive, portfolio-grade End-to-End Postman Collection.",
+    "date": "2025-01-30",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Postman"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "capstone",
+      "automation",
+      "end-to-end"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/end-to-end-postman-capstone.md",
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
