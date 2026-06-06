@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Mocking APIs & Frontend Independence  > Key insight: You shouldn't have to wait for the backend team to finish building an API before the frontend team can start integrating it. Moc
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Mocking APIs & Frontend Independence
 
