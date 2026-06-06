@@ -127,5 +127,18 @@
     "author": "pankaj-kumar",
     "status": "ongoing",
     "createdAt": "19-Feb-2025"
+  },
+  {
+    "id": "karate-api-testing",
+    "title": "BDD API Testing with Karate DSL",
+    "description": "A comprehensive 10-part series covering everything from basic BDD Gherkin syntax to advanced Karate Gatling performance testing and CI/CD pipelines.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/images/karate-cover.png",
+    "tags": [
+      "karate",
+      "bdd",
+      "java",
+      "api-testing"
+    ],
+    "articleIds": []
   }
 ]
