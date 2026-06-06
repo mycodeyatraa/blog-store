@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Extracting Data & Chaining Requests
 
