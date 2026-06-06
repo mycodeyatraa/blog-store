@@ -24,7 +24,7 @@ We will also use **TestNG** as our testing framework to run the code, and we'll 
 
 ## Step 1: Configuring Maven (pom.xml)
 
-We use Maven to handle all of our library dependencies. In your project's `pom.xml`, we need to add the RestAssured and TestNG libraries. 
+We use Maven to handle all of our library dependencies. In your project's pom.xml, we need to add the RestAssured and TestNG libraries. 
 
 Here is the exact dependency configuration we are using for this series:
 
@@ -58,9 +58,9 @@ Here is the exact dependency configuration we are using for this series:
 
 ## Step 2: Writing Our First Test
 
-With our dependencies installed, let's write a simple Health Check test. We want to ping our local MyCodeYatra Mock API Server running on port `8080` to ensure it is alive.
+With our dependencies installed, let's write a simple Health Check test. We want to ping our local MyCodeYatra Mock API Server running on port 8080 to ensure it is alive.
 
-Create a new Java class named `FirstRestAssuredTest.java` in your `src/test/java/com/mycodeyatra/tests` directory:
+Create a new Java class named FirstRestAssuredTest.java in your src/test/java/com/mycodeyatra/tests directory:
 
 ```java
 package com.mycodeyatra.tests;
@@ -107,7 +107,7 @@ public class FirstRestAssuredTest {
 
 ## Step 3: Executing the Test
 
-To run the test, we execute the `mvn clean test` command in our terminal. When we run this against our live mock server, here is the exact console output we receive:
+To run the test, we execute the mvn clean test command in our terminal. When we run this against our live mock server, here is the exact console output we receive:
 
 ```text
 [INFO] Running TestSuite
@@ -121,6 +121,6 @@ Successfully validated GET /users response!
 [INFO] ------------------------------------------------------------------------
 ```
 
-The server successfully returned a `200 OK` status, and our RestAssured script successfully caught and validated it! 
+The server successfully returned a 200 OK status, and our RestAssured script successfully caught and validated it! 
 
 In the next tutorial, we will dive deeper into advanced GET and POST requests, manipulating real data in the mock database!
