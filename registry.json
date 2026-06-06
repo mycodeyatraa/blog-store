@@ -1548,5 +1548,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-42",
+    "title": "Writing your First GET/POST Request",
+    "slug": "writing-your-first-get-post-request",
+    "author": "pankaj-kumar",
+    "excerpt": "In this tutorial, we will use RestAssured to extract information from our MyCodeYatra Mock API Server using a GET request, and then we will create entirely new data using a POST request.",
+    "date": "2025-02-03",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "automation",
+      "get",
+      "post"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/writing-your-first-get-post-request.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
