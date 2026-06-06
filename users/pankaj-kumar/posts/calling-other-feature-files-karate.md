@@ -70,6 +70,15 @@ Feature: Calling Other Feature Files
 ## 3. The Execution Flow
 When you run `CallerRunner` using Maven, Karate seamlessly branches into `login.feature`, injects the `userEmail` and `userPassword`, parses the HTTP 200 response, saves the token, returns control back to `caller.feature`, and injects the token into the `/auth/profile` request. 
 
+Here is the flawless execution output:
+
+```bash
+mvn clean test -Dtest=CallerRunner
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.798 s - in com.mycodeyatra.karate.reusable.CallerRunner
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+```
+
 This creates extremely modular, maintainable, and DRY (Don't Repeat Yourself) codebases.
 
 Stay tuned for our next post where we will tackle **Karate UI Testing and API combinations!**
