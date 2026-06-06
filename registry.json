@@ -499,7 +499,7 @@
   {
     "id": "blog-14",
     "title": "Mastering Postman: Extracting Data & Chaining Requests",
-    "slug": "mastering-postman-extracting-data-chaining-requests",
+    "slug": "mastering-postman-extracting-data-chaining-requests-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo",
     "date": "2025-01-05",
@@ -520,7 +520,7 @@
       "variables"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests-fixed.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -536,7 +536,7 @@
   {
     "id": "blog-15",
     "title": "Mastering Postman: Extracting Data & Chaining Requests",
-    "slug": "mastering-postman-extracting-data-chaining-requests",
+    "slug": "mastering-postman-extracting-data-chaining-requests-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo",
     "date": "2025-01-05",
@@ -557,7 +557,7 @@
       "variables"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests-fixed.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
