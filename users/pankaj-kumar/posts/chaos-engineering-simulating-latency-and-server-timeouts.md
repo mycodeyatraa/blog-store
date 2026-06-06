@@ -1,6 +1,6 @@
 ---
 title: Chaos Engineering: Simulating Latency and Server Timeouts
-date: 2025-01-20
+date: 20-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
