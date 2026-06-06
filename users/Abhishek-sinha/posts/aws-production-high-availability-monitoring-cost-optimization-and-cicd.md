@@ -1,7 +1,7 @@
 ---
 title: "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD"
 excerpt: "A comprehensive guide to production-ready AWS — Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments."
-date: 2026-05-31
+date: 31-May-2026
 author: Abhishek-sinha
 tags: ["AWS", "high-availability", "monitoring", "cost-optimization", "CI/CD", "devops", "production", "cloud-computing"]
 ---
