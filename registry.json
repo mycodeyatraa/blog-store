@@ -3101,5 +3101,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-9",
+    "title": "Parallel Execution & Generating Cucumber Reports",
+    "slug": "parallel-execution-cucumber-reports-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Supercharge your test suite! Learn how to run your Karate API tests concurrently across multiple threads and generate stunning visual HTML reports.",
+    "date": "15-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation",
+      "Performance"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "bdd",
+      "parallel",
+      "reporting",
+      "cucumber"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/parallel-execution-cucumber-reports-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
