@@ -611,7 +611,7 @@
   {
     "id": "blog-17",
     "title": "Mastering Postman: JSON Schema Validation",
-    "slug": "mastering-postman-json-schema-validation",
+    "slug": "mastering-postman-json-schema-validation-fixed",
     "author": "pankaj-kumar",
     "excerpt": "Mastering Postman: JSON Schema Validation  > Key insight: Validating individual fields like `jsonData.name` works for small payloads, but is unmaintainable for APIs returning 200+ lines of JSON. Schem",
     "date": "2025-01-08",
@@ -633,7 +633,7 @@
       "ajv"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-json-schema-validation.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-json-schema-validation-fixed.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
