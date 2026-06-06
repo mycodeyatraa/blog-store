@@ -2159,5 +2159,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-1",
+    "title": "Introduction to SuperTest & Express.js",
+    "slug": "introduction-to-supertest-express",
+    "author": "pankaj-kumar",
+    "excerpt": "Kickstart your NodeJS API Testing journey! Learn what SuperTest is, why it's the industry standard, and write your first asynchronous GET request using Jest and TypeScript.",
+    "date": "19-Feb-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Automation",
+      "TypeScript"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "nodejs",
+      "jest",
+      "typescript",
+      "api-testing"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-supertest-express.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
