@@ -3022,5 +3022,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-7",
+    "title": "Type Conversion & Data Generators",
+    "slug": "type-conversion-data-generators-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Bypass API uniqueness constraints! Learn how to seamlessly invoke Java code directly from your Karate scripts to generate random data, and master native type conversions.",
+    "date": "13-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "java",
+      "bdd",
+      "interoperability",
+      "generators"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/type-conversion-data-generators-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
