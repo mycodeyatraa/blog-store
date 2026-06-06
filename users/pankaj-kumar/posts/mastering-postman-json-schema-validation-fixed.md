@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: JSON Schema Validation
-date: 2025-01-08
+date: 08-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
