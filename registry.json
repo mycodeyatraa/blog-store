@@ -2750,5 +2750,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-16",
+    "title": "Best Practices & Folder Architecture",
+    "slug": "best-practices-folder-architecture-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Scale your API testing frameworks to thousands of tests. Discover the ultimate enterprise folder architecture and coding standards for SuperTest suites.",
+    "date": "06-Mar-2025",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Software Architecture",
+      "Enterprise"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "jest",
+      "architecture",
+      "best-practices",
+      "clean-code"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/best-practices-folder-architecture-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 16,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
