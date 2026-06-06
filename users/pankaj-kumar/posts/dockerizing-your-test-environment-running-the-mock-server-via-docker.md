@@ -1,6 +1,6 @@
 ---
 title: Dockerizing Your Test Environment: Running the Mock Server via Docker
-date: 2025-01-15
+date: 15-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
