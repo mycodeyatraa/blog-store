@@ -1,6 +1,6 @@
 ---
 title: Understanding Core REST: Fetching and Filtering API Data (GET)
-date: 2025-01-16
+date: 16-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
