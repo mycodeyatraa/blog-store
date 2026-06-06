@@ -1474,5 +1474,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-40",
+    "title": "Introduction to REST APIs & HTTP Methods",
+    "slug": "introduction-to-rest-apis-and-http-methods",
+    "author": "pankaj-kumar",
+    "excerpt": "Before we write a single line of Java code, we must understand the language of the web. Modern web applications communicate through REST APIs.",
+    "date": "2025-02-01",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "automation",
+      "api-testing"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-rest-apis-and-http-methods.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
