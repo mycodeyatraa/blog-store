@@ -2554,5 +2554,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-11",
+    "title": "Integrating Faker.js for Test Data",
+    "slug": "integrating-faker-js-test-data-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Eliminate brittle hardcoded payloads. Learn how to integrate Faker.js with SuperTest to generate massive amounts of dynamic, realistic API test data.",
+    "date": "01-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "Best Practices",
+      "Test Data"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "faker",
+      "test-data",
+      "jest",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/integrating-faker-js-test-data-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
