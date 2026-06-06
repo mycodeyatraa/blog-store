@@ -1213,5 +1213,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-33",
+    "title": "Real-Time Testing: Connecting to WebSockets",
+    "slug": "real-time-testing-connecting-to-websockets",
+    "author": "pankaj-kumar",
+    "excerpt": "What if you are testing a live chat application or a stock ticker? To solve this, modern applications use WebSockets. In this tutorial, we will connect to the server's built-in WebSocket chat room.",
+    "date": "2025-01-24",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "WebSockets"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "websockets",
+      "api-testing",
+      "automation",
+      "real-time",
+      "postman"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/real-time-testing-connecting-to-websockets.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
