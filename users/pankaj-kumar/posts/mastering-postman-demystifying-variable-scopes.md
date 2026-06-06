@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Demystifying Variable Scopes
-date: 2025-01-06
+date: 06-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
