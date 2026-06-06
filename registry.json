@@ -495,5 +495,42 @@
     },
     "series": "postman-api-automation-mastery",
     "seriesOrder": 3
+  },
+  {
+    "id": "blog-14",
+    "title": "Mastering Postman: Extracting Data & Chaining Requests",
+    "slug": "mastering-postman-extracting-data-chaining-requests",
+    "author": "pankaj-kumar",
+    "excerpt": "Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo",
+    "date": "2025-01-05",
+    "readTime": "2 min read",
+    "category": "API Testing",
+    "categories": [
+      "Api Testing",
+      "Postman",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "postman",
+      "api-testing",
+      "automation",
+      "variables"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "postman-api-automation-mastery",
+    "seriesOrder": 4
   }
 ]
