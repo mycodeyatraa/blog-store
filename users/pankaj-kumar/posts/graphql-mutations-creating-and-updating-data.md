@@ -1,6 +1,6 @@
 ---
 title: GraphQL Mutations: Creating and Updating Data
-date: 2025-01-23
+date: 23-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
