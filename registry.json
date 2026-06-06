@@ -535,11 +535,11 @@
   },
   {
     "id": "blog-15",
-    "title": "Mastering Postman: Extracting Data & Chaining Requests",
-    "slug": "mastering-postman-extracting-data-chaining-requests-fixed",
+    "title": "Mastering Postman: Demystifying Variable Scopes",
+    "slug": "mastering-postman-demystifying-variable-scopes",
     "author": "pankaj-kumar",
-    "excerpt": "Mastering Postman: Extracting Data & Chaining Requests  > Key insight: A real-world application never uses isolated API calls. To truly automate a workflow, your Postman collections must pass data smo",
-    "date": "2025-01-05",
+    "excerpt": "Mastering Postman: Demystifying Variable Scopes  > Key insight: Using the wrong variable scope can lead to leaked tokens, cross-environment pollution, and incredibly hard-to-debug failures. Knowing *w",
+    "date": "2025-01-06",
     "readTime": "2 min read",
     "category": "API Testing",
     "categories": [
@@ -557,7 +557,7 @@
       "variables"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mastering-postman-extracting-data-chaining-requests-fixed.md",
+    "contentPath": "users/pankaj-kumar/posts/mastering-postman-demystifying-variable-scopes.md",
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
