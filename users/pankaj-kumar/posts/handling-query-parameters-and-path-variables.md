@@ -34,6 +34,7 @@ Let's fetch exactly 3 users from our MyCodeYatra Mock Server:
 @Test(priority = 1)
 public void testQueryParameters() {
     System.out.println("\n--- Executing GET /users with Query Params ---");
+    // Using queryParam() to build dynamic URLs
     Response response = RestAssured.given()
             .queryParam("page", 1)
             .queryParam("limit", 3)
@@ -42,6 +43,7 @@ public void testQueryParameters() {
             .then()
             .extract().response();
     System.out.println("Status Code: " + response.getStatusCode());
+    // Extract the list of data items
     List<Object> userList = response.jsonPath().getList("data");
     System.out.println("Number of users returned: " + userList.size());
     Assert.assertEquals(response.getStatusCode(), 200);
@@ -59,6 +61,7 @@ RestAssured uses the .pathParam() method to dynamically inject variables into {p
 @Test(priority = 2)
 public void testPathVariables() {
     System.out.println("\n--- Executing GET /users/{id} with Path Variable ---");
+    // First, fetch the first user to get a valid ID
     Response allUsers = RestAssured.given()
             .queryParam("limit", 1)
             .when()
@@ -67,10 +70,11 @@ public void testPathVariables() {
             .extract().response();
     String targetId = allUsers.jsonPath().getString("data[0].id");
     String targetName = allUsers.jsonPath().getString("data[0].name");
+    // Now, use pathParam() to fetch that specific user safely
     Response userResponse = RestAssured.given()
             .pathParam("userId", targetId)
             .when()
-            .get("/users/{userId}")
+            .get("/users/{userId}") // The {userId} marker is replaced dynamically
             .then()
             .extract().response();
     System.out.println("Status Code: " + userResponse.getStatusCode());
