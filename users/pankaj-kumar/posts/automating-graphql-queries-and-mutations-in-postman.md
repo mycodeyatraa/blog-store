@@ -1,6 +1,6 @@
 ---
 title: Automating GraphQL Queries and Mutations in Postman
-date: 2025-01-29
+date: 29-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
