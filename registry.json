@@ -2476,5 +2476,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-supertest-9",
+    "title": "Testing File Uploads & Downloads",
+    "slug": "testing-file-uploads-downloads-supertest",
+    "author": "pankaj-kumar",
+    "excerpt": "Master binary payloads and multipart form boundaries. Learn how to effortlessly test file uploads and downloads using SuperTest.",
+    "date": "27-Feb-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "NodeJS",
+      "File Handling",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "supertest",
+      "file-upload",
+      "file-download",
+      "multipart",
+      "jest"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/testing-file-uploads-downloads-supertest.md",
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
