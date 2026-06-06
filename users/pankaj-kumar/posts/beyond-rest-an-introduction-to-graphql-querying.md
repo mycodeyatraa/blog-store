@@ -1,6 +1,6 @@
 ---
 title: Beyond REST: An Introduction to GraphQL Querying
-date: 2025-01-21
+date: 21-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
