@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL vs MongoDB vs Redis: Choosing the Right Database for Your System Design
-date: 2026-05-30
+date: 30-May-2026
 author: Abhishek-sinha
 authorName: Abhishek Sinha
 authorRole: Full Stack And Mobile Developer
