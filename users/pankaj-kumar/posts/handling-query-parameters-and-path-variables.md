@@ -30,7 +30,7 @@ Instead of hardcoding the URL string, RestAssured provides the .queryParam() met
 
 Let's fetch exactly 3 users from our MyCodeYatra Mock Server:
 
-```
+<pre><code>
 @Test(priority = 1)
 public void testQueryParameters() {
     System.out.println("\n--- Executing GET /users with Query Params ---");
@@ -53,7 +53,7 @@ public void testQueryParameters() {
     Assert.assertEquals(response.getStatusCode(), 200);
     Assert.assertEquals(userList.size(), 3, "Pagination limit did not work!");
 }
-```
+</code></pre>
 
 ## 2. Using Path Variables
 
@@ -61,7 +61,7 @@ Path Variables are part of the URL structure itself (e.g., /api/users/12345). Th
 
 RestAssured uses the .pathParam() method to dynamically inject variables into {placeholder} markers in your URL string. In the following test, we will extract a random user's id and then use it as a Path Variable to fetch their specific profile:
 
-```
+<pre><code>
 @Test(priority = 2)
 public void testPathVariables() {
     System.out.println("\n--- Executing GET /users/{id} with Path Variable ---");
@@ -91,7 +91,7 @@ public void testPathVariables() {
     Assert.assertEquals(userResponse.getStatusCode(), 200);
     Assert.assertEquals(userResponse.jsonPath().getString("name"), targetName);
 }
-```
+</code></pre>
 
 ---
 
@@ -99,7 +99,7 @@ public void testPathVariables() {
 
 When we execute these tests against our Mock Server, here is the exact console output showing flawless execution:
 
-```
+<pre><code>
 --- Executing GET /users with Query Params ---
 Status Code: 200
 Number of users returned: 3
@@ -108,7 +108,7 @@ Number of users returned: 3
 Status Code: 200
 Returned Name: Taurean Walsh Sr.
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.55 s -- in TestSuite
-```
+</code></pre>
 
 By mastering .queryParam() and .pathParam(), your automation scripts become completely dynamic, capable of adapting to varying test data on every single run!
 
