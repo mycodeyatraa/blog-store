@@ -1,6 +1,6 @@
 ---
 title: Real-Time Testing: Connecting to WebSockets
-date: 2025-01-24
+date: 24-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
