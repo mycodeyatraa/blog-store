@@ -31,13 +31,11 @@ In this tutorial, we will walk through exactly how to download, install, and run
 ## Step 1: Install Node.js
 Because our Mock Server is built using Express.js (a popular Node.js framework), your computer needs to have Node.js installed to run it.
 
-1. **Download:** Go to the official [Node.js website](https://nodejs.org/).
+First, go to the official [Node.js website](https://nodejs.org/) and download the **LTS (Long Term Support)** version. This is the most stable version for Windows, Mac, or Linux. 
 
-2. **Select Version:** Download the **LTS (Long Term Support)** version. This is the most stable version for Windows, Mac, or Linux.
+Run the downloaded installer and keep clicking "Next" to accept all the default settings.
 
-3. **Install:** Run the downloaded installer. Keep clicking "Next" to accept all the default settings.
-
-4. **Verify:** Open your computer's Terminal (or Command Prompt) and type the command shown below.
+To verify the installation, open your computer's Terminal (or Command Prompt) and type the following command:
 
 ```bash
 node -v
@@ -50,57 +48,49 @@ If it prints a version number (like `v22.14.0`), you are good to go!
 ## Step 2: Download the Mock Server
 You need to pull the code from our official GitHub organization to your local machine. You can do this via Git, or by directly downloading the ZIP file.
 
-**Option A: Using Git (Recommended)**
+**Using Git (Recommended)**
 
-If you have Git installed, simply open your terminal and run the following command:
+If you have Git installed, simply open your terminal and run the following repository cloning command:
 
 ```bash
 git clone https://github.com/MYCodeYatra/myct-api-test-server.git
 ```
 
-**Option B: Download ZIP**
+**Downloading the ZIP File**
 
-1. Navigate to the GitHub repository: [https://github.com/MYCodeYatra/myct-api-test-server](https://github.com/MYCodeYatra/myct-api-test-server)
-
-2. Click the green **"<> Code"** button.
-
-3. Select **"Download ZIP"**.
-
-4. Extract the ZIP folder on your computer.
+If you don't have Git, navigate to the GitHub repository at `https://github.com/MYCodeYatra/myct-api-test-server` in your browser. Click the green **"<> Code"** button, select **"Download ZIP"**, and extract the folder on your computer.
 
 ---
 
 ## Step 3: Install the Server Dependencies
 Now that you have the code, you need to tell Node.js to download all the required third-party libraries (like `express` for the server, and `faker` for generating fake database data).
 
-1. Open your terminal.
-
-2. Navigate into the downloaded folder using the command below.
+Open your terminal and navigate into the downloaded folder using the command below:
 
 ```bash
 cd path/to/myct-api-test-server
 ```
 
-3. Run the installation command shown below.
+Once inside the folder, run the Node Package Manager installation command:
 
 ```bash
 npm install
 ```
 
-*Note: `npm` stands for Node Package Manager. It automatically reads the `package.json` file inside the folder and downloads everything the server needs to run.*
+*Note: `npm` automatically reads the `package.json` file inside the folder and downloads everything the server needs to run.*
 
 ---
 
 ## Step 4: Start the Server!
 Once the installation finishes, starting the server is incredibly simple.
 
-In the same terminal window, run this command:
+In the exact same terminal window, run this execution command:
 
 ```bash
 node index.js
 ```
 
-You should instantly see the following success messages in your terminal:
+You should instantly see the following success messages in your terminal confirming the ports are active:
 
 ```text
 🚀 REST Mock API Server running at http://localhost:8080
