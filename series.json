@@ -30,7 +30,9 @@
     "title": "Postman API Automation Mastery",
     "description": "A complete roadmap to mastering API testing with Postman. Learn everything from basic workspace organization to advanced CI/CD integration, schema validation, and data-driven testing using Newman.",
     "author": "pankaj-kumar",
-    "articleIds": [],
+    "articleIds": [
+      "blog-5"
+    ],
     "status": "ongoing",
     "createdAt": "2025-01-02"
   }
