@@ -1,6 +1,6 @@
 ---
 title: End-to-End Postman Capstone
-date: 2025-01-30
+date: 30-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
