@@ -114,6 +114,8 @@
       "typescript",
       "api testing"
     ],
-    "articleIds": []
+    "articleIds": [
+      "blog-supertest-1"
+    ]
   }
 ]
