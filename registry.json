@@ -217,7 +217,7 @@
     "draft": false,
     "contentPath": "users/Abhishek-sinha/posts/aws-compute-ec2-lambda-ecs-and-eks.md",
     "series": "aws-from-zero-to-production",
-    "seriesOrder": 1,
+    "seriesOrder": 2,
     "authorDetails": {
       "name": "Abhishek Sinha",
       "role": "Full Stack And Mobile Developer",
@@ -835,5 +835,41 @@
     },
     "series": "postman-api-automation-mastery",
     "seriesOrder": 12
+  },
+  {
+    "id": "blog-23",
+    "title": "Setting Up Your Local Sandbox: Running the Mock API Server via Node.js",
+    "slug": "setting-up-your-local-sandbox-running-the-mock-api-server-via-nodejs",
+    "author": "pankaj-kumar",
+    "excerpt": "When you're diving into API testing\u2014whether you're using RestAssured, Supertest, Postman, or Karate\u2014the absolute best way to learn is by having your own local sandbox. Relying on public, free APIs f",
+    "date": "2025-01-14",
+    "readTime": "3 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "api-testing",
+      "automation",
+      "nodejs",
+      "mock-server"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/setting-up-your-local-sandbox-running-the-mock-api-server-via-nodejs.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
