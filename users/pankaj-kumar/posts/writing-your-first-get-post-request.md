@@ -26,59 +26,48 @@ Our mock server contains a database of 50 randomly generated users. Let's write 
 
 Here is the exact code for our test:
 
-<pre><code>
+```java
 @Test(priority = 1)
 public void testGetRequest() {
     System.out.println("\n--- Executing GET /users ---");
-    
     Response response = RestAssured.given()
             .when()
             .get("/users")
             .then()
             .extract().response();
-
     System.out.println("Status Code: " + response.getStatusCode());
     Assert.assertEquals(response.getStatusCode(), 200);
-    
-    // Extracting total number of users from JSON
     int totalUsers = response.jsonPath().getInt("total");
     System.out.println("Total Users found: " + totalUsers);
 }
-</code></pre>
+```
 
 ## 2. Creating Data with POST
 
 Fetching data is easy, but modern automation requires us to actively manipulate the database. To create a new user, we must construct a JSON payload. Instead of manipulating ugly strings, we will use a Java Map which RestAssured will automatically serialize into JSON!
 
-<pre><code>
+```java
 @Test(priority = 2)
 public void testPostRequest() {
     System.out.println("\n--- Executing POST /users ---");
-    
-    // Creating a JSON payload using a Map
     Map<String, Object> payload = new HashMap<>();
     payload.put("name", "RestAssured Tester");
     payload.put("email", "ra.tester@example.com");
     payload.put("role", "admin");
-
     Response response = RestAssured.given()
-            .contentType(ContentType.JSON) // Tell the server we are sending JSON
+            .contentType(ContentType.JSON)
             .body(payload)
             .when()
             .post("/users")
             .then()
             .extract().response();
-
     System.out.println("Status Code: " + response.getStatusCode());
     System.out.println("Response Body: " + response.getBody().asPrettyString());
-
-    Assert.assertEquals(response.getStatusCode(), 201); // 201 Created
-    
-    // Validating the inserted data
+    Assert.assertEquals(response.getStatusCode(), 201);
     String returnedName = response.jsonPath().getString("name");
     Assert.assertEquals(returnedName, "RestAssured Tester");
 }
-</code></pre>
+```
 
 ---
 
@@ -86,11 +75,10 @@ public void testPostRequest() {
 
 When we execute these two tests in our suite, TestNG runs them in priority order. Here is the exact console output showing a flawless execution against our Mock API Server:
 
-<pre><code>
+```text
 --- Executing GET /users ---
 Status Code: 200
 Total Users found: 50
-
 --- Executing POST /users ---
 Status Code: 201
 Response Body: {
@@ -101,7 +89,7 @@ Response Body: {
     "createdAt": "2026-06-06T18:40:05.649Z"
 }
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.84 s -- in TestSuite
-</code></pre>
+```
 
 As you can see, the GET request correctly identified 50 users, and the POST request successfully created our new admin user, instantly returning the newly generated id and createdAt timestamp!
 
