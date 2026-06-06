@@ -1,6 +1,6 @@
 ---
 title: Securing APIs: Testing JWT Authentication Workflows
-date: 2025-01-19
+date: 19-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
