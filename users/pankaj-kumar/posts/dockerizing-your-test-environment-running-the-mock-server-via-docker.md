@@ -12,7 +12,7 @@ tags: [docker, api-testing, automation, mock-server, containerization]
 category: API Testing
 categories: [API Testing, Automation, Docker]
 excerpt: >-
-  In the previous blog, we successfully set up our local mock API server using Node.js. While that works perfectly, configuring Node.js, ensuring you have the right version, and managing `npm install` d
+  In the previous blog, we successfully set up our local mock API server using Node.js. While that works perfectly, configuring Node.js and managing dependencies can sometimes cause headaches.
 readTime: 3 min read
 ---
 
