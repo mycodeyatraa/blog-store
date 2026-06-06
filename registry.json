@@ -2866,5 +2866,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-karate-3",
+    "title": "JSON and XML Expressions",
+    "slug": "json-and-xml-expressions-karate",
+    "author": "pankaj-kumar",
+    "excerpt": "Discover the true power of Karate DSL! Learn how to assert complex JSON objects and deeply nested XML responses natively without writing a single Java POJO.",
+    "date": "09-Mar-2025",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "BDD",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "karate",
+      "bdd",
+      "json",
+      "xml",
+      "assertions"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/json-and-xml-expressions-karate.md",
+    "series": "karate-api-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
