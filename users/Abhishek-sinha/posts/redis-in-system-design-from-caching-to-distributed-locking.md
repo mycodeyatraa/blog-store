@@ -1,6 +1,6 @@
 ---
 title: Redis in System Design: From Caching to Distributed Locking
-date: 2026-05-30
+date: 30-May-2026
 author: Abhishek-sinha
 authorName: Abhishek Sinha
 authorRole: Full Stack And Mobile Developer
