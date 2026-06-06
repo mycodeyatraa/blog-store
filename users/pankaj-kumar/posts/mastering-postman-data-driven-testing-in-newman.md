@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Data-Driven Testing in Newman
-date: 2025-01-10
+date: 10-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
