@@ -1,6 +1,6 @@
 ---
 title: AWS Fundamentals: IAM, VPC, EC2, and S3
-date: 2026-05-31
+date: 31-May-2026
 author: Abhishek-sinha
 authorName: Abhishek Sinha
 authorRole: Full Stack And Mobile Developer
