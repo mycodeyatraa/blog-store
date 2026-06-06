@@ -1061,5 +1061,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-29",
+    "title": "Chaos Engineering: Simulating Latency and Server Timeouts",
+    "slug": "chaos-engineering-simulating-latency-and-server-timeouts",
+    "author": "pankaj-kumar",
+    "excerpt": "In the real world, servers get overloaded and network connections drop. In this tutorial, we will perform Chaos Engineering by intentionally sabotaging our own API requests to simulate severe latency.",
+    "date": "2025-01-20",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Reliability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "rest-api",
+      "api-testing",
+      "automation",
+      "chaos-engineering",
+      "reliability"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/chaos-engineering-simulating-latency-and-server-timeouts.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
