@@ -12,7 +12,7 @@
       "blog-9"
     ],
     "status": "completed",
-    "createdAt": "2026-05-31"
+    "createdAt": "31-May-2026"
   },
   {
     "id": "playwright-with-java-zero-to-automation",
@@ -23,7 +23,7 @@
       "blog-4"
     ],
     "status": "ongoing",
-    "createdAt": "2026-05-31"
+    "createdAt": "31-May-2026"
   },
   {
     "id": "postman-api-automation-mastery",
@@ -48,7 +48,7 @@
       "blog-39"
     ],
     "status": "ongoing",
-    "createdAt": "2025-01-02"
+    "createdAt": "02-Jan-2025"
   },
   {
     "id": "mock-api-server-mastery",
@@ -72,7 +72,7 @@
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
-    "createdAt": "2025-01-14"
+    "createdAt": "14-Jan-2025"
   },
   {
     "id": "java-restassured-api-testing",
@@ -88,6 +88,6 @@
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
-    "createdAt": "2025-01-30"
+    "createdAt": "30-Jan-2025"
   }
 ]
