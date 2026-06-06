@@ -1,6 +1,6 @@
 ---
 title: Testing Real-Time WebSocket Connections in Postman
-date: 2025-01-28
+date: 28-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
