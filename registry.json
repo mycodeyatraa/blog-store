@@ -909,5 +909,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-25",
+    "title": "Understanding Core REST: Fetching and Filtering API Data (GET)",
+    "slug": "understanding-core-rest-fetching-and-filtering-api-data-get",
+    "author": "pankaj-kumar",
+    "excerpt": "At the heart of every API test automation framework lies the GET request. In this tutorial, we will explore the core REST endpoints provided by the Mock API Server and extract data using query parameters.",
+    "date": "2025-01-16",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "REST API"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "rest-api",
+      "api-testing",
+      "automation",
+      "mock-server",
+      "http-get"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/understanding-core-rest-fetching-and-filtering-api-data-get.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
