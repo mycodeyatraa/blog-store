@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Mocking APIs & Frontend Independence
-date: 2025-01-13
+date: 13-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
