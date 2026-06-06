@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: Generating HTML Reports with Newman  > Key insight: A test suite that runs silently in the background is useless if stakeholders can't easily read the results. You need beautiful, s
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: Generating HTML Reports with Newman
 
