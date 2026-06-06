@@ -1,6 +1,6 @@
 ---
 title: Mastering Postman: Generating HTML Reports with Newman
-date: 2025-01-11
+date: 11-Jan-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
