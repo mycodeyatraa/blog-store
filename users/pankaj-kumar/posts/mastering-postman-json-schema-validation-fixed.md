@@ -15,6 +15,9 @@ excerpt: >-
   Mastering Postman: JSON Schema Validation  > Key insight: Validating individual fields like `jsonData.name` works for small payloads, but is unmaintainable for APIs returning 200+ lines of JSON. Schem
 readTime: 2 min read
 ---
+> **Important Update:** To get the most out of this tutorial, we highly recommend running the official [MyCodeYatra Mock API Server](https://github.com/MYCodeYatra/myct-api-test-server) locally on `http://localhost:8080`. Replace any generic public API URLs in these examples with your local Mock Server endpoints!
+
+
 
 # Mastering Postman: JSON Schema Validation
 
