@@ -1327,5 +1327,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-36",
+    "title": "Capstone Project: Building an End-to-End Test Suite",
+    "slug": "capstone-project-building-an-end-to-end-test-suite",
+    "author": "pankaj-kumar",
+    "excerpt": "It is now time to prove everything you have learned. In this final Capstone Project, you will build a comprehensive test suite that touches every feature of the mock server in a single execution flow.",
+    "date": "2025-01-27",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Project"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "capstone",
+      "api-testing",
+      "automation",
+      "end-to-end",
+      "project"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/capstone-project-building-an-end-to-end-test-suite.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 14,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
