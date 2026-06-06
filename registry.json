@@ -1137,5 +1137,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-31",
+    "title": "Advanced GraphQL: Using Variables and Dynamic Filters",
+    "slug": "advanced-graphql-using-variables-and-dynamic-filters",
+    "author": "pankaj-kumar",
+    "excerpt": "Real applications don't just fetch static data. They fetch dynamic data based on user input. In this tutorial, we will learn the correct way to pass dynamic data into our queries using GraphQL Variables.",
+    "date": "2025-01-22",
+    "readTime": "4 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "GraphQL"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "graphql",
+      "api-testing",
+      "automation",
+      "variables",
+      "dynamic-queries"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/advanced-graphql-using-variables-and-dynamic-filters.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
