@@ -30,7 +30,7 @@ Instead of hardcoding the URL string, RestAssured provides the .queryParam() met
 
 Let's fetch exactly 3 users from our MyCodeYatra Mock Server:
 
-```java
+```
 @Test(priority = 1)
 public void testQueryParameters() {
     System.out.println("\n--- Executing GET /users with Query Params ---");
@@ -61,7 +61,7 @@ Path Variables are part of the URL structure itself (e.g., /api/users/12345). Th
 
 RestAssured uses the .pathParam() method to dynamically inject variables into {placeholder} markers in your URL string. In the following test, we will extract a random user's id and then use it as a Path Variable to fetch their specific profile:
 
-```java
+```
 @Test(priority = 2)
 public void testPathVariables() {
     System.out.println("\n--- Executing GET /users/{id} with Path Variable ---");
@@ -99,7 +99,7 @@ public void testPathVariables() {
 
 When we execute these tests against our Mock Server, here is the exact console output showing flawless execution:
 
-```text
+```
 --- Executing GET /users with Query Params ---
 Status Code: 200
 Number of users returned: 3
