@@ -37,6 +37,7 @@ public void testGetRequest() {
             .extract().response();
     System.out.println("Status Code: " + response.getStatusCode());
     Assert.assertEquals(response.getStatusCode(), 200);
+    // Extracting total number of users from JSON
     int totalUsers = response.jsonPath().getInt("total");
     System.out.println("Total Users found: " + totalUsers);
 }
@@ -50,12 +51,13 @@ Fetching data is easy, but modern automation requires us to actively manipulate 
 @Test(priority = 2)
 public void testPostRequest() {
     System.out.println("\n--- Executing POST /users ---");
+    // Creating a JSON payload using a Map
     Map<String, Object> payload = new HashMap<>();
     payload.put("name", "RestAssured Tester");
     payload.put("email", "ra.tester@example.com");
     payload.put("role", "admin");
     Response response = RestAssured.given()
-            .contentType(ContentType.JSON)
+            .contentType(ContentType.JSON) // Tell the server we are sending JSON
             .body(payload)
             .when()
             .post("/users")
@@ -63,7 +65,8 @@ public void testPostRequest() {
             .extract().response();
     System.out.println("Status Code: " + response.getStatusCode());
     System.out.println("Response Body: " + response.getBody().asPrettyString());
-    Assert.assertEquals(response.getStatusCode(), 201);
+    Assert.assertEquals(response.getStatusCode(), 201); // 201 Created
+    // Validating the inserted data
     String returnedName = response.jsonPath().getString("name");
     Assert.assertEquals(returnedName, "RestAssured Tester");
 }
