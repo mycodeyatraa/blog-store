@@ -1289,5 +1289,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-35",
+    "title": "CI/CD Pipeline Integration: Running Tests on Every Commit",
+    "slug": "cicd-pipeline-integration-running-tests-on-every-commit",
+    "author": "pankaj-kumar",
+    "excerpt": "An automation script is useless if it only runs on your local laptop. In this tutorial, we will pull everything together by integrating our tests directly into a GitHub Actions CI/CD Pipeline!",
+    "date": "2025-01-26",
+    "readTime": "5 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "cicd",
+      "api-testing",
+      "automation",
+      "github-actions",
+      "devops"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/cicd-pipeline-integration-running-tests-on-every-commit.md",
+    "series": "mock-api-server-mastery",
+    "seriesOrder": 13,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
