@@ -1,6 +1,6 @@
 ---
 title: Playwright with Java - Zero to Automation: Introduction & Setup
-date: 2026-05-31
+date: 31-May-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
