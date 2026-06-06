@@ -28,15 +28,9 @@ If you are copying the token from the response body and pasting it into the head
 
 Chaining requests is the process of extracting a value from the response of **Request A** and storing it in a variable so that **Request B** can use it.
 
-```mermaid
-graph LR;
-    R1((Req A: Login)) --> Res1[Response Body: <br/> `{\"token\": \"eyJhb...\"}`];
-    Res1 -- Extract & Set Variable --> V[(Environment Variable <br/> `auth_token`)];
-    V -- Inject into Header --> R2((Req B: Get User Profile));
-    
-    style R1 fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff
-    style R2 fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-```
+
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/mastering-postman-extracting-data-chaining-requests/images/diagram_1.png)
+
 
 ## 2. Extracting Data in the Tests Tab
 
