@@ -1776,5 +1776,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-48",
+    "title": "Testing GraphQL APIs with RestAssured",
+    "slug": "testing-graphql-apis-with-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "Demystify GraphQL testing by learning how to automate Queries and Mutations seamlessly using RestAssured's powerful JSON processing capabilities.",
+    "date": "09-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Automation",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "restassured",
+      "java",
+      "graphql",
+      "api-testing",
+      "automation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/testing-graphql-apis-with-restassured.md",
+    "series": "java-restassured-api-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
