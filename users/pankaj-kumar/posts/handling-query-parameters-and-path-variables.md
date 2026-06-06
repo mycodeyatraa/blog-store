@@ -1,6 +1,6 @@
 ---
 title: Handling Query Parameters & Path Variables
-date: 2025-02-04
+date: 04-Feb-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
