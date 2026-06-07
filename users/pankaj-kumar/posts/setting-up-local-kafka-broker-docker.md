@@ -20,9 +20,17 @@ readTime: 5 min read
 
 To write automated tests against Apache Kafka, we need a reliable, isolated broker running locally. The industry-standard way to accomplish this is using **Docker Compose**.
 
-## 1. The docker-compose.yml Setup
+## 1. Network Architecture
 
-Here is a standard, robust configuration spinning up **Zookeeper** and **Kafka**:
+Understanding listener configuration is crucial. The host machine (running your test suite) connects via a different port than other containers running in the same Docker network:
+
+
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/setting-up-local-kafka-broker-docker/images/diagram_1.png)
+
+
+## 2. The docker-compose.yml Setup
+
+Here is a standard, robust configuration spinning up Zookeeper and Kafka:
 
 ```yaml
 version: '3.8'
@@ -50,6 +58,6 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 ```
 
-## 2. Understanding Advertised Listeners
-* **PLAINTEXT://kafka:9092**: Used for internal communication inside the Docker network (e.g., from other containerized services).
+## 3. Understanding Advertised Listeners
+* **PLAINTEXT://kafka:9092**: Used for internal communication inside the Docker network (e.g., from other containerized services like our Node mock server).
 * **PLAINTEXT_HOST://localhost:29092**: Exposed to your host system so your local IDE and testing frameworks (Maven, Node) can reach Kafka directly.
