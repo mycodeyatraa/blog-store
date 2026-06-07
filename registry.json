@@ -3261,7 +3261,7 @@
   {
     "id": "blog-kafka-2",
     "title": "Setting up a Local Kafka Broker",
-    "slug": "setting-up-local-kafka-broker-docker-v4",
+    "slug": "setting-up-local-kafka-broker-docker-v5",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to easily spin up a multi-container local testing environment containing Apache Kafka and Zookeeper using Docker Compose.",
     "date": "02-Mar-2026",
@@ -3283,7 +3283,7 @@
       "infrastructure"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/setting-up-local-kafka-broker-docker-v4.md",
+    "contentPath": "users/pankaj-kumar/posts/setting-up-local-kafka-broker-docker-v5.md",
     "series": "kafka-api-testing",
     "seriesOrder": 2,
     "authorDetails": {
