@@ -1,155 +1,166 @@
 [
-  {
-    "id": "aws-from-zero-to-production",
-    "title": "AWS From Zero to Production",
-    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
-    "author": "Abhishek-sinha",
-    "articleIds": [
-      "blog-5",
-      "blog-6",
-      "blog-7",
-      "blog-8",
-      "blog-9"
-    ],
-    "status": "completed",
-    "createdAt": "31-May-2026"
-  },
-  {
-    "id": "playwright-with-java-zero-to-automation",
-    "title": "Playwright with Java - Zero to Automation",
-    "description": "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
-    "author": "pankaj-kumar",
-    "articleIds": [
-      "blog-4"
-    ],
-    "status": "ongoing",
-    "createdAt": "31-May-2026"
-  },
-  {
-    "id": "postman-api-automation-mastery",
-    "title": "Postman API Automation Mastery",
-    "description": "A complete roadmap to mastering API testing with Postman. Learn everything from basic workspace organization to advanced CI/CD integration, schema validation, and data-driven testing using Newman.",
-    "author": "pankaj-kumar",
-    "articleIds": [
-      "blog-11",
-      "blog-12",
-      "blog-13",
-      "blog-14",
-      "blog-15",
-      "blog-16",
-      "blog-17",
-      "blog-18",
-      "blog-19",
-      "blog-20",
-      "blog-21",
-      "blog-22",
-      "blog-37",
-      "blog-38",
-      "blog-39"
-    ],
-    "status": "ongoing",
-    "createdAt": "02-Jan-2025"
-  },
-  {
-    "id": "mock-api-server-mastery",
-    "title": "Mastering the MyCodeYatra Mock API Server",
-    "description": "A comprehensive 14-part guide designed for QA Engineers and Developers to simulate real-world backend scenarios.",
-    "articleIds": [
-      "blog-23",
-      "blog-24",
-      "blog-25",
-      "blog-26",
-      "blog-27",
-      "blog-28",
-      "blog-29",
-      "blog-30",
-      "blog-31",
-      "blog-32",
-      "blog-33",
-      "blog-34",
-      "blog-35",
-      "blog-36"
-    ],
-    "author": "pankaj-kumar",
-    "status": "ongoing",
-    "createdAt": "14-Jan-2025"
-  },
-  {
-    "id": "java-restassured-api-testing",
-    "title": "Java RestAssured API Testing",
-    "description": "Master API Test Automation using Java, RestAssured, TestNG, and Allure.",
-    "articleIds": [
-      "blog-40",
-      "blog-41",
-      "blog-42",
-      "blog-43",
-      "blog-44",
-      "blog-45",
-      "blog-46",
-      "blog-47",
-      "blog-48",
-      "blog-49",
-      "blog-50",
-      "blog-51",
-      "blog-52",
-      "blog-53",
-      "blog-54",
-      "blog-55",
-      "blog-56",
-      "blog-57"
-    ],
-    "author": "pankaj-kumar",
-    "status": "ongoing",
-    "createdAt": "30-Jan-2025"
-  },
-  {
-    "id": "nodejs-supertest-api-testing",
-    "title": "Mastering NodeJS API Testing with SuperTest",
-    "description": "A complete 16-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
-    "articleIds": [
-      "blog-supertest-1",
-      "blog-supertest-2",
-      "blog-supertest-3",
-      "blog-supertest-4",
-      "blog-supertest-5",
-      "blog-supertest-6",
-      "blog-supertest-7",
-      "blog-supertest-8",
-      "blog-supertest-9",
-      "blog-supertest-10",
-      "blog-supertest-11",
-      "blog-supertest-12",
-      "blog-supertest-13",
-      "blog-supertest-14",
-      "blog-supertest-15",
-      "blog-supertest-16"
-    ],
-    "author": "pankaj-kumar",
-    "status": "ongoing",
-    "createdAt": "19-Feb-2025"
-  },
-  {
-    "id": "karate-api-testing",
-    "title": "BDD API Testing with Karate DSL",
-    "description": "A comprehensive 10-part series covering everything from basic BDD Gherkin syntax to advanced Karate Gatling performance testing and CI/CD pipelines.",
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/images/karate-cover.png",
-    "tags": [
-      "karate",
-      "bdd",
-      "java",
-      "api-testing"
-    ],
-    "articleIds": [
-      "blog-karate-1",
-      "blog-karate-2",
-      "blog-karate-3",
-      "blog-karate-4",
-      "blog-karate-5",
-      "blog-karate-6",
-      "blog-karate-7",
-      "blog-karate-8",
-      "blog-karate-9",
-      "blog-karate-10"
-    ]
-  }
+    {
+        "id":  "aws-from-zero-to-production",
+        "title":  "AWS From Zero to Production",
+        "description":  "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD — designed for developers transitioning from theory to real-world AWS deployments.",
+        "author":  "Abhishek-sinha",
+        "articleIds":  [
+                           "blog-5",
+                           "blog-6",
+                           "blog-7",
+                           "blog-8",
+                           "blog-9"
+                       ],
+        "status":  "completed",
+        "createdAt":  "31-May-2026"
+    },
+    {
+        "id":  "playwright-with-java-zero-to-automation",
+        "title":  "Playwright with Java - Zero to Automation",
+        "description":  "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
+        "author":  "pankaj-kumar",
+        "articleIds":  [
+                           "blog-4"
+                       ],
+        "status":  "ongoing",
+        "createdAt":  "31-May-2026"
+    },
+    {
+        "id":  "postman-api-automation-mastery",
+        "title":  "Postman API Automation Mastery",
+        "description":  "A complete roadmap to mastering API testing with Postman. Learn everything from basic workspace organization to advanced CI/CD integration, schema validation, and data-driven testing using Newman.",
+        "author":  "pankaj-kumar",
+        "articleIds":  [
+                           "blog-11",
+                           "blog-12",
+                           "blog-13",
+                           "blog-14",
+                           "blog-15",
+                           "blog-16",
+                           "blog-17",
+                           "blog-18",
+                           "blog-19",
+                           "blog-20",
+                           "blog-21",
+                           "blog-22",
+                           "blog-37",
+                           "blog-38",
+                           "blog-39"
+                       ],
+        "status":  "ongoing",
+        "createdAt":  "02-Jan-2025"
+    },
+    {
+        "id":  "mock-api-server-mastery",
+        "title":  "Mastering the MyCodeYatra Mock API Server",
+        "description":  "A comprehensive 14-part guide designed for QA Engineers and Developers to simulate real-world backend scenarios.",
+        "articleIds":  [
+                           "blog-23",
+                           "blog-24",
+                           "blog-25",
+                           "blog-26",
+                           "blog-27",
+                           "blog-28",
+                           "blog-29",
+                           "blog-30",
+                           "blog-31",
+                           "blog-32",
+                           "blog-33",
+                           "blog-34",
+                           "blog-35",
+                           "blog-36"
+                       ],
+        "author":  "pankaj-kumar",
+        "status":  "ongoing",
+        "createdAt":  "14-Jan-2025"
+    },
+    {
+        "id":  "java-restassured-api-testing",
+        "title":  "Java RestAssured API Testing",
+        "description":  "Master API Test Automation using Java, RestAssured, TestNG, and Allure.",
+        "articleIds":  [
+                           "blog-40",
+                           "blog-41",
+                           "blog-42",
+                           "blog-43",
+                           "blog-44",
+                           "blog-45",
+                           "blog-46",
+                           "blog-47",
+                           "blog-48",
+                           "blog-49",
+                           "blog-50",
+                           "blog-51",
+                           "blog-52",
+                           "blog-53",
+                           "blog-54",
+                           "blog-55",
+                           "blog-56",
+                           "blog-57"
+                       ],
+        "author":  "pankaj-kumar",
+        "status":  "ongoing",
+        "createdAt":  "30-Jan-2025"
+    },
+    {
+        "id":  "nodejs-supertest-api-testing",
+        "title":  "Mastering NodeJS API Testing with SuperTest",
+        "description":  "A complete 16-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
+        "articleIds":  [
+                           "blog-supertest-1",
+                           "blog-supertest-2",
+                           "blog-supertest-3",
+                           "blog-supertest-4",
+                           "blog-supertest-5",
+                           "blog-supertest-6",
+                           "blog-supertest-7",
+                           "blog-supertest-8",
+                           "blog-supertest-9",
+                           "blog-supertest-10",
+                           "blog-supertest-11",
+                           "blog-supertest-12",
+                           "blog-supertest-13",
+                           "blog-supertest-14",
+                           "blog-supertest-15",
+                           "blog-supertest-16"
+                       ],
+        "author":  "pankaj-kumar",
+        "status":  "ongoing",
+        "createdAt":  "19-Feb-2025"
+    },
+    {
+        "id":  "karate-api-testing",
+        "title":  "BDD API Testing with Karate DSL",
+        "description":  "A comprehensive 10-part series covering everything from basic BDD Gherkin syntax to advanced Karate Gatling performance testing and CI/CD pipelines.",
+        "image":  "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/images/karate-cover.png",
+        "tags":  [
+                     "karate",
+                     "bdd",
+                     "java",
+                     "api-testing"
+                 ],
+        "articleIds":  [
+                           "blog-karate-1",
+                           "blog-karate-2",
+                           "blog-karate-3",
+                           "blog-karate-4",
+                           "blog-karate-5",
+                           "blog-karate-6",
+                           "blog-karate-7",
+                           "blog-karate-8",
+                           "blog-karate-9",
+                           "blog-karate-10"
+                       ]
+    },
+    {
+        "id":  "docker-zero-to-production",
+        "title":  "Docker Zero to Production",
+        "description":  "A beginner-friendly series that walks you through Docker Desktop, Docker Hub, and writing production-ready docker-compose.yml files for dev, staging, and production environments.",
+        "author":  "Abhishek-sinha",
+        "articleIds":  [
+                           "blog-58"
+                       ],
+        "status":  "ongoing",
+        "createdAt":  "07-Jun-2026"
+    }
 ]
