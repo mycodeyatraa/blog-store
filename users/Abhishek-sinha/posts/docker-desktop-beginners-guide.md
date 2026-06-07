@@ -265,6 +265,8 @@ If you've never written a `Dockerfile` or stared at a `docker-compose.yml` wonde
 
 ---
 
+<!-- all-5-diagrams-rendered -->
+
 ## FAQ
 
 **Do I need a Docker Hub account just to use Docker Desktop?**
