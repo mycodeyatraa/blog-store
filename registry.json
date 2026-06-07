@@ -3223,7 +3223,7 @@
   {
     "id": "blog-kafka-1",
     "title": "Introduction to Event-Driven Testing",
-    "slug": "introduction-event-driven-testing",
+    "slug": "introduction-event-driven-testing-v3",
     "author": "pankaj-kumar",
     "excerpt": "Dive into the paradigm shift from request-response testing to event-driven testing. Understand asynchronous flows, decoupled architectures, and how testing event streams differs from REST APIs.",
     "date": "01-Mar-2026",
@@ -3245,7 +3245,7 @@
       "event-driven"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/introduction-event-driven-testing.md",
+    "contentPath": "users/pankaj-kumar/posts/introduction-event-driven-testing-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 1,
     "authorDetails": {
@@ -3261,7 +3261,7 @@
   {
     "id": "blog-kafka-2",
     "title": "Setting up a Local Kafka Broker",
-    "slug": "setting-up-local-kafka-broker-docker-v5",
+    "slug": "setting-up-local-kafka-broker-docker-v5-v6",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to easily spin up a multi-container local testing environment containing Apache Kafka and Zookeeper using Docker Compose.",
     "date": "02-Mar-2026",
@@ -3283,7 +3283,7 @@
       "infrastructure"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/setting-up-local-kafka-broker-docker-v5.md",
+    "contentPath": "users/pankaj-kumar/posts/setting-up-local-kafka-broker-docker-v5-v6.md",
     "series": "kafka-api-testing",
     "seriesOrder": 2,
     "authorDetails": {
@@ -3299,7 +3299,7 @@
   {
     "id": "blog-kafka-3",
     "title": "Understanding Kafka Architecture",
-    "slug": "understanding-kafka-architecture-for-testing",
+    "slug": "understanding-kafka-architecture-for-testing-v3",
     "author": "pankaj-kumar",
     "excerpt": "Master the fundamental concepts of topics, partitions, offsets, and consumer groups, and learn why they are critical when designing test automation pipelines.",
     "date": "03-Mar-2026",
@@ -3320,7 +3320,7 @@
       "concepts"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/understanding-kafka-architecture-for-testing.md",
+    "contentPath": "users/pankaj-kumar/posts/understanding-kafka-architecture-for-testing-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 3,
     "authorDetails": {
@@ -3336,7 +3336,7 @@
   {
     "id": "blog-kafka-4",
     "title": "Writing your first Kafka Producer Test",
-    "slug": "writing-first-kafka-producer-test-v3",
+    "slug": "writing-first-kafka-producer-test-v3-v3",
     "author": "pankaj-kumar",
     "excerpt": "Step-by-step guide to writing a Kafka producer client and verifying that messages are successfully published to topics.",
     "date": "04-Mar-2026",
@@ -3358,7 +3358,7 @@
       "testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-producer-test-v3.md",
+    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-producer-test-v3-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 4,
     "authorDetails": {
@@ -3374,7 +3374,7 @@
   {
     "id": "blog-kafka-5",
     "title": "Writing your first Kafka Consumer Test",
-    "slug": "writing-first-kafka-consumer-test",
+    "slug": "writing-first-kafka-consumer-test-v3",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to set up a subscription poll loop, fetch messages, and assert their key and value payloads in automated tests.",
     "date": "05-Mar-2026",
@@ -3396,7 +3396,7 @@
       "testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-consumer-test.md",
+    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-consumer-test-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 5,
     "authorDetails": {
@@ -3412,7 +3412,7 @@
   {
     "id": "blog-kafka-6",
     "title": "Schema Registry Validation",
-    "slug": "schema-registry-validation-avro-protobuf",
+    "slug": "schema-registry-validation-avro-protobuf-v3",
     "author": "pankaj-kumar",
     "excerpt": "Ensure message integrity! Learn how to test event formats (Avro, Protobuf, JSON) against a Confluent Schema Registry.",
     "date": "06-Mar-2026",
@@ -3434,7 +3434,7 @@
       "validation"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/schema-registry-validation-avro-protobuf.md",
+    "contentPath": "users/pankaj-kumar/posts/schema-registry-validation-avro-protobuf-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 6,
     "authorDetails": {
@@ -3450,7 +3450,7 @@
   {
     "id": "blog-kafka-7",
     "title": "Validating Message Headers",
-    "slug": "validating-kafka-message-headers",
+    "slug": "validating-kafka-message-headers-v3",
     "author": "pankaj-kumar",
     "excerpt": "Test your metadata. Learn how to verify correlation IDs, partition keys, and tracing metadata stored in Kafka headers.",
     "date": "07-Mar-2026",
@@ -3471,7 +3471,7 @@
       "metadata"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/validating-kafka-message-headers.md",
+    "contentPath": "users/pankaj-kumar/posts/validating-kafka-message-headers-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 7,
     "authorDetails": {
@@ -3487,7 +3487,7 @@
   {
     "id": "blog-kafka-8",
     "title": "Handling Eventual Consistency",
-    "slug": "handling-eventual-consistency-awaitility",
+    "slug": "handling-eventual-consistency-awaitility-v3",
     "author": "pankaj-kumar",
     "excerpt": "Say goodbye to Thread.sleep()! Master wait strategies and async assertions using Awaitility for asynchronous testing.",
     "date": "08-Mar-2026",
@@ -3509,7 +3509,7 @@
       "async"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/handling-eventual-consistency-awaitility.md",
+    "contentPath": "users/pankaj-kumar/posts/handling-eventual-consistency-awaitility-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 8,
     "authorDetails": {
@@ -3525,7 +3525,7 @@
   {
     "id": "blog-kafka-9",
     "title": "Testing Kafka Streams",
-    "slug": "testing-kafka-streams-aggregations",
+    "slug": "testing-kafka-streams-aggregations-v3",
     "author": "pankaj-kumar",
     "excerpt": "Learn how to validate stream processing topologies, joins, map operations, and windowed aggregations without a live broker.",
     "date": "09-Mar-2026",
@@ -3547,7 +3547,7 @@
       "testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/testing-kafka-streams-aggregations.md",
+    "contentPath": "users/pankaj-kumar/posts/testing-kafka-streams-aggregations-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 9,
     "authorDetails": {
@@ -3563,7 +3563,7 @@
   {
     "id": "blog-kafka-10",
     "title": "Dead Letter Queue (DLQ) Testing",
-    "slug": "dead-letter-queue-dlq-testing",
+    "slug": "dead-letter-queue-dlq-testing-v3",
     "author": "pankaj-kumar",
     "excerpt": "Ensure reliability! Validate error-handling mechanisms and ensure corrupt payloads are routed to retry and DLQ topics.",
     "date": "10-Mar-2026",
@@ -3584,7 +3584,7 @@
       "error-handling"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/dead-letter-queue-dlq-testing.md",
+    "contentPath": "users/pankaj-kumar/posts/dead-letter-queue-dlq-testing-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 10,
     "authorDetails": {
@@ -3600,7 +3600,7 @@
   {
     "id": "blog-kafka-11",
     "title": "Building a Kafka Test Utility",
-    "slug": "building-reusable-kafka-test-utility",
+    "slug": "building-reusable-kafka-test-utility-v3",
     "author": "pankaj-kumar",
     "excerpt": "Simplify your automation codebase. Build a reusable Kafka producer and consumer helper to encapsulate complex boilerplates.",
     "date": "11-Mar-2026",
@@ -3622,7 +3622,7 @@
       "refactoring"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/building-reusable-kafka-test-utility.md",
+    "contentPath": "users/pankaj-kumar/posts/building-reusable-kafka-test-utility-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 11,
     "authorDetails": {
@@ -3638,7 +3638,7 @@
   {
     "id": "blog-kafka-12",
     "title": "Testcontainers for Kafka",
-    "slug": "using-testcontainers-for-ephemeral-kafka",
+    "slug": "using-testcontainers-for-ephemeral-kafka-v3",
     "author": "pankaj-kumar",
     "excerpt": "Say goodbye to pre-configured brokers! Learn how to spin up ephemeral, lightweight Kafka containers on-the-fly inside JUnit.",
     "date": "12-Mar-2026",
@@ -3660,7 +3660,7 @@
       "ci"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/using-testcontainers-for-ephemeral-kafka.md",
+    "contentPath": "users/pankaj-kumar/posts/using-testcontainers-for-ephemeral-kafka-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 12,
     "authorDetails": {
@@ -3676,7 +3676,7 @@
   {
     "id": "blog-kafka-13",
     "title": "Mocking Kafka",
-    "slug": "mocking-kafka-producers-consumers-unit-tests",
+    "slug": "mocking-kafka-producers-consumers-unit-tests-v3",
     "author": "pankaj-kumar",
     "excerpt": "Speed up unit testing! Learn how to use MockProducer and MockConsumer from kafka-clients for super-fast offline validation.",
     "date": "13-Mar-2026",
@@ -3697,7 +3697,7 @@
       "unit-testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/mocking-kafka-producers-consumers-unit-tests.md",
+    "contentPath": "users/pankaj-kumar/posts/mocking-kafka-producers-consumers-unit-tests-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 13,
     "authorDetails": {
@@ -3713,7 +3713,7 @@
   {
     "id": "blog-kafka-14",
     "title": "Load Testing Kafka",
-    "slug": "load-testing-kafka-high-throughput",
+    "slug": "load-testing-kafka-high-throughput-v3",
     "author": "pankaj-kumar",
     "excerpt": "Test scale! Build high-performance load tests to push millions of events per second into Kafka brokers to measure consumer lag.",
     "date": "14-Mar-2026",
@@ -3735,7 +3735,7 @@
       "jmeter"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/load-testing-kafka-high-throughput.md",
+    "contentPath": "users/pankaj-kumar/posts/load-testing-kafka-high-throughput-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 14,
     "authorDetails": {
@@ -3751,7 +3751,7 @@
   {
     "id": "blog-kafka-15",
     "title": "Integrating Kafka Tests in CI/CD",
-    "slug": "integrating-kafka-tests-ci-cd-github-actions",
+    "slug": "integrating-kafka-tests-ci-cd-github-actions-v3",
     "author": "pankaj-kumar",
     "excerpt": "Complete the cycle! Learn how to run Zookeeper, Kafka, and your test suites automatically in a GitHub Actions workflow.",
     "date": "15-Mar-2026",
@@ -3773,7 +3773,7 @@
       "devops"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/integrating-kafka-tests-ci-cd-github-actions.md",
+    "contentPath": "users/pankaj-kumar/posts/integrating-kafka-tests-ci-cd-github-actions-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 15,
     "authorDetails": {
