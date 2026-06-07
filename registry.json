@@ -3336,7 +3336,7 @@
   {
     "id": "blog-kafka-4",
     "title": "Writing your first Kafka Producer Test",
-    "slug": "writing-first-kafka-producer-test",
+    "slug": "writing-first-kafka-producer-test-v3",
     "author": "pankaj-kumar",
     "excerpt": "Step-by-step guide to writing a Kafka producer client and verifying that messages are successfully published to topics.",
     "date": "04-Mar-2026",
@@ -3358,7 +3358,7 @@
       "testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-producer-test.md",
+    "contentPath": "users/pankaj-kumar/posts/writing-first-kafka-producer-test-v3.md",
     "series": "kafka-api-testing",
     "seriesOrder": 4,
     "authorDetails": {
