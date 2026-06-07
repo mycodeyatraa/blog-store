@@ -103,7 +103,9 @@ jobs:
 With this, every code commit automatically spins up a clean Ubuntu runner, downloads Java 17, blasts through your tests in parallel, and zips up the beautiful HTML reports as an artifact you can download!
 
 ## 🔗 The Complete Masterclass Repository
+
 You can access the entire source code, feature files, and configuration we built throughout this 10-part series at the official GitHub Repository:
+
 👉 [**MyCodeYatra Karate Framework Repository**](https://github.com/MYCodeYatra/mcyt-api-karate)
 
 Thank you so much for following along with this **10-Part Karate API Series** at MyCodeYatra. Happy Automating!
