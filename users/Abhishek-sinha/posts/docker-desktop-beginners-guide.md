@@ -43,47 +43,17 @@ You'll hear both words constantly. Here's the cleanest analogy:
 
 An image is a file. A container is a running process started from that file. You can't edit a running container and have those changes stick — once you remove it, everything inside is gone (unless you used a volume, which we'll cover in a later article).
 
-```mermaid
-graph LR
-    A[Dockerfile] --> B[Image<br/>read-only blueprint]
-    B --> C[Container 1<br/>running process]
-    B --> D[Container 2<br/>running process]
-    B --> E[Container 3<br/>running process]
 
-    style B fill:#0db7ed,color:#fff
-    style C fill:#2496ED,color:#fff
-    style D fill:#2496ED,color:#fff
-    style E fill:#2496ED,color:#fff
-```
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/docker-desktop-beginners-guide/images/diagram_1.png)
+
 
 ### Containers vs Virtual Machines
 
 If you've used VirtualBox or VMware, you might wonder why you'd use a container instead. The difference is the layer of abstraction:
 
-```mermaid
-graph TD
-    subgraph VM["Virtual Machine Stack"]
-        A1[App A] --> A2[Bins/Libs]
-        B1[App B] --> B2[Bins/Libs]
-        A2 --> C1[Guest OS]
-        B2 --> C1
-        C1 --> D1[Hypervisor]
-        D1 --> E1[Host OS]
-        E1 --> F1[Hardware]
-    end
 
-    subgraph CONTAINER["Container Stack"]
-        A3[App A] --> B3[Bins/Libs]
-        C3[App B] --> D3[Bins/Libs]
-        B3 --> E3[Container Engine]
-        D3 --> E3
-        E3 --> F3[Host OS]
-        F3 --> G3[Hardware]
-    end
+![diagram_2](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/docker-desktop-beginners-guide/images/diagram_2.png)
 
-    style VM fill:#fef3c7
-    style CONTAINER fill:#dbeafe
-```
 
 The VM stack runs a full guest OS inside your host OS. The container stack shares the host's kernel — there's no guest OS. That's why containers start in milliseconds and VMs take minutes, and why a 1 GB container image often does what a 20 GB VM image does.
 
@@ -95,21 +65,9 @@ Here's a detail that confuses people: **on Linux, Docker runs natively.** On mac
 
 Docker Desktop is that VM, plus a nice GUI, plus extras like Docker Compose, Docker Scout, and Extensions. When you click that whale icon in your menu bar, you're not just starting the Docker daemon — you're spinning up a managed Linux VM that runs the actual containers, and the dashboard gives you a window into that VM.
 
-```mermaid
-graph TD
-    User[You] --> GUI[Docker Desktop GUI]
-    User --> CLI[docker CLI in Terminal]
-    GUI --> Engine[Docker Engine]
-    CLI --> Engine
-    Engine --> VM[Linux VM<br/>WSL 2 / Hyper-V / Apple Virtualization]
-    VM --> Kernel[Host Kernel]
-    Kernel --> HW[Hardware]
 
-    style GUI fill:#0db7ed,color:#fff
-    style CLI fill:#0db7ed,color:#fff
-    style Engine fill:#2496ED,color:#fff
-    style VM fill:#f59e0b,color:#fff
-```
+![diagram_3](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/docker-desktop-beginners-guide/images/diagram_3.png)
+
 
 > **Key insight:** On Windows, Docker Desktop uses WSL 2 by default. On macOS on Apple Silicon, it uses Apple's native virtualization framework. You rarely need to think about the VM — but knowing it's there explains why Docker Desktop needs several GB of RAM.
 
