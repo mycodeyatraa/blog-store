@@ -140,22 +140,9 @@ Let's break down every flag:
 
 Open your browser to **http://localhost:8080**. You should see the nginx welcome page. You just ran a web server in a container, served by a process running inside a Linux VM, all without installing nginx on your actual machine.
 
-```mermaid
-sequenceDiagram
-    participant Browser
-    participant Host as Your Machine<br/>(localhost:8080)
-    participant Docker as Docker Desktop<br/>(WSL 2 VM)
-    participant Nginx as nginx Container<br/>(port 80)
 
-    Browser->>Host: GET http://localhost:8080
-    Host->>Docker: Forward to VM
-    Docker->>Nginx: Forward to container port 80
-    Nginx-->>Docker: HTML response
-    Docker-->>Host: Forward back
-    Host-->>Browser: HTML response
+![diagram_4](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/docker-desktop-beginners-guide/images/diagram_4.png)
 
-    Note over Browser,Nginx: Same machine, three layers,<br/>but the request flows through all of them
-```
 
 ### Managing the container
 
@@ -199,16 +186,9 @@ The tag system follows a simple pattern: `repository[:tag][@digest]`. Examples:
 | `nginx:1.27-alpine` | Version 1.27, built on Alpine Linux (smaller image) |
 | `nginx@sha256:abc...` | A specific image, pinned by content hash (most reproducible) |
 
-```mermaid
-graph LR
-    HUB[Docker Hub<br/>hub.docker.com] -->|docker pull| LOCAL[Local Image Cache]
-    LOCAL -->|docker run| C1[Container A]
-    LOCAL -->|docker run| C2[Container B]
-    LOCAL -->|docker run| C3[Container C]
 
-    style HUB fill:#0db7ed,color:#fff
-    style LOCAL fill:#2496ED,color:#fff
-```
+![diagram_5](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/Abhishek-sinha/docker-desktop-beginners-guide/images/diagram_5.png)
+
 
 You can run **multiple containers from the same image** — they each get their own isolated filesystem, ports, and lifecycle. To prove it:
 
