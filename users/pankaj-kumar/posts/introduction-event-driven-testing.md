@@ -32,16 +32,9 @@ In an **Event-Driven Architecture (EDA)**, communication is **asynchronous** and
 * Producer immediately continues its work without waiting for a response.
 * Consumers subscribe to the event stream and process messages at their own pace.
 
-```mermaid
-sequenceDiagram
-    participant P as Producer
-    participant K as Kafka Broker
-    participant C as Consumer
-    P->>K: Publish event (UserCreated)
-    Note over P: Continues immediately
-    K->>C: Push event / Consumer Poll
-    C->>C: Process Event
-```
+
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/introduction-event-driven-testing/images/diagram_1.png)
+
 
 ## 2. Why is Testing Asynchronous Systems Harder?
 
