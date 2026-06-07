@@ -3713,7 +3713,7 @@
   {
     "id": "blog-kafka-14",
     "title": "Load Testing Kafka",
-    "slug": "load-testing-kafka-high-throughput-v3",
+    "slug": "load-testing-kafka-high-throughput-v4",
     "author": "pankaj-kumar",
     "excerpt": "Test scale! Build high-performance load tests to push millions of events per second into Kafka brokers to measure consumer lag.",
     "date": "14-Mar-2026",
@@ -3735,7 +3735,7 @@
       "jmeter"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/load-testing-kafka-high-throughput-v3.md",
+    "contentPath": "users/pankaj-kumar/posts/load-testing-kafka-high-throughput-v4.md",
     "series": "kafka-api-testing",
     "seriesOrder": 14,
     "authorDetails": {
