@@ -40,7 +40,7 @@ Playwright connects to browsers via a single bi-directional **WebSocket** connec
 ### 3. Cypress: The In-Browser Execution
 Cypress operates **inside the browser**. It runs your test scripts directly in the same run-loop as your application. Node.js executes in the background to handle OS-level tasks (like system file uploads or network stubbing), while the test commands execute inside an iframe side-by-side with the application.
 
-![Mermaid Diagram](https://mermaid.ink/img/Z3JhcGggVEQKICAgIHN1YmdyYXBoIFNlbGVuaXVtIFtTZWxlbml1bTogSFRUUCBXM0NdCiAgICAgICAgVGVzdENvZGUxW0phdmEgVGVzdCBDb2RlXSAtLT58VzNDIEhUVFB8IEJyb3dzZXJEcml2ZXJbQnJvd3NlciBEcml2ZXJdCiAgICAgICAgQnJvd3NlckRyaXZlciAtLT58TmF0aXZlIENvbW1hbmR8IEJyb3dzZXIxW1dlYiBCcm93c2VyXQogICAgZW5kCgogICAgc3ViZ3JhcGggUGxheXdyaWdodCBbUGxheXdyaWdodDogV2ViU29ja2V0XQogICAgICAgIFRlc3RDb2RlMltOb2RlIC8gSmF2YSBDb2RlXSAtLT58QmktZGlyZWN0aW9uYWwgV2ViU29ja2V0fCBCcm93c2VyMltXZWIgQnJvd3Nlcl0KICAgIGVuZAoKICAgIHN1YmdyYXBoIEN5cHJlc3MgW0N5cHJlc3M6IEluLUJyb3dzZXJdCiAgICAgICAgQ3lwcmVzc1J1bm5lcltDeXByZXNzIFRlc3QgUnVubmVyXSA8LS0-fFNoYXJlZCBSdW4tTG9vcHwgQXBwW1RhcmdldCBBcHBsaWNhdGlvbl0KICAgICAgICBDeXByZXNzUnVubmVyIDwtLT58T1MgLyBOZXR3b3JrIFByb3h5fCBOb2RlUHJvY2Vzc1tOb2RlLmpzIFByb2Nlc3NdCiAgICBlbmQ=)
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/posts/selenium-vs-playwright-vs-cypress-guide/images/diagram_1.png)
 
 ---
 
