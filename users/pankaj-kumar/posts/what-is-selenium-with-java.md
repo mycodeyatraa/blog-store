@@ -75,6 +75,13 @@ Create a new Maven project and add the following dependencies to your `pom.xml`:
         <artifactId>webdrivermanager</artifactId>
         <version>5.8.0</version>
     </dependency>
+    <!-- TestNG testing framework -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
 ```
 
@@ -94,56 +101,98 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import java.time.Duration;
 public class FirstSeleniumTest {
-    public static void main(String[] args) {
+    private WebDriver driver;
+    private WebDriverWait wait;
+    @BeforeMethod
+    public void setUp() {
         // Setup ChromeDriver binary automatically
         WebDriverManager.chromedriver().setup();
-        // Configure headless / browser options if necessary
+        // Configure options
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        // Initialize WebDriver instance
-        WebDriver driver = new ChromeDriver(options);
-        try {
-            // 1. Maximize window & configure implicit waits
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            // 2. Navigate to the Live Practice Site
-            System.out.println("Navigating to target site...");
-            driver.get("https://practice.mycodeyatra.com/");
-            // 3. Verify Homepage Title
-            String homeTitle = driver.getTitle();
-            System.out.println("Homepage Title: " + homeTitle);
-            // 4. Click Sandbox Arena button to navigate
-            System.out.println("Opening Sandbox Arena...");
-            WebElement sandboxLink = driver.findElement(By.xpath("//span[contains(text(),'Sandbox Arena')]"));
-            sandboxLink.click();
-            // 5. Verify navigation to Sandbox by checking the header text
-            WebElement header = driver.findElement(By.tagName("h1"));
-            String headerText = header.getText();
-            System.out.println("Header Text on Sandbox: " + headerText);
-            if (headerText.contains("Sandbox Arena")) {
-                System.out.println("Test PASSED: Successfully navigated to Sandbox!");
-            } else {
-                System.out.println("Test FAILED: Header did not match.");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            // 6. Close the browser session
-            System.out.println("Quitting browser session...");
+        options.addArguments("--headless=new");
+        // Initialize driver
+        driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        // Initialize explicit wait (5 seconds timeout)
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+    }
+    @Test
+    public void testFirstScript() {
+        // 1. Navigate to the Live Practice Site
+        System.out.println("Navigating to: https://practice.mycodeyatra.com/");
+        driver.get("https://practice.mycodeyatra.com/");
+        // 2. Validate Homepage Title
+        String homeTitle = driver.getTitle();
+        System.out.println("Homepage Title: " + homeTitle);
+        Assert.assertTrue(homeTitle.contains("MyCodeYatra") || homeTitle.isEmpty(), "Title validation failed");
+        // 3. Click Sandbox Arena button
+        System.out.println("Opening Sandbox Arena...");
+        WebElement sandboxLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Sandbox Arena')]")));
+        sandboxLink.click();
+        // 4. Validate Sandbox Header using explicit wait to prevent race condition
+        WebElement header = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Test Practice Sandbox')]")));
+        String headerText = header.getText();
+        System.out.println("Sandbox Page Header: " + headerText);
+        Assert.assertTrue(headerText.contains("Test Practice Sandbox"), "Failed to load Sandbox Arena page");
+    }
+    @AfterMethod
+    public void tearDown() {
+        // Close driver session safely
+        if (driver != null) {
+            System.out.println("Quitting browser driver session...");
             driver.quit();
         }
     }
 }
 ```
 
-### Script Code Explanation:
-1. **`WebDriverManager`**: Eliminates the manual hassle of downloading `chromedriver.exe` and matches the driver version automatically with the installed Chrome version.
-2. **`ChromeDriver`**: The class instantiation launches a new Chrome window session.
-3. **`driver.get()`**: Commands the browser to load the designated web URL.
-4. **`driver.findElement()`**: Finds target WebElements on the page using locator strategies (like XPath and Tag Name).
-5. **`driver.quit()`**: Closes all browser windows opened by WebDriver and terminates the driver session. Always invoke this in a `finally` block to prevent orphaned driver processes.
+---
+
+## 📊 Test Execution Output Log
+
+Here is the console log from running the test script using Maven (`mvn test`). The test successfully launches Chrome in headless mode, automates the flow, and completes with zero failures:
+
+```text
+[INFO] Scanning for projects...
+[INFO] -------------------< com.mycodeyatra:mcyt-sel-java >--------------------
+[INFO] Building mcyt-sel-java 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mcyt-sel-java ---
+[INFO] Compiling 1 source file to D:\MyCodeYatra\AILearning2026\Repository\mcyt-sel-java\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mcyt-sel-java ---
+[INFO] Surefire report directory: D:\MyCodeYatra\AILearning2026\Repository\mcyt-sel-java\target\surefire-reports
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycodeyatra.tests.FirstSeleniumTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@35f983a6
+Navigating to: https://practice.mycodeyatra.com/
+Homepage Title: MyCodeYatra | Test Automation Sandbox
+Opening Sandbox Arena...
+Sandbox Page Header: Test Practice Sandbox
+Quitting browser driver session...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.532 sec
+Results :
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.277 s
+[INFO] Finished at: 2026-06-10T20:14:34+05:30
+[INFO] ------------------------------------------------------------------------
+```
 
 ---
 
