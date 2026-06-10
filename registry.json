@@ -3971,5 +3971,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-6",
+    "title": "Locators in Selenium: The Complete Guide to Locating Elements",
+    "slug": "selenium-locators-complete-guide",
+    "author": "pankaj-kumar",
+    "excerpt": "Locators are the foundation of any web automation framework. Learn how to write stable, robust locators using ID, Name, CSS Selectors, and XPath while avoiding common design pitfalls.",
+    "date": "06-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "locators",
+      "best-practices"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/selenium-locators-complete-guide.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
