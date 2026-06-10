@@ -178,17 +178,12 @@ public class SetupTest {
 
 ### 📝 Script Code Explanation
 
-**`ChromeOptions`**
-An configuration object class used to customize browser settings (such as setting headless mode, disabling extensions, and overriding security properties).
-
-**`driver.findElement(By.xpath(...))`**
-Locates page elements using locator query strings like XPath. We target specific matching button or header text dynamically on the practice dashboard.
-
-**`wait.until(ExpectedConditions...)`**
-Explicit wait synchronization rules that pause program execution until the targeted element meets structural rules (such as being clickable or visible).
-
-**`driver.quit()`**
-Closes all browser tabs and kills the underlying driver daemon process to prevent orphan sessions consuming system RAM.
+| Element / Command | Purpose & Description |
+| :--- | :--- |
+| **`ChromeOptions`** | An configuration object class used to customize browser settings (such as setting headless mode, disabling extensions, and overriding security properties). |
+| **`driver.findElement(By.xpath(...))`** | Locates page elements using locator query strings like XPath. We target specific matching button or header text dynamically on the practice dashboard. |
+| **`wait.until(ExpectedConditions...)`** | Explicit wait synchronization rules that pause program execution until the targeted element meets structural rules (such as being clickable or visible). |
+| **`driver.quit()`** | Closes all browser windows and kills the underlying driver daemon process to prevent orphan sessions consuming system RAM. |
 
 ---
 
