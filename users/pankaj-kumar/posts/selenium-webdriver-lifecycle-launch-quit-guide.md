@@ -116,8 +116,31 @@ public class ModernLifecycle {
     }
 }
 ```
+### 3. Execution Log Output
+
+When running the TestNG class through the Maven test runner (`mvn test -Dtest=LifecycleTest`), the logs demonstrate the clean execution of the setup, run, and teardown sequence:
+
+```text
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycodeyatra.tests.LifecycleTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator
+[Lifecycle] Launching ChromeDriver...
+[Lifecycle] Navigating to Practice Site...
+[Lifecycle] Active Page Title: MyCodeYatra | Test Automation Sandbox
+[Lifecycle] Destroying browser session (driver.quit)...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.83 sec
+Results :
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.568 s
+```
 
 ---
+
 
 ## 💡 Summary: Lifecycle Best Practices
 
