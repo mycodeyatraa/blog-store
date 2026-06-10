@@ -156,22 +156,12 @@ public class FirstSeleniumTest {
 }
 ```
 
-### Script Code Explanation
-
-**`WebDriverManager`**
-Eliminates the manual hassle of downloading `chromedriver.exe` and matches the driver version automatically with the installed Chrome version.
-
-**`ChromeDriver`**
-The class instantiation launches a new Chrome window session.
-
-**`driver.get()`**
-Commands the browser to load the designated web URL.
-
-**`driver.findElement()`**
-Finds target WebElements on the page using locator strategies (like XPath and Tag Name).
-
-**`driver.quit()`**
-Closes all browser windows opened by WebDriver and terminates the driver session. Always invoke this in the test teardown (`@AfterMethod`) to prevent orphaned driver processes.
+### Script Code Explanation:
+* 1. `WebDriverManager`: Eliminates the manual hassle of downloading chromedriver.exe and matches the driver version automatically with the installed Chrome version.
+* 2. `ChromeDriver`: The class instantiation launches a new Chrome window session.
+* 3. `driver.get()`: Commands the browser to load the designated web URL.
+* 4. `driver.findElement()`: Finds target WebElements on the page using locator strategies (like XPath and Tag Name).
+* 5. `driver.quit()`: Closes all browser windows opened by WebDriver and terminates the driver session. Always invoke this in the test teardown (@AfterMethod) to prevent orphaned driver processes.
 
 ---
 
@@ -207,7 +197,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  13.277 s
-[INFO] Finished at: 2024-07-01T20:14:34+05:30
+[INFO] Finished at: 2026-06-10T20:14:34+05:30
 [INFO] ------------------------------------------------------------------------
 ```
 
