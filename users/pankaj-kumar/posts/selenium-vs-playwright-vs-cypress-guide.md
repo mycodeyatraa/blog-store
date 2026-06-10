@@ -64,9 +64,31 @@ How do you pick between the three? Use this decision tree:
 
 ### 🚦 Framework Selection Criteria
 
-| Choose Selenium If... | Choose Playwright If... | Choose Cypress If... |
-| :--- | :--- | :--- |
-| • Your team is writing enterprise tests in **Java, C#, Kotlin, or Ruby** with existing legacy suites.<br><br>• You need to test real mobile browsers via Appium.<br><br>• You run tests on massive Selenium Grids or cloud grids. | • You are starting a fresh project and need speed and maximum reliability.<br><br>• Your scenarios involve multi-tab, multi-window, file operations, or Shadow DOM.<br><br>• You want native network mock/stub and built-in auto-waiting. | • Developers write the tests and need time-travel debugging & UI Test Runner.<br><br>• Tests are restricted to single-domain execution.<br><br>• Frontend heavily relies on API mocking/stubbing (SPAs). |
+**Choose Selenium if:**
+
+• Your team is writing enterprise tests in languages like **Java, C#, Kotlin, or Ruby** and has a huge suite of legacy tests already running.
+
+• You need to test across real mobile browsers via Appium using the same WebDriver API.
+
+• You require execution on massive, enterprise-managed Selenium Grids or cloud infrastructure.
+
+
+**Choose Playwright if:**
+
+• You are starting a brand new project and want the fastest, most reliable engine.
+
+• Your tests involve complex UI interactions (multiple windows, file uploads/downloads, or Shadow DOM components).
+
+• You want native support for API stubbing, network interception, and auto-waiting without configuring complex explicit wait blocks.
+
+
+**Choose Cypress if:**
+
+• Your developers write the tests and want a rich, interactive Test Runner interface with time-travel debugging.
+
+• The test scope is confined to single-domain applications.
+
+• Your application is heavily single-page (SPA) and relies heavily on mocking frontend network requests.
 
 ---
 
