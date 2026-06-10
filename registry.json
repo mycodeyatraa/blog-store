@@ -3860,5 +3860,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-3",
+    "title": "Setup Selenium with Java Project: The Complete Modern Guide",
+    "slug": "setup-selenium-with-java-project-guide",
+    "author": "pankaj-kumar",
+    "excerpt": "Setting up an enterprise-grade automation framework requires a clean, repeatable project structure. We set up a project using Maven and the native Selenium Manager.",
+    "date": "03-Jul-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "maven",
+      "setup"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/setup-selenium-with-java-project-guide.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
