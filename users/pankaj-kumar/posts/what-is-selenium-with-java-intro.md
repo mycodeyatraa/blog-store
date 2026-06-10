@@ -1,6 +1,7 @@
 ---
 title: What is Selenium with Java?
 date: 01-Jul-2024
+lastUpdated: 10-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
@@ -17,6 +18,8 @@ readTime: 4 min read
 ---
 
 # What is Selenium with Java?
+
+*Last Updated: 10-Jun-2026*
 
 In the fast-paced world of software delivery, manual testing quickly becomes a bottleneck. To achieve true continuous integration and continuous deployment (CI/CD), automating browser interactions is essential. Among the tools available, the pairing of **Selenium WebDriver** and **Java** remains the enterprise gold standard for web UI testing.
 
