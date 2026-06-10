@@ -1,6 +1,7 @@
 ---
 title: Setup Selenium with Java Project: The Complete Modern Guide
 date: 03-Jul-2024
+lastUpdated: 10-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
@@ -17,6 +18,8 @@ readTime: 5 min read
 ---
 
 # Setup Selenium with Java Project: The Complete Modern Guide
+
+*Last Updated: 10-Jun-2026*
 
 Setting up an enterprise-grade automation framework requires a clean, repeatable project structure. While setup used to involve manually downloading browser executables (`chromedriver.exe`) or configuring third-party libraries, modern Selenium has simplified this process.
 
