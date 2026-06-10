@@ -4008,5 +4008,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-7",
+    "title": "Assertions in Test Automation: Hard, Soft, and Fluent Assertions",
+    "slug": "assertions-testng-junit-assertj-guide",
+    "author": "pankaj-kumar",
+    "excerpt": "An automated test without assertions is not a test. Learn the differences between Hard, Soft, and Fluent AssertJ assertions, when to use each style, and common design pitfalls.",
+    "date": "07-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "testng",
+      "assertj"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/assertions-testng-junit-assertj-guide.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
