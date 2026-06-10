@@ -191,5 +191,16 @@
       "blog-kafka-14",
       "blog-kafka-15"
     ]
+  },
+  {
+    "id": "selenium-with-java-zero-to-automation",
+    "title": "Selenium with Java - Zero to Automation",
+    "description": "Master UI automation testing using Selenium WebDriver and Java.",
+    "author": "pankaj-kumar",
+    "articleIds": [
+      "blog-selenium-java-1"
+    ],
+    "status": "In Progress",
+    "createdAt": "01-Jul-2024"
   }
 ]
