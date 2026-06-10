@@ -19,7 +19,7 @@ readTime: 5 min read
 
 # Selenium vs Playwright vs Cypress: The Ultimate Automation Showdown
 
-<span class="px-3 py-1 bg-slate-900/40 border border-slate-800/40 text-[#94a3b8] rounded-full font-bold">Last Updated: 10-Jun-2026</span>
+> 📅 **Last Updated:** 10-Jun-2026
 
 Selecting the right test automation framework is one of the most critical decisions a QA Architect or Engineering Manager makes. A wrong choice can lead to high maintenance overhead, flaky tests, and slow CI/CD pipelines.
 
