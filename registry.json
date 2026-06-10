@@ -3789,7 +3789,7 @@
   {
     "id": "blog-selenium-java-1",
     "title": "What is Selenium with Java?",
-    "slug": "what-is-selenium-with-java",
+    "slug": "what-is-selenium-with-java-intro",
     "author": "pankaj-kumar",
     "excerpt": "Welcome to the Selenium with Java Series! In this guide, we dive into the foundations of Selenium WebDriver and write your first automation script targeting a live site.",
     "date": "01-Jul-2024",
@@ -3810,7 +3810,7 @@
       "testing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/what-is-selenium-with-java.md",
+    "contentPath": "users/pankaj-kumar/posts/what-is-selenium-with-java-intro.md",
     "series": "selenium-with-java-zero-to-automation",
     "seriesOrder": 1,
     "authorDetails": {
