@@ -3897,5 +3897,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-4",
+    "title": "Selenium WebDriver Architecture & W3C Protocol",
+    "slug": "selenium-webdriver-architecture-w3c-protocol",
+    "author": "pankaj-kumar",
+    "excerpt": "Understanding the underlying communication protocol is essential to building stable frameworks. We dive into how language bindings, browser drivers, and browsers interact under the W3C WebDriver standard.",
+    "date": "04-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "architecture",
+      "webdriver"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/selenium-webdriver-architecture-w3c-protocol.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
