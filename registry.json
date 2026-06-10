@@ -3826,7 +3826,7 @@
   {
     "id": "blog-selenium-java-2",
     "title": "Selenium vs Playwright vs Cypress: The Ultimate Showdown",
-    "slug": "selenium-vs-playwright-vs-cypress",
+    "slug": "selenium-vs-playwright-vs-cypress-guide",
     "author": "pankaj-kumar",
     "excerpt": "Selecting the right web UI testing framework is a critical engineering decision. We compare Selenium, Playwright, and Cypress across architecture, language support, and features.",
     "date": "02-Jul-2024",
@@ -3848,7 +3848,7 @@
       "automation"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/selenium-vs-playwright-vs-cypress.md",
+    "contentPath": "users/pankaj-kumar/posts/selenium-vs-playwright-vs-cypress-guide.md",
     "series": "selenium-with-java-zero-to-automation",
     "seriesOrder": 2,
     "authorDetails": {
