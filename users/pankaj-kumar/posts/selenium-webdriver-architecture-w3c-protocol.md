@@ -35,7 +35,7 @@ Today, Selenium 4 uses the **W3C WebDriver Standard**. Because the WebDriver pro
 
 Here is the difference in communication paths:
 
-![Mermaid Diagram](https://mermaid.ink/img/Z3JhcGggVEQ7CiAgICBzdWJncmFwaCAiTGVnYWN5IChTZWxlbml1bSAzKSIKICAgICAgICBDb2RlM1tKYXZhIFRlc3QgQ29kZV0gLS0-fEpTT04gV2lyZSBQcm90b2NvbHwgRHJpdmVyM1tCcm93c2VyIERyaXZlcl0KICAgICAgICBEcml2ZXIzIC0tPnxCcm93c2VyIFNwZWNpZmljIEFQSXwgQnJvd3NlcjNbQnJvd3Nlcl0KICAgIGVuZAogICAgc3ViZ3JhcGggIk1vZGVybiAoU2VsZW5pdW0gNCkiCiAgICAgICAgQ29kZTRbSmF2YSBUZXN0IENvZGVdIC0tPnxXM0MgV2ViRHJpdmVyIFByb3RvY29sfCBEcml2ZXI0W0Jyb3dzZXIgRHJpdmVyXQogICAgICAgIERyaXZlcjQgLS0-fE5hdGl2ZSBXM0MgQ29tbWFuZHN8IEJyb3dzZXI0W0Jyb3dzZXJdCiAgICBlbmQ=)
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/posts/selenium-webdriver-architecture-w3c-protocol/images/diagram_1.png)
 
 > **Key takeaway:** Standardization ensures higher test stability, as the communication protocol matches standard web browser specifications.
 
@@ -53,7 +53,7 @@ Modern Selenium automation relies on three distinct layers working in harmony:
 
 When you execute a command like `driver.get("https://practice.mycodeyatra.com")`, the following sequence takes place:
 
-![Mermaid Diagram](https://mermaid.ink/img/c2VxdWVuY2VEaWFncmFtCiAgICBwYXJ0aWNpcGFudCBKYXZhIGFzIEphdmEgQ2xpZW50CiAgICBwYXJ0aWNpcGFudCBFeGVjIGFzIENocm9tZURyaXZlciAoTG9jYWwgU2VydmVyKQogICAgcGFydGljaXBhbnQgQnJvd3NlciBhcyBDaHJvbWUgQnJvd3NlcgogICAgCiAgICBKYXZhLT4-RXhlYzogSFRUUCBQT1NUIC9zZXNzaW9uL3tpZH0vdXJsIHsidXJsIjogImh0dHBzOi8vcHJhY3RpY2UubXljb2RleWF0cmEuY29tIn0KICAgIE5vdGUgb3ZlciBFeGVjOiBWYWxpZGF0ZSBXM0MgcGF5bG9hZAogICAgRXhlYy0-PkJyb3dzZXI6IEV4ZWN1dGUgbmF0aXZlIERldlRvb2xzIG5hdmlnYXRpb24KICAgIEJyb3dzZXItLT4-RXhlYzogQ29tbWFuZCBzdWNjZXNzIGNvbmZpcm1hdGlvbgogICAgRXhlYy0tPj5KYXZhOiBIVFRQIFJlc3BvbnNlIDIwMCBPSw==)
+![diagram_2](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/posts/selenium-webdriver-architecture-w3c-protocol/images/diagram_2.png)
 
 ---
 
