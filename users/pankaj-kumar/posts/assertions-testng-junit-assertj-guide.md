@@ -104,8 +104,37 @@ public class AssertJTest {
     }
 }
 ```
+### 4. Test Suite Execution Logs
+
+When running this suite through Maven (`mvn test -Dtest=AssertionsDemoTest`), we see that `testAssertJAssertion` and `testHardAssertion` pass successfully, while `testSoftAssertion` fails and dumps the accumulated error report at the end because of `.assertAll()`:
+
+```text
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycodeyatra.tests.AssertionsDemoTest
+[Assertions] Executing AssertJ Fluent Assertion Test...
+[Assertions] AssertJ fluent assertions passed successfully.
+[Assertions] Executing Hard Assertion Test...
+[Assertions] Hard assertion passed successfully.
+[Assertions] Executing Soft Assertion Test...
+[Assertions] First soft assertion checked.
+[Assertions] Second soft assertion checked (intended failure).
+[Assertions] Finalizing soft assertions via assertAll...
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.82 sec <<< FAILURE!
+testSoftAssertion(com.mycodeyatra.tests.AssertionsDemoTest)  Time elapsed: 0.334 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	User role mismatch! expected [Admin] but found [Manager]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.mycodeyatra.tests.AssertionsDemoTest.testSoftAssertion(AssertionsDemoTest.java:34)
+Results :
+Failed tests:   testSoftAssertion(com.mycodeyatra.tests.AssertionsDemoTest): The following asserts failed:(..)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+```
 
 ---
+
 
 ## 📊 Comparison of Assertion Types
 
