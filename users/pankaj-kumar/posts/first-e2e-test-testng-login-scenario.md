@@ -1,6 +1,6 @@
 ---
 title: Writing Your First E2E Test: A Step-by-Step Guide with Selenium and TestNG
-date: 11-Jun-2026
+date: 08-Jul-2024
 lastUpdated: 11-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
