@@ -62,37 +62,12 @@ import java.time.Duration;
 public class UploadTest {
     private WebDriver driver;
     private WebDriverWait wait;
-    private File tempHtmlFile;
     private File uploadTxtFile;
     @BeforeMethod
     public void setUp() throws IOException {
-        // Create local HTML form for file upload testing
         File targetDir = new File("target");
         if (!targetDir.exists()) {
             targetDir.mkdirs();
-        }
-        tempHtmlFile = new File(targetDir, "file_upload_demo.html");
-        try (FileWriter writer = new FileWriter(tempHtmlFile)) {
-            writer.write("<!DOCTYPE html>\n" +
-                    "<html>\n" +
-                    "<head>\n" +
-                    "    <title>File Upload Practice Sandbox</title>\n" +
-                    "</head>\n" +
-                    "<body>\n" +
-                    "    <h2>File Upload Demonstration</h2>\n" +
-                    "    <p>Upload a file to test sendKeys automation strategy:</p>\n" +
-                    "    <input type='file' id='file-upload' data-testid='file-upload-input' />\n" +
-                    "    <div id='upload-status' data-testid='upload-status' style='margin-top:20px; font-weight:bold;'>\n" +
-                    "        No file uploaded\n" +
-                    "    </div>\n" +
-                    "    <script>\n" +
-                    "        document.getElementById('file-upload').addEventListener('change', function(e) {\n" +
-                    "            var fileName = e.target.files[0] ? e.target.files[0].name : 'No file uploaded';\n" +
-                    "            document.getElementById('upload-status').textContent = 'Successfully uploaded: ' + fileName;\n" +
-                    "        });\n" +
-                    "    </script>\n" +
-                    "</body>\n" +
-                    "</html>");
         }
         // Create dummy text file to upload
         uploadTxtFile = new File(targetDir, "upload_test_file.txt");
@@ -107,13 +82,13 @@ public class UploadTest {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
     @Test
     public void testFileUploadViaSendKeys() {
-        // Navigate to the local practice file upload HTML
-        String fileUrl = "file:///" + tempHtmlFile.getAbsolutePath().replace("\\", "/");
-        System.out.println("Navigating to local HTML: " + fileUrl);
+        // Navigate to the live practice file upload URL
+        String fileUrl = "https://practice.mycodeyatra.com/#/upload-download";
+        System.out.println("Navigating to live URL: " + fileUrl);
         driver.get(fileUrl);
         // Locating the file upload input element
         System.out.println("Locating upload input field...");
@@ -125,7 +100,9 @@ public class UploadTest {
         System.out.println("Uploading file: " + uploadFilePath);
         uploadInput.sendKeys(uploadFilePath);
         // Verify status changes to include the uploaded file name
-        WebElement statusElement = driver.findElement(By.xpath("//div[@data-testid='upload-status']"));
+        WebElement statusElement = wait.until(
+            ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@data-testid='upload-status']"))
+        );
         String statusText = statusElement.getText();
         System.out.println("Status Message Captured: " + statusText);
         Assert.assertTrue(statusText.contains("Successfully uploaded: upload_test_file.txt"), 
@@ -139,9 +116,6 @@ public class UploadTest {
             driver.quit();
         }
         // Clean up temporary files
-        if (tempHtmlFile != null && tempHtmlFile.exists()) {
-            tempHtmlFile.delete();
-        }
         if (uploadTxtFile != null && uploadTxtFile.exists()) {
             uploadTxtFile.delete();
         }
@@ -157,13 +131,13 @@ Below are the clean console reports from compiling and executing the upload suit
 
 ```bash
 [INFO] Running com.mycodeyatra.tests.UploadTest
-Navigating to local HTML: file:///D:/MyCodeYatra/AILearning2026/Repository/mcyt-sel-java/target/file_upload_demo.html
+Navigating to live URL: https://practice.mycodeyatra.com/#/upload-download
 Locating upload input field...
 Uploading file: D:\MyCodeYatra\AILearning2026\Repository\mcyt-sel-java\target\upload_test_file.txt
 Status Message Captured: Successfully uploaded: upload_test_file.txt
 File upload test validation completed successfully!
 Quitting driver session...
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.887 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.512 sec
 ```
 
 ---
