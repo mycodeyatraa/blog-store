@@ -21,7 +21,7 @@ readTime: 6 min read
 
 > 📅 **Last Updated:** 11-Jun-2026
 
-As automated test suites grow in size, traditional Page Objects (`POM`) often become bloated. Page classes end up carrying double responsibilities: maintaining web element locators and defining high-level workflow interactions. This violates the **Single Responsibility Principle (SRP)**: any small change to the UI or business workflow requires modifying the exact same page class.
+As automated test suites grow in size, traditional Page Objects (POM) often become bloated. Page classes end up carrying double responsibilities: maintaining web element locators and defining high-level workflow interactions. This violates the **Single Responsibility Principle (SRP)**: any small change to the UI or business workflow requires modifying the exact same page class.
 
 The **Screenplay Pattern** is a user-centric, actor-based design pattern that refactors POM by separating actors, their abilities, business tasks, and assertions into independent, decoupled classes. It strictly enforces the SOLID design principles in test automation.
 
@@ -30,10 +30,10 @@ The **Screenplay Pattern** is a user-centric, actor-based design pattern that re
 ## 🧭 Screenplay Pattern Architecture
 
 The Screenplay architecture separates concerns into four distinct components:
-1. **Actor**: Who is performing the test (e.g., `"James"`).
-2. **Abilities**: What the Actor can do (e.g., `BrowseTheWeb` using a WebDriver).
-3. **Tasks/Interactions**: Actions the Actor performs (e.g., `NavigateTask`, `LoginTask`).
-4. **Questions**: Queries the Actor makes to check system state (e.g., `ProfileHeaderQuestion`).
+1. **Actor**: Who is performing the test (e.g., "James").
+2. **Abilities**: What the Actor can do (e.g., BrowseTheWeb using a WebDriver).
+3. **Tasks/Interactions**: Actions the Actor performs (e.g., NavigateTask, LoginTask).
+4. **Questions**: Queries the Actor makes to check system state (e.g., ProfileHeaderQuestion).
 
 The diagram below maps how these decoupled components interact:
 
@@ -43,19 +43,19 @@ The diagram below maps how these decoupled components interact:
 
 ## 🛠️ Step-by-Step Code Walkthrough
 
-We implement the core Screenplay engines under `src/main/java/com/mycodeyatra/screenplay/` and the validation test under `src/test/java/com/mycodeyatra/tests/`.
+We implement the core Screenplay engines under src/main/java/com/mycodeyatra/screenplay/ and the validation test under src/test/java/com/mycodeyatra/tests/.
 
 ### 1. Core Interfaces & Engines
-First, we define the base contracts for **Ability**, **Performable (Tasks)**, and **Question** types:
+First, we define the base contracts for Ability, Performable (Tasks), and Question types:
 
-* **Ability (`Ability.java`)**:
+* **Ability (Ability.java)**:
 ```java
 package com.mycodeyatra.screenplay;
 public interface Ability {
 }
 ```
 
-* **Performable (`Performable.java`)**:
+* **Performable (Performable.java)**:
 ```java
 package com.mycodeyatra.screenplay;
 public interface Performable {
@@ -63,7 +63,7 @@ public interface Performable {
 }
 ```
 
-* **Question (`Question.java`)**:
+* **Question (Question.java)**:
 ```java
 package com.mycodeyatra.screenplay;
 public interface Question<T> {
@@ -71,8 +71,8 @@ public interface Question<T> {
 }
 ```
 
-* **BrowseTheWeb Ability (`BrowseTheWeb.java`)**:
-This class encapsulates the Selenium `WebDriver` instance, giving the Actor access to browser actions.
+* **BrowseTheWeb Ability (BrowseTheWeb.java)**:
+This class encapsulates the Selenium WebDriver instance, giving the Actor access to browser actions.
 ```java
 package com.mycodeyatra.screenplay;
 import org.openqa.selenium.WebDriver;
@@ -90,7 +90,7 @@ public class BrowseTheWeb implements Ability {
 }
 ```
 
-* **The Actor (`Actor.java`)**:
+* **The Actor (Actor.java)**:
 The actor maintains state, handles capabilities (abilities), executes tasks, and evaluates assertions (questions).
 ```java
 package com.mycodeyatra.screenplay;
@@ -134,7 +134,7 @@ public class Actor {
 ### 2. Custom Screenplay Tasks
 Next, we define granular, reusable tasks. Notice how these tasks do not carry test assertions; they only drive actions:
 
-* **NavigateTask (`NavigateTask.java`)**:
+* **NavigateTask (NavigateTask.java)**:
 ```java
 package com.mycodeyatra.screenplay.tasks;
 import com.mycodeyatra.screenplay.Actor;
@@ -158,7 +158,7 @@ public class NavigateTask implements Performable {
 }
 ```
 
-* **LoginTask (`LoginTask.java`)**:
+* **LoginTask (LoginTask.java)**:
 ```java
 package com.mycodeyatra.screenplay.tasks;
 import com.mycodeyatra.screenplay.Actor;
@@ -193,8 +193,9 @@ public class LoginTask implements Performable {
 }
 ```
 
-### 3. Screenplay Question (`ProfileHeaderQuestion.java`)
+### 3. Screenplay Question (ProfileHeaderQuestion.java)
 Questions encapsulate queries to check element states, text contents, or attributes.
+
 ```java
 package com.mycodeyatra.screenplay.questions;
 import com.mycodeyatra.screenplay.Actor;
@@ -220,7 +221,7 @@ public class ProfileHeaderQuestion implements Question<String> {
 }
 ```
 
-### 4. Validation Test Suite (`ScreenplayTest.java`)
+### 4. Validation Test Suite (ScreenplayTest.java)
 Our test cases read like descriptive business specifications:
 
 ```java
@@ -273,5 +274,5 @@ public class ScreenplayTest {
 ## 🚀 Benefits of Screenplay Design Pattern
 
 1. **Strict SRP Adherence**: Tasks only carry execution logic. Questions only carry assertion queries. Locators are kept separated. No single class carries multiple responsibilities.
-2. **Infinite Reusability**: Unlike Page Objects, Tasks (like `LoginTask`) are highly modular and can be reused across entirely different features or flows without modifying existing wrappers.
+2. **Infinite Reusability**: Unlike Page Objects, Tasks (like LoginTask) are highly modular and can be reused across entirely different features or flows without modifying existing wrappers.
 3. **Highly Readable**: Test scripts look like user stories, mapping directly to physical QA tasks.
