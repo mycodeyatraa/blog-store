@@ -4315,5 +4315,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-15",
+    "title": "Automating File Downloads in Selenium: Preferences and Verification",
+    "slug": "automating-file-downloads-selenium-preferences-verification",
+    "author": "pankaj-kumar",
+    "excerpt": "A complete guide to automating file downloads in Selenium WebDriver. Learn how to configure browser preferences to download files to custom folders headlessly in Java.",
+    "date": "15-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "file-download",
+      "browser-preferences",
+      "chrome-options",
+      "validation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-file-downloads-selenium-preferences-verification.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
