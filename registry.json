@@ -4276,5 +4276,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-14",
+    "title": "Automating File Uploads in Selenium: SendKeys, Robot, and AutoIt Strategies",
+    "slug": "automating-file-uploads-selenium-sendkeys-robot-autoit-strategies",
+    "author": "pankaj-kumar",
+    "excerpt": "Master file upload automation in Selenium WebDriver. Learn how to upload files using the standard sendKeys strategy, Java Robot class, and AutoIt scripts in Java.",
+    "date": "14-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "file-upload",
+      "sendkeys",
+      "robot-class",
+      "autoit"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-file-uploads-selenium-sendkeys-robot-autoit-strategies.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 14,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
