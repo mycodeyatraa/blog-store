@@ -4432,5 +4432,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-18",
+    "title": "Automating Shadow DOM in Selenium WebDriver: Native getShadowRoot and JS Strategies",
+    "slug": "automating-shadow-dom-selenium-native-getshadowroot-js-strategies",
+    "author": "pankaj-kumar",
+    "excerpt": "A complete guide to automating Shadow DOM elements in Selenium WebDriver. Learn how to use Selenium 4's native getShadowRoot API and JavaScript Executor to bypass DOM boundaries in Java.",
+    "date": "18-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "shadow-dom",
+      "getshadowroot",
+      "web-components",
+      "javascript-executor"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-shadow-dom-selenium-native-getshadowroot-js-strategies.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 18,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
