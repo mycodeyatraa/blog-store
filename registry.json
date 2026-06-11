@@ -4549,5 +4549,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-21",
+    "title": "Automating Cross-Browser Testing in Selenium: Chrome, Firefox, and Edge Strategies",
+    "slug": "automating-cross-browser-testing-selenium-chrome-firefox-edge",
+    "author": "pankaj-kumar",
+    "excerpt": "Master cross-browser test automation in Selenium WebDriver. Learn how to configure dynamic, parameter-driven test execution across Chrome, Firefox, and Edge engines in Java.",
+    "date": "21-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "cross-browser",
+      "chromedriver",
+      "geckodriver",
+      "edgedriver"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-cross-browser-testing-selenium-chrome-firefox-edge.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 21,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
