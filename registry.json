@@ -4510,5 +4510,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-20",
+    "title": "Automating Parallel Execution in Selenium WebDriver: Thread-Safety & TestNG",
+    "slug": "automating-parallel-execution-selenium-thread-safety-testng",
+    "author": "pankaj-kumar",
+    "excerpt": "Master parallel test execution in Selenium WebDriver. Learn how to configure thread-safe driver sessions using the ThreadLocal pattern and trigger concurrent execution in TestNG.",
+    "date": "20-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "parallel-execution",
+      "thread-safety",
+      "testng",
+      "threadlocal"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-parallel-execution-selenium-thread-safety-testng.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 20,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
