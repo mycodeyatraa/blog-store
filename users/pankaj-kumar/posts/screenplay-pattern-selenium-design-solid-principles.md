@@ -52,7 +52,7 @@ First, we define the base contracts for Ability, Performable (Tasks), and Questi
 
 ```java
 package com.mycodeyatra.screenplay;
-
+ 
 public interface Ability {
 }
 ```
@@ -61,7 +61,7 @@ public interface Ability {
 
 ```java
 package com.mycodeyatra.screenplay;
-
+ 
 public interface Performable {
     void performAs(Actor actor);
 }
@@ -71,7 +71,7 @@ public interface Performable {
 
 ```java
 package com.mycodeyatra.screenplay;
-
+ 
 public interface Question<T> {
     T answeredBy(Actor actor);
 }
@@ -82,20 +82,20 @@ This class encapsulates the Selenium WebDriver instance, giving the Actor access
 
 ```java
 package com.mycodeyatra.screenplay;
-
+ 
 import org.openqa.selenium.WebDriver;
-
+ 
 public class BrowseTheWeb implements Ability {
     private final WebDriver driver;
-
+ 
     private BrowseTheWeb(WebDriver driver) {
         this.driver = driver;
     }
-
+ 
     public static BrowseTheWeb with(WebDriver driver) {
         return new BrowseTheWeb(driver);
     }
-
+ 
     public WebDriver getDriver() {
         return driver;
     }
@@ -107,27 +107,27 @@ The actor maintains state, handles capabilities (abilities), executes tasks, and
 
 ```java
 package com.mycodeyatra.screenplay;
-
+ 
 import java.util.HashMap;
 import java.util.Map;
-
+ 
 public class Actor {
     private final String name;
     private final Map<Class<? extends Ability>, Ability> abilities = new HashMap<>();
-
+ 
     private Actor(String name) {
         this.name = name;
     }
-
+ 
     public static Actor named(String name) {
         return new Actor(name);
     }
-
+ 
     public <T extends Ability> Actor can(T ability) {
         abilities.put(ability.getClass(), ability);
         return this;
     }
-
+ 
     @SuppressWarnings("unchecked")
     public <T extends Ability> T usingAbilityTo(Class<T> abilityClass) {
         T ability = (T) abilities.get(abilityClass);
@@ -136,17 +136,17 @@ public class Actor {
         }
         return ability;
     }
-
+ 
     public void attemptsTo(Performable... tasks) {
         for (Performable task : tasks) {
             task.performAs(this);
         }
     }
-
+ 
     public <T> T asksFor(Question<T> question) {
         return question.answeredBy(this);
     }
-
+ 
     public String getName() {
         return name;
     }
@@ -160,23 +160,23 @@ Next, we define granular, reusable tasks. Notice how these tasks do not carry te
 
 ```java
 package com.mycodeyatra.screenplay.tasks;
-
+ 
 import com.mycodeyatra.screenplay.Actor;
 import com.mycodeyatra.screenplay.BrowseTheWeb;
 import com.mycodeyatra.screenplay.Performable;
 import org.openqa.selenium.WebDriver;
-
+ 
 public class NavigateTask implements Performable {
     private final String url;
-
+ 
     private NavigateTask(String url) {
         this.url = url;
     }
-
+ 
     public static NavigateTask to(String url) {
         return new NavigateTask(url);
     }
-
+ 
     @Override
     public void performAs(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
@@ -190,7 +190,7 @@ public class NavigateTask implements Performable {
 
 ```java
 package com.mycodeyatra.screenplay.tasks;
-
+ 
 import com.mycodeyatra.screenplay.Actor;
 import com.mycodeyatra.screenplay.BrowseTheWeb;
 import com.mycodeyatra.screenplay.Performable;
@@ -198,34 +198,34 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+ 
 import java.time.Duration;
-
+ 
 public class LoginTask implements Performable {
     private final String username;
     private final String password;
-
+ 
     private LoginTask(String username, String password) {
         this.username = username;
         this.password = password;
     }
-
+ 
     public static LoginTask withCredentials(String username, String password) {
         return new LoginTask(username, password);
     }
-
+ 
     @Override
     public void performAs(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
+ 
         System.out.println("LoginTask: " + actor.getName() + " is entering login credentials...");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@data-testid='username']"))).clear();
         driver.findElement(By.xpath("//input[@data-testid='username']")).sendKeys(username);
-
+ 
         driver.findElement(By.xpath("//input[@data-testid='password']")).clear();
         driver.findElement(By.xpath("//input[@data-testid='password']")).sendKeys(password);
-
+ 
         driver.findElement(By.xpath("//button[@data-testid='login-btn']")).click();
     }
 }
@@ -236,7 +236,7 @@ Questions encapsulate queries to check element states, text contents, or attribu
 
 ```java
 package com.mycodeyatra.screenplay.questions;
-
+ 
 import com.mycodeyatra.screenplay.Actor;
 import com.mycodeyatra.screenplay.BrowseTheWeb;
 import com.mycodeyatra.screenplay.Question;
@@ -244,22 +244,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+ 
 import java.time.Duration;
-
+ 
 public class ProfileHeaderQuestion implements Question<String> {
-
+ 
     private ProfileHeaderQuestion() {}
-
+ 
     public static ProfileHeaderQuestion value() {
         return new ProfileHeaderQuestion();
     }
-
+ 
     @Override
     public String answeredBy(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        
+ 
         System.out.println("ProfileHeaderQuestion: " + actor.getName() + " is retrieving the profile welcome message...");
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[@data-testid='profile-title']"))).getText();
     }
@@ -271,7 +271,7 @@ Our test cases read like descriptive business specifications:
 
 ```java
 package com.mycodeyatra.tests;
-
+ 
 import com.mycodeyatra.driver.DriverFactory;
 import com.mycodeyatra.screenplay.Actor;
 import com.mycodeyatra.screenplay.BrowseTheWeb;
@@ -285,37 +285,37 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+ 
 public class ScreenplayTest {
-
+ 
     private WebDriver driver;
-
+ 
     @BeforeMethod
     @Parameters("browser")
     public void setUp(@Optional("chrome") String browser) {
         driver = DriverFactory.initDriver(browser);
         driver.manage().window().maximize();
     }
-
+ 
     @Test
     public void testSuccessfulLoginViaScreenplay() {
         // 1. Instantiating Actor with Abilities
         Actor james = Actor.named("James").can(BrowseTheWeb.with(driver));
-
+ 
         // 2. Perform Tasks
         james.attemptsTo(
                 NavigateTask.to("https://practice.mycodeyatra.com/#/login"),
                 LoginTask.withCredentials("admin", "admin123")
         );
-
+ 
         // 3. Ask Questions to assert results
         String welcomeMessage = james.asksFor(ProfileHeaderQuestion.value());
         System.out.println("[ScreenplayTest] Welcome Message Retrieved: " + welcomeMessage);
-        
+ 
         Assert.assertTrue(welcomeMessage.contains("Welcome back, admin!"), 
                 "Profile welcome page validation failed in Screenplay run!");
     }
-
+ 
     @AfterMethod
     public void tearDown() {
         DriverFactory.quitDriver();
