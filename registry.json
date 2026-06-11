@@ -4588,5 +4588,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-22",
+    "title": "Automating Data-Driven Testing in Selenium: TestNG DataProviders & Apache POI",
+    "slug": "automating-data-driven-testing-selenium-testng-dataproviders-poi",
+    "author": "pankaj-kumar",
+    "excerpt": "Master data-driven testing in Selenium WebDriver. Learn how to parse Excel files using Apache POI and feed inputs dynamically to TestNG DataProviders in Java.",
+    "date": "22-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "data-driven-testing",
+      "testng-dataprovider",
+      "apache-poi",
+      "excel-reader"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-data-driven-testing-selenium-testng-dataproviders-poi.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
