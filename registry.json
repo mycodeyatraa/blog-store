@@ -4749,7 +4749,7 @@
   {
     "id": "blog-selenium-java-26",
     "title": "Screenplay Pattern in Selenium: Refactoring POM with SOLID Principles",
-    "slug": "screenplay-pattern-selenium-solid-design-principles",
+    "slug": "screenplay-pattern-selenium-design-solid-principles",
     "author": "pankaj-kumar",
     "excerpt": "Master the Screenplay Pattern in Selenium WebDriver. Learn how to refactor bloated Page Objects (POM) into clean, decoupled Actors, Abilities, Tasks, and Questions in Java.",
     "date": "26-Jul-2024",
@@ -4772,7 +4772,7 @@
       "clean-code"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/screenplay-pattern-selenium-solid-design-principles.md",
+    "contentPath": "users/pankaj-kumar/posts/screenplay-pattern-selenium-design-solid-principles.md",
     "series": "selenium-framework-design-and-patterns-in-java",
     "seriesOrder": 5,
     "authorDetails": {
