@@ -4354,5 +4354,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-16",
+    "title": "Automating Windows and Tabs in Selenium WebDriver: Handles & Context Switching",
+    "slug": "automating-windows-and-tabs-selenium-handles-context-switching",
+    "author": "pankaj-kumar",
+    "excerpt": "A comprehensive tutorial on managing multiple windows and browser tabs in Selenium using Java. Master window handles, switching techniques, and Selenium 4's newWindow API.",
+    "date": "16-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "window-handles",
+      "multiple-tabs",
+      "context-switching",
+      "selenium-4"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-windows-and-tabs-selenium-handles-context-switching.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 16,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
