@@ -49,6 +49,7 @@ Here is the complete TestNG implementation demonstrating these techniques:
 package com.mycodeyatra.tests;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
@@ -60,100 +61,39 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpExchange;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.nio.file.Files;
 import java.time.Duration;
 import java.util.Set;
 public class WindowTabTest {
     private WebDriver driver;
     private WebDriverWait wait;
-    private File tempParentHtml;
-    private File tempChildHtml;
-    private HttpServer server;
     @BeforeMethod
-    public void setUp() throws IOException {
-        File targetDir = new File("target");
-        if (!targetDir.exists()) {
-            targetDir.mkdirs();
-        }
-        // Create child HTML page
-        tempChildHtml = new File(targetDir, "window_child.html");
-        try (FileWriter writer = new FileWriter(tempChildHtml)) {
-            writer.write("<!DOCTYPE html>\n" +
-                    "<html>\n" +
-                    "<head>\n" +
-                    "    <title>Child Window Sandbox</title>\n" +
-                    "</head>\n" +
-                    "<body>\n" +
-                    "    <h1 id='child-header'>Welcome to Child Tab!</h1>\n" +
-                    "    <p>This is a new window or tab page launched from the parent window.</p>\n" +
-                    "</body>\n" +
-                    "</html>");
-        }
-        // Create parent HTML page
-        tempParentHtml = new File(targetDir, "window_parent.html");
-        try (FileWriter writer = new FileWriter(tempParentHtml)) {
-            writer.write("<!DOCTYPE html>\n" +
-                    "<html>\n" +
-                    "<head>\n" +
-                    "    <title>Parent Window Sandbox</title>\n" +
-                    "</head>\n" +
-                    "<body>\n" +
-                    "    <h1>Parent Window Practice</h1>\n" +
-                    "    <p>Click link below to open a child tab:</p>\n" +
-                    "    <a id='open-tab-link' href='window_child.html' target='_blank'>Open Child Window in New Tab</a>\n" +
-                    "</body>\n" +
-                    "</html>");
-        }
-        // Start lightweight HTTP Server to host parent/child test pages
-        server = HttpServer.create(new InetSocketAddress(8080), 0);
-        server.createContext("/", new HttpHandler() {
-            @Override
-            public void handle(HttpExchange exchange) throws IOException {
-                String path = exchange.getRequestURI().getPath();
-                File file = new File(targetDir, path.substring(1));
-                if (file.exists() && file.isFile()) {
-                    byte[] bytes = Files.readAllBytes(file.toPath());
-                    exchange.sendResponseHeaders(200, bytes.length);
-                    exchange.getResponseBody().write(bytes);
-                    exchange.getResponseBody().close();
-                } else {
-                    String response = "404 Not Found";
-                    exchange.sendResponseHeaders(404, response.length());
-                    exchange.getResponseBody().write(response.getBytes());
-                    exchange.getResponseBody().close();
-                }
-            }
-        });
-        server.start();
-        System.out.println("HTTP Server started on http://localhost:8080/");
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless=new");
         options.addArguments("--window-size=1920,1080");
+        options.setPageLoadStrategy(PageLoadStrategy.NONE);
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
     @Test
     public void testSwitchBetweenWindows() {
-        String parentUrl = "http://localhost:8080/window_parent.html";
-        System.out.println("Navigating to: " + parentUrl);
-        driver.get(parentUrl);
+        String practiceUrl = "https://practice.mycodeyatra.com/#/frames";
+        System.out.println("Navigating to Live Practice Site: " + practiceUrl);
+        driver.get(practiceUrl);
         // Get the parent window handle
         String parentWindowHandle = driver.getWindowHandle();
         System.out.println("Parent Window Handle: " + parentWindowHandle);
-        // Locate and click the link to open a new window
-        WebElement openLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("open-tab-link")));
-        System.out.println("Clicking link to open child window...");
-        openLink.click();
+        // Locate and click the button to open a new tab
+        WebElement openTabButton = wait.until(
+            ExpectedConditions.elementToBeClickable(By.xpath("//button[@data-testid='open-tab-btn']"))
+        );
+        System.out.println("Clicking button to open child window/tab...");
+        openTabButton.click();
+        // Wait for the new window to be opened (total 2 windows)
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
         // Get all window handles
         Set<String> allWindowHandles = driver.getWindowHandles();
         System.out.println("Total open windows: " + allWindowHandles.size());
@@ -167,13 +107,13 @@ public class WindowTabTest {
                 break;
             }
         }
-        Assert.assertTrue(switched, "Failed to find child window handle!");
+        Assert.assertTrue(switched, "Failed to switch to the child tab!");
         // Assert child window title and page content
         String childTitle = driver.getTitle();
         System.out.println("Child Title: " + childTitle);
-        Assert.assertEquals(childTitle, "Child Window Sandbox");
-        WebElement childHeader = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("child-header")));
-        Assert.assertEquals(childHeader.getText(), "Welcome to Child Tab!");
+        Assert.assertEquals(childTitle, "Practice Tab");
+        WebElement childHeader = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h1")));
+        Assert.assertEquals(childHeader.getText(), "Success!");
         // Close the child window
         System.out.println("Closing child window/tab...");
         driver.close();
@@ -183,39 +123,31 @@ public class WindowTabTest {
         // Assert parent page is active again
         String parentTitle = driver.getTitle();
         System.out.println("Parent Title: " + parentTitle);
-        Assert.assertEquals(parentTitle, "Parent Window Sandbox");
+        Assert.assertTrue(parentTitle.contains("MyCodeYatra"), "Failed to return to parent page");
     }
     @Test
     public void testSelenium4NewWindowFeature() {
-        String parentUrl = "http://localhost:8080/window_parent.html";
-        System.out.println("Navigating to: " + parentUrl);
-        driver.get(parentUrl);
+        String practiceUrl = "https://practice.mycodeyatra.com/#/frames";
+        System.out.println("Navigating to Live Practice Site: " + practiceUrl);
+        driver.get(practiceUrl);
         String parentHandle = driver.getWindowHandle();
         // Selenium 4: Open a new blank tab and switch automatically
         System.out.println("Opening a new blank tab and switching context automatically...");
         driver.switchTo().newWindow(WindowType.TAB);
-        driver.get("http://localhost:8080/window_child.html");
-        Assert.assertEquals(driver.getTitle(), "Child Window Sandbox");
+        driver.get("https://practice.mycodeyatra.com/#/login");
+        Assert.assertTrue(driver.getTitle().contains("MyCodeYatra"));
+        WebElement loginHeader = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h2")));
+        Assert.assertTrue(loginHeader.getText().contains("Sign In"), "Failed to load Sign In page in new tab");
         // Close new tab and go back
         driver.close();
         driver.switchTo().window(parentHandle);
-        Assert.assertEquals(driver.getTitle(), "Parent Window Sandbox");
+        Assert.assertTrue(driver.getTitle().contains("MyCodeYatra"));
     }
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
             System.out.println("Quitting driver session...");
             driver.quit();
-        }
-        if (server != null) {
-            System.out.println("Stopping HTTP Server...");
-            server.stop(0);
-        }
-        if (tempParentHtml != null && tempParentHtml.exists()) {
-            tempParentHtml.delete();
-        }
-        if (tempChildHtml != null && tempChildHtml.exists()) {
-            tempChildHtml.delete();
         }
     }
 }
@@ -229,24 +161,20 @@ Below is the clean console output from compiling and running the window switchin
 
 ```bash
 [INFO] Running com.mycodeyatra.tests.WindowTabTest
-HTTP Server started on http://localhost:8080/
-Navigating to: http://localhost:8080/window_parent.html
+Navigating to Live Practice Site: https://practice.mycodeyatra.com/#/frames
 Opening a new blank tab and switching context automatically...
 Quitting driver session...
-Stopping HTTP Server...
-HTTP Server started on http://localhost:8080/
-Navigating to: http://localhost:8080/window_parent.html
-Parent Window Handle: F694BB9C0B7D861AEC082B7E25D83070
-Clicking link to open child window...
+Navigating to Live Practice Site: https://practice.mycodeyatra.com/#/frames
+Parent Window Handle: 21FCEDC6C1F25F50B1EA0F8C33AB8584
+Clicking button to open child window/tab...
 Total open windows: 2
-Switching to Child Window Handle: 3AADCCC0483D17E186B23185B490133B
-Child Title: Child Window Sandbox
+Switching to Child Window Handle: 566BDFC90F9A9E4A054378A2ADEDA200
+Child Title: Practice Tab
 Closing child window/tab...
 Switching back to Parent Window...
-Parent Title: Parent Window Sandbox
+Parent Title: MyCodeYatra | Test Automation Sandbox
 Quitting driver session...
-Stopping HTTP Server...
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.676 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.167 sec
 ```
 
 ---
