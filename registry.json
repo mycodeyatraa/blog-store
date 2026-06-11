@@ -4706,5 +4706,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-25",
+    "title": "Builder Pattern in Selenium: Simplifying Dynamic Test Data Generation",
+    "slug": "builder-pattern-selenium-dynamic-test-data-generation",
+    "author": "pankaj-kumar",
+    "excerpt": "Master the Builder Pattern in Selenium WebDriver. Learn how to construct clean, immutable test data payloads using the Builder design pattern in Java.",
+    "date": "25-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "builder-pattern",
+      "design-patterns",
+      "test-data-generation",
+      "clean-code"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/builder-pattern-selenium-dynamic-test-data-generation.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
