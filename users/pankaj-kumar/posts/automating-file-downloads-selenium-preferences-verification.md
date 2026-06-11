@@ -58,83 +58,33 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.sun.net.httpserver.HttpServer;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpExchange;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.nio.file.Files;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 public class DownloadTest {
     private WebDriver driver;
     private WebDriverWait wait;
-    private File tempHtmlFile;
     private File downloadFolder;
-    private File sampleTxtFile;
-    private HttpServer server;
     @BeforeMethod
     public void setUp() throws IOException {
         File targetDir = new File("target");
         if (!targetDir.exists()) {
             targetDir.mkdirs();
         }
-        // 1. Configure custom local download folder path
+        // Configure custom local download folder
         downloadFolder = new File(targetDir, "downloads");
         if (!downloadFolder.exists()) {
             downloadFolder.mkdirs();
         }
-        // Create sample txt file that the HTML page will offer for download
-        sampleTxtFile = new File(targetDir, "sample_download_file.txt");
-        try (FileWriter writer = new FileWriter(sampleTxtFile)) {
-            writer.write("This is target download text content to verify file download functionality.");
-        }
-        // Create local HTML form for file download testing
-        tempHtmlFile = new File(targetDir, "file_download_demo.html");
-        try (FileWriter writer = new FileWriter(tempHtmlFile)) {
-            writer.write("<!DOCTYPE html>\n" +
-                    "<html>\n" +
-                    "<head>\n" +
-                    "    <title>File Download Practice Sandbox</title>\n" +
-                    "</head>\n" +
-                    "<body>\n" +
-                    "    <h2>File Download Demonstration</h2>\n" +
-                    "    <p>Click link below to test download preferences and verification:</p>\n" +
-                    "    <a id='download-link' data-testid='download-link' href='sample_download_file.txt' download>Download Sample Text File</a>\n" +
-                    "</body>\n" +
-                    "</html>");
-        }
-        // Start a lightweight Java HTTP Server to serve files from target directory
-        server = HttpServer.create(new InetSocketAddress(8080), 0);
-        server.createContext("/", new HttpHandler() {
-            @Override
-            public void handle(HttpExchange exchange) throws IOException {
-                String path = exchange.getRequestURI().getPath();
-                File file = new File(targetDir, path.substring(1));
-                if (file.exists() && file.isFile()) {
-                    byte[] bytes = Files.readAllBytes(file.toPath());
-                    exchange.sendResponseHeaders(200, bytes.length);
-                    exchange.getResponseBody().write(bytes);
-                    exchange.getResponseBody().close();
-                } else {
-                    String response = "404 Not Found";
-                    exchange.sendResponseHeaders(404, response.length());
-                    exchange.getResponseBody().write(response.getBytes());
-                    exchange.getResponseBody().close();
-                }
-            }
-        });
-        server.start();
-        System.out.println("Lightweight HTTP Server started on http://localhost:8080/");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless=new");
         options.addArguments("--window-size=1920,1080");
-        // 2. Set Chrome preferences for automatic download directory mapping
+        // Set Chrome preferences for automatic download directory
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("download.default_directory", downloadFolder.getAbsolutePath());
         prefs.put("download.prompt_for_download", false);
@@ -143,24 +93,33 @@ public class DownloadTest {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
     @Test
     public void testFileDownloadAndVerify() throws InterruptedException {
-        // Navigate to the local practice file download HTML page
-        String fileUrl = "http://localhost:8080/file_download_demo.html";
-        System.out.println("Navigating to local HTML: " + fileUrl);
+        // Navigate to the live practice file download URL
+        String fileUrl = "https://practice.mycodeyatra.com/#/upload-download";
+        System.out.println("Navigating to live URL: " + fileUrl);
         driver.get(fileUrl);
-        // Locating the download link
-        System.out.println("Locating download link element...");
-        WebElement downloadLink = wait.until(
-            ExpectedConditions.elementToBeClickable(By.xpath("//a[@data-testid='download-link']"))
+        // Define expected custom text to write and verify
+        String expectedText = "Hello MyCodeYatra Custom Download! Verification text contents.";
+        // Locate the custom download text input box
+        System.out.println("Locating text input box...");
+        WebElement textInput = wait.until(
+            ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@data-testid='download-text-input']"))
+        );
+        textInput.clear();
+        textInput.sendKeys(expectedText);
+        // Locating the download button
+        System.out.println("Locating download button...");
+        WebElement downloadBtn = wait.until(
+            ExpectedConditions.elementToBeClickable(By.xpath("//button[@data-testid='download-btn']"))
         );
         // Click the download link to trigger file save
-        System.out.println("Clicking download link to trigger file save...");
-        downloadLink.click();
-        // 3. Poll target download directory until the file is completed
-        File downloadedFile = new File(downloadFolder, "sample_download_file.txt");
+        System.out.println("Clicking download button to trigger file save...");
+        downloadBtn.click();
+        // Poll target download directory until the file exists and download is completed
+        File downloadedFile = new File(downloadFolder, "dynamic_download.txt");
         System.out.println("Polling for downloaded file at: " + downloadedFile.getAbsolutePath());
         boolean fileDownloaded = false;
         // Wait maximum 10 seconds (20 iterations of 500ms sleep)
@@ -173,6 +132,16 @@ public class DownloadTest {
         }
         Assert.assertTrue(fileDownloaded, "Downloaded file was not found or remained empty!");
         System.out.println("File successfully downloaded! Size: " + downloadedFile.length() + " bytes.");
+        // Read file contents and verify matching text
+        String content = "";
+        try {
+            content = new String(java.nio.file.Files.readAllBytes(downloadedFile.toPath()));
+        } catch (IOException e) {
+            Assert.fail("Failed to read downloaded file: " + e.getMessage());
+        }
+        System.out.println("Downloaded Content: " + content);
+        Assert.assertEquals(content, expectedText, "Downloaded file content does not match input!");
+        // Clean validation completed
         System.out.println("File download test validation completed successfully!");
     }
     @AfterMethod
@@ -181,17 +150,7 @@ public class DownloadTest {
             System.out.println("Quitting driver session...");
             driver.quit();
         }
-        if (server != null) {
-            System.out.println("Stopping HTTP Server...");
-            server.stop(0);
-        }
-        // Clean up temporary files and download directory
-        if (tempHtmlFile != null && tempHtmlFile.exists()) {
-            tempHtmlFile.delete();
-        }
-        if (sampleTxtFile != null && sampleTxtFile.exists()) {
-            sampleTxtFile.delete();
-        }
+        // Clean up download directory
         if (downloadFolder != null && downloadFolder.exists()) {
             File[] files = downloadFolder.listFiles();
             if (files != null) {
@@ -213,16 +172,16 @@ Below is the clean console output from compiling and running the download valida
 
 ```bash
 [INFO] Running com.mycodeyatra.tests.DownloadTest
-Lightweight HTTP Server started on http://localhost:8080/
-Navigating to local HTML: http://localhost:8080/file_download_demo.html
-Locating download link element...
-Clicking download link to trigger file save...
-Polling for downloaded file at: D:\MyCodeYatra\AILearning2026\Repository\mcyt-sel-java\target\downloads\sample_download_file.txt
-File successfully downloaded! Size: 75 bytes.
+Navigating to live URL: https://practice.mycodeyatra.com/#/upload-download
+Locating text input box...
+Locating download button...
+Clicking download button to trigger file save...
+Polling for downloaded file at: D:\MyCodeYatra\AILearning2026\Repository\mcyt-sel-java\target\downloads\dynamic_download.txt
+File successfully downloaded! Size: 62 bytes.
+Downloaded Content: Hello MyCodeYatra Custom Download! Verification text contents.
 File download test validation completed successfully!
 Quitting driver session...
-Stopping HTTP Server...
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.221 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.887 sec
 ```
 
 ---
