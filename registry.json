@@ -4237,5 +4237,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-13",
+    "title": "Handling JavaScript Alerts, Confirm Dialogs, and Prompts in Selenium",
+    "slug": "handling-javascript-alerts-confirm-dialogs-prompts-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "A complete guide to handling browser native dialogs in Selenium WebDriver. Learn how to switch to, accept, dismiss, and input text into alerts, confirms, and prompts in Java.",
+    "date": "13-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "alerts",
+      "confirm-dialog",
+      "prompts",
+      "overlays"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/handling-javascript-alerts-confirm-dialogs-prompts-selenium.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 13,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
