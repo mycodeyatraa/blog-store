@@ -4471,5 +4471,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-19",
+    "title": "Automating Chrome DevTools Protocol (CDP) in Selenium: Network and Console Control",
+    "slug": "automating-chrome-devtools-protocol-cdp-selenium-network-console",
+    "author": "pankaj-kumar",
+    "excerpt": "Master native integration with Chrome DevTools Protocol (CDP) in Selenium 4. Learn how to perform network throttling, location emulation, and console log capture using version-independent commands in Java.",
+    "date": "19-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "cdp",
+      "chrome-devtools",
+      "network-throttling",
+      "geolocation-emulation"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/automating-chrome-devtools-protocol-cdp-selenium-network-console.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 19,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
