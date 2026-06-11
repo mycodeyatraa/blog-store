@@ -4903,5 +4903,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-30",
+    "title": "Logging Framework in Selenium Java: Integrating Log4j2 for Structured Test Logs",
+    "slug": "logging-framework-selenium-java-log4j2",
+    "author": "pankaj-kumar",
+    "excerpt": "Replace System.out.println with professional Log4j2 logging in your Selenium Java framework. Configure console and rolling file appenders, set per-package log levels, and use parameterised messages for zero-overhead logging.",
+    "date": "30-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "log4j2",
+      "logging",
+      "framework",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/logging-framework-selenium-java-log4j2.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
