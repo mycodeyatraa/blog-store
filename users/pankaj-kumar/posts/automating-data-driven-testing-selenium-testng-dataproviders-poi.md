@@ -35,6 +35,11 @@ The diagram below displays how test parameters are read dynamically from an exte
 
 ---
 
+> 📥 **Get the Test Data:**
+> The complete sample Excel file (`test_data.xlsx`) used in this guide is uploaded to the Git repository. You can view its layout and download it directly here: [test_data.xlsx on GitHub](https://github.com/MYCodeYatra/mcyt-sel-java/blob/main/src/test/resources/test_data.xlsx).
+
+---
+
 ## 🛠️ Step-by-Step Code Walkthrough
 
 To parse binary Excel files (`.xlsx` formats), we include the standard Apache POI dependencies in our project's `pom.xml`:
