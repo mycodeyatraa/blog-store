@@ -4159,5 +4159,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-11",
+    "title": "Understanding Wait Strategies in Selenium: Implicit, Explicit, and Fluent Waits",
+    "slug": "understanding-wait-strategies-selenium-implicit-explicit-fluent-waits",
+    "author": "pankaj-kumar",
+    "excerpt": "Master synchronization in Selenium WebDriver. Learn the structural and runtime differences between Implicit, Explicit, and Fluent Waits, and how to automate dynamic elements in Java.",
+    "date": "11-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "waits",
+      "implicit-wait",
+      "explicit-wait",
+      "fluent-wait"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/understanding-wait-strategies-selenium-implicit-explicit-fluent-waits.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
