@@ -4863,5 +4863,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-29",
+    "title": "Configuration Management in Selenium Java: Dynamic Properties and Environment-Specific Config",
+    "slug": "configuration-management-selenium-java-configmanager",
+    "author": "pankaj-kumar",
+    "excerpt": "Eliminate hard-coded values from Selenium tests with a thread-safe ConfigManager in Java. Load base defaults and environment-specific overlays dynamically using system properties and .properties files.",
+    "date": "29-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "configuration",
+      "properties",
+      "environment",
+      "configmanager",
+      "framework"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/configuration-management-selenium-java-configmanager.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
