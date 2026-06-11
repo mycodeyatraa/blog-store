@@ -4121,5 +4121,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-10",
+    "title": "Capturing Screenshots and Failure Evidence in Selenium",
+    "slug": "capturing-screenshots-failure-evidence-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to collect screenshots and automated failure evidence in your test suites using Selenium WebDriver in Java, featuring a complete step-by-step TestNG automation guide.",
+    "date": "10-Jul-2024",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "screenshots",
+      "logging",
+      "debugging"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/capturing-screenshots-failure-evidence-selenium.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
