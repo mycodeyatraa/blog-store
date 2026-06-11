@@ -152,7 +152,7 @@ public class NavigateTask implements Performable {
     @Override
     public void performAs(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
-        System.out.println("[NavigateTask] " + actor.getName() + " is navigating to: " + url);
+        System.out.println("NavigateTask: " + actor.getName() + " is navigating to: " + url);
         driver.get(url);
     }
 }
@@ -183,7 +183,7 @@ public class LoginTask implements Performable {
     public void performAs(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        System.out.println("[LoginTask] " + actor.getName() + " is entering login credentials...");
+        System.out.println("LoginTask: " + actor.getName() + " is entering login credentials...");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@data-testid='username']"))).clear();
         driver.findElement(By.xpath("//input[@data-testid='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@data-testid='password']")).clear();
@@ -215,7 +215,7 @@ public class ProfileHeaderQuestion implements Question<String> {
     public String answeredBy(Actor actor) {
         WebDriver driver = actor.usingAbilityTo(BrowseTheWeb.class).getDriver();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        System.out.println("[ProfileHeaderQuestion] " + actor.getName() + " is retrieving the profile welcome message...");
+        System.out.println("ProfileHeaderQuestion: " + actor.getName() + " is retrieving the profile welcome message...");
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[@data-testid='profile-title']"))).getText();
     }
 }
