@@ -4784,5 +4784,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-27",
+    "title": "TestNG Lifecycle & Listeners in Selenium: Mastering Test Hooks and Event Interception",
+    "slug": "testng-lifecycle-listeners-selenium-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Master TestNG lifecycle annotations (@Before/@After) and build a custom ITestListener and IRetryAnalyzer in Java Selenium to intercept every test event and handle flaky tests automatically.",
+    "date": "27-Jul-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "testng",
+      "listeners",
+      "lifecycle",
+      "retry-analyzer"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/testng-lifecycle-listeners-selenium-java.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
