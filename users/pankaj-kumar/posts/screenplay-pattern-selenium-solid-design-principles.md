@@ -48,14 +48,14 @@ We implement the core Screenplay engines under src/main/java/com/mycodeyatra/scr
 ### 1. Core Interfaces & Engines
 First, we define the base contracts for Ability, Performable (Tasks), and Question types:
 
-* **Ability (Ability.java)**:
+#### Ability (Ability.java)
 ```java
 package com.mycodeyatra.screenplay;
 public interface Ability {
 }
 ```
 
-* **Performable (Performable.java)**:
+#### Performable (Performable.java)
 ```java
 package com.mycodeyatra.screenplay;
 public interface Performable {
@@ -63,7 +63,7 @@ public interface Performable {
 }
 ```
 
-* **Question (Question.java)**:
+#### Question (Question.java)
 ```java
 package com.mycodeyatra.screenplay;
 public interface Question<T> {
@@ -71,7 +71,7 @@ public interface Question<T> {
 }
 ```
 
-* **BrowseTheWeb Ability (BrowseTheWeb.java)**:
+#### BrowseTheWeb Ability (BrowseTheWeb.java)
 This class encapsulates the Selenium WebDriver instance, giving the Actor access to browser actions.
 ```java
 package com.mycodeyatra.screenplay;
@@ -90,7 +90,7 @@ public class BrowseTheWeb implements Ability {
 }
 ```
 
-* **The Actor (Actor.java)**:
+#### The Actor (Actor.java)
 The actor maintains state, handles capabilities (abilities), executes tasks, and evaluates assertions (questions).
 ```java
 package com.mycodeyatra.screenplay;
@@ -134,7 +134,7 @@ public class Actor {
 ### 2. Custom Screenplay Tasks
 Next, we define granular, reusable tasks. Notice how these tasks do not carry test assertions; they only drive actions:
 
-* **NavigateTask (NavigateTask.java)**:
+#### NavigateTask (NavigateTask.java)
 ```java
 package com.mycodeyatra.screenplay.tasks;
 import com.mycodeyatra.screenplay.Actor;
@@ -158,7 +158,7 @@ public class NavigateTask implements Performable {
 }
 ```
 
-* **LoginTask (LoginTask.java)**:
+#### LoginTask (LoginTask.java)
 ```java
 package com.mycodeyatra.screenplay.tasks;
 import com.mycodeyatra.screenplay.Actor;
