@@ -4045,5 +4045,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-8",
+    "title": "Writing Your First E2E Test: A Step-by-Step Guide with Selenium and TestNG",
+    "slug": "first-e2e-test-testng-login-scenario",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to write and execute your first End-to-End (E2E) automated login test using Selenium WebDriver, Java, and TestNG, complete with invalid and valid test scenario validations.",
+    "date": "11-Jun-2026",
+    "readTime": "7 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "selenium",
+      "java",
+      "testng",
+      "e2e",
+      "login"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/first-e2e-test-testng-login-scenario.md",
+    "series": "selenium-with-java-zero-to-automation",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
