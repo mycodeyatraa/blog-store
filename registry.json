@@ -5136,5 +5136,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-36",
+    "title": "Contract Testing: OpenAPI Validation with RestAssured",
+    "slug": "contract-testing-openapi-validation-with-restassured",
+    "author": "pankaj-kumar",
+    "excerpt": "Shift your API validation left with Contract Testing. Learn how to automatically intercept RestAssured requests and validate them against OpenAPI Swagger definitions.",
+    "date": "18-Aug-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "restassured",
+      "api-testing",
+      "contract-testing",
+      "openapi",
+      "swagger"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/contract-testing-openapi-validation-with-restassured.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
