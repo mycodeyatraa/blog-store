@@ -5530,5 +5530,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-46",
+    "title": "Token Validation: Verifying JWTs with Java",
+    "slug": "token-validation-verifying-jwts-with-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Shift-left your security testing by cryptographically validating JSON Web Tokens (JWTs) using the JJWT library. Verify token expiration, signatures, and prevent PII exposure.",
+    "date": "15-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "security-testing",
+      "jwt",
+      "jjwt",
+      "authentication"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/token-validation-verifying-jwts-with-java.md",
+    "series": "selenium-advanced-security-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
