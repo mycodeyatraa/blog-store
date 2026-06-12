@@ -5125,8 +5125,8 @@
       "framework"
     ],
     "contentPath": "users/pankaj-kumar/posts/hybrid-automation-combining-selenium-ui-and-restassured-api.md",
-    "series": "selenium-framework-design-and-patterns-in-java",
-    "seriesOrder": 14,
+    "series": "selenium-api-hybrid-framework",
+    "seriesOrder": 1,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -5165,8 +5165,8 @@
       "swagger"
     ],
     "contentPath": "users/pankaj-kumar/posts/contract-testing-openapi-validation-with-restassured.md",
-    "series": "selenium-framework-design-and-patterns-in-java",
-    "seriesOrder": 15,
+    "series": "selenium-api-hybrid-framework",
+    "seriesOrder": 2,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
