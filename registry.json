@@ -4942,5 +4942,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-31",
+    "title": "Framework Architecture: Structuring an Enterprise Selenium Java Project",
+    "slug": "framework-architecture-structuring-an-enterprise-selenium-java-project",
+    "author": "pankaj-kumar",
+    "excerpt": "Design an enterprise-grade folder structure for a Selenium Java framework. Leverage the standard Maven directory layout and enforce strict Separation of Concerns (SoC) for scalable test automation.",
+    "date": "02-Aug-2024",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "architecture",
+      "framework",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/framework-architecture-structuring-an-enterprise-selenium-java-project.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
