@@ -256,5 +256,16 @@
     ],
     "status": "ongoing",
     "createdAt": "15-Aug-2026"
+  },
+  {
+    "id": "selenium-advanced-authentication-mastery",
+    "title": "Selenium Advanced Authentication Mastery",
+    "description": "Master complex authentication flows in Selenium, from cookie management and session handling to modern SSO and MFA architectures.",
+    "author": "pankaj-kumar",
+    "articleIds": [
+      "blog-selenium-java-38"
+    ],
+    "status": "ongoing",
+    "createdAt": "22-Aug-2024"
   }
 ]
