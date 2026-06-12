@@ -1,6 +1,7 @@
 ---
 title: Framework Architecture: Structuring an Enterprise Selenium Java Project
-date: 2025-01-31
+date: 02-Aug-2024
+lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
@@ -8,12 +9,12 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [selenium, java, automation-testing, architecture, framework]
-category: Test Automation
-categories: [Test Automation, Selenium, Java]
+tags: [selenium, java, architecture, framework, test-automation]
+category: UI Automation
+categories: [UI Automation, Selenium, Java]
 excerpt: >-
-  Framework Architecture: Structuring an Enterprise Selenium Java Project  A test framework that starts as a few scripts in a single package will quickly degrade into an unmaintainable monolith. As your
-readTime: 3 min read
+  Design an enterprise-grade folder structure for a Selenium Java framework. Leverage the standard Maven directory layout and enforce strict Separation of Concerns (SoC) for scalable test automation.
+readTime: 6 min read
 ---
 
 # Framework Architecture: Structuring an Enterprise Selenium Java Project
@@ -38,9 +39,7 @@ To achieve this, we divide our framework into logical layers.
 
 Maven dictates a standard directory layout that universally separates application/framework code from test code. We will build upon this foundation.
 
-
-![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/framework-architecture-structuring-an-enterprise-selenium-java-project/images/diagram_1.png)
-
+![diagram_1](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/posts/framework-architecture-structuring-an-enterprise-selenium-java-project/images/diagram_1.png)
 
 ### 1. The Core Engine: `src/main/java`
 
@@ -86,9 +85,7 @@ TestNG listeners that monitor the test execution lifecycle.
 
 Code belongs in `.java` files; configuration and data belong in resources. 
 
-
-![diagram_2](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/framework-architecture-structuring-an-enterprise-selenium-java-project/images/diagram_2.png)
-
+![diagram_2](https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/posts/framework-architecture-structuring-an-enterprise-selenium-java-project/images/diagram_2.png)
 
 - **`config.properties`**: Global configuration (e.g., default timeout, implicit wait, browser type).
 - **Environment Files (`qa.properties`, `staging.properties`)**: Environment-specific URLs and credentials.
@@ -103,25 +100,25 @@ To illustrate why this structure is powerful, look at how clean a test class bec
 
 ```java
 package com.mycodeyatra.tests;
-
+ 
 import com.mycodeyatra.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
+ 
 public class LoginTest extends BaseTest {
-
+ 
     @Test(description = "Verify successful login with valid credentials")
     public void validLoginTest() {
         // Page object is instantiated; BaseTest already set up the driver
         LoginPage loginPage = new LoginPage(driver);
-        
+ 
         // Test steps are highly readable
         boolean isDashboardDisplayed = loginPage
             .enterUsername("admin")
             .enterPassword("password123")
             .clickLogin()
             .isDashboardHeaderVisible();
-            
+ 
         // Assertion is decoupled from page logic
         Assert.assertTrue(isDashboardDisplayed, "Dashboard was not displayed after login.");
     }
