@@ -106,6 +106,7 @@ Hardcoding cookie values isn't practical because tokens expire. The ultimate pat
 3. Have all other tests read that file and inject the cookies.
 
 ### Step A: Saving the Cookie
+
 ```java
 public void saveSession() {
     // Assume driver is already logged in
@@ -126,6 +127,7 @@ public void saveSession() {
 ```
 
 ### Step B: Loading the Cookie in Subsequent Tests
+
 ```java
 public void loadSession() {
     driver.get("https://mycodeyatra.com"); // Must hit domain first
