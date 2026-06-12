@@ -5608,5 +5608,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-48",
+    "title": "Auth Security Patterns: Protecting Test Credentials",
+    "slug": "auth-security-patterns-protecting-test-credentials",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop leaking passwords to GitHub. Learn how to securely manage automation credentials using local .env files and cloud vaults like AWS Secrets Manager in your CI/CD pipelines.",
+    "date": "22-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "security-testing",
+      "credentials",
+      "aws-secrets-manager",
+      "dotenv"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/auth-security-patterns-protecting-test-credentials.md",
+    "series": "selenium-advanced-security-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
