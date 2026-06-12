@@ -5647,5 +5647,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-49",
+    "title": "Visual Testing: AShot library screenshot comparison",
+    "slug": "visual-testing-with-ashot",
+    "author": "pankaj-kumar",
+    "excerpt": "Go beyond functional assertions. Learn how to perform pixel-by-pixel visual regression testing in Java using the open-source AShot library.",
+    "date": "25-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "visual-testing",
+      "ashot",
+      "screenshot",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/visual-testing-with-ashot.md",
+    "series": "selenium-advanced-visual-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
