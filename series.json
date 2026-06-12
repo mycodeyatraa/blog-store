@@ -272,5 +272,14 @@
     ],
     "status": "ongoing",
     "createdAt": "22-Aug-2024"
+  },
+  {
+    "id": "selenium-advanced-security-testing",
+    "title": "Selenium Advanced Security Testing",
+    "description": "Shift-left your security testing by integrating OWASP ZAP, CSP validation, and Security Header checks directly into your Selenium Java automation framework.",
+    "author": "pankaj-kumar",
+    "articleIds": [],
+    "status": "ongoing",
+    "createdAt": "08-Sep-2024"
   }
 ]
