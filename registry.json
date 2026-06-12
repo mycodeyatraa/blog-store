@@ -5686,5 +5686,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-50",
+    "title": "Baseline Management: Stabilizing Visual Tests",
+    "slug": "baseline-management-stabilizing-visual-tests",
+    "author": "pankaj-kumar",
+    "excerpt": "Eliminate visual test flakiness. Learn how to configure AShot to ignore dynamic WebElements and design enterprise storage strategies using AWS S3 for your baseline images.",
+    "date": "28-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "visual-testing",
+      "ashot",
+      "baselines",
+      "aws-s3"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/baseline-management-stabilizing-visual-tests.md",
+    "series": "selenium-advanced-visual-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
