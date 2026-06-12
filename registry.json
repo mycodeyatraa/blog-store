@@ -5412,5 +5412,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-43",
+    "title": "Token Management: Extracting JWTs from the Browser",
+    "slug": "token-management-extracting-jwts-from-the-browser",
+    "author": "pankaj-kumar",
+    "excerpt": "Bridge your UI and API tests. Learn how to extract JWTs from LocalStorage and SessionStorage using JavascriptExecutor to pass authentication tokens to RestAssured.",
+    "date": "05-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "jwt",
+      "authentication",
+      "restassured",
+      "framework",
+      "localstorage"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/token-management-extracting-jwts-from-the-browser.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
