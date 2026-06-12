@@ -241,9 +241,19 @@
       "blog-selenium-java-31",
       "blog-selenium-java-32",
       "blog-selenium-java-33",
-      "blog-selenium-java-34",
+      "blog-selenium-java-34"
+    ]
+  },
+  {
+    "id": "selenium-api-hybrid-framework",
+    "title": "Selenium & API Hybrid Framework",
+    "description": "Learn how to build a highly scalable, blazing fast Enterprise Hybrid Test Framework by seamlessly merging Selenium WebDriver UI Automation with RestAssured API Testing.",
+    "author": "pankaj-kumar",
+    "articleIds": [
       "blog-selenium-java-35",
       "blog-selenium-java-36"
-    ]
+    ],
+    "status": "ongoing",
+    "createdAt": "15-Aug-2026"
   }
 ]
