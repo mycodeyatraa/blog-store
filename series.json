@@ -263,7 +263,8 @@
     "description": "Master complex authentication flows in Selenium, from cookie management and session handling to modern SSO and MFA architectures.",
     "author": "pankaj-kumar",
     "articleIds": [
-      "blog-selenium-java-38"
+      "blog-selenium-java-38",
+      "blog-selenium-java-39"
     ],
     "status": "ongoing",
     "createdAt": "22-Aug-2024"
