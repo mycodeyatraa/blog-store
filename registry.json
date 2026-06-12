@@ -5491,5 +5491,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-45",
+    "title": "CSP Validation: Defeating XSS with Automated Checks",
+    "slug": "csp-validation-defeating-xss-with-automated-checks",
+    "author": "pankaj-kumar",
+    "excerpt": "Build the ultimate defense against XSS. Learn how to parse Content Security Policy headers, check for unsafe-inline bypasses, and monitor DevTools console logs for violations.",
+    "date": "12-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "security-testing",
+      "csp",
+      "xss",
+      "restassured"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/csp-validation-defeating-xss-with-automated-checks.md",
+    "series": "selenium-advanced-security-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
