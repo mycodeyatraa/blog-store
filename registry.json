@@ -5373,5 +5373,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-42",
+    "title": "MFA Concepts: Automating TOTP and Authenticator Apps",
+    "slug": "mfa-concepts-automating-totp-and-authenticator-apps",
+    "author": "pankaj-kumar",
+    "excerpt": "Bypass the ultimate testing roadblock. Learn how to automatically generate 6-digit MFA codes directly in Java using TOTP algorithms for your Selenium scripts.",
+    "date": "02-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "mfa",
+      "totp",
+      "authentication",
+      "framework"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mfa-concepts-automating-totp-and-authenticator-apps.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
