@@ -5452,5 +5452,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-44",
+    "title": "Security Headers: Shifting Left with Selenium",
+    "slug": "security-headers-shifting-left-with-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Automate security testing directly in your framework. Learn how to validate HTTP security headers using RestAssured and Selenium 4's Chrome DevTools Protocol.",
+    "date": "08-Sep-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "security-testing",
+      "headers",
+      "cdp",
+      "restassured"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/security-headers-shifting-left-with-selenium.md",
+    "series": "selenium-advanced-security-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
