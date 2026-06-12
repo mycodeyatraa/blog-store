@@ -293,7 +293,9 @@
     "title": "Selenium Advanced Visual Testing",
     "description": "Ensure pixel-perfect UIs across all devices. Learn to integrate open-source tools like AShot and AI-driven platforms like Applitools Eyes and Percy into your Java automation framework.",
     "author": "pankaj-kumar",
-    "articleIds": [],
+    "articleIds": [
+      "blog-selenium-java-49"
+    ],
     "status": "ongoing",
     "createdAt": "25-Sep-2024"
   }
