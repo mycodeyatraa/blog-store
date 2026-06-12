@@ -5176,5 +5176,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-37",
+    "title": "API Framework Design: POJOs and the Builder Pattern",
+    "slug": "api-framework-design-pojos-and-the-builder-pattern",
+    "author": "pankaj-kumar",
+    "excerpt": "Design a highly modular API engine for your Hybrid Framework by eliminating raw JSON strings and encapsulating RestAssured logic using Lombok, POJOs, and the Builder Pattern.",
+    "date": "20-Aug-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "restassured",
+      "api-testing",
+      "hybrid-automation",
+      "framework",
+      "builder-pattern",
+      "lombok"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/api-framework-design-pojos-and-the-builder-pattern.md",
+    "series": "selenium-api-hybrid-framework",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
