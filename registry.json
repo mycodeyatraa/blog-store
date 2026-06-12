@@ -5725,5 +5725,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-51",
+    "title": "Applitools Eyes: AI visual validation with Java SDK",
+    "slug": "applitools-eyes-ai-visual-validation",
+    "author": "pankaj-kumar",
+    "excerpt": "Ditch pixel matching for AI. Learn how to integrate Applitools Eyes into your Selenium Java framework to perform intelligent, layout-aware visual regression testing.",
+    "date": "01-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "visual-testing",
+      "applitools",
+      "ai-testing",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/applitools-eyes-ai-visual-validation.md",
+    "series": "selenium-advanced-visual-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
