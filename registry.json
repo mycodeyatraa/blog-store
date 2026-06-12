@@ -4980,5 +4980,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-32",
+    "title": "Spring DI & Testcontainers: Modernizing Selenium Java Architecture",
+    "slug": "spring-di-and-testcontainers-modernizing-selenium-java-architecture",
+    "author": "pankaj-kumar",
+    "excerpt": "Replace rigid static factories with Spring Dependency Injection (DI) and fragile grids with Testcontainers. Learn how to spin up ephemeral Docker environments on the fly for scalable UI automation.",
+    "date": "05-Aug-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "spring-boot",
+      "testcontainers",
+      "docker",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/spring-di-and-testcontainers-modernizing-selenium-java-architecture.md",
+    "series": "selenium-framework-design-and-patterns-in-java",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
