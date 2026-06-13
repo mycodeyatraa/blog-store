@@ -7361,5 +7361,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-34",
+    "title": "API Testing in Python: Introduction to the Requests Library",
+    "slug": "requests-library-python-api-testing-basics",
+    "author": "pankaj-kumar",
+    "excerpt": "Step into the backend! Learn the fundamentals of API testing in Python using the legendary Requests library. Master GET requests, JSON parsing, and response validation.",
+    "date": "01-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "requests",
+      "json",
+      "backend",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/requests-library-python-api-testing-basics.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
