@@ -338,5 +338,16 @@
     ],
     "status": "ongoing",
     "createdAt": "01-Nov-2024"
+  },
+  {
+    "id": "selenium-python-core-ui-automation",
+    "title": "Selenium Python - Core UI Automation",
+    "description": "Dive deep into complex UI interactions. Learn advanced element location, wait strategies, window handling, and Shadow DOM manipulation with Selenium Python.",
+    "author": "pankaj-kumar",
+    "articleIds": [
+      "blog-selenium-python-11"
+    ],
+    "status": "In Progress",
+    "createdAt": "01-Dec-2024"
   }
 ]
