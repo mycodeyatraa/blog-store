@@ -7205,5 +7205,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-30",
+    "title": "Building a Logging Framework in Selenium Python",
+    "slug": "logging-framework-python-selenium-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop using print() statements! Learn how to integrate Python's built-in logging module to generate timestamped, persistent execution logs for your enterprise automation suite.",
+    "date": "18-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "logging",
+      "framework",
+      "architecture",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/logging-framework-python-selenium-automation.md",
+    "series": "selenium-python-framework",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
