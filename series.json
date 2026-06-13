@@ -324,7 +324,9 @@
     "title": "Selenium Python: Foundations",
     "description": "Master the absolute basics of Selenium WebDriver with Python. Learn how to set up your environment, manage web elements, and write your first robust tests using the powerful pytest framework.",
     "author": "pankaj-kumar",
-    "articleIds": [],
+    "articleIds": [
+      "blog-selenium-python-1"
+    ],
     "status": "ongoing",
     "createdAt": "01-Nov-2024"
   }
