@@ -7049,5 +7049,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-26",
+    "title": "The Screenplay Pattern: Beyond the Page Object Model",
+    "slug": "screenplay-pattern-selenium-python-beyond-pom",
+    "author": "pankaj-kumar",
+    "excerpt": "Is your Page Object Model becoming a bloated nightmare? Discover the Screenplay Pattern: an Actor-centric, highly composable architecture designed for massive enterprise UI test suites.",
+    "date": "08-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "screenplay-pattern",
+      "pom",
+      "design-pattern",
+      "enterprise"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/screenplay-pattern-selenium-python-beyond-pom.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
