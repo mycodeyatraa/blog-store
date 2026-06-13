@@ -6153,5 +6153,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-3",
+    "title": "Setting Up a Selenium Python Project from Scratch",
+    "slug": "setup-selenium-python-project",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to isolate dependencies using Python Virtual Environments, install pytest via requirements.txt, and leverage the new Native Selenium Manager to eliminate webdriver downloads.",
+    "date": "07-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "venv",
+      "setup",
+      "selenium-manager"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/setup-selenium-python-project.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
