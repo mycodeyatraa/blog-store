@@ -37,7 +37,6 @@ In Java or C#, if you want to assert that two values are equal, you have to impo
 // Java TestNG example
 Assert.assertEquals(actualTitle, "MyCodeYatra", "Title did not match!");
 Assert.assertTrue(button.isDisplayed(), "Button is hidden!");
-
 ```
 
 PyTest completely eliminates this boilerplate. Instead of providing 50 different assertion methods (`assertEquals`, `assertTrue`, `assertNull`), PyTest hooks directly into Python's native `assert` keyword!
@@ -48,7 +47,6 @@ def test_dashboard_title():
     actual_title = driver.title
     # Simple, readable, native Python
     assert actual_title == "MyCodeYatra Dashboard", "Title did not match!"
-
 ```
 
 ### How does PyTest do this? (Assertion Introspection)
@@ -77,7 +75,6 @@ def test_login_page_elements():
     # 4. Asserting List Sizes (Did our search return 5 items?)
     product_cards = driver.find_elements(By.CSS_SELECTOR, ".product-card")
     assert len(product_cards) == 5, "Expected exactly 5 products on the page"
-
 ```
 
 ---
@@ -98,7 +95,6 @@ First, install it:
 
 ```bash
 pip install pytest-check
-
 ```
 
 Now, implement it in your test:
@@ -114,7 +110,6 @@ def test_user_profile():
     # It will continue and check the email
     check.is_in("@mycodeyatra.com", email.text, "Invalid email domain")
     # At the end of the function, pytest-check will fail the test and report ALL 3 errors at once!
-
 ```
 
 ## Conclusion
