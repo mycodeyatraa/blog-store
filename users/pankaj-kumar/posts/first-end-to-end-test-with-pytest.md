@@ -76,7 +76,6 @@ def test_successful_login():
     finally:
         # 6. TEARDOWN (Guarantees execution even if assertions fail)
         driver.quit()
-
 ```
 
 ---
@@ -91,7 +90,6 @@ Create a file named `pytest.ini` in the root of your project:
 [pytest]
 addopts = -v -s
 testpaths = tests
-
 ```
 - `-v` stands for "verbose", giving us a detailed breakdown of which tests passed.
 - `-s` tells pytest to print our console logs (like `print("\nStarting Login Test...")`) instead of hiding them.
@@ -106,7 +104,6 @@ Let's use it! Open your terminal and run:
 
 ```bash
 pytest test_login.py --html=report.html
-
 ```
 
 ### What happens?
