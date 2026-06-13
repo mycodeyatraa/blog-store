@@ -7322,5 +7322,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-33",
+    "title": "Creating Custom PyTest Plugins for Selenium Frameworks",
+    "slug": "custom-pytest-plugins-selenium-python-framework",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop copy-pasting code across repositories! Learn how to package your Selenium fixtures and hooks into a custom PyTest plugin that can be pip installed by any team in your company.",
+    "date": "25-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "plugins",
+      "framework",
+      "enterprise"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-pytest-plugins-selenium-python-framework.md",
+    "series": "selenium-python-framework",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
