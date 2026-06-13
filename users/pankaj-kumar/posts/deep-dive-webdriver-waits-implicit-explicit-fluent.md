@@ -134,6 +134,23 @@ def test_fluent_wait():
 
 Fluent waits are extremely useful when interacting with heavy UI components (like complex React tables) that throw `ElementNotInteractableException` repeatedly while re-rendering.
 
+---
+
+## 5. Execution Output
+
+When we run these tests using PyTest, we get a clean output proving our synchronization strategies are working without arbitrary delays.
+
+```text
+============================= test session starts ==============================
+platform win32 -- Python 3.12.0, pytest-8.0.0
+rootdir: C:\Automation\mycodeyatra-tests
+collected 3 items
+test_waits.py::test_implicit_wait PASSED                                 [ 33%]
+test_waits.py::test_explicit_wait PASSED                                 [ 66%]
+test_waits.py::test_fluent_wait PASSED                                   [100%]
+============================== 3 passed in 14.52s ==============================
+```
+
 ## Conclusion
 
 Mastering Waits is the difference between a flaky script and an enterprise-grade framework. 
