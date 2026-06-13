@@ -303,5 +303,14 @@
     ],
     "status": "ongoing",
     "createdAt": "25-Sep-2024"
+  },
+  {
+    "id": "selenium-advanced-accessibility-testing",
+    "title": "Selenium Advanced Accessibility Testing",
+    "description": "Ensure your web applications are usable by everyone. Learn to automate WCAG compliance checks, integrate Axe-Core, and test for keyboard navigation and screen reader support.",
+    "author": "pankaj-kumar",
+    "articleIds": [],
+    "status": "ongoing",
+    "createdAt": "15-Oct-2024"
   }
 ]
