@@ -6932,5 +6932,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-23",
+    "title": "The Page Object Model (POM) in Selenium Python",
+    "slug": "page-object-model-pom-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Build invincible test frameworks! Learn how to implement the Page Object Model (POM) in Selenium Python to separate locators from logic and eliminate maintenance nightmares.",
+    "date": "29-Dec-2024",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "page-object-model",
+      "pom",
+      "framework",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/page-object-model-pom-selenium-python.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
