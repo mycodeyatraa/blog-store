@@ -34,7 +34,6 @@ To verify your installation, open your terminal and run:
 ```bash
 python --version
 pip --version
-
 ```
 *(Note: If you are on a Mac, you may need to use `python3` and `pip3` depending on your setup).*
 
@@ -55,7 +54,6 @@ cd mycodeyatra-selenium-python
  
 # Create the virtual environment (named 'venv')
 python -m venv venv
-
 ```
 
 Now, you must **activate** the environment so your terminal knows to use the isolated Python instance:
@@ -64,14 +62,12 @@ Now, you must **activate** the environment so your terminal knows to use the iso
 
 ```bash
 venv\Scripts\activate
-
 ```
 
 **Mac / Linux:**
 
 ```bash
 source venv/bin/activate
-
 ```
 You will know it worked if you see `(venv)` appearing at the beginning of your terminal prompt!
 
@@ -87,14 +83,12 @@ Create a file named `requirements.txt` in your root folder and add the following
 selenium==4.17.2
 pytest==8.0.0
 pytest-html==4.1.1
-
 ```
 
 Now, install them into your virtual environment:
 
 ```bash
 pip install -r requirements.txt
-
 ```
 
 ---
@@ -141,14 +135,12 @@ def test_launch_browser():
  
     # 6. Quit the browser and kill the process
     driver.quit()
-
 ```
 
 Run the script using our newly installed `pytest` runner:
 
 ```bash
 pytest -s test_setup.py
-
 ```
 *(Note: The `-s` flag tells pytest to print our console output instead of capturing it).*
 
