@@ -5842,5 +5842,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-54",
+    "title": "Percy Visual Testing: DOM-based Visual Diffs",
+    "slug": "percy-visual-testing-dom-based-visual-diffs",
+    "author": "pankaj-kumar",
+    "excerpt": "Explore DOM-based visual testing. Learn how to integrate the Percy Java SDK to extract application assets and generate lightning-fast, highly accurate visual diffs in the cloud.",
+    "date": "12-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "visual-testing",
+      "percy",
+      "browserstack",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/percy-visual-testing-dom-based-visual-diffs.md",
+    "series": "selenium-advanced-visual-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
