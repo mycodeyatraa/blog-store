@@ -7010,5 +7010,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-25",
+    "title": "The Builder Pattern for Test Data in Selenium Python",
+    "slug": "builder-pattern-selenium-python-test-data",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop struggling with massive data dictionaries! Learn how to use the Builder Pattern and Faker to dynamically construct flexible, readable test payloads in Selenium Python.",
+    "date": "05-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "builder-pattern",
+      "design-pattern",
+      "test-data",
+      "faker"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/builder-pattern-selenium-python-test-data.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
