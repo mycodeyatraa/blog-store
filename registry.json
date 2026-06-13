@@ -6581,5 +6581,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-14",
+    "title": "File Uploads in Selenium Python: The Easy Way and The Hard Way",
+    "slug": "file-upload-selenium-python-send-keys-pyautogui",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop struggling with OS dialogs! Learn the most reliable way to upload files in Selenium Python using send_keys(), and explore PyAutoGUI as a last-resort fallback for hidden inputs.",
+    "date": "08-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "file-upload",
+      "send_keys",
+      "pyautogui",
+      "os-dialogs"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/file-upload-selenium-python-send-keys-pyautogui.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
