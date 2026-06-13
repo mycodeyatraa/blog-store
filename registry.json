@@ -7166,5 +7166,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-29",
+    "title": "Configuration Management in Selenium Python Frameworks",
+    "slug": "configuration-management-ini-files-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Make your framework environment-agnostic! Learn how to use Python's configparser and PyTest CLI arguments to dynamically switch between QA, Staging, and Production environments.",
+    "date": "15-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "framework",
+      "configparser",
+      "environment",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/configuration-management-ini-files-selenium-python.md",
+    "series": "selenium-python-framework",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
