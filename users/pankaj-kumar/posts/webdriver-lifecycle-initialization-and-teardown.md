@@ -39,6 +39,7 @@ driver = webdriver.Chrome()
  
 # Maximize the window to ensure responsive layouts don't hide elements
 driver.maximize_window()
+
 ```
 
 When this line executes, Python receives a unique **Session ID**. For the rest of this test, every command will be tied to this specific ID.
@@ -64,6 +65,7 @@ driver.back()
  
 # 5. Press the Browser's "Forward" button (Returns to /dashboard)
 driver.forward()
+
 ```
 
 *(Note: `driver.get()` waits for the JavaScript `document.readyState` to equal `"complete"`. If a webpage has a lot of heavy tracking scripts or ads, this command might hang. We will discuss advanced loading strategies in future articles).*
@@ -112,6 +114,7 @@ def test_login_lifecycle():
     # ...But because we used 'with', Python GUARANTEES that driver.quit() 
     # is called automatically the second we exit the block!
     print("Browser safely destroyed, even after failure!")
+
 ```
 
 ## Conclusion
