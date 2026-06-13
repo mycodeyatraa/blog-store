@@ -7283,5 +7283,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-32",
+    "title": "Mastery of conftest.py in Selenium Python",
+    "slug": "conftest-py-mastery-selenium-python-pytest",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your PyTest configuration! Learn how to use conftest.py to manage global fixtures, leverage autouse, and isolate UI vs API configurations in nested directories.",
+    "date": "22-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "conftest",
+      "fixtures",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/conftest-py-mastery-selenium-python-pytest.md",
+    "series": "selenium-python-framework",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
