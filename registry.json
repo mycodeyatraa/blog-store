@@ -6115,5 +6115,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-2",
+    "title": "Selenium vs Playwright vs Cypress: The Python Perspective",
+    "slug": "selenium-vs-playwright-vs-cypress-python-ecosystem",
+    "author": "pankaj-kumar",
+    "excerpt": "Why are we choosing Selenium over Playwright or Cypress? Explore the architectural differences and learn why Selenium remains the enterprise standard for Python teams.",
+    "date": "04-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "playwright",
+      "cypress",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-vs-playwright-vs-cypress-python-ecosystem.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
