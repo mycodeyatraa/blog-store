@@ -6737,5 +6737,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-18",
+    "title": "Piercing the Shadow DOM in Selenium Python",
+    "slug": "shadow-dom-selenium-python-native-support",
+    "author": "pankaj-kumar",
+    "excerpt": "Overcome the ultimate encapsulation boundary. Learn how to identify Shadow DOMs and interact with hidden elements using both JavaScript Executors and Selenium 4 native support.",
+    "date": "18-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "shadow-dom",
+      "web-components",
+      "javascript-executor",
+      "selenium-4"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/shadow-dom-selenium-python-native-support.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
