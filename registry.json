@@ -6620,5 +6620,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-15",
+    "title": "Automating File Downloads in Selenium Python",
+    "slug": "file-download-selenium-python-browser-preferences",
+    "author": "pankaj-kumar",
+    "excerpt": "Download files seamlessly in your tests without OS interruptions. Learn how to configure Chrome and Firefox preferences and safely verify incomplete downloads.",
+    "date": "10-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "file-download",
+      "chrome-options",
+      "firefox-options",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/file-download-selenium-python-browser-preferences.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
