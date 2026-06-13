@@ -5920,5 +5920,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-56",
+    "title": "Axe-Core Integration: Automated WCAG compliance with Selenium",
+    "slug": "axe-core-integration-automated-wcag-compliance",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop manually checking for ARIA labels and color contrast. Learn how to inject the Axe-Core JavaScript engine into your Selenium framework to instantly catch accessibility violations.",
+    "date": "18-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "accessibility",
+      "axe-core",
+      "a11y",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axe-core-integration-automated-wcag-compliance.md",
+    "series": "selenium-advanced-accessibility-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
