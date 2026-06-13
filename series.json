@@ -365,7 +365,8 @@
     "title": "Selenium Python: Test Design & Architecture",
     "description": "Master advanced UI automation design patterns including Page Object Model, Data-Driven Testing, and custom Framework architecture in Python.",
     "articleIds": [
-      "blog-selenium-python-22"
+      "blog-selenium-python-22",
+      "blog-selenium-python-23"
     ]
   }
 ]
