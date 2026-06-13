@@ -54,15 +54,19 @@ Here is what the architecture looks like today:
 Let's look at exactly what happens under the hood when you run a simple script.
 
 ### Step 1: Starting the Session
+
 ```python
 driver = webdriver.Chrome()
+
 ```
 When you run this line, Python automatically starts the `chromedriver.exe` server in the background (usually on port 9515). Python then sends an HTTP `POST /session` request to that port. 
 The driver responds with a unique **Session ID** (e.g., `4b5c7f8a...`). From this moment on, every single command must include this Session ID so the driver knows which browser window to manipulate.
 
 ### Step 2: Finding an Element
+
 ```python
 btn = driver.find_element(By.ID, "submit")
+
 ```
 Python converts this into a JSON payload and sends it over HTTP:
 **Request:** `POST /session/{Session_ID}/element`
@@ -71,8 +75,10 @@ Python converts this into a JSON payload and sends it over HTTP:
 The `chromedriver` asks Google Chrome to search its DOM. If found, it returns a unique **Element ID**.
 
 ### Step 3: Clicking the Element
+
 ```python
 btn.click()
+
 ```
 Python takes the Element ID from Step 2 and sends another HTTP request:
 **Request:** `POST /session/{Session_ID}/element/{Element_ID}/click`
