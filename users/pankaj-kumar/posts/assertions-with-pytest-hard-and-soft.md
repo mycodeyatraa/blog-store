@@ -44,7 +44,6 @@ PyTest completely eliminates this boilerplate. Instead of providing 50 different
 # Python PyTest example
 def test_dashboard_title():
     actual_title = driver.title
- 
     # Simple, readable, native Python
     assert actual_title == "MyCodeYatra Dashboard", "Title did not match!"
 ```
@@ -62,20 +61,16 @@ Because you are just using native Python, asserting UI states becomes incredibly
 
 ```python
 from selenium.webdriver.common.by import By
- 
 def test_login_page_elements():
     # 1. Asserting Text Equality
     header = driver.find_element(By.TAG_NAME, "h1")
     assert header.text == "Secure Login"
- 
     # 2. Asserting a Boolean State (Is the element displayed?)
     error_msg = driver.find_element(By.ID, "error-toast")
     assert error_msg.is_displayed() is False, "Error message should be hidden!"
- 
     # 3. Asserting Substrings (Contains)
     current_url = driver.current_url
     assert "dashboard" in current_url, f"Expected dashboard in URL, but got {current_url}"
- 
     # 4. Asserting List Sizes (Did our search return 5 items?)
     product_cards = driver.find_elements(By.CSS_SELECTOR, ".product-card")
     assert len(product_cards) == 5, "Expected exactly 5 products on the page"
@@ -103,19 +98,14 @@ pip install pytest-check
 Now, implement it in your test:
 ```python
 import pytest_check as check
- 
 def test_user_profile():
     # ... navigation code ...
- 
     # Even if 'first_name' fails, the test will NOT stop!
     check.equal(first_name.text, "John", "First name mismatch")
- 
     # It will continue and check the last name
     check.equal(last_name.text, "Doe", "Last name mismatch")
- 
     # It will continue and check the email
     check.is_in("@mycodeyatra.com", email.text, "Invalid email domain")
- 
     # At the end of the function, pytest-check will fail the test and report ALL 3 errors at once!
 ```
 
