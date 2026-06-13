@@ -6270,5 +6270,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-6",
+    "title": "Locators in Selenium Python: Finding Elements on the Page",
+    "slug": "locators-in-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Master the DOM. Learn the hierarchy of Selenium locator strategies in Python, from blazing-fast IDs and CSS Selectors to powerful (but dangerous) relative XPaths.",
+    "date": "15-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "locators",
+      "xpath",
+      "css-selectors",
+      "dom"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/locators-in-selenium-python.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
