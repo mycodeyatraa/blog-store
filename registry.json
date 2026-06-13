@@ -6464,5 +6464,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-11",
+    "title": "Deep Dive: WebDriver Waits (Implicit vs. Explicit vs. Fluent)",
+    "slug": "deep-dive-webdriver-waits-implicit-explicit-fluent",
+    "author": "pankaj-kumar",
+    "excerpt": "Eliminate flaky tests forever. Master the art of synchronization in Selenium Python by understanding Implicit, Explicit, and Fluent Waits, and learn why time.sleep() is an anti-pattern.",
+    "date": "01-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "waits",
+      "synchronization",
+      "explicit-wait",
+      "fluent-wait"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/deep-dive-webdriver-waits-implicit-explicit-fluent.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
