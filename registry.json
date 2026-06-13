@@ -6347,5 +6347,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-8",
+    "title": "First E2E Test with PyTest: Putting It All Together",
+    "slug": "first-end-to-end-test-with-pytest",
+    "author": "pankaj-kumar",
+    "excerpt": "Write your first complete End-to-End UI test in Python. Combine WebDriver initialization, element locators, and PyTest assertions, and generate a beautiful HTML report.",
+    "date": "21-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "e2e",
+      "reporting",
+      "pytest-html"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/first-end-to-end-test-with-pytest.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
