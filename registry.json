@@ -6542,5 +6542,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-13",
+    "title": "Handling Alerts and Dialogs in Selenium Python",
+    "slug": "alerts-and-dialogs-selenium-python-switch-to",
+    "author": "pankaj-kumar",
+    "excerpt": "Conquer native browser popups. Learn how to switch context and interact with Alerts, Confirms, and Prompts in Selenium Python, and how to wait for them explicitly.",
+    "date": "05-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "alerts",
+      "dialogs",
+      "popups",
+      "switch-to"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/alerts-and-dialogs-selenium-python-switch-to.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
