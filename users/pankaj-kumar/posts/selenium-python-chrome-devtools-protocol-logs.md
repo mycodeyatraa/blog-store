@@ -55,7 +55,6 @@ def test_console_logs():
         # We can even assert that no SEVERE errors occurred!
         assert entry['level'] != 'SEVERE', f"Test failed due to JS Error: {entry['message']}"
     driver.quit()
-
 ```
 
 ---
@@ -84,7 +83,6 @@ def test_slow_network():
     driver.get("https://mycodeyatra.com")
     # Here you could assert that your loading spinner is displayed
     driver.quit()
-
 ```
 
 ---
@@ -114,7 +112,6 @@ def test_network_performance():
             status = message["params"]["response"]["status"]
             print(f"Loaded {url} with status {status}")
     driver.quit()
-
 ```
 
 ## Conclusion
