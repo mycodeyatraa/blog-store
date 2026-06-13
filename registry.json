@@ -7127,5 +7127,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-28",
+    "title": "Building a Utility Framework in Selenium Python",
+    "slug": "utility-framework-base-page-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop writing raw Selenium commands! Learn how to wrap explicit waits, JS fallbacks, and data generation into a centralized Utility Framework to make your tests bulletproof.",
+    "date": "12-Jan-2025",
+    "readTime": "6 min read",
+    "category": "Framework",
+    "categories": [
+      "Framework",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "framework",
+      "utilities",
+      "base-page",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/utility-framework-base-page-selenium-python.md",
+    "series": "selenium-python-framework",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
