@@ -6192,5 +6192,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-4",
+    "title": "Selenium WebDriver Architecture: The W3C Protocol Explained",
+    "slug": "selenium-webdriver-architecture-w3c-protocol",
+    "author": "pankaj-kumar",
+    "excerpt": "Go beyond simple scripts. Understand the 3-layer architecture of Selenium and how Python translates your commands into W3C standard HTTP REST payloads.",
+    "date": "10-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "architecture",
+      "w3c",
+      "http",
+      "webdriver"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-webdriver-architecture-w3c-protocol.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
