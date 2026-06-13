@@ -6076,5 +6076,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-1",
+    "title": "What is Selenium with Python? Introduction to the Automation Ecosystem",
+    "slug": "what-is-selenium-with-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Kick off the brand new Selenium Python curriculum! Discover why Python and pytest are dominating test automation, and understand the core architecture of the W3C WebDriver Protocol.",
+    "date": "01-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "automation",
+      "framework",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/what-is-selenium-with-python.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
