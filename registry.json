@@ -6893,5 +6893,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-22",
+    "title": "Data Driven Testing in Selenium Python using PyTest",
+    "slug": "data-driven-testing-selenium-python-pytest-csv-json-excel",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop duplicating your test code! Learn how to build Data-Driven frameworks in Selenium Python by reading test data from CSV, JSON, and Excel files using PyTest's parametrize decorator.",
+    "date": "27-Dec-2024",
+    "readTime": "6 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "data-driven-testing",
+      "pytest",
+      "parametrize",
+      "excel"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/data-driven-testing-selenium-python-pytest-csv-json-excel.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
