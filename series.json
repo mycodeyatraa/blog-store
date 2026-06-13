@@ -309,7 +309,9 @@
     "title": "Selenium Advanced Accessibility Testing",
     "description": "Ensure your web applications are usable by everyone. Learn to automate WCAG compliance checks, integrate Axe-Core, and test for keyboard navigation and screen reader support.",
     "author": "pankaj-kumar",
-    "articleIds": [],
+    "articleIds": [
+      "blog-selenium-java-55"
+    ],
     "status": "ongoing",
     "createdAt": "15-Oct-2024"
   }
