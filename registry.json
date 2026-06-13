@@ -6854,5 +6854,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-21",
+    "title": "Cross-Browser Testing in Selenium Python",
+    "slug": "cross-browser-testing-selenium-python-pytest-fixtures",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't just test in Chrome! Learn how to use parameterized PyTest fixtures to seamlessly execute your single test suite across Chrome, Firefox, and Edge simultaneously.",
+    "date": "25-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "cross-browser",
+      "pytest",
+      "fixtures",
+      "selenium-manager"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/cross-browser-testing-selenium-python-pytest-fixtures.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
