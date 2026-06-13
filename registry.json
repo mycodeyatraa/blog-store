@@ -7088,5 +7088,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-27",
+    "title": "Mastering PyTest Fixtures and Hooks for Selenium Python",
+    "slug": "pytest-fixtures-hooks-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Take control of your test lifecycle! Learn how to use PyTest Fixtures for setup/teardown and PyTest Hooks to automatically capture Selenium screenshots on failure.",
+    "date": "10-Jan-2025",
+    "readTime": "7 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "fixtures",
+      "hooks",
+      "screenshots"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-fixtures-hooks-selenium-python.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
