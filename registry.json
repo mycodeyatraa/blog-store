@@ -6309,5 +6309,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-7",
+    "title": "Assertions with PyTest: Validating Test Outcomes",
+    "slug": "assertions-with-pytest-hard-and-soft",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your scripts into actual tests! Discover how PyTest's assertion introspection makes validations incredibly clean, and learn how to implement Soft Assertions using pytest-check.",
+    "date": "18-Nov-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "pytest",
+      "assertions",
+      "pytest-check"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/assertions-with-pytest-hard-and-soft.md",
+    "series": "selenium-python-foundations",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
