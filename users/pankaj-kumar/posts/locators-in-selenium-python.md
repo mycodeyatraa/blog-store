@@ -33,14 +33,12 @@ In Python, Selenium provides a dedicated `By` class to define locator strategies
 
 ```python
 from selenium.webdriver.common.by import By
-
 ```
 
 You use this class inside the `find_element()` method like this:
 
 ```python
 element = driver.find_element(By.ID, "login-button")
-
 ```
 
 Let's break down the different strategies in order of preference!
@@ -54,7 +52,6 @@ If the frontend developers did their job correctly, interactive elements will ha
 ```html
 <!-- Example HTML -->
 <input type="text" id="username_field" name="user_login">
-
 ```
 
 **Python Code:**
@@ -65,7 +62,6 @@ driver.find_element(By.ID, "username_field").send_keys("admin")
  
 # Second Best: Name is usually unique for form inputs
 driver.find_element(By.NAME, "user_login").send_keys("admin")
-
 ```
 
 ---
@@ -79,7 +75,6 @@ You can use CSS to find elements by class, by attribute, or by combining multipl
 ```html
 <!-- Example HTML -->
 <button class="btn primary-btn" data-testid="submit-btn">Login</button>
-
 ```
 
 **Python Code:**
@@ -90,7 +85,6 @@ driver.find_element(By.CSS_SELECTOR, ".primary-btn").click()
  
 # Finding by a Custom Data Attribute (Highly recommended!)
 driver.find_element(By.CSS_SELECTOR, "[data-testid='submit-btn']").click()
-
 ```
 
 ---
@@ -110,7 +104,6 @@ driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/form/input")
  
 # GREAT (Relative): Searches anywhere in the DOM for an input of type 'password'
 driver.find_element(By.XPATH, "//input[@type='password']")
-
 ```
 
 ### Finding Elements by Text
@@ -119,7 +112,6 @@ XPath is the *only* strategy that allows you to locate an element directly by th
 ```python
 # Finds a button containing the exact text "Checkout"
 driver.find_element(By.XPATH, "//button[text()='Checkout']").click()
-
 ```
 
 ---
@@ -130,7 +122,6 @@ If you specifically need to click on an `<a>` anchor tag, Selenium provides two 
 
 ```html
 <a href="https://mycodeyatra.com/forgot-password">Forgot your password?</a>
-
 ```
 
 **Python Code:**
@@ -141,7 +132,6 @@ driver.find_element(By.LINK_TEXT, "Forgot your password?").click()
  
 # Partial Match (Great for dynamic links)
 driver.find_element(By.PARTIAL_LINK_TEXT, "Forgot").click()
-
 ```
 
 ---
@@ -161,7 +151,6 @@ print(f"Found {len(rows)} rows!")
 # Loop through the list and print the text of each row
 for row in rows:
     print(row.text)
-
 ```
 *(Note: If `find_element` cannot find the target, it throws a `NoSuchElementException`. However, if `find_elements` cannot find anything, it simply returns an empty list `[]` without failing!)*
 
