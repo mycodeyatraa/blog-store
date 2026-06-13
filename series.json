@@ -372,5 +372,13 @@
       "blog-selenium-python-26",
       "blog-selenium-python-27"
     ]
+  },
+  {
+    "id": "selenium-python-framework",
+    "title": "Selenium Python: Enterprise Framework",
+    "description": "Learn how to build a scalable, enterprise-grade Selenium Python framework from scratch including custom utilities, configuration managers, and logging.",
+    "articleIds": [
+      "blog-selenium-python-28"
+    ]
   }
 ]
