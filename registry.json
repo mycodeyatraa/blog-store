@@ -5803,5 +5803,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-53",
+    "title": "Mobile Web Emulation: Spoofing Devices with Chrome DevTools",
+    "slug": "mobile-web-emulation-spoofing-devices-with-chrome-devtools",
+    "author": "pankaj-kumar",
+    "excerpt": "Test the true mobile experience without a device farm. Learn how to spoof User-Agents, enable touch events, and simulate custom device metrics using Selenium and Chrome DevTools Protocol.",
+    "date": "08-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "visual-testing",
+      "mobile-emulation",
+      "chrome-devtools",
+      "cdp"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mobile-web-emulation-spoofing-devices-with-chrome-devtools.md",
+    "series": "selenium-advanced-visual-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
