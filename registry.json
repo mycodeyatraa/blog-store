@@ -6971,5 +6971,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-24",
+    "title": "The Driver Factory Pattern in Selenium Python",
+    "slug": "driver-factory-pattern-selenium-python-pytest",
+    "author": "pankaj-kumar",
+    "excerpt": "Abstract browser instantiation out of your tests! Learn how to build a scalable Driver Factory to manage Chrome, Firefox, and Headless execution dynamically via PyTest CLI arguments.",
+    "date": "02-Jan-2025",
+    "readTime": "5 min read",
+    "category": "Framework Architecture",
+    "categories": [
+      "Framework Architecture",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "driver-factory",
+      "design-pattern",
+      "pytest",
+      "framework"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/driver-factory-pattern-selenium-python-pytest.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
