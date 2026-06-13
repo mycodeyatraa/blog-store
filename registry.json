@@ -5959,5 +5959,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-57",
+    "title": "Generating Accessibility Reports: JSON and HTML",
+    "slug": "generating-accessibility-reports-json-html",
+    "author": "pankaj-kumar",
+    "excerpt": "Make accessibility visible to your entire team. Learn how to export Axe-Core results as JSON for CI/CD metrics and compile them into beautiful HTML dashboards using axe-html-reporter.",
+    "date": "21-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "accessibility",
+      "axe-core",
+      "reporting",
+      "ci-cd"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/generating-accessibility-reports-json-html.md",
+    "series": "selenium-advanced-accessibility-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
