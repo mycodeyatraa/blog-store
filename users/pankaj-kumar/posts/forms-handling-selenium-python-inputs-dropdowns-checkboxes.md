@@ -120,6 +120,23 @@ For custom dropdowns, you must fall back to the basic strategy:
 1. `driver.find_element(By.ID, "custom-dropdown-container").click()`
 2. `driver.find_element(By.XPATH, "//li[text()='India']").click()`
 
+---
+
+## 4. Execution Output
+
+When we run these tests via PyTest, the interactions happen instantly and safely, giving us a clean pass!
+
+```text
+============================= test session starts ==============================
+platform win32 -- Python 3.12.0, pytest-8.0.0
+rootdir: C:\Automation\mycodeyatra-tests
+collected 3 items
+test_forms.py::test_text_inputs PASSED                                   [ 33%]
+test_forms.py::test_checkboxes_and_radios PASSED                         [ 66%]
+test_forms.py::test_native_dropdown PASSED                               [100%]
+============================== 3 passed in 12.18s ==============================
+```
+
 ## Conclusion
 
 Interacting with forms requires careful state management. 
