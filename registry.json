@@ -5881,5 +5881,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-55",
+    "title": "Web Accessibility: Understanding WCAG Guidelines",
+    "slug": "web-accessibility-understanding-wcag-guidelines",
+    "author": "pankaj-kumar",
+    "excerpt": "Start Phase 9 by understanding the legal and ethical importance of accessibility. Learn the WCAG POUR principles and the different levels of compliance required for modern web applications.",
+    "date": "15-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "accessibility",
+      "a11y",
+      "wcag",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/web-accessibility-understanding-wcag-guidelines.md",
+    "series": "selenium-advanced-accessibility-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
