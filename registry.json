@@ -6776,5 +6776,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-19",
+    "title": "Network Interception in Selenium Python using Chrome DevTools Protocol (CDP)",
+    "slug": "selenium-4-devtools-network-interception-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Mock APIs and intercept network requests directly within the browser! Learn how to leverage Selenium 4's Native CDP support to build lightning-fast, isolated UI tests.",
+    "date": "20-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "cdp",
+      "network-interception",
+      "mocking",
+      "selenium-4"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-4-devtools-network-interception-python.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
