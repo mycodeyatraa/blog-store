@@ -5998,5 +5998,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-58",
+    "title": "Keyboard Navigation: Testing Without a Mouse",
+    "slug": "keyboard-navigation-testing-without-a-mouse",
+    "author": "pankaj-kumar",
+    "excerpt": "Abandon the mouse. Learn how to simulate users with motor disabilities by exclusively using Selenium's Keyboard Actions to validate focus management and tab-indexing.",
+    "date": "25-Oct-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Java"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "java",
+      "accessibility",
+      "keyboard-navigation",
+      "actions",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/keyboard-navigation-testing-without-a-mouse.md",
+    "series": "selenium-advanced-accessibility-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
