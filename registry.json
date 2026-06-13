@@ -6698,5 +6698,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-17",
+    "title": "Handling Frames and iFrames in Selenium Python",
+    "slug": "frames-and-iframes-selenium-python-switch-to-frame",
+    "author": "pankaj-kumar",
+    "excerpt": "If Selenium can't find an element, it might be hiding in an iframe! Learn how to switch contexts into iframes, handle nested iframes, and return to the main document.",
+    "date": "15-Dec-2024",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Selenium",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "iframes",
+      "frames",
+      "switch-to-frame",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/frames-and-iframes-selenium-python-switch-to-frame.md",
+    "series": "selenium-python-core-ui-automation",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
