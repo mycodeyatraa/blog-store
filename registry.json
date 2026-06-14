@@ -8053,5 +8053,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-52",
+    "title": "Validating Security Headers in Python: A DevSecOps Guide",
+    "slug": "security-headers-validation-selenium-python-devsecops",
+    "author": "pankaj-kumar",
+    "excerpt": "Protect your application from MitM and Clickjacking! Learn how to write automated tests in Python to validate critical HTTP Security Headers like HSTS and X-Frame-Options using both Requests and Selenium CDP.",
+    "date": "15-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Security",
+    "categories": [
+      "Security",
+      "Python",
+      "DevSecOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "security",
+      "devsecops",
+      "headers",
+      "cdp"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/security-headers-validation-selenium-python-devsecops.md",
+    "series": "selenium-python-security",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
