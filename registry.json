@@ -9884,5 +9884,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-foundations-1",
+    "title": "What is Selenium with TypeScript? (And Why You Should Learn It)",
+    "slug": "what-is-selenium-typescript-vs-playwright-cypress",
+    "author": "pankaj-kumar",
+    "excerpt": "Discover why the automation industry is shifting towards TypeScript! Compare Selenium against Playwright and Cypress, and learn why TS is critical for building Enterprise UI frameworks.",
+    "date": "02-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "javascript",
+      "automation",
+      "playwright",
+      "cypress"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/what-is-selenium-typescript-vs-playwright-cypress.md",
+    "series": "selenium-ts-foundations",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
