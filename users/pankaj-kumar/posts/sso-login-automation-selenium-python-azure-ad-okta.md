@@ -32,6 +32,7 @@ In this article, we will learn how to build an unbreakable automation script tha
 A standard local login requires finding two elements: `<input id="user">` and `<input id="pass">`, filling them, and clicking submit. 
 
 An SSO login, like Microsoft Azure AD, usually follows this complex flow:
+
 1. Navigate to your app (`myapp.com`).
 2. App detects you are not authenticated and redirects you to `login.microsoftonline.com`.
 3. You enter your **Email** and click "Next".
@@ -39,6 +40,7 @@ An SSO login, like Microsoft Azure AD, usually follows this complex flow:
 5. You enter your **Password** and click "Sign In".
 6. Microsoft asks "Stay signed in?" You click "Yes".
 7. Microsoft redirects you back to `myapp.com` with a secure SAML/OAuth token in the URL.
+
 
 If you do not use `WebDriverWait` between *every single step*, your test will fail 100% of the time.
 
