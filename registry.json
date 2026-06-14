@@ -9768,5 +9768,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-bdd-2",
+    "title": "Advanced Cucumber Architecture: Hooks, Tags, and Scenario Outlines",
+    "slug": "advanced-cucumber-architecture-hooks-tags-scenario-outlines-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Upgrade your Cucumber framework! Learn how to data-drive tests with Scenario Outlines, filter executions via Tags, and globally manage WebDriver sessions using @Before and @After Hooks.",
+    "date": "30-Oct-2024",
+    "readTime": "6 min read",
+    "category": "BDD & Cucumber",
+    "categories": [
+      "BDD & Cucumber",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "hooks",
+      "tags"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-cucumber-architecture-hooks-tags-scenario-outlines-java.md",
+    "series": "selenium-java-bdd",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
