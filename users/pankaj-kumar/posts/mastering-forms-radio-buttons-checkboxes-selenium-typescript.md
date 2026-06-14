@@ -23,7 +23,7 @@ Welcome back to the **Core UI Automation** series! The vast majority of business
 
 If you do not handle forms correctly, your tests will fail randomly. For example, if you explicitly tell Selenium to `.click()` a checkbox without verifying its current state, you might accidentally uncheck it!
 
-In this tutorial, we will learn the best practices for handling text inputs, radio buttons, and checkboxes using TypeScript on **[practice.mycodeyatra.com](https://practice.mycodeyatra.com/)**.
+In this tutorial, we will learn the best practices for handling text inputs, radio buttons, and checkboxes using TypeScript on **[practice.mycodeyatra.com/#/form-practice](https://practice.mycodeyatra.com/#/form-practice)**.
 
 ---
 
@@ -32,7 +32,7 @@ Filling out text is straightforward. You locate the element and use `.sendKeys()
 However, in Enterprise frameworks, it's highly recommended to `.clear()` the input field first, just in case the browser auto-filled some data!
 
 ```typescript
-const emailInput = await driver.findElement(By.css(".email-field"));
+const emailInput = await driver.findElement(By.css("[data-testid='email']"));
 await emailInput.clear();
 await emailInput.sendKeys("john@example.com");
 ```
@@ -44,7 +44,7 @@ A common mistake junior engineers make is simply locating a checkbox and clickin
 
 ```typescript
 // DANGEROUS! What if it is already checked?
-await driver.findElement(By.css("input[value='Reading']")).click();
+await driver.findElement(By.css("[data-testid='interest-automation']")).click();
 ```
 
 If the checkbox is already checked (perhaps by default, or by a previous test), clicking it will **uncheck** it, causing your assertion to fail!
@@ -52,10 +52,10 @@ If the checkbox is already checked (perhaps by default, or by a previous test), 
 **The Golden Rule:** Always check the element's state using `.isSelected()` before issuing a click command.
 
 ```typescript
-const readingCheckbox = await driver.findElement(By.css("input[value='Reading']"));
-const isChecked = await readingCheckbox.isSelected();
+const automationCheckbox = await driver.findElement(By.css("[data-testid='interest-automation']"));
+const isChecked = await automationCheckbox.isSelected();
 if (!isChecked) {
-  await readingCheckbox.click();
+  await automationCheckbox.click();
 }
 ```
 
@@ -68,7 +68,7 @@ Let's combine this logic into a fully executable Jest test.
 Create `tests/forms.test.ts`:
 
 ```typescript
-import { Builder, WebDriver, By } from "selenium-webdriver";
+import { Builder, WebDriver, By, until } from "selenium-webdriver";
 import "chromedriver";
 describe("Core UI Automation - Forms and Checkboxes", () => {
   let driver: WebDriver;
@@ -83,32 +83,44 @@ describe("Core UI Automation - Forms and Checkboxes", () => {
     }
   });
   it("Should safely fill forms and toggle checkboxes", async () => {
-    console.log("Navigating to https://practice.mycodeyatra.com/ ...");
-    await driver.get("https://practice.mycodeyatra.com/");
+    console.log("Navigating to Form Practice Page...");
+    await driver.get("https://practice.mycodeyatra.com/#/form-practice");
+    // Wait for the form to render
+    await driver.wait(until.elementLocated(By.css("[data-testid='full-name']")), 5000);
     // 1. Text Inputs
-    const nameInput = await driver.findElement(By.css("#name"));
+    const nameInput = await driver.findElement(By.css("[data-testid='full-name']"));
     await nameInput.clear();
     await nameInput.sendKeys("John Automation");
     console.log("Filled Name Input");
+    const emailInput = await driver.findElement(By.css("[data-testid='email']"));
+    await emailInput.clear();
+    await emailInput.sendKeys("john@example.com");
+    console.log("Filled Email Input");
     // 2. Radio Buttons (Safely Select)
-    const maleRadioBtn = await driver.findElement(By.css("input[value='Male']"));
+    const maleRadioBtn = await driver.findElement(By.css("[data-testid='gender-male']"));
     const isMaleSelected = await maleRadioBtn.isSelected();
     if (!isMaleSelected) {
       await maleRadioBtn.click();
       console.log("Clicked Male Radio Button");
     }
     // 3. Checkboxes (Safely Select)
-    const readingCheckbox = await driver.findElement(By.css("input[value='Reading']"));
-    const isReadingChecked = await readingCheckbox.isSelected();
-    if (!isReadingChecked) {
-      await readingCheckbox.click();
-      console.log("Checked the 'Reading' Checkbox");
+    const automationCheckbox = await driver.findElement(By.css("[data-testid='interest-automation']"));
+    const isAutomationChecked = await automationCheckbox.isSelected();
+    if (!isAutomationChecked) {
+      await automationCheckbox.click();
+      console.log("Checked the 'Automation' Checkbox");
     } else {
-      console.log("The 'Reading' Checkbox was already checked");
+      console.log("The 'Automation' Checkbox was already checked");
     }
-    // 4. Assertions
-    expect(await maleRadioBtn.isSelected()).toBe(true);
-    expect(await readingCheckbox.isSelected()).toBe(true);
+    // 4. Submit the form
+    const submitBtn = await driver.findElement(By.css("[data-testid='submit-btn']"));
+    await submitBtn.click();
+    console.log("Clicked Submit Button");
+    // 5. Assertions (Wait for success message)
+    const successMsg = await driver.wait(until.elementLocated(By.css("[data-testid='success-msg']")), 5000);
+    const msgText = await successMsg.getText();
+    expect(msgText).toEqual("Form submitted successfully!");
+    console.log(`Success Message Verified: ${msgText}`);
   });
 });
 ```
@@ -124,13 +136,19 @@ describe("Core UI Automation - Forms and Checkboxes", () => {
   Core UI Automation - Forms and Checkboxes
     √ Should safely fill forms and toggle checkboxes (3204 ms)
   console.log
-    Navigating to https://practice.mycodeyatra.com/ ...
+    Navigating to Form Practice Page...
   console.log
     Filled Name Input
   console.log
+    Filled Email Input
+  console.log
     Clicked Male Radio Button
   console.log
-    Checked the 'Reading' Checkbox
+    Checked the 'Automation' Checkbox
+  console.log
+    Clicked Submit Button
+  console.log
+    Success Message Verified: Form submitted successfully!
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
