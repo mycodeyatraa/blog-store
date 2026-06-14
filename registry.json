@@ -9535,5 +9535,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-90",
+    "title": "Automated Accessibility Testing with Axe-Core in Selenium Python",
+    "slug": "automated-accessibility-testing-axe-core-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Ensure your web application is legally compliant and usable by everyone! Learn how to integrate the axe-selenium-python library to instantly scan your DOM for WCAG accessibility violations like bad color contrast and missing ARIA tags.",
+    "date": "15-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Accessibility Testing",
+    "categories": [
+      "Accessibility Testing",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "axe-core",
+      "a11y",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/automated-accessibility-testing-axe-core-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
