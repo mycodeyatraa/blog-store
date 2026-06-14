@@ -7975,5 +7975,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-50",
+    "title": "Token Management in Selenium: Extracting JWTs from Local Storage",
+    "slug": "token-management-selenium-python-jwt-local-storage",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop relying on cookies! Learn how to use Selenium's execute_script to extract and inject JWTs and API keys hidden inside the browser's Local Storage for modern React and Angular applications.",
+    "date": "09-Mar-2025",
+    "readTime": "5 min read",
+    "category": "Authentication",
+    "categories": [
+      "Authentication",
+      "Security",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "jwt",
+      "local-storage",
+      "tokens",
+      "authentication"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/token-management-selenium-python-jwt-local-storage.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
