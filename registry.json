@@ -8443,5 +8443,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-62",
+    "title": "Percy Visual Testing: Cloud-Scale DOM Snapshots with Python",
+    "slug": "percy-visual-testing-selenium-python-dom-snapshots",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop taking flat PNG screenshots! Learn how to use the Percy Python SDK to capture live HTML/CSS DOM snapshots and render them across dozens of cross-browser viewports simultaneously in the BrowserStack cloud.",
+    "date": "19-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Visual Testing",
+    "categories": [
+      "Visual Testing",
+      "Python",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "visual-testing",
+      "percy",
+      "browserstack",
+      "cross-browser"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/percy-visual-testing-selenium-python-dom-snapshots.md",
+    "series": "selenium-python-visual-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
