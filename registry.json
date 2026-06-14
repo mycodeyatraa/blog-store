@@ -8560,5 +8560,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-65",
+    "title": "Docker Grid: Scaling Selenium Execution with Docker Compose",
+    "slug": "docker-selenium-grid-python-pytest-compose",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop running tests one-by-one! Learn how to build an ephemeral Selenium Grid infrastructure using Docker Compose, allowing your CI/CD pipeline to scale browser execution instantly.",
+    "date": "28-Apr-2025",
+    "readTime": "6 min read",
+    "category": "CI/CD Pipelines",
+    "categories": [
+      "CI/CD Pipelines",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ci-cd",
+      "docker",
+      "docker-compose",
+      "grid"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/docker-selenium-grid-python-pytest-compose.md",
+    "series": "selenium-python-cicd",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
