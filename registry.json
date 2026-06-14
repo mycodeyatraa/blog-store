@@ -7741,5 +7741,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-44",
+    "title": "Cookie Management in Selenium Python: Add, Get, and Delete Cookies",
+    "slug": "cookie-management-selenium-python-bypass-login",
+    "author": "pankaj-kumar",
+    "excerpt": "Take full control of the browser state! Learn how to programmatically extract session cookies, inject custom authentication tokens to bypass logins, and instantly log out users using Selenium Python.",
+    "date": "23-Feb-2025",
+    "readTime": "6 min read",
+    "category": "Authentication",
+    "categories": [
+      "Authentication",
+      "Security",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "cookies",
+      "authentication",
+      "security",
+      "bypass"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/cookie-management-selenium-python-bypass-login.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
