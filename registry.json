@@ -9418,5 +9418,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-87",
+    "title": "The Grand Finale: Autonomous Test Agents and MCP Integration",
+    "slug": "autonomous-test-agents-mcp-integration-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Welcome to the bleeding edge. Discover how to combine LangChain, Selenium, and the Model Context Protocol (MCP) to create autonomous AI agents that explore your application, find bugs, and file Jira tickets entirely on their own!",
+    "date": "07-Jul-2025",
+    "readTime": "6 min read",
+    "category": "AI & Future of Automation",
+    "categories": [
+      "AI & Future of Automation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "mcp",
+      "autonomous-agents",
+      "langchain"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/autonomous-test-agents-mcp-integration-selenium-python.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
