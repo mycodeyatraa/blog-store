@@ -8989,5 +8989,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-76",
+    "title": "Kafka Validation: Testing Event-Driven Architectures in Python",
+    "slug": "kafka-validation-automation-selenium-python-event-driven",
+    "author": "pankaj-kumar",
+    "excerpt": "UI automation isn't enough for microservices! Learn how to use confluent-kafka to consume and assert asynchronous Kafka events triggered by your Selenium UI actions.",
+    "date": "04-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "kafka",
+      "event-driven",
+      "automation",
+      "confluent-kafka"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/kafka-validation-automation-selenium-python-event-driven.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
