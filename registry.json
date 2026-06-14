@@ -8950,5 +8950,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-75",
+    "title": "GraphQL Testing: Validating Modern APIs in Python",
+    "slug": "graphql-testing-automation-selenium-python-requests",
+    "author": "pankaj-kumar",
+    "excerpt": "Modern enterprise apps are ditching REST for GraphQL! Learn how to use the Python requests library to write automation tests for GraphQL Queries and Mutations, and perform hybrid backend validation!",
+    "date": "01-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "graphql",
+      "api-testing",
+      "requests",
+      "mutations"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/graphql-testing-automation-selenium-python-requests.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
