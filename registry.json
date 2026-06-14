@@ -10302,5 +10302,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-core-6",
+    "title": "Mastering Frames and iFrames in Selenium TypeScript",
+    "slug": "mastering-frames-iframes-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "If an element is inside an iframe, Selenium is completely blind to it until you explicitly switch contexts! Learn how to safely navigate iFrames using TypeScript.",
+    "date": "13-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Core Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "frames",
+      "iframes",
+      "context-switching"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-frames-iframes-selenium-typescript.md",
+    "series": "selenium-ts-core-automation",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
