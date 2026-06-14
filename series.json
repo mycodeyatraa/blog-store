@@ -511,5 +511,13 @@
       "blog-selenium-python-86",
       "blog-selenium-python-87"
     ]
+  },
+  {
+    "id": "selenium-python-accessibility",
+    "title": "Selenium Python Accessibility Testing",
+    "description": "Shift accessibility testing to the left! Learn how to use axe-core and Python to build automated test suites that enforce ADA and WCAG compliance on every CI/CD run.",
+    "articleIds": [
+      "blog-selenium-python-90"
+    ]
   }
 ]
