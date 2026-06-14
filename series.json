@@ -496,7 +496,8 @@
     "title": "Selenium Python Cloud Grids & DevOps",
     "description": "Master massive scale test execution! Learn how to deploy Docker and Kubernetes clusters, and integrate external device farms like BrowserStack and Sauce Labs into your pipelines.",
     "articleIds": [
-      "blog-selenium-python-83"
+      "blog-selenium-python-83",
+      "blog-selenium-python-84"
     ]
   }
 ]
