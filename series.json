@@ -424,7 +424,8 @@
     "description": "Learn how to automate DevSecOps, validate HTTP headers, parse CSPs, and integrate OWASP ZAP with Selenium.",
     "articleIds": [
       "blog-selenium-python-52",
-      "blog-selenium-python-53"
+      "blog-selenium-python-53",
+      "blog-selenium-python-54"
     ]
   }
 ]
