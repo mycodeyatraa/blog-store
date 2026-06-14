@@ -8793,5 +8793,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-71",
+    "title": "Advanced pytest-bdd: Hooks, Scenario Context, and Tags",
+    "slug": "pytest-bdd-advanced-hooks-context-tags-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Elevate your BDD automation to enterprise-grade! Learn how to share data between Given/When/Then steps using Context, filter execution with Tags, and automatically capture screenshots on failure using pytest-bdd Hooks.",
+    "date": "19-May-2025",
+    "readTime": "6 min read",
+    "category": "Behavior Driven Development",
+    "categories": [
+      "Behavior Driven Development",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "hooks",
+      "context",
+      "tags"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-advanced-hooks-context-tags-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
