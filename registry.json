@@ -9999,5 +9999,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-foundations-4",
+    "title": "Mastering Test Assertions in Selenium TypeScript using Jest",
+    "slug": "mastering-test-assertions-selenium-typescript-jest",
+    "author": "pankaj-kumar",
+    "excerpt": "A test script without assertions is useless. Learn how to use Jest's expect() matchers to rigorously validate web elements, check visibility states, and assert text values in Selenium TypeScript.",
+    "date": "05-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "jest",
+      "assertions",
+      "validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-test-assertions-selenium-typescript-jest.md",
+    "series": "selenium-ts-foundations",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
