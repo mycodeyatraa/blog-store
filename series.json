@@ -530,7 +530,8 @@
     "description": "Master Behavior-Driven Development (BDD) in Java! Learn how to build scalable Enterprise architectures using Cucumber, Gherkin, PicoContainer, and Serenity BDD.",
     "articleIds": [
       "blog-selenium-java-bdd-1",
-      "blog-selenium-java-bdd-2"
+      "blog-selenium-java-bdd-2",
+      "blog-selenium-java-bdd-3"
     ]
   }
 ]
