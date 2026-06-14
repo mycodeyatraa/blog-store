@@ -7589,5 +7589,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-40",
+    "title": "Hybrid Test Automation: Bypassing UI Login with Python APIs",
+    "slug": "hybrid-test-automation-python-selenium-requests-bypass-login",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop wasting time on flaky UI login screens! Learn how to build a Hybrid Framework by authenticating via the Requests API and injecting secure cookies directly into Selenium WebDriver.",
+    "date": "15-Feb-2025",
+    "readTime": "7 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "api-testing",
+      "requests",
+      "hybrid",
+      "cookies"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/hybrid-test-automation-python-selenium-requests-bypass-login.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
