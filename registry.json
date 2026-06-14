@@ -8326,5 +8326,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-59",
+    "title": "Applitools Eyes: AI-Powered Visual Validation in Python",
+    "slug": "applitools-eyes-visual-testing-selenium-python-ai",
+    "author": "pankaj-kumar",
+    "excerpt": "Eliminate false positives in Visual Testing! Learn how to integrate Applitools Eyes into your Pytest Selenium framework to replace strict pixel math with Machine Learning Cognitive Vision.",
+    "date": "09-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Visual Testing",
+    "categories": [
+      "Visual Testing",
+      "Python",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "visual-testing",
+      "applitools",
+      "ai",
+      "machine-learning"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/applitools-eyes-visual-testing-selenium-python-ai.md",
+    "series": "selenium-python-visual-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
