@@ -8755,5 +8755,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-70",
+    "title": "pytest-bdd Basics: Mapping Feature Files to Step Definitions",
+    "slug": "pytest-bdd-basics-feature-files-step-definitions-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to execute Gherkin feature files in Python! We dive deep into pytest-bdd, mapping Given/When/Then scenarios to WebDriver Step Definitions using parsers and fixtures.",
+    "date": "15-May-2025",
+    "readTime": "6 min read",
+    "category": "Behavior Driven Development",
+    "categories": [
+      "Behavior Driven Development",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "gherkin"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-basics-feature-files-step-definitions-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
