@@ -485,7 +485,8 @@
     "title": "Selenium Python Reporting & Observability",
     "description": "Transform automated test output into enterprise intelligence! Learn advanced Allure, pytest-html, custom metrics, and CI/CD dashboard integrations.",
     "articleIds": [
-      "blog-selenium-python-79"
+      "blog-selenium-python-79",
+      "blog-selenium-python-80"
     ]
   }
 ]
