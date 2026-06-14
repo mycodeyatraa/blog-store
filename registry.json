@@ -9340,5 +9340,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-85",
+    "title": "The Future is Here: AI Test Generation with LangChain",
+    "slug": "ai-test-generation-langchain-selenium-python-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Is manual test automation dead? Learn how to use LangChain and Python to dynamically scrape application HTML and prompt OpenAI's GPT-4 to generate functional Pytest scripts in seconds!",
+    "date": "01-Jul-2025",
+    "readTime": "6 min read",
+    "category": "AI & Future of Automation",
+    "categories": [
+      "AI & Future of Automation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "langchain",
+      "openai",
+      "test-generation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-test-generation-langchain-selenium-python-automation.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
