@@ -9496,5 +9496,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-89",
+    "title": "Advanced Browser Authentication: Cookies, JWTs, and LocalStorage",
+    "slug": "advanced-browser-authentication-cookies-jwt-localstorage-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop wasting 20 minutes logging in through the UI! Learn how to use Python requests to authenticate via API and inject Session Cookies or JWTs directly into the browser's LocalStorage to bypass the login screen.",
+    "date": "12-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Authentication & Security",
+    "categories": [
+      "Authentication & Security",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "authentication",
+      "cookies",
+      "jwt",
+      "localstorage"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-browser-authentication-cookies-jwt-localstorage-selenium-python.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
