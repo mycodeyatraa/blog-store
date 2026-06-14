@@ -9067,5 +9067,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-78",
+    "title": "Document Validation: Testing PDFs and Excel Files in Python",
+    "slug": "document-validation-pdf-excel-selenium-python-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't just verify that a file downloaded! Learn the ultimate Enterprise strategy: parsing and asserting the internal financial data of PDFs and Excel spreadsheets natively using PyPDF2 and openpyxl.",
+    "date": "10-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "pdf",
+      "excel",
+      "validation",
+      "pypdf2",
+      "openpyxl"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/document-validation-pdf-excel-selenium-python-automation.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
