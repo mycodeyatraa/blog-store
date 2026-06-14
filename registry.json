@@ -8170,5 +8170,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-55",
+    "title": "Integrating OWASP ZAP with Selenium Python for Automated Security Testing",
+    "slug": "owasp-zap-security-testing-selenium-python-proxy",
+    "author": "pankaj-kumar",
+    "excerpt": "Achieve true DevSecOps! Learn how to route your Selenium WebDriver traffic through the OWASP ZAP proxy to passively detect missing security headers, XSS, and CSRF vulnerabilities in real-time.",
+    "date": "25-Mar-2025",
+    "readTime": "7 min read",
+    "category": "Security",
+    "categories": [
+      "Security",
+      "Python",
+      "DevSecOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "security",
+      "owasp-zap",
+      "devsecops",
+      "proxy"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/owasp-zap-security-testing-selenium-python-proxy.md",
+    "series": "selenium-python-security",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
