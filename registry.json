@@ -9146,5 +9146,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-80",
+    "title": "Lightweight Reporting with pytest-html",
+    "slug": "pytest-html-reports-custom-automation-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Need to share test results without hosting a web server? Learn how to use pytest-html to generate self-contained HTML files and automatically inject Base64 failure screenshots using Pytest hooks!",
+    "date": "16-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Reporting and Observability",
+    "categories": [
+      "Reporting and Observability",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "pytest-html",
+      "reporting",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-html-reports-custom-automation-selenium.md",
+    "series": "selenium-python-reporting",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
