@@ -8911,5 +8911,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-74",
+    "title": "MongoDB Validation: NoSQL Database Testing with PyMongo",
+    "slug": "mongodb-validation-nosql-testing-pymongo-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Modern apps use NoSQL! Learn how to integrate PyMongo into your Pytest framework to effortlessly query and validate complex JSON documents in MongoDB alongside your Selenium UI tests.",
+    "date": "28-May-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "database",
+      "mongodb",
+      "nosql",
+      "pymongo"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mongodb-validation-nosql-testing-pymongo-selenium.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
