@@ -7936,5 +7936,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-49",
+    "title": "Automating Multi-Factor Authentication (MFA) in Selenium Python",
+    "slug": "mfa-automation-selenium-python-totp-pyotp",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't let Multi-Factor Authentication (MFA) block your tests! Learn how to use the pyotp library to act as a virtual Google Authenticator, dynamically generating live 6-digit TOTP codes directly in Python.",
+    "date": "07-Mar-2025",
+    "readTime": "5 min read",
+    "category": "Authentication",
+    "categories": [
+      "Authentication",
+      "Security",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "mfa",
+      "totp",
+      "authentication",
+      "security"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mfa-automation-selenium-python-totp-pyotp.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
