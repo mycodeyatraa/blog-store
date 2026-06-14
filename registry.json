@@ -7703,5 +7703,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-43",
+    "title": "Architecting an Enterprise API Framework in Python",
+    "slug": "api-framework-architecture-python-oop-requests",
+    "author": "pankaj-kumar",
+    "excerpt": "Design a scalable API testing framework! Learn how to use Object-Oriented Programming (OOP) in Python to build a centralized API Client, domain-specific services, and automated logging for your Requests suite.",
+    "date": "21-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "framework",
+      "architecture",
+      "oop",
+      "requests"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/api-framework-architecture-python-oop-requests.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
