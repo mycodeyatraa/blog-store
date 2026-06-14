@@ -391,7 +391,8 @@
     "title": "Python API Testing with Requests",
     "description": "Master backend automation in Python using the powerful Requests library. Learn how to validate JSON, handle OAuth, build data-driven suites, and integrate API testing with your Selenium framework.",
     "articleIds": [
-      "blog-selenium-python-34"
+      "blog-selenium-python-34",
+      "blog-selenium-python-35"
     ]
   }
 ]
