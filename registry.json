@@ -9613,5 +9613,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-auth-2",
+    "title": "Mastering SSO and MFA Authentication Flows in Selenium Java",
+    "slug": "mastering-sso-and-mfa-authentication-flows-selenium-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Defeat the robots! Learn how to test cross-domain Single Sign-On (SSO) redirects like Okta, and programmatically generate live TOTP codes to bypass Multi-Factor Authentication (MFA) in your Selenium test suite.",
+    "date": "22-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Authentication & Security",
+    "categories": [
+      "Authentication & Security",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "authentication",
+      "sso",
+      "mfa",
+      "totp"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-sso-and-mfa-authentication-flows-selenium-java.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
