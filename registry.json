@@ -7437,5 +7437,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-36",
+    "title": "Automating POST APIs in Python: Creating New Resources",
+    "slug": "post-apis-python-requests-create-resources",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop testing with hardcoded data! Learn how to automate HTTP POST requests in Python, generate dynamic JSON payloads using the Faker library, and validate 201 Created server responses.",
+    "date": "05-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "requests",
+      "post",
+      "json",
+      "faker"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/post-apis-python-requests-create-resources.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
