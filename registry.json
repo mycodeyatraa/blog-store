@@ -10340,5 +10340,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-core-7",
+    "title": "Bypassing the Shadow DOM in Selenium TypeScript",
+    "slug": "bypassing-shadow-dom-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "If an element lives inside a Shadow DOM, standard Selenium locators will fail. Learn how to pierce the Shadow Root and interact with encapsulated Web Components.",
+    "date": "14-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Core Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "shadow-dom",
+      "web-components"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/bypassing-shadow-dom-selenium-typescript.md",
+    "series": "selenium-ts-core-automation",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
