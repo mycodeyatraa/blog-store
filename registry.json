@@ -9574,5 +9574,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-auth-1",
+    "title": "Bypassing the UI: Cookie Management and LocalStorage in Selenium Java",
+    "slug": "bypassing-ui-login-cookie-management-localstorage-selenium-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop wasting 30 minutes logging in through the UI! Learn how to dramatically speed up your Selenium Java test suite by injecting authentication Cookies and JWTs directly into the browser's LocalStorage.",
+    "date": "20-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Authentication & Security",
+    "categories": [
+      "Authentication & Security",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "authentication",
+      "cookies",
+      "localstorage",
+      "jwt"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/bypassing-ui-login-cookie-management-localstorage-selenium-java.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
