@@ -455,5 +455,13 @@
       "blog-selenium-python-67",
       "blog-selenium-python-68"
     ]
+  },
+  {
+    "id": "selenium-python-bdd",
+    "title": "Selenium Python Behavior-Driven Development",
+    "description": "Master Behavior-Driven Development (BDD) using Python! Learn Gherkin syntax, pytest-bdd, feature files, step definitions, and Data-Driven Scenario Outlines.",
+    "articleIds": [
+      "blog-selenium-python-69"
+    ]
   }
 ]
