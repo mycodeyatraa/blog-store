@@ -8833,5 +8833,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-72",
+    "title": "Scenario Outlines and The Behave Framework: Data-Driven BDD",
+    "slug": "bdd-scenario-outlines-behave-framework-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Unlock massive Data-Driven testing using Gherkin Scenario Outlines! Learn how to iterate over Examples tables, and compare pytest-bdd with the standalone Behave BDD framework.",
+    "date": "22-May-2025",
+    "readTime": "6 min read",
+    "category": "Behavior Driven Development",
+    "categories": [
+      "Behavior Driven Development",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "behave",
+      "scenario-outline",
+      "data-driven"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/bdd-scenario-outlines-behave-framework-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
