@@ -9028,5 +9028,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-77",
+    "title": "Email Validation: Automating OTPs and Verification Links",
+    "slug": "email-validation-automation-otp-selenium-python-imap",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop getting blocked by Registration flows! Learn how to use Python's built-in imaplib to programmatically access inboxes, extract OTPs via RegEx, and inject them back into your Selenium tests.",
+    "date": "07-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "email-validation",
+      "otp",
+      "imap",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/email-validation-automation-otp-selenium-python-imap.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
