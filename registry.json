@@ -9923,5 +9923,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-foundations-2",
+    "title": "Setting Up Your Selenium TypeScript Project (Node.js, Jest, and WebDriver)",
+    "slug": "setting-up-selenium-typescript-project-nodejs-jest",
+    "author": "pankaj-kumar",
+    "excerpt": "Ready to code? Learn how to initialize a Node.js project, configure the TypeScript compiler, and write your very first Selenium automated browser test using the Jest testing framework.",
+    "date": "03-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "jest",
+      "nodejs",
+      "configuration"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/setting-up-selenium-typescript-project-nodejs-jest.md",
+    "series": "selenium-ts-foundations",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
