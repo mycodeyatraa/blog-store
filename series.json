@@ -473,7 +473,8 @@
     "description": "Master full-stack enterprise validation! Learn how to combine Selenium UI testing with backend Database queries (SQL/NoSQL), Kafka events, and file processing (PDF/Excel) natively in Python.",
     "articleIds": [
       "blog-selenium-python-73",
-      "blog-selenium-python-74"
+      "blog-selenium-python-74",
+      "blog-selenium-python-75"
     ]
   }
 ]
