@@ -9961,5 +9961,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-foundations-3",
+    "title": "Mastering Web Locators in Selenium TypeScript (Strict CSS Selectors)",
+    "slug": "mastering-web-locators-selenium-typescript-css-selectors",
+    "author": "pankaj-kumar",
+    "excerpt": "Ditch XPath forever! Learn why modern UI automation frameworks strictly use CSS Selectors to pierce the Shadow DOM, increase execution speed, and improve code readability.",
+    "date": "04-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "locators",
+      "css-selectors",
+      "shadow-dom"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-web-locators-selenium-typescript-css-selectors.md",
+    "series": "selenium-ts-foundations",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
