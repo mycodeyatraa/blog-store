@@ -8677,5 +8677,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-68",
+    "title": "Slack and MS Teams Notifications: Broadcasting Pytest Results via Webhooks",
+    "slug": "slack-teams-notifications-selenium-python-pytest-webhooks",
+    "author": "pankaj-kumar",
+    "excerpt": "A silent framework is useless! Learn how to use Pytest terminal hooks and Python requests to instantly broadcast your automated UI execution metrics to Slack or Microsoft Teams channels.",
+    "date": "09-May-2025",
+    "readTime": "6 min read",
+    "category": "CI/CD Pipelines",
+    "categories": [
+      "CI/CD Pipelines",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ci-cd",
+      "slack",
+      "teams",
+      "webhooks",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/slack-teams-notifications-selenium-python-pytest-webhooks.md",
+    "series": "selenium-python-cicd",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
