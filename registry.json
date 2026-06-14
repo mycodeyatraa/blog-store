@@ -9691,5 +9691,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-auth-4",
+    "title": "Advanced Token Management: Injecting JWT Headers via CDP in Selenium 4",
+    "slug": "advanced-token-management-injecting-jwt-headers-cdp-selenium-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Unlock the true power of Selenium 4! Learn how to use the Chrome DevTools Protocol (CDP) to intercept raw network traffic and dynamically inject Bearer JWT Tokens into the HTTP Authorization headers.",
+    "date": "28-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Authentication & Security",
+    "categories": [
+      "Authentication & Security",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "authentication",
+      "cdp",
+      "jwt",
+      "headers"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-token-management-injecting-jwt-headers-cdp-selenium-java.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
