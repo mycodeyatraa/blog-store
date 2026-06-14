@@ -429,5 +429,13 @@
       "blog-selenium-python-55",
       "blog-selenium-python-56"
     ]
+  },
+  {
+    "id": "selenium-python-visual-testing",
+    "title": "Selenium Python Visual Testing",
+    "description": "Learn how to detect CSS regressions and broken UI elements using pixel matching algorithms and AI visual testing tools.",
+    "articleIds": [
+      "blog-selenium-python-57"
+    ]
   }
 ]
