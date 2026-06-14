@@ -8014,5 +8014,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-51",
+    "title": "Authenticated Browser Sessions: Reusing State Across Pytest Suites",
+    "slug": "authenticated-browser-sessions-reuse-auth-pytest-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Supercharge your test execution time! Learn how to extract authentication cookies once, save them to a JSON file, and instantly inject them into every test using Pytest fixtures to completely bypass UI logins.",
+    "date": "11-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Authentication",
+    "categories": [
+      "Authentication",
+      "Security",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "pytest",
+      "authentication",
+      "cookies",
+      "performance"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/authenticated-browser-sessions-reuse-auth-pytest-selenium.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
