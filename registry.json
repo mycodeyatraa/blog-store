@@ -8365,5 +8365,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-60",
+    "title": "Responsive Visual Testing: Asserting Mobile and Tablet Viewports in Python",
+    "slug": "responsive-visual-testing-selenium-python-pytest-matrix",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop testing only on desktop monitors! Learn how to use Pytest parametrize to dynamically resize your Selenium browser and capture visual baselines for Mobile, Tablet, and Desktop viewports in a single script.",
+    "date": "12-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Visual Testing",
+    "categories": [
+      "Visual Testing",
+      "Python",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "visual-testing",
+      "responsive",
+      "mobile",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/responsive-visual-testing-selenium-python-pytest-matrix.md",
+    "series": "selenium-python-visual-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
