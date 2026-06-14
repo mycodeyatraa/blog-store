@@ -9379,5 +9379,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-86",
+    "title": "AI-Powered Self-Healing Locators in Selenium",
+    "slug": "ai-powered-self-healing-locators-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop spending hours fixing broken XPaths! Learn how to build a Self-Healing WebDriver wrapper in Python that intercepts NoSuchElementExceptions and uses OpenAI to dynamically calculate new valid CSS selectors at runtime.",
+    "date": "04-Jul-2025",
+    "readTime": "6 min read",
+    "category": "AI & Future of Automation",
+    "categories": [
+      "AI & Future of Automation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "self-healing",
+      "locators",
+      "openai"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-powered-self-healing-locators-selenium-python.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
