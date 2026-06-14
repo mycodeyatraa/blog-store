@@ -10377,5 +10377,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-core-8",
+    "title": "Mastering Mouse & Keyboard Actions in Selenium TypeScript",
+    "slug": "mastering-mouse-keyboard-actions-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Standard click() methods are not enough for complex interactions. Learn how to chain gestures like Hover, Right-Click, Drag-and-Drop, and Click-and-Hold using the Actions API.",
+    "date": "15-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Core Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "mouse-actions",
+      "keyboard",
+      "drag-and-drop"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-mouse-keyboard-actions-selenium-typescript.md",
+    "series": "selenium-ts-core-automation",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
