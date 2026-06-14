@@ -8248,5 +8248,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-57",
+    "title": "Visual Testing in Python: Detecting UI Regressions with Pixel-to-Pixel Comparison",
+    "slug": "visual-testing-selenium-python-pixelmatch",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop missing CSS regressions! Learn how to implement pixel-perfect Visual Testing in Selenium Python using the Pillow and pixelmatch libraries to mathematically compare UI screenshots.",
+    "date": "02-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Visual Testing",
+    "categories": [
+      "Visual Testing",
+      "Python",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "visual-testing",
+      "pixelmatch",
+      "ui-testing",
+      "screenshots"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/visual-testing-selenium-python-pixelmatch.md",
+    "series": "selenium-python-visual-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
