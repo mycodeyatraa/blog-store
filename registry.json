@@ -10075,5 +10075,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-foundations-6",
+    "title": "Capturing Screenshots & Visual Evidence in Selenium TypeScript",
+    "slug": "capturing-screenshots-visual-evidence-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "When your automated test fails at 2:00 AM, you need visual evidence. Learn how to capture Base64 screenshots in Selenium TypeScript and write them to your local filesystem using Node.js!",
+    "date": "07-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "screenshots",
+      "nodejs",
+      "visual-testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/capturing-screenshots-visual-evidence-selenium-typescript.md",
+    "series": "selenium-ts-foundations",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
