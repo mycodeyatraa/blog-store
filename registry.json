@@ -8131,5 +8131,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-54",
+    "title": "Token Validation: Decoding and Securing JWTs in Python Automation",
+    "slug": "jwt-token-validation-security-testing-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Are your JWTs leaking passwords? Learn how to decode Base64 JSON Web Tokens in Python without the secret key, and write automated Pytest security assertions to prevent sensitive PII leakage!",
+    "date": "22-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Security",
+    "categories": [
+      "Security",
+      "Python",
+      "DevSecOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "security",
+      "jwt",
+      "tokens",
+      "devsecops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/jwt-token-validation-security-testing-selenium-python.md",
+    "series": "selenium-python-security",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
