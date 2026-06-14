@@ -10264,5 +10264,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-core-5",
+    "title": "Navigating Multiple Windows & Browser Tabs in Selenium TypeScript",
+    "slug": "navigating-multiple-windows-browser-tabs-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "When you click a link that opens a new tab, your Selenium script will crash if it tries to find elements. Learn how to switch contexts using Window Handles.",
+    "date": "12-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Core Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "tabs",
+      "windows",
+      "window-handles"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/navigating-multiple-windows-browser-tabs-selenium-typescript.md",
+    "series": "selenium-ts-core-automation",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
