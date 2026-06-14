@@ -554,7 +554,8 @@
     "description": "Master the core interactions of UI Automation in TypeScript. Learn to handle dynamic waits, complex forms, iFrames, Shadows DOMs, and multiple browser windows.",
     "articleIds": [
       "blog-selenium-ts-core-1",
-      "blog-selenium-ts-core-2"
+      "blog-selenium-ts-core-2",
+      "blog-selenium-ts-core-3"
     ]
   }
 ]
