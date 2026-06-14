@@ -442,5 +442,13 @@
       "blog-selenium-python-61",
       "blog-selenium-python-62"
     ]
+  },
+  {
+    "id": "selenium-python-cicd",
+    "title": "Selenium Python CI/CD Pipelines",
+    "description": "Learn how to build enterprise DevSecOps pipelines using GitHub Actions, Jenkins, Docker Grids, and Allure reporting for your Python automation framework.",
+    "articleIds": [
+      "blog-selenium-python-63"
+    ]
   }
 ]
