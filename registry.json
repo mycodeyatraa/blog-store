@@ -9807,5 +9807,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-bdd-3",
+    "title": "Sharing State in Cucumber using Dependency Injection (PicoContainer)",
+    "slug": "sharing-state-cucumber-dependency-injection-picocontainer-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Solve the hardest problem in BDD! Learn how to safely share WebDrivers and Test Data across multiple Step Definition classes using Dependency Injection with cucumber-picocontainer.",
+    "date": "31-Oct-2024",
+    "readTime": "6 min read",
+    "category": "BDD & Cucumber",
+    "categories": [
+      "BDD & Cucumber",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "picocontainer",
+      "dependency-injection"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/sharing-state-cucumber-dependency-injection-picocontainer-java.md",
+    "series": "selenium-java-bdd",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
