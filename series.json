@@ -402,5 +402,13 @@
       "blog-selenium-python-42",
       "blog-selenium-python-43"
     ]
+  },
+  {
+    "id": "selenium-python-authentication",
+    "title": "Python Authentication & Security in Selenium",
+    "description": "Master advanced security and authentication workflows! Learn how to manipulate browser cookies, bypass complex Single Sign-On (SSO) gateways, automate Multi-Factor Authentication (MFA), and secure your Python Selenium framework.",
+    "articleIds": [
+      "blog-selenium-python-44"
+    ]
   }
 ]
