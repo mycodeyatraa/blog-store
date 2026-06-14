@@ -8092,5 +8092,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-53",
+    "title": "Validating Content Security Policy (CSP) with Python Automation",
+    "slug": "csp-validation-selenium-python-content-security-policy",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop Cross-Site Scripting (XSS) at the pipeline! Learn how to parse Content Security Policy (CSP) headers in Python and write automated tests to mathematically prove your application blocks malicious domains.",
+    "date": "20-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Security",
+    "categories": [
+      "Security",
+      "Python",
+      "DevSecOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "security",
+      "csp",
+      "headers",
+      "xss"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/csp-validation-selenium-python-content-security-policy.md",
+    "series": "selenium-python-security",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
