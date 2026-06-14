@@ -9652,5 +9652,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-auth-3",
+    "title": "Concurrency and Session Serialization in Selenium Java",
+    "slug": "concurrency-session-serialization-multi-user-testing-selenium-java",
+    "author": "pankaj-kumar",
+    "excerpt": "Take your test framework to the next level! Learn how to serialize browser states to physical files, and run multiple Incognito WebDrivers in a single test case to simulate real-time chat and multi-user collaboration.",
+    "date": "25-Jul-2025",
+    "readTime": "6 min read",
+    "category": "Authentication & Security",
+    "categories": [
+      "Authentication & Security",
+      "Java",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "authentication",
+      "serialization",
+      "concurrency",
+      "multi-user"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/concurrency-session-serialization-multi-user-testing-selenium-java.md",
+    "series": "selenium-advanced-authentication-mastery",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
