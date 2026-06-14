@@ -499,5 +499,13 @@
       "blog-selenium-python-83",
       "blog-selenium-python-84"
     ]
+  },
+  {
+    "id": "selenium-python-ai-automation",
+    "title": "Selenium Python AI Automation",
+    "description": "Welcome to the future of QA! Learn how to integrate Large Language Models (LLMs), LangChain, and autonomous AI Agents into your test automation framework to auto-generate code and self-heal broken locators.",
+    "articleIds": [
+      "blog-selenium-python-85"
+    ]
   }
 ]
