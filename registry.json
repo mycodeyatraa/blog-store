@@ -10226,5 +10226,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-core-4",
+    "title": "Mastering File Upload & Download in Selenium TypeScript",
+    "slug": "mastering-file-upload-download-selenium-typescript-fs",
+    "author": "pankaj-kumar",
+    "excerpt": "Native OS file dialogs will freeze your Selenium tests. Learn how to bypass them to automate File Uploads, and use Node's fs module to verify File Downloads.",
+    "date": "11-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "UI Automation",
+      "Core Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "file-upload",
+      "file-download",
+      "fs-module"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mastering-file-upload-download-selenium-typescript-fs.md",
+    "series": "selenium-ts-core-automation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
