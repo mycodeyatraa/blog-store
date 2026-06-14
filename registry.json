@@ -7858,5 +7858,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-47",
+    "title": "Automating Single Sign-On (SSO): Azure AD and Okta in Selenium Python",
+    "slug": "sso-login-automation-selenium-python-azure-ad-okta",
+    "author": "pankaj-kumar",
+    "excerpt": "Conquer enterprise security gateways! Learn how to automate complex multi-step Single Sign-On (SSO) redirects for Microsoft Azure AD and Okta using explicit waits in Selenium Python.",
+    "date": "02-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Authentication",
+    "categories": [
+      "Authentication",
+      "Security",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "sso",
+      "azure-ad",
+      "okta",
+      "authentication"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/sso-login-automation-selenium-python-azure-ad-okta.md",
+    "series": "selenium-python-authentication",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
