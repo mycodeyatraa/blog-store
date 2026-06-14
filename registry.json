@@ -7513,5 +7513,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-38",
+    "title": "Automating DELETE APIs: Cleaning Up Resources in Python",
+    "slug": "delete-apis-python-requests-cleanup-resources",
+    "author": "pankaj-kumar",
+    "excerpt": "Complete the CRUD lifecycle! Learn how to safely execute HTTP DELETE requests, validate 204 No Content status codes, and write a full end-to-end API test in Python.",
+    "date": "10-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "requests",
+      "delete",
+      "crud",
+      "pytest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/delete-apis-python-requests-cleanup-resources.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
