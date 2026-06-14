@@ -466,5 +466,13 @@
       "blog-selenium-python-71",
       "blog-selenium-python-72"
     ]
+  },
+  {
+    "id": "selenium-python-enterprise",
+    "title": "Selenium Python Enterprise Validation",
+    "description": "Master full-stack enterprise validation! Learn how to combine Selenium UI testing with backend Database queries (SQL/NoSQL), Kafka events, and file processing (PDF/Excel) natively in Python.",
+    "articleIds": [
+      "blog-selenium-python-73"
+    ]
   }
 ]
