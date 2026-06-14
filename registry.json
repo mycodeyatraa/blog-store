@@ -9301,5 +9301,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-84",
+    "title": "Cloud Device Farms: BrowserStack, Sauce Labs, and LambdaTest",
+    "slug": "cloud-device-farms-browserstack-saucelabs-lambdatest-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "You can't put an iPhone in a Docker container! Learn how to run your Selenium Python tests on thousands of physical devices using enterprise cloud providers like BrowserStack, Sauce Labs, and LambdaTest.",
+    "date": "28-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Cloud Grids & Advanced DevOps",
+    "categories": [
+      "Cloud Grids & Advanced DevOps",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "browserstack",
+      "saucelabs",
+      "lambdatest",
+      "cloud-testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/cloud-device-farms-browserstack-saucelabs-lambdatest-selenium.md",
+    "series": "selenium-python-cloud-grids",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
