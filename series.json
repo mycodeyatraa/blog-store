@@ -417,5 +417,13 @@
       "blog-selenium-python-50",
       "blog-selenium-python-51"
     ]
+  },
+  {
+    "id": "selenium-python-security",
+    "title": "Selenium Python Security",
+    "description": "Learn how to automate DevSecOps, validate HTTP headers, parse CSPs, and integrate OWASP ZAP with Selenium.",
+    "articleIds": [
+      "blog-selenium-python-52"
+    ]
   }
 ]
