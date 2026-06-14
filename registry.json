@@ -8872,5 +8872,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-73",
+    "title": "Enterprise Validation: UI + Database Testing with SQLAlchemy",
+    "slug": "database-testing-sqlalchemy-selenium-python-mysql-postgres",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop relying solely on UI assertions! Learn how to integrate SQLAlchemy with Selenium to seamlessly query, validate, and clean up MySQL and PostgreSQL databases during your automation suite execution.",
+    "date": "25-May-2025",
+    "readTime": "6 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "database",
+      "sqlalchemy",
+      "mysql",
+      "postgresql"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/database-testing-sqlalchemy-selenium-python-mysql-postgres.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
