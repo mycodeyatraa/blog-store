@@ -7475,5 +7475,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-37",
+    "title": "Automating PUT and PATCH APIs: Updating Resources in Python",
+    "slug": "put-patch-apis-python-requests-update-resources",
+    "author": "pankaj-kumar",
+    "excerpt": "Understand the critical difference between full updates (PUT) and partial updates (PATCH), and learn how to automate them seamlessly using Python's Requests library.",
+    "date": "08-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "requests",
+      "put",
+      "patch",
+      "update"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/put-patch-apis-python-requests-update-resources.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
