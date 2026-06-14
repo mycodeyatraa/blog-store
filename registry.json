@@ -7551,5 +7551,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-39",
+    "title": "Automating Authenticated APIs: JWTs and Requests Sessions in Python",
+    "slug": "authentication-apis-python-requests-jwt-session",
+    "author": "pankaj-kumar",
+    "excerpt": "Unlock secure APIs! Learn how to extract JSON Web Tokens (JWT) from login endpoints, manage HTTP Basic Auth, and elegantly persist security headers using Python's requests.Session().",
+    "date": "12-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "requests",
+      "authentication",
+      "jwt",
+      "session"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/authentication-apis-python-requests-jwt-session.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
