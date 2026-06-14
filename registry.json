@@ -7665,5 +7665,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-42",
+    "title": "Contract Testing in Python: Validating OpenAPI Schemas",
+    "slug": "contract-testing-python-jsonschema-openapi-validation",
+    "author": "pankaj-kumar",
+    "excerpt": "Prevent breaking changes! Learn how to use the jsonschema library in Python to validate backend API responses against strict OpenAPI contracts, ensuring data types and required fields never fail silently.",
+    "date": "19-Feb-2025",
+    "readTime": "6 min read",
+    "category": "API Testing",
+    "categories": [
+      "API Testing",
+      "Python"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "api-testing",
+      "contract-testing",
+      "jsonschema",
+      "openapi",
+      "validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/contract-testing-python-jsonschema-openapi-validation.md",
+    "series": "selenium-python-api-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
