@@ -9223,5 +9223,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-82",
+    "title": "Building Custom Pytest Reporters from Scratch",
+    "slug": "building-custom-pytest-reporters-automation-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't settle for off-the-shelf dashboards! Pop the hood of Pytest's hook architecture and learn how to write a custom reporter class to send automated Slack or Teams messages when your Selenium suite finishes.",
+    "date": "22-Jun-2025",
+    "readTime": "6 min read",
+    "category": "Reporting and Observability",
+    "categories": [
+      "Reporting and Observability",
+      "Python",
+      "Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "pytest",
+      "custom-reporter",
+      "hooks",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/building-custom-pytest-reporters-automation-selenium-python.md",
+    "series": "selenium-python-reporting",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
