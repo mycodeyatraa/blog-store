@@ -540,7 +540,8 @@
     "title": "Selenium TypeScript Foundations",
     "description": "Master UI Automation using modern TypeScript. Learn how to configure Node.js, Jest, and Selenium WebDriver to build highly scalable enterprise frameworks.",
     "articleIds": [
-      "blog-selenium-ts-foundations-1"
+      "blog-selenium-ts-foundations-1",
+      "blog-selenium-ts-foundations-2"
     ]
   }
 ]
