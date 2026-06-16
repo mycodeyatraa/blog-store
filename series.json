@@ -597,7 +597,8 @@
     "title": "TypeScript API Testing Integration",
     "description": "Shift left by implementing REST API automation using Axios. Learn to build GET/POST validations and hybrid UI-API frameworks.",
     "articleIds": [
-      "blog-selenium-ts-phase5-1"
+      "blog-selenium-ts-phase5-1",
+      "blog-selenium-ts-phase5-2"
     ]
   }
 ]
