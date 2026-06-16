@@ -10641,5 +10641,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-arch-4",
+    "title": "Fluent APIs: The Builder Pattern for Test Data Generation",
+    "slug": "builder-pattern-test-data-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Static JSON files aren't always enough. Learn how to construct highly complex, dynamic test data payloads step-by-step using the Fluent API Builder Pattern.",
+    "date": "22-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Architecture & Patterns"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "builder-pattern",
+      "test-data",
+      "fluent-api"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/builder-pattern-test-data-selenium-typescript.md",
+    "series": "selenium-ts-advanced-architecture",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
