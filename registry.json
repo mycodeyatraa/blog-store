@@ -10567,5 +10567,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-arch-2",
+    "title": "Architecting UI Automation: The Page Object Model (POM) in TypeScript",
+    "slug": "page-object-model-pom-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "If your automation suite mixes WebDriver locators directly inside your test cases, you are building a house of cards. Learn how to architect the Page Object Model.",
+    "date": "20-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Architecture & Patterns"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "pom",
+      "page-object-model",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/page-object-model-pom-selenium-typescript.md",
+    "series": "selenium-ts-advanced-architecture",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
