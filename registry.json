@@ -11048,5 +11048,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase5-3",
+    "title": "Creating Data: Automating POST Requests",
+    "slug": "post-api-wrapper-axios-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Build Hybrid UI-API automation. Learn how to dynamically inject JSON payloads and headers into Axios to instantly create data using POST endpoints.",
+    "date": "03-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "post-request"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/post-api-wrapper-axios-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
