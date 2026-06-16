@@ -578,5 +578,13 @@
       "blog-selenium-ts-arch-5",
       "blog-selenium-ts-arch-6"
     ]
+  },
+  {
+    "id": "selenium-ts-framework-utilities",
+    "title": "TypeScript Framework Utilities & Configuration",
+    "description": "Learn to scale your test automation framework by building reusable Utility classes, Environment Configuration Management, and robust Logging.",
+    "articleIds": [
+      "blog-selenium-ts-phase4-1"
+    ]
   }
 ]
