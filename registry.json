@@ -11199,5 +11199,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-1",
+    "title": "Updating Data: Automating PUT and PATCH Requests",
+    "slug": "put-patch-apis-typescript-axios-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Understand the critical differences between full replacements and partial updates as we implement PUT and PATCH automation wrappers in TypeScript.",
+    "date": "07-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "put",
+      "patch",
+      "rest-api"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/put-patch-apis-typescript-axios-selenium.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
