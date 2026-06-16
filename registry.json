@@ -10974,5 +10974,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase5-1",
+    "title": "The Backend Pivot: API Testing with Axios",
+    "slug": "axios-supertest-api-testing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "UI tests are slow. Shift-left your testing pyramid by integrating Axios to perform lightning-fast API automation in TypeScript.",
+    "date": "01-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "supertest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axios-supertest-api-testing-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
