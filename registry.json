@@ -11353,5 +11353,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-5",
+    "title": "API Mocking: Testing Edge Cases without a Real Server",
+    "slug": "mocking-axios-api-requests-jest-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn to mock backend API responses using Jest and Axios to test 500 errors and edge cases without needing a real broken server.",
+    "date": "11-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "jest",
+      "mocking",
+      "axios"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mocking-axios-api-requests-jest-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
