@@ -11011,5 +11011,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase5-2",
+    "title": "Building an API Wrapper: Automating GET Requests",
+    "slug": "get-api-wrapper-axios-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Integrate API automation seamlessly into your UI framework by building an ApiUtils class that dynamically extracts URLs from your .env configurations.",
+    "date": "02-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "environment-variables"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/get-api-wrapper-axios-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
