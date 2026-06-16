@@ -11238,5 +11238,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-2",
+    "title": "Data Cleanup: Automating DELETE Requests",
+    "slug": "delete-apis-typescript-axios-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Complete your CRUD API framework by automating DELETE requests with Axios and handling 204 No Content status variations in TypeScript.",
+    "date": "08-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "delete",
+      "rest-api"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/delete-apis-typescript-axios-selenium.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
