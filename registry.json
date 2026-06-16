@@ -11391,5 +11391,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-6",
+    "title": "Guarantee Backend Contracts: JSON Schema Validation in TypeScript",
+    "slug": "json-schema-api-contract-validation-ajv-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Prevent breaking changes from the backend by implementing strict JSON schema contract validation in your TypeScript API tests using ajv.",
+    "date": "12-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "ajv",
+      "contract-testing",
+      "json-schema"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/json-schema-api-contract-validation-ajv-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 12,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
