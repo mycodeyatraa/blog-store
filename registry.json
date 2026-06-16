@@ -10715,5 +10715,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-arch-6",
+    "title": "Mastering State Management: Jest Lifecycle & Hooks",
+    "slug": "jest-lifecycle-hooks-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "When should the WebDriver instantiate? How do we capture screenshots on failure? Learn how to orchestrate Jest's beforeAll, beforeEach, afterEach, and afterAll hooks.",
+    "date": "24-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Architecture & Patterns"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "jest",
+      "lifecycle-hooks",
+      "state-management"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/jest-lifecycle-hooks-selenium-typescript.md",
+    "series": "selenium-ts-advanced-architecture",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
