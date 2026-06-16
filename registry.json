@@ -10530,5 +10530,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-arch-1",
+    "title": "Advanced Architecture: Data Driven Testing in Jest",
+    "slug": "data-driven-testing-jest-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "A major anti-pattern in automation is duplicating test logic. Learn how to feed JSON datasets directly into Jest to automatically generate test cases at runtime.",
+    "date": "19-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Architecture & Patterns"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "data-driven-testing",
+      "ddt",
+      "jest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/data-driven-testing-jest-selenium-typescript.md",
+    "series": "selenium-ts-advanced-architecture",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
