@@ -11123,5 +11123,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase5-5",
+    "title": "Dissecting the Payload: Parsing JSON and XML",
+    "slug": "json-vs-xml-api-parsing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "API data is rarely clean. Master deep array traversals and learn how to convert legacy SOAP XML payloads into readable JSON objects.",
+    "date": "05-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "json",
+      "xml",
+      "parsing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/json-vs-xml-api-parsing-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
