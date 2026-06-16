@@ -10863,5 +10863,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase4-4",
+    "title": "The Master Blueprint: Architecting an Enterprise Framework",
+    "slug": "framework-architecture-blueprint-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Discover how to orchestrate ConfigManagers, Winston Loggers, and Element Utilities into a single BaseTest class to design a truly scalable architecture.",
+    "date": "28-Nov-2024",
+    "readTime": "6 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Framework Utilities & Configuration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "framework",
+      "architecture",
+      "basetest"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/framework-architecture-blueprint-selenium-typescript.md",
+    "series": "selenium-ts-framework-utilities",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
