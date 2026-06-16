@@ -11429,5 +11429,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-7",
+    "title": "API Framework Design: POJOs and the Builder Pattern",
+    "slug": "api-framework-design-pojos-builder-pattern-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Design a scalable API framework in TypeScript by implementing the Builder Pattern to dynamically construct resilient test data payloads via POJOs.",
+    "date": "13-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "design-patterns",
+      "builder-pattern",
+      "pojo"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/api-framework-design-pojos-builder-pattern-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 13,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
