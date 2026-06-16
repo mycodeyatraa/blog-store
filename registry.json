@@ -10937,5 +10937,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase4-6",
+    "title": "Extracting Test Metrics: Custom Jest Reporters",
+    "slug": "custom-jest-reporters-json-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Management wants dashboards! Learn how to intercept the Jest execution lifecycle and build a Custom Reporter to export JSON metrics.",
+    "date": "30-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Framework Utilities & Configuration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "jest",
+      "reporters",
+      "metrics"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-jest-reporters-json-selenium-typescript.md",
+    "series": "selenium-ts-framework-utilities",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
