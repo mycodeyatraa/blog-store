@@ -10604,5 +10604,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-arch-3",
+    "title": "Selenium Manager & The Factory Design Pattern in TypeScript",
+    "slug": "webdriver-manager-factory-pattern-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop manually downloading chromedriver.exe! Learn how native Selenium Manager combined with the Factory Design Pattern creates a frictionless, CI-ready framework.",
+    "date": "21-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Architecture & Patterns"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "factory-pattern",
+      "webdriver-manager",
+      "design-patterns"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/webdriver-manager-factory-pattern-selenium-typescript.md",
+    "series": "selenium-ts-advanced-architecture",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
