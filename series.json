@@ -565,5 +565,13 @@
       "blog-selenium-ts-core-10",
       "blog-selenium-ts-core-11"
     ]
+  },
+  {
+    "id": "selenium-ts-advanced-architecture",
+    "title": "TypeScript Advanced Architecture & Patterns",
+    "description": "Transition from scripts to Enterprise frameworks. Learn Data Driven Testing, Page Object Model, Factory Patterns, and the advanced Screenplay Pattern.",
+    "articleIds": [
+      "blog-selenium-ts-arch-1"
+    ]
   }
 ]
