@@ -1,6 +1,6 @@
 ---
-title: Breaking the Gates: API Authentication with Tokens
-date: 04-Dec-2024
+title: Mastering API Authentication: JWT Tokens and Bearer Headers
+date: 09-Dec-2024
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
@@ -9,106 +9,135 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [typescript, selenium, api-testing, axios, authentication, jwt]
+tags: [typescript, selenium, api-testing, axios, authentication, jwt, bearer-token]
 category: Selenium TypeScript
 categories: [Selenium TypeScript, API Testing Integration]
 excerpt: >-
-  You can't test a secure backend without proving who you are. Learn how to extract and inject Bearer Tokens into Axios request headers.
-readTime: 4 min read
+  Learn to bypass security by dynamically extracting JWT authentication tokens from APIs and injecting them into your Axios requests using TypeScript.
+readTime: 5 min read
 ---
 
-# Breaking the Gates: API Authentication with Tokens
+# Mastering API Authentication: JWT Tokens and Bearer Headers
 
-So far, we have been communicating with public APIs. However, in the real world, almost every backend endpoint is secured behind an Authentication wall. 
+Almost every modern enterprise application is secured by authentication. Whether it is OAuth 2.0, SAML, or JWT (JSON Web Tokens), you cannot test private APIs unless you prove *who* you are.
 
-If you try to hit a secure API without proving who you are, you will be rejected with a `401 Unauthorized` status.
-
-In modern architecture, you prove your identity by logging in and receiving a **JWT (JSON Web Token)**. You must then attach this token to the `Headers` of every subsequent API request!
+In this tutorial, we will automate the extraction of a JWT token from a Login API and inject it into our subsequent requests via Bearer Headers.
 
 ---
 
-## 1. Updating ApiUtils to Accept Tokens
+## 1. Creating the Authentication Utility
 
-We must update our `GET` and `POST` wrappers to accept an optional `token` string. If the token is provided, we will automatically inject it into the `Authorization` header as a `Bearer` token.
+Because `jsonplaceholder` does not support real authentication, we will use a different free mock API for this specific lesson: `https://dummyjson.com`. 
 
-Update `tests/utils/ApiUtils.ts`:
+Create a new file `tests/utils/AuthUtils.ts`:
 
 ```typescript
-  static async get(endpoint: string, token?: string): Promise<AxiosResponse> {
-    const baseUrl = ConfigManager.get("API_BASE_URL");
-    const fullUrl = `${baseUrl}${endpoint}`;
-    // Create our Headers object
-    const headers: Record<string, string> = {};
-    if (token) {
-      // Inject the Bearer Token!
-      headers["Authorization"] = `Bearer ${token}`;
-      Logger.info(`[API] Injected Bearer Token into headers`);
-    }
+import axios from "axios";
+import { Logger } from "./Logger";
+export class AuthUtils {
+  /**
+   * Retrieves a JWT Authentication Token by logging in via API.
+   * We use dummyjson.com for this demonstration.
+   */
+  static async getAuthToken(username: string = "emilys", password: string = "emilyspass"): Promise<string> {
+    Logger.info(`[Auth] Attempting to retrieve JWT token for user: ${username}`);
     try {
-      const response = await axios.get(fullUrl, { headers });
-      return response;
+      const response = await axios.post("https://dummyjson.com/auth/login", {
+        username: username,
+        password: password
+      }, {
+        headers: { "Content-Type": "application/json" }
+      });
+      if (response.status === 200 && response.data.token) {
+        Logger.info(`[Auth] Token successfully retrieved!`);
+        return response.data.token;
+      } else {
+        throw new Error(`[Auth] Failed to retrieve token. Status: ${response.status}`);
+      }
     } catch (error: any) {
-       // ... existing error handling
+      Logger.error(`[Auth] Login API request failed: ${error.message}`);
+      throw error;
     }
   }
+}
 ```
-*(Do the same for the `post` method!)*
+
+This utility performs a `POST` request to the `/auth/login` endpoint with a username and password. The server responds with a JSON object containing the `token`. We parse and return it!
 
 ---
 
-## 2. Automating the Secure Request
+## 2. Writing the Authenticated Test Suite
 
-Let's write a script that tests our ability to transmit a Bearer Token.
-
-Since `jsonplaceholder` doesn't support secure endpoints, we will use `httpbin.org/bearer`, a public tool designed specifically to test if tokens are being transmitted correctly.
+Now, we will use this utility inside a test. We want to fetch the token exactly **once** before all tests run, and reuse it across multiple assertions.
 
 Create `tests/api_auth.test.ts`:
 
 ```typescript
+import { AuthUtils } from "./utils/AuthUtils";
 import axios from "axios";
-describe("Phase 5 - API Testing: Authentication Tokens", () => {
-  it("Should successfully inject a Bearer token into a secure request", async () => {
-    // 1. In a real scenario, we would hit a login endpoint to fetch a dynamic token:
-    // const loginResponse = await ApiUtils.post("/login", { user: "admin", pass: "password" });
-    // const token = loginResponse.data.token;
-    // For this demonstration, we will mock a JWT token
-    const mockJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.MockPayload.Signature";
-    // 2. We use httpbin.org to verify our headers were attached properly.
-    const response = await axios.get("https://httpbin.org/bearer", {
-      headers: { "Authorization": `Bearer ${mockJwtToken}` }
+describe("Phase 6 - API Testing: Authentication APIs", () => {
+  let jwtToken: string;
+  beforeAll(async () => {
+    // 1. Authenticate before tests run to get the JWT
+    jwtToken = await AuthUtils.getAuthToken();
+    console.log(`Generated JWT Token: ${jwtToken.substring(0, 15)}...`);
+  });
+  it("Should access a protected route using the JWT token", async () => {
+    // 2. We use dummyjson.com's /auth/me endpoint to verify the token
+    const response = await axios.get("https://dummyjson.com/auth/me", {
+      headers: {
+        "Authorization": `Bearer ${jwtToken}` // Injecting the Bearer Token
+      }
     });
+    // 3. Validate the Response
     expect(response.status).toBe(200);
-    // 3. Verify the token was successfully transmitted
-    const responseBody = response.data;
-    expect(responseBody.authenticated).toBe(true);
-    expect(responseBody.token).toBe(mockJwtToken);
-    console.log("Successfully authenticated with secure endpoint!");
+    expect(response.data.username).toBe("emilys");
+    console.log(`Successfully validated JWT Token for user: ${response.data.username}`);
+  });
+  it("Should fail when accessing a protected route without a token", async () => {
+    try {
+      await axios.get("https://dummyjson.com/auth/me");
+    } catch (error: any) {
+      // 4. Validate that a 401 Unauthorized or 403 Forbidden is returned
+      expect([401, 403]).toContain(error.response.status);
+      console.log(`Successfully blocked unauthorized access. Status: ${error.response.status}`);
+    }
   });
 });
 ```
+
+### Key Takeaways
+1. **`beforeAll` Hook**: Notice how we fetch the token inside the `beforeAll` block. We don't want to log in 10 times if we have 10 tests; that slows down execution.
+2. **Bearer Token Injection**: In the first test, we pass a `headers` object containing `Authorization: Bearer <TOKEN>`.
+3. **Negative Testing**: The second test intentionally omits the token and expects the server to reject the request with a `401 Unauthorized` or `403 Forbidden` status.
 
 ---
 
 ## 3. Test Execution Output
 
+Run the test pointing to the QA environment:
+
 ```bash
-> jest tests/api_auth.test.ts
+> ENV_NAME=qa jest tests/api_auth.test.ts
 ```
 
 Output:
 
 ```text
  PASS  tests/api_auth.test.ts
-  Phase 5 - API Testing: Authentication Tokens
-    √ Should successfully inject a Bearer token into a secure request (193 ms)
+  Phase 6 - API Testing: Authentication APIs
+    √ Should access a protected route using the JWT token (241 ms)
+    √ Should fail when accessing a protected route without a token (198 ms)
   console.log
-    Successfully authenticated with secure endpoint!
+    [Auth] Attempting to retrieve JWT token for user: emilys
+    [Auth] Token successfully retrieved!
+    Generated JWT Token: eyJhbGciOiJIUzI...
+  console.log
+    Successfully validated JWT Token for user: emilys
+  console.log
+    Successfully blocked unauthorized access. Status: 401
 ```
 
 ## Conclusion
 
-By dynamically extracting the JWT from a `/login` endpoint and passing it into our `ApiUtils` wrappers, we can completely automate complex Backend journeys without ever opening a browser.
-
-We have officially mastered the core mechanics of Axios! 
-
-In our final two API tutorials, we will explore **Data Parsing** and **Contract Validations** to ensure the backend is returning the exact schema we expect!
+Automating API authentication dynamically unlocks your ability to test backend services securely. This is also the exact technique used when building Hybrid UI-API testing frameworks, which we will explore next!
