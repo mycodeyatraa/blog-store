@@ -11276,5 +11276,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-3",
+    "title": "Mastering API Authentication: JWT Tokens and Bearer Headers",
+    "slug": "authentication-jwt-tokens-axios-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn to bypass security by dynamically extracting JWT authentication tokens from APIs and injecting them into your Axios requests using TypeScript.",
+    "date": "09-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "axios",
+      "authentication",
+      "jwt",
+      "bearer-token"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/authentication-jwt-tokens-axios-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
