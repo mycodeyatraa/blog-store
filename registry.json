@@ -10752,5 +10752,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase4-1",
+    "title": "Enterprise Tooling: Building a Utility Framework in TypeScript",
+    "slug": "utility-framework-wrapper-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop writing raw WebDriver commands in every Page Object. Learn how to build a centralized Utility Framework to inject explicit waits and logging globally.",
+    "date": "25-Nov-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Framework Utilities & Configuration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "utility-framework",
+      "wrappers",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/utility-framework-wrapper-selenium-typescript.md",
+    "series": "selenium-ts-framework-utilities",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
