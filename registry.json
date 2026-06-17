@@ -11776,5 +11776,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase7-2",
+    "title": "The Ultimate Defense Against XSS: Automating CSP Validation",
+    "slug": "csp-validation-automation-xss-prevention-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Prevent Cross-Site Scripting (XSS) in CI/CD by automating the parsing and validation of the Content Security Policy (CSP) header using TypeScript.",
+    "date": "22-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Security Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "security",
+      "csp",
+      "xss",
+      "http-headers"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/csp-validation-automation-xss-prevention-typescript.md",
+    "series": "selenium-ts-security-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
