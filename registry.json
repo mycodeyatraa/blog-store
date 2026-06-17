@@ -11544,5 +11544,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-10",
+    "title": "The Grand Finale: Multi-User Testing in TypeScript",
+    "slug": "api-multi-user-testing-roles-axios-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Complete your automation framework by architecting a Multi-Session Manager to run parallel Admin and Standard User tests dynamically using Axios.",
+    "date": "16-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "multi-user",
+      "roles",
+      "axios",
+      "session-management"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/api-multi-user-testing-roles-axios-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 16,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
