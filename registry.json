@@ -11621,5 +11621,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-12",
+    "title": "Conquering the Final Boss: Automating Multi-Factor Authentication (MFA)",
+    "slug": "mfa-automation-totp-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Bypass two-factor authentication in your UI tests by generating TOTP tokens dynamically using otplib in TypeScript and Selenium.",
+    "date": "18-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "mfa",
+      "2fa",
+      "totp",
+      "otplib"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mfa-automation-totp-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 18,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
