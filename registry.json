@@ -11583,5 +11583,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-11",
+    "title": "Overcoming the Ultimate UI Challenge: Automating SSO Authentication",
+    "slug": "sso-authentication-flow-selenium-webdriver-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Master cross-domain UI automation by navigating complex Single Sign-On (SSO) redirect flows and Identity Provider logins using Selenium and TypeScript.",
+    "date": "17-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "sso",
+      "authentication",
+      "oauth"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/sso-authentication-flow-selenium-webdriver-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 17,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
