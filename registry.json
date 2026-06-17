@@ -11660,5 +11660,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-13",
+    "title": "Drastically Reduce Execution Time: Disk-Based Token Management",
+    "slug": "token-management-disk-caching-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Optimize your enterprise automation suite by learning how to cache API JWT tokens to the file system to avoid rate limiting and speed up parallel execution.",
+    "date": "19-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "jwt",
+      "token-caching",
+      "performance",
+      "disk-cache"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/token-management-disk-caching-selenium-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 19,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
