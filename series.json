@@ -624,7 +624,8 @@
     "title": "TypeScript Security Testing Automation",
     "description": "Shift left on security! Learn how to automate the validation of HTTP headers, Content Security Policies (CSP), and JWT token vulnerabilities.",
     "articleIds": [
-      "blog-selenium-ts-phase7-1"
+      "blog-selenium-ts-phase7-1",
+      "blog-selenium-ts-phase7-2"
     ]
   }
 ]
