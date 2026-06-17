@@ -11505,5 +11505,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase6-9",
+    "title": "Building a Stateful API Framework: Session Handling in TypeScript",
+    "slug": "api-session-handling-stateful-axios-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform stateless HTTP requests into a fully stateful, browser-like experience by encapsulating cookies into a reusable SessionManager using axios.create().",
+    "date": "15-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "API Testing Integration"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "api-testing",
+      "cookies",
+      "axios",
+      "session-management",
+      "stateful"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/api-session-handling-stateful-axios-typescript.md",
+    "series": "selenium-ts-api-testing",
+    "seriesOrder": 15,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
