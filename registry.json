@@ -12430,5 +12430,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-1",
+    "title": "Bridging the Gap: An Introduction to Behavior-Driven Development (BDD)",
+    "slug": "introduction-to-behavior-driven-development-bdd-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Step into Phase 10 and discover how Behavior-Driven Development (BDD) and the Three Amigos bridge the communication gap between business stakeholders and automation engineers.",
+    "date": "08-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "gherkin",
+      "three-amigos",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-behavior-driven-development-bdd-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
