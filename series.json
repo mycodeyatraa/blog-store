@@ -650,7 +650,8 @@
     "description": "Ensure your web applications are compliant with WCAG guidelines by integrating Axe Core and accessibility testing patterns into Selenium.",
     "articleIds": [
       "blog-selenium-ts-phase9-1",
-      "blog-selenium-ts-phase9-2"
+      "blog-selenium-ts-phase9-2",
+      "blog-selenium-ts-phase9-3"
     ]
   }
 ]
