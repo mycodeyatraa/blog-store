@@ -13475,5 +13475,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase13-2",
+    "title": "Untangling the Mess: Log Aggregation",
+    "slug": "log-aggregation-elk-stack-winston-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Solve the chaos of parallel execution logs. Learn how to implement structured JSON logging with Winston, utilize Correlation IDs, and search isolated test logs using the ELK stack.",
+    "date": "04-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "observability",
+      "logging",
+      "elk",
+      "kibana",
+      "winston"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/log-aggregation-elk-stack-winston-selenium.md",
+    "series": "selenium-ts-observability",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
