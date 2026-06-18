@@ -12894,5 +12894,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase11-4",
+    "title": "The Need for Speed: Matrix Parallel Execution in GitHub Actions",
+    "slug": "parallel-execution-github-actions-matrix-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Dramatically reduce UI Automation execution times by utilizing GitHub Actions Matrices to spin up dozens of simultaneous Virtual Machines for cross-browser testing and test sharding.",
+    "date": "20-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ci-cd",
+      "github-actions",
+      "parallel",
+      "matrix",
+      "cross-browser",
+      "sharding"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/parallel-execution-github-actions-matrix-selenium.md",
+    "series": "selenium-ts-ci-cd",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
