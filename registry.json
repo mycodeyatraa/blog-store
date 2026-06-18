@@ -12469,5 +12469,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-2",
+    "title": "Speaking the Language: A Guide to Gherkin Syntax",
+    "slug": "gherkin-syntax-keywords-bdd-cucumber-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Master the Given, When, Then grammar of Gherkin syntax. Learn how to write structured, declarative scenarios and backgrounds that Product Managers can read and Cucumber can execute.",
+    "date": "09-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "gherkin",
+      "given-when-then"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/gherkin-syntax-keywords-bdd-cucumber-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
