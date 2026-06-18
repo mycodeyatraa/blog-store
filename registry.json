@@ -12044,5 +12044,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase8-4",
+    "title": "Breakpoints and CSS: Automating Responsive Visual Tests",
+    "slug": "responsive-visual-testing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Ensure your UI is flawless across every screen size by iterating through device viewports and capturing targeted mobile, tablet, and desktop visual baselines.",
+    "date": "29-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Visual AI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "visual-testing",
+      "responsive",
+      "css-breakpoints",
+      "mobile"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/responsive-visual-testing-selenium-typescript.md",
+    "series": "selenium-ts-visual-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
