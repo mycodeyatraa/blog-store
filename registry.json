@@ -12120,5 +12120,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase8-6",
+    "title": "DOM Snapshots vs Pixels: Cloud Rendering with Percy",
+    "slug": "percy-visual-testing-cloud-rendering-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Overcome local execution limitations by capturing DOM snapshots in Selenium and rendering them across Safari, Chrome, and Firefox simultaneously in the Percy Cloud.",
+    "date": "31-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Visual AI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "visual-testing",
+      "percy",
+      "browserstack",
+      "dom-snapshot"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/percy-visual-testing-cloud-rendering-selenium.md",
+    "series": "selenium-ts-visual-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
