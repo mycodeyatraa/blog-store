@@ -12855,5 +12855,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase11-3",
+    "title": "The Headless Problem: Setting up the Selenium CI Pipeline",
+    "slug": "setting-up-selenium-ci-pipeline-github-actions",
+    "author": "pankaj-kumar",
+    "excerpt": "Solve the missing GUI problem by configuring headless mode and Xvfb virtual framebuffers to run Selenium TypeScript tests successfully on cloud Ubuntu servers.",
+    "date": "19-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ci-cd",
+      "github-actions",
+      "headless",
+      "xvfb",
+      "ubuntu"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/setting-up-selenium-ci-pipeline-github-actions.md",
+    "series": "selenium-ts-ci-cd",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
