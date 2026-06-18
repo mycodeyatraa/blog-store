@@ -696,7 +696,8 @@
     "description": "Transform your raw test output into stunning, executive-friendly dashboards. Master Allure Reports, attach failure screenshots, and analyze flakiness metrics.",
     "articleIds": [
       "blog-selenium-ts-phase12-1",
-      "blog-selenium-ts-phase12-2"
+      "blog-selenium-ts-phase12-2",
+      "blog-selenium-ts-phase12-3"
     ]
   }
 ]
