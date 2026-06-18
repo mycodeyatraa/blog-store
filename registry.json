@@ -11930,5 +11930,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase8-1",
+    "title": "Beyond the DOM: An Introduction to Visual Testing",
+    "slug": "visual-testing-selenium-typescript-introduction",
+    "author": "pankaj-kumar",
+    "excerpt": "Step into Phase 8 of Selenium automation by learning how to capture full-page and component-level screenshot baselines to catch visual CSS regressions.",
+    "date": "26-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Visual AI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "visual-testing",
+      "screenshot",
+      "pixelmatch",
+      "css-regression"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/visual-testing-selenium-typescript-introduction.md",
+    "series": "selenium-ts-visual-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
