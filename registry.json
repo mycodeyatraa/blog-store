@@ -13090,5 +13090,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase11-9",
+    "title": "The Enterprise Standard: A Jenkins Pipeline Overview",
+    "slug": "jenkins-pipeline-overview-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Prepare for enterprise environments by learning how to translate your GitHub Actions YAML workflows into Groovy-based declarative Jenkinsfiles.",
+    "date": "25-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ci-cd",
+      "jenkins",
+      "groovy",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/jenkins-pipeline-overview-selenium-typescript.md",
+    "series": "selenium-ts-ci-cd",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
