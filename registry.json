@@ -11852,5 +11852,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase7-4",
+    "title": "Dynamic Application Security Testing: Integrating OWASP ZAP with Selenium",
+    "slug": "owasp-zap-dast-selenium-typescript-integration",
+    "author": "pankaj-kumar",
+    "excerpt": "Turn your functional UI tests into automated security tests by routing Selenium traffic through the OWASP ZAP proxy and querying its REST API for vulnerabilities.",
+    "date": "24-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Security Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "security",
+      "owasp",
+      "zap",
+      "dast",
+      "proxy"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/owasp-zap-dast-selenium-typescript-integration.md",
+    "series": "selenium-ts-security-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
