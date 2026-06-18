@@ -636,7 +636,8 @@
     "title": "TypeScript Visual Automation Testing",
     "description": "Ensure pixel-perfect UI across all browsers by integrating Visual Regression Testing, Applitools Eyes, and Percy into your Selenium framework.",
     "articleIds": [
-      "blog-selenium-ts-phase8-1"
+      "blog-selenium-ts-phase8-1",
+      "blog-selenium-ts-phase8-2"
     ]
   }
 ]
