@@ -12158,5 +12158,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase9-1",
+    "title": "Designing for Everyone: An Introduction to Web Accessibility Testing",
+    "slug": "accessibility-basics-wcag-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Step into Phase 9 of our curriculum and learn how to use standard Selenium commands to assert basic WCAG compliance for screen readers.",
+    "date": "01-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Accessibility Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "wcag",
+      "screen-reader"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/accessibility-basics-wcag-selenium-typescript.md",
+    "series": "selenium-ts-accessibility-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
