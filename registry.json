@@ -13398,5 +13398,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-8",
+    "title": "Building from Scratch: Custom Reporters",
+    "slug": "custom-reporters-cucumber-formatter-api",
+    "author": "pankaj-kumar",
+    "excerpt": "When out-of-the-box solutions fail, learn how to build your own custom reporting tools from scratch using the powerful Cucumber Formatter API.",
+    "date": "02-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "cucumber",
+      "automation",
+      "api"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-reporters-cucumber-formatter-api.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
