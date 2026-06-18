@@ -12701,5 +12701,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-8",
+    "title": "Surgical Execution: Filtering Tests with Cucumber Tags",
+    "slug": "cucumber-tags-execution-filtering-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to categorize your BDD scenarios using Cucumber tags (@smoke, @regression) to run targeted test executions from the command line.",
+    "date": "15-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "tags",
+      "testing",
+      "execution"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/cucumber-tags-execution-filtering-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
