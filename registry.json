@@ -13436,5 +13436,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase13-1",
+    "title": "Watching the Matrix: Monitoring Integrations",
+    "slug": "monitoring-integrations-observability-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Transition from retrospective reporting to real-time observability. Learn how to integrate your Selenium framework with APM tools like Datadog to monitor infrastructure health and test latency during execution.",
+    "date": "03-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "observability",
+      "monitoring",
+      "datadog",
+      "devops",
+      "performance"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/monitoring-integrations-observability-selenium.md",
+    "series": "selenium-ts-observability",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
