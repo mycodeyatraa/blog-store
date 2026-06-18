@@ -11814,5 +11814,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase7-3",
+    "title": "Securing the Backend: Automating JWT Token Validation",
+    "slug": "jwt-token-validation-security-testing-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Act as the first line of defense against data exposure by automating the decoding and auditing of JWT payloads to catch PII leaks before production.",
+    "date": "23-Dec-2024",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Security Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "security",
+      "jwt",
+      "data-leak",
+      "pii"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/jwt-token-validation-security-testing-typescript.md",
+    "series": "selenium-ts-security-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
