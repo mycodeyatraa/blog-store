@@ -13359,5 +13359,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-7",
+    "title": "The Big Picture: Test Analytics and ROI",
+    "slug": "test-analytics-historical-trends-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Move beyond single test runs and learn how to track historical analytics, preserve Allure trend graphs, and push QA data into Enterprise dashboards like Grafana.",
+    "date": "01-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "analytics",
+      "grafana",
+      "metrics",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/test-analytics-historical-trends-selenium.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
