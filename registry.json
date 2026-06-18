@@ -13204,5 +13204,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-3",
+    "title": "Keeping it Simple: Jest HTML Reporters",
+    "slug": "jest-html-reporters-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Discover a lightweight alternative to Allure by integrating jest-html-reporters, generating single-file standalone dashboards instantly after test execution.",
+    "date": "28-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "jest",
+      "dashboards",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/jest-html-reporters-selenium-typescript.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
