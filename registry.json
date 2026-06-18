@@ -13514,5 +13514,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase13-3",
+    "title": "Information Overload: Designing an Observability Strategy",
+    "slug": "observability-strategy-alerting-dashboards-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Data without context is just noise. Learn how to design a 3-tier observability strategy for Executives, Engineers, and DevOps, and how to eliminate alert fatigue in your CI pipeline.",
+    "date": "05-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "observability",
+      "strategy",
+      "grafana",
+      "devops",
+      "kibana"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/observability-strategy-alerting-dashboards-selenium.md",
+    "series": "selenium-ts-observability",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
