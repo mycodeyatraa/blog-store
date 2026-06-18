@@ -679,7 +679,8 @@
     "title": "TypeScript CI/CD & DevOps Integration",
     "description": "Take your Selenium automation to the cloud! Learn to build robust Continuous Integration pipelines using GitHub Actions, manage secrets, and execute cross-browser testing inside Docker containers.",
     "articleIds": [
-      "blog-selenium-ts-phase11-1"
+      "blog-selenium-ts-phase11-1",
+      "blog-selenium-ts-phase11-2"
     ]
   }
 ]
