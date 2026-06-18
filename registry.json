@@ -13242,5 +13242,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-4",
+    "title": "Understanding the Numbers: Dashboard Metrics",
+    "slug": "dashboard-metrics-kpi-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "A dashboard is only as valuable as the metrics it tracks. Learn how to interpret False Positive Rates, execution feedback loops, and the crucial distinction between Failed and Broken automation tests.",
+    "date": "29-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "metrics",
+      "kpi",
+      "dashboards",
+      "allure"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/dashboard-metrics-kpi-selenium-typescript.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
