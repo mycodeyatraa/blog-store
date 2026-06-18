@@ -13320,5 +13320,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-6",
+    "title": "The Enemy Within: Flaky Test Detection",
+    "slug": "flaky-test-detection-quarantine-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Protect the integrity of your CI pipeline by learning how to detect flaky automation tests using automatic retries, and ruthlessly quarantine them using Cucumber tags.",
+    "date": "31-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "flaky-tests",
+      "cucumber",
+      "quarantine",
+      "ci-cd"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/flaky-test-detection-quarantine-selenium.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
