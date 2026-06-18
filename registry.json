@@ -13128,5 +13128,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase12-1",
+    "title": "A Picture is Worth a Thousand Tests: Allure Reporting Basics",
+    "slug": "allure-basics-reporting-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform ugly terminal output into beautiful, executive-friendly web dashboards by integrating the Allure Reporting framework into your Selenium TypeScript architecture.",
+    "date": "26-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Reporting"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "reporting",
+      "allure",
+      "dashboards",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/allure-basics-reporting-selenium-typescript.md",
+    "series": "selenium-ts-reporting",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
