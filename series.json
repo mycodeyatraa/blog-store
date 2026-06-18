@@ -663,7 +663,8 @@
     "title": "TypeScript BDD & Cucumber Framework",
     "description": "Bridge the gap between business and engineering by writing executable specifications in plain English using BDD, Cucumber, and Gherkin with Selenium TypeScript.",
     "articleIds": [
-      "blog-selenium-ts-phase10-1"
+      "blog-selenium-ts-phase10-1",
+      "blog-selenium-ts-phase10-2"
     ]
   }
 ]
