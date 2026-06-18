@@ -12352,5 +12352,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase9-6",
+    "title": "Shifting Left: Headless Accessibility Testing with Axe CLI",
+    "slug": "axe-core-cli-headless-accessibility-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Empower UI developers to validate WCAG compliance instantly from their terminal by integrating the Axe Command Line Interface into your local workflow and CI/CD pipelines.",
+    "date": "06-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Accessibility Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "accessibility",
+      "axe-cli",
+      "wcag",
+      "headless",
+      "shift-left",
+      "ci-cd"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axe-core-cli-headless-accessibility-testing.md",
+    "series": "selenium-ts-accessibility-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
