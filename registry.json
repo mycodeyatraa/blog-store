@@ -11968,5 +11968,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase8-2",
+    "title": "Defeating Visual Flakiness: Mastering Baseline Management",
+    "slug": "visual-testing-baseline-management-flakiness",
+    "author": "pankaj-kumar",
+    "excerpt": "Solve the biggest headaches in Visual Testing by learning how to mask dynamic elements and manage OS-level font rendering tolerances.",
+    "date": "27-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Visual AI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "visual-testing",
+      "baseline",
+      "flakiness",
+      "image-diff"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/visual-testing-baseline-management-flakiness.md",
+    "series": "selenium-ts-visual-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
