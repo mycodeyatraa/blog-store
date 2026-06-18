@@ -12778,5 +12778,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase11-1",
+    "title": "Leaving the Localhost: Introduction to GitHub Actions",
+    "slug": "github-actions-basics-ci-cd-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Take your test automation off your local machine and into the cloud by building your first Continuous Integration pipeline using GitHub Actions YAML workflows.",
+    "date": "17-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ci-cd",
+      "github-actions",
+      "automation",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/github-actions-basics-ci-cd-selenium-typescript.md",
+    "series": "selenium-ts-ci-cd",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
