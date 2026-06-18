@@ -12006,5 +12006,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase8-3",
+    "title": "Scaling Visual Testing with AI: Integrating Applitools Eyes",
+    "slug": "applitools-eyes-visual-ai-testing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Say goodbye to manual screenshot baselines and flaky visual tests by integrating Applitools Eyes Visual AI into your Selenium TypeScript framework.",
+    "date": "28-Dec-2024",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Visual AI Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "visual-testing",
+      "applitools",
+      "ai-testing",
+      "ui-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/applitools-eyes-visual-ai-testing-selenium-typescript.md",
+    "series": "selenium-ts-visual-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
