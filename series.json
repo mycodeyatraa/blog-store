@@ -689,5 +689,13 @@
       "blog-selenium-ts-phase11-8",
       "blog-selenium-ts-phase11-9"
     ]
+  },
+  {
+    "id": "selenium-ts-reporting",
+    "title": "TypeScript Advanced Reporting & Analytics",
+    "description": "Transform your raw test output into stunning, executive-friendly dashboards. Master Allure Reports, attach failure screenshots, and analyze flakiness metrics.",
+    "articleIds": [
+      "blog-selenium-ts-phase12-1"
+    ]
   }
 ]
