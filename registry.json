@@ -12313,5 +12313,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase9-5",
+    "title": "Beyond the Console: Generating Beautiful HTML Accessibility Reports",
+    "slug": "axe-html-reporter-accessibility-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform raw Axe Core JSON data into interactive, stakeholder-friendly HTML dashboards using the axe-html-reporter library.",
+    "date": "05-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Accessibility Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "accessibility",
+      "axe-html-reporter",
+      "axe-core",
+      "reporting",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axe-html-reporter-accessibility-selenium.md",
+    "series": "selenium-ts-accessibility-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
