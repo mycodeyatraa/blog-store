@@ -12391,5 +12391,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase9-7",
+    "title": "Scaling Accessibility: An Enterprise Strategy",
+    "slug": "enterprise-accessibility-strategy-selenium-axe",
+    "author": "pankaj-kumar",
+    "excerpt": "Design a three-pillar architecture for web accessibility across an enterprise, combining developer shift-left tooling, QA Selenium regressions, and continuous web crawler monitoring.",
+    "date": "07-Jan-2025",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Accessibility Testing Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "accessibility",
+      "enterprise",
+      "ci-cd",
+      "strategy",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-accessibility-strategy-selenium-axe.md",
+    "series": "selenium-ts-accessibility-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
