@@ -643,5 +643,13 @@
       "blog-selenium-ts-phase8-5",
       "blog-selenium-ts-phase8-6"
     ]
+  },
+  {
+    "id": "selenium-ts-accessibility-testing",
+    "title": "TypeScript Accessibility Testing Automation",
+    "description": "Ensure your web applications are compliant with WCAG guidelines by integrating Axe Core and accessibility testing patterns into Selenium.",
+    "articleIds": [
+      "blog-selenium-ts-phase9-1"
+    ]
   }
 ]
