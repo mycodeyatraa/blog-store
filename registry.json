@@ -12546,5 +12546,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-4",
+    "title": "Bringing Gherkin to Life: Installing and Configuring Cucumber-TS",
+    "slug": "cucumber-js-typescript-configuration-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Install @cucumber/cucumber and configure cucumber.js to dynamically compile TypeScript on the fly using ts-node, seamlessly executing your BDD feature files.",
+    "date": "11-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "cucumber-js",
+      "configuration",
+      "ts-node"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/cucumber-js-typescript-configuration-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
