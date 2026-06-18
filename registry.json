@@ -12585,5 +12585,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-5",
+    "title": "The Glue Code: Writing Cucumber Step Definitions",
+    "slug": "step-definitions-glue-code-cucumber-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Connect your plain-English Gherkin scenarios to your Selenium automation by writing TypeScript Step Definitions and utilizing dynamic Cucumber Expressions.",
+    "date": "12-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "step-definitions",
+      "cucumber-expressions"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/step-definitions-glue-code-cucumber-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
