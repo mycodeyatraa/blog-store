@@ -710,7 +710,8 @@
     "title": "TypeScript QA Observability & Enterprise Monitoring",
     "description": "Gain real-time visibility into your test automation framework. Master APM integrations, log aggregation strategies, and design highly scalable observability architectures for your CI/CD pipelines.",
     "articleIds": [
-      "blog-selenium-ts-phase13-1"
+      "blog-selenium-ts-phase13-1",
+      "blog-selenium-ts-phase13-2"
     ]
   }
 ]
