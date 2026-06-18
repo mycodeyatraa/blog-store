@@ -12662,5 +12662,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-7",
+    "title": "Eliminating Global Variables: The Cucumber World Object",
+    "slug": "scenario-context-custom-world-cucumber-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Enable safe parallel execution of BDD suites by replacing global variables with a Custom Cucumber World class to perfectly isolate Selenium WebDriver instances.",
+    "date": "14-Jan-2025",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD & Cucumber Framework"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "custom-world",
+      "parallel-execution",
+      "state"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/scenario-context-custom-world-cucumber-selenium.md",
+    "series": "selenium-ts-bdd-cucumber",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
