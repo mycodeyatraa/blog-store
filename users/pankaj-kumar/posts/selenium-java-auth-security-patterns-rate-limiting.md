@@ -1,7 +1,7 @@
 ---
 title: Defending the Gates: Advanced Auth Security Patterns in Selenium
-date: 23-Jun-2026
-lastUpdated: 23-Jun-2026
+date: 23-Jun-2025
+lastUpdated: 23-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
