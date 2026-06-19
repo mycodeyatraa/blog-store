@@ -744,5 +744,13 @@
       "blog-selenium-ts-phase15-5",
       "blog-selenium-ts-phase15-6"
     ]
+  },
+  {
+    "id": "selenium-ts-enterprise-validation",
+    "title": "TypeScript QA Enterprise Data Validation",
+    "description": "Stop trusting the UI. Master Enterprise Validation by learning how to assert system state directly in SQL/NoSQL databases, Kafka event streams, Email servers, and raw PDF/Excel files.",
+    "articleIds": [
+      "blog-selenium-ts-phase11-1"
+    ]
   }
 ]
