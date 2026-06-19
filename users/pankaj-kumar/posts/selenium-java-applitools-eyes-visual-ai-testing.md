@@ -1,7 +1,7 @@
 ---
 title: AI-Powered Visual Testing: Integrating Applitools Eyes with Selenium Java
-date: 29-Jun-2026
-lastUpdated: 29-Jun-2026
+date: 29-Jun-2025
+lastUpdated: 29-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
