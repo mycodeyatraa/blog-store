@@ -16760,5 +16760,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-validation-4",
+    "title": "Architecting Truth: Building an Enterprise Validation Strategy",
+    "slug": "selenium-java-enterprise-backend-file-validation-strategy",
+    "author": "pankaj-kumar",
+    "excerpt": "Do not write God Tests. Learn how to architect a scalable Enterprise Validation Strategy by modularizing your UI, Database, Kafka, and External File tests into distinct CI/CD execution tiers.",
+    "date": "10-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "strategy",
+      "architecture",
+      "cicd",
+      "test-automation",
+      "backend-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-enterprise-backend-file-validation-strategy.md",
+    "series": "selenium-java-enterprise-validation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
