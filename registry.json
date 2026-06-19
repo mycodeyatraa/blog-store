@@ -16018,5 +16018,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-visual-5",
+    "title": "Testing on the Go: Mobile Web Emulation with Selenium Java",
+    "slug": "selenium-java-mobile-web-emulation-chrome-devtools",
+    "author": "pankaj-kumar",
+    "excerpt": "Resizing your browser isn't enough to test mobile sites. Learn how to configure ChromeOptions to leverage Chrome DevTools Mobile Emulation, spoofing User-Agents and physical device metrics natively in Selenium.",
+    "date": "03-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "visual-testing",
+      "mobile-emulation",
+      "chrome-devtools",
+      "responsive",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-mobile-web-emulation-chrome-devtools.md",
+    "series": "selenium-java-visual-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
