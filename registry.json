@@ -16213,5 +16213,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-a11y-4",
+    "title": "Seeing Clearly: Automating Color Contrast Testing in Selenium",
+    "slug": "selenium-java-color-contrast-accessibility-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Are your buttons readable? Learn the math behind WCAG 4.5:1 contrast ratios, and how to automate color contrast validation using Axe-Core and native Selenium CSS extractions.",
+    "date": "13-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Accessibility Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "color-contrast",
+      "wcag",
+      "axe-core"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-color-contrast-accessibility-testing.md",
+    "series": "selenium-java-accessibility-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
