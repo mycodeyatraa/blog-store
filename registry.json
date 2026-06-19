@@ -17077,5 +17077,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-reporting-8",
+    "title": "Under the Hood: Building Custom TestNG Reporters from Scratch",
+    "slug": "selenium-java-reporting-custom-ireporter-testng",
+    "author": "pankaj-kumar",
+    "excerpt": "When third-party tools are banned, you have to build it yourself. Learn how to implement the TestNG IReporter interface to intercept post-execution data and generate custom JSON, XML, or HTML reports from scratch.",
+    "date": "02-Sep-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Reporting & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "reporting",
+      "ireporter",
+      "testng",
+      "custom-report",
+      "test-automation",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-reporting-custom-ireporter-testng.md",
+    "series": "selenium-java-reporting-analytics",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
