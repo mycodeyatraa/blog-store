@@ -17598,5 +17598,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-ai-1",
+    "title": "The End of Manual Scripting: AI Test Generation in Java",
+    "slug": "selenium-java-ai-test-generation-llm-chatgpt-prompts",
+    "author": "pankaj-kumar",
+    "excerpt": "Welcome to Phase 15. Learn how to use Prompt Engineering and Large Language Models (LLMs) to automatically generate perfect Page Object classes and TestNG scripts in seconds.",
+    "date": "12-Oct-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "AI in Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "ai",
+      "test-generation",
+      "chatgpt",
+      "llm",
+      "openai",
+      "prompt-engineering"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-ai-test-generation-llm-chatgpt-prompts.md",
+    "series": "selenium-java-ai-automation",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
