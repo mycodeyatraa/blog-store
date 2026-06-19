@@ -1,7 +1,7 @@
 ---
 title: The QA Firewall: Validating Security Headers with Selenium Java
-date: 15-Jun-2026
-lastUpdated: 19-Jun-2026
+date: 15-Jun-2025
+lastUpdated: 19-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
