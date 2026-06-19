@@ -15703,5 +15703,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-security-2",
+    "title": "Penetration Testing with Selenium: Validating Content Security Policies (CSP)",
+    "slug": "selenium-java-security-csp-validation-xss-prevention",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop XSS attacks in their tracks. Learn how to write Selenium Java tests that passively intercept CSP headers via DevTools, and actively attempt inline script injections to verify your security defenses.",
+    "date": "17-Jun-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Security"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "devsecops",
+      "csp",
+      "security",
+      "xss",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-security-csp-validation-xss-prevention.md",
+    "series": "selenium-java-security-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
