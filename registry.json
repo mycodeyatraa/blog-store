@@ -13789,5 +13789,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase14-6",
+    "title": "Vendor Agnosticism: Sauce Labs and TypeScript",
+    "slug": "sauce-labs-selenium-typescript-vendor-agnostic",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't get locked into a single cloud vendor. Learn how to execute your TypeScript framework on the Sauce Labs Grid, use Sauce Connect Proxy, and build a Factory Pattern to seamlessly switch providers.",
+    "date": "12-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "devops",
+      "saucelabs",
+      "cloud",
+      "cross-browser",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/sauce-labs-selenium-typescript-vendor-agnostic.md",
+    "series": "selenium-ts-devops",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
