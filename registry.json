@@ -15117,5 +15117,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ent-2",
+    "title": "Validating Invoices: PDF Validation in Selenium Python",
+    "slug": "selenium-python-pdf-validation-download-pypdf2",
+    "author": "pankaj-kumar",
+    "excerpt": "When testing E-Commerce or FinTech apps, clicking 'Download' isn't enough. Learn how to configure Chrome preferences to force-download PDFs and use PyPDF2 to extract and assert internal document text.",
+    "date": "24-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "pdf-validation",
+      "file-download",
+      "pypdf2",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-pdf-validation-download-pypdf2.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
