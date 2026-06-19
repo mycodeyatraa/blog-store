@@ -13671,5 +13671,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase14-3",
+    "title": "Cloud Agnosticism: CircleCI & GitLab CI",
+    "slug": "circleci-gitlab-ci-selenium-typescript-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't tie your framework to a single vendor. Learn the core principles of CI/CD architecture and how to seamlessly translate your automation pipelines into GitLab CI and CircleCI.",
+    "date": "09-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "devops",
+      "gitlab-ci",
+      "circleci",
+      "ci-cd",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/circleci-gitlab-ci-selenium-typescript-automation.md",
+    "series": "selenium-ts-devops",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
