@@ -14259,5 +14259,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-4",
+    "title": "Schema-Less Assertions: MongoDB Validation",
+    "slug": "mongodb-nosql-validation-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Leave the relational world behind. Learn how to connect to MongoDB using Mongoose, and validate highly nested, schema-less BSON documents directly from your TypeScript automation framework.",
+    "date": "20-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "mongodb",
+      "mongoose",
+      "nosql",
+      "database-testing",
+      "enterprise-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mongodb-nosql-validation-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
