@@ -811,7 +811,8 @@
     "description": "Learn how to detect security vulnerabilities, validate headers, and intercept network traffic using Selenium Java.",
     "articleIds": [
       "blog-selenium-java-security-1",
-      "blog-selenium-java-security-2"
+      "blog-selenium-java-security-2",
+      "blog-selenium-java-security-3"
     ]
   }
 ]
