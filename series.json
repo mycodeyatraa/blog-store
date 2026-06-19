@@ -890,7 +890,8 @@
     "description": "Deploy your automation framework to the enterprise. Master Slack alerting, Datadog monitoring, Docker Grid, and Jenkins pipelines.",
     "articleIds": [
       "blog-selenium-java-cicd-1",
-      "blog-selenium-java-cicd-2"
+      "blog-selenium-java-cicd-2",
+      "blog-selenium-java-cicd-3"
     ]
   }
 ]
