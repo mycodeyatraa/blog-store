@@ -16174,5 +16174,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-a11y-3",
+    "title": "The First Rule of ARIA: Validating WAI-ARIA Attributes with Axe",
+    "slug": "selenium-java-aria-validation-accessibility-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Bad ARIA is worse than no ARIA. Learn how to catch invalid ARIA roles with Axe-Core, and write explicit Selenium assertions to validate dynamic aria-expanded state changes on interactive components.",
+    "date": "11-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Accessibility Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "aria",
+      "axe-core",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-aria-validation-accessibility-testing.md",
+    "series": "selenium-java-accessibility-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
