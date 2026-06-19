@@ -16057,5 +16057,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-visual-6",
+    "title": "Scaling Visual Automation: Integrating BrowserStack Percy with Selenium Java",
+    "slug": "selenium-java-percy-visual-testing-browserstack",
+    "author": "pankaj-kumar",
+    "excerpt": "Integrate BrowserStack Percy into your Selenium framework. Learn how Percy captures DOM snapshots and renders them in the cloud for lightning-fast visual regressions and seamless GitHub PR review workflows.",
+    "date": "05-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "visual-testing",
+      "percy",
+      "browserstack",
+      "dom-snapshot",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-percy-visual-testing-browserstack.md",
+    "series": "selenium-java-visual-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
