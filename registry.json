@@ -13750,5 +13750,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase14-5",
+    "title": "Outsourcing the Grid: BrowserStack and TypeScript",
+    "slug": "browserstack-selenium-typescript-cloud-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop managing servers and start testing on real devices. Learn how to configure your TypeScript framework to execute tests on the BrowserStack Cloud Grid and securely test internal applications via VPN.",
+    "date": "11-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "devops",
+      "browserstack",
+      "cloud",
+      "cross-browser",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/browserstack-selenium-typescript-cloud-testing.md",
+    "series": "selenium-ts-devops",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
