@@ -14417,5 +14417,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-8",
+    "title": "Parsing Binaries: Automated PDF Validation",
+    "slug": "pdf-validation-parsing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Master file downloads in headless Chrome. Learn how to configure Chrome Preferences to download files silently, and use pdf-parse to extract and assert text from binary PDF invoices.",
+    "date": "24-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "pdf-validation",
+      "file-downloads",
+      "pdf-parse",
+      "enterprise-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pdf-validation-parsing-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
