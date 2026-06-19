@@ -17718,5 +17718,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-ai-4",
+    "title": "The Final Frontier: Building Autonomous Test Agents in Java",
+    "slug": "selenium-java-autonomous-ai-testing-agents-llm",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop writing deterministic test scripts. Learn how to place an LLM inside a Java while loop, creating an Autonomous Agent that can independently navigate unknown web applications to achieve a specified goal.",
+    "date": "22-Oct-2026",
+    "readTime": "7 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "AI in Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "ai",
+      "autonomous-agents",
+      "llm",
+      "chatgpt",
+      "automation",
+      "future"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-autonomous-ai-testing-agents-llm.md",
+    "series": "selenium-java-ai-automation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
