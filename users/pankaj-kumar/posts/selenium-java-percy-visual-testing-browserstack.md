@@ -1,7 +1,7 @@
 ---
 title: Scaling Visual Automation: Integrating BrowserStack Percy with Selenium Java
-date: 05-Jul-2026
-lastUpdated: 05-Jul-2026
+date: 05-Jul-2025
+lastUpdated: 05-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
