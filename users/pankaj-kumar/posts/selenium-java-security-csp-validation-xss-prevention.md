@@ -1,7 +1,7 @@
 ---
 title: Penetration Testing with Selenium: Validating Content Security Policies (CSP)
-date: 17-Jun-2026
-lastUpdated: 19-Jun-2026
+date: 17-Jun-2025
+lastUpdated: 19-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
