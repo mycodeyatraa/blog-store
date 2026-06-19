@@ -15586,5 +15586,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ai-2",
+    "title": "Giving AI a Mouse: LangChain for Test Automation",
+    "slug": "selenium-python-langchain-ai-test-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Build a true Autonomous Agent. Learn how to wrap Selenium WebDriver functions into LangChain Tools, allowing an LLM to browse websites, click elements, and assert data entirely on its own.",
+    "date": "18-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "AI & Autonomous Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "langchain",
+      "llm",
+      "autonomous-agents",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-langchain-ai-test-automation.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
