@@ -779,5 +779,13 @@
       "blog-selenium-ts-phase16-9",
       "blog-selenium-ts-phase16-10"
     ]
+  },
+  {
+    "id": "selenium-python-analytics-reporting",
+    "title": "Python QA Analytics",
+    "description": "Failure analysis, flaky tests, and reporting for Python Automation.",
+    "articleIds": [
+      "blog-selenium-python-analytics-1"
+    ]
   }
 ]
