@@ -1,7 +1,7 @@
 ---
 title: Beyond the UI: An Introduction to Database Validation in Selenium
-date: 23-Jul-2026
-lastUpdated: 23-Jul-2026
+date: 23-Jul-2025
+lastUpdated: 23-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
