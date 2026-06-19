@@ -883,5 +883,13 @@
       "blog-selenium-java-reporting-7",
       "blog-selenium-java-reporting-8"
     ]
+  },
+  {
+    "id": "selenium-java-cloud-cicd-monitoring",
+    "title": "Selenium Java Cloud & CI/CD",
+    "description": "Deploy your automation framework to the enterprise. Master Slack alerting, Datadog monitoring, Docker Grid, and Jenkins pipelines.",
+    "articleIds": [
+      "blog-selenium-java-cicd-1"
+    ]
   }
 ]
