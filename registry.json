@@ -13553,5 +13553,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase13-4",
+    "title": "The Master Blueprint: Reporting Architecture",
+    "slug": "reporting-architecture-observability-selenium",
+    "author": "pankaj-kumar",
+    "excerpt": "Pulling it all together. Visualize the complete Enterprise QA pipeline\u2014from execution layers to data aggregation layers, connecting Docker, GitHub Actions, ELK, and Datadog.",
+    "date": "06-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "observability",
+      "architecture",
+      "pipeline",
+      "elk",
+      "datadog",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/reporting-architecture-observability-selenium.md",
+    "series": "selenium-ts-observability",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
