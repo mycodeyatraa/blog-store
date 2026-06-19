@@ -14611,5 +14611,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-accessibility-4",
+    "title": "Color Contrast Testing: Automating WCAG 1.4.3 Guidelines in Selenium Python",
+    "slug": "color-contrast-testing-wcag-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop squinting at your screen. Learn the math behind Relative Luminance and how to extract CSS rgba values to computationally assert WCAG color contrast ratios natively in Selenium Python.",
+    "date": "21-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "color-contrast",
+      "wcag",
+      "ui-testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/color-contrast-testing-wcag-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
