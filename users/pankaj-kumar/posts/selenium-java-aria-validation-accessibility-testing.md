@@ -1,7 +1,7 @@
 ---
 title: The First Rule of ARIA: Validating WAI-ARIA Attributes with Axe
-date: 11-Jul-2026
-lastUpdated: 11-Jul-2026
+date: 11-Jul-2025
+lastUpdated: 11-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
