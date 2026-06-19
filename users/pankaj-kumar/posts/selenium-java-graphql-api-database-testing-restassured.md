@@ -1,7 +1,7 @@
 ---
 title: When the Database is Blocked: Validating Data via GraphQL
-date: 31-Jul-2026
-lastUpdated: 31-Jul-2026
+date: 31-Jul-2025
+lastUpdated: 31-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
