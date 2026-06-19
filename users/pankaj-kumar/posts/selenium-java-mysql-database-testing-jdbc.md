@@ -1,7 +1,7 @@
 ---
 title: Querying the Truth: Connecting Selenium Java to MySQL
-date: 25-Jul-2026
-lastUpdated: 25-Jul-2026
+date: 25-Jul-2025
+lastUpdated: 25-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
