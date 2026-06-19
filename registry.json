@@ -15672,7 +15672,7 @@
     "slug": "selenium-java-security-headers-cdp-validation",
     "author": "pankaj-kumar",
     "excerpt": "Transform your QA automation suite into a security firewall. Learn how to use Selenium 4 Chrome DevTools Protocol (CDP) to intercept network requests and validate critical HTTP Security Headers like HSTS and X-Frame-Options.",
-    "date": "15-Jun-2026",
+    "date": "15-Jun-2025",
     "readTime": "5 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15710,7 +15710,7 @@
     "slug": "selenium-java-security-csp-validation-xss-prevention",
     "author": "pankaj-kumar",
     "excerpt": "Stop XSS attacks in their tracks. Learn how to write Selenium Java tests that passively intercept CSP headers via DevTools, and actively attempt inline script injections to verify your security defenses.",
-    "date": "17-Jun-2026",
+    "date": "17-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15749,7 +15749,7 @@
     "slug": "selenium-java-jwt-token-validation-security",
     "author": "pankaj-kumar",
     "excerpt": "Stop developers from accidentally exposing passwords in plain text. Learn how to extract JSON Web Tokens (JWT) from Local Storage via Selenium WebStorage and decode their cryptographic claims using Java jjwt.",
-    "date": "19-Jun-2026",
+    "date": "19-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15789,7 +15789,7 @@
     "slug": "selenium-java-owasp-zap-integration-penetration-testing",
     "author": "pankaj-kumar",
     "excerpt": "Turn your UI automation into a weaponized vulnerability scanner. Learn how to proxy your Selenium WebDriver traffic through OWASP ZAP to execute automated active security scans and generate HTML threat reports.",
-    "date": "21-Jun-2026",
+    "date": "21-Jun-2025",
     "readTime": "7 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15828,7 +15828,7 @@
     "slug": "selenium-java-auth-security-patterns-rate-limiting",
     "author": "pankaj-kumar",
     "excerpt": "Test your authentication defenses. Learn how to write Selenium Java tests that validate rate limiting, brute force protections, secure session invalidation, and simultaneous login constraints.",
-    "date": "23-Jun-2026",
+    "date": "23-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15867,7 +15867,7 @@
     "slug": "selenium-java-visual-regression-testing-ashot",
     "author": "pankaj-kumar",
     "excerpt": "Functional tests can't catch CSS rendering bugs. Learn what Visual Regression Testing is and how to write a pixel-to-pixel comparison test natively in Java using the open-source AShot library.",
-    "date": "25-Jun-2026",
+    "date": "25-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15906,7 +15906,7 @@
     "slug": "selenium-java-visual-testing-baseline-management",
     "author": "pankaj-kumar",
     "excerpt": "Stop your visual tests from failing due to dynamic content. Learn how to use coordinate masking, DOM manipulation, and Git branch versioning to stabilize your Selenium visual regression suites.",
-    "date": "27-Jun-2026",
+    "date": "27-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15945,7 +15945,7 @@
     "slug": "selenium-java-applitools-eyes-visual-ai-testing",
     "author": "pankaj-kumar",
     "excerpt": "Upgrade from pixel matching to Artificial Intelligence. Learn how to integrate the Applitools Eyes SDK into your Selenium Java framework to effortlessly validate dynamic layouts across the Ultrafast Grid.",
-    "date": "29-Jun-2026",
+    "date": "29-Jun-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -15985,7 +15985,7 @@
     "slug": "selenium-java-responsive-visual-testing-ultrafast-grid",
     "author": "pankaj-kumar",
     "excerpt": "Mobile screens require mobile layouts. Learn how to execute responsive visual tests by dynamically resizing the browser natively in Selenium, and how to scale execution using the Applitools Ultrafast Grid.",
-    "date": "01-Jul-2026",
+    "date": "01-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16025,7 +16025,7 @@
     "slug": "selenium-java-mobile-web-emulation-chrome-devtools",
     "author": "pankaj-kumar",
     "excerpt": "Resizing your browser isn't enough to test mobile sites. Learn how to configure ChromeOptions to leverage Chrome DevTools Mobile Emulation, spoofing User-Agents and physical device metrics natively in Selenium.",
-    "date": "03-Jul-2026",
+    "date": "03-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16064,7 +16064,7 @@
     "slug": "selenium-java-percy-visual-testing-browserstack",
     "author": "pankaj-kumar",
     "excerpt": "Integrate BrowserStack Percy into your Selenium framework. Learn how Percy captures DOM snapshots and renders them in the cloud for lightning-fast visual regressions and seamless GitHub PR review workflows.",
-    "date": "05-Jul-2026",
+    "date": "05-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16103,7 +16103,7 @@
     "slug": "selenium-java-accessibility-testing-a11y-introduction",
     "author": "pankaj-kumar",
     "excerpt": "What is web accessibility, and why must we automate it? Learn the basics of WCAG compliance and understand the architecture of injecting Axe-Core into Selenium to find UI violations.",
-    "date": "07-Jul-2026",
+    "date": "07-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16142,7 +16142,7 @@
     "slug": "selenium-java-axe-core-accessibility-testing-integration",
     "author": "pankaj-kumar",
     "excerpt": "Build your first automated accessibility test. Learn how to install the axe-selenium-java SDK, execute WCAG scans across your DOM, and parse the violation JSON reports to catch critical UI bugs.",
-    "date": "09-Jul-2026",
+    "date": "09-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16181,7 +16181,7 @@
     "slug": "selenium-java-aria-validation-accessibility-testing",
     "author": "pankaj-kumar",
     "excerpt": "Bad ARIA is worse than no ARIA. Learn how to catch invalid ARIA roles with Axe-Core, and write explicit Selenium assertions to validate dynamic aria-expanded state changes on interactive components.",
-    "date": "11-Jul-2026",
+    "date": "11-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16220,7 +16220,7 @@
     "slug": "selenium-java-color-contrast-accessibility-testing",
     "author": "pankaj-kumar",
     "excerpt": "Are your buttons readable? Learn the math behind WCAG 4.5:1 contrast ratios, and how to automate color contrast validation using Axe-Core and native Selenium CSS extractions.",
-    "date": "13-Jul-2026",
+    "date": "13-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16259,7 +16259,7 @@
     "slug": "selenium-java-keyboard-navigation-accessibility-testing",
     "author": "pankaj-kumar",
     "excerpt": "Build robust accessibility workflows. Learn how to simulate keyboard-only users by navigating via Keys.TAB, validating active element focus, and asserting the CSS visibility of focus rings.",
-    "date": "15-Jul-2026",
+    "date": "15-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16298,7 +16298,7 @@
     "slug": "selenium-java-accessibility-testing-reports-axe-extent",
     "author": "pankaj-kumar",
     "excerpt": "Translate raw Axe-Core JSON data into beautiful, executive-friendly HTML artifacts using ExtentReports. Build custom test loggers to categorize critical WCAG violations natively in your test runs.",
-    "date": "17-Jul-2026",
+    "date": "17-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16338,7 +16338,7 @@
     "slug": "selenium-java-axe-core-cli-tooling-accessibility",
     "author": "pankaj-kumar",
     "excerpt": "You don't always need Selenium for accessibility testing. Learn how to use the NodeJS @axe-core/cli to run lightning-fast headless WCAG scans from your terminal and export results to CSV.",
-    "date": "19-Jul-2026",
+    "date": "19-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16378,7 +16378,7 @@
     "slug": "selenium-java-enterprise-accessibility-strategy-zero-regression",
     "author": "pankaj-kumar",
     "excerpt": "Running Axe against a 10-year-old codebase will break your CI/CD pipeline. Learn how to implement a Zero-Regression baseline strategy, shift-left testing to developers, and secure executive buy-in for a11y.",
-    "date": "21-Jul-2026",
+    "date": "21-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16418,7 +16418,7 @@
     "slug": "selenium-java-database-testing-introduction-jdbc",
     "author": "pankaj-kumar",
     "excerpt": "UI assertions are not enough to prove an application works. Learn the architecture of full-stack End-to-End testing by integrating JDBC into your Selenium framework to validate backend database state.",
-    "date": "23-Jul-2026",
+    "date": "23-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16456,7 +16456,7 @@
     "slug": "selenium-java-mysql-database-testing-jdbc",
     "author": "pankaj-kumar",
     "excerpt": "Stop relying on UI success banners. Learn how to import the mysql-connector-j driver, build JDBC connection strings, and write robust try-with-resources blocks to explicitly validate MySQL database records.",
-    "date": "25-Jul-2026",
+    "date": "25-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16494,7 +16494,7 @@
     "slug": "selenium-java-postgresql-database-testing-jdbc-jsonb",
     "author": "pankaj-kumar",
     "excerpt": "Upgrade your database testing to Enterprise scale. Learn how to connect Selenium Java to PostgreSQL, navigate Postgres Schemas, and validate dynamic NoSQL-style JSONB columns using JDBC.",
-    "date": "27-Jul-2026",
+    "date": "27-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16533,7 +16533,7 @@
     "slug": "selenium-java-mongodb-nosql-database-testing-bson",
     "author": "pankaj-kumar",
     "excerpt": "Ditch JDBC and embrace Document architecture. Learn how to integrate the mongodb-driver-sync SDK to extract NoSQL BSON documents, navigate Collections, and assert nested JSON Arrays directly inside your Selenium Java tests.",
-    "date": "29-Jul-2026",
+    "date": "29-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16572,7 +16572,7 @@
     "slug": "selenium-java-graphql-api-database-testing-restassured",
     "author": "pankaj-kumar",
     "excerpt": "Direct database connections are often blocked by enterprise firewalls. Learn how to bypass the firewall by integrating RestAssured into Selenium Java to fire raw GraphQL queries and assert nested API responses.",
-    "date": "31-Jul-2026",
+    "date": "31-Jul-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16611,7 +16611,7 @@
     "slug": "selenium-java-kafka-event-streaming-validation-consumer",
     "author": "pankaj-kumar",
     "excerpt": "When data is streaming instead of resting, JDBC is useless. Learn how to import the kafka-clients SDK to build a dynamic Kafka Consumer inside your Selenium framework to assert asynchronous JSON payloads.",
-    "date": "02-Aug-2026",
+    "date": "02-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16650,7 +16650,7 @@
     "slug": "selenium-java-email-validation-imap-javamail",
     "author": "pankaj-kumar",
     "excerpt": "Stop automating the Gmail web UI. Learn how to integrate the JavaMail API into your Selenium framework to securely connect to IMAP servers, poll for asynchronous emails, and validate 2FA or Password Reset links natively.",
-    "date": "04-Aug-2026",
+    "date": "04-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16689,7 +16689,7 @@
     "slug": "selenium-java-pdf-validation-apache-pdfbox-downloads",
     "author": "pankaj-kumar",
     "excerpt": "A downloaded file is not a black box. Learn how to configure ChromeDriver to download files silently, and use Apache PDFBox to extract and assert textual data natively from binary PDF invoices.",
-    "date": "06-Aug-2026",
+    "date": "06-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16728,7 +16728,7 @@
     "slug": "selenium-java-excel-validation-apache-poi-downloads",
     "author": "pankaj-kumar",
     "excerpt": "Enterprise systems run on Excel. Learn how to use Apache POI to natively open downloaded .xlsx spreadsheets in memory, navigate Workbooks, and assert Row and Cell data directly from your tests.",
-    "date": "08-Aug-2026",
+    "date": "08-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16767,7 +16767,7 @@
     "slug": "selenium-java-enterprise-backend-file-validation-strategy",
     "author": "pankaj-kumar",
     "excerpt": "Do not write God Tests. Learn how to architect a scalable Enterprise Validation Strategy by modularizing your UI, Database, Kafka, and External File tests into distinct CI/CD execution tiers.",
-    "date": "10-Aug-2026",
+    "date": "10-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16806,7 +16806,7 @@
     "slug": "selenium-java-allure-reports-testng-integration",
     "author": "pankaj-kumar",
     "excerpt": "Stop reading console logs. Learn how to integrate the Allure Framework into your TestNG project to generate beautiful, executive-ready HTML dashboards that categorize your End-to-End test executions.",
-    "date": "12-Aug-2026",
+    "date": "12-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16845,7 +16845,7 @@
     "slug": "selenium-java-advanced-allure-reports-testng-listeners-screenshots",
     "author": "pankaj-kumar",
     "excerpt": "A red dashboard is useless without context. Learn how to implement TestNG ITestListeners to automatically capture Selenium screenshots and page sources the exact millisecond a test fails, and attach them directly to your Allure report.",
-    "date": "15-Aug-2026",
+    "date": "15-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16885,7 +16885,7 @@
     "slug": "selenium-java-extent-reports-single-page-dashboards",
     "author": "pankaj-kumar",
     "excerpt": "When you need an automated dashboard that you can attach to an email without command-line dependencies, Extent Reports is the answer. Learn how to build a Thread-Safe ExtentManager and custom TestNG Listener.",
-    "date": "18-Aug-2026",
+    "date": "18-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16924,7 +16924,7 @@
     "slug": "selenium-java-reporting-dashboard-metrics-kpis",
     "author": "pankaj-kumar",
     "excerpt": "Pass/Fail ratios are not enough for enterprise leaders. Learn how to transform your automation reports by tracking executive KPIs like Flakiness Rate, P95 Execution Speed, and Defect Yield.",
-    "date": "21-Aug-2026",
+    "date": "21-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -16964,7 +16964,7 @@
     "slug": "selenium-java-reporting-failure-analysis-stack-traces",
     "author": "pankaj-kumar",
     "excerpt": "Stop manually re-running failed tests. Master the art of Automated Failure Analysis by learning how to decode Stack Traces and categorize bugs into Environment, Product, and Framework failures.",
-    "date": "24-Aug-2026",
+    "date": "24-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17004,7 +17004,7 @@
     "slug": "selenium-java-reporting-flaky-test-detection-retry-analyzer",
     "author": "pankaj-kumar",
     "excerpt": "Flaky tests destroy developer trust. Learn how to implement a TestNG IRetryAnalyzer and IAnnotationTransformer to automatically retry sporadic failures and surface flaky test debt directly in your Allure dashboard.",
-    "date": "27-Aug-2026",
+    "date": "27-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17044,7 +17044,7 @@
     "slug": "selenium-java-reporting-analytics-reportportal-integration",
     "author": "pankaj-kumar",
     "excerpt": "Static HTML reports are not enough for long-term automation ROI. Learn how to persist your TestNG results into centralized AI-powered databases like ReportPortal.io to track execution trends and auto-triage stack traces.",
-    "date": "30-Aug-2026",
+    "date": "30-Aug-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17084,7 +17084,7 @@
     "slug": "selenium-java-reporting-custom-ireporter-testng",
     "author": "pankaj-kumar",
     "excerpt": "When third-party tools are banned, you have to build it yourself. Learn how to implement the TestNG IReporter interface to intercept post-execution data and generate custom JSON, XML, or HTML reports from scratch.",
-    "date": "02-Sep-2026",
+    "date": "02-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17124,7 +17124,7 @@
     "slug": "selenium-java-monitoring-integrations-slack-datadog",
     "author": "pankaj-kumar",
     "excerpt": "A test failure in a vacuum is useless. Learn how to implement real-time TestNG monitoring by sending automated Slack Webhook alerts for P1 bugs and pushing execution metrics directly into Datadog.",
-    "date": "05-Sep-2026",
+    "date": "05-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17164,7 +17164,7 @@
     "slug": "selenium-java-log-aggregation-splunk-elk-correlation-id",
     "author": "pankaj-kumar",
     "excerpt": "Stop blaming Selenium for backend bugs. Learn how to use the Selenium 4 Network Interceptor to inject UUID Correlation IDs into browser headers, allowing you to trace UI failures directly to backend microservice logs in Splunk or ELK.",
-    "date": "08-Sep-2026",
+    "date": "08-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17204,7 +17204,7 @@
     "slug": "selenium-java-cloud-observability-strategy-synthetic-monitoring",
     "author": "pankaj-kumar",
     "excerpt": "Modern cloud architectures are too complex to perfectly test in Staging. Learn how elite SDETs are shifting from traditional testing to a holistic Observability strategy using Synthetic Production Monitoring and Chaos Engineering.",
-    "date": "11-Sep-2026",
+    "date": "11-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17244,7 +17244,7 @@
     "slug": "selenium-java-reporting-architecture-triage-analytics",
     "author": "pankaj-kumar",
     "excerpt": "Stop treating Reporting as a single HTML file. Learn how to architect a 3-tier Enterprise QA Pipeline that separates Immediate Triage (Slack), Execution Analysis (Allure), and Executive Analytics (ReportPortal).",
-    "date": "14-Sep-2026",
+    "date": "14-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17284,7 +17284,7 @@
     "slug": "selenium-java-docker-grid-remote-webdriver-compose",
     "author": "pankaj-kumar",
     "excerpt": "Solve the 'It works on my machine' problem forever. Learn how to abandon local ChromeDrivers and spin up isolated, highly scalable Selenium Grids using Docker Compose and RemoteWebDriver.",
-    "date": "17-Sep-2026",
+    "date": "17-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17324,7 +17324,7 @@
     "slug": "selenium-java-github-actions-ci-cd-pipeline-yaml",
     "author": "pankaj-kumar",
     "excerpt": "Stop running tests manually. Learn how to write GitHub Actions YAML pipelines that automatically provision Ubuntu VMs, spin up Docker Selenium Grids, and execute Maven suites on every code push.",
-    "date": "20-Sep-2026",
+    "date": "20-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17364,7 +17364,7 @@
     "slug": "selenium-java-gitlab-ci-azure-devops-yaml-pipelines",
     "author": "pankaj-kumar",
     "excerpt": "A Senior SDET isn't tied to a single tool. Learn how to translate the core concepts of Continuous Integration into GitLab CI docker-in-docker syntax and Azure DevOps Pipeline tasks.",
-    "date": "23-Sep-2026",
+    "date": "23-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17405,7 +17405,7 @@
     "slug": "selenium-java-aws-device-farm-appium-real-devices",
     "author": "pankaj-kumar",
     "excerpt": "You can't run an iPhone inside a Docker container. Learn how to securely authenticate with the AWS SDK and route your RemoteWebDriver commands directly to physical mobile devices sitting in an Amazon data center.",
-    "date": "26-Sep-2026",
+    "date": "26-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17445,7 +17445,7 @@
     "slug": "selenium-java-kubernetes-k8s-grid-scaling-keda",
     "author": "pankaj-kumar",
     "excerpt": "Docker Compose maxes out your CPU. Learn how to deploy Selenium Grids to a Kubernetes cluster, write Deployment Manifests, and use KEDA for infinite, zero-cost auto-scaling.",
-    "date": "29-Sep-2026",
+    "date": "29-Sep-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17486,7 +17486,7 @@
     "slug": "selenium-java-browserstack-cloud-grid-integration",
     "author": "pankaj-kumar",
     "excerpt": "Stop maintaining your own servers. Learn how to route your TestNG suite to BrowserStack's massive cloud grid, and use their Javascript Executor API to dynamically mark tests as Passed or Failed in their dashboard.",
-    "date": "02-Oct-2026",
+    "date": "02-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17525,7 +17525,7 @@
     "slug": "selenium-java-sauce-labs-cloud-grid-extended-debugging",
     "author": "pankaj-kumar",
     "excerpt": "Switch cloud providers seamlessly. Learn how to route your W3C RemoteWebDriver commands to Sauce Labs, utilizing their extended debugging features to automatically capture Network HAR files and video recordings.",
-    "date": "05-Oct-2026",
+    "date": "05-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17565,7 +17565,7 @@
     "slug": "selenium-java-lambdatest-hyperexecute-cloud-grid",
     "author": "pankaj-kumar",
     "excerpt": "Overcome the network latency of traditional cloud grids. Learn how to route your tests to LambdaTest, and explore their revolutionary HyperExecute architecture that runs Java code directly alongside the browser.",
-    "date": "08-Oct-2026",
+    "date": "08-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17605,7 +17605,7 @@
     "slug": "selenium-java-ai-test-generation-llm-chatgpt-prompts",
     "author": "pankaj-kumar",
     "excerpt": "Welcome to Phase 15. Learn how to use Prompt Engineering and Large Language Models (LLMs) to automatically generate perfect Page Object classes and TestNG scripts in seconds.",
-    "date": "12-Oct-2026",
+    "date": "12-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17645,7 +17645,7 @@
     "slug": "selenium-java-ai-locator-auto-healing-gpt4",
     "author": "pankaj-kumar",
     "excerpt": "Stop spending hours fixing broken locators. Learn how to wrap driver.findElement() in a custom utility that automatically sends broken XPath and live HTML to an LLM to self-heal your test suite in real-time.",
-    "date": "15-Oct-2026",
+    "date": "15-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17685,7 +17685,7 @@
     "slug": "selenium-java-mcp-model-context-protocol-jira",
     "author": "pankaj-kumar",
     "excerpt": "Decouple your AI from your tools. Learn how to implement a lightweight Model Context Protocol (MCP) client in Java to give your Selenium framework autonomous access to external plugins like Jira and GitHub.",
-    "date": "19-Oct-2026",
+    "date": "19-Oct-2025",
     "readTime": "7 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17725,7 +17725,7 @@
     "slug": "selenium-java-autonomous-ai-testing-agents-llm",
     "author": "pankaj-kumar",
     "excerpt": "Stop writing deterministic test scripts. Learn how to place an LLM inside a Java while loop, creating an Autonomous Agent that can independently navigate unknown web applications to achieve a specified goal.",
-    "date": "22-Oct-2026",
+    "date": "22-Oct-2025",
     "readTime": "7 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17765,7 +17765,7 @@
     "slug": "selenium-java-future-of-test-automation-sdet-ai",
     "author": "pankaj-kumar",
     "excerpt": "Is the SDET role dead? No, it's evolving. Explore the death of the 'Script Writer', the rise of the 'Framework Architect', and exactly what you need to learn to survive the AI revolution in Quality Assurance.",
-    "date": "26-Oct-2026",
+    "date": "26-Oct-2025",
     "readTime": "6 min read",
     "category": "Selenium Java",
     "categories": [
@@ -17805,7 +17805,7 @@
     "slug": "selenium-java-langchain4j-ai-agents-llm-tools",
     "author": "pankaj-kumar",
     "excerpt": "The 50th and final tutorial. Learn how to replace fragile HTTP API calls with LangChain4j, the premier AI library for Java, and use the @Tool annotation to give your Autonomous Agents direct access to your Selenium WebDriver methods.",
-    "date": "30-Oct-2026",
+    "date": "30-Oct-2025",
     "readTime": "8 min read",
     "category": "Selenium Java",
     "categories": [
