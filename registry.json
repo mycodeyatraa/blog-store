@@ -17798,5 +17798,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-ai-6",
+    "title": "The Grand Finale: Building AI Frameworks with LangChain4j",
+    "slug": "selenium-java-langchain4j-ai-agents-llm-tools",
+    "author": "pankaj-kumar",
+    "excerpt": "The 50th and final tutorial. Learn how to replace fragile HTTP API calls with LangChain4j, the premier AI library for Java, and use the @Tool annotation to give your Autonomous Agents direct access to your Selenium WebDriver methods.",
+    "date": "30-Oct-2026",
+    "readTime": "8 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "AI in Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "ai",
+      "langchain4j",
+      "llm",
+      "tools",
+      "agents",
+      "framework"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-langchain4j-ai-agents-llm-tools.md",
+    "series": "selenium-java-ai-automation",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
