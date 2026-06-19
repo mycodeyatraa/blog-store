@@ -1,7 +1,7 @@
 ---
 title: Seeing Clearly: Automating Color Contrast Testing in Selenium
-date: 13-Jul-2026
-lastUpdated: 13-Jul-2026
+date: 13-Jul-2025
+lastUpdated: 13-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
