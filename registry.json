@@ -16721,5 +16721,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-validation-3",
+    "title": "Spreadsheets as Code: Parsing and Asserting Excel Files with Apache POI",
+    "slug": "selenium-java-excel-validation-apache-poi-downloads",
+    "author": "pankaj-kumar",
+    "excerpt": "Enterprise systems run on Excel. Learn how to use Apache POI to natively open downloaded .xlsx spreadsheets in memory, navigate Workbooks, and assert Row and Cell data directly from your tests.",
+    "date": "08-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "excel-validation",
+      "apache-poi",
+      "file-downloads",
+      "test-automation",
+      "backend-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-excel-validation-apache-poi-downloads.md",
+    "series": "selenium-java-enterprise-validation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
