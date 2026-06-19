@@ -14220,5 +14220,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-3",
+    "title": "The King of Open Source: PostgreSQL Testing",
+    "slug": "postgresql-testing-jsonb-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Master enterprise data validation with PostgreSQL. Learn how to implement connection pooling, build DAOs, and assert complex JSONB payloads directly from your Selenium TypeScript tests.",
+    "date": "19-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "postgresql",
+      "jsonb",
+      "database-testing",
+      "enterprise-validation",
+      "sql"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/postgresql-testing-jsonb-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
