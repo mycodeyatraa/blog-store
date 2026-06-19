@@ -15742,5 +15742,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-security-3",
+    "title": "Cryptographic Assertions: JWT Token Validation in Selenium Java",
+    "slug": "selenium-java-jwt-token-validation-security",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop developers from accidentally exposing passwords in plain text. Learn how to extract JSON Web Tokens (JWT) from Local Storage via Selenium WebStorage and decode their cryptographic claims using Java jjwt.",
+    "date": "19-Jun-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Security"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "devsecops",
+      "jwt",
+      "token-validation",
+      "security",
+      "local-storage",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-jwt-token-validation-security.md",
+    "series": "selenium-java-security-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
