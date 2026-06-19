@@ -17638,5 +17638,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-ai-2",
+    "title": "The Holy Grail of Maintenance: AI Locator Auto-Healing in Selenium",
+    "slug": "selenium-java-ai-locator-auto-healing-gpt4",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop spending hours fixing broken locators. Learn how to wrap driver.findElement() in a custom utility that automatically sends broken XPath and live HTML to an LLM to self-heal your test suite in real-time.",
+    "date": "15-Oct-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "AI in Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "ai",
+      "auto-healing",
+      "locators",
+      "chatgpt",
+      "llm",
+      "maintenance"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-ai-locator-auto-healing-gpt4.md",
+    "series": "selenium-java-ai-automation",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
