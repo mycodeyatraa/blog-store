@@ -901,7 +901,8 @@
     "description": "Take your tests off your laptop. Master Docker Grids, GitHub Actions, Jenkins, and Azure DevOps for true Enterprise CI/CD.",
     "articleIds": [
       "blog-selenium-java-cicd-5",
-      "blog-selenium-java-cicd-6"
+      "blog-selenium-java-cicd-6",
+      "blog-selenium-java-cicd-7"
     ]
   }
 ]
