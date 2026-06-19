@@ -14805,5 +14805,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-bdd-6",
+    "title": "Mastering the Lifecycle: Hooks in pytest-bdd",
+    "slug": "pytest-bdd-hooks-lifecycle-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop duplicating setup code. Learn how to use pytest_bdd_before_scenario and pytest_bdd_step_error to automatically manage browser sessions and capture failure screenshots.",
+    "date": "08-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Behavior Driven Development"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "hooks",
+      "teardown",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-hooks-lifecycle-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
