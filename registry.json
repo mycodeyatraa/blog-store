@@ -14533,5 +14533,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-accessibility-2",
+    "title": "Automating Accessibility with Axe-Core in Selenium Python",
+    "slug": "axe-core-accessibility-integration-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop manually checking for missing alt tags. Learn how to integrate the Axe-Core engine into your Selenium Python framework to instantly scan and assert WCAG accessibility violations.",
+    "date": "15-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "axe-core",
+      "wcag",
+      "pytest",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axe-core-accessibility-integration-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
