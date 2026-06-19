@@ -804,5 +804,13 @@
       "blog-selenium-python-obs-3",
       "blog-selenium-python-obs-4"
     ]
+  },
+  {
+    "id": "selenium-java-security-testing",
+    "title": "Selenium Java Security Testing",
+    "description": "Learn how to detect security vulnerabilities, validate headers, and intercept network traffic using Selenium Java.",
+    "articleIds": [
+      "blog-selenium-java-security-1"
+    ]
   }
 ]
