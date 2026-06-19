@@ -14727,5 +14727,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-accessibility-7",
+    "title": "The Master Plan: Enterprise Accessibility Strategy in QA",
+    "slug": "enterprise-accessibility-strategy-vpat-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "The capstone of Phase 9. Learn how to implement the Accessibility Maturity Model, manage legacy violations with baselines, and understand the importance of VPATs in Enterprise B2B software.",
+    "date": "01-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "strategy",
+      "vpat",
+      "enterprise",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-accessibility-strategy-vpat-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
