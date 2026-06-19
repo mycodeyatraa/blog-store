@@ -1,7 +1,7 @@
 ---
 title: Automated Penetration Testing: Integrating OWASP ZAP with Selenium Java
-date: 21-Jun-2026
-lastUpdated: 21-Jun-2026
+date: 21-Jun-2025
+lastUpdated: 21-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
