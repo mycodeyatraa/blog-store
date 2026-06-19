@@ -16331,5 +16331,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-a11y-7",
+    "title": "Breaking out of Java: Scaling Scans with the @axe-core/cli Tooling",
+    "slug": "selenium-java-axe-core-cli-tooling-accessibility",
+    "author": "pankaj-kumar",
+    "excerpt": "You don't always need Selenium for accessibility testing. Learn how to use the NodeJS @axe-core/cli to run lightning-fast headless WCAG scans from your terminal and export results to CSV.",
+    "date": "19-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Accessibility Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "axe-core",
+      "nodejs",
+      "cli",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-axe-core-cli-tooling-accessibility.md",
+    "series": "selenium-java-accessibility-testing",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
