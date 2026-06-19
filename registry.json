@@ -15625,5 +15625,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ai-3",
+    "title": "The End of the Beginning: The Future of Test Automation",
+    "slug": "selenium-python-future-of-test-automation-observability-ai",
+    "author": "pankaj-kumar",
+    "excerpt": "You have mastered Selenium Python. Now what? Explore the paradigm shifts coming to the QA industry, including the death of manual testing, the rise of Observability Engineering, and Generative AI test data.",
+    "date": "20-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "AI & Autonomous Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "future",
+      "observability",
+      "generative-ai",
+      "test-automation",
+      "career"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-future-of-test-automation-observability-ai.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
