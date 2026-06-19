@@ -1,7 +1,7 @@
 ---
 title: Making the Invisible Visible: Generating Accessibility Reports with Axe and ExtentReports
-date: 17-Jul-2026
-lastUpdated: 17-Jul-2026
+date: 17-Jul-2025
+lastUpdated: 17-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
