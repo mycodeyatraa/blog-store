@@ -14688,5 +14688,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-accessibility-6",
+    "title": "Shifting Left: Accessibility CLI Tooling in Python",
+    "slug": "axe-accessibility-cli-tooling-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Why wait for E2E tests to fail? Shift accessibility testing left by integrating the Axe CLI directly into your Python pre-commit hooks and local DevOps pipelines.",
+    "date": "26-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "cli",
+      "devops",
+      "shift-left",
+      "pre-commit"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/axe-accessibility-cli-tooling-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
