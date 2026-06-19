@@ -14298,5 +14298,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-5",
+    "title": "Bypassing the REST: GraphQL Testing",
+    "slug": "graphql-api-testing-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Overcome the limitations of REST. Learn how to write GraphQL Queries and Mutations using Axios, instantly setup test data, and assert backend logic directly in your Selenium TypeScript framework.",
+    "date": "21-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "graphql",
+      "api-testing",
+      "enterprise-validation",
+      "axios",
+      "backend"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/graphql-api-testing-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
