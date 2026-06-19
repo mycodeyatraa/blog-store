@@ -16411,5 +16411,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-db-1",
+    "title": "Beyond the UI: An Introduction to Database Validation in Selenium",
+    "slug": "selenium-java-database-testing-introduction-jdbc",
+    "author": "pankaj-kumar",
+    "excerpt": "UI assertions are not enough to prove an application works. Learn the architecture of full-stack End-to-End testing by integrating JDBC into your Selenium framework to validate backend database state.",
+    "date": "23-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Database Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "database-testing",
+      "jdbc",
+      "e2e",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-database-testing-introduction-jdbc.md",
+    "series": "selenium-java-database-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
