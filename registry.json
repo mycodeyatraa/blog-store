@@ -17037,5 +17037,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-reporting-7",
+    "title": "Proving Your Worth: Mastering Test Analytics and Trend Tracking",
+    "slug": "selenium-java-reporting-analytics-reportportal-integration",
+    "author": "pankaj-kumar",
+    "excerpt": "Static HTML reports are not enough for long-term automation ROI. Learn how to persist your TestNG results into centralized AI-powered databases like ReportPortal.io to track execution trends and auto-triage stack traces.",
+    "date": "30-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Reporting & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "reporting",
+      "reportportal",
+      "analytics",
+      "trends",
+      "machine-learning",
+      "testng"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-reporting-analytics-reportportal-integration.md",
+    "series": "selenium-java-reporting-analytics",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
