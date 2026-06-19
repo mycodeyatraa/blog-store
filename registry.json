@@ -15078,5 +15078,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ent-1",
+    "title": "Automating the Inbox: Email Validation in Selenium Python",
+    "slug": "selenium-python-email-validation-imap-otp",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop trying to automate Gmail with Selenium. Learn how to use Python's imaplib to securely fetch emails, parse body text, and extract 2FA OTP codes entirely in the background.",
+    "date": "22-Mar-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "email-validation",
+      "imap",
+      "otp",
+      "2fa",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-email-validation-imap-otp.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
