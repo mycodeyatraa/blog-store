@@ -863,7 +863,8 @@
     "title": "Selenium Java Enterprise File & Event Validation",
     "description": "Go beyond the browser. Learn how to automate Email inboxes, parse PDF documents, and validate Excel files directly within your Selenium framework.",
     "articleIds": [
-      "blog-selenium-java-validation-1"
+      "blog-selenium-java-validation-1",
+      "blog-selenium-java-validation-2"
     ]
   }
 ]
