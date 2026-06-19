@@ -15233,5 +15233,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-analytics-1",
+    "title": "Debugging at Scale: Failure Analysis in Selenium Python",
+    "slug": "selenium-python-automated-failure-analysis-pytest-hooks",
+    "author": "pankaj-kumar",
+    "excerpt": "When 150 tests fail overnight, you can't read 150 stack traces manually. Learn how to use pytest hooks to automatically categorize timeouts, broken locators, and genuine bugs into an intelligent triage report.",
+    "date": "30-Mar-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Failure Analysis & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "failure-analysis",
+      "triage",
+      "pytest",
+      "hooks",
+      "test-automation",
+      "debugging"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-automated-failure-analysis-pytest-hooks.md",
+    "series": "selenium-python-analytics-reporting",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
