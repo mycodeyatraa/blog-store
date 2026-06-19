@@ -15547,5 +15547,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ai-1",
+    "title": "Beyond Scripting: The Rise of Autonomous Test Agents",
+    "slug": "selenium-python-autonomous-test-agents-ai-llm",
+    "author": "pankaj-kumar",
+    "excerpt": "The future of automation is here. Learn the difference between self-healing tests and true Autonomous Test Agents, and explore how LLMs are replacing hardcoded XPath selectors with semantic reasoning loops.",
+    "date": "16-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "AI & Autonomous Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "ai",
+      "llm",
+      "autonomous-agents",
+      "future",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-autonomous-test-agents-ai-llm.md",
+    "series": "selenium-python-ai-automation",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
