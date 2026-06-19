@@ -17317,5 +17317,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-cicd-6",
+    "title": "Automating the Automation: Building a CI Pipeline with GitHub Actions",
+    "slug": "selenium-java-github-actions-ci-cd-pipeline-yaml",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop running tests manually. Learn how to write GitHub Actions YAML pipelines that automatically provision Ubuntu VMs, spin up Docker Selenium Grids, and execute Maven suites on every code push.",
+    "date": "20-Sep-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Cloud & CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "github-actions",
+      "cicd",
+      "pipeline",
+      "yaml",
+      "devops",
+      "docker"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-github-actions-ci-cd-pipeline-yaml.md",
+    "series": "selenium-java-execution-cicd-pipelines",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
