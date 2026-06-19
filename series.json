@@ -844,5 +844,13 @@
       "blog-selenium-java-a11y-7",
       "blog-selenium-java-a11y-8"
     ]
+  },
+  {
+    "id": "selenium-java-database-testing",
+    "title": "Selenium Java Database Testing",
+    "description": "Go beyond the UI. Connect Selenium Java directly to SQL and NoSQL databases to assert backend system state.",
+    "articleIds": [
+      "blog-selenium-java-db-1"
+    ]
   }
 ]
