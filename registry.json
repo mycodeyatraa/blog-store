@@ -14063,5 +14063,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase15-5",
+    "title": "Enterprise Orchestration: LangChain.js & Vercel AI SDK",
+    "slug": "langchain-vercel-ai-sdk-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Upgrade your Autonomous Agents to production-grade. Compare the architectural differences between LangChain.js and the Vercel AI SDK, and learn how to implement robust Tool Calling for your testing framework.",
+    "date": "19-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "AI in Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ai",
+      "langchain",
+      "vercel-ai-sdk",
+      "tool-calling",
+      "agents"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/langchain-vercel-ai-sdk-selenium-typescript.md",
+    "series": "selenium-ts-ai",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
