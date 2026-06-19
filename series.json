@@ -721,7 +721,8 @@
     "title": "TypeScript QA DevOps & Cloud Execution",
     "description": "Master the CI/CD execution layer. Package tests in Docker, orchestrate workflows in GitHub Actions and CircleCI, and execute massive parallel runs on BrowserStack and SauceLabs.",
     "articleIds": [
-      "blog-selenium-ts-phase14-1"
+      "blog-selenium-ts-phase14-1",
+      "blog-selenium-ts-phase14-2"
     ]
   }
 ]
