@@ -1,7 +1,7 @@
 ---
 title: Beyond Functional: An Introduction to Visual Regression Testing
-date: 25-Jun-2026
-lastUpdated: 25-Jun-2026
+date: 25-Jun-2025
+lastUpdated: 25-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
