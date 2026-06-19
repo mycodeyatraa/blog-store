@@ -816,5 +816,13 @@
       "blog-selenium-java-security-4",
       "blog-selenium-java-security-5"
     ]
+  },
+  {
+    "id": "selenium-java-visual-testing",
+    "title": "Selenium Java Visual Testing",
+    "description": "Learn how to detect CSS rendering bugs and perform pixel-perfect AI image comparisons in Java.",
+    "articleIds": [
+      "blog-selenium-java-visual-1"
+    ]
   }
 ]
