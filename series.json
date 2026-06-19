@@ -835,7 +835,8 @@
     "title": "Selenium Java Accessibility Testing",
     "description": "Ensure ADA and WCAG compliance by injecting Axe-Core into your Selenium automation to detect UI violations.",
     "articleIds": [
-      "blog-selenium-java-a11y-1"
+      "blog-selenium-java-a11y-1",
+      "blog-selenium-java-a11y-2"
     ]
   }
 ]
