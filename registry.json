@@ -15000,5 +15000,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-bdd-11",
+    "title": "Filtering Execution: Using Tags in pytest-bdd",
+    "slug": "pytest-bdd-tags-markers-filtering-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Don't run your entire 2,000 test suite for a minor bug fix. Learn how to use Gherkin tags and pytest markers to strategically execute specific smoke and regression suites.",
+    "date": "18-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Behavior Driven Development"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "tags",
+      "markers",
+      "test-execution"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-tags-markers-filtering-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
