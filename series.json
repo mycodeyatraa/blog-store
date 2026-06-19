@@ -894,5 +894,13 @@
       "blog-selenium-java-cicd-3",
       "blog-selenium-java-cicd-4"
     ]
+  },
+  {
+    "id": "selenium-java-execution-cicd-pipelines",
+    "title": "Selenium Java Execution & CI/CD Pipelines",
+    "description": "Take your tests off your laptop. Master Docker Grids, GitHub Actions, Jenkins, and Azure DevOps for true Enterprise CI/CD.",
+    "articleIds": [
+      "blog-selenium-java-cicd-5"
+    ]
   }
 ]
