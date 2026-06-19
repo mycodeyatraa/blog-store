@@ -15821,5 +15821,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-security-5",
+    "title": "Defending the Gates: Advanced Auth Security Patterns in Selenium",
+    "slug": "selenium-java-auth-security-patterns-rate-limiting",
+    "author": "pankaj-kumar",
+    "excerpt": "Test your authentication defenses. Learn how to write Selenium Java tests that validate rate limiting, brute force protections, secure session invalidation, and simultaneous login constraints.",
+    "date": "23-Jun-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Security"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "devsecops",
+      "authentication",
+      "security",
+      "rate-limiting",
+      "session-management"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-auth-security-patterns-rate-limiting.md",
+    "series": "selenium-java-security-testing",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
