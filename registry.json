@@ -15194,5 +15194,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ent-4",
+    "title": "The Hybrid Approach: Enterprise Validation Strategy",
+    "slug": "selenium-python-hybrid-enterprise-validation-strategy",
+    "author": "pankaj-kumar",
+    "excerpt": "When should you use Selenium, and when should you bypass it entirely? The capstone of Phase 11 explains the Hybrid Automation approach: combining UI testing, API state injection, and Database assertions.",
+    "date": "28-Mar-2025",
+    "readTime": "6 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "hybrid-testing",
+      "api-testing",
+      "database-testing",
+      "test-automation",
+      "strategy"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-hybrid-enterprise-validation-strategy.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
