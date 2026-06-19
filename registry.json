@@ -17518,5 +17518,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-cicd-11",
+    "title": "The Original Cloud Grid: Executing Tests with Sauce Labs",
+    "slug": "selenium-java-sauce-labs-cloud-grid-extended-debugging",
+    "author": "pankaj-kumar",
+    "excerpt": "Switch cloud providers seamlessly. Learn how to route your W3C RemoteWebDriver commands to Sauce Labs, utilizing their extended debugging features to automatically capture Network HAR files and video recordings.",
+    "date": "05-Oct-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Cloud & CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "sauce-labs",
+      "cloud",
+      "remote-webdriver",
+      "grid",
+      "managed-infrastructure",
+      "debugging"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-sauce-labs-cloud-grid-extended-debugging.md",
+    "series": "selenium-java-execution-cicd-pipelines",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
