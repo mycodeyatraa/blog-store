@@ -16291,5 +16291,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-a11y-6",
+    "title": "Making the Invisible Visible: Generating Accessibility Reports with Axe and ExtentReports",
+    "slug": "selenium-java-accessibility-testing-reports-axe-extent",
+    "author": "pankaj-kumar",
+    "excerpt": "Translate raw Axe-Core JSON data into beautiful, executive-friendly HTML artifacts using ExtentReports. Build custom test loggers to categorize critical WCAG violations natively in your test runs.",
+    "date": "17-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Accessibility Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "extent-reports",
+      "axe-core",
+      "test-automation",
+      "reporting"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-accessibility-testing-reports-axe-extent.md",
+    "series": "selenium-java-accessibility-testing",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
