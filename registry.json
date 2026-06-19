@@ -12781,16 +12781,16 @@
   },
   {
     "id": "blog-selenium-ts-phase11-1",
-    "title": "Leaving the Localhost: Introduction to GitHub Actions",
-    "slug": "github-actions-basics-ci-cd-selenium-typescript",
+    "title": "Beyond the DOM: Enterprise Database Testing",
+    "slug": "database-testing-selenium-typescript-orm",
     "author": "pankaj-kumar",
-    "excerpt": "Take your test automation off your local machine and into the cloud by building your first Continuous Integration pipeline using GitHub Actions YAML workflows.",
+    "excerpt": "Stop trusting the UI. Learn why Enterprise Validation requires diving into the data layer, and understand how TypeScript ORMs like TypeORM and Prisma can bridge the gap between your Selenium framework and your backend.",
     "date": "17-Jan-2025",
     "readTime": "4 min read",
     "category": "Selenium TypeScript",
     "categories": [
       "Selenium TypeScript",
-      "CI/CD"
+      "Enterprise Validation"
     ],
     "image": "",
     "likes": 0,
@@ -12799,13 +12799,14 @@
     "tags": [
       "typescript",
       "selenium",
-      "ci-cd",
-      "github-actions",
-      "automation",
-      "devops"
+      "database-testing",
+      "typeorm",
+      "prisma",
+      "enterprise-validation",
+      "backend"
     ],
-    "contentPath": "users/pankaj-kumar/posts/github-actions-basics-ci-cd-selenium-typescript.md",
-    "series": "selenium-ts-ci-cd",
+    "contentPath": "users/pankaj-kumar/posts/database-testing-selenium-typescript-orm.md",
+    "series": "selenium-ts-enterprise-validation",
     "seriesOrder": 1,
     "authorDetails": {
       "id": "pankaj-kumar",
