@@ -16917,5 +16917,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-reporting-4",
+    "title": "Measuring What Matters: Defining Automation Dashboard Metrics",
+    "slug": "selenium-java-reporting-dashboard-metrics-kpis",
+    "author": "pankaj-kumar",
+    "excerpt": "Pass/Fail ratios are not enough for enterprise leaders. Learn how to transform your automation reports by tracking executive KPIs like Flakiness Rate, P95 Execution Speed, and Defect Yield.",
+    "date": "21-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Reporting & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "reporting",
+      "metrics",
+      "kpis",
+      "test-automation",
+      "analytics",
+      "strategy"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-reporting-dashboard-metrics-kpis.md",
+    "series": "selenium-java-reporting-analytics",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
