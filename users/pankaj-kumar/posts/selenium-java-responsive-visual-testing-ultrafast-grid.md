@@ -1,7 +1,7 @@
 ---
 title: Breaking the Grid: Responsive Visual Testing in Selenium Java
-date: 01-Jul-2026
-lastUpdated: 01-Jul-2026
+date: 01-Jul-2025
+lastUpdated: 01-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
