@@ -868,5 +868,13 @@
       "blog-selenium-java-validation-3",
       "blog-selenium-java-validation-4"
     ]
+  },
+  {
+    "id": "selenium-java-reporting-analytics",
+    "title": "Selenium Java Reporting & Analytics",
+    "description": "Transform unreadable console logs into executive-ready dashboards. Master Allure, Extent Reports, and automated failure analysis.",
+    "articleIds": [
+      "blog-selenium-java-reporting-1"
+    ]
   }
 ]
