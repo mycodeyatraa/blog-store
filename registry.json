@@ -15978,5 +15978,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-visual-4",
+    "title": "Breaking the Grid: Responsive Visual Testing in Selenium Java",
+    "slug": "selenium-java-responsive-visual-testing-ultrafast-grid",
+    "author": "pankaj-kumar",
+    "excerpt": "Mobile screens require mobile layouts. Learn how to execute responsive visual tests by dynamically resizing the browser natively in Selenium, and how to scale execution using the Applitools Ultrafast Grid.",
+    "date": "01-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "visual-testing",
+      "responsive",
+      "applitools",
+      "grid",
+      "mobile",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-responsive-visual-testing-ultrafast-grid.md",
+    "series": "selenium-java-visual-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
