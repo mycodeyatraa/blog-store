@@ -1,7 +1,7 @@
 ---
 title: Beating the Flakiness: Mastering Baseline Management in Visual Tests
-date: 27-Jun-2026
-lastUpdated: 27-Jun-2026
+date: 27-Jun-2025
+lastUpdated: 27-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
