@@ -16838,5 +16838,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-reporting-2",
+    "title": "Capturing Failure: Advanced Allure Integrations in Selenium",
+    "slug": "selenium-java-advanced-allure-reports-testng-listeners-screenshots",
+    "author": "pankaj-kumar",
+    "excerpt": "A red dashboard is useless without context. Learn how to implement TestNG ITestListeners to automatically capture Selenium screenshots and page sources the exact millisecond a test fails, and attach them directly to your Allure report.",
+    "date": "15-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Reporting & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "allure",
+      "testng",
+      "listeners",
+      "screenshots",
+      "reporting",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-advanced-allure-reports-testng-listeners-screenshots.md",
+    "series": "selenium-java-reporting-analytics",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
