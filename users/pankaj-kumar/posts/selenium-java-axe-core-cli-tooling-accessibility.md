@@ -1,7 +1,7 @@
 ---
 title: Breaking out of Java: Scaling Scans with the @axe-core/cli Tooling
-date: 19-Jul-2026
-lastUpdated: 19-Jul-2026
+date: 19-Jul-2025
+lastUpdated: 19-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
