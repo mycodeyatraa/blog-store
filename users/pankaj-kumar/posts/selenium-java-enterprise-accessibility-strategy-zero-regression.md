@@ -1,7 +1,7 @@
 ---
 title: Beyond the Code: Building an Enterprise Accessibility Strategy
-date: 21-Jul-2026
-lastUpdated: 21-Jul-2026
+date: 21-Jul-2025
+lastUpdated: 21-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
