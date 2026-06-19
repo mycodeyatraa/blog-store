@@ -13907,5 +13907,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase15-1",
+    "title": "The Prompt Engineer: AI Test Generation",
+    "slug": "ai-test-generation-llms-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Enter the era of Prompt Engineering. Learn how to leverage Large Language Models (LLMs) to automatically generate Gherkin feature files and TypeScript step definitions directly from Jira tickets.",
+    "date": "15-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "AI in Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ai",
+      "llms",
+      "gpt",
+      "prompt-engineering",
+      "cucumber"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-test-generation-llms-selenium-typescript.md",
+    "series": "selenium-ts-ai",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
