@@ -16526,5 +16526,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-db-4",
+    "title": "Breaking the Relational Rules: NoSQL MongoDB Validation in Selenium",
+    "slug": "selenium-java-mongodb-nosql-database-testing-bson",
+    "author": "pankaj-kumar",
+    "excerpt": "Ditch JDBC and embrace Document architecture. Learn how to integrate the mongodb-driver-sync SDK to extract NoSQL BSON documents, navigate Collections, and assert nested JSON Arrays directly inside your Selenium Java tests.",
+    "date": "29-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Database Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "database-testing",
+      "mongodb",
+      "nosql",
+      "bson",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-mongodb-nosql-database-testing-bson.md",
+    "series": "selenium-java-database-testing",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
