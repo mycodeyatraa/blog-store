@@ -14169,7 +14169,7 @@
       "testing"
     ],
     "contentPath": "users/pankaj-kumar/posts/bdd-scenario-outlines-selenium-typescript.md",
-    "series": "selenium-ts-bdd",
+    "series": "selenium-ts-bdd-cucumber",
     "seriesOrder": 4,
     "authorDetails": {
       "id": "pankaj-kumar",
