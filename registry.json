@@ -15429,5 +15429,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-obs-2",
+    "title": "Stop Guessing: Log Aggregation in Selenium Python",
+    "slug": "selenium-python-log-aggregation-elasticsearch-correlation-id",
+    "author": "pankaj-kumar",
+    "excerpt": "When a test fails, you shouldn't have to guess why. Learn how to inject Correlation IDs into Chrome and automatically fetch backend server logs from Elasticsearch directly into your Pytest HTML reports.",
+    "date": "10-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Monitoring & Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "log-aggregation",
+      "elasticsearch",
+      "correlation-id",
+      "pytest",
+      "observability"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-log-aggregation-elasticsearch-correlation-id.md",
+    "series": "selenium-python-observability",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
