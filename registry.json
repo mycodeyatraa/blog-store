@@ -15155,5 +15155,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-ent-3",
+    "title": "Validating Reports: Excel Validation in Selenium Python",
+    "slug": "selenium-python-excel-validation-pandas-openpyxl",
+    "author": "pankaj-kumar",
+    "excerpt": "Financial apps generate massive spreadsheets. Learn how to combine Selenium file downloading with Pandas dataframes to mathematically assert thousands of rows of Excel data in milliseconds.",
+    "date": "26-Mar-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "excel-validation",
+      "pandas",
+      "openpyxl",
+      "test-automation",
+      "data-science"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-excel-validation-pandas-openpyxl.md",
+    "series": "selenium-python-enterprise",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
