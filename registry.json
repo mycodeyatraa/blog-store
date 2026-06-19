@@ -14494,5 +14494,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-10",
+    "title": "Beyond the UI: The Enterprise Validation Strategy",
+    "slug": "enterprise-validation-strategy-testing-iceberg-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "The capstone of Phase 11. Learn how to architect your automation suite using the Testing Iceberg, when to mock vs integrate, and how to use Data Access Objects to keep your framework scalable.",
+    "date": "26-Jan-2025",
+    "readTime": "5 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "enterprise-validation",
+      "strategy",
+      "architecture",
+      "testing-iceberg",
+      "best-practices"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-validation-strategy-testing-iceberg-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
