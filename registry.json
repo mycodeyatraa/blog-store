@@ -17117,5 +17117,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-cicd-1",
+    "title": "Alerting the Team: Integrating Selenium with Slack and Datadog",
+    "slug": "selenium-java-monitoring-integrations-slack-datadog",
+    "author": "pankaj-kumar",
+    "excerpt": "A test failure in a vacuum is useless. Learn how to implement real-time TestNG monitoring by sending automated Slack Webhook alerts for P1 bugs and pushing execution metrics directly into Datadog.",
+    "date": "05-Sep-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Cloud & CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "cicd",
+      "slack",
+      "datadog",
+      "monitoring",
+      "alerting",
+      "testng"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-monitoring-integrations-slack-datadog.md",
+    "series": "selenium-java-cloud-cicd-monitoring",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
