@@ -16371,5 +16371,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-a11y-8",
+    "title": "Beyond the Code: Building an Enterprise Accessibility Strategy",
+    "slug": "selenium-java-enterprise-accessibility-strategy-zero-regression",
+    "author": "pankaj-kumar",
+    "excerpt": "Running Axe against a 10-year-old codebase will break your CI/CD pipeline. Learn how to implement a Zero-Regression baseline strategy, shift-left testing to developers, and secure executive buy-in for a11y.",
+    "date": "21-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Accessibility Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "accessibility",
+      "a11y",
+      "strategy",
+      "shift-left",
+      "test-automation",
+      "ci-cd"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-enterprise-accessibility-strategy-zero-regression.md",
+    "series": "selenium-java-accessibility-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
