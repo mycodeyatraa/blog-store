@@ -14922,5 +14922,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-bdd-9",
+    "title": "Data-Driven BDD: Scenario Outlines in pytest-bdd",
+    "slug": "pytest-bdd-scenario-outlines-data-driven-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Why write four scenarios when you only need one? Learn how to use Scenario Outlines and Examples tables to achieve massive data-driven test coverage in pytest-bdd.",
+    "date": "15-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Behavior Driven Development"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "scenario-outlines",
+      "gherkin",
+      "data-driven-testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-scenario-outlines-data-driven-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
