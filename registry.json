@@ -14141,5 +14141,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase10-scenario-outlines",
+    "title": "Data-Driven BDD: Mastering Scenario Outlines",
+    "slug": "bdd-scenario-outlines-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Keep your feature files DRY. Learn how to construct data-driven Scenario Outlines using Examples tables to multiply your test coverage without duplicating code.",
+    "date": "15-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "BDD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "bdd",
+      "cucumber",
+      "scenario-outlines",
+      "data-driven",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/bdd-scenario-outlines-selenium-typescript.md",
+    "series": "selenium-ts-bdd",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
