@@ -15390,5 +15390,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-obs-1",
+    "title": "Bringing Dev and QA Together: Monitoring Integrations in Selenium",
+    "slug": "selenium-python-monitoring-integrations-datadog",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your Pytest framework from a gatekeeper into a real-time health diagnostic system. Learn how to push Selenium execution metrics and custom performance spans directly into Datadog.",
+    "date": "08-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Monitoring & Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "datadog",
+      "synthetic-monitoring",
+      "pytest",
+      "test-automation",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-monitoring-integrations-datadog.md",
+    "series": "selenium-python-observability",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
