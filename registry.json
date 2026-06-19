@@ -15468,5 +15468,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-obs-3",
+    "title": "Shift-Right Testing: The Observability Strategy",
+    "slug": "selenium-python-observability-strategy-shift-right",
+    "author": "pankaj-kumar",
+    "excerpt": "Shift-Left is not enough. Learn how to adopt Observability Driven Development (ODD), writing Pytest scripts that validate backend telemetry and designing Enterprise Alerting Matrices to combat alert fatigue.",
+    "date": "12-Apr-2025",
+    "readTime": "6 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Monitoring & Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "observability",
+      "shift-right",
+      "pytest",
+      "test-automation",
+      "devops",
+      "alerting"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-observability-strategy-shift-right.md",
+    "series": "selenium-python-observability",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
