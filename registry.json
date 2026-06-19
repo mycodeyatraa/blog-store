@@ -14883,5 +14883,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-bdd-8",
+    "title": "Injecting Massive Datasets: Data Tables in pytest-bdd",
+    "slug": "pytest-bdd-data-tables-gherkin-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "When one line of Gherkin isn't enough, inject multi-dimensional arrays directly into your steps. Learn how to parse Data Tables into Python dictionaries for massive data-driven tests.",
+    "date": "12-Mar-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Behavior Driven Development"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "bdd",
+      "pytest-bdd",
+      "data-tables",
+      "gherkin",
+      "data-driven-testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pytest-bdd-data-tables-gherkin-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
