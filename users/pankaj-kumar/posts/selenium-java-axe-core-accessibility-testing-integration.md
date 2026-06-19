@@ -1,7 +1,7 @@
 ---
 title: Writing Your First a11y Test: Integrating Axe-Core with Selenium Java
-date: 09-Jul-2026
-lastUpdated: 09-Jul-2026
+date: 09-Jul-2025
+lastUpdated: 09-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
