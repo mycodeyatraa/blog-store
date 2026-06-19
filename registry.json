@@ -14572,5 +14572,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-accessibility-3",
+    "title": "ARIA Validation: Automating Screen Reader Compatibility in Selenium Python",
+    "slug": "aria-validation-screen-reader-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "When your UI changes state, screen readers need to know. Learn how to automate the assertion of aria-expanded, aria-hidden, and aria-invalid attributes using Selenium Python.",
+    "date": "18-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "accessibility",
+      "aria",
+      "screen-readers",
+      "ui-testing",
+      "wcag"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/aria-validation-screen-reader-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
