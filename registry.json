@@ -13710,5 +13710,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase14-4",
+    "title": "Unlimited Power: Kubernetes (K8s) Scaling",
+    "slug": "dockerized-selenium-grid-kubernetes-scaling-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Scale your automation to infinity. Learn how to decouple your Selenium Grid from the CI pipeline, deploy it to a Kubernetes cluster, and instantly spin up 100 parallel Chrome instances.",
+    "date": "10-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "devops",
+      "kubernetes",
+      "k8s",
+      "grid",
+      "scaling",
+      "docker"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/dockerized-selenium-grid-kubernetes-scaling-typescript.md",
+    "series": "selenium-ts-devops",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
