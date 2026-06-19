@@ -15665,5 +15665,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-security-1",
+    "title": "The QA Firewall: Validating Security Headers with Selenium Java",
+    "slug": "selenium-java-security-headers-cdp-validation",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your QA automation suite into a security firewall. Learn how to use Selenium 4 Chrome DevTools Protocol (CDP) to intercept network requests and validate critical HTTP Security Headers like HSTS and X-Frame-Options.",
+    "date": "15-Jun-2026",
+    "readTime": "5 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Security"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "devsecops",
+      "security-headers",
+      "cdp",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-security-headers-cdp-validation.md",
+    "series": "selenium-java-security-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
