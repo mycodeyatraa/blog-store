@@ -14102,5 +14102,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase15-6",
+    "title": "The Architect's Horizon: The Future of Test Automation",
+    "slug": "the-future-of-test-automation-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "The master curriculum concludes. Reflect on the evolution of the QA Engineer, the myth of the extinct tester, and how the rise of AI Agents transforms the role into an Enterprise Automation Architect.",
+    "date": "20-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "AI in Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ai",
+      "future",
+      "architecture",
+      "career",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/the-future-of-test-automation-selenium-typescript.md",
+    "series": "selenium-ts-ai",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
