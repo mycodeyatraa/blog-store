@@ -751,7 +751,8 @@
     "description": "Stop trusting the UI. Master Enterprise Validation by learning how to assert system state directly in SQL/NoSQL databases, Kafka event streams, Email servers, and raw PDF/Excel files.",
     "articleIds": [
       "blog-selenium-ts-phase11-1",
-      "blog-selenium-ts-phase16-2"
+      "blog-selenium-ts-phase16-2",
+      "blog-selenium-ts-phase16-3"
     ]
   }
 ]
