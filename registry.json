@@ -13632,5 +13632,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase14-2",
+    "title": "Automating the Cloud: GitHub Actions for Selenium",
+    "slug": "github-actions-selenium-typescript-ci",
+    "author": "pankaj-kumar",
+    "excerpt": "Transition your local Docker executions to the cloud. Learn how to write the perfect GitHub Actions YAML workflow to orchestrate a serverless Selenium Grid and execute Pull Request automation.",
+    "date": "08-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "devops",
+      "github-actions",
+      "ci-cd",
+      "docker",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/github-actions-selenium-typescript-ci.md",
+    "series": "selenium-ts-devops",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
