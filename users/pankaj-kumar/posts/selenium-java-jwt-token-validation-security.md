@@ -1,7 +1,7 @@
 ---
 title: Cryptographic Assertions: JWT Token Validation in Selenium Java
-date: 19-Jun-2026
-lastUpdated: 19-Jun-2026
+date: 19-Jun-2025
+lastUpdated: 19-Jun-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
