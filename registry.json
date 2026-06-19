@@ -17558,5 +17558,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-cicd-12",
+    "title": "Speed and Intelligence: HyperExecute with LambdaTest",
+    "slug": "selenium-java-lambdatest-hyperexecute-cloud-grid",
+    "author": "pankaj-kumar",
+    "excerpt": "Overcome the network latency of traditional cloud grids. Learn how to route your tests to LambdaTest, and explore their revolutionary HyperExecute architecture that runs Java code directly alongside the browser.",
+    "date": "08-Oct-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Cloud & CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "lambdatest",
+      "hyperexecute",
+      "cloud",
+      "remote-webdriver",
+      "grid",
+      "speed"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-lambdatest-hyperexecute-cloud-grid.md",
+    "series": "selenium-java-execution-cicd-pipelines",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
