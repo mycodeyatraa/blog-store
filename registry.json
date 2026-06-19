@@ -17758,5 +17758,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-ai-5",
+    "title": "Adapt or Perish: The Future of Test Automation for SDETs",
+    "slug": "selenium-java-future-of-test-automation-sdet-ai",
+    "author": "pankaj-kumar",
+    "excerpt": "Is the SDET role dead? No, it's evolving. Explore the death of the 'Script Writer', the rise of the 'Framework Architect', and exactly what you need to learn to survive the AI revolution in Quality Assurance.",
+    "date": "26-Oct-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "AI in Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "ai",
+      "future",
+      "career",
+      "sdet",
+      "framework-architect",
+      "technology"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-future-of-test-automation-sdet-ai.md",
+    "series": "selenium-java-ai-automation",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
