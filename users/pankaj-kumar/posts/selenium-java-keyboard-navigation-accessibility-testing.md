@@ -1,7 +1,7 @@
 ---
 title: Ditch the Mouse: Automating Keyboard Navigation Testing in Selenium
-date: 15-Jul-2026
-lastUpdated: 15-Jul-2026
+date: 15-Jul-2025
+lastUpdated: 15-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
