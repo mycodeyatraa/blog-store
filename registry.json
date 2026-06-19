@@ -16682,5 +16682,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-validation-2",
+    "title": "Reading the Unreadable: Parsing PDF Documents in Selenium",
+    "slug": "selenium-java-pdf-validation-apache-pdfbox-downloads",
+    "author": "pankaj-kumar",
+    "excerpt": "A downloaded file is not a black box. Learn how to configure ChromeDriver to download files silently, and use Apache PDFBox to extract and assert textual data natively from binary PDF invoices.",
+    "date": "06-Aug-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "pdf-validation",
+      "pdfbox",
+      "file-downloads",
+      "test-automation",
+      "backend-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-pdf-validation-apache-pdfbox-downloads.md",
+    "series": "selenium-java-enterprise-validation",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
