@@ -16449,5 +16449,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-java-db-2",
+    "title": "Querying the Truth: Connecting Selenium Java to MySQL",
+    "slug": "selenium-java-mysql-database-testing-jdbc",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop relying on UI success banners. Learn how to import the mysql-connector-j driver, build JDBC connection strings, and write robust try-with-resources blocks to explicitly validate MySQL database records.",
+    "date": "25-Jul-2026",
+    "readTime": "6 min read",
+    "category": "Selenium Java",
+    "categories": [
+      "Selenium Java",
+      "Database Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "java",
+      "selenium",
+      "database-testing",
+      "mysql",
+      "jdbc",
+      "test-automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-java-mysql-database-testing-jdbc.md",
+    "series": "selenium-java-database-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
