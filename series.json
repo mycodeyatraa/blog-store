@@ -796,7 +796,8 @@
     "title": "Python QA Observability",
     "description": "Integrating Pytest with APM tools like Datadog and Log Aggregation.",
     "articleIds": [
-      "blog-selenium-python-obs-1"
+      "blog-selenium-python-obs-1",
+      "blog-selenium-python-obs-2"
     ]
   }
 ]
