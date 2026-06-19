@@ -15312,5 +15312,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-analytics-3",
+    "title": "The Bigger Picture: Test Analytics in Python Automation",
+    "slug": "selenium-python-test-analytics-elasticsearch-grafana",
+    "author": "pankaj-kumar",
+    "excerpt": "Stop relying on daily HTML reports. Learn how to extract pytest execution metrics and push them to Elasticsearch to build beautiful, historical Grafana dashboards tracking suite health over time.",
+    "date": "04-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Selenium Python",
+    "categories": [
+      "Selenium Python",
+      "Failure Analysis & Analytics"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "python",
+      "selenium",
+      "test-analytics",
+      "elasticsearch",
+      "grafana",
+      "metrics",
+      "reporting"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-python-test-analytics-elasticsearch-grafana.md",
+    "series": "selenium-python-analytics-reporting",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
