@@ -1,7 +1,7 @@
 ---
 title: Enterprise Relational Data: Integrating PostgreSQL with Selenium Java
-date: 27-Jul-2026
-lastUpdated: 27-Jul-2026
+date: 27-Jul-2025
+lastUpdated: 27-Jul-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
