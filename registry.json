@@ -13946,5 +13946,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase15-2",
+    "title": "The End of Maintenance: AI Locator Healing",
+    "slug": "ai-self-healing-locators-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Solve the oldest problem in automation. Learn how to wrap WebDriver in a custom TypeScript HealNet class that uses Machine Learning to dynamically fix broken CSS selectors at runtime.",
+    "date": "16-Feb-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "AI in Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "ai",
+      "self-healing",
+      "locators",
+      "machine-learning",
+      "maintenance"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-self-healing-locators-selenium-typescript.md",
+    "series": "selenium-ts-ai",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
