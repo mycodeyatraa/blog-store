@@ -14455,5 +14455,44 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-ts-phase16-9",
+    "title": "Parsing Spreadsheets: Automated Excel Validation",
+    "slug": "excel-spreadsheet-validation-selenium-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Automate the 'Export to Excel' feature. Learn how to intercept massive `.xlsx` downloads and use the exceljs library to programmatically assert workbook sheets, rows, and cells.",
+    "date": "25-Jan-2025",
+    "readTime": "4 min read",
+    "category": "Selenium TypeScript",
+    "categories": [
+      "Selenium TypeScript",
+      "Enterprise Validation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "typescript",
+      "selenium",
+      "excel-validation",
+      "exceljs",
+      "spreadsheet",
+      "file-downloads",
+      "enterprise-validation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/excel-spreadsheet-validation-selenium-typescript.md",
+    "series": "selenium-ts-enterprise-validation",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
