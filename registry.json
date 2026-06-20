@@ -3,21 +3,71 @@
     "id": "post-475",
     "slug": "selenium-csharp-datadriven-json",
     "title": "Data-Driven Testing in Selenium C# with JSON",
+    "description": "Learn how to implement Data-Driven Testing (DDT) in Selenium C# by reading JSON files using the native System.Text.Json library.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-datadriven-json.md",
     "author": "pankaj-kumar",
-    "contentUrl": "users/pankaj-kumar/posts/selenium-csharp-datadriven-json.md",
-    "views": 0,
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "7 min read",
+    "date": "2026-06-20T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Data-Driven Testing",
+      "DDT",
+      "JSON",
+      "System.Text.Json",
+      "NUnit"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 14,
     "likes": 0,
-    "createdAt": "2026-06-20T00:00:00Z"
+    "commentsCount": 0
   },
   {
     "id": "post-474",
     "slug": "selenium-csharp-datadriven",
     "title": "Data-Driven Testing in Selenium C# with EPPlus (Excel)",
+    "description": "Learn how to implement Data-Driven Testing (DDT) in Selenium C# using NUnit's TestCaseSource and EPPlus to read test data dynamically from an Excel file.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-datadriven.md",
     "author": "pankaj-kumar",
-    "contentUrl": "users/pankaj-kumar/posts/selenium-csharp-datadriven.md",
-    "views": 0,
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "2026-06-20T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Data-Driven Testing",
+      "DDT",
+      "EPPlus",
+      "Excel",
+      "NUnit"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 13,
     "likes": 0,
-    "createdAt": "2026-06-20T00:00:00Z"
+    "commentsCount": 0
   },
   {
     "id": "post-462",
