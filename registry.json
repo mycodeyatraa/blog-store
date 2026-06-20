@@ -1,5 +1,42 @@
 [
   {
+    "id": "post-504",
+    "slug": "selenium-kotlin-element-full-page-screenshots",
+    "title": "Taking Element-Level and Full-Page Screenshots",
+    "description": "Learn how to capture visual evidence of test failures using Selenium's TakesScreenshot interface, including full-page and specific element captures.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-element-full-page-screenshots.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "13-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation",
+      "Screenshots"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Kotest",
+      "Screenshots",
+      "Evidence"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-503",
     "slug": "selenium-kotlin-file-uploads-downloads",
     "title": "File Uploads and Downloads in Kotlin",
