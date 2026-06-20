@@ -18108,5 +18108,38 @@
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-470",
+    "slug": "selenium-csharp-frames-iframes",
+    "title": "Handling Frames and iFrames in Selenium C#",
+    "description": "Learn how to master HTML iFrames in Selenium C#. Understand how to switch into an iframe, interact with elements, and safely return to the default content.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-frames-iframes.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "4 min read",
+    "date": "2025-01-10T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "iFrame",
+      "Frames",
+      "SwitchTo"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
