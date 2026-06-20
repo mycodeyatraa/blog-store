@@ -13,7 +13,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
     "readTime": "8 min read",
-    "date": "2026-06-20T00:00:00Z",
+    "date": "2025-01-16T00:00:00Z",
     "draft": false,
     "categories": [
       "Selenium C#",
@@ -28,8 +28,8 @@
       "Framework",
       "Design Pattern"
     ],
-    "series": "selenium-csharp-mastery",
-    "seriesOrder": 15,
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -47,7 +47,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
     "readTime": "7 min read",
-    "date": "2026-06-20T00:00:00Z",
+    "date": "2025-01-15T00:00:00Z",
     "draft": false,
     "categories": [
       "Selenium C#",
@@ -63,8 +63,8 @@
       "System.Text.Json",
       "NUnit"
     ],
-    "series": "selenium-csharp-mastery",
-    "seriesOrder": 14,
+    "series": "selenium-csharp-test-frameworks",
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
   },
@@ -82,7 +82,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
     "readTime": "8 min read",
-    "date": "2026-06-20T00:00:00Z",
+    "date": "2025-01-14T00:00:00Z",
     "draft": false,
     "categories": [
       "Selenium C#",
@@ -98,8 +98,8 @@
       "Excel",
       "NUnit"
     ],
-    "series": "selenium-csharp-mastery",
-    "seriesOrder": 13,
+    "series": "selenium-csharp-test-frameworks",
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
   },
@@ -108,14 +108,14 @@
     "title": "Selenium C# Mastery: Setup Your First Automation Project",
     "slug": "selenium-csharp-setup-project",
     "author": "pankaj-kumar",
-    "date": "02-Jan-2025",
+    "date": "2025-01-02T00:00:00Z",
     "excerpt": "Learn how to set up your first Selenium C# (.NET) project from scratch using NuGet, Visual Studio, and ChromeDriver.",
     "categories": [
       "Selenium C#",
       "Test Automation"
     ],
     "contentPath": "users/pankaj-kumar/posts/selenium-csharp-setup-project.md",
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 1,
     "category": "Selenium C#",
     "readTime": "5 min read",
@@ -18008,7 +18008,7 @@
       "XPath",
       "CSS Selectors"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
@@ -18042,7 +18042,7 @@
       "Clear",
       "WebDriver"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
@@ -18075,7 +18075,7 @@
       "SelectElement",
       "Multi-Select"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
@@ -18108,7 +18108,7 @@
       "Radio Buttons",
       "WebDriver"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
@@ -18142,7 +18142,7 @@
       "Implicit Wait",
       "Explicit Wait"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
@@ -18175,7 +18175,7 @@
       "SwitchTo",
       "Javascript Dialogs"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
@@ -18208,7 +18208,7 @@
       "Tabs",
       "SwitchTo"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
@@ -18241,7 +18241,7 @@
       "Frames",
       "SwitchTo"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
@@ -18275,7 +18275,7 @@
       "RightClick",
       "Keyboard"
     ],
-    "series": "selenium-csharp-mastery",
+    "series": "selenium-csharp-fundamentals",
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
@@ -18294,7 +18294,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
     "readTime": "6 min read",
-    "date": "2026-06-20T00:00:00Z",
+    "date": "2025-01-12T00:00:00Z",
     "draft": false,
     "categories": [
       "Selenium C#",
@@ -18309,8 +18309,8 @@
       "Testing Framework",
       "TestFixture"
     ],
-    "series": "selenium-csharp-mastery",
-    "seriesOrder": 11,
+    "series": "selenium-csharp-test-frameworks",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -18328,7 +18328,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
     "readTime": "6 min read",
-    "date": "2026-06-20T00:00:00Z",
+    "date": "2025-01-13T00:00:00Z",
     "draft": false,
     "categories": [
       "Selenium C#",
@@ -18343,8 +18343,8 @@
       "Assertions",
       "Test Validation"
     ],
-    "series": "selenium-csharp-mastery",
-    "seriesOrder": 12,
+    "series": "selenium-csharp-test-frameworks",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   }
