@@ -3,11 +3,35 @@
     "id": "post-476",
     "slug": "selenium-csharp-page-object-model",
     "title": "Introduction to Page Object Model (POM) in Selenium C#",
+    "description": "Learn how to structure your Selenium C# test automation framework using the Page Object Model (POM) design pattern for maximum reusability and maintenance.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-page-object-model.md",
     "author": "pankaj-kumar",
-    "contentUrl": "users/pankaj-kumar/posts/selenium-csharp-page-object-model.md",
-    "views": 0,
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "2026-06-20T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Page Object Model",
+      "POM",
+      "Framework",
+      "Design Pattern"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 15,
     "likes": 0,
-    "createdAt": "2026-06-20T00:00:00Z"
+    "commentsCount": 0
   },
   {
     "id": "post-475",
