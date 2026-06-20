@@ -1,5 +1,39 @@
 [
   {
+    "id": "post-480",
+    "slug": "selenium-csharp-webdriver-factory",
+    "title": "Cross-Browser Testing: Building a WebDriver Factory in Selenium C#",
+    "description": "Stop hardcoding ChromeDriver! Learn how to implement the Factory Design Pattern to dynamically launch Chrome, Firefox, or Edge based on configuration.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-webdriver-factory.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "20-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "WebDriver Factory",
+      "Cross Browser Testing",
+      "Design Patterns",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-479",
     "slug": "selenium-csharp-component-object-model",
     "title": "Component Object Model (COM): Reusable Widgets in Selenium C#",
