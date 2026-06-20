@@ -1,5 +1,42 @@
 [
   {
+    "id": "post-500",
+    "slug": "selenium-kotlin-advanced-synchronization-waits",
+    "title": "Advanced Synchronization using WebDriverWait and Kotlin Extensions",
+    "description": "Eliminate flaky tests by replacing Thread.sleep() with robust WebDriverWait strategies, enhanced by Kotlin Extension functions for maximum readability.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-advanced-synchronization-waits.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "6 min read",
+    "date": "09-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation",
+      "Waits"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Kotest",
+      "WebDriverWait",
+      "Synchronization"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-499",
     "slug": "selenium-kotlin-complex-ui-elements",
     "title": "Handling Complex UI Elements (Dropdowns, Checkboxes)",
