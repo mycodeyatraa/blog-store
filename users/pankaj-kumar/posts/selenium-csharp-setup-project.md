@@ -50,7 +50,7 @@ dotnet add package Selenium.WebDriver.ChromeDriver
 
 Open the `Program.cs` file. We are going to write a script that launches a Chrome browser in headless mode, navigates to the official MyCodeYatra Practice Sandbox, and prints the title of the page to the console.
 
-```csharp
+```java
 using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
