@@ -1,5 +1,15 @@
 [
   {
+    "id": "post-475",
+    "slug": "selenium-csharp-datadriven-json",
+    "title": "Data-Driven Testing in Selenium C# with JSON",
+    "author": "pankaj-kumar",
+    "contentUrl": "users/pankaj-kumar/posts/selenium-csharp-datadriven-json.md",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-20T00:00:00Z"
+  },
+  {
     "id": "post-474",
     "slug": "selenium-csharp-datadriven",
     "title": "Data-Driven Testing in Selenium C# with EPPlus (Excel)",
