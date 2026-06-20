@@ -1,5 +1,42 @@
 [
   {
+    "id": "post-497",
+    "slug": "selenium-kotlin-framework-basics-setup",
+    "title": "Modern Setup: Selenium + Kotlin + Maven + Kotest",
+    "description": "Start your journey into modern Test Automation by setting up Selenium WebDriver with Kotlin, Maven, and the Kotest framework!",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-framework-basics-setup.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "06-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation",
+      "Setup"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Maven",
+      "Kotest",
+      "JVM"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-496",
     "slug": "selenium-csharp-semantic-kernel-future-automation",
     "title": "The Future of Automation: C#, Selenium & AI",
