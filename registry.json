@@ -17942,5 +17942,38 @@
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-465",
+    "slug": "selenium-csharp-dropdowns-selectelement",
+    "title": "Handling Dropdowns in Selenium C# with SelectElement",
+    "description": "Master dropdown interactions in Selenium C#. Learn how to use the SelectElement class to select options by text, value, and index, including multi-select dropdowns.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-dropdowns-selectelement.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-05T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Dropdown",
+      "SelectElement",
+      "Multi-Select"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
