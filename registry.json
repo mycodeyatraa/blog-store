@@ -1,5 +1,39 @@
 [
   {
+    "id": "post-478",
+    "slug": "selenium-csharp-fluent-waits",
+    "title": "Advanced Wait Strategies: Explicit and Fluent Waits in POM",
+    "description": "Master synchronization in your Selenium C# Page Object Model using WebDriverWait and Fluent Waits to eliminate flaky tests.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-fluent-waits.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "7 min read",
+    "date": "2025-01-18T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Waits",
+      "WebDriverWait",
+      "Fluent Wait",
+      "POM"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-477",
     "slug": "selenium-csharp-fluent-pom",
     "title": "Advanced POM: The Fluent Page Object Model (Method Chaining)",
