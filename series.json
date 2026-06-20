@@ -924,9 +924,9 @@
     ]
   },
   {
-    "id": "selenium-csharp-mastery",
-    "title": "Selenium C# Mastery",
-    "description": "Master UI Automation using Selenium WebDriver and C# .NET",
+    "id": "selenium-csharp-fundamentals",
+    "title": "Selenium C# Fundamentals",
+    "description": "Master the basics of Selenium WebDriver with C# .NET. Learn element locators, browser interactions, and handling complex UI components.",
     "articleIds": [
       "post-462",
       "post-463",
@@ -937,11 +937,25 @@
       "post-468",
       "post-469",
       "post-470",
-      "post-471",
+      "post-471"
+    ]
+  },
+  {
+    "id": "selenium-csharp-test-frameworks",
+    "title": "Selenium C# Test Frameworks",
+    "description": "Structure your test automation with NUnit. Master assertions, Test Fixtures, and Data-Driven Testing (DDT) using Excel and JSON.",
+    "articleIds": [
       "post-472",
       "post-473",
       "post-474",
-      "post-475",
+      "post-475"
+    ]
+  },
+  {
+    "id": "selenium-csharp-framework-design",
+    "title": "Selenium C# Framework Design",
+    "description": "Build Enterprise-grade automation frameworks. Learn the Page Object Model (POM), Fluent Method Chaining, and reusable components.",
+    "articleIds": [
       "post-476"
     ]
   }
