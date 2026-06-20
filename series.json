@@ -986,5 +986,20 @@
       "role": "Automation Architect",
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     }
+  },
+  {
+    "id": "selenium-csharp-bdd-reqnroll",
+    "title": "BDD Automation with Reqnroll (Selenium C#)",
+    "description": "Master Behavior-Driven Development (BDD) in C# using Reqnroll (the modern successor to SpecFlow) to create business-readable, automated test specifications.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-487"
+    ]
   }
 ]
