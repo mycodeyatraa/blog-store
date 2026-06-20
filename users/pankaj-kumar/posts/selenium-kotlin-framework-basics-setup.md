@@ -151,6 +151,21 @@ class Blog1_SetupTest : StringSpec({
 
 ---
 
+---
+
+## Expected Output
+
+When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
+```text
+[INFO] Running com.mycodeyatra.tests.Blog1_SetupTest
+
+Blog1_SetupTest
+  ✓ Should navigate to MyCodeYatra and verify title
+
+1 tests completed, 1 successes, 0 failures, 0 ignored.
+```
+
 ## Conclusion
 
 Congratulations! You have successfully stepped into the modern era of JVM testing. With Kotlin and Kotest, your scripts will be significantly cleaner, shorter, and less prone to NullPointerExceptions.
