@@ -1,5 +1,43 @@
 [
   {
+    "id": "post-502",
+    "slug": "selenium-kotlin-windows-and-iframes",
+    "title": "Mastering Windows and iFrames in Kotlin",
+    "description": "Navigate multiple browser tabs and deeply nested iFrames flawlessly using Kotlin's expressive collection filters and WebDriver's context switching.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-windows-and-iframes.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "6 min read",
+    "date": "11-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation",
+      "Context Switching"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Kotest",
+      "Windows",
+      "iFrames",
+      "Tabs"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-501",
     "slug": "selenium-kotlin-alerts-javascript-execution",
     "title": "Handling Alerts and Javascript Execution in Kotlin",
