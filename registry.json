@@ -3,7 +3,7 @@
     "id": "post-462",
     "title": "Selenium C# Mastery: Setup Your First Automation Project",
     "slug": "selenium-csharp-setup-project",
-    "author": "Pankaj Kumar",
+    "author": "pankaj-kumar",
     "date": "02-Jan-2025",
     "excerpt": "Learn how to set up your first Selenium C# (.NET) project from scratch using NuGet, Visual Studio, and ChromeDriver.",
     "categories": [
@@ -12,7 +12,29 @@
     ],
     "contentPath": "users/pankaj-kumar/posts/selenium-csharp-setup-project.md",
     "series": "selenium-csharp-mastery",
-    "seriesOrder": 1
+    "seriesOrder": 1,
+    "category": "Selenium C#",
+    "readTime": "5 min read",
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "NuGet",
+      "ChromeDriver"
+    ],
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   },
   {
     "id": "blog-1",
