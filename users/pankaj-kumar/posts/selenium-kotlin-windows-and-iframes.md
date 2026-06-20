@@ -100,6 +100,22 @@ Always remember to call `driver.switchTo().defaultContent()` when you are finish
 
 ---
 
+---
+
+## Expected Output
+
+When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
+```text
+[INFO] Running com.mycodeyatra.tests.Blog6_WindowsAndFramesTest
+
+Blog6_WindowsAndFramesTest
+  ✓ Should switch to a new tab and back
+  ✓ Should interact with elements inside an iFrame
+
+2 tests completed, 2 successes, 0 failures, 0 ignored.
+```
+
 ## Conclusion
 
 Handling multiple contexts is a critical skill for senior automation engineers. By combining Selenium's `switchTo()` commands with Kotlin's functional collection operators, handling new tabs and embedded frames becomes completely pain-free.
