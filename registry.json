@@ -18141,5 +18141,39 @@
     "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-471",
+    "slug": "selenium-csharp-actions-class",
+    "title": "Advanced Interactions using the Actions Class in Selenium C#",
+    "description": "Master complex interactions in Selenium C# using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-actions-class.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-11T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Actions",
+      "MouseHover",
+      "RightClick",
+      "Keyboard"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
