@@ -1,5 +1,18 @@
 [
   {
+    "id": "post-462",
+    "title": "Selenium C# Mastery: Setup Your First Automation Project",
+    "slug": "selenium-csharp-setup-project",
+    "author": "Pankaj Kumar",
+    "date": "20-Jun-2026",
+    "excerpt": "Learn how to set up your first Selenium C# (.NET) project from scratch using NuGet, Visual Studio, and ChromeDriver.",
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-setup-project.md"
+  },
+  {
     "id": "blog-1",
     "title": "Redis in System Design: From Caching to Distributed Locking",
     "slug": "redis-in-system-design-from-caching-to-distributed-locking",
