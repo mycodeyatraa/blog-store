@@ -62,7 +62,6 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-
 namespace mcyt_sel_csharp
 {
     // 1. Mark the class as a Test Fixture
@@ -70,7 +69,6 @@ namespace mcyt_sel_csharp
     public class Blog11_NUnitFramework
     {
         private IWebDriver driver;
-
         // 2. Setup method runs BEFORE the test
         [SetUp]
         public void Setup()
@@ -80,29 +78,22 @@ namespace mcyt_sel_csharp
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
-
         // 3. The actual Test method
         [Test]
         public void TestFormSubmission()
         {
             Console.WriteLine("Executing [Test]: Navigating to site and filling form.");
-            
             // Navigate to practice page
             driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/#/form-practice");
-
             // Perform Form Fill
             IWebElement nameInput = driver.FindElement(By.Name("fullName"));
             nameInput.SendKeys("Pankaj Kumar");
-
             IWebElement emailInput = driver.FindElement(By.CssSelector("input[type='email']"));
             emailInput.SendKeys("test@mycodeyatra.com");
-
             IWebElement submitBtn = driver.FindElement(By.XPath("//button[text()='Submit Form']"));
             submitBtn.Click();
-
             Console.WriteLine("Test Form Submission Executed Successfully.");
         }
-
         // 4. TearDown method runs AFTER the test
         [TearDown]
         public void TearDown()
