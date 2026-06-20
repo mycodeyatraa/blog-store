@@ -1,5 +1,45 @@
 [
   {
+    "id": "post-491",
+    "slug": "selenium-csharp-semantic-kernel-intro",
+    "title": "Introduction to Semantic Kernel for Test Automation",
+    "description": "Welcome to the future of testing! Learn how to integrate Large Language Models (LLMs) into your C# Selenium framework using Microsoft's Semantic Kernel.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-semantic-kernel-intro.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "6 min read",
+    "date": "31-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "AI"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "AI",
+      "Semantic Kernel",
+      "LLM",
+      "OpenAI",
+      "Framework Design"
+    ],
+    "series": "ai-powered-testing-semantic-kernel",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-490",
     "slug": "selenium-csharp-bdd-hooks-tags",
     "title": "Controlling Execution: Reqnroll Hooks & Tags in Selenium C#",
