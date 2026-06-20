@@ -95,6 +95,22 @@ Now, let's use it in our test file to scroll the page and click a hidden element
 
 ---
 
+---
+
+## Expected Output
+
+When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
+```text
+[INFO] Running com.mycodeyatra.tests.Blog5_AlertsAndJsTest
+
+Blog5_AlertsAndJsTest
+  ✓ Should accept a JS Prompt Alert
+  ✓ Should execute Javascript to scroll and click
+
+2 tests completed, 2 successes, 0 failures, 0 ignored.
+```
+
 ## Conclusion
 
 By leveraging Kotlin's `as` keyword and extension functions, we transformed the ugly, boilerplate-heavy `JavascriptExecutor` cast into a beautiful, one-line `executeJs()` method that feels like a native WebDriver command.
