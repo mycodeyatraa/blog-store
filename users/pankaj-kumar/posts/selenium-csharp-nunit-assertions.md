@@ -140,7 +140,6 @@ dotnet test
 ```bash
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
-
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 6 s - mcyt-sel-csharp.dll (net10.0)
 ```
 
