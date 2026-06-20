@@ -1,11 +1,11 @@
 ---
 title: "Selenium C# Mastery: Setup Your First Automation Project"
-date: "2026-06-20"
+date: "02-Jan-2025"
 description: "Learn how to set up your first Selenium C# (.NET) project from scratch using NuGet, Visual Studio, and ChromeDriver."
 categories: ["Selenium C#", "Test Automation"]
 tags: ["Selenium", "C#", ".NET", "NuGet", "ChromeDriver"]
 author: "Pankaj Kumar"
-lastUpdated: "2026-06-20"
+lastUpdated: "02-Jan-2025"
 ---
 
 Welcome to the **Selenium C# (.NET) Mastery Series**! 
