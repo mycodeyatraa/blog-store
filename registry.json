@@ -1,5 +1,44 @@
 [
   {
+    "id": "post-495",
+    "slug": "selenium-csharp-semantic-kernel-ai-test-assistant",
+    "title": "Building an AI Test Assistant with Semantic Kernel Chatbots",
+    "description": "Learn how to build a conversational AI Test Assistant in C# using Semantic Kernel's ChatHistory to answer QA questions, generate test cases, and explain code!",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-semantic-kernel-ai-test-assistant.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "7 min read",
+    "date": "04-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "AI"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "AI",
+      "Semantic Kernel",
+      "Chatbot",
+      "OpenAI"
+    ],
+    "series": "ai-powered-testing-semantic-kernel",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-494",
     "slug": "selenium-csharp-semantic-kernel-failure-analysis",
     "title": "Analyzing Test Failures with Semantic Kernel & OpenAI",
