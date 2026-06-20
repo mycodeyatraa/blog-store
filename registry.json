@@ -1,5 +1,39 @@
 [
   {
+    "id": "post-484",
+    "slug": "selenium-csharp-screenshots",
+    "title": "Capturing Screenshots on Failure and Embedding in ExtentReports: Selenium C#",
+    "description": "Learn how to automatically capture screenshots when a Selenium C# test fails and embed them directly into your ExtentReports HTML dashboard for immediate visual debugging.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-screenshots.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "7 min read",
+    "date": "24-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "ExtentReports",
+      "Screenshots",
+      "Debugging",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-483",
     "slug": "selenium-csharp-extent-reports",
     "title": "Generating Beautiful HTML Reports with ExtentReports in Selenium C#",
