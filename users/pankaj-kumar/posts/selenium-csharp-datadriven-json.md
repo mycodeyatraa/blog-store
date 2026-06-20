@@ -1,11 +1,11 @@
 ---
 title: "Data-Driven Testing in Selenium C# with JSON"
-date: "12-Jan-2025"
+date: "15-Jan-2025"
 description: "Learn how to implement Data-Driven Testing (DDT) in Selenium C# by reading JSON files using the native System.Text.Json library."
 categories: ["Selenium C#", "Test Automation"]
 tags: ["Selenium", "C#", ".NET", "Data-Driven Testing", "DDT", "JSON", "System.Text.Json", "NUnit"]
 author: "Pankaj Kumar"
-lastUpdated: "12-Jan-2025"
+lastUpdated: "15-Jan-2025"
 ---
 
 Welcome back to the **Selenium C# Mastery Series**! 
