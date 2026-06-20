@@ -1,5 +1,45 @@
 [
   {
+    "id": "post-488",
+    "slug": "selenium-csharp-bdd-step-definitions",
+    "title": "Reqnroll Step Definitions & Context Injection in Selenium C#",
+    "description": "Learn how to bridge the gap between English Gherkin files and C# Selenium code using Reqnroll Step Definitions and powerful Context Injection.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-bdd-step-definitions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "28-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "BDD"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "BDD",
+      "Reqnroll",
+      "SpecFlow",
+      "Step Definitions",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-bdd-reqnroll",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-487",
     "slug": "selenium-csharp-bdd-reqnroll",
     "title": "Behavior-Driven Development (BDD) in C#: Setting up Reqnroll & Feature Files",
