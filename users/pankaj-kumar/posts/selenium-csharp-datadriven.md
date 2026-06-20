@@ -61,71 +61,58 @@ using OfficeOpenXml;
 using System;
 using System.IO;
 using System.Collections.Generic;
-
 namespace mcyt_sel_csharp
 {
     [TestFixture]
     public class Blog13_DataDrivenTesting
     {
         private IWebDriver driver;
-
         // 1. Method to Read Excel Data dynamically
         public static IEnumerable<TestCaseData> GetExcelData()
         {
             // Set the license context for EPPlus
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-
             // Define the path to TestData.xlsx
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../TestData.xlsx");
-            
             using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
             {
                 // Access the first worksheet
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
                 int rowCount = worksheet.Dimension.Rows;
-
                 // Loop through rows (Start from row 2 to skip headers)
                 for (int row = 2; row <= rowCount; row++)
                 {
                     string fullName = worksheet.Cells[row, 1].Text;
                     string email = worksheet.Cells[row, 2].Text;
-
                     // Yield returns a new TestCaseData object for each row
                     yield return new TestCaseData(fullName, email);
                 }
             }
         }
-
         [SetUp]
         public void Setup()
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            
             driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/#/form-practice");
         }
-
         // 2. Use TestCaseSource to map our method output directly into the test parameters!
         [Test, TestCaseSource(nameof(GetExcelData))]
         public void TestFormWithExcelData(string fullName, string email)
         {
             Console.WriteLine($"Running Test with Data -> Name: {fullName}, Email: {email}");
-
             // Locate elements
             IWebElement nameInput = driver.FindElement(By.Name("fullName"));
             IWebElement emailInput = driver.FindElement(By.CssSelector("input[type='email']"));
             IWebElement submitBtn = driver.FindElement(By.XPath("//button[text()='Submit Form']"));
-
             // Perform actions using dynamic data
             nameInput.SendKeys(fullName);
             emailInput.SendKeys(email);
             submitBtn.Click();
-
             // Simple assertion
             Assert.That(driver.Url, Does.Contain("form-practice"));
         }
-
         [TearDown]
         public void TearDown()
         {
@@ -158,11 +145,9 @@ dotnet test
 ```bash
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
-
 Running Test with Data -> Name: Pankaj Kumar, Email: pankaj@test.com
 Running Test with Data -> Name: John Doe, Email: john@test.com
 Running Test with Data -> Name: Jane Smith, Email: jane@test.com
-
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 12 s - mcyt-sel-csharp.dll (net10.0)
 ```
 
