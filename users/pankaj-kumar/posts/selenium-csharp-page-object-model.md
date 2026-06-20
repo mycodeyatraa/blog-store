@@ -1,11 +1,11 @@
 ---
 title: "Introduction to Page Object Model (POM) in Selenium C#"
-date: "13-Jan-2025"
+date: "16-Jan-2025"
 description: "Learn how to structure your Selenium C# test automation framework using the Page Object Model (POM) design pattern for maximum reusability and maintenance."
 categories: ["Selenium C#", "Test Automation"]
 tags: ["Selenium", "C#", ".NET", "Page Object Model", "POM", "Framework", "Design Pattern"]
 author: "Pankaj Kumar"
-lastUpdated: "13-Jan-2025"
+lastUpdated: "16-Jan-2025"
 ---
 
 Welcome back to the **Selenium C# Mastery Series**!
