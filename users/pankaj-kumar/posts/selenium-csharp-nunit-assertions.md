@@ -135,6 +135,14 @@ Run the tests via the terminal using:
 dotnet test
 ```
 
+**Expected Output:**
+
+```text
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 6 s - mcyt-sel-csharp.dll (net10.0)
+```
+
 If any of these assertions fail (for instance, if we expected the title to be "Wrong Title"), the test execution would halt at that exact line, and the terminal would clearly state the expected versus actual values alongside our custom failure message.
 
 ---
