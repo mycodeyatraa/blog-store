@@ -17908,5 +17908,39 @@
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-464",
+    "slug": "selenium-csharp-interactions",
+    "title": "Basic Interactions in Selenium C#: Click, SendKeys, and Clear",
+    "description": "Learn the core interactions in Selenium C#. Master the use of .Click(), .SendKeys(), and .Clear() to interact with web forms, buttons, and text fields.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-interactions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-04T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "SendKeys",
+      "Click",
+      "Clear",
+      "WebDriver"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
