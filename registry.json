@@ -1,5 +1,42 @@
 [
   {
+    "id": "post-503",
+    "slug": "selenium-kotlin-file-uploads-downloads",
+    "title": "File Uploads and Downloads in Kotlin",
+    "description": "Learn how to bypass native OS dialogs to seamlessly upload files and manage automated downloads using Kotlin and Selenium.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-file-uploads-downloads.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "6 min read",
+    "date": "12-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation",
+      "Files"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Kotest",
+      "Uploads",
+      "Downloads"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-502",
     "slug": "selenium-kotlin-windows-and-iframes",
     "title": "Mastering Windows and iFrames in Kotlin",
