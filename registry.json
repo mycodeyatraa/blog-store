@@ -17875,5 +17875,38 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-463",
+    "slug": "selenium-csharp-locators",
+    "title": "Locators in Selenium C#: Finding Elements with Precision",
+    "description": "Master Selenium C# locators. Learn how to locate web elements using By.Id, By.Name, By.CssSelector, and By.XPath with real-world examples.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-locators.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-03T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Locators",
+      "XPath",
+      "CSS Selectors"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
