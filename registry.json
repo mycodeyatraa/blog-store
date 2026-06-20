@@ -18008,5 +18008,39 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-467",
+    "slug": "selenium-csharp-wait-strategies",
+    "title": "Wait Strategies in Selenium C#: Implicit and Explicit Waits",
+    "description": "Master Selenium C# synchronization. Learn the vital differences between Implicit Wait and Explicit Wait (WebDriverWait) to build stable, flake-free automation scripts.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-wait-strategies.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-07T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Waits",
+      "WebDriverWait",
+      "Implicit Wait",
+      "Explicit Wait"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
