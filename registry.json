@@ -1,5 +1,39 @@
 [
   {
+    "id": "post-477",
+    "slug": "selenium-csharp-fluent-pom",
+    "title": "Advanced POM: The Fluent Page Object Model (Method Chaining)",
+    "description": "Take your Selenium C# Page Object Model to the next level by implementing the Fluent Design Pattern for elegant, readable method chaining.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-fluent-pom.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "2025-01-17T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Page Object Model",
+      "POM",
+      "Fluent Design",
+      "Method Chaining"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-476",
     "slug": "selenium-csharp-page-object-model",
     "title": "Introduction to Page Object Model (POM) in Selenium C#",
