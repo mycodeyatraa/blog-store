@@ -8,7 +8,7 @@ author: "Pankaj Kumar"
 lastUpdated: "02-Jan-2025"
 ---
 
-Welcome to the **Selenium C# (.NET) Mastery Series**! 
+Welcome to the **Selenium C# (.NET) Mastery Series**!
 
 C# is the backbone of modern enterprise applications, especially within the Microsoft ecosystem. In this tutorial, we are going to build our very first Selenium automation project using C# and .NET.
 
@@ -62,7 +62,7 @@ namespace SeleniumCSharpTutorial
         static void Main(string[] args)
         {
             Console.WriteLine("Initializing ChromeDriver...");
-            
+
             // Step 1: Set up ChromeOptions
             ChromeOptions options = new ChromeOptions();
             options.AddArgument("--headless"); // Run without a UI
@@ -73,18 +73,18 @@ namespace SeleniumCSharpTutorial
             using (IWebDriver driver = new ChromeDriver(options))
             {
                 Console.WriteLine("Navigating to MyCodeYatra Practice Site...");
-                
+
                 // Step 3: Navigate to the target URL
                 driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/");
 
                 // Step 4: Fetch the page title
                 string pageTitle = driver.Title;
-                
+
                 Console.WriteLine("======================================");
                 Console.WriteLine($"SUCCESS! Page Title Retrieved: {pageTitle}");
                 Console.WriteLine("======================================");
             } // Browser automatically closes and cleans up memory here
-            
+
             Console.WriteLine("Browser closed successfully.");
         }
     }
@@ -116,7 +116,7 @@ Browser closed successfully.
 
 ### Summary
 
-Congratulations! You have successfully established a pristine Selenium C# architecture using NuGet, written your first navigation script, and verified the output. 
+Congratulations! You have successfully established a pristine Selenium C# architecture using NuGet, written your first navigation script, and verified the output.
 
 In the next blog, we will dive deep into **Locators in C#**, where we will learn how to pinpoint exact web elements using XPath, CSS Selectors, IDs, and Names.
 
