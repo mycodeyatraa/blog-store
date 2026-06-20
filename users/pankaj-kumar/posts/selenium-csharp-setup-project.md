@@ -54,7 +54,6 @@ Open the `Program.cs` file. We are going to write a script that launches a Chrom
 using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-
 namespace SeleniumCSharpTutorial
 {
     class Program
@@ -62,29 +61,23 @@ namespace SeleniumCSharpTutorial
         static void Main(string[] args)
         {
             Console.WriteLine("Initializing ChromeDriver...");
-
             // Step 1: Set up ChromeOptions
             ChromeOptions options = new ChromeOptions();
             options.AddArgument("--headless"); // Run without a UI
             options.AddArgument("--disable-gpu");
             options.AddArgument("--window-size=1920,1080");
-
             // Step 2: Instantiate the WebDriver using a 'using' statement for memory management
             using (IWebDriver driver = new ChromeDriver(options))
             {
                 Console.WriteLine("Navigating to MyCodeYatra Practice Site...");
-
                 // Step 3: Navigate to the target URL
                 driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/");
-
                 // Step 4: Fetch the page title
                 string pageTitle = driver.Title;
-
                 Console.WriteLine("======================================");
                 Console.WriteLine("SUCCESS! Page Title Retrieved: " + pageTitle");
                 Console.WriteLine("======================================");
             } // Browser automatically closes and cleans up memory here
-
             Console.WriteLine("Browser closed successfully.");
         }
     }
