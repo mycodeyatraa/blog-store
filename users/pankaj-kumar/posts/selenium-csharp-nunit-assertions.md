@@ -26,19 +26,23 @@ Let's look at the most common assertion types you will need when working with Se
 
 ### 1. Equality (`Is.EqualTo`)
 Used to verify exact matches. Commonly used for verifying Page Titles, Header Texts, or calculated values.
+
 ```csharp
 Assert.That(driver.Title, Is.EqualTo("MyCodeYatra | Test Automation Sandbox"), "Title mismatch!");
 ```
+
 *Note: The third argument is an optional custom failure message.*
 
 ### 2. Substrings (`Does.Contain`)
 Used when you only want to verify that a partial string exists. Commonly used for verifying URLs or error messages.
+
 ```csharp
 Assert.That(driver.Url, Does.Contain("form-practice"));
 ```
 
 ### 3. Boolean Conditions (`Is.True` / `Is.False`)
 Used to check boolean properties of WebElements (e.g., `.Displayed`, `.Enabled`, `.Selected`).
+
 ```csharp
 Assert.That(submitButton.Displayed, Is.True, "Button should be visible.");
 Assert.That(checkbox.Selected, Is.False, "Checkbox should be unchecked by default.");
@@ -46,6 +50,7 @@ Assert.That(checkbox.Selected, Is.False, "Checkbox should be unchecked by defaul
 
 ### 4. Null Checks (`Is.Null` / `Is.Not.Null`)
 Used to ensure an object exists.
+
 ```csharp
 Assert.That(myElement, Is.Not.Null);
 ```
@@ -125,6 +130,7 @@ namespace mcyt_sel_csharp
 
 ### Running the Tests
 Run the tests via the terminal using:
+
 ```bash
 dotnet test
 ```
