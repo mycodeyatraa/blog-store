@@ -1,5 +1,45 @@
 [
   {
+    "id": "post-487",
+    "slug": "selenium-csharp-bdd-reqnroll",
+    "title": "Behavior-Driven Development (BDD) in C#: Setting up Reqnroll & Feature Files",
+    "description": "Learn how to integrate BDD into your Selenium C# Framework using Reqnroll, the modern, official successor to SpecFlow, and write your first Gherkin Feature File.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-bdd-reqnroll.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "6 min read",
+    "date": "27-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "BDD"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "BDD",
+      "Reqnroll",
+      "SpecFlow",
+      "Gherkin",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-bdd-reqnroll",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-486",
     "slug": "selenium-csharp-github-actions",
     "title": "Continuous Integration: Running Selenium C# Tests in GitHub Actions",
