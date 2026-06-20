@@ -1,5 +1,39 @@
 [
   {
+    "id": "post-483",
+    "slug": "selenium-csharp-extent-reports",
+    "title": "Generating Beautiful HTML Reports with ExtentReports in Selenium C#",
+    "description": "Learn how to integrate ExtentReports into your Selenium C# framework to generate beautiful, interactive HTML dashboards for your automation runs.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-extent-reports.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "23-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "ExtentReports",
+      "Reporting",
+      "NUnit",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-482",
     "slug": "selenium-csharp-basetest-class",
     "title": "The BaseTest Class: Abstracting Setup and Teardown in Selenium C#",
