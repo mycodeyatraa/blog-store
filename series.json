@@ -1004,5 +1004,20 @@
       "post-489",
       "post-490"
     ]
+  },
+  {
+    "id": "ai-powered-testing-semantic-kernel",
+    "title": "AI-Powered Testing with Semantic Kernel & C#",
+    "description": "Break into the most advanced tier of automation engineering by embedding Large Language Models (LLMs) directly into your C# framework using Microsoft's Semantic Kernel.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-491"
+    ]
   }
 ]
