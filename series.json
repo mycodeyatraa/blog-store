@@ -938,7 +938,13 @@
       "post-469",
       "post-470",
       "post-471"
-    ]
+    ],
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    }
   },
   {
     "id": "selenium-csharp-test-frameworks",
@@ -949,7 +955,13 @@
       "post-473",
       "post-474",
       "post-475"
-    ]
+    ],
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    }
   },
   {
     "id": "selenium-csharp-framework-design",
@@ -967,6 +979,12 @@
       "post-484",
       "post-485",
       "post-486"
-    ]
+    ],
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    }
   }
 ]
