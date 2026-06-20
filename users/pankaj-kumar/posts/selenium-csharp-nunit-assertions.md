@@ -27,7 +27,7 @@ Let's look at the most common assertion types you will need when working with Se
 ### 1. Equality (`Is.EqualTo`)
 Used to verify exact matches. Commonly used for verifying Page Titles, Header Texts, or calculated values.
 
-```csharp
+```cs
 Assert.That(driver.Title, Is.EqualTo("MyCodeYatra | Test Automation Sandbox"), "Title mismatch!");
 ```
 
@@ -36,14 +36,14 @@ Assert.That(driver.Title, Is.EqualTo("MyCodeYatra | Test Automation Sandbox"), "
 ### 2. Substrings (`Does.Contain`)
 Used when you only want to verify that a partial string exists. Commonly used for verifying URLs or error messages.
 
-```csharp
+```cs
 Assert.That(driver.Url, Does.Contain("form-practice"));
 ```
 
 ### 3. Boolean Conditions (`Is.True` / `Is.False`)
 Used to check boolean properties of WebElements (e.g., `.Displayed`, `.Enabled`, `.Selected`).
 
-```csharp
+```cs
 Assert.That(submitButton.Displayed, Is.True, "Button should be visible.");
 Assert.That(checkbox.Selected, Is.False, "Checkbox should be unchecked by default.");
 ```
@@ -51,7 +51,7 @@ Assert.That(checkbox.Selected, Is.False, "Checkbox should be unchecked by defaul
 ### 4. Null Checks (`Is.Null` / `Is.Not.Null`)
 Used to ensure an object exists.
 
-```csharp
+```cs
 Assert.That(myElement, Is.Not.Null);
 ```
 
@@ -63,7 +63,7 @@ Let's write a complete NUnit test class that navigates to the practice site and 
 
 Create a file named `Blog12_NUnitAssertions.cs`:
 
-```csharp
+```cs
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -131,13 +131,13 @@ namespace mcyt_sel_csharp
 ### Running the Tests
 Run the tests via the terminal using:
 
-```bash
+```sh
 dotnet test
 ```
 
 **Expected Output:**
 
-```bash
+```sh
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 6 s - mcyt-sel-csharp.dll (net10.0)
