@@ -1,5 +1,45 @@
 [
   {
+    "id": "post-489",
+    "slug": "selenium-csharp-bdd-data-tables",
+    "title": "Data-Driven BDD: Reqnroll Data Tables & Scenario Outlines",
+    "description": "Master data-driven testing in Behavior-Driven Development! Learn how to use Scenario Outlines and Data Tables to pass complex data into your Reqnroll C# steps.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-bdd-data-tables.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "7 min read",
+    "date": "29-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "BDD"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "BDD",
+      "Reqnroll",
+      "SpecFlow",
+      "Data-Driven",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-bdd-reqnroll",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-488",
     "slug": "selenium-csharp-bdd-step-definitions",
     "title": "Reqnroll Step Definitions & Context Injection in Selenium C#",
