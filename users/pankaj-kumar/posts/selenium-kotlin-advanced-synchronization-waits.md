@@ -97,6 +97,21 @@ By utilizing our custom Kotlin Extension functions, you keep your framework 100%
 
 ---
 
+---
+
+## Expected Output
+
+When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
+```text
+[INFO] Running com.mycodeyatra.tests.Blog4_SynchronizationTest
+
+Blog4_SynchronizationTest
+  ✓ Should wait for dynamic elements to load
+
+1 tests completed, 1 successes, 0 failures, 0 ignored.
+```
+
 ## Conclusion
 
 With Kotlin's extension functions and default parameter values, implementing Explicit Waits is no longer a chore. Your tests will now execute as fast as the application allows, without arbitrary `Thread.sleep()` commands causing artificial slowdowns.
