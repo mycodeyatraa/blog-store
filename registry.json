@@ -18075,5 +18075,38 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-469",
+    "slug": "selenium-csharp-switching-windows-tabs",
+    "title": "Switching Windows and Tabs in Selenium C#",
+    "description": "Master multi-window automation in Selenium C#. Learn how to handle multiple browser tabs, navigate between them using WindowHandles, and safely close active tabs.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-switching-windows-tabs.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-09T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Windows",
+      "Tabs",
+      "SwitchTo"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
