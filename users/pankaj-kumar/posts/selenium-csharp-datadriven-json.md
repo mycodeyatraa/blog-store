@@ -39,7 +39,6 @@ Add the following JSON array containing objects with `FullName` and `Email` prop
     "Email": "bruce@test.com"
   }
 ]
-
 ```
 
 ---
@@ -50,7 +49,6 @@ To easily read this JSON data, we should map it to a C# class. We will use the `
 
 ```csharp
 using System.Text.Json.Serialization;
-
 namespace mcyt_sel_csharp
 {
     // A class to map our JSON objects to C# objects
@@ -58,12 +56,10 @@ namespace mcyt_sel_csharp
     {
         [JsonPropertyName("FullName")]
         public string FullName { get; set; }
-
         [JsonPropertyName("Email")]
         public string Email { get; set; }
     }
 }
-
 ```
 
 ---
@@ -81,69 +77,56 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-
 namespace mcyt_sel_csharp
 {
     public class UserData
     {
         [JsonPropertyName("FullName")]
         public string FullName { get; set; }
-
         [JsonPropertyName("Email")]
         public string Email { get; set; }
     }
-
     [TestFixture]
     public class Blog14_DataDrivenTestingJson
     {
         private IWebDriver driver;
-
         // 1. Method to Read JSON Data dynamically
         public static IEnumerable<TestCaseData> GetJsonData()
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../TestData.json");
             string jsonContent = File.ReadAllText(filePath);
-
             // Deserialize the JSON array into a List of UserData objects
             List<UserData> users = JsonSerializer.Deserialize<List<UserData>>(jsonContent);
-
             foreach (var user in users)
             {
                 // Yield returns a new TestCaseData object for each user
                 yield return new TestCaseData(user.FullName, user.Email);
             }
         }
-
         [SetUp]
         public void Setup()
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            
             driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/#/form-practice");
         }
-
         // 2. Use TestCaseSource to map our method output directly into the test parameters!
         [Test, TestCaseSource(nameof(GetJsonData))]
         public void TestFormWithJsonData(string fullName, string email)
         {
             Console.WriteLine($"Running Test with JSON Data -> Name: {fullName}, Email: {email}");
-
             // Locate elements
             IWebElement nameInput = driver.FindElement(By.Name("fullName"));
             IWebElement emailInput = driver.FindElement(By.CssSelector("input[type='email']"));
             IWebElement submitBtn = driver.FindElement(By.XPath("//button[text()='Submit Form']"));
-
             // Perform actions using dynamic data
             nameInput.SendKeys(fullName);
             emailInput.SendKeys(email);
             submitBtn.Click();
-
             // Simple assertion
             Assert.That(driver.Url, Does.Contain("form-practice"));
         }
-
         [TearDown]
         public void TearDown()
         {
@@ -155,7 +138,6 @@ namespace mcyt_sel_csharp
         }
     }
 }
-
 ```
 
 ### Why JSON Over Excel?
@@ -171,7 +153,6 @@ Run your test suite from the terminal:
 
 ```bash
 dotnet test
-
 ```
 
 **Expected Output:**
@@ -179,13 +160,10 @@ dotnet test
 ```bash
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
-
 Running Test with JSON Data -> Name: Alex Turner, Email: alex@test.com
 Running Test with JSON Data -> Name: Sarah Connor, Email: sarah@test.com
 Running Test with JSON Data -> Name: Bruce Wayne, Email: bruce@test.com
-
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 10 s - mcyt-sel-csharp.dll (net10.0)
-
 ```
 
 You have now successfully run a single test three separate times using JSON data! 
