@@ -24,7 +24,7 @@ First, we need to create our JSON data file. Create a file named `TestData.json`
 
 Add the following JSON array containing objects with `FullName` and `Email` properties:
 
-```json
+```js
 [
   {
     "FullName": "Alex Turner",
@@ -47,7 +47,7 @@ Add the following JSON array containing objects with `FullName` and `Email` prop
 
 To easily read this JSON data, we should map it to a C# class. We will use the `[JsonPropertyName]` attribute to ensure the JSON keys match our C# properties exactly.
 
-```csharp
+```cs
 using System.Text.Json.Serialization;
 namespace mcyt_sel_csharp
 {
@@ -68,7 +68,7 @@ namespace mcyt_sel_csharp
 
 Now, let's create our test class named `Blog14_DataDrivenTestingJson.cs`. We will read the `TestData.json` file, deserialize it into a list of our `UserData` objects, and feed it into NUnit's `[TestCaseSource]`.
 
-```csharp
+```cs
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -151,13 +151,13 @@ namespace mcyt_sel_csharp
 
 Run your test suite from the terminal:
 
-```bash
+```sh
 dotnet test
 ```
 
 **Expected Output:**
 
-```bash
+```sh
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 Running Test with JSON Data -> Name: Alex Turner, Email: alex@test.com
