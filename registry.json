@@ -1,5 +1,38 @@
 [
   {
+    "id": "post-481",
+    "slug": "selenium-csharp-global-configuration",
+    "title": "Global Configuration Manager: Managing Test Data with appsettings.json in Selenium C#",
+    "description": "Learn how to build a Global Configuration Manager in C# using Microsoft.Extensions.Configuration to dynamically read environment variables and URLs.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-global-configuration.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "8 min read",
+    "date": "21-Jan-2025",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Configuration",
+      "appsettings.json",
+      "Framework Design"
+    ],
+    "series": "selenium-csharp-framework-design",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-480",
     "slug": "selenium-csharp-webdriver-factory",
     "title": "Cross-Browser Testing: Building a WebDriver Factory in Selenium C#",
