@@ -24,7 +24,7 @@ To read Excel files (`.xlsx`), we need an external library. **EPPlus** is the in
 
 Open your terminal and install EPPlus via NuGet (we recommend version 7.x for compatibility with standard tutorials):
 
-```bash
+```sh
 dotnet add package EPPlus --version 7.0.0
 ```
 
@@ -53,7 +53,7 @@ Make sure to save and close the file.
 
 Now, let's create a new class named `Blog13_DataDrivenTesting.cs`. We will write a utility method to read the Excel file and an NUnit test to consume that data.
 
-```csharp
+```cs
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -136,13 +136,13 @@ namespace mcyt_sel_csharp
 
 Run your test suite from the terminal:
 
-```bash
+```sh
 dotnet test
 ```
 
 **Expected Output:**
 
-```bash
+```sh
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 Running Test with Data -> Name: Pankaj Kumar, Email: pankaj@test.com
