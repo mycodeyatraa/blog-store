@@ -39,6 +39,7 @@ Add the following JSON array containing objects with `FullName` and `Email` prop
     "Email": "bruce@test.com"
   }
 ]
+
 ```
 
 ---
@@ -62,6 +63,7 @@ namespace mcyt_sel_csharp
         public string Email { get; set; }
     }
 }
+
 ```
 
 ---
@@ -153,6 +155,7 @@ namespace mcyt_sel_csharp
         }
     }
 }
+
 ```
 
 ### Why JSON Over Excel?
@@ -168,6 +171,7 @@ Run your test suite from the terminal:
 
 ```bash
 dotnet test
+
 ```
 
 **Expected Output:**
@@ -181,6 +185,7 @@ Running Test with JSON Data -> Name: Sarah Connor, Email: sarah@test.com
 Running Test with JSON Data -> Name: Bruce Wayne, Email: bruce@test.com
 
 Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 10 s - mcyt-sel-csharp.dll (net10.0)
+
 ```
 
 You have now successfully run a single test three separate times using JSON data! 
