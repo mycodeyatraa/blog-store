@@ -18042,5 +18042,38 @@
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-468",
+    "slug": "selenium-csharp-alerts-javascript-dialogs",
+    "title": "Handling Alerts and Javascript Dialogs in Selenium C#",
+    "description": "Master Javascript Alerts, Confirms, and Prompts using Selenium C#. Learn how to use driver.SwitchTo().Alert() to read text, accept, dismiss, and send keys.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-alerts-javascript-dialogs.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "5 min read",
+    "date": "2025-01-08T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "Alerts",
+      "SwitchTo",
+      "Javascript Dialogs"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
