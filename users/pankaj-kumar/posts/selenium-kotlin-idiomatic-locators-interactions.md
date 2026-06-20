@@ -86,6 +86,21 @@ class Blog2_LocatorsTest : StringSpec({
 
 ---
 
+---
+
+## Expected Output
+
+When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
+```text
+[INFO] Running com.mycodeyatra.tests.Blog2_LocatorsTest
+
+Blog2_LocatorsTest
+  ✓ Should locate elements using Idiomatic Kotlin extensions
+
+1 tests completed, 1 successes, 0 failures, 0 ignored.
+```
+
 ## Conclusion
 
 By leveraging Kotlin Extension Functions, we've stripped away the Java verbosity that usually plagues Selenium frameworks. Your Page Object Models will now be incredibly concise and laser-focused on business logic rather than WebDriver API calls.
