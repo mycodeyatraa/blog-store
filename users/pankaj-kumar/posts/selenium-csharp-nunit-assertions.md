@@ -63,14 +63,12 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-
 namespace mcyt_sel_csharp
 {
     [TestFixture]
     public class Blog12_NUnitAssertions
     {
         private IWebDriver driver;
-
         [SetUp]
         public void Setup()
         {
@@ -78,51 +76,39 @@ namespace mcyt_sel_csharp
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            
             // Navigate to our practice form for assertions
             driver.Navigate().GoToUrl("https://practice.mycodeyatra.com/#/form-practice");
         }
-
         [Test]
         public void TestPageTitleAndUrl()
         {
             Console.WriteLine("Executing Test: Verifying Page Title and URL");
-
             string currentTitle = driver.Title;
             string currentUrl = driver.Url;
-
             // 1. Asserting Equality
             Assert.That(currentTitle, Is.EqualTo("MyCodeYatra | Test Automation Sandbox"), "Page title did not match!");
-            
             // 2. Asserting Substring (Contains)
             Assert.That(currentUrl, Does.Contain("form-practice"), "URL does not contain expected path.");
         }
-
         [Test]
         public void TestElementVisibilityAndState()
         {
             Console.WriteLine("Executing Test: Verifying Element State");
-
             IWebElement submitBtn = driver.FindElement(By.XPath("//button[text()='Submit Form']"));
             IWebElement nameInput = driver.FindElement(By.Name("fullName"));
-
             // 3. Asserting True/False conditions
             Assert.That(submitBtn.Displayed, Is.True, "Submit button should be visible on the page.");
             Assert.That(nameInput.Enabled, Is.True, "Name input field should be enabled.");
         }
-
         [Test]
         public void TestTextContent()
         {
             Console.WriteLine("Executing Test: Verifying Text Content");
-
             IWebElement header = driver.FindElement(By.TagName("h2"));
-
             // 4. Asserting Text (Case Insensitive)
             // You can chain constraints like .IgnoreCase for robust assertions!
             Assert.That(header.Text, Is.EqualTo("Form Submission & Data Validation").IgnoreCase, "Header text did not match expected value.");
         }
-
         [TearDown]
         public void TearDown()
         {
