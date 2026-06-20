@@ -1024,5 +1024,20 @@
       "post-495",
       "post-496"
     ]
+  },
+  {
+    "id": "selenium-kotlin-framework-basics",
+    "title": "Selenium Kotlin Framework Basics",
+    "description": "Master the absolute fundamentals of driving browsers using idiomatic Kotlin and the Kotest testing framework.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-497"
+    ]
   }
 ]
