@@ -922,5 +922,13 @@
       "blog-selenium-java-ai-5",
       "blog-selenium-java-ai-6"
     ]
+  },
+  {
+    "id": "selenium-csharp-mastery",
+    "title": "Selenium C# Mastery",
+    "description": "Master UI Automation using Selenium WebDriver and C# .NET",
+    "posts": [
+      "selenium-csharp-setup-project"
+    ]
   }
 ]
