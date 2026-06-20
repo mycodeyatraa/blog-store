@@ -10,7 +10,9 @@
       "Selenium C#",
       "Test Automation"
     ],
-    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-setup-project.md"
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-setup-project.md",
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 1
   },
   {
     "id": "blog-1",
