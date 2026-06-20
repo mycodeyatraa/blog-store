@@ -1,11 +1,11 @@
 ---
 title: "Data-Driven Testing in Selenium C# with EPPlus (Excel)"
-date: "11-Jan-2025"
+date: "14-Jan-2025"
 description: "Learn how to implement Data-Driven Testing (DDT) in Selenium C# using NUnit's TestCaseSource and EPPlus to read test data dynamically from an Excel file."
 categories: ["Selenium C#", "Test Automation"]
 tags: ["Selenium", "C#", ".NET", "Data-Driven Testing", "DDT", "EPPlus", "Excel", "NUnit"]
 author: "Pankaj Kumar"
-lastUpdated: "11-Jan-2025"
+lastUpdated: "14-Jan-2025"
 ---
 
 Welcome back to the **Selenium C# Mastery Series**! 
