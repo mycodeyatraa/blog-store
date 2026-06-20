@@ -927,7 +927,7 @@
     "id": "selenium-csharp-mastery",
     "title": "Selenium C# Mastery",
     "description": "Master UI Automation using Selenium WebDriver and C# .NET",
-    "posts": [
+    "articleIds": [
       "selenium-csharp-setup-project"
     ]
   }
