@@ -18209,5 +18209,39 @@
     "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-473",
+    "slug": "selenium-csharp-nunit-assertions",
+    "title": "Mastering NUnit Assertions (Assert.That) in Selenium C#",
+    "description": "Learn how to write robust validations in your Selenium scripts using the modern NUnit constraint model.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-csharp-nunit-assertions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "readTime": "6 min read",
+    "date": "2026-06-20T00:00:00Z",
+    "draft": false,
+    "categories": [
+      "Selenium C#",
+      "Test Automation",
+      "NUnit"
+    ],
+    "tags": [
+      "Selenium",
+      "C#",
+      ".NET",
+      "NUnit",
+      "Assertions",
+      "Test Validation"
+    ],
+    "series": "selenium-csharp-mastery",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
