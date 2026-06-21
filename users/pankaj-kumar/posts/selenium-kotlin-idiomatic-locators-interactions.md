@@ -21,7 +21,6 @@ Today, we will build a suite of Idiomatic Kotlin extensions to make finding and 
 ## 1. Building Extension Functions
 
 Let's create a new package in your `src/main/kotlin/` folder called `com.mycodeyatra.extensions` and create a file named `WebDriverExtensions.kt`.
-
 ```kotlin
 package com.mycodeyatra.extensions
 import org.openqa.selenium.By
@@ -46,7 +45,6 @@ By defining these functions, any `WebDriver` instance in our entire project now 
 ## 2. Testing Locators and Interactions
 
 Now, let's see how much cleaner our tests look. Create `Blog2_LocatorsTest.kt` in `src/test/kotlin/com/mycodeyatra/tests/`:
-
 ```kotlin
 package com.mycodeyatra.tests
 import com.mycodeyatra.extensions.*
@@ -91,11 +89,10 @@ class Blog2_LocatorsTest : StringSpec({
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog2_LocatorsTest
 Blog2_LocatorsTest
-  [PASS] Should locate elements using Idiomatic Kotlin extensions
+[PASS] Should locate elements using Idiomatic Kotlin extensions
 1 tests completed, 1 successes, 0 failures, 0 ignored.
 ```
 
