@@ -1149,5 +1149,14 @@
       "post-549",
       "post-550"
     ]
+  },
+  {
+    "id": "selenium-ruby-advanced",
+    "title": "Selenium Ruby Advanced",
+    "description": "Master enterprise-level test automation concepts. Learn CI/CD integration, parallel execution, API mocking, and custom framework design using Ruby.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "articleIds": [
+      "post-551"
+    ]
   }
 ]
