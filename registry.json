@@ -21015,5 +21015,41 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-547",
+    "slug": "selenium-ruby-data-driven-testing-json",
+    "title": "Advanced Data-Driven Testing with JSON in Ruby",
+    "description": "Level up your Data-Driven Testing. Learn how to parse complex, hierarchical JSON files natively in Ruby to feed dynamic data into your RSpec suite.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-data-driven-testing-json.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "28-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Intermediate"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Data-Driven Testing",
+      "JSON",
+      "RSpec"
+    ],
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
