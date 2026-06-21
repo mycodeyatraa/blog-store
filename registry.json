@@ -21625,5 +21625,41 @@
     "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-564",
+    "slug": "selenium-ruby-api-testing-rest-client",
+    "title": "API Integration Testing with Rest-Client",
+    "description": "Speed up your test execution by seeding test data via REST APIs. Learn how to use the rest-client gem to perform HTTP GET and POST requests directly in Ruby.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-api-testing-rest-client.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "14-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Advanced"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "API Testing",
+      "Rest-Client",
+      "Data Seeding"
+    ],
+    "series": "selenium-ruby-advanced",
+    "seriesOrder": 14,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
