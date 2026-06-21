@@ -1132,5 +1132,14 @@
       "post-540",
       "post-541"
     ]
+  },
+  {
+    "id": "selenium-ruby-intermediate",
+    "title": "Selenium Ruby Intermediate",
+    "description": "Transition from basic scripts to robust, architecturally sound test automation frameworks using Page Object Models and RSpec hooks.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "articleIds": [
+      "post-542"
+    ]
   }
 ]
