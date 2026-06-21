@@ -20511,5 +20511,41 @@
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-533",
+    "slug": "selenium-ruby-webdriver-architecture",
+    "title": "WebDriver Architecture & Your First Ruby Script",
+    "description": "Understand exactly how the W3C WebDriver Protocol communicates between Ruby and the browser, and write a detailed script to fetch live page metrics.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-webdriver-architecture.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "14-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Fundamentals"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Architecture",
+      "W3C Protocol",
+      "WebDriver"
+    ],
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
