@@ -19481,9 +19481,8 @@
   {
     "title": "Advanced Interactions using Action Chains in Selenium Kotlin",
     "description": "Master complex interactions in Selenium Kotlin using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining.",
-    "author": "Pankaj Kumar",
+    "author": "pankaj-kumar",
     "date": "21-Jun-2026",
-    "path": "users/pankaj-kumar/posts/selenium-kotlin-action-chains-mouse-keyboard.md",
     "categories": [
       "Selenium Kotlin",
       "Test Automation"
@@ -19497,6 +19496,24 @@
       "RightClick",
       "Keyboard"
     ],
-    "id": "post-505"
+    "id": "post-505",
+    "slug": "selenium-kotlin-action-chains-mouse-keyboard",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-action-chains-mouse-keyboard.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "draft": false,
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
