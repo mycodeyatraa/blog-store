@@ -20619,5 +20619,41 @@
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-536",
+    "slug": "selenium-ruby-implicit-explicit-waits",
+    "title": "Managing WebDriver Delays: Implicit vs. Explicit Waits",
+    "description": "Stop using sleep! Learn how to stabilize your Ruby test automation suite using Implicit and Explicit Waits with Selenium WebDriver.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-implicit-explicit-waits.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "17-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Fundamentals"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Waits",
+      "Explicit Wait",
+      "Synchronization"
+    ],
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
