@@ -20763,5 +20763,41 @@
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-540",
+    "slug": "selenium-ruby-javascript-alerts",
+    "title": "Handling JavaScript Alerts, Prompts, and Confirmations",
+    "description": "Master the SwitchTo API in Ruby. Learn how to accept, dismiss, and extract text from un-inspectable JavaScript alert popups.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-javascript-alerts.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "21-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Fundamentals"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Alerts",
+      "SwitchTo",
+      "JavaScript"
+    ],
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
