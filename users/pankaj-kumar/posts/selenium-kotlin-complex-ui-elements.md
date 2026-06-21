@@ -92,13 +92,10 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog3_ComplexElementsTest
-
 Blog3_ComplexElementsTest
   [PASS] Should select an option from a standard dropdown
   [PASS] Should iterate and click multiple checkboxes using Kotlin Collections
-
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
