@@ -22,47 +22,34 @@ Let's look at a practical example using [The Internet's iFrame page](https://the
 
 ```kotlin
 package com.mycodeyatra.tests
-
 import com.mycodeyatra.utils.DriverManager
 import com.mycodeyatra.utils.waitForElementVisible
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
-
 class Blog22_FramesTest : StringSpec({
-
     var driver: WebDriver? = null
-
     beforeSpec {
         driver = DriverManager.getHeadlessChromeDriver()
         driver?.manage()?.window()?.maximize()
     }
-
     afterSpec {
         driver?.quit()
     }
-
     "Switching to an iFrame and interacting with it" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
-        
         webDriver.get("https://the-internet.herokuapp.com/iframe")
-        
         // Switch to the iframe using its ID
         webDriver.switchTo().frame("mce_0_ifr")
-        
         // Now inside the iframe, locate the TinyMCE rich text editor body
         val editorBody = webDriver.waitForElementVisible(By.id("tinymce"))
-        
         // Type something new (avoiding .clear() as it throws InvalidElementState on body elements)
         editorBody.sendKeys(" Hello from Selenium Kotlin inside an iFrame!")
-        
         // Verify the text was successfully written
         editorBody.text.contains("Hello from Selenium Kotlin inside an iFrame!") shouldBe true
-        
         // VERY IMPORTANT: Switch back to the main document context
         webDriver.switchTo().defaultContent()
-        
         // Verify we are back by interacting with the page title outside the iframe
         val pageTitle = webDriver.findElement(By.cssSelector("h3"))
         pageTitle.text shouldBe "An iFrame containing the TinyMCE WYSIWYG Editor"
@@ -82,27 +69,20 @@ Let's test this against a nested layout at [The Internet's Nested Frames page](h
 ```kotlin
     "Navigating Nested Frames" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
-        
         webDriver.get("https://the-internet.herokuapp.com/nested_frames")
-        
         // The top section is a frameset. First, switch to the top frame (by name)
         webDriver.switchTo().frame("frame-top")
-        
         // Inside 'frame-top', there are 3 frames. Switch to the middle one
         webDriver.switchTo().frame("frame-middle")
-        
         // Verify we are in the middle frame
         val middleText = webDriver.findElement(By.id("content")).text
         middleText shouldBe "MIDDLE"
-        
         // Switch up ONE level to the parent frame ('frame-top')
         webDriver.switchTo().parentFrame()
-        
         // Now switch down into the right frame
         webDriver.switchTo().frame("frame-right")
         val rightText = webDriver.findElement(By.tagName("body")).text
         rightText.trim() shouldBe "RIGHT"
-        
         // Return to the absolute top-level context
         webDriver.switchTo().defaultContent()
     }
@@ -120,7 +100,6 @@ Let's test this against a nested layout at [The Internet's Nested Frames page](h
 ```
 Initializing Headless Chrome Driver for CI/CD...
 Waiting up to 10 seconds for element: By.id: tinymce
-
 Tests: 2, Passed: 2, Failed: 0
 ```
 
