@@ -50,7 +50,6 @@ class Blog3_ComplexElementsTest : StringSpec({
         // Verify the selection
         countryDropdown.firstSelectedOption.text shouldBe "Canada"
     }
-
 ```
 
 ---
@@ -75,7 +74,6 @@ In Java, this requires an ugly loop. In Kotlin, we use `.filter` and `.forEach`:
         allSelected shouldBe true
     }
 })
-
 ```
 
 ### Breaking down the Kotlin Magic:
@@ -98,7 +96,6 @@ Blog3_ComplexElementsTest
 [PASS] Should select an option from a standard dropdown
 [PASS] Should iterate and click multiple checkboxes using Kotlin Collections
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
