@@ -40,7 +40,6 @@ fun WebDriver.waitForElementClickable(locator: By, timeoutInSeconds: Long = 10):
     val wait = WebDriverWait(this, Duration.ofSeconds(timeoutInSeconds))
     return wait.until(ExpectedConditions.elementToBeClickable(locator))
 }
-
 ```
 
 ### Why this is brilliant:
@@ -85,7 +84,6 @@ class Blog4_SynchronizationTest : StringSpec({
         confirmBtn.click()
     }
 })
-
 ```
 
 ---
@@ -110,7 +108,6 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog4_SynchronizationTest
 [PASS] Should wait for dynamic elements to load
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
