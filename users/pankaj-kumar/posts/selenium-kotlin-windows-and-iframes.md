@@ -25,6 +25,7 @@ When a new tab opens, your browser assigns it an alphanumeric ID called a "Windo
 In Java, this usually involves a clunky `for` loop over a `Set<String>`. In Kotlin, we can use the beautifully concise `.firstOrNull()` operator!
 
 Create `Blog6_WindowsAndFramesTest.kt` in your tests folder:
+
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -58,6 +59,7 @@ class Blog6_WindowsAndFramesTest : StringSpec({
         driver.switchTo().window(originalWindow)
         driver.title shouldBe "Practice Windows"
     }
+
 ```
 
 ### Breaking down the Kotlin Magic:
@@ -74,6 +76,7 @@ You can switch to a frame using three methods:
 1. **Index** (e.g., `frame(0)` - Not recommended as UI changes break it)
 2. **Name or ID** (e.g., `frame("payment-frame")`)
 3. **WebElement** (Recommended)
+
 ```kotlin
     "Should interact with elements inside an iFrame" {
         driver.get("https://mycodeyatra.com/practice/iframes")
@@ -91,6 +94,7 @@ You can switch to a frame using three methods:
         mainPageHeader shouldBe "iFrame Practice"
     }
 })
+
 ```
 
 ### The Golden Rule of iFrames:
@@ -110,6 +114,7 @@ Blog6_WindowsAndFramesTest
 [PASS] Should switch to a new tab and back
 [PASS] Should interact with elements inside an iFrame
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
@@ -119,3 +124,4 @@ Handling multiple contexts is a critical skill for senior automation engineers. 
 In the next blog, we will cover **File Uploads and Downloads in Kotlin**, conquering native OS dialogs and hidden input fields!
 
 Happy Automating!
+
