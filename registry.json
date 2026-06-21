@@ -20438,5 +20438,42 @@
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-531",
+    "slug": "selenium-kotlin-advanced-cdp-network-interception",
+    "title": "Advanced Selenium 4 Features in Kotlin: CDP & Network Interception",
+    "description": "Master the Chrome DevTools Protocol (CDP) using Selenium 4 and Kotlin. Learn how to emulate device geolocation and intercept network requests on the fly.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-advanced-cdp-network-interception.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "12-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Advanced",
+      "CDP"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "CDP",
+      "Network Interception",
+      "Advanced"
+    ],
+    "series": "selenium-kotlin-advanced-scenarios",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
