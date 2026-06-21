@@ -94,7 +94,6 @@ Blog8_ScreenshotsTest
   [PASS] Should take a full page screenshot
   [PASS] Should take an element-level screenshot
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ---
