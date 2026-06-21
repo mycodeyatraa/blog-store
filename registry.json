@@ -19885,5 +19885,41 @@
     "seriesOrder": 19,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-516",
+    "slug": "selenium-kotlin-capturing-screenshots",
+    "title": "Capturing Screenshots during Test Execution in Selenium Kotlin",
+    "description": "Learn how to capture crucial visual evidence during automation. This post covers full-page and element-level screenshots using Selenium Kotlin.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-capturing-screenshots.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "25-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Screenshots",
+      "Automation",
+      "Kotest"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 20,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
