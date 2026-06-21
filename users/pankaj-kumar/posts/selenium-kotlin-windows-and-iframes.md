@@ -106,14 +106,15 @@ Always remember to call `driver.switchTo().defaultContent()` when you are finish
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
 
-```
+```text
 [INFO] Running com.mycodeyatra.tests.Blog6_WindowsAndFramesTest
 
 Blog6_WindowsAndFramesTest
-  ✓ Should switch to a new tab and back
-  ✓ Should interact with elements inside an iFrame
+  [PASS] Should switch to a new tab and back
+  [PASS] Should interact with elements inside an iFrame
 
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
