@@ -88,12 +88,13 @@ Because `WebElement` *already* implements the `TakesScreenshot` interface, no ca
 
 When executing this test suite via Kotest, you will see the following output confirming the screenshots were saved successfully to your disk:
 
-```
+```text
 [INFO] Running com.mycodeyatra.tests.Blog8_ScreenshotsTest
 Blog8_ScreenshotsTest
-  ✓ Should take a full page screenshot
-  ✓ Should take an element-level screenshot
+  [PASS] Should take a full page screenshot
+  [PASS] Should take an element-level screenshot
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ---
