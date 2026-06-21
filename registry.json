@@ -19849,5 +19849,41 @@
     "seriesOrder": 18,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-515",
+    "slug": "selenium-kotlin-file-handling",
+    "title": "Uploading and Downloading files using Selenium Kotlin",
+    "description": "Master file handling in Selenium Kotlin by learning how to seamlessly upload files using sendKeys and download files by configuring ChromeOptions.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-file-handling.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "24-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "File Handling",
+      "Automation",
+      "Kotest"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 19,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
