@@ -159,12 +159,9 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog1_SetupTest
-
 Blog1_SetupTest
   [PASS] Should navigate to MyCodeYatra and verify title
-
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
