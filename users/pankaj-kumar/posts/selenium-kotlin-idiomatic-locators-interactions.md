@@ -94,12 +94,9 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog2_LocatorsTest
-
 Blog2_LocatorsTest
   [PASS] Should locate elements using Idiomatic Kotlin extensions
-
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
