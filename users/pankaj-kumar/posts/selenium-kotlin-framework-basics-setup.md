@@ -102,7 +102,6 @@ Create a new directory for your project and initialize a standard `pom.xml` file
         </plugins>
     </build>
 </project>
-
 ```
 
 ### Why Kotest?
@@ -143,7 +142,6 @@ class Blog1_SetupTest : StringSpec({
         title shouldContain "MyCodeYatra"
     }
 })
-
 ```
 
 ### Key Kotlin Features Demonstrated:
@@ -164,7 +162,6 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog1_SetupTest
 [PASS] Should navigate to MyCodeYatra and verify title
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
