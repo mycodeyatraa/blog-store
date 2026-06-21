@@ -23,7 +23,6 @@ Today, we will combine `WebDriverWait` with **Kotlin Extension Functions** to cr
 Let's expand our `WebDriverExtensions.kt` file. We want to be able to say `driver.waitForElementVisible(By.id(...))` instead of typing out the verbose `new WebDriverWait(...)` syntax every single time.
 
 Add the following to `src/main/kotlin/com/mycodeyatra/extensions/WebDriverExtensions.kt`:
-
 ```kotlin
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
@@ -50,7 +49,6 @@ fun WebDriver.waitForElementClickable(locator: By, timeoutInSeconds: Long = 10):
 ## 2. Implementing the Waits in Tests
 
 Let's see this in action. Create `Blog4_SynchronizationTest.kt` in your tests folder:
-
 ```kotlin
 package com.mycodeyatra.tests
 import com.mycodeyatra.extensions.waitForElementClickable
@@ -102,11 +100,10 @@ By utilizing our custom Kotlin Extension functions, you keep your framework 100%
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog4_SynchronizationTest
 Blog4_SynchronizationTest
-  [PASS] Should wait for dynamic elements to load
+[PASS] Should wait for dynamic elements to load
 1 tests completed, 1 successes, 0 failures, 0 ignored.
 ```
 
