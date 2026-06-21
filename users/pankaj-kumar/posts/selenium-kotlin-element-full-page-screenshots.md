@@ -53,7 +53,6 @@ class Blog8_ScreenshotsTest : StringSpec({
         tempFile.copyTo(destinationFile, overwrite = true)
         destinationFile.exists() shouldBe true
     }
-
 ```
 
 ### Breaking down the Kotlin Magic:
@@ -81,7 +80,6 @@ Because `WebElement` *already* implements the `TakesScreenshot` interface, no ca
         destinationFile.exists() shouldBe true
     }
 })
-
 ```
 
 ---
@@ -96,7 +94,6 @@ Blog8_ScreenshotsTest
 [PASS] Should take a full page screenshot
 [PASS] Should take an element-level screenshot
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ---
