@@ -19958,5 +19958,42 @@
     "seriesOrder": 21,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-518",
+    "slug": "selenium-kotlin-iframes-nested-frames",
+    "title": "Handling iFrames and Nested Frames in Selenium Kotlin",
+    "description": "Overcome NoSuchElementException issues by mastering iFrame context switching in Selenium Kotlin. Learn how to navigate nested frame hierarchies effortlessly.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-iframes-nested-frames.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "27-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "iFrames",
+      "Frames",
+      "Automation",
+      "Kotest"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 22,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
