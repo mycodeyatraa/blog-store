@@ -90,14 +90,15 @@ In Java, this requires an ugly loop. In Kotlin, we use `.filter` and `.forEach`:
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
 
-```
+```text
 [INFO] Running com.mycodeyatra.tests.Blog3_ComplexElementsTest
 
 Blog3_ComplexElementsTest
-  ✓ Should select an option from a standard dropdown
-  ✓ Should iterate and click multiple checkboxes using Kotlin Collections
+  [PASS] Should select an option from a standard dropdown
+  [PASS] Should iterate and click multiple checkboxes using Kotlin Collections
 
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
