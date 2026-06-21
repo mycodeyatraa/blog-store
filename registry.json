@@ -21051,5 +21051,41 @@
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-548",
+    "slug": "selenium-ruby-rspec-assertions-matchers",
+    "title": "Mastering RSpec Assertions and Built-in Matchers",
+    "description": "Go beyond simple equality checks. Learn how to use RSpec's powerful built-in matchers to validate UI states like visibility, text matching, and element presence.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-rspec-assertions-matchers.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "29-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Intermediate"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "RSpec",
+      "Assertions",
+      "Matchers"
+    ],
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
