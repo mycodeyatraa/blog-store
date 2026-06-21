@@ -21,7 +21,6 @@ Today, we will learn how to handle both of these scenarios gracefully using idio
 A JavaScript Alert (`window.alert()`) completely blocks the browser until it is dismissed. Selenium handles this by temporarily switching context.
 
 Let's create `Blog5_AlertsAndJsTest.kt` in `src/test/kotlin/com/mycodeyatra/tests/`:
-
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -61,7 +60,6 @@ In Java, executing Javascript is famously ugly because you have to cast the `Web
 `((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 500)");`
 
 In Kotlin, we can completely hide this ugly cast by writing an **Extension Function**! Add this to your `WebDriverExtensions.kt`:
-
 ```kotlin
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
@@ -79,7 +77,6 @@ fun WebDriver.executeJs(script: String, vararg args: Any): Any? {
 ### Using the Extension
 
 Now, let's use it in our test file to scroll the page and click a hidden element:
-
 ```kotlin
     "Should execute Javascript to scroll and click" {
         driver.get("https://mycodeyatra.com/practice/scrolling")
@@ -100,12 +97,11 @@ Now, let's use it in our test file to scroll the page and click a hidden element
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog5_AlertsAndJsTest
 Blog5_AlertsAndJsTest
-  [PASS] Should accept a JS Prompt Alert
-  [PASS] Should execute Javascript to scroll and click
+[PASS] Should accept a JS Prompt Alert
+[PASS] Should execute Javascript to scroll and click
 2 tests completed, 2 successes, 0 failures, 0 ignored.
 ```
 
