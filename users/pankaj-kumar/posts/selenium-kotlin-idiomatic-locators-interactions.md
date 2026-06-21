@@ -21,6 +21,7 @@ Today, we will build a suite of Idiomatic Kotlin extensions to make finding and 
 ## 1. Building Extension Functions
 
 Let's create a new package in your `src/main/kotlin/` folder called `com.mycodeyatra.extensions` and create a file named `WebDriverExtensions.kt`.
+
 ```kotlin
 package com.mycodeyatra.extensions
 import org.openqa.selenium.By
@@ -36,6 +37,7 @@ fun WebElement.clearAndType(text: String) {
     this.clear()
     this.sendKeys(text)
 }
+
 ```
 
 By defining these functions, any `WebDriver` instance in our entire project now magically has `.findById()` as a native method!
@@ -45,6 +47,7 @@ By defining these functions, any `WebDriver` instance in our entire project now 
 ## 2. Testing Locators and Interactions
 
 Now, let's see how much cleaner our tests look. Create `Blog2_LocatorsTest.kt` in `src/test/kotlin/com/mycodeyatra/tests/`:
+
 ```kotlin
 package com.mycodeyatra.tests
 import com.mycodeyatra.extensions.*
@@ -75,6 +78,7 @@ class Blog2_LocatorsTest : StringSpec({
         driver.currentUrl shouldBe "https://mycodeyatra.com/practice/dashboard"
     }
 })
+
 ```
 
 ### Why this is a Game Changer:
@@ -95,6 +99,7 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog2_LocatorsTest
 [PASS] Should locate elements using Idiomatic Kotlin extensions
 1 tests completed, 1 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
@@ -104,3 +109,4 @@ By leveraging Kotlin Extension Functions, we've stripped away the Java verbosity
 In the next blog, we will tackle **Handling Complex UI Elements** like Dropdowns, Checkboxes, and multi-select lists using Kotlin's powerful collection API!
 
 Happy Automating!
+
