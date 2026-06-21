@@ -20655,5 +20655,41 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-537",
+    "slug": "selenium-ruby-custom-waits",
+    "title": "Advanced Synchronization: Custom Waits in Ruby",
+    "description": "Master advanced UI synchronization. Learn to write your own custom polling conditions to wait for exact application states using Selenium::WebDriver::Wait.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-custom-waits.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "18-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Fundamentals"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Waits",
+      "Custom Conditions",
+      "Synchronization"
+    ],
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
