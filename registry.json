@@ -19515,5 +19515,42 @@
     "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "blog-6",
+    "title": "Git Essentials: Mastering the Core Workflow and the Three States",
+    "slug": "git-essentials-mastering-the-core-workflow-and-the-three-states",
+    "author": "Abhishek-sinha",
+    "excerpt": "Your code is a living organism.. It evolves daily, branches into experimental features, and, occasionally, breaks in unexpected ways..",
+    "date": "2026-06-21",
+    "readTime": "6 min read",
+    "category": "Git",
+    "categories": [
+      "Git",
+      "Github",
+      "Version Control"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "git",
+      "github",
+      "version-control",
+      "devops"
+    ],
+    "draft": false,
+    "contentPath": "users/Abhishek-sinha/posts/git-essentials-mastering-the-core-workflow-and-the-three-states.md",
+    "authorDetails": {
+      "id": "Abhishek-sinha",
+      "name": "Abhishek Sinha",
+      "role": "Full Stack And Mobile Developer",
+      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
+      "bio": "Full Stack And Mobile Developer",
+      "github": "https://github.com/abhisheksinha20p",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
+    },
+    "series": "git-and-github-zero-to-production",
+    "seriesOrder": 1
   }
 ]
