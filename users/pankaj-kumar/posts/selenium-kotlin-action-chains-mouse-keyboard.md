@@ -1,11 +1,11 @@
 ---
 title: "Advanced Interactions using Action Chains in Selenium Kotlin"
-date: "21-Jun-2026"
+date: "14-Feb-2025"
 description: "Master complex interactions in Selenium Kotlin using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining."
 categories: ["Selenium Kotlin", "Test Automation"]
 tags: ["Selenium", "Kotlin", "Kotest", "Actions", "MouseHover", "RightClick", "Keyboard"]
 author: "Pankaj Kumar"
-lastUpdated: "21-Jun-2026"
+lastUpdated: "14-Feb-2025"
 ---
 
 Welcome back to the **Selenium Kotlin Mastery Series**!
