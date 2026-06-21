@@ -21661,5 +21661,41 @@
     "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-565",
+    "slug": "selenium-ruby-page-object-model",
+    "title": "The Page Object Model (POM): Architecting Your Framework",
+    "description": "Stop duplicating locators across hundreds of files! Learn how to implement the Page Object Model (POM) to create a clean, maintainable, and scalable test architecture.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-page-object-model.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "15-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Advanced"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Page Object Model",
+      "POM",
+      "Architecture"
+    ],
+    "series": "selenium-ruby-advanced",
+    "seriesOrder": 15,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
