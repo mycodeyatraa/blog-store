@@ -23,6 +23,7 @@ Today, we will combine `WebDriverWait` with **Kotlin Extension Functions** to cr
 Let's expand our `WebDriverExtensions.kt` file. We want to be able to say `driver.waitForElementVisible(By.id(...))` instead of typing out the verbose `new WebDriverWait(...)` syntax every single time.
 
 Add the following to `src/main/kotlin/com/mycodeyatra/extensions/WebDriverExtensions.kt`:
+
 ```kotlin
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
@@ -39,6 +40,7 @@ fun WebDriver.waitForElementClickable(locator: By, timeoutInSeconds: Long = 10):
     val wait = WebDriverWait(this, Duration.ofSeconds(timeoutInSeconds))
     return wait.until(ExpectedConditions.elementToBeClickable(locator))
 }
+
 ```
 
 ### Why this is brilliant:
@@ -49,6 +51,7 @@ fun WebDriver.waitForElementClickable(locator: By, timeoutInSeconds: Long = 10):
 ## 2. Implementing the Waits in Tests
 
 Let's see this in action. Create `Blog4_SynchronizationTest.kt` in your tests folder:
+
 ```kotlin
 package com.mycodeyatra.tests
 import com.mycodeyatra.extensions.waitForElementClickable
@@ -82,6 +85,7 @@ class Blog4_SynchronizationTest : StringSpec({
         confirmBtn.click()
     }
 })
+
 ```
 
 ---
@@ -106,6 +110,7 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog4_SynchronizationTest
 [PASS] Should wait for dynamic elements to load
 1 tests completed, 1 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
@@ -115,3 +120,4 @@ With Kotlin's extension functions and default parameter values, implementing Exp
 In our next blog, we will tackle **Handling Alerts and Javascript Execution**, exploring how Kotlin interoperates seamlessly with the browser's native JS engine!
 
 Happy Automating!
+
