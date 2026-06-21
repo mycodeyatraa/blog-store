@@ -20327,5 +20327,42 @@
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-528",
+    "slug": "selenium-kotlin-docker-grid",
+    "title": "Dockerizing Selenium Kotlin: Running Tests on Selenium Grid",
+    "description": "Learn how to decouple your test execution from your local machine by spinning up a Selenium Grid using Docker Compose and executing Kotest specs remotely.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-docker-grid.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "09-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Docker"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Docker",
+      "Grid",
+      "CI/CD",
+      "DevOps"
+    ],
+    "series": "selenium-kotlin-advanced-scenarios",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
