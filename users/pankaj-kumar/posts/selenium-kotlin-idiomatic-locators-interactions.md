@@ -37,7 +37,6 @@ fun WebElement.clearAndType(text: String) {
     this.clear()
     this.sendKeys(text)
 }
-
 ```
 
 By defining these functions, any `WebDriver` instance in our entire project now magically has `.findById()` as a native method!
@@ -78,7 +77,6 @@ class Blog2_LocatorsTest : StringSpec({
         driver.currentUrl shouldBe "https://mycodeyatra.com/practice/dashboard"
     }
 })
-
 ```
 
 ### Why this is a Game Changer:
@@ -99,7 +97,6 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog2_LocatorsTest
 [PASS] Should locate elements using Idiomatic Kotlin extensions
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
