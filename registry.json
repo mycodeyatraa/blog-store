@@ -20179,5 +20179,42 @@
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-524",
+    "slug": "selenium-kotlin-screenplay-pattern",
+    "title": "Screenplay Pattern in Selenium Kotlin: Refactoring POM with SOLID Principles",
+    "description": "Elevate your automation architecture by implementing a lightweight Screenplay Pattern in Kotlin, focusing on Actions, Tasks, and Actors rather than bare Page Objects.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-screenplay-pattern.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "05-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Screenplay",
+      "Design Patterns",
+      "SOLID",
+      "Architecture"
+    ],
+    "series": "selenium-framework-design-and-patterns-in-kotlin",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
