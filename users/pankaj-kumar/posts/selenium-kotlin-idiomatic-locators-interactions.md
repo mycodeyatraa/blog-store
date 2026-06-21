@@ -92,7 +92,7 @@ class Blog2_LocatorsTest : StringSpec({
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
 
-```text
+```bash
 [INFO] Running com.mycodeyatra.tests.Blog2_LocatorsTest
 
 Blog2_LocatorsTest
