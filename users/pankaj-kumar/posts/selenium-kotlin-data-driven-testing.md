@@ -1,11 +1,11 @@
 ---
 title: "Handling Dynamic Data (Data-Driven Testing)"
-date: "21-Jun-2026"
+date: "15-Feb-2025"
 description: "Take your Selenium tests to the enterprise level. Learn how to implement Data-Driven Testing (DDT) using Kotlin Data Classes to run the same test across multiple datasets automatically."
 categories: ["Selenium Kotlin", "Test Automation"]
 tags: ["Selenium", "Kotlin", "Kotest", "DDT", "Data-Driven", "DataClass"]
 author: "Pankaj Kumar"
-lastUpdated: "21-Jun-2026"
+lastUpdated: "15-Feb-2025"
 ---
 
 Welcome back to the **Selenium Kotlin Mastery Series**!
