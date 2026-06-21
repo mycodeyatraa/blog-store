@@ -1091,5 +1091,22 @@
       "post-523",
       "post-524"
     ]
+  },
+  {
+    "id": "selenium-kotlin-advanced-scenarios",
+    "title": "Selenium with Kotlin: Advanced Scenarios & BDD",
+    "description": "Master BDD with Kotest, API Testing integration, GitHub Actions CI/CD pipelines, and advanced automation scenarios.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_kotlin.png",
+    "author": "pankaj-kumar",
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Advanced",
+      "BDD",
+      "CI/CD"
+    ],
+    "articleIds": [
+      "post-525"
+    ]
   }
 ]
