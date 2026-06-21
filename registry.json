@@ -20401,5 +20401,42 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-530",
+    "slug": "selenium-kotlin-cross-browser-parallel-testing",
+    "title": "Cross-Browser Parallel Testing in Selenium Kotlin using Kotest",
+    "description": "Slash your test suite execution time by refactoring your Driver Manager for cross-browser support and executing tests simultaneously across Chrome, Firefox, and Edge using Kotest's parallel engine.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-cross-browser-parallel-testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "11-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Parallel Testing"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Parallel Testing",
+      "Cross Browser",
+      "Kotest",
+      "Performance"
+    ],
+    "series": "selenium-kotlin-advanced-scenarios",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
