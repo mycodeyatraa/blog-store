@@ -19921,5 +19921,42 @@
     "seriesOrder": 20,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-517",
+    "slug": "selenium-kotlin-advanced-interactions",
+    "title": "Advanced Interactions: Mouse Hover and Drag-and-Drop using the Actions Class",
+    "description": "Take control of complex user interactions in Selenium Kotlin by mastering the Actions class to perform mouse hovers and drag-and-drop operations.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-advanced-interactions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "26-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Actions",
+      "Mouse Hover",
+      "Automation",
+      "Kotest"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 21,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
