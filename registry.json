@@ -21411,5 +21411,41 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-558",
+    "slug": "selenium-ruby-multiple-windows-tabs",
+    "title": "Handling Multiple Browser Windows and Tabs",
+    "description": "When clicking a link opens a new tab, Selenium doesn't automatically follow it. Learn how to manage window handles and switch context seamlessly in Ruby.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-multiple-windows-tabs.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "08-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Advanced"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Window Handles",
+      "Tabs",
+      "Context Switching"
+    ],
+    "series": "selenium-ruby-advanced",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
