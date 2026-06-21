@@ -30,6 +30,7 @@ Before we start, ensure you have the following installed on your machine:
 ## 2. Project Initialization
 
 Create a new directory for your project and initialize a standard `pom.xml` file.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -101,6 +102,7 @@ Create a new directory for your project and initialize a standard `pom.xml` file
         </plugins>
     </build>
 </project>
+
 ```
 
 ### Why Kotest?
@@ -114,6 +116,7 @@ In your project, create the following directory structure:
 `src/test/kotlin/com/mycodeyatra/tests/`
 
 Create a file named `Blog1_SetupTest.kt`:
+
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -140,6 +143,7 @@ class Blog1_SetupTest : StringSpec({
         title shouldContain "MyCodeYatra"
     }
 })
+
 ```
 
 ### Key Kotlin Features Demonstrated:
@@ -160,6 +164,7 @@ When executing this test suite via Kotest, you will see the following output in 
 Blog1_SetupTest
 [PASS] Should navigate to MyCodeYatra and verify title
 1 tests completed, 1 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
@@ -169,3 +174,4 @@ Congratulations! You have successfully stepped into the modern era of JVM testin
 In the next blog, we will dive into **Idiomatic Locators and Interactions**, exploring how to leverage Kotlin's unique features to make element interaction seamless!
 
 Happy Automating!
+
