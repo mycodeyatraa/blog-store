@@ -21,7 +21,6 @@ Visual evidence is mandatory for a robust automation framework. Today, we will e
 Selenium provides the `TakesScreenshot` interface. We simply cast our `WebDriver` to this interface and call `getScreenshotAs()`.
 
 Create `Blog8_ScreenshotsTest.kt` in your tests folder:
-
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -66,7 +65,6 @@ class Blog8_ScreenshotsTest : StringSpec({
 Introduced in Selenium 4, we can now take a screenshot of a *specific* WebElement! This is incredibly useful for visual regression testing (comparing the pixels of a chart or button against a baseline image).
 
 Because `WebElement` *already* implements the `TakesScreenshot` interface, no casting is required!
-
 ```kotlin
     "Should take an element-level screenshot" {
         driver.get("https://mycodeyatra.com/practice/login")
@@ -87,12 +85,11 @@ Because `WebElement` *already* implements the `TakesScreenshot` interface, no ca
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output confirming the screenshots were saved successfully to your disk:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog8_ScreenshotsTest
 Blog8_ScreenshotsTest
-  [PASS] Should take a full page screenshot
-  [PASS] Should take an element-level screenshot
+[PASS] Should take a full page screenshot
+[PASS] Should take an element-level screenshot
 2 tests completed, 2 successes, 0 failures, 0 ignored.
 ```
 
