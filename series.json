@@ -1114,5 +1114,14 @@
       "post-530",
       "post-531"
     ]
+  },
+  {
+    "id": "selenium-ruby-fundamentals",
+    "title": "Selenium Ruby Fundamentals",
+    "description": "Master the absolute basics of browser automation using Selenium 4, Ruby, and RSpec.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "articleIds": [
+      "post-532"
+    ]
   }
 ]
