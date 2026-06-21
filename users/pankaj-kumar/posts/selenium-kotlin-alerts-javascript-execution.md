@@ -101,14 +101,15 @@ Now, let's use it in our test file to scroll the page and click a hidden element
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
 
-```
+```text
 [INFO] Running com.mycodeyatra.tests.Blog5_AlertsAndJsTest
 
 Blog5_AlertsAndJsTest
-  ✓ Should accept a JS Prompt Alert
-  ✓ Should execute Javascript to scroll and click
+  [PASS] Should accept a JS Prompt Alert
+  [PASS] Should execute Javascript to scroll and click
 
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ## Conclusion
