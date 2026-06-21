@@ -1026,16 +1026,27 @@
     ]
   },
   {
-    "id": "selenium-kotlin-framework-basics",
-    "title": "Selenium Kotlin Framework Basics",
-    "description": "Master the absolute fundamentals of driving browsers using idiomatic Kotlin and the Kotest testing framework.",
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "id": "git-and-github-zero-to-production",
+    "title": "Git and GitHub: Zero to Production",
+    "description": "A practical guide to mastering Git version control, branching strategies, and GitHub workflows, designed to take developers from local repositories to production-grade team collaboration.",
+    "author": "Abhishek-sinha",
+    "articleIds": [
+      "blog-6"
+    ],
+    "status": "ongoing",
+    "createdAt": "2026-06-21"
+  },
+  {
+    "id": "selenium-kotlin-zero-to-automation",
+    "title": "Selenium with Kotlin: Zero to Automation",
+    "description": "Master the fundamentals of Selenium WebDriver with Kotlin and Kotest.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_kotlin.png",
     "author": "pankaj-kumar",
-    "authorDetails": {
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    },
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Automation"
+    ],
     "articleIds": [
       "post-497",
       "post-498",
@@ -1058,20 +1069,24 @@
       "post-516",
       "post-517",
       "post-518",
-      "post-519",
-      "post-520",
-      "post-521"
+      "post-519"
     ]
   },
   {
-    "id": "git-and-github-zero-to-production",
-    "title": "Git and GitHub: Zero to Production",
-    "description": "A practical guide to mastering Git version control, branching strategies, and GitHub workflows, designed to take developers from local repositories to production-grade team collaboration.",
-    "author": "Abhishek-sinha",
-    "articleIds": [
-      "blog-6"
+    "id": "selenium-framework-design-and-patterns-in-kotlin",
+    "title": "Selenium Framework Design & Patterns in Kotlin",
+    "description": "Elevate your automation framework with advanced Page Object Models, Driver Factories, and Data-Driven paradigms in Kotlin.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_kotlin.png",
+    "author": "pankaj-kumar",
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Framework",
+      "POM"
     ],
-    "status": "ongoing",
-    "createdAt": "2026-06-21"
+    "articleIds": [
+      "post-520",
+      "post-521"
+    ]
   }
 ]
