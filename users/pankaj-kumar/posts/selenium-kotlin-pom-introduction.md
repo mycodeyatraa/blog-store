@@ -1,31 +1,33 @@
 ---
 title: "Introduction to the Page Object Model (POM) Design Pattern in Selenium Kotlin"
 date: "2025-03-01"
-description: "Transition from messy, unmaintainable scripts to scalable architecture. Learn how to implement the Page Object Model (POM) design pattern in Selenium Kotlin."
+description: "Transition from messy, unmaintainable scripts to scalable architecture. Learn how to implement the Page Object Model (POM) design pattern in Selenium Kotlin using our live practice sandbox."
 tags: ["Selenium", "Kotlin", "POM", "Page Object Model", "Architecture", "Design Patterns"]
 ---
 
 Up to this point in our series, we have been writing all of our Selenium logic—finding elements, typing text, clicking buttons, and asserting results—directly inside our test files. 
 
-While this works for simple scripts, it becomes an absolute nightmare in large enterprise applications. If the ID of the login button changes, you would have to manually update dozens of test files! 
+While this works for simple scripts, it becomes an absolute nightmare in large enterprise applications. If the `data-testid` of the login button changes, you would have to manually update dozens of test files! 
 
 This is where the **Page Object Model (POM)** design pattern comes in. 
 
-In this 24th post of our Selenium Kotlin Mastery Series, we will completely decouple our UI interactions from our test assertions to create a clean, maintainable, and scalable framework.
+*Note: In older Selenium versions (especially in Java), developers relied heavily on the `PageFactory` class and `@FindBy` annotations. However, PageFactory is largely considered **deprecated** and clunky in modern automation. In Kotlin, we use native language features like `by lazy` for a cleaner, fluent approach.*
+
+In this 24th post of our Selenium Kotlin Mastery Series, we will decouple our UI interactions from our test assertions to create a clean framework using our live **MyCodeYatra Practice Sandbox**.
 
 ### What is the Page Object Model (POM)?
 
 The Page Object Model dictates that every web page (or significant component of a page) should be represented by a dedicated Class in your code. 
 
-1. **Locators** (e.g., `By.id("username")`) belong to the Page Class.
+1. **Locators** (e.g., `By.cssSelector("[data-testid='username']")`) belong to the Page Class.
 2. **Actions** (e.g., `clickLogin()`) belong to the Page Class.
 3. **Assertions** (`shouldBe`) belong strictly to the Test Class.
 
-The test class simply instantiates the Page Class and calls its action methods.
-
 ### Step 1: Creating the Page Class
 
-Let's refactor the classic Login scenario on [The Internet](https://the-internet.herokuapp.com/login) into a Page Object. Notice how we use Kotlin's `by lazy` delegate. This ensures that the elements are only searched for *when they are actually needed*, rather than the moment the class is instantiated.
+Let's automate the login flow on our official test site: [Practice MyCodeYatra Login](https://practice.mycodeyatra.com/#/login). 
+
+Notice how we use Kotlin's `by lazy` delegate. This ensures that elements are dynamically searched for *only when they are interacted with*, avoiding `StaleElementReferenceException` issues on page reloads.
 
 ```kotlin
 package com.mycodeyatra.pages
@@ -36,16 +38,16 @@ import org.openqa.selenium.WebElement
 class Blog24_LoginPage(private val driver: WebDriver) {
     // Locators defined using 'by lazy' for deferred evaluation
     private val usernameField: WebElement by lazy {
-        driver.waitForElementVisible(By.id("username"))
+        driver.waitForElementVisible(By.cssSelector("[data-testid='username']"))
     }
     private val passwordField: WebElement by lazy {
-        driver.waitForElementVisible(By.id("password"))
+        driver.waitForElementVisible(By.cssSelector("[data-testid='password']"))
     }
     private val loginButton: WebElement by lazy {
-        driver.waitForElementVisible(By.cssSelector("button[type='submit']"))
+        driver.waitForElementVisible(By.cssSelector("[data-testid='login-btn']"))
     }
-    private val flashMessage: WebElement by lazy {
-        driver.waitForElementVisible(By.id("flash"))
+    private val profileTitle: WebElement by lazy {
+        driver.waitForElementVisible(By.cssSelector("[data-testid='profile-title']"))
     }
     // Page Actions
     fun enterUsername(user: String) {
@@ -59,8 +61,8 @@ class Blog24_LoginPage(private val driver: WebDriver) {
     fun clickLogin() {
         loginButton.click()
     }
-    fun getFlashMessageText(): String {
-        return flashMessage.text
+    fun getProfileTitle(): String {
+        return profileTitle.text
     }
 }
 ```
@@ -69,7 +71,7 @@ By abstracting away the raw `driver.findElement` calls, this Page Class acts as 
 
 ### Step 2: Creating the Test Class
 
-Now, let's write our Kotest script. Notice how clean and readable it is. It reads almost like plain English.
+Now, let's write our Kotest script. The test logic simply instantiates the Page Object and interacts with it, leaving it completely agnostic of how the locators actually work underneath.
 
 ```kotlin
 package com.mycodeyatra.tests
@@ -87,18 +89,18 @@ class Blog24_POMTest : StringSpec({
     afterSpec {
         driver?.quit()
     }
-    "Login using Page Object Model (POM)" {
+    "Login using Page Object Model (POM) on Live URL" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
-        webDriver.get("https://the-internet.herokuapp.com/login")
+        webDriver.get("https://practice.mycodeyatra.com/#/login")
         // Initialize the Page Object
         val loginPage = Blog24_LoginPage(webDriver)
         // Perform actions using the page object methods
-        loginPage.enterUsername("tomsmith")
-        loginPage.enterPassword("SuperSecretPassword!")
+        loginPage.enterUsername("admin")
+        loginPage.enterPassword("admin123")
         loginPage.clickLogin()
         // Verify outcome using page object state
-        val successMessage = loginPage.getFlashMessageText()
-        successMessage shouldContain "You logged into a secure area!"
+        val successMessage = loginPage.getProfileTitle()
+        successMessage shouldContain "Welcome back, admin"
     }
 })
 ```
@@ -107,15 +109,15 @@ class Blog24_POMTest : StringSpec({
 
 ```
 Initializing Headless Chrome Driver for CI/CD...
-Waiting up to 10 seconds for element: By.id: username
-Waiting up to 10 seconds for element: By.id: password
-Waiting up to 10 seconds for element: By.cssSelector: button[type='submit']
-Waiting up to 10 seconds for element: By.id: flash
+Waiting up to 10 seconds for element: By.cssSelector: [data-testid='username']
+Waiting up to 10 seconds for element: By.cssSelector: [data-testid='password']
+Waiting up to 10 seconds for element: By.cssSelector: [data-testid='login-btn']
+Waiting up to 10 seconds for element: By.cssSelector: [data-testid='profile-title']
 Tests: 1, Passed: 1, Failed: 0
 ```
 
 ### Conclusion
 
-The Page Object Model is not just a nice-to-have; it is an absolute necessity for any serious automation project. It enforces the **Separation of Concerns** principle, keeping your test logic entirely separate from your UI scraping logic.
+The Page Object Model is not just a nice-to-have; it is an absolute necessity for any serious automation project. By relying on native Kotlin features like `by lazy` rather than deprecated Java annotations, we've built a robust, modern framework layer!
 
-In our next blog, we will take POM to the next level by introducing the **PageFactory** class and the `@FindBy` annotation!
+In our next blog, we will introduce **Data-Driven Testing in Selenium Kotlin**, showing you how to loop through multiple datasets gracefully!
