@@ -21,6 +21,7 @@ Visual evidence is mandatory for a robust automation framework. Today, we will e
 Selenium provides the `TakesScreenshot` interface. We simply cast our `WebDriver` to this interface and call `getScreenshotAs()`.
 
 Create `Blog8_ScreenshotsTest.kt` in your tests folder:
+
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -52,6 +53,7 @@ class Blog8_ScreenshotsTest : StringSpec({
         tempFile.copyTo(destinationFile, overwrite = true)
         destinationFile.exists() shouldBe true
     }
+
 ```
 
 ### Breaking down the Kotlin Magic:
@@ -65,6 +67,7 @@ class Blog8_ScreenshotsTest : StringSpec({
 Introduced in Selenium 4, we can now take a screenshot of a *specific* WebElement! This is incredibly useful for visual regression testing (comparing the pixels of a chart or button against a baseline image).
 
 Because `WebElement` *already* implements the `TakesScreenshot` interface, no casting is required!
+
 ```kotlin
     "Should take an element-level screenshot" {
         driver.get("https://mycodeyatra.com/practice/login")
@@ -78,6 +81,7 @@ Because `WebElement` *already* implements the `TakesScreenshot` interface, no ca
         destinationFile.exists() shouldBe true
     }
 })
+
 ```
 
 ---
@@ -92,6 +96,7 @@ Blog8_ScreenshotsTest
 [PASS] Should take a full page screenshot
 [PASS] Should take an element-level screenshot
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ---
@@ -103,3 +108,4 @@ Capturing visual evidence in Kotlin is a breeze thanks to its native File extens
 In the next blog, we will dive into **Action Chains (Mouse and Keyboard Interactions)**, learning how to handle Drag and Drop, Hovering, and complex keyboard chords!
 
 Happy Automating!
+
