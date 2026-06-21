@@ -1047,5 +1047,14 @@
       "post-504",
       "post-505"
     ]
+  },
+  {
+    "id": "git-and-github-zero-to-production",
+    "title": "Git and GitHub: Zero to Production",
+    "description": "A practical guide to mastering Git version control, branching strategies, and GitHub workflows, designed to take developers from local repositories to production-grade team collaboration.",
+    "author": "Abhishek-sinha",
+    "articleIds": [],
+    "status": "ongoing",
+    "createdAt": "2026-06-21"
   }
 ]
