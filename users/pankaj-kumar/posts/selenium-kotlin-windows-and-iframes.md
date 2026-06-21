@@ -25,7 +25,6 @@ When a new tab opens, your browser assigns it an alphanumeric ID called a "Windo
 In Java, this usually involves a clunky `for` loop over a `Set<String>`. In Kotlin, we can use the beautifully concise `.firstOrNull()` operator!
 
 Create `Blog6_WindowsAndFramesTest.kt` in your tests folder:
-
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -75,7 +74,6 @@ You can switch to a frame using three methods:
 1. **Index** (e.g., `frame(0)` - Not recommended as UI changes break it)
 2. **Name or ID** (e.g., `frame("payment-frame")`)
 3. **WebElement** (Recommended)
-
 ```kotlin
     "Should interact with elements inside an iFrame" {
         driver.get("https://mycodeyatra.com/practice/iframes")
@@ -105,12 +103,11 @@ Always remember to call `driver.switchTo().defaultContent()` when you are finish
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog6_WindowsAndFramesTest
 Blog6_WindowsAndFramesTest
-  [PASS] Should switch to a new tab and back
-  [PASS] Should interact with elements inside an iFrame
+[PASS] Should switch to a new tab and back
+[PASS] Should interact with elements inside an iFrame
 2 tests completed, 2 successes, 0 failures, 0 ignored.
 ```
 
