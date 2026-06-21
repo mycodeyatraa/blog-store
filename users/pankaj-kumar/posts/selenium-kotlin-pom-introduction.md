@@ -27,7 +27,7 @@ The Page Object Model dictates that every web page (or significant component of 
 
 Let's automate the login flow on our official test site: [Practice MyCodeYatra Login](https://practice.mycodeyatra.com/#/login). 
 
-Notice how we use Kotlin's `by lazy` delegate. This ensures that elements are dynamically searched for *only when they are interacted with*, avoiding `StaleElementReferenceException` issues on page reloads.
+Notice how we use Kotlin's custom getters (`get()`). This ensures that elements are dynamically searched for *only when they are interacted with*, and uniquely *every time* they are interacted with. This completely prevents `StaleElementReferenceException` issues on page reloads, acting exactly like `PageFactory`'s dynamic proxies but without the bulky annotations!
 
 ```kotlin
 package com.mycodeyatra.pages
@@ -36,19 +36,11 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 class Blog24_LoginPage(private val driver: WebDriver) {
-    // Locators defined using 'by lazy' for deferred evaluation
-    private val usernameField: WebElement by lazy {
-        driver.waitForElementVisible(By.cssSelector("[data-testid='username']"))
-    }
-    private val passwordField: WebElement by lazy {
-        driver.waitForElementVisible(By.cssSelector("[data-testid='password']"))
-    }
-    private val loginButton: WebElement by lazy {
-        driver.waitForElementVisible(By.cssSelector("[data-testid='login-btn']"))
-    }
-    private val profileTitle: WebElement by lazy {
-        driver.waitForElementVisible(By.cssSelector("[data-testid='profile-title']"))
-    }
+    // Locators defined using custom getters for dynamic evaluation
+    private val usernameField: WebElement get() = driver.waitForElementVisible(By.cssSelector("[data-testid='username']"))
+    private val passwordField: WebElement get() = driver.waitForElementVisible(By.cssSelector("[data-testid='password']"))
+    private val loginButton: WebElement get() = driver.waitForElementVisible(By.cssSelector("[data-testid='login-btn']"))
+    private val profileTitle: WebElement get() = driver.waitForElementVisible(By.cssSelector("[data-testid='profile-title']"))
     // Page Actions
     fun enterUsername(user: String) {
         usernameField.clear()
@@ -118,6 +110,6 @@ Tests: 1, Passed: 1, Failed: 0
 
 ### Conclusion
 
-The Page Object Model is not just a nice-to-have; it is an absolute necessity for any serious automation project. By relying on native Kotlin features like `by lazy` rather than deprecated Java annotations, we've built a robust, modern framework layer!
+The Page Object Model is not just a nice-to-have; it is an absolute necessity for any serious automation project. By relying on native Kotlin features like custom getters (`get()`) rather than deprecated Java annotations, we've built a robust, modern framework layer!
 
 In our next blog, we will introduce **Data-Driven Testing in Selenium Kotlin**, showing you how to loop through multiple datasets gracefully!
