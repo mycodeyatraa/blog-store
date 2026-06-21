@@ -21339,5 +21339,41 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-556",
+    "slug": "selenium-ruby-parallel-execution-rspec",
+    "title": "Slashing Execution Time: Parallel Test Execution",
+    "description": "Stop waiting hours for your test suite to finish. Learn how to configure the parallel_tests gem to run multiple RSpec tests simultaneously across CPU cores.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-parallel-execution-rspec.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "06-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Advanced"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "Parallel Execution",
+      "RSpec",
+      "Optimization"
+    ],
+    "series": "selenium-ruby-advanced",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
