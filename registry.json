@@ -19589,5 +19589,42 @@
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-507",
+    "slug": "selenium-kotlin-reading-external-data",
+    "title": "Reading External Data (JSON) for Data-Driven Testing",
+    "description": "Keep your test code clean and strictly separated from your test data. Learn how to parse JSON payloads directly into Kotlin Data Classes using Jackson.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-reading-external-data.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "16-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Kotest",
+      "JSON",
+      "Jackson",
+      "DDT"
+    ],
+    "series": "selenium-kotlin-framework-basics",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
