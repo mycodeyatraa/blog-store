@@ -21517,5 +21517,41 @@
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-561",
+    "slug": "selenium-ruby-network-interception-cdp",
+    "title": "Network Interception with Chrome DevTools Protocol",
+    "description": "Go beyond UI testing. Learn how to use the Chrome DevTools Protocol (CDP) in Ruby to intercept, mock, and manipulate HTTP network traffic.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-network-interception-cdp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "11-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Advanced"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "CDP",
+      "Network Interception",
+      "API Mocking"
+    ],
+    "series": "selenium-ruby-advanced",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
