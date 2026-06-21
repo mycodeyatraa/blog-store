@@ -20253,5 +20253,42 @@
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-526",
+    "slug": "selenium-kotlin-api-testing-restassured",
+    "title": "Integrating API Testing with RestAssured in Selenium Kotlin",
+    "description": "Expand your automation framework's capabilities by integrating RestAssured with Kotlin and Kotest to perform robust API validations alongside your UI tests.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-api-testing-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "07-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "API Testing"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "RestAssured",
+      "API Testing",
+      "Kotest",
+      "Automation"
+    ],
+    "series": "selenium-kotlin-advanced-scenarios",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
