@@ -41,7 +41,6 @@ In this script, we will hover over a button, double-click another button, right-
 
 ```kotlin
 package com.mycodeyatra.tests
-
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.string.shouldContain
 import org.openqa.selenium.By
@@ -51,11 +50,9 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.interactions.Actions
 import java.time.Duration
-
 class Blog9_ActionChainsTest : StringSpec({
     lateinit var driver: WebDriver
     lateinit var actions: Actions
-
     beforeTest {
         val options = ChromeOptions().apply {
             addArguments("--headless=new")
@@ -65,39 +62,26 @@ class Blog9_ActionChainsTest : StringSpec({
         driver = ChromeDriver(options)
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5))
         driver.manage().window().maximize()
-        
         actions = Actions(driver)
     }
-
     afterTest {
         driver.quit()
     }
-
     "Should perform complex mouse and keyboard interactions using Actions class" {
         println("[INFO] Running com.mycodeyatra.tests.Blog9_ActionChainsTest")
         driver.get("https://practice.mycodeyatra.com/#/form-practice")
-
         // 1. MOUSE HOVER
         val submitBtn = driver.findElement(By.xpath("//button[text()='Submit Form']"))
         actions.moveToElement(submitBtn).perform()
-
         // 2. DOUBLE CLICK
         val clearBtn = driver.findElement(By.xpath("//button[text()='Clear']"))
         actions.doubleClick(clearBtn).perform()
-
         // 3. RIGHT CLICK (Context Click)
         val header = driver.findElement(By.tagName("h2"))
         actions.contextClick(header).perform()
-
         // 4. KEYBOARD ACTIONS
         val fullNameInput = driver.findElement(By.name("fullName"))
-        
-        actions.click(fullNameInput)
-            .keyDown(Keys.SHIFT)
-            .sendKeys("actions class rocks")
-            .keyUp(Keys.SHIFT)
-            .perform()
-            
+        actions.click(fullNameInput).keyDown(Keys.SHIFT).sendKeys("actions class rocks").keyUp(Keys.SHIFT).perform()
         val enteredText = fullNameInput.getAttribute("value")
         enteredText shouldContain "ACTIONS CLASS ROCKS"
     }
