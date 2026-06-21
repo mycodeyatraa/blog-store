@@ -103,13 +103,10 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog5_AlertsAndJsTest
-
 Blog5_AlertsAndJsTest
   [PASS] Should accept a JS Prompt Alert
   [PASS] Should execute Javascript to scroll and click
-
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
