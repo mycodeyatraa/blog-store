@@ -20727,5 +20727,41 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-539",
+    "slug": "selenium-ruby-actionbuilder-keyboard-mouse",
+    "title": "Keyboard and Mouse Actions using ActionBuilder",
+    "description": "Go beyond clicking. Learn how to simulate complex physical interactions like hover, double-click, and drag-and-drop using the ActionBuilder class in Ruby.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-ruby-actionbuilder-keyboard-mouse.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "5 min read",
+    "date": "20-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Ruby",
+      "Fundamentals"
+    ],
+    "tags": [
+      "Selenium",
+      "Ruby",
+      "ActionBuilder",
+      "Mouse",
+      "Keyboard"
+    ],
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
