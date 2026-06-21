@@ -59,7 +59,6 @@ class Blog6_WindowsAndFramesTest : StringSpec({
         driver.switchTo().window(originalWindow)
         driver.title shouldBe "Practice Windows"
     }
-
 ```
 
 ### Breaking down the Kotlin Magic:
@@ -94,7 +93,6 @@ You can switch to a frame using three methods:
         mainPageHeader shouldBe "iFrame Practice"
     }
 })
-
 ```
 
 ### The Golden Rule of iFrames:
@@ -114,7 +112,6 @@ Blog6_WindowsAndFramesTest
 [PASS] Should switch to a new tab and back
 [PASS] Should interact with elements inside an iFrame
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
