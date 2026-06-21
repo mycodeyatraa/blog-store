@@ -21,6 +21,7 @@ Fortunately, there is a simple workaround. Almost all file upload buttons are ju
 Instead of clicking the upload button, we locate the underlying `input` element and send the absolute path of the file we want to upload.
 
 Create `Blog7_FileUploadDownloadTest.kt` in your tests folder:
+
 ```kotlin
 package com.mycodeyatra.tests
 import io.kotest.core.spec.style.StringSpec
@@ -55,6 +56,7 @@ class Blog7_FileUploadDownloadTest : StringSpec({
         // Clean up
         testFile.delete()
     }
+
 ```
 
 ---
@@ -62,6 +64,7 @@ class Blog7_FileUploadDownloadTest : StringSpec({
 ## 2. Managing File Downloads
 
 To handle downloads cleanly, we don't want Chrome to ask the user "Where do you want to save this file?". We want to inject **ChromeOptions** to force silent downloads into a specific directory.
+
 ```kotlin
     "Should download a file silently to a specific directory" {
         // 1. Define download directory
@@ -98,6 +101,7 @@ To handle downloads cleanly, we don't want Chrome to ask the user "Where do you 
         }
     }
 })
+
 ```
 
 ---
@@ -112,6 +116,7 @@ Blog7_FileUploadDownloadTest
 [PASS] Should upload a file seamlessly
 [PASS] Should download a file silently to a specific directory
 2 tests completed, 2 successes, 0 failures, 0 ignored.
+
 ```
 
 ---
@@ -123,3 +128,4 @@ By understanding that OS dialogs are off-limits, we bypassed the UI completely. 
 In the next blog, we will master **Taking Element-Level and Full-Page Screenshots**, adding vital evidence gathering to our framework!
 
 Happy Automating!
+
