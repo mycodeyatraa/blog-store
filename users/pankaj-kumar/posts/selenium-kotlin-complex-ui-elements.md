@@ -87,6 +87,7 @@ In Java, this requires an ugly loop. In Kotlin, we use `.filter` and `.forEach`:
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
+
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog3_ComplexElementsTest
 Blog3_ComplexElementsTest
