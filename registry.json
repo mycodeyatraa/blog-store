@@ -20106,5 +20106,42 @@
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-522",
+    "slug": "selenium-kotlin-driver-factory-pattern",
+    "title": "Driver Factory Pattern in Selenium Kotlin: Designing a Thread-Safe Singleton",
+    "description": "Master the Driver Factory design pattern in Kotlin using ThreadLocal to achieve thread-safe WebDriver instantiation for parallel test execution.",
+    "contentPath": "users/pankaj-kumar/posts/selenium-kotlin-driver-factory-pattern.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
+    "readTime": "4 min read",
+    "date": "03-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Selenium Kotlin",
+      "Test Automation"
+    ],
+    "tags": [
+      "Selenium",
+      "Kotlin",
+      "Parallel Execution",
+      "ThreadLocal",
+      "Design Patterns",
+      "Kotest"
+    ],
+    "series": "selenium-framework-design-and-patterns-in-kotlin",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
