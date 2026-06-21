@@ -60,7 +60,8 @@ To run only the tests tagged with `smoke`, use the `--tag` (or `-t`) flag:
 `rspec spec/blog18_rspec_tags_spec.rb --tag smoke`
 
 **Output:**
-```
+
+```text
 Blog 18: RSpec Tags
 => Global Setup: Browser Launched
 Executed Smoke Test!
