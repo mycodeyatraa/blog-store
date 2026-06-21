@@ -108,13 +108,10 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog6_WindowsAndFramesTest
-
 Blog6_WindowsAndFramesTest
   [PASS] Should switch to a new tab and back
   [PASS] Should interact with elements inside an iFrame
-
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
