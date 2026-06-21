@@ -51,7 +51,6 @@ class Blog5_AlertsAndJsTest : StringSpec({
         // 4. Verify result
         driver.findElement(By.id("result")).text shouldBe "Hello Pankaj"
     }
-
 ```
 
 ---
@@ -70,7 +69,6 @@ import org.openqa.selenium.WebDriver
 fun WebDriver.executeJs(script: String, vararg args: Any): Any? {
     return (this as JavascriptExecutor).executeScript(script, *args)
 }
-
 ```
 
 ### Why this is awesome:
@@ -93,7 +91,6 @@ Now, let's use it in our test file to scroll the page and click a hidden element
         driver.executeJs("arguments[0].click();", hiddenButton)
     }
 })
-
 ```
 
 ---
@@ -110,7 +107,6 @@ Blog5_AlertsAndJsTest
 [PASS] Should accept a JS Prompt Alert
 [PASS] Should execute Javascript to scroll and click
 2 tests completed, 2 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
