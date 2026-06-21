@@ -105,12 +105,9 @@ When executing this test suite via Kotest, you will see the following output in 
 
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog4_SynchronizationTest
-
 Blog4_SynchronizationTest
   [PASS] Should wait for dynamic elements to load
-
 1 tests completed, 1 successes, 0 failures, 0 ignored.
-
 ```
 
 ## Conclusion
