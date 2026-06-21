@@ -31,7 +31,7 @@
       "Screenshots",
       "Evidence"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
@@ -68,7 +68,7 @@
       "Uploads",
       "Downloads"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
@@ -106,7 +106,7 @@
       "iFrames",
       "Tabs"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
@@ -143,7 +143,7 @@
       "Alerts",
       "JavascriptExecutor"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
@@ -180,7 +180,7 @@
       "WebDriverWait",
       "Synchronization"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
@@ -218,7 +218,7 @@
       "Checkboxes",
       "Collections"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
@@ -255,7 +255,7 @@
       "Extension Functions",
       "WebElements"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
@@ -292,7 +292,7 @@
       "Kotest",
       "JVM"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
@@ -19511,7 +19511,7 @@
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
     "readTime": "5 min read",
     "draft": false,
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
@@ -19585,7 +19585,7 @@
       "Data-Driven",
       "DataClass"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
@@ -19622,7 +19622,7 @@
       "Jackson",
       "DDT"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
@@ -19659,7 +19659,7 @@
       "Page Object Model",
       "Architecture"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
@@ -19696,7 +19696,7 @@
       "Lazy Evaluation",
       "Locators"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0
@@ -19733,7 +19733,7 @@
       "WebDriverWait",
       "Explicit Wait"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 15,
     "likes": 0,
     "commentsCount": 0
@@ -19770,7 +19770,7 @@
       "Windows",
       "Context"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 16,
     "likes": 0,
     "commentsCount": 0
@@ -19807,7 +19807,7 @@
       "DOM",
       "JS"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 17,
     "likes": 0,
     "commentsCount": 0
@@ -19845,7 +19845,7 @@
       "Jenkins",
       "Docker"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 18,
     "likes": 0,
     "commentsCount": 0
@@ -19881,7 +19881,7 @@
       "Automation",
       "Kotest"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 19,
     "likes": 0,
     "commentsCount": 0
@@ -19917,7 +19917,7 @@
       "Automation",
       "Kotest"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 20,
     "likes": 0,
     "commentsCount": 0
@@ -19954,7 +19954,7 @@
       "Automation",
       "Kotest"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 21,
     "likes": 0,
     "commentsCount": 0
@@ -19991,7 +19991,7 @@
       "Automation",
       "Kotest"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 22,
     "likes": 0,
     "commentsCount": 0
@@ -20028,7 +20028,7 @@
       "Automation",
       "Kotest"
     ],
-    "series": "selenium-kotlin-framework-basics",
+    "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 23,
     "likes": 0,
     "commentsCount": 0
@@ -20065,8 +20065,8 @@
       "Architecture",
       "Design Patterns"
     ],
-    "series": "selenium-kotlin-framework-basics",
-    "seriesOrder": 24,
+    "series": "selenium-framework-design-and-patterns-in-kotlin",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -20102,8 +20102,8 @@
       "Data-Driven Testing",
       "Automation"
     ],
-    "series": "selenium-kotlin-framework-basics",
-    "seriesOrder": 25,
+    "series": "selenium-framework-design-and-patterns-in-kotlin",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   }
