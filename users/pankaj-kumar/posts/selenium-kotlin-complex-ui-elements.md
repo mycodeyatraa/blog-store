@@ -21,7 +21,6 @@ If you are coming from Java, you probably write a lot of verbose `for` loops. In
 When dealing with a standard HTML `<select>` tag, Selenium provides the `Select` class. This remains the exact same in Kotlin as it is in Java, but we can write it much more concisely.
 
 Let's create `Blog3_ComplexElementsTest.kt` in `src/test/kotlin/com/mycodeyatra/tests/`:
-
 ```kotlin
 package com.mycodeyatra.tests
 import com.mycodeyatra.extensions.findById
@@ -59,7 +58,6 @@ class Blog3_ComplexElementsTest : StringSpec({
 This is where Kotlin truly shines. Imagine you have a list of hobbies (Reading, Sports, Music) represented by checkboxes. You only want to click the ones that are NOT currently selected.
 
 In Java, this requires an ugly loop. In Kotlin, we use `.filter` and `.forEach`:
-
 ```kotlin
     "Should iterate and click multiple checkboxes using Kotlin Collections" {
         driver.get("https://mycodeyatra.com/practice/checkboxes")
@@ -89,12 +87,11 @@ In Java, this requires an ugly loop. In Kotlin, we use `.filter` and `.forEach`:
 ## Expected Output
 
 When executing this test suite via Kotest, you will see the following output in your IntelliJ/Maven console confirming that the tests passed successfully:
-
 ```text
 [INFO] Running com.mycodeyatra.tests.Blog3_ComplexElementsTest
 Blog3_ComplexElementsTest
-  [PASS] Should select an option from a standard dropdown
-  [PASS] Should iterate and click multiple checkboxes using Kotlin Collections
+[PASS] Should select an option from a standard dropdown
+[PASS] Should iterate and click multiple checkboxes using Kotlin Collections
 2 tests completed, 2 successes, 0 failures, 0 ignored.
 ```
 
