@@ -17,24 +17,24 @@ Today, we will learn how to interact with the two completely different types of 
 
 A native dropdown uses the standard HTML `<select>` and `<option>` tags. These are the easiest to automate because Playwright has a dedicated built-in method for them: `.selectOption()`.
 
-Let's write a test using the live sandbox (`https://practice.mycodeyatra.com/#/sandbox`):
+Let's write a test using the live sandbox (`https://practice.mycodeyatra.com/#/dropdowns`):
 
 Create a file `tests/blog12_dropdowns.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Interacting with a Native Select Menu', async ({ page }) => {
-  await page.goto('https://practice.mycodeyatra.com/#/sandbox');
-  // Locate the native <select> element
-  const nativeDropdown = page.locator('select#country-dropdown');
-  // 1. Select by the underlying VALUE attribute
-  await nativeDropdown.selectOption('IN');
-  // 2. Select by the VISIBLE TEXT shown to the user
-  await nativeDropdown.selectOption({ label: 'United States' });
-  // 3. Select by INDEX (Selects the 3rd option in the list)
-  await nativeDropdown.selectOption({ index: 2 });
-  // Assert that the dropdown successfully updated its value
-  await expect(nativeDropdown).toHaveValue('US');
+  await page.goto('https://practice.mycodeyatra.com/#/dropdowns');
+  // Locate the native dropdown
+  const nativeDropdown = page.getByTestId('standard-select');
+  // Select by VALUE (the underlying HTML value)
+  await nativeDropdown.selectOption('Apple');
+  // Select by VISIBLE TEXT
+  await nativeDropdown.selectOption({ label: 'Banana' });
+  // Select by INDEX (3rd option, 0 is the "Choose..." placeholder)
+  await nativeDropdown.selectOption({ index: 3 }); 
+  // Assert the selected value is correct
+  await expect(nativeDropdown).toHaveValue('Cherry');
 });
 ```
 
@@ -50,15 +50,15 @@ To automate a Custom Dropdown, you must manually simulate human behavior:
 
 ```typescript
 test('Interacting with a Custom Dropdown (Non-Select)', async ({ page }) => {
-  await page.goto('https://practice.mycodeyatra.com/#/sandbox');
-  // 1. You MUST physically click the dropdown box to expand the menu first!
-  await page.locator('div.custom-dropdown-header').click();
-  // 2. Locate the specific option from the expanded list and click it
-  const optionToSelect = page.getByRole('listitem', { name: 'Dark Mode' });
+  await page.goto('https://practice.mycodeyatra.com/#/dropdowns');
+  // 1. Click the custom dropdown to open the menu
+  await page.getByTestId('custom-dropdown-trigger').click();
+  // 2. Click the specific option from the list that appears
+  const optionToSelect = page.getByTestId('option-date');
   await optionToSelect.click();
   // 3. Assert the UI updated correctly
-  const selectedText = page.locator('div.custom-dropdown-header');
-  await expect(selectedText).toHaveText('Dark Mode');
+  const selectedText = page.getByTestId('selected-custom');
+  await expect(selectedText).toHaveText('Date');
 });
 ```
 
@@ -68,8 +68,10 @@ When you run `npx playwright test tests/blog12_dropdowns.spec.ts`:
 
 ```text
 Running 2 tests using 1 worker
-  ✓  1 Interacting with a Native Select Menu (1.1s)
-  ✓  2 Interacting with a Custom Dropdown (Non-Select) (1.4s)
+
+  ✓  1 tests\blog12_dropdowns.spec.ts:4:7 › Blog 12: Dropdowns and Select Menus › Interacting with a Native Select Menu (654ms)
+  ✓  2 tests\blog12_dropdowns.spec.ts:22:7 › Blog 12: Dropdowns and Select Menus › Interacting with a Custom Dropdown (Non-Select) (664ms)
+
   2 passed (2.5s)
 ```
 
