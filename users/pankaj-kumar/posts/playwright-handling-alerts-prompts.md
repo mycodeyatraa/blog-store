@@ -24,7 +24,6 @@ If your test clicks a button that triggers an `alert()`, Playwright instantly cl
 But what if you *want* to interact with it? What if you want to click "OK" or read the text inside the alert? You must setup a **Dialog Listener** *before* you click the button!
 
 Create `tests/blog14_alerts.spec.ts` using our live practice sandbox (`https://practice.mycodeyatra.com/#/overlays`):
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Handling a JavaScript Alert Dialog', async ({ page }) => {
@@ -54,7 +53,6 @@ test('Handling a JavaScript Alert Dialog', async ({ page }) => {
 A custom web modal is *not* a native browser dialog. It is just a regular HTML `<div>` floating in the center of the screen. Because it is part of the DOM, you do **not** use `page.on('dialog')`. 
 
 You simply locate the elements like normal!
-
 ```typescript
 test('Handling a Custom Web Modal', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/overlays');
@@ -77,8 +75,7 @@ test('Handling a Custom Web Modal', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog14_alerts.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
 Alert Message: This is a standard JavaScript Alert!
