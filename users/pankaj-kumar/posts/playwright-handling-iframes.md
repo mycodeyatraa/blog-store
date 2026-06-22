@@ -26,6 +26,7 @@ With a `frameLocator`, you don't actually "switch" your context. You simply crea
 Let's test this against our live practice site (`https://practice.mycodeyatra.com/#/frames`):
 
 Create `tests/blog17_iframes.spec.ts`:
+
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Interacting with elements inside an iFrame', async ({ page }) => {
@@ -57,6 +58,7 @@ test('Interacting with elements inside an iFrame', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog17_iframes.spec.ts`:
+
 ```bash
 Running 1 test using 1 worker
 
