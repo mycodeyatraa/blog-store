@@ -59,11 +59,11 @@ test('Interacting with elements inside an iFrame', async ({ page }) => {
 
 When you run `npx playwright test tests/blog17_iframes.spec.ts`:
 
-```bash
+```text
 Running 1 test using 1 worker
 
 Successfully penetrated the iFrame and clicked the button!
-  ✓  1 tests\blog17_iframes.spec.ts:4:7 › Blog 17: Handling Inline Frames (iFrames) › Interacting with elements inside an iFrame (712ms)
+  OK   1 tests/blog17_iframes.spec.ts:4:7 > Blog 17: Handling Inline Frames (iFrames) > Interacting with elements inside an iFrame (712ms)
 
   1 passed (1.9s)
 ```
