@@ -61,10 +61,10 @@ When you run `npx playwright test tests/blog17_iframes.spec.ts`:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully penetrated the iFrame and clicked the button!
   OK   1 tests/blog17_iframes.spec.ts:4:7 > Blog 17: Handling Inline Frames (iFrames) > Interacting with elements inside an iFrame (712ms)
-
+ 
   1 passed (1.9s)
 ```
 
