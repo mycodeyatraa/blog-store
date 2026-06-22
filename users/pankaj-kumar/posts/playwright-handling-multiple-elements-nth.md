@@ -70,7 +70,7 @@ When you run `npx playwright test tests/blog11_multiple_elements.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
   OK   1 tests/blog11_multiple_elements.spec.ts:4:7 > Blog 11: Handling Multiple Elements > Selecting specific elements from a list (3.8s)
 Found 11 tiles on the page!
 Tile Title: Form Practice
@@ -85,7 +85,7 @@ Tile Title: Frames & iFrames
 Tile Title: Complex Widgets
 Tile Title: File Upload & Download
   OK   2 tests/blog11_multiple_elements.spec.ts:24:7 > Blog 11: Handling Multiple Elements > Iterating over all elements (620ms)
-
+ 
   2 passed (6.1s)
 ```
 
