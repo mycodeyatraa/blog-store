@@ -22,6 +22,7 @@ Instead, it intelligently polls the DOM. It waits for the element to attach to t
 Let's test this using our live sandbox (`https://practice.mycodeyatra.com/#/dynamic-content`):
 
 Create `tests/blog15_dynamic_content.spec.ts`:
+
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Playwright Auto-Waits for delayed elements', async ({ page }) => {
@@ -43,6 +44,7 @@ Auto-waiting doesn't just look for an element to exist. It waits for it to becom
 Imagine a progress bar. At the end of the progress bar is a "Complete" button. The button exists in the DOM, but it has the HTML `disabled` attribute until the progress reaches 100%.
 
 If you tell Playwright to click it, it will automatically wait until the `disabled` attribute is removed!
+
 ```typescript
 test('Playwright Auto-Waits for actionability', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/dynamic-content');
@@ -63,6 +65,7 @@ test('Playwright Auto-Waits for actionability', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog15_dynamic_content.spec.ts`:
+
 ```bash
 Running 2 tests using 1 worker
 
