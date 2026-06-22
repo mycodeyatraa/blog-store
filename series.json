@@ -1176,9 +1176,8 @@
   },
   {
     "id": "playwright-typescript-foundations",
-    "title": "Playwright TypeScript Mastery",
-    "description": "Master modern end-to-end automation with Microsoft's Playwright and TypeScript.",
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "title": "Playwright TypeScript Foundations",
+    "description": "Master the basics of Playwright with TypeScript. Setup your environment, understand browser context, locator strategies, and standard assertions.",
     "articleIds": [
       "post-601",
       "post-602",
@@ -1188,7 +1187,14 @@
       "post-606",
       "post-607",
       "post-608",
-      "post-609",
+      "post-609"
+    ]
+  },
+  {
+    "id": "playwright-typescript-core-ui",
+    "title": "Playwright TypeScript Core UI Automation",
+    "description": "Dive deep into UI interactions. Learn locator chaining, multiple elements, handling forms, dropdowns, alerts, iFrames, Shadow DOM, file upload/download, mouse actions, and multiple browser contexts.",
+    "articleIds": [
       "post-610",
       "post-611",
       "post-612",
@@ -1201,18 +1207,46 @@
       "post-619",
       "post-620",
       "post-621",
-      "post-627",
+      "post-627"
+    ]
+  },
+  {
+    "id": "playwright-typescript-test-design",
+    "title": "Playwright TypeScript Test Design Patterns",
+    "description": "Optimize your test structures using advanced test design patterns. Master custom fixtures, setup/teardown hooks, and clean Page Object Models (POM).",
+    "articleIds": [
       "post-622",
       "post-623",
-      "post-624",
+      "post-624"
+    ]
+  },
+  {
+    "id": "playwright-typescript-framework",
+    "title": "Playwright TypeScript Framework Architecture",
+    "description": "Build a production-ready automation framework. Learn configuration management, custom logging, clean folder structures, environment-specific runs, and Dependency Injection.",
+    "articleIds": [
       "post-629",
       "post-630",
       "post-631",
       "post-633",
-      "post-625",
-      "post-626",
-      "post-628",
       "post-634"
+    ]
+  },
+  {
+    "id": "playwright-typescript-api-testing",
+    "title": "Playwright TypeScript API Testing",
+    "description": "Validate backend services using Playwright. Master request context, network interception, blocking resources, and mocking API responses.",
+    "articleIds": [
+      "post-625",
+      "post-626"
+    ]
+  },
+  {
+    "id": "playwright-typescript-visual-testing",
+    "title": "Playwright TypeScript Visual Testing",
+    "description": "Implement visual regression testing. Learn baseline management and layout assertions using pixel-perfect screenshots.",
+    "articleIds": [
+      "post-628"
     ]
   }
 ]

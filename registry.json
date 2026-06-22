@@ -22088,8 +22088,8 @@
       "Chaining",
       "Filtering"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 10,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22124,8 +22124,8 @@
       "Multiple Elements",
       "nth"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 11,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22160,8 +22160,8 @@
       "Select",
       "Forms"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 12,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22196,8 +22196,8 @@
       "Radio",
       "Forms"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 13,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22232,8 +22232,8 @@
       "Modals",
       "Dialogs"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 14,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22268,8 +22268,8 @@
       "Dynamic",
       "Synchronization"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 15,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22304,8 +22304,8 @@
       "Windows",
       "Context"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 16,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22339,8 +22339,8 @@
       "iFrame",
       "FrameLocator"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 17,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22374,8 +22374,8 @@
       "Shadow DOM",
       "Web Components"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 18,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22410,8 +22410,8 @@
       "Download",
       "Files"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 19,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22446,8 +22446,8 @@
       "Hover",
       "Drag and Drop"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 20,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22481,8 +22481,8 @@
       "Annotations",
       "Test Runner"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 21,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22516,8 +22516,8 @@
       "Browser Context",
       "Multi-user"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 22,
+    "series": "playwright-typescript-core-ui",
+    "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22552,8 +22552,8 @@
       "Fixtures",
       "DRY"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 23,
+    "series": "playwright-typescript-test-design",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22587,8 +22587,8 @@
       "Custom Fixtures",
       "Page Object"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 24,
+    "series": "playwright-typescript-test-design",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22623,8 +22623,8 @@
       "Page Object Model",
       "Architecture"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 25,
+    "series": "playwright-typescript-test-design",
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22658,8 +22658,8 @@
       "Configuration",
       "Framework"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 26,
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22693,8 +22693,8 @@
       "Logging",
       "Framework"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 27,
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22728,8 +22728,8 @@
       "Architecture",
       "Framework"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 28,
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22763,8 +22763,8 @@
       "Configuration",
       "Dotenv"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 29,
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22798,8 +22798,8 @@
       "API Testing",
       "HTTP Request"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 30,
+    "series": "playwright-typescript-api-testing",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22834,8 +22834,8 @@
       "Mocking",
       "Interception"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 31,
+    "series": "playwright-typescript-api-testing",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22869,8 +22869,8 @@
       "Visual Testing",
       "Screenshots"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 32,
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22904,8 +22904,8 @@
       "Dependency Injection",
       "Design Patterns"
     ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 33,
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
   }
