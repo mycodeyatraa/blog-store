@@ -21912,5 +21912,41 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-606",
+    "slug": "playwright-locators-css-xpath-role-text",
+    "title": "Locators Deep Dive",
+    "description": "Stop relying on brittle CSS and XPath! Discover Playwright's modern approach to element identification using Role, Text, and user-centric locator strategies.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-locators-css-xpath-role-text.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "5 min read",
+    "date": "18-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Locators",
+      "CSS",
+      "XPath"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
