@@ -24,7 +24,6 @@ The `.check()` method is smart. If the checkbox is already checked, `.check()` d
 Let's test this on our live practice site (`https://practice.mycodeyatra.com/#/form-practice`):
 
 Create a file `tests/blog13_checkboxes.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Checking and Unchecking Checkboxes', async ({ page }) => {
@@ -47,7 +46,6 @@ test('Checking and Unchecking Checkboxes', async ({ page }) => {
 ### 2. Interacting with Radio Buttons
 
 Radio buttons work identically to checkboxes, with one logical difference: you cannot `.uncheck()` a radio button. Selecting one radio button automatically deselects the others in the same group.
-
 ```typescript
 test('Selecting Radio Buttons', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/form-practice');
@@ -65,8 +63,7 @@ test('Selecting Radio Buttons', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog13_checkboxes.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
   ✓  1 tests\blog13_checkboxes.spec.ts:4:7 › Blog 13: Checkboxes and Radio Buttons › Checking and Unchecking Checkboxes (854ms)
