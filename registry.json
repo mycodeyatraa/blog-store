@@ -22698,5 +22698,40 @@
     "seriesOrder": 27,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-628",
+    "slug": "playwright-visual-regression-testing",
+    "title": "Visual Regression Testing",
+    "description": "Go beyond checking text. Learn how to catch visual bugs (like broken CSS or misaligned elements) using Playwright's built-in image comparison features.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-visual-regression-testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "12-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Visual Testing",
+      "Screenshots"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 28,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
