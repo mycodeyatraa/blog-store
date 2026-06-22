@@ -1173,5 +1173,14 @@
       "post-565",
       "post-566"
     ]
+  },
+  {
+    "id": "playwright-typescript-foundations",
+    "title": "Playwright TypeScript Mastery",
+    "description": "Master modern end-to-end automation with Microsoft's Playwright and TypeScript.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "articleIds": [
+      "post-601"
+    ]
   }
 ]
