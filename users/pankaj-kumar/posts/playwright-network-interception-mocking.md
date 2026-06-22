@@ -16,7 +16,6 @@ Playwright offers a superpower to solve this: **Network Interception**. Playwrig
 Using `page.route()`, you can intercept requests based on URL patterns. Let's write a test that simulates a frontend request and mocks the backend response.
 
 Create `tests/blog26_network_mocking.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
@@ -53,7 +52,6 @@ test.describe('Blog 26: Network Interception & Mocking', () => {
 ### Aborting Network Requests
 
 Mocking isn't just for returning fake data. You can also completely **abort** requests. This is extremely useful for speeding up test execution by blocking heavy images, analytics trackers, or third-party ad networks!
-
 ```typescript
 test('Blocking Network Requests (e.g., Images)', async ({ page }) => {
   // Intercept any URL ending in .png, .jpg, or .jpeg
@@ -71,8 +69,7 @@ test('Blocking Network Requests (e.g., Images)', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog26_network_mocking.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
 Successfully intercepted and mocked the network request!
