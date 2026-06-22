@@ -22873,5 +22873,40 @@
     "seriesOrder": 32,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-634",
+    "slug": "playwright-dependency-injection",
+    "title": "Dependency Injection with Playwright Fixtures",
+    "description": "Learn how to use Playwright's built-in fixture system as a Dependency Injection (DI) container to eliminate boilerplates and coupling in Page Object Model (POM).",
+    "contentPath": "users/pankaj-kumar/posts/playwright-dependency-injection.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "16-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Dependency Injection",
+      "Design Patterns"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 33,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
