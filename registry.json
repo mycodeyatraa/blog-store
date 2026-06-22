@@ -22592,5 +22592,40 @@
     "seriesOrder": 24,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-625",
+    "slug": "playwright-api-testing-capabilities",
+    "title": "API Testing Capabilities in Playwright",
+    "description": "Playwright isn't just for UI testing. Learn how to use Playwright's built-in APIRequestContext to send HTTP requests, validate API responses, and setup test data directly.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-api-testing-capabilities.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "09-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "API Testing",
+      "HTTP Request"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 25,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
