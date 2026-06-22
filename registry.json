@@ -22414,5 +22414,41 @@
     "seriesOrder": 19,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-620",
+    "slug": "playwright-advanced-mouse-actions",
+    "title": "Advanced Mouse Actions (Hover, Drag & Drop)",
+    "description": "Go beyond simple clicks. Learn how to simulate complex mouse gestures like hovering, right-clicking for context menus, and drag-and-drop operations.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-advanced-mouse-actions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "04-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Mouse",
+      "Hover",
+      "Drag and Drop"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 20,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
