@@ -19,17 +19,17 @@ When you initialize a Playwright project, a `playwright.config.ts` file is gener
 
 ```typescript
 import { defineConfig, devices } from '@playwright/test';
-
+ 
 // Read environment variables (e.g., QA, STAGE, PROD)
 const env = process.env.TEST_ENV || 'QA';
-
+ 
 // Define base URLs dynamically based on the environment
 const baseUrlMap = {
   QA: 'https://practice.mycodeyatra.com',
   STAGE: 'https://stage.mycodeyatra.com',
   PROD: 'https://mycodeyatra.com'
 };
-
+ 
 export default defineConfig({
   // Directory where all tests are located
   testDir: './tests',
@@ -51,12 +51,12 @@ export default defineConfig({
   
   // Global Timeout for the entire test run
   globalTimeout: 60 * 60 * 1000, // 1 hour
-
+ 
   // Shared settings for all the projects below
   use: {
     // Dynamic Base URL injected into all tests
     baseURL: baseUrlMap[env],
-
+ 
     // Collect trace when retrying the failed test
     trace: 'on-first-retry',
     
@@ -66,7 +66,7 @@ export default defineConfig({
     // Default explicit wait timeout for locators
     actionTimeout: 10000,
   },
-
+ 
   // Configure projects for major browsers
   projects: [
     {
@@ -89,9 +89,9 @@ Create `tests/blog29_config.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 29: Configuration Management', () => {
-
+ 
   test('Using Environment Variables for URLs', async ({ page }) => {
     // We can use process.env to read dynamically injected variables
     const baseUrl = process.env.BASE_URL || 'https://practice.mycodeyatra.com';
@@ -104,7 +104,7 @@ test.describe('Blog 29: Configuration Management', () => {
     await expect(page.locator('h1').first()).toBeVisible();
     console.log('Successfully navigated using configuration!');
   });
-
+ 
 });
 ```
 
@@ -114,11 +114,11 @@ When you run `npx playwright test tests/blog29_config.spec.ts`:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Navigating to environment URL: https://practice.mycodeyatra.com
 Successfully navigated using configuration!
   OK  1 tests/blog29_config.spec.ts:8:7 > Blog 29: Configuration Management > Using Environment Variables for URLs (4.6s)
-
+ 
   1 passed (6.1s)
 ```
 
