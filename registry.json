@@ -22556,5 +22556,41 @@
     "seriesOrder": 23,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-624",
+    "slug": "playwright-page-object-model",
+    "title": "Implementing the Page Object Model (POM)",
+    "description": "Scale your test automation safely. Discover how the Page Object Model drastically reduces maintenance by separating locators from test logic.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-page-object-model.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "08-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Test Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "POM",
+      "Page Object Model",
+      "Architecture"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 24,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
