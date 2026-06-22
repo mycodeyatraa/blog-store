@@ -22627,5 +22627,41 @@
     "seriesOrder": 25,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-626",
+    "slug": "playwright-network-interception-mocking",
+    "title": "Network Interception and Mocking",
+    "description": "Stop relying on unstable backends. Learn how to intercept network requests and mock API responses directly in Playwright.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-network-interception-mocking.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "10-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Network",
+      "Mocking",
+      "Interception"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 26,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
