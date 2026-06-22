@@ -66,12 +66,12 @@ test('Playwright Auto-Waits for actionability', async ({ page }) => {
 
 When you run `npx playwright test tests/blog15_dynamic_content.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
-  ✓  1 tests\blog15_dynamic_content.spec.ts:4:7 › Blog 15: Auto-Waiting and Dynamic Content › Playwright Auto-Waits for delayed elements (4.1s)
+  OK   1 tests/blog15_dynamic_content.spec.ts:4:7 > Blog 15: Auto-Waiting and Dynamic Content > Playwright Auto-Waits for delayed elements (4.1s)
 Successfully clicked the button after it became enabled!
-  ✓  2 tests\blog15_dynamic_content.spec.ts:17:7 › Blog 15: Auto-Waiting and Dynamic Content › Playwright Auto-Waits for actionability (enabled state) (5.8s)
+  OK   2 tests/blog15_dynamic_content.spec.ts:17:7 > Blog 15: Auto-Waiting and Dynamic Content > Playwright Auto-Waits for actionability (enabled state) (5.8s)
 
   2 passed (11.3s)
 ```
