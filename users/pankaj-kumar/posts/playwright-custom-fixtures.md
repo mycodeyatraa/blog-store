@@ -24,7 +24,6 @@ We can achieve this by extending the base `test` object.
 Let's test this against our live login page (`https://practice.mycodeyatra.com/#/login`).
 
 Create `tests/blog23_custom_fixtures.spec.ts`:
-
 ```typescript
 import { test as base, expect } from '@playwright/test';
 
@@ -78,8 +77,7 @@ test.describe('Blog 23: Custom Fixtures', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog23_custom_fixtures.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
 [Fixture Setup] Navigating and logging in...
