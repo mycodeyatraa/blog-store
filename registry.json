@@ -22663,5 +22663,40 @@
     "seriesOrder": 26,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-627",
+    "slug": "playwright-multiple-browser-contexts",
+    "title": "Testing Multiple Browser Contexts",
+    "description": "Need to test a chat application or multi-user workflow? Learn how to spawn and manage multiple isolated browser contexts simultaneously.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-multiple-browser-contexts.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "11-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Browser Context",
+      "Multi-user"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 27,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
