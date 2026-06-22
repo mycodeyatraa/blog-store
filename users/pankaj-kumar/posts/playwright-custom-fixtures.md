@@ -79,16 +79,16 @@ test.describe('Blog 23: Custom Fixtures', () => {
 
 When you run `npx playwright test tests/blog23_custom_fixtures.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
 [Fixture Setup] Navigating and logging in...
 Test 1 Passed: Used custom authenticated fixture!
 [Fixture Teardown] Clearing local storage...
-  ✓  1 tests\blog23_custom_fixtures.spec.ts:32:3 › Blog 23: Custom Fixtures › Verify Profile Page with Custom Fixture (722ms)
+  OK   1 tests/blog23_custom_fixtures.spec.ts:32:3 > Blog 23: Custom Fixtures > Verify Profile Page with Custom Fixture (722ms)
 
 Test 2 Passed: Used standard page fixture!
-  ✓  2 tests\blog23_custom_fixtures.spec.ts:40:3 › Blog 23: Custom Fixtures › Verify Login Page without Custom Fixture (505ms)
+  OK   2 tests/blog23_custom_fixtures.spec.ts:40:3 > Blog 23: Custom Fixtures > Verify Login Page without Custom Fixture (505ms)
 
   2 passed (2.5s)
 ```
