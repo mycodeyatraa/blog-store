@@ -21,7 +21,6 @@ This is absolutely essential for testing multi-user applications like:
 Let's write a script that opens two separate contexts simultaneously against our practice site.
 
 Create `tests/blog27_browser_contexts.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
@@ -65,8 +64,7 @@ test.describe('Blog 27: Multiple Browser Contexts', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog27_browser_contexts.spec.ts`:
-
-```text
+```bash
 Running 1 test using 1 worker
 
 Admin Page URL: https://practice.mycodeyatra.com/#/profile
