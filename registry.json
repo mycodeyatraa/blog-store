@@ -21984,5 +21984,41 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-608",
+    "slug": "first-e2e-test-playwright-typescript",
+    "title": "First E2E Test with Playwright Test",
+    "description": "It's time to build a real test! We will combine our knowledge of user-centric locators and auto-retrying assertions to build a complete End-to-End Login scenario.",
+    "contentPath": "users/pankaj-kumar/posts/first-e2e-test-playwright-typescript.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "5 min read",
+    "date": "20-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "E2E",
+      "Testing",
+      "Login"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
