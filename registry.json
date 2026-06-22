@@ -21876,5 +21876,41 @@
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-605",
+    "slug": "playwright-browser-lifecycle-headless-headed",
+    "title": "Browser Lifecycle",
+    "description": "Master Playwright's execution environment. Learn how to toggle between Headless and Headed modes, utilize the UI Mode for debugging, and manage browser resources effectively.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-browser-lifecycle-headless-headed.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "17-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Browser",
+      "Headless",
+      "Configuration"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
