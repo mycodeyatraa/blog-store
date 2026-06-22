@@ -21768,5 +21768,41 @@
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-602",
+    "slug": "playwright-vs-selenium-vs-cypress-typescript",
+    "title": "Playwright vs Selenium vs Cypress (TS)",
+    "description": "Before writing our first line of code, let's settle the ultimate debate. Discover the architectural differences between Playwright, Selenium, and Cypress, and find out why Playwright with TypeScript is the clear winner for modern enterprise automation.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-vs-selenium-vs-cypress-typescript.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "5 min read",
+    "date": "14-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "Selenium",
+      "Cypress",
+      "Comparison",
+      "TypeScript"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
