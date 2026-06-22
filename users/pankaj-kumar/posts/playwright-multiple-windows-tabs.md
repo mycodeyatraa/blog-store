@@ -57,12 +57,12 @@ test('Switching to a newly opened tab', async ({ context, page }) => {
 
 When you run `npx playwright test tests/blog16_windows_tabs.spec.ts`:
 
-```bash
+```text
 Running 1 test using 1 worker
 
 Original Tab Title: MyCodeYatra | Test Automation Sandbox
 New Tab Title: Practice Tab
-  ✓  1 tests\blog16_windows_tabs.spec.ts:4:7 › Blog 16: Handling Multiple Windows and Tabs › Switching to a newly opened tab (779ms)
+  OK   1 tests/blog16_windows_tabs.spec.ts:4:7 > Blog 16: Handling Multiple Windows and Tabs > Switching to a newly opened tab (779ms)
 
   1 passed (2.0s)
 ```
