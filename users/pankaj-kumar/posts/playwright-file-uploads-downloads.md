@@ -1,101 +1,102 @@
----
-title: "Handling File Uploads and Downloads"
-date: "2025-03-03"
-description: "Testing file systems can be tricky. Learn how Playwright intercepts downloads and handles file uploads without triggering native OS file dialogs."
-tags: ["Playwright", "TypeScript", "Upload", "Download", "Files"]
----
-
-Welcome to Blog 19 of the **Playwright TypeScript Mastery Series**!
-
-One of the oldest rules of Web Automation is: **You cannot automate the Operating System.** 
-
-When you click a "Choose File" button, Windows or macOS opens a native file explorer dialog. A web automation tool like Selenium or Playwright has absolutely no control over that OS window. So how do we upload or download files?
-
-We bypass the OS completely!
-
-### 1. Uploading Files
-
-Instead of clicking the "Upload" button, we directly inject the file path into the hidden HTML `<input type="file">` tag.
-
-Let's test this on our live sandbox (`https://practice.mycodeyatra.com/#/upload-download`):
-
-Create `tests/blog19_upload_download.spec.ts`:
-
-```typescript
-import { test, expect } from '@playwright/test';
-import * as fs from 'fs';
-import * as path from 'path';
-
-test('Uploading a file', async ({ page }) => {
-  await page.goto('https://practice.mycodeyatra.com/#/upload-download');
-  
-  // 1. Create a dummy file locally to upload
-  const filePath = path.join(__dirname, 'test-upload.txt');
-  fs.writeFileSync(filePath, 'Hello, Playwright Upload!');
-  
-  // 2. We don't click the "Select File" button! 
-  // Instead, we directly target the <input type="file"> tag:
-  await page.getByTestId('file-upload-input').setInputFiles(filePath);
-  
-  // 3. Verify the upload status updated
-  const status = page.getByTestId('upload-status');
-  await expect(status).toContainText('Successfully uploaded: test-upload.txt');
-  
-  // Clean up
-  fs.unlinkSync(filePath);
-});
-```
-
-### 2. Downloading Files
-
-Just like handling new tabs (`waitForEvent('page')`), we must tell Playwright to wait for a download event *before* we click the download button.
-
-Playwright will download the file to a temporary invisible folder. We can then save it to a known location, read its contents, and assert the file is correct!
-
-```typescript
-test('Downloading a file', async ({ page }) => {
-  await page.goto('https://practice.mycodeyatra.com/#/upload-download');
-  
-  // Set custom text to download
-  const expectedText = 'Playwright downloaded this!';
-  await page.getByTestId('download-text-input').fill(expectedText);
-  
-  // 1. We must wait for the "download" event BEFORE clicking the download button!
-  const [download] = await Promise.all([
-    page.waitForEvent('download'),
-    page.getByTestId('download-btn').click()
-  ]);
-  
-  // 2. Save the temporary file to a specific path
-  const downloadPath = path.join(__dirname, download.suggestedFilename());
-  await download.saveAs(downloadPath);
-  
-  // 3. Read the actual file from our computer and verify its contents!
-  const fileContent = fs.readFileSync(downloadPath, 'utf8');
-  expect(fileContent).toBe(expectedText);
-  
-  // Clean up
-  fs.unlinkSync(downloadPath);
-  console.log('Successfully downloaded and verified the file contents!');
-});
-```
-
-### Execution Output
-
-When you run `npx playwright test tests/blog19_upload_download.spec.ts`:
-
-```text
-Running 2 tests using 1 worker
-
-  OK   1 tests/blog19_upload_download.spec.ts:7:7 > Blog 19: Handling File Uploads and Downloads > Uploading a file (631ms)
-Successfully downloaded and verified the file contents!
-  OK   2 tests/blog19_upload_download.spec.ts:27:7 > Blog 19: Handling File Uploads and Downloads > Downloading a file (857ms)
-
-  2 passed (2.9s)
-```
-
-### Conclusion
-
-File handling is intimidating at first, but Playwright's `setInputFiles()` and `waitForEvent('download')` APIs make it robust and OS-independent.
-
-In **Blog 20**, we will cover the final primary category of user interactions: **Advanced Mouse Actions** (Hovering, Drag and Drop, and Context Menus)!
+OK -OK -OK -OK 
+OK tOK iOK tOK lOK eOK :OK  OK "OK HOK aOK nOK dOK lOK iOK nOK gOK  OK FOK iOK lOK eOK  OK UOK pOK lOK oOK aOK dOK sOK  OK aOK nOK dOK  OK DOK oOK wOK nOK lOK oOK aOK dOK sOK "OK 
+OK dOK aOK tOK eOK :OK  OK "OK 2OK 0OK 2OK 5OK -OK 0OK 3OK -OK 0OK 3OK "OK 
+OK dOK eOK sOK cOK rOK iOK pOK tOK iOK oOK nOK :OK  OK "OK TOK eOK sOK tOK iOK nOK gOK  OK fOK iOK lOK eOK  OK sOK yOK sOK tOK eOK mOK sOK  OK cOK aOK nOK  OK bOK eOK  OK tOK rOK iOK cOK kOK yOK .OK  OK LOK eOK aOK rOK nOK  OK hOK oOK wOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK iOK nOK tOK eOK rOK cOK eOK pOK tOK sOK  OK dOK oOK wOK nOK lOK oOK aOK dOK sOK  OK aOK nOK dOK  OK hOK aOK nOK dOK lOK eOK sOK  OK fOK iOK lOK eOK  OK uOK pOK lOK oOK aOK dOK sOK  OK wOK iOK tOK hOK oOK uOK tOK  OK tOK rOK iOK gOK gOK eOK rOK iOK nOK gOK  OK nOK aOK tOK iOK vOK eOK  OK OOK SOK  OK fOK iOK lOK eOK  OK dOK iOK aOK lOK oOK gOK sOK .OK "OK 
+OK tOK aOK gOK sOK :OK  OK [OK "OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK "OK ,OK  OK "OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK "OK ,OK  OK "OK UOK pOK lOK oOK aOK dOK "OK ,OK  OK "OK DOK oOK wOK nOK lOK oOK aOK dOK "OK ,OK  OK "OK FOK iOK lOK eOK sOK "OK ]OK 
+OK -OK -OK -OK 
+OK 
+OK WOK eOK lOK cOK oOK mOK eOK  OK tOK oOK  OK BOK lOK oOK gOK  OK 1OK 9OK  OK oOK fOK  OK tOK hOK eOK  OK *OK *OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK  OK MOK aOK sOK tOK eOK rOK yOK  OK SOK eOK rOK iOK eOK sOK *OK *OK !OK 
+OK 
+OK OOK nOK eOK  OK oOK fOK  OK tOK hOK eOK  OK oOK lOK dOK eOK sOK tOK  OK rOK uOK lOK eOK sOK  OK oOK fOK  OK WOK eOK bOK  OK AOK uOK tOK oOK mOK aOK tOK iOK oOK nOK  OK iOK sOK :OK  OK *OK *OK YOK oOK uOK  OK cOK aOK nOK nOK oOK tOK  OK aOK uOK tOK oOK mOK aOK tOK eOK  OK tOK hOK eOK  OK OOK pOK eOK rOK aOK tOK iOK nOK gOK  OK SOK yOK sOK tOK eOK mOK .OK *OK *OK  OK 
+OK 
+OK WOK hOK eOK nOK  OK yOK oOK uOK  OK cOK lOK iOK cOK kOK  OK aOK  OK "OK COK hOK oOK oOK sOK eOK  OK FOK iOK lOK eOK "OK  OK bOK uOK tOK tOK oOK nOK ,OK  OK WOK iOK nOK dOK oOK wOK sOK  OK oOK rOK  OK mOK aOK cOK OOK SOK  OK oOK pOK eOK nOK sOK  OK aOK  OK nOK aOK tOK iOK vOK eOK  OK fOK iOK lOK eOK  OK eOK xOK pOK lOK oOK rOK eOK rOK  OK dOK iOK aOK lOK oOK gOK .OK  OK AOK  OK wOK eOK bOK  OK aOK uOK tOK oOK mOK aOK tOK iOK oOK nOK  OK tOK oOK oOK lOK  OK lOK iOK kOK eOK  OK SOK eOK lOK eOK nOK iOK uOK mOK  OK oOK rOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK hOK aOK sOK  OK aOK bOK sOK oOK lOK uOK tOK eOK lOK yOK  OK nOK oOK  OK cOK oOK nOK tOK rOK oOK lOK  OK oOK vOK eOK rOK  OK tOK hOK aOK tOK  OK OOK SOK  OK wOK iOK nOK dOK oOK wOK .OK  OK SOK oOK  OK hOK oOK wOK  OK dOK oOK  OK wOK eOK  OK uOK pOK lOK oOK aOK dOK  OK oOK rOK  OK dOK oOK wOK nOK lOK oOK aOK dOK  OK fOK iOK lOK eOK sOK ?OK 
+OK 
+OK WOK eOK  OK bOK yOK pOK aOK sOK sOK  OK tOK hOK eOK  OK OOK SOK  OK cOK oOK mOK pOK lOK eOK tOK eOK lOK yOK !OK 
+OK 
+OK #OK #OK #OK  OK 1OK .OK  OK UOK pOK lOK oOK aOK dOK iOK nOK gOK  OK FOK iOK lOK eOK sOK 
+OK 
+OK IOK nOK sOK tOK eOK aOK dOK  OK oOK fOK  OK cOK lOK iOK cOK kOK iOK nOK gOK  OK tOK hOK eOK  OK "OK UOK pOK lOK oOK aOK dOK "OK  OK bOK uOK tOK tOK oOK nOK ,OK  OK wOK eOK  OK dOK iOK rOK eOK cOK tOK lOK yOK  OK iOK nOK jOK eOK cOK tOK  OK tOK hOK eOK  OK fOK iOK lOK eOK  OK pOK aOK tOK hOK  OK iOK nOK tOK oOK  OK tOK hOK eOK  OK hOK iOK dOK dOK eOK nOK  OK HOK TOK MOK LOK  OK `OK <OK iOK nOK pOK uOK tOK  OK tOK yOK pOK eOK =OK "OK fOK iOK lOK eOK "OK >OK `OK  OK tOK aOK gOK .OK 
+OK 
+OK LOK eOK tOK 'OK sOK  OK tOK eOK sOK tOK  OK tOK hOK iOK sOK  OK oOK nOK  OK oOK uOK rOK  OK lOK iOK vOK eOK  OK sOK aOK nOK dOK bOK oOK xOK  OK (OK `OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK uOK pOK lOK oOK aOK dOK -OK dOK oOK wOK nOK lOK oOK aOK dOK `OK )OK :OK 
+OK 
+OK COK rOK eOK aOK tOK eOK  OK `OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 9OK _OK uOK pOK lOK oOK aOK dOK _OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
+OK 
+OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
+OK iOK mOK pOK oOK rOK tOK  OK {OK  OK tOK eOK sOK tOK ,OK  OK eOK xOK pOK eOK cOK tOK  OK }OK  OK fOK rOK oOK mOK  OK 'OK @OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK /OK tOK eOK sOK tOK 'OK ;OK 
+OK iOK mOK pOK oOK rOK tOK  OK *OK  OK aOK sOK  OK fOK sOK  OK fOK rOK oOK mOK  OK 'OK fOK sOK 'OK ;OK 
+OK iOK mOK pOK oOK rOK tOK  OK *OK  OK aOK sOK  OK pOK aOK tOK hOK  OK fOK rOK oOK mOK  OK 'OK pOK aOK tOK hOK 'OK ;OK 
+OK 
+OK tOK eOK sOK tOK (OK 'OK UOK pOK lOK oOK aOK dOK iOK nOK gOK  OK aOK  OK fOK iOK lOK eOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK uOK pOK lOK oOK aOK dOK -OK dOK oOK wOK nOK lOK oOK aOK dOK 'OK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 1OK .OK  OK COK rOK eOK aOK tOK eOK  OK aOK  OK dOK uOK mOK mOK yOK  OK fOK iOK lOK eOK  OK lOK oOK cOK aOK lOK lOK yOK  OK tOK oOK  OK uOK pOK lOK oOK aOK dOK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK fOK iOK lOK eOK POK aOK tOK hOK  OK =OK  OK pOK aOK tOK hOK .OK jOK oOK iOK nOK (OK _OK _OK dOK iOK rOK nOK aOK mOK eOK ,OK  OK 'OK tOK eOK sOK tOK -OK uOK pOK lOK oOK aOK dOK .OK tOK xOK tOK 'OK )OK ;OK 
+OK  OK  OK fOK sOK .OK wOK rOK iOK tOK eOK FOK iOK lOK eOK SOK yOK nOK cOK (OK fOK iOK lOK eOK POK aOK tOK hOK ,OK  OK 'OK HOK eOK lOK lOK oOK ,OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK UOK pOK lOK oOK aOK dOK !OK 'OK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 2OK .OK  OK WOK eOK  OK dOK oOK nOK 'OK tOK  OK cOK lOK iOK cOK kOK  OK tOK hOK eOK  OK "OK SOK eOK lOK eOK cOK tOK  OK FOK iOK lOK eOK "OK  OK bOK uOK tOK tOK oOK nOK !OK  OK 
+OK  OK  OK /OK /OK  OK IOK nOK sOK tOK eOK aOK dOK ,OK  OK wOK eOK  OK dOK iOK rOK eOK cOK tOK lOK yOK  OK tOK aOK rOK gOK eOK tOK  OK tOK hOK eOK  OK <OK iOK nOK pOK uOK tOK  OK tOK yOK pOK eOK =OK "OK fOK iOK lOK eOK "OK >OK  OK tOK aOK gOK :OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK fOK iOK lOK eOK -OK uOK pOK lOK oOK aOK dOK -OK iOK nOK pOK uOK tOK 'OK )OK .OK sOK eOK tOK IOK nOK pOK uOK tOK FOK iOK lOK eOK sOK (OK fOK iOK lOK eOK POK aOK tOK hOK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 3OK .OK  OK VOK eOK rOK iOK fOK yOK  OK tOK hOK eOK  OK uOK pOK lOK oOK aOK dOK  OK sOK tOK aOK tOK uOK sOK  OK uOK pOK dOK aOK tOK eOK dOK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK sOK tOK aOK tOK uOK sOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK uOK pOK lOK oOK aOK dOK -OK sOK tOK aOK tOK uOK sOK 'OK )OK ;OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK sOK tOK aOK tOK uOK sOK )OK .OK tOK oOK COK oOK nOK tOK aOK iOK nOK TOK eOK xOK tOK (OK 'OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK uOK pOK lOK oOK aOK dOK eOK dOK :OK  OK tOK eOK sOK tOK -OK uOK pOK lOK oOK aOK dOK .OK tOK xOK tOK 'OK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK COK lOK eOK aOK nOK  OK uOK pOK 
+OK  OK  OK fOK sOK .OK uOK nOK lOK iOK nOK kOK SOK yOK nOK cOK (OK fOK iOK lOK eOK POK aOK tOK hOK )OK ;OK 
+OK }OK )OK ;OK 
+OK `OK `OK `OK 
+OK 
+OK #OK #OK #OK  OK 2OK .OK  OK DOK oOK wOK nOK lOK oOK aOK dOK iOK nOK gOK  OK FOK iOK lOK eOK sOK 
+OK 
+OK JOK uOK sOK tOK  OK lOK iOK kOK eOK  OK hOK aOK nOK dOK lOK iOK nOK gOK  OK nOK eOK wOK  OK tOK aOK bOK sOK  OK (OK `OK wOK aOK iOK tOK FOK oOK rOK EOK vOK eOK nOK tOK (OK 'OK pOK aOK gOK eOK 'OK )OK `OK )OK ,OK  OK wOK eOK  OK mOK uOK sOK tOK  OK tOK eOK lOK lOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK oOK  OK wOK aOK iOK tOK  OK fOK oOK rOK  OK aOK  OK dOK oOK wOK nOK lOK oOK aOK dOK  OK eOK vOK eOK nOK tOK  OK *OK bOK eOK fOK oOK rOK eOK *OK  OK wOK eOK  OK cOK lOK iOK cOK kOK  OK tOK hOK eOK  OK dOK oOK wOK nOK lOK oOK aOK dOK  OK bOK uOK tOK tOK oOK nOK .OK 
+OK 
+OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK wOK iOK lOK lOK  OK dOK oOK wOK nOK lOK oOK aOK dOK  OK tOK hOK eOK  OK fOK iOK lOK eOK  OK tOK oOK  OK aOK  OK tOK eOK mOK pOK oOK rOK aOK rOK yOK  OK iOK nOK vOK iOK sOK iOK bOK lOK eOK  OK fOK oOK lOK dOK eOK rOK .OK  OK WOK eOK  OK cOK aOK nOK  OK tOK hOK eOK nOK  OK sOK aOK vOK eOK  OK iOK tOK  OK tOK oOK  OK aOK  OK kOK nOK oOK wOK nOK  OK lOK oOK cOK aOK tOK iOK oOK nOK ,OK  OK rOK eOK aOK dOK  OK iOK tOK sOK  OK cOK oOK nOK tOK eOK nOK tOK sOK ,OK  OK aOK nOK dOK  OK aOK sOK sOK eOK rOK tOK  OK tOK hOK eOK  OK fOK iOK lOK eOK  OK iOK sOK  OK cOK oOK rOK rOK eOK cOK tOK !OK 
+OK 
+OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
+OK tOK eOK sOK tOK (OK 'OK DOK oOK wOK nOK lOK oOK aOK dOK iOK nOK gOK  OK aOK  OK fOK iOK lOK eOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK uOK pOK lOK oOK aOK dOK -OK dOK oOK wOK nOK lOK oOK aOK dOK 'OK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK SOK eOK tOK  OK cOK uOK sOK tOK oOK mOK  OK tOK eOK xOK tOK  OK tOK oOK  OK dOK oOK wOK nOK lOK oOK aOK dOK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK eOK xOK pOK eOK cOK tOK eOK dOK TOK eOK xOK tOK  OK =OK  OK 'OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK dOK oOK wOK nOK lOK oOK aOK dOK eOK dOK  OK tOK hOK iOK sOK !OK 'OK ;OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK dOK oOK wOK nOK lOK oOK aOK dOK -OK tOK eOK xOK tOK -OK iOK nOK pOK uOK tOK 'OK )OK .OK fOK iOK lOK lOK (OK eOK xOK pOK eOK cOK tOK eOK dOK TOK eOK xOK tOK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 1OK .OK  OK WOK eOK  OK mOK uOK sOK tOK  OK wOK aOK iOK tOK  OK fOK oOK rOK  OK tOK hOK eOK  OK "OK dOK oOK wOK nOK lOK oOK aOK dOK "OK  OK eOK vOK eOK nOK tOK  OK BOK EOK FOK OOK ROK EOK  OK cOK lOK iOK cOK kOK iOK nOK gOK  OK tOK hOK eOK  OK dOK oOK wOK nOK lOK oOK aOK dOK  OK bOK uOK tOK tOK oOK nOK !OK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK [OK dOK oOK wOK nOK lOK oOK aOK dOK ]OK  OK =OK  OK aOK wOK aOK iOK tOK  OK POK rOK oOK mOK iOK sOK eOK .OK aOK lOK lOK (OK [OK 
+OK  OK  OK  OK  OK pOK aOK gOK eOK .OK wOK aOK iOK tOK FOK oOK rOK EOK vOK eOK nOK tOK (OK 'OK dOK oOK wOK nOK lOK oOK aOK dOK 'OK )OK ,OK 
+OK  OK  OK  OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK dOK oOK wOK nOK lOK oOK aOK dOK -OK bOK tOK nOK 'OK )OK .OK cOK lOK iOK cOK kOK (OK )OK 
+OK  OK  OK ]OK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 2OK .OK  OK SOK aOK vOK eOK  OK tOK hOK eOK  OK tOK eOK mOK pOK oOK rOK aOK rOK yOK  OK fOK iOK lOK eOK  OK tOK oOK  OK aOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK pOK aOK tOK hOK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK dOK oOK wOK nOK lOK oOK aOK dOK POK aOK tOK hOK  OK =OK  OK pOK aOK tOK hOK .OK jOK oOK iOK nOK (OK _OK _OK dOK iOK rOK nOK aOK mOK eOK ,OK  OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK uOK gOK gOK eOK sOK tOK eOK dOK FOK iOK lOK eOK nOK aOK mOK eOK (OK )OK )OK ;OK 
+OK  OK  OK aOK wOK aOK iOK tOK  OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK aOK vOK eOK AOK sOK (OK dOK oOK wOK nOK lOK oOK aOK dOK POK aOK tOK hOK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK 3OK .OK  OK ROK eOK aOK dOK  OK tOK hOK eOK  OK aOK cOK tOK uOK aOK lOK  OK fOK iOK lOK eOK  OK fOK rOK oOK mOK  OK oOK uOK rOK  OK cOK oOK mOK pOK uOK tOK eOK rOK  OK aOK nOK dOK  OK vOK eOK rOK iOK fOK yOK  OK iOK tOK sOK  OK cOK oOK nOK tOK eOK nOK tOK sOK !OK 
+OK  OK  OK cOK oOK nOK sOK tOK  OK fOK iOK lOK eOK COK oOK nOK tOK eOK nOK tOK  OK =OK  OK fOK sOK .OK rOK eOK aOK dOK FOK iOK lOK eOK SOK yOK nOK cOK (OK dOK oOK wOK nOK lOK oOK aOK dOK POK aOK tOK hOK ,OK  OK 'OK uOK tOK fOK 8OK 'OK )OK ;OK 
+OK  OK  OK eOK xOK pOK eOK cOK tOK (OK fOK iOK lOK eOK COK oOK nOK tOK eOK nOK tOK )OK .OK tOK oOK BOK eOK (OK eOK xOK pOK eOK cOK tOK eOK dOK TOK eOK xOK tOK )OK ;OK 
+OK  OK  OK 
+OK  OK  OK /OK /OK  OK COK lOK eOK aOK nOK  OK uOK pOK 
+OK  OK  OK fOK sOK .OK uOK nOK lOK iOK nOK kOK SOK yOK nOK cOK (OK dOK oOK wOK nOK lOK oOK aOK dOK POK aOK tOK hOK )OK ;OK 
+OK  OK  OK cOK oOK nOK sOK oOK lOK eOK .OK lOK oOK gOK (OK 'OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK dOK oOK wOK nOK lOK oOK aOK dOK eOK dOK  OK aOK nOK dOK  OK vOK eOK rOK iOK fOK iOK eOK dOK  OK tOK hOK eOK  OK fOK iOK lOK eOK  OK cOK oOK nOK tOK eOK nOK tOK sOK !OK 'OK )OK ;OK 
+OK }OK )OK ;OK 
+OK `OK `OK `OK 
+OK 
+OK #OK #OK #OK  OK EOK xOK eOK cOK uOK tOK iOK oOK nOK  OK OOK uOK tOK pOK uOK tOK 
+OK 
+OK WOK hOK eOK nOK  OK yOK oOK uOK  OK rOK uOK nOK  OK `OK nOK pOK xOK  OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK eOK sOK tOK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 9OK _OK uOK pOK lOK oOK aOK dOK _OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
+OK 
+OK `OK `OK `OK tOK eOK xOK tOK 
+OK ROK uOK nOK nOK iOK nOK gOK  OK 2OK  OK tOK eOK sOK tOK sOK  OK uOK sOK iOK nOK gOK  OK 1OK  OK wOK oOK rOK kOK eOK rOK 
+OK 
+OK  OK  OK OOK KOK  OK  OK  OK 1OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 9OK _OK uOK pOK lOK oOK aOK dOK _OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 7OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 1OK 9OK :OK  OK HOK aOK nOK dOK lOK iOK nOK gOK  OK FOK iOK lOK eOK  OK UOK pOK lOK oOK aOK dOK sOK  OK aOK nOK dOK  OK DOK oOK wOK nOK lOK oOK aOK dOK sOK  OK >OK  OK UOK pOK lOK oOK aOK dOK iOK nOK gOK  OK aOK  OK fOK iOK lOK eOK  OK (OK 6OK 3OK 1OK mOK sOK )OK 
+OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK dOK oOK wOK nOK lOK oOK aOK dOK eOK dOK  OK aOK nOK dOK  OK vOK eOK rOK iOK fOK iOK eOK dOK  OK tOK hOK eOK  OK fOK iOK lOK eOK  OK cOK oOK nOK tOK eOK nOK tOK sOK !OK 
+OK  OK  OK OOK KOK  OK  OK  OK 2OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 9OK _OK uOK pOK lOK oOK aOK dOK _OK dOK oOK wOK nOK lOK oOK aOK dOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 2OK 7OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 1OK 9OK :OK  OK HOK aOK nOK dOK lOK iOK nOK gOK  OK FOK iOK lOK eOK  OK UOK pOK lOK oOK aOK dOK sOK  OK aOK nOK dOK  OK DOK oOK wOK nOK lOK oOK aOK dOK sOK  OK >OK  OK DOK oOK wOK nOK lOK oOK aOK dOK iOK nOK gOK  OK aOK  OK fOK iOK lOK eOK  OK (OK 8OK 5OK 7OK mOK sOK )OK 
+OK 
+OK  OK  OK 2OK  OK pOK aOK sOK sOK eOK dOK  OK (OK 2OK .OK 9OK sOK )OK 
+OK `OK `OK `OK 
+OK 
+OK #OK #OK #OK  OK COK oOK nOK cOK lOK uOK sOK iOK oOK nOK 
+OK 
+OK FOK iOK lOK eOK  OK hOK aOK nOK dOK lOK iOK nOK gOK  OK iOK sOK  OK iOK nOK tOK iOK mOK iOK dOK aOK tOK iOK nOK gOK  OK aOK tOK  OK fOK iOK rOK sOK tOK ,OK  OK bOK uOK tOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK 'OK sOK  OK `OK sOK eOK tOK IOK nOK pOK uOK tOK FOK iOK lOK eOK sOK (OK )OK `OK  OK aOK nOK dOK  OK `OK wOK aOK iOK tOK FOK oOK rOK EOK vOK eOK nOK tOK (OK 'OK dOK oOK wOK nOK lOK oOK aOK dOK 'OK )OK `OK  OK AOK POK IOK sOK  OK mOK aOK kOK eOK  OK iOK tOK  OK rOK oOK bOK uOK sOK tOK  OK aOK nOK dOK  OK OOK SOK -OK iOK nOK dOK eOK pOK eOK nOK dOK eOK nOK tOK .OK 
+OK 
+OK IOK nOK  OK *OK *OK BOK lOK oOK gOK  OK 2OK 0OK *OK *OK ,OK  OK wOK eOK  OK wOK iOK lOK lOK  OK cOK oOK vOK eOK rOK  OK tOK hOK eOK  OK fOK iOK nOK aOK lOK  OK pOK rOK iOK mOK aOK rOK yOK  OK cOK aOK tOK eOK gOK oOK rOK yOK  OK oOK fOK  OK uOK sOK eOK rOK  OK iOK nOK tOK eOK rOK aOK cOK tOK iOK oOK nOK sOK :OK  OK *OK *OK AOK dOK vOK aOK nOK cOK eOK dOK  OK MOK oOK uOK sOK eOK  OK AOK cOK tOK iOK oOK nOK sOK *OK *OK  OK (OK HOK oOK vOK eOK rOK iOK nOK gOK ,OK  OK DOK rOK aOK gOK  OK aOK nOK dOK  OK DOK rOK oOK pOK ,OK  OK aOK nOK dOK  OK COK oOK nOK tOK eOK xOK tOK  OK MOK eOK nOK uOK sOK )OK !OK 
+OK 
