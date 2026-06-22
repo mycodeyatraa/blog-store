@@ -72,13 +72,13 @@ test('Blocking Network Requests (e.g., Images)', async ({ page }) => {
 
 When you run `npx playwright test tests/blog26_network_mocking.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
 Successfully intercepted and mocked the network request!
-  ✓  1 tests\blog26_network_mocking.spec.ts:5:7 › Blog 26: Network Interception & Mocking › Mocking an API Response (3.5s)
+  OK   1 tests/blog26_network_mocking.spec.ts:5:7 > Blog 26: Network Interception & Mocking > Mocking an API Response (3.5s)
 Successfully loaded page while blocking all images!
-  ✓  2 tests\blog26_network_mocking.spec.ts:32:7 › Blog 26: Network Interception & Mocking › Blocking Network Requests (e.g., Images) (619ms)
+  OK   2 tests/blog26_network_mocking.spec.ts:32:7 > Blog 26: Network Interception & Mocking > Blocking Network Requests (e.g., Images) (619ms)
 
   2 passed (5.5s)
 ```
