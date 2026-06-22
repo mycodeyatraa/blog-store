@@ -5,7 +5,7 @@ description: "Need to test a chat application or multi-user workflow? Learn how 
 tags: ["Playwright", "TypeScript", "Browser Context", "Multi-user"]
 ---
 
-Welcome to Blog 27 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 22 of the **Playwright TypeScript Mastery Series**!
 
 One of Playwright's most powerful architectural features is its ability to easily handle **multiple browser contexts**. 
 

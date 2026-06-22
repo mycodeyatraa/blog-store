@@ -5,7 +5,7 @@ description: "Stop relying on unstable backends. Learn how to intercept network 
 tags: ["Playwright", "TypeScript", "Network", "Mocking", "Interception"]
 ---
 
-Welcome to Blog 26 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 31 of the **Playwright TypeScript Mastery Series**!
 
 Have your UI tests ever failed because the backend server was down? Or because the database was missing test data? This is the most common cause of "flaky tests" in the industry.
 

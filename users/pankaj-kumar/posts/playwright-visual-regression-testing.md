@@ -5,7 +5,7 @@ description: "Go beyond checking text. Learn how to catch visual bugs (like brok
 tags: ["Playwright", "TypeScript", "Visual Testing", "Screenshots"]
 ---
 
-Welcome to Blog 28 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 32 of the **Playwright TypeScript Mastery Series**!
 
 So far in this series, our tests have been purely functional. We check if an element exists, if the text is correct, or if a button is clickable. 
 

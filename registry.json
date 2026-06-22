@@ -22487,6 +22487,41 @@
     "commentsCount": 0
   },
   {
+    "id": "post-627",
+    "slug": "playwright-multiple-browser-contexts",
+    "title": "Testing Multiple Browser Contexts",
+    "description": "Need to test a chat application or multi-user workflow? Learn how to spawn and manage multiple isolated browser contexts simultaneously.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-multiple-browser-contexts.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "11-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Browser Context",
+      "Multi-user"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 22,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
     "id": "post-622",
     "slug": "playwright-fixtures-setup-teardown",
     "title": "Using Hooks and Fixtures for Setup/Teardown",
@@ -22518,7 +22553,7 @@
       "DRY"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 22,
+    "seriesOrder": 23,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22553,7 +22588,7 @@
       "Page Object"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 23,
+    "seriesOrder": 24,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22589,7 +22624,147 @@
       "Architecture"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 24,
+    "seriesOrder": 25,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-629",
+    "slug": "playwright-configuration-management",
+    "title": "Configuration Management in Playwright",
+    "description": "Learn how to master the playwright.config.ts file to manage global setups, timeouts, multiple environments, and reporter configurations for enterprise scaling.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-configuration-management.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "13-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Configuration",
+      "Framework"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 26,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-630",
+    "slug": "playwright-logging-framework",
+    "title": "Logging Framework Design",
+    "description": "Tracing and Console Logs are great, but enterprise frameworks need persistent, structured logging. Learn how to implement a custom logging framework in Playwright.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-logging-framework.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "14-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Logging",
+      "Framework"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 27,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-631",
+    "slug": "playwright-framework-architecture",
+    "title": "Framework Architecture",
+    "description": "Connect the dots! Learn how to combine Page Objects, Fixtures, Configuration, and Logging into a cohesive, scalable enterprise architecture.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-framework-architecture.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "14-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Architecture",
+      "Framework"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 28,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-633",
+    "slug": "playwright-environment-configuration",
+    "title": "Environment-Specific Configuration",
+    "description": "Learn how to seamlessly switch your Playwright tests between Dev, QA, and Production environments using dotenv and global configuration patterns.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-environment-configuration.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "15-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Configuration",
+      "Dotenv"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 29,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22624,7 +22799,7 @@
       "HTTP Request"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 25,
+    "seriesOrder": 30,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22660,42 +22835,7 @@
       "Interception"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 26,
-    "likes": 0,
-    "commentsCount": 0
-  },
-  {
-    "id": "post-627",
-    "slug": "playwright-multiple-browser-contexts",
-    "title": "Testing Multiple Browser Contexts",
-    "description": "Need to test a chat application or multi-user workflow? Learn how to spawn and manage multiple isolated browser contexts simultaneously.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-multiple-browser-contexts.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "readTime": "3 min read",
-    "date": "11-Mar-2025",
-    "draft": false,
-    "categories": [
-      "Playwright TypeScript",
-      "Advanced Topics"
-    ],
-    "tags": [
-      "Playwright",
-      "TypeScript",
-      "Browser Context",
-      "Multi-user"
-    ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 27,
+    "seriesOrder": 31,
     "likes": 0,
     "commentsCount": 0
   },
@@ -22730,147 +22870,7 @@
       "Screenshots"
     ],
     "series": "playwright-typescript-foundations",
-    "seriesOrder": 28,
-    "likes": 0,
-    "commentsCount": 0
-  },
-  {
-    "id": "post-629",
-    "slug": "playwright-configuration-management",
-    "title": "Configuration Management in Playwright",
-    "description": "Learn how to master the playwright.config.ts file to manage global setups, timeouts, multiple environments, and reporter configurations for enterprise scaling.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-configuration-management.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "readTime": "4 min read",
-    "date": "13-Mar-2025",
-    "draft": false,
-    "categories": [
-      "Playwright TypeScript",
-      "Framework"
-    ],
-    "tags": [
-      "Playwright",
-      "TypeScript",
-      "Configuration",
-      "Framework"
-    ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 29,
-    "likes": 0,
-    "commentsCount": 0
-  },
-  {
-    "id": "post-630",
-    "slug": "playwright-logging-framework",
-    "title": "Logging Framework Design",
-    "description": "Tracing and Console Logs are great, but enterprise frameworks need persistent, structured logging. Learn how to implement a custom logging framework in Playwright.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-logging-framework.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "readTime": "4 min read",
-    "date": "14-Mar-2025",
-    "draft": false,
-    "categories": [
-      "Playwright TypeScript",
-      "Framework"
-    ],
-    "tags": [
-      "Playwright",
-      "TypeScript",
-      "Logging",
-      "Framework"
-    ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 30,
-    "likes": 0,
-    "commentsCount": 0
-  },
-  {
-    "id": "post-631",
-    "slug": "playwright-framework-architecture",
-    "title": "Framework Architecture",
-    "description": "Connect the dots! Learn how to combine Page Objects, Fixtures, Configuration, and Logging into a cohesive, scalable enterprise architecture.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-framework-architecture.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "readTime": "3 min read",
-    "date": "14-Mar-2025",
-    "draft": false,
-    "categories": [
-      "Playwright TypeScript",
-      "Framework"
-    ],
-    "tags": [
-      "Playwright",
-      "TypeScript",
-      "Architecture",
-      "Framework"
-    ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 31,
-    "likes": 0,
-    "commentsCount": 0
-  },
-  {
-    "id": "post-633",
-    "slug": "playwright-environment-configuration",
-    "title": "Environment-Specific Configuration",
-    "description": "Learn how to seamlessly switch your Playwright tests between Dev, QA, and Production environments using dotenv and global configuration patterns.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-environment-configuration.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "readTime": "3 min read",
-    "date": "15-Mar-2025",
-    "draft": false,
-    "categories": [
-      "Playwright TypeScript",
-      "Framework"
-    ],
-    "tags": [
-      "Playwright",
-      "TypeScript",
-      "Configuration",
-      "Dotenv"
-    ],
-    "series": "playwright-typescript-foundations",
-    "seriesOrder": 33,
+    "seriesOrder": 32,
     "likes": 0,
     "commentsCount": 0
   }

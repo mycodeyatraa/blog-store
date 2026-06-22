@@ -5,7 +5,7 @@ description: "Tracing and Console Logs are great, but enterprise frameworks need
 tags: ["Playwright", "TypeScript", "Logging", "Framework"]
 ---
 
-Welcome to Blog 30 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 27 of the **Playwright TypeScript Mastery Series**!
 
 Playwright has incredibly powerful built-in tracing, video recording, and console logs. However, when you are running a test suite with hundreds of test cases in a CI/CD environment, digging through individual trace files for every minor failure can be exhausting.
 

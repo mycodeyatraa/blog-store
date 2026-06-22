@@ -5,7 +5,7 @@ description: "Stop writing duplicate setup code. Learn how to use Playwright's h
 tags: ["Playwright", "TypeScript", "Hooks", "Fixtures", "DRY"]
 ---
 
-Welcome to Blog 22 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 23 of the **Playwright TypeScript Mastery Series**!
 
 One of the foundational principles of software development is **DRY** (Don't Repeat Yourself). 
 

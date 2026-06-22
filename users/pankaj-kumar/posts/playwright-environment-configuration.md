@@ -5,7 +5,7 @@ description: "Learn how to seamlessly switch your Playwright tests between Dev, 
 tags: ["Playwright", "TypeScript", "Configuration", "Dotenv"]
 ---
 
-Welcome to Blog 33 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 29 of the **Playwright TypeScript Mastery Series**!
 
 An automation framework is only as good as its flexibility. Hardcoding URLs and credentials like `https://practice.mycodeyatra.com` directly into your page objects or tests makes your suite extremely rigid. 
 

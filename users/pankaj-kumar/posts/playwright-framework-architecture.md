@@ -5,7 +5,7 @@ description: "Connect the dots! Learn how to combine Page Objects, Fixtures, Con
 tags: ["Playwright", "TypeScript", "Architecture", "Framework"]
 ---
 
-Welcome to Blog 31 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 28 of the **Playwright TypeScript Mastery Series**!
 
 We have covered an immense amount of ground over the last 30 blogs. We've built Page Objects, created custom Fixtures, configured environment variables, and implemented a robust logging system. 
 

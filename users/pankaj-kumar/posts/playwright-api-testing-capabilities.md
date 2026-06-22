@@ -5,7 +5,7 @@ description: "Playwright isn't just for UI testing. Learn how to use Playwright'
 tags: ["Playwright", "TypeScript", "API Testing", "HTTP Request"]
 ---
 
-Welcome to Blog 25 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 30 of the **Playwright TypeScript Mastery Series**!
 
 Many automation engineers assume Playwright is strictly a browser automation tool like Selenium. However, Playwright is actually a full-stack testing framework!
 

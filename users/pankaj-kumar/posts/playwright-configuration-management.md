@@ -5,7 +5,7 @@ description: "Learn how to master the playwright.config.ts file to manage global
 tags: ["Playwright", "TypeScript", "Configuration", "Framework"]
 ---
 
-Welcome to Blog 29 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 26 of the **Playwright TypeScript Mastery Series**!
 
 Up until now, we have been writing tests and running them with the default Playwright settings. However, in an enterprise environment, you rarely want to run tests against a single hardcoded URL or with a single browser. 
 

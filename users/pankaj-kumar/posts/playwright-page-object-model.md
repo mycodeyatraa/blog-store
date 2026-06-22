@@ -5,7 +5,7 @@ description: "Scale your test automation safely. Discover how the Page Object Mo
 tags: ["Playwright", "TypeScript", "POM", "Page Object Model", "Architecture"]
 ---
 
-Welcome to Blog 24 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 25 of the **Playwright TypeScript Mastery Series**!
 
 Imagine you have 50 different tests that all log into your application using `page.getByTestId('username')`. 
 

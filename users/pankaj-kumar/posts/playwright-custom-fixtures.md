@@ -5,7 +5,7 @@ description: "Take your test architecture to the next level. Learn how to extend
 tags: ["Playwright", "TypeScript", "Custom Fixtures", "Architecture"]
 ---
 
-Welcome to Blog 23 of the **Playwright TypeScript Mastery Series**!
+Welcome to Blog 24 of the **Playwright TypeScript Mastery Series**!
 
 In our last blog, we used `test.beforeEach()` to log into our application. This works great for a single file, but what happens when you have 50 different test files that all require the user to be logged in? 
 
