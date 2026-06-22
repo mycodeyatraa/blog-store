@@ -75,18 +75,18 @@ test.describe('Blog 22: Hooks and Fixtures', () => {
 
 When you run `npx playwright test tests/blog22_hooks.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
 Running Setup: Logging in...
 Test 1: Dashboard navigation verified!
 Running Teardown: Clearing session...
-  ✓  1 tests\blog22_hooks.spec.ts:27:7 › Blog 22: Hooks and Fixtures › Verify Dashboard Navigation (728ms)
+  OK   1 tests/blog22_hooks.spec.ts:27:7 > Blog 22: Hooks and Fixtures > Verify Dashboard Navigation (728ms)
 
 Running Setup: Logging in...
 Test 2: Profile settings accessible!
 Running Teardown: Clearing session...
-  ✓  2 tests\blog22_hooks.spec.ts:35:7 › Blog 22: Hooks and Fixtures › Verify Profile Settings Accessible (610ms)
+  OK   2 tests/blog22_hooks.spec.ts:35:7 > Blog 22: Hooks and Fixtures > Verify Profile Settings Accessible (610ms)
 
   2 passed (2.6s)
 ```
