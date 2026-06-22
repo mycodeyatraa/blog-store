@@ -72,7 +72,7 @@ test.describe('Blog 8: First E2E Test', () => {
 *   **`page.goto()`**: This is a core Playwright function. It tells the browser to navigate to a URL and wait until the page has fully loaded before executing the next line of code.
 *   **`.fill()`**: In older frameworks like Selenium, you usually use `.sendKeys()`. Playwright's `.fill()` is vastly superior because it automatically clears the input box before typing the new text!
 *   **`.click()`**: This command natively waits for the button to be visible, enabled, and perfectly stable before triggering the click event.
-*   **`.toHaveURL(/.*dashboard/)`**: Notice the `/ /` syntax? That is a Regular Expression! We don't care what the exact IP address or domain is; as long as the URL ends in "dashboard", the test passes!
+*   **`.toHaveURL(/.*dashboard/)`**: Notice the `/ /` syntax? That is a Regular Expression! We don't care what the exact IP address or domain is; as long as the test ends on "dashboard", it passes!
 *   **`expect(page).not`**: By appending `.not`, we can assert negative conditions (e.g., verifying that a user is *blocked* from accessing the dashboard).
 
 ### Execution Output
@@ -84,7 +84,8 @@ npx playwright test tests/blog8_e2e_login.spec.ts --headed
 ```
 
 **Output:**
-```
+
+```text
 Running 2 tests using 1 worker
 Navigating to the login page...
 Entering username...
@@ -95,8 +96,6 @@ Validating successful login...
   ✓  2 Failed Login Scenario (Invalid Password) (1.4s)
   2 passed (3.2s)
 ```
-
-Notice how fast that was? Playwright executed two complete End-to-End browser workflows in just 3.2 seconds!
 
 ### Conclusion
 
