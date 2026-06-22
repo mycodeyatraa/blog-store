@@ -22056,5 +22056,41 @@
     "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-610",
+    "slug": "playwright-locators-chaining-filtering",
+    "title": "Locators Chaining and Filtering",
+    "description": "Web pages are complex. When simple locators aren't enough, learn how to chain locators together and use advanced filtering techniques (like hasText) to find nested elements.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-locators-chaining-filtering.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "22-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Locators",
+      "Chaining",
+      "Filtering"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
