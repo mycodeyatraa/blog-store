@@ -28,7 +28,6 @@ Playwright provides built-in fixtures like `page` (an isolated browser tab) and 
 Let's look at an example against our live practice site (`https://practice.mycodeyatra.com/#/login`):
 
 Create `tests/blog22_hooks.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
@@ -74,8 +73,7 @@ test.describe('Blog 22: Hooks and Fixtures', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog22_hooks.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
 Running Setup: Logging in...
