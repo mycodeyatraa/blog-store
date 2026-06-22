@@ -18,7 +18,6 @@ Playwright **Annotations** solve all of this.
 Let's test these annotations against our login page (`https://practice.mycodeyatra.com/#/login`). 
 
 Create `tests/blog21_annotations.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
@@ -66,8 +65,7 @@ test.describe('Blog 21: Test Annotations', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog21_annotations.spec.ts`, you will see something very interesting:
-
-```text
+```bash
 Running 4 tests using 1 worker
 
   -  1 tests\blog21_annotations.spec.ts:8:8 › Blog 21: Test Annotations › This test is currently broken
