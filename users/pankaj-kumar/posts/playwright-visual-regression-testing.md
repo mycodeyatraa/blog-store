@@ -29,16 +29,16 @@ Create `tests/blog28_visual_testing.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 28: Visual Regression Testing', () => {
-
+ 
   test('Verify Home Page Layout using Screenshots', async ({ page }) => {
     // Navigate to the practice site
     await page.goto('https://practice.mycodeyatra.com');
     
     // Wait for the page to be fully loaded and stable
     await expect(page.locator('h1').first()).toBeVisible();
-
+ 
     // 1. Take a screenshot of the entire page and compare it to the baseline!
     // NOTE: On the very first run, this test will "fail" because there is no baseline.
     // Playwright will automatically save the first screenshot as the golden baseline.
@@ -46,14 +46,14 @@ test.describe('Blog 28: Visual Regression Testing', () => {
     await expect(page).toHaveScreenshot('home-page-layout.png', {
       maxDiffPixels: 100 // Allow a tiny bit of anti-aliasing difference
     });
-
+ 
     // 2. We can also take a screenshot of a specific element instead of the whole page!
     const headerTitle = page.locator('h1').first();
     await expect(headerTitle).toHaveScreenshot('header-title.png');
     
     console.log('Visual Regression completed!');
   });
-
+ 
 });
 ```
 
@@ -65,10 +65,10 @@ After running the test once to generate the baselines, run it again:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Visual Regression completed!
   OK  1 tests/blog28_visual_testing.spec.ts:5:7 > Blog 28: Visual Regression Testing > Verify Home Page Layout using Screenshots (1.5s)
-
+ 
   1 passed (3.7s)
 ```
 
