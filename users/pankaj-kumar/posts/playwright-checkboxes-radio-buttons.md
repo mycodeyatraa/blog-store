@@ -68,10 +68,10 @@ When you run `npx playwright test tests/blog13_checkboxes.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
   OK   1 tests/blog13_checkboxes.spec.ts:4:7 > Blog 13: Checkboxes and Radio Buttons > Checking and Unchecking Checkboxes (854ms)
   OK   2 tests/blog13_checkboxes.spec.ts:24:7 > Blog 13: Checkboxes and Radio Buttons > Selecting Radio Buttons (632ms)
-
+ 
   2 passed (3.1s)
 ```
 
