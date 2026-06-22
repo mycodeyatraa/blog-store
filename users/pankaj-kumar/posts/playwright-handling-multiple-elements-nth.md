@@ -20,7 +20,6 @@ Today, we will learn how to resolve this by specifically handling multiple eleme
 If your locator returns multiple elements, you can use built-in indexing methods to specify exactly which one you want.
 
 Create a file `tests/blog11_multiple_elements.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Selecting specific elements from a list', async ({ page }) => {
@@ -47,7 +46,6 @@ Using `.first()`, `.last()`, and `.nth(index)` allows you to completely bypass t
 What if you don't want to just click one element? What if you want to extract the text from *all 11* tiles and print them to the console?
 
 To do this, we must convert the Playwright `Locator` object into a standard TypeScript `Array`. We do this using the `.all()` method!
-
 ```typescript
 test('Iterating over all elements', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/sandbox');
@@ -67,8 +65,7 @@ test('Iterating over all elements', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog11_multiple_elements.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
   ✓  1 tests\blog11_multiple_elements.spec.ts:4:7 › Blog 11: Handling Multiple Elements › Selecting specific elements from a list (3.8s)
