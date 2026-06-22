@@ -22733,5 +22733,40 @@
     "seriesOrder": 28,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-629",
+    "slug": "playwright-configuration-management",
+    "title": "Configuration Management in Playwright",
+    "description": "Learn how to master the playwright.config.ts file to manage global setups, timeouts, multiple environments, and reporter configurations for enterprise scaling.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-configuration-management.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "13-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Configuration",
+      "Framework"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 29,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
