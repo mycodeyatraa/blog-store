@@ -22,7 +22,6 @@ Playwright's default locator engine is built to natively "pierce" open Shadow DO
 Let's prove this against our live sandbox (`https://practice.mycodeyatra.com/#/shadow-dom`):
 
 Create `tests/blog18_shadow_dom.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Playwright pierces the Shadow DOM automatically', async ({ page }) => {
@@ -52,8 +51,7 @@ test('Playwright pierces the Shadow DOM automatically', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog18_shadow_dom.spec.ts`:
-
-```text
+```bash
 Running 1 test using 1 worker
 
 Successfully interacted with Shadow DOM elements!
