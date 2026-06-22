@@ -25,7 +25,7 @@ Create a file `tests/blog10_locators_chaining.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test('Chaining Locators', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/login');
   
@@ -90,7 +90,7 @@ Running 2 tests using 1 worker
   OK   1 Chaining Locators (1.1s)
 Successfully found the Edit button for John Doe!
   OK   2 Filtering Locators with hasText (1.4s)
-
+ 
   2 passed (2.5s)
 ```
 
