@@ -22272,5 +22272,41 @@
     "seriesOrder": 15,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-616",
+    "slug": "playwright-multiple-windows-tabs",
+    "title": "Handling Multiple Windows and Tabs",
+    "description": "Modern applications often open links in new tabs. Discover how Playwright makes context switching between multiple browser windows and tabs incredibly easy.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-multiple-windows-tabs.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "4 min read",
+    "date": "28-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Tabs",
+      "Windows",
+      "Context"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 16,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
