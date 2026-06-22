@@ -1,102 +1,101 @@
-OK -OK -OK -OK 
-OK tOK iOK tOK lOK eOK :OK  OK "OK LOK oOK cOK aOK tOK oOK rOK sOK  OK COK hOK aOK iOK nOK iOK nOK gOK  OK aOK nOK dOK  OK FOK iOK lOK tOK eOK rOK iOK nOK gOK "OK 
-OK dOK aOK tOK eOK :OK  OK "OK 2OK 0OK 2OK 5OK -OK 0OK 2OK -OK 2OK 2OK "OK 
-OK dOK eOK sOK cOK rOK iOK pOK tOK iOK oOK nOK :OK  OK "OK WOK eOK bOK  OK pOK aOK gOK eOK sOK  OK aOK rOK eOK  OK cOK oOK mOK pOK lOK eOK xOK .OK  OK WOK hOK eOK nOK  OK sOK iOK mOK pOK lOK eOK  OK lOK oOK cOK aOK tOK oOK rOK sOK  OK aOK rOK eOK nOK 'OK tOK  OK eOK nOK oOK uOK gOK hOK ,OK  OK lOK eOK aOK rOK nOK  OK hOK oOK wOK  OK tOK oOK  OK cOK hOK aOK iOK nOK  OK lOK oOK cOK aOK tOK oOK rOK sOK  OK tOK oOK gOK eOK tOK hOK eOK rOK  OK aOK nOK dOK  OK uOK sOK eOK  OK aOK dOK vOK aOK nOK cOK eOK dOK  OK fOK iOK lOK tOK eOK rOK iOK nOK gOK  OK tOK eOK cOK hOK nOK iOK qOK uOK eOK sOK  OK (OK lOK iOK kOK eOK  OK hOK aOK sOK TOK eOK xOK tOK )OK  OK tOK oOK  OK fOK iOK nOK dOK  OK nOK eOK sOK tOK eOK dOK  OK eOK lOK eOK mOK eOK nOK tOK sOK .OK "OK 
-OK tOK aOK gOK sOK :OK  OK [OK "OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK "OK ,OK  OK "OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK "OK ,OK  OK "OK LOK oOK cOK aOK tOK oOK rOK sOK "OK ,OK  OK "OK COK hOK aOK iOK nOK iOK nOK gOK "OK ,OK  OK "OK FOK iOK lOK tOK eOK rOK iOK nOK gOK "OK ]OK 
-OK -OK -OK -OK 
-OK 
-OK WOK eOK lOK cOK oOK mOK eOK  OK tOK oOK  OK BOK lOK oOK gOK  OK 1OK 0OK  OK oOK fOK  OK tOK hOK eOK  OK *OK *OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK  OK MOK aOK sOK tOK eOK rOK yOK  OK SOK eOK rOK iOK eOK sOK *OK *OK !OK 
-OK 
-OK IOK nOK  OK BOK lOK oOK gOK  OK 6OK ,OK  OK wOK eOK  OK lOK eOK aOK rOK nOK eOK dOK  OK hOK oOK wOK  OK tOK oOK  OK uOK sOK eOK  OK uOK sOK eOK rOK -OK cOK eOK nOK tOK rOK iOK cOK  OK lOK oOK cOK aOK tOK oOK rOK sOK  OK lOK iOK kOK eOK  OK `OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK ROK oOK lOK eOK (OK )OK `OK .OK  OK TOK hOK aOK tOK  OK wOK oOK rOK kOK sOK  OK pOK eOK rOK fOK eOK cOK tOK lOK yOK  OK fOK oOK rOK  OK sOK iOK mOK pOK lOK eOK  OK wOK eOK bOK  OK pOK aOK gOK eOK sOK .OK  OK 
-OK 
-OK BOK uOK tOK  OK wOK hOK aOK tOK  OK hOK aOK pOK pOK eOK nOK sOK  OK wOK hOK eOK nOK  OK yOK oOK uOK  OK aOK rOK eOK  OK tOK eOK sOK tOK iOK nOK gOK  OK aOK  OK cOK oOK mOK pOK lOK eOK xOK  OK eOK nOK tOK eOK rOK pOK rOK iOK sOK eOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK ?OK  OK WOK hOK aOK tOK  OK iOK fOK  OK tOK hOK eOK rOK eOK  OK aOK rOK eOK  OK *OK *OK tOK hOK rOK eOK eOK *OK *OK  OK dOK iOK fOK fOK eOK rOK eOK nOK tOK  OK "OK SOK uOK bOK mOK iOK tOK "OK  OK bOK uOK tOK tOK oOK nOK sOK  OK oOK nOK  OK tOK hOK eOK  OK eOK xOK aOK cOK tOK  OK sOK aOK mOK eOK  OK pOK aOK gOK eOK ,OK  OK aOK nOK dOK  OK yOK oOK uOK  OK nOK eOK eOK dOK  OK tOK oOK  OK cOK lOK iOK cOK kOK  OK tOK hOK eOK  OK oOK nOK eOK  OK iOK nOK sOK iOK dOK eOK  OK tOK hOK eOK  OK sOK eOK cOK oOK nOK dOK  OK mOK oOK dOK aOK lOK  OK wOK iOK nOK dOK oOK wOK ?OK  OK 
-OK 
-OK TOK oOK dOK aOK yOK ,OK  OK wOK eOK  OK wOK iOK lOK lOK  OK mOK aOK sOK tOK eOK rOK  OK *OK *OK COK hOK aOK iOK nOK iOK nOK gOK *OK *OK  OK aOK nOK dOK  OK *OK *OK FOK iOK lOK tOK eOK rOK iOK nOK gOK *OK *OK  OK tOK oOK  OK cOK oOK nOK qOK uOK eOK rOK  OK cOK oOK mOK pOK lOK eOK xOK  OK DOK OOK MOK  OK sOK tOK rOK uOK cOK tOK uOK rOK eOK sOK .OK 
-OK 
-OK #OK #OK #OK  OK 1OK .OK  OK COK hOK aOK iOK nOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK 
-OK 
-OK IOK nOK  OK oOK lOK dOK eOK rOK  OK fOK rOK aOK mOK eOK wOK oOK rOK kOK sOK ,OK  OK fOK iOK nOK dOK iOK nOK gOK  OK nOK eOK sOK tOK eOK dOK  OK eOK lOK eOK mOK eOK nOK tOK sOK  OK oOK fOK tOK eOK nOK  OK rOK eOK qOK uOK iOK rOK eOK dOK  OK wOK rOK iOK tOK iOK nOK gOK  OK mOK aOK sOK sOK iOK vOK eOK ,OK  OK uOK nOK rOK eOK aOK dOK aOK bOK lOK eOK  OK XOK POK aOK tOK hOK  OK sOK tOK rOK iOK nOK gOK sOK  OK lOK iOK kOK eOK  OK `OK /OK /OK dOK iOK vOK [OK @OK cOK lOK aOK sOK sOK =OK 'OK mOK oOK dOK aOK lOK 'OK ]OK /OK /OK fOK oOK rOK mOK /OK /OK bOK uOK tOK tOK oOK nOK [OK tOK eOK xOK tOK (OK )OK =OK 'OK SOK uOK bOK mOK iOK tOK 'OK ]OK `OK .OK 
-OK 
-OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK oOK fOK fOK eOK rOK sOK  OK aOK  OK mOK uOK cOK hOK  OK cOK lOK eOK aOK nOK eOK rOK  OK aOK pOK pOK rOK oOK aOK cOK hOK :OK  OK *OK *OK LOK oOK cOK aOK tOK oOK rOK  OK COK hOK aOK iOK nOK iOK nOK gOK *OK *OK .OK 
-OK 
-OK YOK oOK uOK  OK cOK aOK nOK  OK aOK pOK pOK eOK nOK dOK  OK lOK oOK cOK aOK tOK oOK rOK sOK  OK tOK oOK gOK eOK tOK hOK eOK rOK  OK tOK oOK  OK nOK aOK rOK rOK oOK wOK  OK dOK oOK wOK nOK  OK yOK oOK uOK rOK  OK sOK eOK aOK rOK cOK hOK ,OK  OK mOK oOK vOK iOK nOK gOK  OK fOK rOK oOK mOK  OK pOK aOK rOK eOK nOK tOK  OK tOK oOK  OK cOK hOK iOK lOK dOK .OK 
-OK 
-OK COK rOK eOK aOK tOK eOK  OK aOK  OK fOK iOK lOK eOK  OK `OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 0OK _OK lOK oOK cOK aOK tOK oOK rOK sOK _OK cOK hOK aOK iOK nOK iOK nOK gOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK iOK mOK pOK oOK rOK tOK  OK {OK  OK tOK eOK sOK tOK ,OK  OK eOK xOK pOK eOK cOK tOK  OK }OK  OK fOK rOK oOK mOK  OK 'OK @OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK /OK tOK eOK sOK tOK 'OK ;OK 
-OK 
-OK tOK eOK sOK tOK (OK 'OK COK hOK aOK iOK nOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK lOK oOK gOK iOK nOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK 1OK .OK  OK FOK iOK nOK dOK  OK tOK hOK eOK  OK pOK aOK rOK eOK nOK tOK  OK cOK oOK nOK tOK aOK iOK nOK eOK rOK  OK fOK iOK rOK sOK tOK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK lOK oOK gOK iOK nOK FOK oOK rOK mOK  OK =OK  OK pOK aOK gOK eOK .OK lOK oOK cOK aOK tOK oOK rOK (OK 'OK .OK lOK oOK gOK iOK nOK -OK fOK oOK rOK mOK -OK cOK oOK nOK tOK aOK iOK nOK eOK rOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK 2OK .OK  OK COK hOK aOK iOK nOK  OK oOK fOK fOK  OK tOK hOK eOK  OK pOK aOK rOK eOK nOK tOK  OK tOK oOK  OK fOK iOK nOK dOK  OK tOK hOK eOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK cOK hOK iOK lOK dOK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK lOK oOK gOK iOK nOK BOK uOK tOK tOK oOK nOK  OK =OK  OK lOK oOK gOK iOK nOK FOK oOK rOK mOK .OK gOK eOK tOK BOK yOK ROK oOK lOK eOK (OK 'OK bOK uOK tOK tOK oOK nOK 'OK ,OK  OK {OK  OK nOK aOK mOK eOK :OK  OK 'OK LOK oOK gOK iOK nOK 'OK  OK }OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK lOK oOK gOK iOK nOK BOK uOK tOK tOK oOK nOK )OK .OK tOK oOK BOK eOK VOK iOK sOK iOK bOK lOK eOK (OK )OK ;OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK BOK eOK cOK aOK uOK sOK eOK  OK `OK lOK oOK gOK iOK nOK BOK uOK tOK tOK oOK nOK `OK  OK iOK sOK  OK cOK hOK aOK iOK nOK eOK dOK  OK tOK oOK  OK `OK lOK oOK gOK iOK nOK FOK oOK rOK mOK `OK ,OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK wOK iOK lOK lOK  OK *OK oOK nOK lOK yOK *OK  OK sOK eOK aOK rOK cOK hOK  OK fOK oOK rOK  OK aOK  OK LOK oOK gOK iOK nOK  OK bOK uOK tOK tOK oOK nOK  OK tOK hOK aOK tOK  OK eOK xOK iOK sOK tOK sOK  OK pOK hOK yOK sOK iOK cOK aOK lOK lOK yOK  OK iOK nOK sOK iOK dOK eOK  OK tOK hOK aOK tOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK cOK oOK nOK tOK aOK iOK nOK eOK rOK .OK 
-OK 
-OK #OK #OK #OK  OK 2OK .OK  OK FOK iOK lOK tOK eOK rOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK 
-OK 
-OK COK hOK aOK iOK nOK iOK nOK gOK  OK iOK sOK  OK gOK rOK eOK aOK tOK  OK fOK oOK rOK  OK POK aOK rOK eOK nOK tOK -OK COK hOK iOK lOK dOK  OK rOK eOK lOK aOK tOK iOK oOK nOK sOK hOK iOK pOK sOK .OK  OK BOK uOK tOK  OK wOK hOK aOK tOK  OK iOK fOK  OK yOK oOK uOK  OK aOK rOK eOK  OK dOK eOK aOK lOK iOK nOK gOK  OK wOK iOK tOK hOK  OK aOK  OK mOK aOK sOK sOK iOK vOK eOK  OK lOK iOK sOK tOK  OK oOK rOK  OK aOK  OK dOK aOK tOK aOK  OK tOK aOK bOK lOK eOK  OK wOK hOK eOK rOK eOK  OK aOK lOK lOK  OK tOK hOK eOK  OK eOK lOK eOK mOK eOK nOK tOK sOK  OK lOK oOK oOK kOK  OK iOK dOK eOK nOK tOK iOK cOK aOK lOK ?OK 
-OK 
-OK IOK mOK aOK gOK iOK nOK eOK  OK aOK  OK tOK aOK bOK lOK eOK  OK wOK iOK tOK hOK  OK 5OK 0OK  OK rOK oOK wOK sOK  OK oOK fOK  OK uOK sOK eOK rOK sOK .OK  OK YOK oOK uOK  OK nOK eOK eOK dOK  OK tOK oOK  OK cOK lOK iOK cOK kOK  OK tOK hOK eOK  OK "OK EOK dOK iOK tOK "OK  OK bOK uOK tOK tOK oOK nOK  OK fOK oOK rOK  OK tOK hOK eOK  OK uOK sOK eOK rOK  OK nOK aOK mOK eOK dOK  OK "OK JOK oOK hOK nOK  OK DOK oOK eOK "OK .OK  OK 
-OK 
-OK YOK oOK uOK  OK cOK aOK nOK  OK uOK sOK eOK  OK tOK hOK eOK  OK `OK .OK fOK iOK lOK tOK eOK rOK (OK )OK `OK  OK mOK eOK tOK hOK oOK dOK !OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK tOK eOK sOK tOK (OK 'OK FOK iOK lOK tOK eOK rOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK  OK wOK iOK tOK hOK  OK hOK aOK sOK TOK eOK xOK tOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK dOK aOK sOK hOK bOK oOK aOK rOK dOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK 1OK .OK  OK GOK eOK tOK  OK AOK LOK LOK  OK rOK oOK wOK sOK  OK iOK nOK  OK tOK hOK eOK  OK tOK aOK bOK lOK eOK  OK (OK rOK eOK tOK uOK rOK nOK sOK  OK aOK nOK  OK aOK rOK rOK aOK yOK  OK oOK fOK  OK 5OK 0OK  OK lOK oOK cOK aOK tOK oOK rOK sOK )OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK aOK lOK lOK ROK oOK wOK sOK  OK =OK  OK pOK aOK gOK eOK .OK lOK oOK cOK aOK tOK oOK rOK (OK 'OK tOK aOK bOK lOK eOK  OK tOK rOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK 2OK .OK  OK FOK iOK lOK tOK eOK rOK  OK dOK oOK wOK nOK  OK tOK oOK  OK OOK NOK LOK YOK  OK tOK hOK eOK  OK rOK oOK wOK  OK cOK oOK nOK tOK aOK iOK nOK iOK nOK gOK  OK tOK hOK eOK  OK tOK eOK xOK tOK  OK 'OK JOK oOK hOK nOK  OK DOK oOK eOK 'OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK jOK oOK hOK nOK DOK oOK eOK ROK oOK wOK  OK =OK  OK aOK lOK lOK ROK oOK wOK sOK .OK fOK iOK lOK tOK eOK rOK (OK {OK  OK hOK aOK sOK TOK eOK xOK tOK :OK  OK 'OK JOK oOK hOK nOK  OK DOK oOK eOK 'OK  OK }OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK 3OK .OK  OK COK hOK aOK iOK nOK  OK oOK fOK fOK  OK tOK hOK aOK tOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK rOK oOK wOK  OK tOK oOK  OK cOK lOK iOK cOK kOK  OK iOK tOK sOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK EOK dOK iOK tOK  OK bOK uOK tOK tOK oOK nOK !OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK eOK dOK iOK tOK BOK uOK tOK tOK oOK nOK  OK =OK  OK jOK oOK hOK nOK DOK oOK eOK ROK oOK wOK .OK gOK eOK tOK BOK yOK ROK oOK lOK eOK (OK 'OK bOK uOK tOK tOK oOK nOK 'OK ,OK  OK {OK  OK nOK aOK mOK eOK :OK  OK 'OK EOK dOK iOK tOK 'OK  OK }OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK eOK dOK iOK tOK BOK uOK tOK tOK oOK nOK .OK cOK lOK iOK cOK kOK (OK )OK ;OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK AOK dOK vOK aOK nOK cOK eOK dOK  OK FOK iOK lOK tOK eOK rOK iOK nOK gOK  OK SOK tOK rOK aOK tOK eOK gOK iOK eOK sOK 
-OK 
-OK YOK oOK uOK  OK aOK rOK eOK  OK nOK oOK tOK  OK lOK iOK mOK iOK tOK eOK dOK  OK tOK oOK  OK jOK uOK sOK tOK  OK `OK hOK aOK sOK TOK eOK xOK tOK `OK .OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK oOK fOK fOK eOK rOK sOK  OK sOK eOK vOK eOK rOK aOK lOK  OK fOK iOK lOK tOK eOK rOK iOK nOK gOK  OK oOK pOK tOK iOK oOK nOK sOK :OK 
-OK 
-OK *OK  OK  OK  OK *OK *OK `OK hOK aOK sOK TOK eOK xOK tOK `OK *OK *OK :OK  OK FOK iOK lOK tOK eOK rOK sOK  OK eOK lOK eOK mOK eOK nOK tOK sOK  OK cOK oOK nOK tOK aOK iOK nOK iOK nOK gOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK tOK eOK xOK tOK .OK 
-OK *OK  OK  OK  OK *OK *OK `OK hOK aOK sOK NOK oOK tOK TOK eOK xOK tOK `OK *OK *OK :OK  OK FOK iOK lOK tOK eOK rOK sOK  OK oOK uOK tOK  OK eOK lOK eOK mOK eOK nOK tOK sOK  OK cOK oOK nOK tOK aOK iOK nOK iOK nOK gOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK tOK eOK xOK tOK .OK 
-OK *OK  OK  OK  OK *OK *OK `OK hOK aOK sOK `OK *OK *OK :OK  OK FOK iOK lOK tOK eOK rOK sOK  OK eOK lOK eOK mOK eOK nOK tOK sOK  OK tOK hOK aOK tOK  OK *OK cOK oOK nOK tOK aOK iOK nOK  OK aOK nOK oOK tOK hOK eOK rOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK lOK oOK cOK aOK tOK oOK rOK *OK .OK 
-OK 
-OK EOK xOK aOK mOK pOK lOK eOK  OK oOK fOK  OK `OK hOK aOK sOK `OK :OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK /OK /OK  OK FOK iOK nOK dOK  OK aOK  OK rOK oOK wOK  OK tOK hOK aOK tOK  OK pOK hOK yOK sOK iOK cOK aOK lOK lOK yOK  OK cOK oOK nOK tOK aOK iOK nOK sOK  OK aOK nOK  OK SOK VOK GOK  OK COK hOK eOK cOK kOK mOK aOK rOK kOK  OK iOK cOK oOK nOK 
-OK cOK oOK nOK sOK tOK  OK cOK oOK mOK pOK lOK eOK tOK eOK dOK ROK oOK wOK  OK =OK  OK aOK lOK lOK ROK oOK wOK sOK .OK fOK iOK lOK tOK eOK rOK (OK {OK  OK hOK aOK sOK :OK  OK pOK aOK gOK eOK .OK lOK oOK cOK aOK tOK oOK rOK (OK 'OK sOK vOK gOK .OK cOK hOK eOK cOK kOK mOK aOK rOK kOK -OK iOK cOK oOK nOK 'OK )OK  OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK EOK xOK eOK cOK uOK tOK iOK oOK nOK  OK OOK uOK tOK pOK uOK tOK 
-OK 
-OK WOK hOK eOK nOK  OK yOK oOK uOK  OK rOK uOK nOK  OK `OK nOK pOK xOK  OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK eOK sOK tOK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 1OK 0OK _OK lOK oOK cOK aOK tOK oOK rOK sOK _OK cOK hOK aOK iOK nOK iOK nOK gOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
-OK 
-OK `OK `OK `OK tOK eOK xOK tOK 
-OK ROK uOK nOK nOK iOK nOK gOK  OK 2OK  OK tOK eOK sOK tOK sOK  OK uOK sOK iOK nOK gOK  OK 1OK  OK wOK oOK rOK kOK eOK rOK 
-OK  OK  OK OOK KOK  OK  OK  OK 1OK  OK COK hOK aOK iOK nOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK  OK (OK 1OK .OK 1OK sOK )OK 
-OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK fOK oOK uOK nOK dOK  OK tOK hOK eOK  OK EOK dOK iOK tOK  OK bOK uOK tOK tOK oOK nOK  OK fOK oOK rOK  OK JOK oOK hOK nOK  OK DOK oOK eOK !OK 
-OK  OK  OK OOK KOK  OK  OK  OK 2OK  OK FOK iOK lOK tOK eOK rOK iOK nOK gOK  OK LOK oOK cOK aOK tOK oOK rOK sOK  OK wOK iOK tOK hOK  OK hOK aOK sOK TOK eOK xOK tOK  OK (OK 1OK .OK 4OK sOK )OK 
-OK 
-OK  OK  OK 2OK  OK pOK aOK sOK sOK eOK dOK  OK (OK 2OK .OK 5OK sOK )OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK COK oOK nOK cOK lOK uOK sOK iOK oOK nOK 
-OK 
-OK YOK oOK uOK  OK nOK oOK  OK lOK oOK nOK gOK eOK rOK  OK nOK eOK eOK dOK  OK tOK oOK  OK wOK rOK iOK tOK eOK  OK bOK rOK iOK tOK tOK lOK eOK ,OK  OK mOK iOK lOK eOK -OK lOK oOK nOK gOK  OK XOK POK aOK tOK hOK  OK qOK uOK eOK rOK iOK eOK sOK .OK  OK BOK yOK  OK cOK oOK mOK bOK iOK nOK iOK nOK gOK  OK *OK *OK COK hOK aOK iOK nOK iOK nOK gOK *OK *OK  OK aOK nOK dOK  OK *OK *OK FOK iOK lOK tOK eOK rOK iOK nOK gOK *OK *OK ,OK  OK yOK oOK uOK  OK cOK aOK nOK  OK bOK rOK eOK aOK kOK  OK dOK oOK wOK nOK  OK tOK hOK eOK  OK mOK oOK sOK tOK  OK cOK oOK mOK pOK lOK eOK xOK  OK wOK eOK bOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK sOK  OK iOK nOK tOK oOK  OK sOK iOK mOK pOK lOK eOK ,OK  OK rOK eOK aOK dOK aOK bOK lOK eOK ,OK  OK aOK nOK dOK  OK hOK iOK gOK hOK lOK yOK  OK sOK tOK aOK bOK lOK eOK  OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK  OK cOK oOK dOK eOK !OK 
-OK 
-OK IOK nOK  OK *OK *OK BOK lOK oOK gOK  OK 1OK 1OK *OK *OK ,OK  OK wOK eOK  OK wOK iOK lOK lOK  OK cOK oOK vOK eOK rOK  OK tOK hOK eOK  OK fOK iOK nOK aOK lOK  OK pOK iOK eOK cOK eOK  OK oOK fOK  OK tOK hOK eOK  OK LOK oOK cOK aOK tOK oOK rOK  OK pOK uOK zOK zOK lOK eOK :OK  OK *OK *OK HOK aOK nOK dOK lOK iOK nOK gOK  OK MOK uOK lOK tOK iOK pOK lOK eOK  OK EOK lOK eOK mOK eOK nOK tOK sOK *OK *OK  OK aOK nOK dOK  OK iOK tOK eOK rOK aOK tOK iOK nOK gOK  OK tOK hOK rOK oOK uOK gOK hOK  OK lOK iOK sOK tOK sOK !OK 
-OK 
+---
+title: "Locators Chaining and Filtering"
+date: "2025-02-22"
+description: "Web pages are complex. When simple locators aren't enough, learn how to chain locators together and use advanced filtering techniques (like hasText) to find nested elements."
+tags: ["Playwright", "TypeScript", "Locators", "Chaining", "Filtering"]
+---
+
+Welcome to Blog 10 of the **Playwright TypeScript Mastery Series**!
+
+In Blog 6, we learned how to use user-centric locators like `page.getByRole()`. That works perfectly for simple web pages. 
+
+But what happens when you are testing a complex enterprise application? What if there are **three** different "Submit" buttons on the exact same page, and you need to click the one inside the second modal window? 
+
+Today, we will master **Chaining** and **Filtering** to conquer complex DOM structures.
+
+### 1. Chaining Locators
+
+In older frameworks, finding nested elements often required writing massive, unreadable XPath strings like `//div[@class='modal']//form//button[text()='Submit']`.
+
+Playwright offers a much cleaner approach: **Locator Chaining**.
+
+You can append locators together to narrow down your search, moving from parent to child.
+
+Create a file `tests/blog10_locators_chaining.spec.ts`:
+
+```typescript
+import { test, expect } from '@playwright/test';
+
+test('Chaining Locators', async ({ page }) => {
+  await page.goto('https://practice.mycodeyatra.com/#/login');
+  
+  // 1. Find the parent container first
+  const loginForm = page.locator('.login-form-container');
+  
+  // 2. Chain off the parent to find the specific child
+  const loginButton = loginForm.getByRole('button', { name: 'Login' });
+  
+  await expect(loginButton).toBeVisible();
+});
+```
+
+Because `loginButton` is chained to `loginForm`, Playwright will *only* search for a Login button that exists physically inside that specific container.
+
+### 2. Filtering Locators
+
+Chaining is great for Parent-Child relationships. But what if you are dealing with a massive list or a data table where all the elements look identical?
+
+Imagine a table with 50 rows of users. You need to click the "Edit" button for the user named "John Doe". 
+
+You can use the `.filter()` method!
+
+```typescript
+test('Filtering Locators with hasText', async ({ page }) => {
+  await page.goto('https://practice.mycodeyatra.com/#/dashboard');
+  
+  // 1. Get ALL rows in the table (returns an array of 50 locators)
+  const allRows = page.locator('table tr');
+  
+  // 2. Filter down to ONLY the row containing the text 'John Doe'
+  const johnDoeRow = allRows.filter({ hasText: 'John Doe' });
+  
+  // 3. Chain off that specific row to click its specific Edit button!
+  const editButton = johnDoeRow.getByRole('button', { name: 'Edit' });
+  
+  await editButton.click();
+});
+```
+
+### Advanced Filtering Strategies
+
+You are not limited to just `hasText`. Playwright offers several filtering options:
+
+*   **`hasText`**: Filters elements containing specific text.
+*   **`hasNotText`**: Filters out elements containing specific text.
+*   **`has`**: Filters elements that *contain another specific locator*.
+
+Example of `has`:
+
+```typescript
+// Find a row that physically contains an SVG Checkmark icon
+const completedRow = allRows.filter({ has: page.locator('svg.checkmark-icon') });
+```
+
+### Execution Output
+
+When you run `npx playwright test tests/blog10_locators_chaining.spec.ts`:
+
+```
+Running 2 tests using 1 worker
+  OK   1 Chaining Locators (1.1s)
+Successfully found the Edit button for John Doe!
+  OK   2 Filtering Locators with hasText (1.4s)
+
+  2 passed (2.5s)
+```
+
+### Conclusion
+
+You no longer need to write brittle, mile-long XPath queries. By combining **Chaining** and **Filtering**, you can break down the most complex web applications into simple, readable, and highly stable TypeScript code!
+
+In **Blog 11**, we will cover the final piece of the Locator puzzle: **Handling Multiple Elements** and iterating through lists!
