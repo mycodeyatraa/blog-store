@@ -1,90 +1,89 @@
-OK -OK -OK -OK 
-OK tOK iOK tOK lOK eOK :OK  OK "OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK iOK nOK gOK "OK 
-OK dOK aOK tOK eOK :OK  OK "OK 2OK 0OK 2OK 5OK -OK 0OK 3OK -OK 1OK 2OK "OK 
-OK dOK eOK sOK cOK rOK iOK pOK tOK iOK oOK nOK :OK  OK "OK GOK oOK  OK bOK eOK yOK oOK nOK dOK  OK cOK hOK eOK cOK kOK iOK nOK gOK  OK tOK eOK xOK tOK .OK  OK LOK eOK aOK rOK nOK  OK hOK oOK wOK  OK tOK oOK  OK cOK aOK tOK cOK hOK  OK vOK iOK sOK uOK aOK lOK  OK bOK uOK gOK sOK  OK (OK lOK iOK kOK eOK  OK bOK rOK oOK kOK eOK nOK  OK COK SOK SOK  OK oOK rOK  OK mOK iOK sOK aOK lOK iOK gOK nOK eOK dOK  OK eOK lOK eOK mOK eOK nOK tOK sOK )OK  OK uOK sOK iOK nOK gOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK 'OK sOK  OK bOK uOK iOK lOK tOK -OK iOK nOK  OK iOK mOK aOK gOK eOK  OK cOK oOK mOK pOK aOK rOK iOK sOK oOK nOK  OK fOK eOK aOK tOK uOK rOK eOK sOK .OK "OK 
-OK tOK aOK gOK sOK :OK  OK [OK "OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK "OK ,OK  OK "OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK "OK ,OK  OK "OK VOK iOK sOK uOK aOK lOK  OK TOK eOK sOK tOK iOK nOK gOK "OK ,OK  OK "OK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK sOK "OK ]OK 
-OK -OK -OK -OK 
-OK 
-OK WOK eOK lOK cOK oOK mOK eOK  OK tOK oOK  OK BOK lOK oOK gOK  OK 2OK 8OK  OK oOK fOK  OK tOK hOK eOK  OK *OK *OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK  OK MOK aOK sOK tOK eOK rOK yOK  OK SOK eOK rOK iOK eOK sOK *OK *OK !OK 
-OK 
-OK SOK oOK  OK fOK aOK rOK  OK iOK nOK  OK tOK hOK iOK sOK  OK sOK eOK rOK iOK eOK sOK ,OK  OK oOK uOK rOK  OK tOK eOK sOK tOK sOK  OK hOK aOK vOK eOK  OK bOK eOK eOK nOK  OK pOK uOK rOK eOK lOK yOK  OK fOK uOK nOK cOK tOK iOK oOK nOK aOK lOK .OK  OK WOK eOK  OK cOK hOK eOK cOK kOK  OK iOK fOK  OK aOK nOK  OK eOK lOK eOK mOK eOK nOK tOK  OK eOK xOK iOK sOK tOK sOK ,OK  OK iOK fOK  OK tOK hOK eOK  OK tOK eOK xOK tOK  OK iOK sOK  OK cOK oOK rOK rOK eOK cOK tOK ,OK  OK oOK rOK  OK iOK fOK  OK aOK  OK bOK uOK tOK tOK oOK nOK  OK iOK sOK  OK cOK lOK iOK cOK kOK aOK bOK lOK eOK .OK  OK 
-OK 
-OK BOK uOK tOK  OK wOK hOK aOK tOK  OK iOK fOK  OK aOK  OK dOK eOK vOK eOK lOK oOK pOK eOK rOK  OK aOK cOK cOK iOK dOK eOK nOK tOK aOK lOK lOK yOK  OK dOK eOK lOK eOK tOK eOK sOK  OK aOK  OK COK SOK SOK  OK fOK iOK lOK eOK ?OK  OK TOK hOK eOK  OK bOK uOK tOK tOK oOK nOK  OK mOK iOK gOK hOK tOK  OK tOK eOK cOK hOK nOK iOK cOK aOK lOK lOK yOK  OK sOK tOK iOK lOK lOK  OK eOK xOK iOK sOK tOK  OK aOK nOK dOK  OK bOK eOK  OK cOK lOK iOK cOK kOK aOK bOK lOK eOK ,OK  OK bOK uOK tOK  OK iOK tOK  OK mOK iOK gOK hOK tOK  OK bOK eOK  OK cOK oOK mOK pOK lOK eOK tOK eOK lOK yOK  OK iOK nOK vOK iOK sOK iOK bOK lOK eOK  OK tOK oOK  OK aOK  OK rOK eOK aOK lOK  OK hOK uOK mOK aOK nOK ,OK  OK oOK rOK  OK tOK hOK eOK  OK eOK nOK tOK iOK rOK eOK  OK lOK aOK yOK oOK uOK tOK  OK mOK iOK gOK hOK tOK  OK bOK eOK  OK mOK iOK sOK aOK lOK iOK gOK nOK eOK dOK !OK 
-OK 
-OK TOK rOK aOK dOK iOK tOK iOK oOK nOK aOK lOK  OK fOK uOK nOK cOK tOK iOK oOK nOK aOK lOK  OK tOK eOK sOK tOK sOK  OK cOK aOK nOK nOK oOK tOK  OK cOK aOK tOK cOK hOK  OK tOK hOK eOK sOK eOK  OK iOK sOK sOK uOK eOK sOK .OK  OK WOK eOK  OK nOK eOK eOK dOK  OK *OK *OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK iOK nOK gOK *OK *OK .OK 
-OK 
-OK #OK #OK #OK  OK HOK oOK wOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK VOK iOK sOK uOK aOK lOK  OK TOK eOK sOK tOK iOK nOK gOK  OK WOK oOK rOK kOK sOK 
-OK 
-OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK hOK aOK sOK  OK vOK iOK sOK uOK aOK lOK  OK tOK eOK sOK tOK iOK nOK gOK  OK bOK uOK iOK lOK tOK  OK dOK iOK rOK eOK cOK tOK lOK yOK  OK iOK nOK tOK oOK  OK tOK hOK eOK  OK fOK rOK aOK mOK eOK wOK oOK rOK kOK  OK vOK iOK aOK  OK tOK hOK eOK  OK `OK tOK oOK HOK aOK vOK eOK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK (OK )OK `OK  OK aOK sOK sOK eOK rOK tOK iOK oOK nOK .OK 
-OK 
-OK WOK hOK eOK nOK  OK yOK oOK uOK  OK rOK uOK nOK  OK aOK  OK vOK iOK sOK uOK aOK lOK  OK tOK eOK sOK tOK  OK fOK oOK rOK  OK tOK hOK eOK  OK *OK *OK fOK iOK rOK sOK tOK  OK tOK iOK mOK eOK *OK *OK ,OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK wOK iOK lOK lOK  OK tOK aOK kOK eOK  OK aOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK  OK oOK fOK  OK tOK hOK eOK  OK eOK lOK eOK mOK eOK nOK tOK  OK (OK oOK rOK  OK tOK hOK eOK  OK eOK nOK tOK iOK rOK eOK  OK pOK aOK gOK eOK )OK  OK aOK nOK dOK  OK sOK aOK vOK eOK  OK iOK tOK  OK iOK nOK  OK aOK  OK fOK oOK lOK dOK eOK rOK  OK cOK aOK lOK lOK eOK dOK  OK `OK tOK eOK sOK tOK sOK /OK yOK oOK uOK rOK -OK sOK pOK eOK cOK -OK nOK aOK mOK eOK -OK sOK nOK aOK pOK sOK hOK oOK tOK sOK `OK .OK  OK TOK hOK iOK sOK  OK iOK sOK  OK kOK nOK oOK wOK nOK  OK aOK sOK  OK tOK hOK eOK  OK *OK *OK GOK oOK lOK dOK eOK nOK  OK BOK aOK sOK eOK lOK iOK nOK eOK *OK *OK .OK  OK TOK hOK eOK  OK tOK eOK sOK tOK  OK wOK iOK lOK lOK  OK iOK nOK tOK eOK nOK tOK iOK oOK nOK aOK lOK lOK yOK  OK "OK fOK aOK iOK lOK "OK  OK tOK hOK iOK sOK  OK fOK iOK rOK sOK tOK  OK tOK iOK mOK eOK  OK bOK eOK cOK aOK uOK sOK eOK  OK iOK tOK  OK hOK aOK dOK  OK nOK oOK tOK hOK iOK nOK gOK  OK tOK oOK  OK cOK oOK mOK pOK aOK rOK eOK  OK aOK gOK aOK iOK nOK sOK tOK .OK 
-OK 
-OK WOK hOK eOK nOK  OK yOK oOK uOK  OK rOK uOK nOK  OK tOK hOK eOK  OK tOK eOK sOK tOK  OK tOK hOK eOK  OK *OK *OK sOK eOK cOK oOK nOK dOK  OK tOK iOK mOK eOK *OK *OK  OK (OK aOK nOK dOK  OK eOK vOK eOK rOK yOK  OK tOK iOK mOK eOK  OK tOK hOK eOK rOK eOK aOK fOK tOK eOK rOK )OK ,OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK aOK kOK eOK sOK  OK aOK  OK nOK eOK wOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK  OK aOK nOK dOK  OK cOK oOK mOK pOK aOK rOK eOK sOK  OK iOK tOK  OK pOK iOK xOK eOK lOK -OK bOK yOK -OK pOK iOK xOK eOK lOK  OK tOK oOK  OK tOK hOK eOK  OK GOK oOK lOK dOK eOK nOK  OK BOK aOK sOK eOK lOK iOK nOK eOK .OK  OK IOK fOK  OK tOK hOK eOK  OK pOK iOK xOK eOK lOK sOK  OK dOK oOK nOK 'OK tOK  OK mOK aOK tOK cOK hOK ,OK  OK tOK hOK eOK  OK tOK eOK sOK tOK  OK fOK aOK iOK lOK sOK !OK 
-OK 
-OK #OK #OK #OK  OK WOK rOK iOK tOK iOK nOK gOK  OK aOK  OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK 
-OK 
-OK LOK eOK tOK 'OK sOK  OK wOK rOK iOK tOK eOK  OK aOK  OK sOK cOK rOK iOK pOK tOK  OK tOK oOK  OK tOK aOK kOK eOK  OK vOK iOK sOK uOK aOK lOK  OK sOK nOK aOK pOK sOK hOK oOK tOK sOK  OK oOK fOK  OK oOK uOK rOK  OK pOK rOK aOK cOK tOK iOK cOK eOK  OK sOK iOK tOK eOK .OK 
-OK 
-OK COK rOK eOK aOK tOK eOK  OK `OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 8OK _OK vOK iOK sOK uOK aOK lOK _OK tOK eOK sOK tOK iOK nOK gOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK iOK mOK pOK oOK rOK tOK  OK {OK  OK tOK eOK sOK tOK ,OK  OK eOK xOK pOK eOK cOK tOK  OK }OK  OK fOK rOK oOK mOK  OK 'OK @OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK /OK tOK eOK sOK tOK 'OK ;OK 
-OK 
-OK tOK eOK sOK tOK .OK dOK eOK sOK cOK rOK iOK bOK eOK (OK 'OK BOK lOK oOK gOK  OK 2OK 8OK :OK  OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK iOK nOK gOK 'OK ,OK  OK (OK )OK  OK =OK >OK  OK {OK 
-OK 
-OK  OK  OK tOK eOK sOK tOK (OK 'OK VOK eOK rOK iOK fOK yOK  OK HOK oOK mOK eOK  OK POK aOK gOK eOK  OK LOK aOK yOK oOK uOK tOK  OK uOK sOK iOK nOK gOK  OK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK sOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK  OK  OK /OK /OK  OK NOK aOK vOK iOK gOK aOK tOK eOK  OK tOK oOK  OK tOK hOK eOK  OK pOK rOK aOK cOK tOK iOK cOK eOK  OK sOK iOK tOK eOK 
-OK  OK  OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK 'OK )OK ;OK 
-OK  OK  OK  OK  OK 
-OK  OK  OK  OK  OK /OK /OK  OK WOK aOK iOK tOK  OK fOK oOK rOK  OK tOK hOK eOK  OK pOK aOK gOK eOK  OK tOK oOK  OK bOK eOK  OK fOK uOK lOK lOK yOK  OK lOK oOK aOK dOK eOK dOK  OK aOK nOK dOK  OK sOK tOK aOK bOK lOK eOK 
-OK  OK  OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK pOK aOK gOK eOK .OK lOK oOK cOK aOK tOK oOK rOK (OK 'OK hOK 1OK 'OK )OK .OK fOK iOK rOK sOK tOK (OK )OK )OK .OK tOK oOK BOK eOK VOK iOK sOK iOK bOK lOK eOK (OK )OK ;OK 
-OK 
-OK  OK  OK  OK  OK /OK /OK  OK 1OK .OK  OK TOK aOK kOK eOK  OK aOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK  OK oOK fOK  OK tOK hOK eOK  OK eOK nOK tOK iOK rOK eOK  OK pOK aOK gOK eOK  OK aOK nOK dOK  OK cOK oOK mOK pOK aOK rOK eOK  OK iOK tOK  OK tOK oOK  OK tOK hOK eOK  OK bOK aOK sOK eOK lOK iOK nOK eOK !OK 
-OK  OK  OK  OK  OK /OK /OK  OK NOK OOK TOK EOK :OK  OK OOK nOK  OK tOK hOK eOK  OK vOK eOK rOK yOK  OK fOK iOK rOK sOK tOK  OK rOK uOK nOK ,OK  OK tOK hOK iOK sOK  OK tOK eOK sOK tOK  OK wOK iOK lOK lOK  OK "OK fOK aOK iOK lOK "OK  OK bOK eOK cOK aOK uOK sOK eOK  OK tOK hOK eOK rOK eOK  OK iOK sOK  OK nOK oOK  OK bOK aOK sOK eOK lOK iOK nOK eOK .OK 
-OK  OK  OK  OK  OK /OK /OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK wOK iOK lOK lOK  OK aOK uOK tOK oOK mOK aOK tOK iOK cOK aOK lOK lOK yOK  OK sOK aOK vOK eOK  OK tOK hOK eOK  OK fOK iOK rOK sOK tOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK  OK aOK sOK  OK tOK hOK eOK  OK gOK oOK lOK dOK eOK nOK  OK bOK aOK sOK eOK lOK iOK nOK eOK .OK 
-OK  OK  OK  OK  OK /OK /OK  OK FOK uOK tOK uOK rOK eOK  OK rOK uOK nOK sOK  OK wOK iOK lOK lOK  OK cOK oOK mOK pOK aOK rOK eOK  OK aOK gOK aOK iOK nOK sOK tOK  OK tOK hOK aOK tOK  OK bOK aOK sOK eOK lOK iOK nOK eOK !OK 
-OK  OK  OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK pOK aOK gOK eOK )OK .OK tOK oOK HOK aOK vOK eOK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK (OK 'OK hOK oOK mOK eOK -OK pOK aOK gOK eOK -OK lOK aOK yOK oOK uOK tOK .OK pOK nOK gOK 'OK ,OK  OK {OK 
-OK  OK  OK  OK  OK  OK  OK mOK aOK xOK DOK iOK fOK fOK POK iOK xOK eOK lOK sOK :OK  OK 1OK 0OK 0OK  OK /OK /OK  OK AOK lOK lOK oOK wOK  OK aOK  OK tOK iOK nOK yOK  OK bOK iOK tOK  OK oOK fOK  OK aOK nOK tOK iOK -OK aOK lOK iOK aOK sOK iOK nOK gOK  OK dOK iOK fOK fOK eOK rOK eOK nOK cOK eOK 
-OK  OK  OK  OK  OK }OK )OK ;OK 
-OK 
-OK  OK  OK  OK  OK /OK /OK  OK 2OK .OK  OK WOK eOK  OK cOK aOK nOK  OK aOK lOK sOK oOK  OK tOK aOK kOK eOK  OK aOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK  OK oOK fOK  OK aOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK eOK lOK eOK mOK eOK nOK tOK  OK iOK nOK sOK tOK eOK aOK dOK  OK oOK fOK  OK tOK hOK eOK  OK wOK hOK oOK lOK eOK  OK pOK aOK gOK eOK !OK 
-OK  OK  OK  OK  OK cOK oOK nOK sOK tOK  OK hOK eOK aOK dOK eOK rOK TOK iOK tOK lOK eOK  OK =OK  OK pOK aOK gOK eOK .OK lOK oOK cOK aOK tOK oOK rOK (OK 'OK hOK 1OK 'OK )OK .OK fOK iOK rOK sOK tOK (OK )OK ;OK 
-OK  OK  OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK hOK eOK aOK dOK eOK rOK TOK iOK tOK lOK eOK )OK .OK tOK oOK HOK aOK vOK eOK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK (OK 'OK hOK eOK aOK dOK eOK rOK -OK tOK iOK tOK lOK eOK .OK pOK nOK gOK 'OK )OK ;OK 
-OK  OK  OK  OK  OK 
-OK  OK  OK  OK  OK cOK oOK nOK sOK oOK lOK eOK .OK lOK oOK gOK (OK 'OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK cOK oOK mOK pOK lOK eOK tOK eOK dOK !OK 'OK )OK ;OK 
-OK  OK  OK }OK )OK ;OK 
-OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK EOK xOK eOK cOK uOK tOK iOK oOK nOK  OK OOK uOK tOK pOK uOK tOK  OK (OK SOK eOK cOK oOK nOK dOK  OK ROK uOK nOK )OK 
-OK 
-OK AOK fOK tOK eOK rOK  OK rOK uOK nOK nOK iOK nOK gOK  OK tOK hOK eOK  OK tOK eOK sOK tOK  OK oOK nOK cOK eOK  OK tOK oOK  OK gOK eOK nOK eOK rOK aOK tOK eOK  OK tOK hOK eOK  OK bOK aOK sOK eOK lOK iOK nOK eOK sOK ,OK  OK rOK uOK nOK  OK iOK tOK  OK aOK gOK aOK iOK nOK :OK 
-OK 
-OK `OK nOK pOK xOK  OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK eOK sOK tOK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 8OK _OK vOK iOK sOK uOK aOK lOK _OK tOK eOK sOK tOK iOK nOK gOK .OK sOK pOK eOK cOK .OK tOK sOK `OK 
-OK 
-OK `OK `OK `OK tOK eOK xOK tOK 
-OK ROK uOK nOK nOK iOK nOK gOK  OK 1OK  OK tOK eOK sOK tOK  OK uOK sOK iOK nOK gOK  OK 1OK  OK wOK oOK rOK kOK eOK rOK 
-OK 
-OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK cOK oOK mOK pOK lOK eOK tOK eOK dOK !OK 
-OK  OK  OK OOK KOK  OK  OK 1OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 8OK _OK vOK iOK sOK uOK aOK lOK _OK tOK eOK sOK tOK iOK nOK gOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 5OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 2OK 8OK :OK  OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK iOK nOK gOK  OK >OK  OK VOK eOK rOK iOK fOK yOK  OK HOK oOK mOK eOK  OK POK aOK gOK eOK  OK LOK aOK yOK oOK uOK tOK  OK uOK sOK iOK nOK gOK  OK SOK cOK rOK eOK eOK nOK sOK hOK oOK tOK sOK  OK (OK 1OK .OK 5OK sOK )OK 
-OK 
-OK  OK  OK 1OK  OK pOK aOK sOK sOK eOK dOK  OK (OK 3OK .OK 7OK sOK )OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK UOK pOK dOK aOK tOK iOK nOK gOK  OK BOK aOK sOK eOK lOK iOK nOK eOK sOK 
-OK 
-OK IOK fOK  OK yOK oOK uOK rOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK  OK lOK eOK gOK iOK tOK iOK mOK aOK tOK eOK lOK yOK  OK cOK hOK aOK nOK gOK eOK sOK  OK (OK eOK .OK gOK .OK ,OK  OK yOK oOK uOK  OK uOK pOK dOK aOK tOK eOK dOK  OK tOK hOK eOK  OK lOK oOK gOK oOK  OK oOK rOK  OK cOK hOK aOK nOK gOK eOK dOK  OK tOK hOK eOK  OK bOK rOK aOK nOK dOK  OK cOK oOK lOK oOK rOK sOK )OK ,OK  OK yOK oOK uOK rOK  OK vOK iOK sOK uOK aOK lOK  OK tOK eOK sOK tOK sOK  OK wOK iOK lOK lOK  OK cOK oOK rOK rOK eOK cOK tOK lOK yOK  OK fOK aOK iOK lOK .OK  OK 
-OK 
-OK TOK oOK  OK tOK eOK lOK lOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK hOK aOK tOK  OK tOK hOK eOK  OK nOK eOK wOK  OK vOK iOK sOK uOK aOK lOK  OK sOK tOK aOK tOK eOK  OK iOK sOK  OK tOK hOK eOK  OK *OK nOK eOK wOK *OK  OK cOK oOK rOK rOK eOK cOK tOK  OK sOK tOK aOK tOK eOK ,OK  OK yOK oOK uOK  OK sOK iOK mOK pOK lOK yOK  OK rOK uOK nOK  OK yOK oOK uOK rOK  OK tOK eOK sOK tOK sOK  OK wOK iOK tOK hOK  OK tOK hOK eOK  OK `OK -OK -OK uOK pOK dOK aOK tOK eOK -OK sOK nOK aOK pOK sOK hOK oOK tOK sOK `OK  OK fOK lOK aOK gOK :OK 
-OK 
-OK `OK nOK pOK xOK  OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK eOK sOK tOK  OK -OK -OK uOK pOK dOK aOK tOK eOK -OK sOK nOK aOK pOK sOK hOK oOK tOK sOK `OK 
-OK 
-OK TOK hOK iOK sOK  OK wOK iOK lOK lOK  OK oOK vOK eOK rOK wOK rOK iOK tOK eOK  OK aOK lOK lOK  OK tOK hOK eOK  OK oOK lOK dOK  OK GOK oOK lOK dOK eOK nOK  OK BOK aOK sOK eOK lOK iOK nOK eOK sOK  OK wOK iOK tOK hOK  OK tOK hOK eOK  OK nOK eOK wOK ,OK  OK cOK oOK rOK rOK eOK cOK tOK  OK sOK cOK rOK eOK eOK nOK sOK hOK oOK tOK sOK .OK 
-OK 
-OK #OK #OK #OK  OK COK oOK nOK cOK lOK uOK sOK iOK oOK nOK 
-OK 
-OK VOK iOK sOK uOK aOK lOK  OK ROK eOK gOK rOK eOK sOK sOK iOK oOK nOK  OK TOK eOK sOK tOK iOK nOK gOK  OK iOK sOK  OK aOK nOK  OK iOK nOK cOK rOK eOK dOK iOK bOK lOK yOK  OK pOK oOK wOK eOK rOK fOK uOK lOK  OK sOK aOK fOK eOK tOK yOK  OK nOK eOK tOK  OK tOK hOK aOK tOK  OK cOK aOK tOK cOK hOK eOK sOK  OK COK SOK SOK  OK rOK eOK gOK rOK eOK sOK sOK iOK oOK nOK sOK  OK aOK nOK dOK  OK lOK aOK yOK oOK uOK tOK  OK sOK hOK iOK fOK tOK sOK  OK tOK hOK aOK tOK  OK tOK rOK aOK dOK iOK tOK iOK oOK nOK aOK lOK  OK fOK uOK nOK cOK tOK iOK oOK nOK aOK lOK  OK tOK eOK sOK tOK sOK  OK mOK iOK sOK sOK  OK eOK nOK tOK iOK rOK eOK lOK yOK .OK 
-OK 
-OK IOK nOK  OK *OK *OK BOK lOK oOK gOK  OK 2OK 9OK *OK *OK ,OK  OK wOK eOK  OK wOK iOK lOK lOK  OK eOK xOK pOK lOK oOK rOK eOK  OK hOK oOK wOK  OK tOK oOK  OK iOK nOK tOK eOK rOK aOK cOK tOK  OK wOK iOK tOK hOK  OK tOK hOK eOK  OK OOK pOK eOK rOK aOK tOK iOK nOK gOK  OK SOK yOK sOK tOK eOK mOK  OK bOK yOK  OK *OK *OK UOK pOK lOK oOK aOK dOK iOK nOK gOK  OK aOK nOK dOK  OK DOK oOK wOK nOK lOK oOK aOK dOK iOK nOK gOK  OK FOK iOK lOK eOK sOK *OK *OK !OK 
-OK 
+---
+title: "Visual Regression Testing"
+date: "2025-03-12"
+description: "Go beyond checking text. Learn how to catch visual bugs (like broken CSS or misaligned elements) using Playwright's built-in image comparison features."
+tags: ["Playwright", "TypeScript", "Visual Testing", "Screenshots"]
+---
+
+Welcome to Blog 28 of the **Playwright TypeScript Mastery Series**!
+
+So far in this series, our tests have been purely functional. We check if an element exists, if the text is correct, or if a button is clickable. 
+
+But what if a developer accidentally deletes a CSS file? The button might technically still exist and be clickable, but it might be completely invisible to a real human, or the entire layout might be misaligned!
+
+Traditional functional tests cannot catch these issues. We need **Visual Regression Testing**.
+
+### How Playwright Visual Testing Works
+
+Playwright has visual testing built directly into the framework via the `toHaveScreenshot()` assertion.
+
+When you run a visual test for the **first time**, Playwright will take a screenshot of the element (or the entire page) and save it in a folder called `tests/your-spec-name-snapshots`. This is known as the **Golden Baseline**. The test will intentionally "fail" this first time because it had nothing to compare against.
+
+When you run the test the **second time** (and every time thereafter), Playwright takes a new screenshot and compares it pixel-by-pixel to the Golden Baseline. If the pixels don't match, the test fails!
+
+### Writing a Visual Regression Test
+
+Let's write a script to take visual snapshots of our practice site.
+
+Create `tests/blog28_visual_testing.spec.ts`:
+
+```typescript
+import { test, expect } from '@playwright/test';
+
+test.describe('Blog 28: Visual Regression Testing', () => {
+
+  test('Verify Home Page Layout using Screenshots', async ({ page }) => {
+    // Navigate to the practice site
+    await page.goto('https://practice.mycodeyatra.com');
+    
+    // Wait for the page to be fully loaded and stable
+    await expect(page.locator('h1').first()).toBeVisible();
+
+    // 1. Take a screenshot of the entire page and compare it to the baseline!
+    // NOTE: On the very first run, this test will "fail" because there is no baseline.
+    // Playwright will automatically save the first screenshot as the golden baseline.
+    // Future runs will compare against that baseline!
+    await expect(page).toHaveScreenshot('home-page-layout.png', {
+      maxDiffPixels: 100 // Allow a tiny bit of anti-aliasing difference
+    });
+
+    // 2. We can also take a screenshot of a specific element instead of the whole page!
+    const headerTitle = page.locator('h1').first();
+    await expect(headerTitle).toHaveScreenshot('header-title.png');
+    
+    console.log('Visual Regression completed!');
+  });
+
+});
+```
+
+### Execution Output (Second Run)
+
+After running the test once to generate the baselines, run it again:
+
+`npx playwright test tests/blog28_visual_testing.spec.ts`
+
+```
+Running 1 test using 1 worker
+
+Visual Regression completed!
+  OK  1 tests/blog28_visual_testing.spec.ts:5:7 > Blog 28: Visual Regression Testing > Verify Home Page Layout using Screenshots (1.5s)
+
+  1 passed (3.7s)
+```
+
+### Updating Baselines
+
+If your application legitimately changes (e.g., you updated the logo or changed the brand colors), your visual tests will correctly fail. 
+
+To tell Playwright that the new visual state is the *new* correct state, you simply run your tests with the `--update-snapshots` flag:
+
+`npx playwright test --update-snapshots`
+
+This will overwrite all the old Golden Baselines with the new, correct screenshots.
+
+### Conclusion
+
+Visual Regression Testing is an incredibly powerful safety net that catches CSS regressions and layout shifts that traditional functional tests miss entirely.
+
+In **Blog 29**, we will explore how to interact with the Operating System by **Uploading and Downloading Files**!
