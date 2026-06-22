@@ -27,14 +27,14 @@ Create a new directory called `pages`, and inside it create `LoginPage.ts`:
 
 ```typescript
 import { expect, Locator, Page } from '@playwright/test';
-
+ 
 export class LoginPage {
   readonly page: Page;
   readonly usernameInput: Locator;
   readonly passwordInput: Locator;
   readonly loginButton: Locator;
   readonly headerText: Locator;
-
+ 
   constructor(page: Page) {
     this.page = page;
     // We define all our locators once in the constructor!
@@ -43,18 +43,18 @@ export class LoginPage {
     this.loginButton = page.getByTestId('login-btn');
     this.headerText = page.locator('h2');
   }
-
+ 
   async goto() {
     await this.page.goto('https://practice.mycodeyatra.com/#/login');
   }
-
+ 
   async login(username: string, password: string) {
     // Actions use the predefined locators
     await this.usernameInput.fill(username);
     await this.passwordInput.fill(password);
     await this.loginButton.click();
   }
-
+ 
   async verifyLoginPage() {
     await expect(this.headerText).toHaveText('Sign In');
   }
@@ -70,7 +70,7 @@ Create `tests/blog24_pom.spec.ts`:
 ```typescript
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
-
+ 
 test.describe('Blog 24: Page Object Model', () => {
   test('Login using the Page Object Model', async ({ page }) => {
     // 1. Instantiate the Page Object
@@ -96,10 +96,10 @@ When you run `npx playwright test tests/blog24_pom.spec.ts`:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully logged in using the Page Object Model!
   OK   1 tests/blog24_pom.spec.ts:5:7 > Blog 24: Page Object Model > Login using the Page Object Model (1.0s)
-
+ 
   1 passed (2.3s)
 ```
 
