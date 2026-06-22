@@ -22308,5 +22308,40 @@
     "seriesOrder": 16,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-617",
+    "slug": "playwright-handling-iframes",
+    "title": "Handling Inline Frames (iFrames)",
+    "description": "iFrames hide elements from normal locators. Learn how Playwright penetrates iFrames seamlessly using frame locators without complex context switching.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-handling-iframes.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "01-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Topics"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "iFrame",
+      "FrameLocator"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 17,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
