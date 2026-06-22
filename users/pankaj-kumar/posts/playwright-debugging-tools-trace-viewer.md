@@ -52,7 +52,7 @@ To enable Tracing, open your `playwright.config.ts` and locate the `use` block:
 
 ```typescript
 import { defineConfig } from '@playwright/test';
-
+ 
 export default defineConfig({
   use: {
     // Collect a trace for every single test execution
