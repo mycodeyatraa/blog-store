@@ -27,12 +27,12 @@ Create `tests/blog23_custom_fixtures.spec.ts`:
 
 ```typescript
 import { test as base, expect } from '@playwright/test';
-
+ 
 // 1. Define the type for our custom fixtures
 type MyFixtures = {
   loggedInPage: import('@playwright/test').Page;
 };
-
+ 
 // 2. Extend the base test to include our custom fixture
 export const test = base.extend<MyFixtures>({
   loggedInPage: async ({ page }, use) => {
@@ -52,7 +52,7 @@ export const test = base.extend<MyFixtures>({
     await page.evaluate(() => localStorage.clear());
   },
 });
-
+ 
 // 4. Use our custom fixture in a test!
 test.describe('Blog 23: Custom Fixtures', () => {
   
@@ -63,7 +63,7 @@ test.describe('Blog 23: Custom Fixtures', () => {
     await expect(header).toHaveText('Welcome back, admin!');
     console.log('Test 1 Passed: Used custom authenticated fixture!');
   });
-
+ 
   // If a test doesn't need to be logged in, it can just use the standard { page }
   test('Verify Login Page without Custom Fixture', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
@@ -71,7 +71,7 @@ test.describe('Blog 23: Custom Fixtures', () => {
     await expect(header).toHaveText('Sign In');
     console.log('Test 2 Passed: Used standard page fixture!');
   });
-
+ 
 });
 ```
 
@@ -81,15 +81,15 @@ When you run `npx playwright test tests/blog23_custom_fixtures.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [Fixture Setup] Navigating and logging in...
 Test 1 Passed: Used custom authenticated fixture!
 [Fixture Teardown] Clearing local storage...
   OK   1 tests/blog23_custom_fixtures.spec.ts:32:3 > Blog 23: Custom Fixtures > Verify Profile Page with Custom Fixture (722ms)
-
+ 
 Test 2 Passed: Used standard page fixture!
   OK   2 tests/blog23_custom_fixtures.spec.ts:40:3 > Blog 23: Custom Fixtures > Verify Login Page without Custom Fixture (505ms)
-
+ 
   2 passed (2.5s)
 ```
 
