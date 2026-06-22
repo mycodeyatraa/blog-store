@@ -22521,5 +22521,40 @@
     "seriesOrder": 22,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-623",
+    "slug": "playwright-custom-fixtures",
+    "title": "Creating Custom Fixtures",
+    "description": "Take your test architecture to the next level. Learn how to extend Playwright to create your own custom, reusable fixtures like pre-authenticated pages.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-custom-fixtures.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "07-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Test Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Custom Fixtures",
+      "Page Object"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 23,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
