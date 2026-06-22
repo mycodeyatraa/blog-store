@@ -22020,5 +22020,41 @@
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-609",
+    "slug": "playwright-debugging-tools-trace-viewer",
+    "title": "Debugging Tools and Trace Viewer",
+    "description": "Stop using console.log() to debug! Discover Playwright's revolutionary Trace Viewer, VS Code Inspector, and learn how to effortlessly debug failing test executions.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-debugging-tools-trace-viewer.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "5 min read",
+    "date": "21-Feb-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Debugging",
+      "Trace Viewer",
+      "Inspector"
+    ],
+    "series": "playwright-typescript-foundations",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
