@@ -75,14 +75,14 @@ When you run `npx playwright test tests/blog20_mouse_actions.spec.ts`:
 
 ```
 Running 3 tests using 1 worker
-
+ 
 Successfully hovered over the target!
   OK   1 tests/blog20_mouse_actions.spec.ts:4:7 > Blog 20: Advanced Mouse Actions > Hovering over an element (1.1s)
 Successfully right-clicked and verified the context menu!
   OK   2 tests/blog20_mouse_actions.spec.ts:17:7 > Blog 20: Advanced Mouse Actions > Right-Clicking (Context Menu) (558ms)
 Successfully dragged and dropped the element!
   OK   3 tests/blog20_mouse_actions.spec.ts:32:7 > Blog 20: Advanced Mouse Actions > Drag and Drop (625ms)
-
+ 
   3 passed (3.8s)
 ```
 
