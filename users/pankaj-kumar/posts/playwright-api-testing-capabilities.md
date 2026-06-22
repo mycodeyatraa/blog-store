@@ -20,7 +20,6 @@ To interact with APIs, we ask Playwright for the `request` fixture instead of th
 Let's test this against a public mock API (`jsonplaceholder.typicode.com`).
 
 Create `tests/blog25_api_testing.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 
@@ -70,8 +69,7 @@ test.describe('Blog 25: API Testing Capabilities', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog25_api_testing.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
 API Test Passed! Fetched Post Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
