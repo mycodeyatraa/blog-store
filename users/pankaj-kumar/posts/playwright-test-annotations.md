@@ -21,9 +21,9 @@ Create `tests/blog21_annotations.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 21: Test Annotations', () => {
-
+ 
   // 1. skip()
   // Use this when a test is broken and you want to temporarily disable it
   // without deleting the code.
@@ -32,7 +32,7 @@ test.describe('Blog 21: Test Annotations', () => {
     // This code will NOT execute
     await expect(page.locator('h2')).toHaveText('Broken Login'); 
   });
-
+ 
   // 2. fail()
   // Use this when you KNOW a test will fail (e.g., a known bug).
   // If the test FAILS, Playwright marks it as a "success" (expected failure).
@@ -44,14 +44,14 @@ test.describe('Blog 21: Test Annotations', () => {
     // We expect the title to be "Sign In", but we assert it is "Wrong Title"
     await expect(page.locator('h2')).toHaveText('Wrong Title');
   });
-
+ 
   // 3. fixme()
   // Identical to skip(), but acts as a semantic flag for developers 
   // that this test requires maintenance.
   test.fixme('This test needs to be updated', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
   });
-
+ 
   // 4. Standard Passing Test
   test('This test will run normally', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
@@ -69,12 +69,12 @@ When you run `npx playwright test tests/blog21_annotations.spec.ts`, you will se
 
 ```
 Running 4 tests using 1 worker
-
+ 
   -  1 tests/blog21_annotations.spec.ts:8:8 > Blog 21: Test Annotations > This test is currently broken
   ✘  2 tests/blog21_annotations.spec.ts:18:7 > Blog 21: Test Annotations > This test is expected to fail due to a known bug (5.6s)
   -  3 tests/blog21_annotations.spec.ts:29:8 > Blog 21: Test Annotations > This test needs to be updated
   OK   4 tests/blog21_annotations.spec.ts:34:7 > Blog 21: Test Annotations > This test will run normally (529ms)
-
+ 
   2 skipped
   2 passed (7.3s)
 ```
