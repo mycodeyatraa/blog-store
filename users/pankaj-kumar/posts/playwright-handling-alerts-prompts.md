@@ -78,12 +78,12 @@ test('Handling a Custom Web Modal', async ({ page }) => {
 
 When you run `npx playwright test tests/blog14_alerts.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
 Alert Message: This is a standard JavaScript Alert!
-  ✓  1 tests\blog14_alerts.spec.ts:4:7 › Blog 14: Handling Alerts and Modals › Handling a JavaScript Alert Dialog (795ms)
-  ✓  2 tests\blog14_alerts.spec.ts:22:7 › Blog 14: Handling Alerts and Modals › Handling a Custom Web Modal (628ms)
+  OK   1 tests/blog14_alerts.spec.ts:4:7 > Blog 14: Handling Alerts and Modals > Handling a JavaScript Alert Dialog (795ms)
+  OK   2 tests/blog14_alerts.spec.ts:22:7 > Blog 14: Handling Alerts and Modals > Handling a Custom Web Modal (628ms)
 
   2 passed (2.8s)
 ```
