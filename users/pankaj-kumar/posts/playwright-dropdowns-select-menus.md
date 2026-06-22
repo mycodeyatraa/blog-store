@@ -20,7 +20,6 @@ A native dropdown uses the standard HTML `<select>` and `<option>` tags. These a
 Let's write a test using the live sandbox (`https://practice.mycodeyatra.com/#/dropdowns`):
 
 Create a file `tests/blog12_dropdowns.spec.ts`:
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Interacting with a Native Select Menu', async ({ page }) => {
@@ -47,7 +46,6 @@ Modern web frameworks like React and Angular rarely use native `<select>` tags b
 Because these are not real `<select>` tags, you **cannot** use `.selectOption()`. If you try, Playwright will throw an error!
 
 To automate a Custom Dropdown, you must manually simulate human behavior:
-
 ```typescript
 test('Interacting with a Custom Dropdown (Non-Select)', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/dropdowns');
@@ -65,8 +63,7 @@ test('Interacting with a Custom Dropdown (Non-Select)', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog12_dropdowns.spec.ts`:
-
-```text
+```bash
 Running 2 tests using 1 worker
 
   ✓  1 tests\blog12_dropdowns.spec.ts:4:7 › Blog 12: Dropdowns and Select Menus › Interacting with a Native Select Menu (654ms)
