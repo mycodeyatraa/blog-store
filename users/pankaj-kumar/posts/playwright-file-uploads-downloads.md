@@ -20,6 +20,7 @@ Instead of clicking the "Upload" button, we directly inject the file path into t
 Let's test this on our live sandbox (`https://practice.mycodeyatra.com/#/upload-download`):
 
 Create `tests/blog19_upload_download.spec.ts`:
+
 ```typescript
 import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
@@ -50,6 +51,7 @@ test('Uploading a file', async ({ page }) => {
 Just like handling new tabs (`waitForEvent('page')`), we must tell Playwright to wait for a download event *before* we click the download button.
 
 Playwright will download the file to a temporary invisible folder. We can then save it to a known location, read its contents, and assert the file is correct!
+
 ```typescript
 test('Downloading a file', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/upload-download');
@@ -81,6 +83,7 @@ test('Downloading a file', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog19_upload_download.spec.ts`:
+
 ```bash
 Running 2 tests using 1 worker
 
