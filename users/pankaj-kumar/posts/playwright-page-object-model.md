@@ -94,11 +94,11 @@ test.describe('Blog 24: Page Object Model', () => {
 
 When you run `npx playwright test tests/blog24_pom.spec.ts`:
 
-```bash
+```text
 Running 1 test using 1 worker
 
 Successfully logged in using the Page Object Model!
-  ✓  1 tests\blog24_pom.spec.ts:5:7 › Blog 24: Page Object Model › Login using the Page Object Model (1.0s)
+  OK   1 tests/blog24_pom.spec.ts:5:7 > Blog 24: Page Object Model > Login using the Page Object Model (1.0s)
 
   1 passed (2.3s)
 ```
