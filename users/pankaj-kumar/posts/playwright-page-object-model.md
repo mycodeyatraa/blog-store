@@ -24,6 +24,7 @@ Instead of writing locators directly inside your test files, you create a dedica
 Let's model our live Login page (`https://practice.mycodeyatra.com/#/login`).
 
 Create a new directory called `pages`, and inside it create `LoginPage.ts`:
+
 ```typescript
 import { expect, Locator, Page } from '@playwright/test';
 
@@ -65,6 +66,7 @@ export class LoginPage {
 Now, instead of duplicating locators in our test, we simply instantiate the Class and call its methods!
 
 Create `tests/blog24_pom.spec.ts`:
+
 ```typescript
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
@@ -91,6 +93,7 @@ test.describe('Blog 24: Page Object Model', () => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog24_pom.spec.ts`:
+
 ```bash
 Running 1 test using 1 worker
 
