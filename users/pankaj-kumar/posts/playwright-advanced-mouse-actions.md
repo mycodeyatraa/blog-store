@@ -16,7 +16,6 @@ Let's test these three actions against our live practice site (`https://practice
 ### 1. Hovering
 
 If an application reveals a hidden dropdown menu only when the mouse is physically resting on top of an element, you can use `.hover()`.
-
 ```typescript
 import { test, expect } from '@playwright/test';
 test('Hovering over an element', async ({ page }) => {
@@ -32,7 +31,6 @@ test('Hovering over an element', async ({ page }) => {
 ### 2. Right-Clicking (Context Menus)
 
 To right-click, you don't need a special method. You just pass an options object into your standard `.click()` method!
-
 ```typescript
 test('Right-Clicking (Context Menu)', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/mouse-actions');
@@ -53,7 +51,6 @@ test('Right-Clicking (Context Menu)', async ({ page }) => {
 ### 3. Drag and Drop
 
 Perhaps the most difficult interaction in UI automation is dragging an element across the screen and dropping it into a specific zone. Playwright turns this complex orchestration of `mousedown`, `mousemove`, and `mouseup` events into a single line of code!
-
 ```typescript
 test('Drag and Drop', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/mouse-actions');
@@ -72,8 +69,7 @@ test('Drag and Drop', async ({ page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog20_mouse_actions.spec.ts`:
-
-```text
+```bash
 Running 3 tests using 1 worker
 
 Successfully hovered over the target!
