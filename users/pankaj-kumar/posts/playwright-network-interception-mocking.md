@@ -19,9 +19,9 @@ Create `tests/blog26_network_mocking.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 26: Network Interception & Mocking', () => {
-
+ 
   test('Mocking an API Response', async ({ page }) => {
     // 1. Tell Playwright to intercept any request matching this URL pattern
     await page.route('**/api/v1/status', async (route) => {
@@ -33,15 +33,15 @@ test.describe('Blog 26: Network Interception & Mocking', () => {
         body: JSON.stringify({ message: 'Playwright Intercepted This!' })
       });
     });
-
+ 
     await page.goto('https://practice.mycodeyatra.com');
-
+ 
     // 3. Let's simulate the frontend making a fetch request to that API
     const responseJson = await page.evaluate(async () => {
       const res = await fetch('https://practice.mycodeyatra.com/api/v1/status');
       return res.json();
     });
-
+ 
     // 4. Verify the frontend received our mocked data!
     expect(responseJson.message).toBe('Playwright Intercepted This!');
     
@@ -60,7 +60,7 @@ test('Blocking Network Requests (e.g., Images)', async ({ page }) => {
   await page.route('**/*.{png,jpg,jpeg}', (route) => {
     route.abort(); // Block the request immediately
   });
-
+ 
   await page.goto('https://practice.mycodeyatra.com');
   
   // The page loads significantly faster because it didn't download images!
@@ -74,12 +74,12 @@ When you run `npx playwright test tests/blog26_network_mocking.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
 Successfully intercepted and mocked the network request!
   OK   1 tests/blog26_network_mocking.spec.ts:5:7 > Blog 26: Network Interception & Mocking > Mocking an API Response (3.5s)
 Successfully loaded page while blocking all images!
   OK   2 tests/blog26_network_mocking.spec.ts:32:7 > Blog 26: Network Interception & Mocking > Blocking Network Requests (e.g., Images) (619ms)
-
+ 
   2 passed (5.5s)
 ```
 
