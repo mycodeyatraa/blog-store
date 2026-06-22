@@ -23,9 +23,9 @@ Create `tests/blog25_api_testing.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 25: API Testing Capabilities', () => {
-
+ 
   // Notice we request the { request } fixture instead of { page }
   test('Sending a GET request and validating the response', async ({ request }) => {
     // 1. Send an HTTP GET request to a public API
@@ -45,7 +45,7 @@ test.describe('Blog 25: API Testing Capabilities', () => {
     
     console.log('API Test Passed! Fetched Post Title:', responseBody.title);
   });
-
+ 
   test('Creating data using a POST request', async ({ request }) => {
     // 1. Send an HTTP POST request with a JSON payload
     const response = await request.post('https://jsonplaceholder.typicode.com/posts', {
@@ -55,7 +55,7 @@ test.describe('Blog 25: API Testing Capabilities', () => {
         userId: 1,
       }
     });
-
+ 
     // 2. Validate it was created successfully (HTTP 201 Created)
     expect(response.status()).toBe(201);
     
@@ -73,12 +73,12 @@ When you run `npx playwright test tests/blog25_api_testing.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
 API Test Passed! Fetched Post Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
   OK   1 tests/blog25_api_testing.spec.ts:6:7 > Blog 25: API Testing Capabilities > Sending a GET request and validating the response (120ms)
 Successfully created a post via API!
   OK   2 tests/blog25_api_testing.spec.ts:25:7 > Blog 25: API Testing Capabilities > Creating data using a POST request (687ms)
-
+ 
   2 passed (2.0s)
 ```
 
