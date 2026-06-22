@@ -71,13 +71,13 @@ test.describe('Blog 25: API Testing Capabilities', () => {
 
 When you run `npx playwright test tests/blog25_api_testing.spec.ts`:
 
-```bash
+```text
 Running 2 tests using 1 worker
 
 API Test Passed! Fetched Post Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
-  ✓  1 tests\blog25_api_testing.spec.ts:6:7 › Blog 25: API Testing Capabilities › Sending a GET request and validating the response (120ms)
+  OK   1 tests/blog25_api_testing.spec.ts:6:7 > Blog 25: API Testing Capabilities > Sending a GET request and validating the response (120ms)
 Successfully created a post via API!
-  ✓  2 tests\blog25_api_testing.spec.ts:25:7 › Blog 25: API Testing Capabilities › Creating data using a POST request (687ms)
+  OK   2 tests/blog25_api_testing.spec.ts:25:7 > Blog 25: API Testing Capabilities > Creating data using a POST request (687ms)
 
   2 passed (2.0s)
 ```
