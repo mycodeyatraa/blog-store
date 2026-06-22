@@ -22,10 +22,10 @@ Create a new file `utils/logger.ts`:
 ```typescript
 import fs from 'fs';
 import path from 'path';
-
+ 
 class Logger {
   private logFilePath: string;
-
+ 
   constructor() {
     const logDir = path.join(process.cwd(), 'logs');
     if (!fs.existsSync(logDir)) {
@@ -34,7 +34,7 @@ class Logger {
     // Generate a unique log file for this specific execution run
     this.logFilePath = path.join(logDir, `execution-${Date.now()}.log`);
   }
-
+ 
   private writeLog(level: string, message: string) {
     const timestamp = new Date().toISOString();
     const logEntry = `[${timestamp}] [${level}] : ${message}\n`;
@@ -45,16 +45,16 @@ class Logger {
     // Print to terminal so we can see it live
     console.log(logEntry.trim());
   }
-
+ 
   info(message: string) {
     this.writeLog('INFO', message);
   }
-
+ 
   error(message: string) {
     this.writeLog('ERROR', message);
   }
 }
-
+ 
 // Export as a singleton so all tests write to the exact same file
 export default new Logger();
 ```
@@ -68,9 +68,9 @@ Create `tests/blog30_logging.spec.ts`:
 ```typescript
 import { test, expect } from '@playwright/test';
 import Logger from '../utils/logger';
-
+ 
 test.describe('Blog 30: Logging Framework Design', () => {
-
+ 
   test('Using custom logger for test execution', async ({ page }) => {
     Logger.info('Navigating to the practice sandbox...');
     await page.goto('https://practice.mycodeyatra.com/#/sandbox');
@@ -86,7 +86,7 @@ test.describe('Blog 30: Logging Framework Design', () => {
       Logger.error('Form Practice card was not found on the page!');
     }
   });
-
+ 
 });
 ```
 
@@ -96,12 +96,12 @@ Run your test using the following command: `npx playwright test tests/blog30_log
 
 ```
 Running 1 test using 1 worker
-
+ 
 [2026-06-22T12:33:49.551Z] [INFO] : Navigating to the practice sandbox...
 [2026-06-22T12:33:49.935Z] [INFO] : Locating the Form Practice card...
 [2026-06-22T12:33:50.030Z] [INFO] : Successfully validated Form Practice card visibility!
   OK  1 tests/blog30_logging.spec.ts:6:7 > Blog 30: Logging Framework Design > Using custom logger for test execution (689ms)
-
+ 
   1 passed (2.3s)
 ```
 
