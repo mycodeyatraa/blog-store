@@ -40,7 +40,7 @@ test('Handling a JavaScript Alert Dialog', async ({ page }) => {
     // Note: Use await dialog.dismiss() if you want to click Cancel
     // Use await dialog.accept('John') if dealing with a prompt()
   });
-
+ 
   // 2. Click the button that triggers the JS Alert
   await page.getByTestId('alert-btn').click();
   
@@ -80,11 +80,11 @@ When you run `npx playwright test tests/blog14_alerts.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
 Alert Message: This is a standard JavaScript Alert!
   OK   1 tests/blog14_alerts.spec.ts:4:7 > Blog 14: Handling Alerts and Modals > Handling a JavaScript Alert Dialog (795ms)
   OK   2 tests/blog14_alerts.spec.ts:22:7 > Blog 14: Handling Alerts and Modals > Handling a Custom Web Modal (628ms)
-
+ 
   2 passed (2.8s)
 ```
 
