@@ -1,94 +1,93 @@
-OK -OK -OK -OK 
-OK tOK iOK tOK lOK eOK :OK  OK "OK AOK dOK vOK aOK nOK cOK eOK dOK  OK MOK oOK uOK sOK eOK  OK AOK cOK tOK iOK oOK nOK sOK  OK (OK HOK oOK vOK eOK rOK ,OK  OK DOK rOK aOK gOK  OK &OK  OK DOK rOK oOK pOK )OK "OK 
-OK dOK aOK tOK eOK :OK  OK "OK 2OK 0OK 2OK 5OK -OK 0OK 3OK -OK 0OK 4OK "OK 
-OK dOK eOK sOK cOK rOK iOK pOK tOK iOK oOK nOK :OK  OK "OK GOK oOK  OK bOK eOK yOK oOK nOK dOK  OK sOK iOK mOK pOK lOK eOK  OK cOK lOK iOK cOK kOK sOK .OK  OK LOK eOK aOK rOK nOK  OK hOK oOK wOK  OK tOK oOK  OK sOK iOK mOK uOK lOK aOK tOK eOK  OK cOK oOK mOK pOK lOK eOK xOK  OK mOK oOK uOK sOK eOK  OK gOK eOK sOK tOK uOK rOK eOK sOK  OK lOK iOK kOK eOK  OK hOK oOK vOK eOK rOK iOK nOK gOK ,OK  OK rOK iOK gOK hOK tOK -OK cOK lOK iOK cOK kOK iOK nOK gOK  OK fOK oOK rOK  OK cOK oOK nOK tOK eOK xOK tOK  OK mOK eOK nOK uOK sOK ,OK  OK aOK nOK dOK  OK dOK rOK aOK gOK -OK aOK nOK dOK -OK dOK rOK oOK pOK  OK oOK pOK eOK rOK aOK tOK iOK oOK nOK sOK .OK "OK 
-OK tOK aOK gOK sOK :OK  OK [OK "OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK "OK ,OK  OK "OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK "OK ,OK  OK "OK MOK oOK uOK sOK eOK "OK ,OK  OK "OK HOK oOK vOK eOK rOK "OK ,OK  OK "OK DOK rOK aOK gOK  OK aOK nOK dOK  OK DOK rOK oOK pOK "OK ]OK 
-OK -OK -OK -OK 
-OK 
-OK WOK eOK lOK cOK oOK mOK eOK  OK tOK oOK  OK BOK lOK oOK gOK  OK 2OK 0OK  OK oOK fOK  OK tOK hOK eOK  OK *OK *OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK TOK yOK pOK eOK SOK cOK rOK iOK pOK tOK  OK MOK aOK sOK tOK eOK rOK yOK  OK SOK eOK rOK iOK eOK sOK *OK *OK !OK 
-OK 
-OK COK lOK iOK cOK kOK iOK nOK gOK  OK bOK uOK tOK tOK oOK nOK sOK  OK aOK nOK dOK  OK tOK yOK pOK iOK nOK gOK  OK tOK eOK xOK tOK  OK wOK iOK lOK lOK  OK gOK eOK tOK  OK yOK oOK uOK  OK tOK hOK rOK oOK uOK gOK hOK  OK 8OK 0OK %OK  OK oOK fOK  OK aOK nOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK .OK  OK BOK uOK tOK  OK mOK oOK dOK eOK rOK nOK  OK wOK eOK bOK  OK aOK pOK pOK sOK  OK aOK rOK eOK  OK hOK iOK gOK hOK lOK yOK  OK iOK nOK tOK eOK rOK aOK cOK tOK iOK vOK eOK .OK  OK EOK lOK eOK mOK eOK nOK tOK sOK  OK aOK pOK pOK eOK aOK rOK  OK wOK hOK eOK nOK  OK yOK oOK uOK  OK hOK oOK vOK eOK rOK  OK oOK vOK eOK rOK  OK tOK hOK eOK mOK ,OK  OK cOK uOK sOK tOK oOK mOK  OK mOK eOK nOK uOK sOK  OK oOK pOK eOK nOK  OK wOK hOK eOK nOK  OK yOK oOK uOK  OK rOK iOK gOK hOK tOK -OK cOK lOK iOK cOK kOK ,OK  OK aOK nOK dOK  OK iOK tOK eOK mOK sOK  OK aOK rOK eOK  OK rOK eOK oOK rOK dOK eOK rOK eOK dOK  OK uOK sOK iOK nOK gOK  OK dOK rOK aOK gOK -OK aOK nOK dOK -OK dOK rOK oOK pOK .OK 
-OK 
-OK IOK nOK  OK SOK eOK lOK eOK nOK iOK uOK mOK ,OK  OK yOK oOK uOK  OK hOK aOK dOK  OK tOK oOK  OK uOK sOK eOK  OK tOK hOK eOK  OK cOK oOK mOK pOK lOK eOK xOK  OK `OK AOK cOK tOK iOK oOK nOK sOK `OK  OK cOK lOK aOK sOK sOK  OK fOK oOK rOK  OK tOK hOK iOK sOK .OK  OK IOK nOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK ,OK  OK tOK hOK eOK sOK eOK  OK aOK rOK eOK  OK nOK aOK tOK iOK vOK eOK lOK yOK  OK iOK nOK tOK eOK gOK rOK aOK tOK eOK dOK  OK iOK nOK tOK oOK  OK yOK oOK uOK rOK  OK `OK LOK oOK cOK aOK tOK oOK rOK `OK !OK 
-OK 
-OK LOK eOK tOK 'OK sOK  OK tOK eOK sOK tOK  OK tOK hOK eOK sOK eOK  OK tOK hOK rOK eOK eOK  OK aOK cOK tOK iOK oOK nOK sOK  OK aOK gOK aOK iOK nOK sOK tOK  OK oOK uOK rOK  OK lOK iOK vOK eOK  OK pOK rOK aOK cOK tOK iOK cOK eOK  OK sOK iOK tOK eOK  OK (OK `OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK mOK oOK uOK sOK eOK -OK aOK cOK tOK iOK oOK nOK sOK `OK )OK :OK 
-OK 
-OK #OK #OK #OK  OK 1OK .OK  OK HOK oOK vOK eOK rOK iOK nOK gOK 
-OK 
-OK IOK fOK  OK aOK nOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK  OK rOK eOK vOK eOK aOK lOK sOK  OK aOK  OK hOK iOK dOK dOK eOK nOK  OK dOK rOK oOK pOK dOK oOK wOK nOK  OK mOK eOK nOK uOK  OK oOK nOK lOK yOK  OK wOK hOK eOK nOK  OK tOK hOK eOK  OK mOK oOK uOK sOK eOK  OK iOK sOK  OK pOK hOK yOK sOK iOK cOK aOK lOK lOK yOK  OK rOK eOK sOK tOK iOK nOK gOK  OK oOK nOK  OK tOK oOK pOK  OK oOK fOK  OK aOK nOK  OK eOK lOK eOK mOK eOK nOK tOK ,OK  OK yOK oOK uOK  OK cOK aOK nOK  OK uOK sOK eOK  OK `OK .OK hOK oOK vOK eOK rOK (OK )OK `OK .OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK iOK mOK pOK oOK rOK tOK  OK {OK  OK tOK eOK sOK tOK ,OK  OK eOK xOK pOK eOK cOK tOK  OK }OK  OK fOK rOK oOK mOK  OK 'OK @OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK /OK tOK eOK sOK tOK 'OK ;OK 
-OK tOK eOK sOK tOK (OK 'OK HOK oOK vOK eOK rOK iOK nOK gOK  OK oOK vOK eOK rOK  OK aOK nOK  OK eOK lOK eOK mOK eOK nOK tOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK mOK oOK uOK sOK eOK -OK aOK cOK tOK iOK oOK nOK sOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK hOK oOK vOK eOK rOK TOK aOK rOK gOK eOK tOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK hOK oOK vOK eOK rOK -OK tOK aOK rOK gOK eOK tOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK SOK iOK mOK uOK lOK aOK tOK eOK  OK pOK hOK yOK sOK iOK cOK aOK lOK lOK yOK  OK mOK oOK vOK iOK nOK gOK  OK tOK hOK eOK  OK mOK oOK uOK sOK eOK  OK oOK vOK eOK rOK  OK tOK hOK eOK  OK eOK lOK eOK mOK eOK nOK tOK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK hOK oOK vOK eOK rOK TOK aOK rOK gOK eOK tOK .OK hOK oOK vOK eOK rOK (OK )OK ;OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK 2OK .OK  OK ROK iOK gOK hOK tOK -OK COK lOK iOK cOK kOK iOK nOK gOK  OK (OK COK oOK nOK tOK eOK xOK tOK  OK MOK eOK nOK uOK sOK )OK 
-OK 
-OK TOK oOK  OK rOK iOK gOK hOK tOK -OK cOK lOK iOK cOK kOK ,OK  OK yOK oOK uOK  OK dOK oOK nOK 'OK tOK  OK nOK eOK eOK dOK  OK aOK  OK sOK pOK eOK cOK iOK aOK lOK  OK mOK eOK tOK hOK oOK dOK .OK  OK YOK oOK uOK  OK jOK uOK sOK tOK  OK pOK aOK sOK sOK  OK aOK nOK  OK oOK pOK tOK iOK oOK nOK sOK  OK oOK bOK jOK eOK cOK tOK  OK iOK nOK tOK oOK  OK yOK oOK uOK rOK  OK sOK tOK aOK nOK dOK aOK rOK dOK  OK `OK .OK cOK lOK iOK cOK kOK (OK )OK `OK  OK mOK eOK tOK hOK oOK dOK !OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK tOK eOK sOK tOK (OK 'OK ROK iOK gOK hOK tOK -OK COK lOK iOK cOK kOK iOK nOK gOK  OK (OK COK oOK nOK tOK eOK xOK tOK  OK MOK eOK nOK uOK )OK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK mOK oOK uOK sOK eOK -OK aOK cOK tOK iOK oOK nOK sOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK cOK oOK nOK tOK eOK xOK tOK ZOK oOK nOK eOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK cOK oOK nOK tOK eOK xOK tOK -OK mOK eOK nOK uOK -OK zOK oOK nOK eOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK POK aOK sOK sOK  OK tOK hOK eOK  OK bOK uOK tOK tOK oOK nOK  OK oOK pOK tOK iOK oOK nOK  OK tOK oOK  OK .OK cOK lOK iOK cOK kOK (OK )OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK cOK oOK nOK tOK eOK xOK tOK ZOK oOK nOK eOK .OK cOK lOK iOK cOK kOK (OK {OK  OK bOK uOK tOK tOK oOK nOK :OK  OK 'OK rOK iOK gOK hOK tOK 'OK  OK }OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK VOK eOK rOK iOK fOK yOK  OK oOK uOK rOK  OK cOK uOK sOK tOK oOK mOK  OK cOK oOK nOK tOK eOK xOK tOK  OK mOK eOK nOK uOK  OK aOK pOK pOK eOK aOK rOK eOK dOK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK cOK uOK sOK tOK oOK mOK MOK eOK nOK uOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK cOK uOK sOK tOK oOK mOK -OK cOK oOK nOK tOK eOK xOK tOK -OK mOK eOK nOK uOK 'OK )OK ;OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK cOK uOK sOK tOK oOK mOK MOK eOK nOK uOK )OK .OK tOK oOK BOK eOK VOK iOK sOK iOK bOK lOK eOK (OK )OK ;OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK *OK NOK oOK tOK eOK :OK  OK YOK oOK uOK  OK cOK aOK nOK  OK aOK lOK sOK oOK  OK dOK oOK uOK bOK lOK eOK -OK cOK lOK iOK cOK kOK  OK uOK sOK iOK nOK gOK  OK `OK .OK dOK bOK lOK cOK lOK iOK cOK kOK (OK )OK `OK !OK *OK 
-OK 
-OK #OK #OK #OK  OK 3OK .OK  OK DOK rOK aOK gOK  OK aOK nOK dOK  OK DOK rOK oOK pOK 
-OK 
-OK POK eOK rOK hOK aOK pOK sOK  OK tOK hOK eOK  OK mOK oOK sOK tOK  OK dOK iOK fOK fOK iOK cOK uOK lOK tOK  OK iOK nOK tOK eOK rOK aOK cOK tOK iOK oOK nOK  OK iOK nOK  OK UOK IOK  OK aOK uOK tOK oOK mOK aOK tOK iOK oOK nOK  OK iOK sOK  OK dOK rOK aOK gOK gOK iOK nOK gOK  OK aOK nOK  OK eOK lOK eOK mOK eOK nOK tOK  OK aOK cOK rOK oOK sOK sOK  OK tOK hOK eOK  OK sOK cOK rOK eOK eOK nOK  OK aOK nOK dOK  OK dOK rOK oOK pOK pOK iOK nOK gOK  OK iOK tOK  OK iOK nOK tOK oOK  OK aOK  OK sOK pOK eOK cOK iOK fOK iOK cOK  OK zOK oOK nOK eOK .OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK uOK rOK nOK sOK  OK tOK hOK iOK sOK  OK cOK oOK mOK pOK lOK eOK xOK  OK oOK rOK cOK hOK eOK sOK tOK rOK aOK tOK iOK oOK nOK  OK oOK fOK  OK `OK mOK oOK uOK sOK eOK dOK oOK wOK nOK `OK ,OK  OK `OK mOK oOK uOK sOK eOK mOK oOK vOK eOK `OK ,OK  OK aOK nOK dOK  OK `OK mOK oOK uOK sOK eOK uOK pOK `OK  OK eOK vOK eOK nOK tOK sOK  OK iOK nOK tOK oOK  OK aOK  OK sOK iOK nOK gOK lOK eOK  OK lOK iOK nOK eOK  OK oOK fOK  OK cOK oOK dOK eOK !OK 
-OK 
-OK `OK `OK `OK tOK yOK pOK eOK sOK cOK rOK iOK pOK tOK 
-OK tOK eOK sOK tOK (OK 'OK DOK rOK aOK gOK  OK aOK nOK dOK  OK DOK rOK oOK pOK 'OK ,OK  OK aOK sOK yOK nOK cOK  OK (OK {OK  OK pOK aOK gOK eOK  OK }OK )OK  OK =OK >OK  OK {OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK pOK aOK gOK eOK .OK gOK oOK tOK oOK (OK 'OK hOK tOK tOK pOK sOK :OK /OK /OK pOK rOK aOK cOK tOK iOK cOK eOK .OK mOK yOK cOK oOK dOK eOK yOK aOK tOK rOK aOK .OK cOK oOK mOK /OK #OK /OK mOK oOK uOK sOK eOK -OK aOK cOK tOK iOK oOK nOK sOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK sOK oOK uOK rOK cOK eOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK dOK rOK aOK gOK -OK sOK oOK uOK rOK cOK eOK 'OK )OK ;OK 
-OK  OK  OK cOK oOK nOK sOK tOK  OK tOK aOK rOK gOK eOK tOK  OK =OK  OK pOK aOK gOK eOK .OK gOK eOK tOK BOK yOK TOK eOK sOK tOK IOK dOK (OK 'OK dOK rOK oOK pOK -OK tOK aOK rOK gOK eOK tOK 'OK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK nOK aOK tOK iOK vOK eOK lOK yOK  OK hOK aOK nOK dOK lOK eOK sOK  OK tOK hOK eOK  OK eOK nOK tOK iOK rOK eOK  OK dOK rOK aOK gOK  OK aOK nOK dOK  OK dOK rOK oOK pOK  OK sOK eOK qOK uOK eOK nOK cOK eOK !OK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK sOK oOK uOK rOK cOK eOK .OK dOK rOK aOK gOK TOK oOK (OK tOK aOK rOK gOK eOK tOK )OK ;OK 
-OK  OK  OK 
-OK  OK  OK /OK /OK  OK VOK eOK rOK iOK fOK yOK  OK tOK hOK eOK  OK dOK rOK oOK pOK  OK wOK aOK sOK  OK sOK uOK cOK cOK eOK sOK sOK fOK uOK lOK 
-OK  OK  OK aOK wOK aOK iOK tOK  OK eOK xOK pOK eOK cOK tOK (OK tOK aOK rOK gOK eOK tOK )OK .OK tOK oOK HOK aOK vOK eOK TOK eOK xOK tOK (OK 'OK DOK rOK oOK pOK pOK eOK dOK  OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK !OK 'OK )OK ;OK 
-OK }OK )OK ;OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK EOK xOK eOK cOK uOK tOK iOK oOK nOK  OK OOK uOK tOK pOK uOK tOK 
-OK 
-OK WOK hOK eOK nOK  OK yOK oOK uOK  OK rOK uOK nOK  OK `OK nOK pOK xOK  OK pOK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK tOK eOK sOK tOK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 0OK _OK mOK oOK uOK sOK eOK _OK aOK cOK tOK iOK oOK nOK sOK .OK sOK pOK eOK cOK .OK tOK sOK `OK :OK 
-OK 
-OK `OK `OK `OK tOK eOK xOK tOK 
-OK ROK uOK nOK nOK iOK nOK gOK  OK 3OK  OK tOK eOK sOK tOK sOK  OK uOK sOK iOK nOK gOK  OK 1OK  OK wOK oOK rOK kOK eOK rOK 
-OK 
-OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK hOK oOK vOK eOK rOK eOK dOK  OK oOK vOK eOK rOK  OK tOK hOK eOK  OK tOK aOK rOK gOK eOK tOK !OK 
-OK  OK  OK OOK KOK  OK  OK  OK 1OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 0OK _OK mOK oOK uOK sOK eOK _OK aOK cOK tOK iOK oOK nOK sOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 4OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 2OK 0OK :OK  OK AOK dOK vOK aOK nOK cOK eOK dOK  OK MOK oOK uOK sOK eOK  OK AOK cOK tOK iOK oOK nOK sOK  OK >OK  OK HOK oOK vOK eOK rOK iOK nOK gOK  OK oOK vOK eOK rOK  OK aOK nOK  OK eOK lOK eOK mOK eOK nOK tOK  OK (OK 1OK .OK 1OK sOK )OK 
-OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK rOK iOK gOK hOK tOK -OK cOK lOK iOK cOK kOK eOK dOK  OK aOK nOK dOK  OK vOK eOK rOK iOK fOK iOK eOK dOK  OK tOK hOK eOK  OK cOK oOK nOK tOK eOK xOK tOK  OK mOK eOK nOK uOK !OK 
-OK  OK  OK OOK KOK  OK  OK  OK 2OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 0OK _OK mOK oOK uOK sOK eOK _OK aOK cOK tOK iOK oOK nOK sOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 1OK 7OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 2OK 0OK :OK  OK AOK dOK vOK aOK nOK cOK eOK dOK  OK MOK oOK uOK sOK eOK  OK AOK cOK tOK iOK oOK nOK sOK  OK >OK  OK ROK iOK gOK hOK tOK -OK COK lOK iOK cOK kOK iOK nOK gOK  OK (OK COK oOK nOK tOK eOK xOK tOK  OK MOK eOK nOK uOK )OK  OK (OK 5OK 5OK 8OK mOK sOK )OK 
-OK SOK uOK cOK cOK eOK sOK sOK fOK uOK lOK lOK yOK  OK dOK rOK aOK gOK gOK eOK dOK  OK aOK nOK dOK  OK dOK rOK oOK pOK pOK eOK dOK  OK tOK hOK eOK  OK eOK lOK eOK mOK eOK nOK tOK !OK 
-OK  OK  OK OOK KOK  OK  OK  OK 3OK  OK tOK eOK sOK tOK sOK /OK bOK lOK oOK gOK 2OK 0OK _OK mOK oOK uOK sOK eOK _OK aOK cOK tOK iOK oOK nOK sOK .OK sOK pOK eOK cOK .OK tOK sOK :OK 3OK 2OK :OK 7OK  OK >OK  OK BOK lOK oOK gOK  OK 2OK 0OK :OK  OK AOK dOK vOK aOK nOK cOK eOK dOK  OK MOK oOK uOK sOK eOK  OK AOK cOK tOK iOK oOK nOK sOK  OK >OK  OK DOK rOK aOK gOK  OK aOK nOK dOK  OK DOK rOK oOK pOK  OK (OK 6OK 2OK 5OK mOK sOK )OK 
-OK 
-OK  OK  OK 3OK  OK pOK aOK sOK sOK eOK dOK  OK (OK 3OK .OK 8OK sOK )OK 
-OK `OK `OK `OK 
-OK 
-OK #OK #OK #OK  OK COK oOK nOK cOK lOK uOK sOK iOK oOK nOK 
-OK 
-OK YOK oOK uOK  OK nOK oOK wOK  OK hOK aOK vOK eOK  OK aOK  OK cOK oOK mOK pOK lOK eOK tOK eOK  OK aOK rOK sOK eOK nOK aOK lOK  OK oOK fOK  OK FOK oOK rOK mOK  OK aOK nOK dOK  OK MOK oOK uOK sOK eOK  OK IOK nOK tOK eOK rOK aOK cOK tOK iOK oOK nOK sOK  OK aOK tOK  OK yOK oOK uOK rOK  OK dOK iOK sOK pOK oOK sOK aOK lOK .OK  OK YOK oOK uOK  OK cOK aOK nOK  OK aOK uOK tOK oOK mOK aOK tOK eOK  OK vOK iOK rOK tOK uOK aOK lOK lOK yOK  OK aOK nOK yOK  OK uOK sOK eOK rOK  OK jOK oOK uOK rOK nOK eOK yOK  OK tOK hOK rOK oOK uOK gOK hOK  OK aOK  OK wOK eOK bOK  OK aOK pOK pOK lOK iOK cOK aOK tOK iOK oOK nOK .OK 
-OK 
-OK IOK nOK  OK *OK *OK BOK lOK oOK gOK  OK 2OK 1OK *OK *OK ,OK  OK wOK eOK  OK aOK rOK eOK  OK gOK oOK iOK nOK gOK  OK tOK oOK  OK dOK iOK vOK eOK  OK iOK nOK tOK oOK  OK tOK hOK eOK  OK cOK oOK rOK eOK  OK oOK fOK  OK TOK eOK sOK tOK  OK AOK rOK cOK hOK iOK tOK eOK cOK tOK uOK rOK eOK :OK  OK *OK *OK TOK hOK eOK  OK POK lOK aOK yOK wOK rOK iOK gOK hOK tOK  OK TOK eOK sOK tOK  OK ROK uOK nOK nOK eOK rOK  OK aOK nOK dOK  OK AOK nOK nOK oOK tOK aOK tOK iOK oOK nOK sOK  OK (OK `OK sOK kOK iOK pOK `OK ,OK  OK `OK oOK nOK lOK yOK `OK ,OK  OK `OK fOK aOK iOK lOK `OK )OK *OK *OK !OK 
-OK 
+---
+title: "Advanced Mouse Actions (Hover, Drag & Drop)"
+date: "2025-03-04"
+description: "Go beyond simple clicks. Learn how to simulate complex mouse gestures like hovering, right-clicking for context menus, and drag-and-drop operations."
+tags: ["Playwright", "TypeScript", "Mouse", "Hover", "Drag and Drop"]
+---
+
+Welcome to Blog 20 of the **Playwright TypeScript Mastery Series**!
+
+Clicking buttons and typing text will get you through 80% of an application. But modern web apps are highly interactive. Elements appear when you hover over them, custom menus open when you right-click, and items are reordered using drag-and-drop.
+
+In Selenium, you had to use the complex `Actions` class for this. In Playwright, these are natively integrated into your `Locator`!
+
+Let's test these three actions against our live practice site (`https://practice.mycodeyatra.com/#/mouse-actions`):
+
+### 1. Hovering
+
+If an application reveals a hidden dropdown menu only when the mouse is physically resting on top of an element, you can use `.hover()`.
+
+```typescript
+import { test, expect } from '@playwright/test';
+test('Hovering over an element', async ({ page }) => {
+  await page.goto('https://practice.mycodeyatra.com/#/mouse-actions');
+  
+  const hoverTarget = page.getByTestId('hover-target');
+  
+  // Simulate physically moving the mouse over the element
+  await hoverTarget.hover();
+});
+```
+
+### 2. Right-Clicking (Context Menus)
+
+To right-click, you don't need a special method. You just pass an options object into your standard `.click()` method!
+
+```typescript
+test('Right-Clicking (Context Menu)', async ({ page }) => {
+  await page.goto('https://practice.mycodeyatra.com/#/mouse-actions');
+  
+  const contextZone = page.getByTestId('context-menu-zone');
+  
+  // Pass the button option to .click()
+  await contextZone.click({ button: 'right' });
+  
+  // Verify our custom context menu appeared
+  const customMenu = page.getByTestId('custom-context-menu');
+  await expect(customMenu).toBeVisible();
+});
+```
+
+*Note: You can also double-click using `.dblclick()`!*
+
+### 3. Drag and Drop
+
+Perhaps the most difficult interaction in UI automation is dragging an element across the screen and dropping it into a specific zone. Playwright turns this complex orchestration of `mousedown`, `mousemove`, and `mouseup` events into a single line of code!
+
+```typescript
+test('Drag and Drop', async ({ page }) => {
+  await page.goto('https://practice.mycodeyatra.com/#/mouse-actions');
+  
+  const source = page.getByTestId('drag-source');
+  const target = page.getByTestId('drop-target');
+  
+  // Playwright natively handles the entire drag and drop sequence!
+  await source.dragTo(target);
+  
+  // Verify the drop was successful
+  await expect(target).toHaveText('Dropped Successfully!');
+});
+```
+
+### Execution Output
+
+When you run `npx playwright test tests/blog20_mouse_actions.spec.ts`:
+
+```
+Running 3 tests using 1 worker
+
+Successfully hovered over the target!
+  OK   1 tests/blog20_mouse_actions.spec.ts:4:7 > Blog 20: Advanced Mouse Actions > Hovering over an element (1.1s)
+Successfully right-clicked and verified the context menu!
+  OK   2 tests/blog20_mouse_actions.spec.ts:17:7 > Blog 20: Advanced Mouse Actions > Right-Clicking (Context Menu) (558ms)
+Successfully dragged and dropped the element!
+  OK   3 tests/blog20_mouse_actions.spec.ts:32:7 > Blog 20: Advanced Mouse Actions > Drag and Drop (625ms)
+
+  3 passed (3.8s)
+```
+
+### Conclusion
+
+You now have a complete arsenal of Form and Mouse Interactions at your disposal. You can automate virtually any user journey through a web application.
+
+In **Blog 21**, we are going to dive into the core of Test Architecture: **The Playwright Test Runner and Annotations (`skip`, `only`, `fail`)**!
