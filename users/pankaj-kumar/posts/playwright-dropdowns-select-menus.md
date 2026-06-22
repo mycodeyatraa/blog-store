@@ -68,10 +68,10 @@ When you run `npx playwright test tests/blog12_dropdowns.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
   OK   1 tests/blog12_dropdowns.spec.ts:4:7 > Blog 12: Dropdowns and Select Menus > Interacting with a Native Select Menu (654ms)
   OK   2 tests/blog12_dropdowns.spec.ts:22:7 > Blog 12: Dropdowns and Select Menus > Interacting with a Custom Dropdown (Non-Select) (664ms)
-
+ 
   2 passed (2.5s)
 ```
 
