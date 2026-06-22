@@ -24,27 +24,27 @@ Create `tests/blog27_browser_contexts.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 27: Multiple Browser Contexts', () => {
-
+ 
   // Notice we request the { browser } fixture instead of { page }
   test('Simulating a multi-user workflow', async ({ browser }) => {
     
     // 1. Create two completely isolated browser sessions
     const adminContext = await browser.newContext();
     const userContext = await browser.newContext();
-
+ 
     // 2. Open pages in each context
     const adminPage = await adminContext.newPage();
     const userPage = await userContext.newPage();
-
+ 
     // 3. Admin logs in
     await adminPage.goto('https://practice.mycodeyatra.com/#/login');
     await adminPage.getByTestId('username').fill('admin');
     await adminPage.getByTestId('password').fill('admin123');
     await adminPage.getByTestId('login-btn').click();
     await expect(adminPage).toHaveURL(/.*profile/);
-
+ 
     // 4. Regular User visits the home page (unauthenticated)
     await userPage.goto('https://practice.mycodeyatra.com');
     const header = userPage.locator('h1').first();
@@ -58,7 +58,7 @@ test.describe('Blog 27: Multiple Browser Contexts', () => {
     await adminContext.close();
     await userContext.close();
   });
-
+ 
 });
 ```
 
@@ -68,11 +68,11 @@ When you run `npx playwright test tests/blog27_browser_contexts.spec.ts`:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Admin Page URL: https://practice.mycodeyatra.com/#/profile
 User Page URL: https://practice.mycodeyatra.com/
   OK   1 tests/blog27_browser_contexts.spec.ts:6:7 > Blog 27: Multiple Browser Contexts > Simulating a multi-user workflow (4.3s)
-
+ 
   1 passed (5.5s)
 ```
 
