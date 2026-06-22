@@ -25,7 +25,6 @@ Create a new file in your project: `tests/blog8_e2e_login.spec.ts`.
 import { test, expect } from '@playwright/test';
 
 test.describe('Blog 8: First E2E Test', () => {
-
   // ==========================================
   // SCENARIO 1: Successful Login
   // ==========================================
@@ -33,49 +32,39 @@ test.describe('Blog 8: First E2E Test', () => {
     // 1. Navigate to the application
     console.log('Navigating to the login page...');
     await page.goto('https://practice.mycodeyatra.com/#/login');
-
     // 2. Locate the Username field and Type
     console.log('Entering username...');
     await page.getByPlaceholder('Enter Username').fill('admin');
-
     // 3. Locate the Password field and Type
     console.log('Entering password...');
     await page.getByPlaceholder('Enter Password').fill('password123');
-
     // 4. Locate the Login Button and Click
     console.log('Clicking the Login button...');
     await page.getByRole('button', { name: 'Login' }).click();
-
     // 5. Assert that the login was successful by checking the URL
     console.log('Validating successful login...');
     await expect(page).toHaveURL(/.*dashboard/);
-
     // 6. Assert that a success banner appears
     const successAlert = page.locator('#success-alert');
     await expect(successAlert).toBeVisible();
     await expect(successAlert).toHaveText(/Welcome back/);
   });
-
   // ==========================================
   // SCENARIO 2: Failed Login
   // ==========================================
   test('Failed Login Scenario (Invalid Password)', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
-
     // Perform the invalid login
     await page.getByPlaceholder('Enter Username').fill('admin');
     await page.getByPlaceholder('Enter Password').fill('wrongpassword');
     await page.getByRole('button', { name: 'Login' }).click();
-
     // Assert that an error message is displayed
     const errorAlert = page.locator('#error-alert');
     await expect(errorAlert).toBeVisible();
     await expect(errorAlert).toHaveText('Invalid credentials');
-    
     // Use the .not modifier to assert the URL did NOT change!
     await expect(page).not.toHaveURL(/.*dashboard/);
   });
-
 });
 ```
 
