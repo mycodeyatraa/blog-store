@@ -25,7 +25,7 @@ Create `tests/blog19_upload_download.spec.ts`:
 import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
-
+ 
 test('Uploading a file', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/upload-download');
   
@@ -86,11 +86,11 @@ When you run `npx playwright test tests/blog19_upload_download.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
   OK   1 tests/blog19_upload_download.spec.ts:7:7 > Blog 19: Handling File Uploads and Downloads > Uploading a file (631ms)
 Successfully downloaded and verified the file contents!
   OK   2 tests/blog19_upload_download.spec.ts:27:7 > Blog 19: Handling File Uploads and Downloads > Downloading a file (857ms)
-
+ 
   2 passed (2.9s)
 ```
 
