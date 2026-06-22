@@ -20,6 +20,7 @@ To interact with it, you simply tell Playwright: "Wait for a new page to spawn, 
 Let's test this against our live practice site (`https://practice.mycodeyatra.com/#/frames`):
 
 Create `tests/blog16_windows_tabs.spec.ts`:
+
 ```typescript
 import { test, expect } from '@playwright/test';
 // Notice we are passing 'context' into our test fixture!
@@ -55,6 +56,7 @@ test('Switching to a newly opened tab', async ({ context, page }) => {
 ### Execution Output
 
 When you run `npx playwright test tests/blog16_windows_tabs.spec.ts`:
+
 ```bash
 Running 1 test using 1 worker
 
