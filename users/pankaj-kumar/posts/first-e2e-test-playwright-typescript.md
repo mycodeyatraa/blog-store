@@ -23,7 +23,6 @@ Create a new file in your project: `tests/blog8_e2e_login.spec.ts`.
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
 test.describe('Blog 8: First E2E Test', () => {
   // ==========================================
   // SCENARIO 1: Successful Login
