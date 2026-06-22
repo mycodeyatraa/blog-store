@@ -66,12 +66,12 @@ test.describe('Blog 27: Multiple Browser Contexts', () => {
 
 When you run `npx playwright test tests/blog27_browser_contexts.spec.ts`:
 
-```bash
+```text
 Running 1 test using 1 worker
 
 Admin Page URL: https://practice.mycodeyatra.com/#/profile
 User Page URL: https://practice.mycodeyatra.com/
-  ✓  1 tests\blog27_browser_contexts.spec.ts:6:7 › Blog 27: Multiple Browser Contexts › Simulating a multi-user workflow (4.3s)
+  OK   1 tests/blog27_browser_contexts.spec.ts:6:7 > Blog 27: Multiple Browser Contexts > Simulating a multi-user workflow (4.3s)
 
   1 passed (5.5s)
 ```
