@@ -65,15 +65,20 @@ If you were writing raw Playwright code, you would have to manually instantiate 
 
 ```typescript
 import { chromium } from 'playwright';
+
 (async () => {
   // 1. Launch the Browser
   const browser = await chromium.launch();
+  
   // 2. Create an isolated Context
   const context = await browser.newContext();
+  
   // 3. Open a new Page (Tab)
   const page = await context.newPage();
+  
   // 4. Navigate to a URL
   await page.goto('https://practice.mycodeyatra.com/');
+  
   await browser.close();
 })();
 ```

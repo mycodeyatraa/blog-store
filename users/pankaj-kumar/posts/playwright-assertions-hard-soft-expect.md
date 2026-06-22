@@ -23,17 +23,23 @@ Create `tests/blog7_assertions.spec.ts` in your project:
 
 ```typescript
 import { test, expect } from '@playwright/test';
+
 test('Auto-retrying Hard Assertions', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/login');
+
   const formHeader = page.getByText('Login Portal');
+  
   // Playwright will wait up to 5 seconds for this to become visible
   await expect(formHeader).toBeVisible();
+
   const usernameInput = page.locator('input#username');
   await expect(usernameInput).toBeEmpty();
+
   await usernameInput.fill('admin');
   await expect(usernameInput).toHaveValue('admin');
 });
 ```
+
 *Note: You **must** use `await` with auto-retrying matchers, because Playwright is actively polling the browser!*
 
 ### 2. Generic Matchers
@@ -45,6 +51,7 @@ For these, you use **Generic Matchers**. These do *not* poll the DOM, and they d
 ```typescript
 test('Non-retrying Generic Assertions', async ({ page }) => {
   const statusCode = 200;
+  
   // Generic matchers do NOT use 'await'
   expect(statusCode).toBe(200);
   expect([1, 2, 3]).toContain(2);
@@ -63,10 +70,13 @@ This is where **Soft Assertions** come in. If a Soft Assertion fails, Playwright
 ```typescript
 test('Soft Assertions', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/login');
+
   const loginButton = page.getByRole('button', { name: 'Login' });
+  
   // Use expect.soft() to prevent immediate crashes
   await expect.soft(loginButton).toBeEnabled();
   await expect.soft(loginButton).toHaveText('Login');
+  
   // Even if the text was wrong above, this code will still run!
   console.log('Test execution continued perfectly!');
 });
@@ -78,10 +88,11 @@ When you run `npx playwright test tests/blog7_assertions.spec.ts`:
 
 ```
 Running 3 tests using 1 worker
-  ✓  1 Auto-retrying Hard Assertions (1.1s)
-  ✓  2 Non-retrying Generic Assertions (0.1s)
+  OK   1 Auto-retrying Hard Assertions (1.1s)
+  OK   2 Non-retrying Generic Assertions (0.1s)
 Test execution continued perfectly!
-  ✓  3 Soft Assertions (0.9s)
+  OK   3 Soft Assertions (0.9s)
+
   3 passed (2.1s)
 ```
 

@@ -30,7 +30,7 @@ Headed mode launches the physical, visible browser window so you can watch the t
 
 You can control the lifecycle directly from the command line. Open your terminal and run:
 
-```bash
+```
 npx playwright test --headed
 ```
 
@@ -44,11 +44,14 @@ Open your `playwright.config.ts` and locate the `use` block. Update it like this
 
 ```typescript
 import { defineConfig, devices } from '@playwright/test';
+
 export default defineConfig({
   // ... other configs ...
+  
   use: {
     // Launch the browser in headed mode by default
     headless: false,
+    
     // Slow down Playwright's execution by 500ms per action so you can actually watch it!
     launchOptions: {
       slowMo: 500,
@@ -65,7 +68,7 @@ Playwright completely redefined the automation industry when they introduced **U
 
 Instead of running a standard terminal command, run this:
 
-```bash
+```
 npx playwright test --ui
 ```
 
