@@ -55,10 +55,10 @@ When you run `npx playwright test tests/blog18_shadow_dom.spec.ts`:
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully interacted with Shadow DOM elements!
   OK   1 tests/blog18_shadow_dom.spec.ts:4:7 > Blog 18: Handling Shadow DOM Components > Playwright pierces the Shadow DOM automatically (738ms)
-
+ 
   1 passed (2.1s)
 ```
 
