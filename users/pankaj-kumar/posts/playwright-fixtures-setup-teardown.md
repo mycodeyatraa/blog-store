@@ -31,9 +31,9 @@ Create `tests/blog22_hooks.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 22: Hooks and Fixtures', () => {
-
+ 
   // The 'page' parameter here is a built-in Playwright "Fixture"
   test.beforeEach(async ({ page }) => {
     // This code runs BEFORE every single test in this block
@@ -46,20 +46,20 @@ test.describe('Blog 22: Hooks and Fixtures', () => {
     // Ensure we reached the profile page
     await expect(page).toHaveURL(/.*profile/);
   });
-
+ 
   test.afterEach(async ({ page }) => {
     // This code runs AFTER every single test in this block
     console.log('Running Teardown: Clearing session...');
     await page.evaluate(() => localStorage.clear());
   });
-
+ 
   test('Verify Dashboard Navigation', async ({ page }) => {
     // We don't need to write login code here! 
     const navText = page.locator('nav');
     await expect(navText).toBeVisible();
     console.log('Test 1: Dashboard navigation verified!');
   });
-
+ 
   test('Verify Profile Settings Accessible', async ({ page }) => {
     // Same here, we are already logged in!
     await page.goto('https://practice.mycodeyatra.com/#/profile');
@@ -67,7 +67,7 @@ test.describe('Blog 22: Hooks and Fixtures', () => {
     await expect(header).toHaveText('Welcome back, admin!');
     console.log('Test 2: Profile settings accessible!');
   });
-
+ 
 });
 ```
 
@@ -77,17 +77,17 @@ When you run `npx playwright test tests/blog22_hooks.spec.ts`:
 
 ```
 Running 2 tests using 1 worker
-
+ 
 Running Setup: Logging in...
 Test 1: Dashboard navigation verified!
 Running Teardown: Clearing session...
   OK   1 tests/blog22_hooks.spec.ts:27:7 > Blog 22: Hooks and Fixtures > Verify Dashboard Navigation (728ms)
-
+ 
 Running Setup: Logging in...
 Test 2: Profile settings accessible!
 Running Teardown: Clearing session...
   OK   2 tests/blog22_hooks.spec.ts:35:7 > Blog 22: Hooks and Fixtures > Verify Profile Settings Accessible (610ms)
-
+ 
   2 passed (2.6s)
 ```
 
