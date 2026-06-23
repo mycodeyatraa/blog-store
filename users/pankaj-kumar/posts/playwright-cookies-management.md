@@ -32,9 +32,9 @@ Create a test file `tests/blog55_cookies.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 55: Cookies Management in Playwright', () => {
-
+ 
   test('Add, retrieve and clear browser cookies', async ({ context, page }) => {
     // 1. Define and add custom cookies to the browser context
     const testCookie = {
@@ -46,28 +46,28 @@ test.describe('Blog 55: Cookies Management in Playwright', () => {
       secure: true,
       expires: Math.floor(Date.now() / 1000) + 3600 // 1 hour expiration
     };
-
+ 
     await context.addCookies([testCookie]);
-
+ 
     // Navigate to the domain where the cookie is active
     await page.goto('https://example.com');
-
+ 
     // 2. Retrieve cookies for this domain
     const activeCookies = await context.cookies('https://example.com');
     const authCookie = activeCookies.find(c => c.name === 'auth_session');
-
+ 
     expect(authCookie).toBeDefined();
     expect(authCookie?.value).toBe('token_abc123');
     console.log(`[Cookies] Active Cookie Value: ${authCookie?.value}`);
-
+ 
     // 3. Clear cookies and verify
     await context.clearCookies();
     const remainingCookies = await context.cookies('https://example.com');
     const clearedAuthCookie = remainingCookies.find(c => c.name === 'auth_session');
-
+ 
     expect(clearedAuthCookie).toBeUndefined();
   });
-
+ 
 });
 ```
 
@@ -85,10 +85,10 @@ npx playwright test tests/blog55_cookies.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Cookies] Active Cookie Value: token_abc123
   ✓  1 tests/blog55_cookies.spec.ts:5:7 › Blog 55: Cookies Management in Playwright › Add, retrieve and clear browser cookies (280ms)
-
+ 
   1 passed (1.7s)
 ```
 
