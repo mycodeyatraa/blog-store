@@ -30,7 +30,7 @@ Create a new file called `utils/custom-reporter.ts` and implement the `Reporter`
 
 ```typescript
 import { Reporter, TestCase, TestResult, FullResult, FullConfig, Suite } from '@playwright/test/reporter';
-
+ 
 class CustomReporter implements Reporter {
   onBegin(config: FullConfig, suite: Suite) {
     console.log(`\n==================================================`);
@@ -38,11 +38,11 @@ class CustomReporter implements Reporter {
     console.log(`[CUSTOM REPORTER] Total tests in this run: ${suite.allTests().length}`);
     console.log(`==================================================\n`);
   }
-
+ 
   onTestBegin(test: TestCase, result: TestResult) {
     console.log(`[TEST START] Running: "${test.title}" ...`);
   }
-
+ 
   onTestEnd(test: TestCase, result: TestResult) {
     const duration = result.duration;
     const status = result.status.toUpperCase();
@@ -56,7 +56,7 @@ class CustomReporter implements Reporter {
     }
     console.log('--------------------------------------------------');
   }
-
+ 
   onEnd(result: FullResult) {
     console.log(`\n==================================================`);
     console.log(`[CUSTOM REPORTER] Test Suite Run Completed!`);
@@ -64,7 +64,7 @@ class CustomReporter implements Reporter {
     console.log(`==================================================\n`);
   }
 }
-
+ 
 export default CustomReporter;
 ```
 
@@ -76,9 +76,9 @@ Let's create a spec file `tests/blog34_reporter.spec.ts` with one passing and on
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 34: Custom Playwright Test Reporters', () => {
-
+ 
   test('Passing test execution', async ({ page }) => {
     console.log('[TEST LOG] Navigating to login page...');
     await page.goto('https://practice.mycodeyatra.com/#/login');
@@ -86,7 +86,7 @@ test.describe('Blog 34: Custom Playwright Test Reporters', () => {
     await expect(header).toBeVisible();
     console.log('[TEST LOG] Login header is visible.');
   });
-
+ 
   test('Failing test execution for reporter logging demonstration', async ({ page }) => {
     console.log('[TEST LOG] Attempting to navigate and check non-existent element...');
     await page.goto('https://practice.mycodeyatra.com/#/login');
@@ -94,7 +94,7 @@ test.describe('Blog 34: Custom Playwright Test Reporters', () => {
     const nonExistentElement = page.locator('#non-existent-button-id');
     await expect(nonExistentElement).toBeVisible({ timeout: 2000 });
   });
-
+ 
 });
 ```
 
@@ -115,7 +115,7 @@ npx playwright test tests/blog34_reporter.spec.ts --reporter=./utils/custom-repo
 [CUSTOM REPORTER] Starting Test Suite Run
 [CUSTOM REPORTER] Total tests in this run: 2
 ==================================================
-
+ 
 [TEST START] Running: "Passing test execution" ...
 [TEST END] Finished: "Passing test execution" | Status: PASSED | Duration: 4210ms
 --------------------------------------------------
@@ -123,17 +123,17 @@ npx playwright test tests/blog34_reporter.spec.ts --reporter=./utils/custom-repo
 [TEST END] Finished: "Failing test execution for reporter logging demonstration" | Status: FAILED | Duration: 2546ms
 [TEST ERROR] Details for "Failing test execution for reporter logging demonstration":
   1. Error: expect(locator).toBeVisible() failed
-
+ 
 Locator: locator('#non-existent-button-id')
 Expected: visible
 Timeout: 2000ms
 Error: element(s) not found
-
+ 
 Call log:
   - Expect "toBeVisible" with timeout 2000ms
   - waiting for locator('#non-existent-button-id')
 --------------------------------------------------
-
+ 
 ==================================================
 [CUSTOM REPORTER] Test Suite Run Completed!
 [CUSTOM REPORTER] Overall Status: FAILED
@@ -148,7 +148,7 @@ Instead of passing the `--reporter` flag every time, you can register your repor
 
 ```typescript
 import { defineConfig } from '@playwright/test';
-
+ 
 export default defineConfig({
   reporter: [
     ['list'], // You can run standard reporters alongside your custom one!
