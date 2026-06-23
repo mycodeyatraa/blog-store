@@ -55,24 +55,24 @@ Create a new test file: `tests/blog33_env.spec.ts`.
 import { test, expect } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
-
+ 
 // Read the TEST_ENV variable from the command line, defaulting to 'qa'
 const envName = process.env.TEST_ENV || 'qa';
-
+ 
 // Dynamically load the correct .env file based on the variable
 dotenv.config({ path: path.resolve(__dirname, `../config/${envName}.env`) });
-
+ 
 test.describe('Blog 33: Environment Configuration', () => {
-
+ 
   test('Read values from the current environment', async ({ page }) => {
     // We access our variables via process.env
     const baseUrl = process.env.BASE_URL;
     const testUser = process.env.TEST_USER;
-
+ 
     console.log(`Running test against environment: ${envName.toUpperCase()}`);
     console.log(`Target URL: ${baseUrl}`);
     console.log(`Test User: ${testUser}`);
-
+ 
     expect(baseUrl).toBeDefined();
     
     // We can now dynamically navigate without hardcoded strings!
@@ -81,7 +81,7 @@ test.describe('Blog 33: Environment Configuration', () => {
       await expect(page).toHaveTitle(/MyCodeYatra/);
     }
   });
-
+ 
 });
 ```
 
