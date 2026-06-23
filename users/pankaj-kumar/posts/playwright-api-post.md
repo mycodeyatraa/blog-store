@@ -28,9 +28,9 @@ Create a test file `tests/blog37_api_post.spec.ts` to implement our POST API val
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 37: Validating POST APIs in Playwright', () => {
-
+ 
   test('POST Request with JSON Payload', async ({ request }) => {
     // 1. Define the request payload (body)
     const requestPayload = {
@@ -38,7 +38,7 @@ test.describe('Blog 37: Validating POST APIs in Playwright', () => {
       body: 'Playwright makes API testing simple and extremely fast.',
       userId: 1
     };
-
+ 
     // 2. Send the POST request with the payload in the 'data' parameter
     const response = await request.post('https://jsonplaceholder.typicode.com/posts', {
       data: requestPayload,
@@ -46,11 +46,11 @@ test.describe('Blog 37: Validating POST APIs in Playwright', () => {
         'Content-Type': 'application/json; charset=UTF-8'
       }
     });
-
+ 
     // 3. Validate status code is 201 Created
     expect(response.status()).toBe(201);
     expect(response.ok()).toBeTruthy();
-
+ 
     // 4. Validate the response body content
     const responseBody = await response.json();
     
@@ -61,10 +61,10 @@ test.describe('Blog 37: Validating POST APIs in Playwright', () => {
     expect(responseBody.title).toBe(requestPayload.title);
     expect(responseBody.body).toBe(requestPayload.body);
     expect(responseBody.userId).toBe(requestPayload.userId);
-
+ 
     console.log(`Successfully created resource. Returned ID: ${responseBody.id}`);
   });
-
+ 
 });
 ```
 
@@ -102,10 +102,10 @@ npx playwright test tests/blog37_api_post.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully created resource. Returned ID: 101
   ✓  1 tests/blog37_api_post.spec.ts:5:7 › Blog 37: Validating POST APIs in Playwright › POST Request with JSON Payload (730ms)
-
+ 
   1 passed (1.9s)
 ```
 
