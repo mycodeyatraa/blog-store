@@ -29,14 +29,14 @@ Create a directory called `api` and add a new file `api/post-service.ts`:
 
 ```typescript
 import { APIRequestContext } from '@playwright/test';
-
+ 
 export class PostService {
   private request: APIRequestContext;
-
+ 
   constructor(request: APIRequestContext) {
     this.request = request;
   }
-
+ 
   /**
    * Retrieves a post by its ID
    * @param id The post identifier
@@ -44,7 +44,7 @@ export class PostService {
   async getPost(id: number) {
     return await this.request.get(`https://jsonplaceholder.typicode.com/posts/${id}`);
   }
-
+ 
   /**
    * Creates a new post resource
    * @param payload The request body object containing post details
@@ -57,7 +57,7 @@ export class PostService {
       }
     });
   }
-
+ 
   /**
    * Deletes a post resource by its ID
    * @param id The post identifier to remove
@@ -77,39 +77,39 @@ Now, write your tests in `tests/blog42_api_framework.spec.ts` using our newly cr
 ```typescript
 import { test, expect } from '@playwright/test';
 import { PostService } from '../api/post-service';
-
+ 
 test.describe('Blog 42: API Testing Framework Design', () => {
   let postService: PostService;
-
+ 
   // Initialize service objects before each test using the default request fixture
   test.beforeEach(({ request }) => {
     postService = new PostService(request);
   });
-
+ 
   test('Should fetch post using service object model', async () => {
     const response = await postService.getPost(1);
     expect(response.status()).toBe(200);
-
+ 
     const responseBody = await response.json();
     expect(responseBody.id).toBe(1);
     console.log('[API Framework] Retrieved post successfully using Service Object Model.');
   });
-
+ 
   test('Should create post using service object model', async () => {
     const payload = {
       title: 'API Framework Design',
       body: 'Decoupling endpoints from tests improves code reusability.',
       userId: 1
     };
-
+ 
     const response = await postService.createPost(payload);
     expect(response.status()).toBe(201);
-
+ 
     const responseBody = await response.json();
     expect(responseBody.title).toBe(payload.title);
     console.log('[API Framework] Created post successfully using Service Object Model.');
   });
-
+ 
 });
 ```
 
@@ -127,12 +127,12 @@ npx playwright test tests/blog42_api_framework.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [API Framework] Retrieved post successfully using Service Object Model.
   ✓  1 tests/blog42_api_framework.spec.ts:12:7 › Blog 42: API Testing Framework Design › Should fetch post using service object model (115ms)
 [API Framework] Created post successfully using Service Object Model.
   ✓  2 tests/blog42_api_framework.spec.ts:21:7 › Blog 42: API Testing Framework Design › Should create post using service object model (630ms)
-
+ 
   2 passed (1.9s)
 ```
 
