@@ -29,9 +29,9 @@ Create a test file `tests/blog51_pixel_perfect.spec.ts` demonstrating custom thr
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 51: Pixel-Perfect Visual Assertions in Playwright', () => {
-
+ 
   test('Visual comparison with custom thresholds', async ({ page }) => {
     // Navigate to a simple page
     await page.goto('data:text/html,<html><body><div id="target" style="width:100px;height:100px;background-color:red;"></div></body></html>');
@@ -44,7 +44,7 @@ test.describe('Blog 51: Pixel-Perfect Visual Assertions in Playwright', () => {
     });
     console.log('[Pixel Perfect] Assertion configured and validated.');
   });
-
+ 
 });
 ```
 
@@ -62,10 +62,10 @@ npx playwright test tests/blog51_pixel_perfect.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Pixel Perfect] Assertion configured and validated.
   ✓  1 tests/blog51_pixel_perfect.spec.ts:5:7 › Blog 51: Pixel-Perfect Visual Assertions in Playwright › Visual comparison with custom thresholds (301ms)
-
+ 
   1 passed (1.5s)
 ```
 
