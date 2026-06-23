@@ -23331,5 +23331,41 @@
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-647",
+    "slug": "playwright-ui-database-validation",
+    "title": "End-to-End Data Validation (UI + DB)",
+    "description": "Learn how to build end-to-end testing flows in Playwright that execute user registration in the UI, verify database writes, and tear down test state.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-ui-database-validation.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "29-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Database Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Database Testing",
+      "E2E Validation",
+      "UI Testing"
+    ],
+    "series": "playwright-typescript-database-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
