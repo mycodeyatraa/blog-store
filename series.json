@@ -1239,7 +1239,8 @@
     "description": "Validate backend services using Playwright. Master request context, network interception, blocking resources, and mocking API responses.",
     "articleIds": [
       "post-625",
-      "post-626"
+      "post-626",
+      "post-636"
     ]
   },
   {
