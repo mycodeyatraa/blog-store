@@ -23048,5 +23048,40 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-639",
+    "slug": "playwright-api-put-patch-delete",
+    "title": "Validating PUT, PATCH, and DELETE APIs",
+    "description": "Learn how to perform HTTP updates and resource deletions using Playwright's PUT, PATCH, and DELETE request configurations, and how to write assertions against success criteria.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-api-put-patch-delete.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "21-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "API Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "API Testing",
+      "Validation"
+    ],
+    "series": "playwright-typescript-api-testing",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
