@@ -23295,5 +23295,41 @@
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-646",
+    "slug": "playwright-database-mocking-seeding",
+    "title": "Database Mocking & Seeding",
+    "description": "Learn how to seed and mock databases with custom test datasets before executing tests, and set up automatic hooks for schema setup and data teardown.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-database-mocking-seeding.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "28-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Database Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Database Testing",
+      "Data Seeding",
+      "Teardown"
+    ],
+    "series": "playwright-typescript-database-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
