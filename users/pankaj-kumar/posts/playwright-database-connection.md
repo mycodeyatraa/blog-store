@@ -47,9 +47,9 @@ Create a test file `tests/blog43_db_connection.spec.ts` to show how database con
 ```typescript
 import { test, expect } from '@playwright/test';
 import { Client } from 'pg';
-
+ 
 test.describe('Blog 43: Connecting to PostgreSQL in Playwright', () => {
-
+ 
   test('Should configure database connection credentials', async () => {
     // 1. Define configuration options (best retrieved from process.env)
     const dbConfig = {
@@ -59,14 +59,14 @@ test.describe('Blog 43: Connecting to PostgreSQL in Playwright', () => {
       user: process.env.DB_USER || 'postgres',
       password: process.env.DB_PASSWORD || 'password123',
     };
-
+ 
     expect(dbConfig.host).toBeDefined();
     expect(dbConfig.port).toBe(5432);
     expect(dbConfig.database).toBe('test_db');
-
+ 
     console.log('[DB Integration] Database configuration loaded successfully.');
   });
-
+ 
   test('Attempt database connection (Graceful Failover)', async () => {
     const client = new Client({
       host: 'invalid-host-for-testing', // Intentionally wrong to demonstrate connection error handling
@@ -76,7 +76,7 @@ test.describe('Blog 43: Connecting to PostgreSQL in Playwright', () => {
       password: 'password123',
       connectionTimeoutMillis: 1000 // Short timeout for rapid execution
     });
-
+ 
     try {
       await client.connect();
       console.log('[DB Integration] Connection established successfully.');
@@ -88,7 +88,7 @@ test.describe('Blog 43: Connecting to PostgreSQL in Playwright', () => {
       expect(error.message).toMatch(/timeout expired|getaddrinfo ENOTFOUND|ENOTFOUND/);
     }
   });
-
+ 
 });
 ```
 
@@ -114,12 +114,12 @@ npx playwright test tests/blog43_db_connection.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [DB Integration] Database configuration loaded successfully.
   ✓  1 tests/blog43_db_connection.spec.ts:6:7 › Blog 43: Connecting to PostgreSQL in Playwright › Should configure database connection credentials (14ms)
 [DB Integration] Expected connection error caught: timeout expired
   ✓  2 tests/blog43_db_connection.spec.ts:23:7 › Blog 43: Connecting to PostgreSQL in Playwright › Attempt database connection (Graceful Failover) (1.0s)
-
+ 
   2 passed (2.5s)
 ```
 
