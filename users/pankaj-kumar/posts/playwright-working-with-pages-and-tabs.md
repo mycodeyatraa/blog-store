@@ -26,33 +26,33 @@ Create a new test file `tests/blog56_tabs.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 56: Working with Pages and Tabs', () => {
-
+ 
   test('Open and manage multiple pages/tabs programmatically', async ({ context, page }) => {
     // 1. Navigate page 1 (the default tab) to example.com
     await page.goto('https://example.com');
     await expect(page).toHaveTitle(/Example Domain/);
-
+ 
     // 2. Open a second tab/page within the same browser context
     const newPage = await context.newPage();
     await newPage.goto('https://playwright.dev');
     await expect(newPage).toHaveTitle(/Playwright/);
-
+ 
     // 3. Make sure we can switch operations between pages easily
     console.log(`Tab 1 URL: ${page.url()}`);
     console.log(`Tab 2 URL: ${newPage.url()}`);
-
+ 
     expect(page.url()).toContain('example.com');
     expect(newPage.url()).toContain('playwright.dev');
-
+ 
     // 4. Close the secondary tab
     await newPage.close();
-
+ 
     // Verify default page is still open and responsive
     await expect(page).toHaveTitle(/Example Domain/);
   });
-
+ 
 });
 ```
 
@@ -70,11 +70,11 @@ npx playwright test tests/blog56_tabs.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 Tab 1 URL: https://example.com/
 Tab 2 URL: https://playwright.dev/
   ✓  1 tests/blog56_tabs.spec.ts:5:7 › Blog 56: Working with Pages and Tabs › Open and manage multiple pages/tabs programmatically (874ms)
-
+ 
   1 passed (2.3s)
 ```
 
