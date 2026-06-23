@@ -23547,5 +23547,41 @@
     "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-653",
+    "slug": "playwright-masking-dynamic-content",
+    "title": "Masking Dynamic Content & Retrying Screenshots",
+    "description": "Learn how to use masking and element hiding in Playwright TypeScript to exclude dynamic web content (like times, dates, and ads) from visual regression checks.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-masking-dynamic-content.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "04-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Visual Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Visual Testing",
+      "Masking",
+      "Dynamic Content"
+    ],
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
