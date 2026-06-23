@@ -30,9 +30,9 @@ Create a test file `tests/blog47_device_emulation.spec.ts` showing how to dynami
 
 ```typescript
 import { test, expect, devices } from '@playwright/test';
-
+ 
 test.describe('Blog 47: Mobile Device Emulation in Playwright', () => {
-
+ 
   test('Emulate iPhone 12 viewport and user agent', async ({ page }) => {
     const iPhone12 = devices['iPhone 12'];
     
@@ -48,7 +48,7 @@ test.describe('Blog 47: Mobile Device Emulation in Playwright', () => {
     // Viewport width for iPhone 12 is 390
     expect(infoText).toBe('390');
   });
-
+ 
 });
 ```
 
@@ -66,10 +66,10 @@ npx playwright test tests/blog47_device_emulation.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Device Emulation] Page Viewport Width: 390
   ✓  1 tests/blog47_device_emulation.spec.ts:5:7 › Blog 47: Mobile Device Emulation in Playwright › Emulate iPhone 12 viewport and user agent (295ms)
-
+ 
   1 passed (1.9s)
 ```
 
