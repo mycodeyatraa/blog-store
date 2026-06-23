@@ -27,10 +27,10 @@ Create a test file `tests/blog48_touch_gestures.spec.ts` showing how to declare 
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 48: Touch Gestures and Mobile Events in Playwright', () => {
   test.use({ hasTouch: true });
-
+ 
   test('Perform mobile tap gesture', async ({ page }) => {
     // Navigate to a simple page with a button recording click/tap event
     await page.goto('data:text/html,<html><body><button id="touch-btn" onclick="this.innerText=\'TAPPED\'">Tap Me</button></body></html>');
@@ -43,7 +43,7 @@ test.describe('Blog 48: Touch Gestures and Mobile Events in Playwright', () => {
     expect(buttonText).toBe('TAPPED');
     console.log('[Touch Gestures] Mobile tap gesture executed successfully.');
   });
-
+ 
 });
 ```
 
@@ -61,10 +61,10 @@ npx playwright test tests/blog48_touch_gestures.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Touch Gestures] Mobile tap gesture executed successfully.
   ✓  1 tests/blog48_touch_gestures.spec.ts:6:7 › Blog 48: Touch Gestures and Mobile Events in Playwright › Perform mobile tap gesture (280ms)
-
+ 
   1 passed (1.5s)
 ```
 
