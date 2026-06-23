@@ -23118,5 +23118,40 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-641",
+    "slug": "playwright-hybrid-testing",
+    "title": "Hybrid Testing (Web + API)",
+    "description": "Learn how to accelerate web UI tests in Playwright by bypassing UI login forms using direct API requests to inject authorization states and session cookies.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-hybrid-testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "23-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "API Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Hybrid Testing",
+      "Performance"
+    ],
+    "series": "playwright-typescript-api-testing",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
