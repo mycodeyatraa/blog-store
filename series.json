@@ -2,7 +2,7 @@
   {
     "id": "aws-from-zero-to-production",
     "title": "AWS From Zero to Production",
-    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
+    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD — designed for developers transitioning from theory to real-world AWS deployments.",
     "author": "Abhishek-sinha",
     "articleIds": [
       "blog-5",
@@ -1188,7 +1188,8 @@
       "post-607",
       "post-608",
       "post-609"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-core-ui",
@@ -1208,7 +1209,8 @@
       "post-620",
       "post-621",
       "post-627"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-test-design",
@@ -1218,7 +1220,8 @@
       "post-622",
       "post-623",
       "post-624"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-framework",
@@ -1231,7 +1234,8 @@
       "post-633",
       "post-634",
       "post-635"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-api-testing",
@@ -1248,7 +1252,8 @@
       "post-641",
       "post-642",
       "post-643"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-visual-testing",
@@ -1262,7 +1267,8 @@
       "post-651",
       "post-652",
       "post-653"
-    ]
+    ],
+    "status": "completed"
   },
   {
     "id": "playwright-typescript-database-testing",
@@ -1273,6 +1279,22 @@
       "post-645",
       "post-646",
       "post-647"
-    ]
+    ],
+    "status": "completed"
+  },
+  {
+    "id": "playwright-typescript-advanced-contexts",
+    "title": "Playwright TypeScript Advanced Contexts",
+    "description": "Master advanced browser contexts, cookie manipulation, local storage, custom JavaScript execution, and handling multi-page/tab flows in Playwright.",
+    "author": "pankaj-kumar",
+    "articleIds": [
+      "post-654",
+      "post-655",
+      "post-656",
+      "post-657",
+      "post-658"
+    ],
+    "status": "ongoing",
+    "createdAt": "05-Apr-2025"
   }
 ]
