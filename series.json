@@ -1255,7 +1255,8 @@
     "title": "Playwright TypeScript Visual Testing",
     "description": "Implement visual regression testing. Learn baseline management and layout assertions using pixel-perfect screenshots.",
     "articleIds": [
-      "post-628"
+      "post-628",
+      "post-648"
     ]
   },
   {
