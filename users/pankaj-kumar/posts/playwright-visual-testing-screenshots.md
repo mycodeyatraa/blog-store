@@ -28,9 +28,9 @@ Create a test file `tests/blog50_visual_regression.spec.ts` demonstrating elemen
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 50: Visual Regression Testing in Playwright', () => {
-
+ 
   test('Capture and compare element screenshot', async ({ page }) => {
     // Navigate to a static page
     await page.goto('data:text/html,<html><body><div id="static-box" style="width: 100px; height: 100px; background-color: blue;"></div></body></html>');
@@ -42,7 +42,7 @@ test.describe('Blog 50: Visual Regression Testing in Playwright', () => {
     await expect(staticBox).toHaveScreenshot('static-box.png');
     console.log('[Visual Regression] Visual verification completed.');
   });
-
+ 
 });
 ```
 
@@ -60,11 +60,11 @@ npx playwright test tests/blog50_visual_regression.spec.ts --update-snapshots
 
 ```
 Running 1 test using 1 worker
-
+ 
 A snapshot doesn't exist at D:\MyCodeYatra\AILearning2026\Repository\mcyt-plw-typescript\tests\blog50_visual_regression.spec.ts-snapshots\static-box-win32.png, writing actual.
 [Visual Regression] Visual verification completed.
   ✓  1 tests/blog50_visual_regression.spec.ts:5:7 › Blog 50: Visual Regression Testing in Playwright › Capture and compare element screenshot (509ms)
-
+ 
   1 passed (1.8s)
 ```
 
@@ -78,10 +78,10 @@ npx playwright test tests/blog50_visual_regression.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Visual Regression] Visual verification completed.
   ✓  1 tests/blog50_visual_regression.spec.ts:5:7 › Blog 50: Visual Regression Testing in Playwright › Capture and compare element screenshot (318ms)
-
+ 
   1 passed (1.6s)
 ```
 
