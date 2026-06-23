@@ -32,10 +32,10 @@ Create a test file `tests/blog41_contract_testing.spec.ts` to implement our JSON
 ```typescript
 import { test, expect } from '@playwright/test';
 import Ajv from 'ajv';
-
+ 
 // Instantiate Ajv schema validator
 const ajv = new Ajv();
-
+ 
 // Define our expected API response contract (JSON Schema)
 const postSchema = {
   type: 'object',
@@ -48,30 +48,30 @@ const postSchema = {
   required: ['userId', 'id', 'title', 'body'],
   additionalProperties: false // Enforces strict schema with no unexpected fields
 };
-
+ 
 test.describe('Blog 41: Contract Testing in Playwright', () => {
-
+ 
   test('Validate GET API response against JSON Schema', async ({ request }) => {
     // 1. Fetch data from the API endpoint
     const response = await request.get('https://jsonplaceholder.typicode.com/posts/1');
     expect(response.status()).toBe(200);
-
+ 
     const responseBody = await response.json();
-
+ 
     // 2. Compile schema and validate response body
     const validate = ajv.compile(postSchema);
     const valid = validate(responseBody);
-
+ 
     // 3. Log errors if validation fails
     if (!valid) {
       console.error('AJV Schema Validation Errors:', validate.errors);
     }
-
+ 
     // 4. Assert response matches the contract
     expect(valid).toBeTruthy();
     console.log('Contract validation passed! Response conforms strictly to JSON Schema.');
   });
-
+ 
 });
 ```
 
@@ -99,10 +99,10 @@ npx playwright test tests/blog41_contract_testing.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 Contract validation passed! Response conforms strictly to JSON Schema.
   ✓  1 tests/blog41_contract_testing.spec.ts:22:7 › Blog 41: Contract Testing in Playwright › Validate GET API response against JSON Schema (367ms)
-
+ 
   1 passed (4.9s)
 ```
 
