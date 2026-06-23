@@ -29,7 +29,7 @@ To set up base options for the default `request` fixture, you configure the `use
 
 ```typescript
 import { defineConfig } from '@playwright/test';
-
+ 
 export default defineConfig({
   use: {
     // Defines base URL for all API requests using the default fixture
@@ -50,9 +50,9 @@ Let's write a spec file `tests/blog35_api_request_context.spec.ts` that demonstr
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 35: APIRequestContext Deep Dive', () => {
-
+ 
   test('Demonstrating default request context configuration', async ({ request }) => {
     // The default 'request' fixture automatically inherits headers and baseURL
     const response = await request.get('https://jsonplaceholder.typicode.com/posts/1');
@@ -61,7 +61,7 @@ test.describe('Blog 35: APIRequestContext Deep Dive', () => {
     const body = await response.json();
     console.log(`[Default Context] Title: ${body.title}`);
   });
-
+ 
   test('Creating and using a custom APIRequestContext programmatically', async ({ playwright }) => {
     // 1. Create an isolated custom request context with custom headers and base URL
     const customContext = await playwright.request.newContext({
@@ -72,18 +72,18 @@ test.describe('Blog 35: APIRequestContext Deep Dive', () => {
         'Custom-Header': 'PlaywrightDemo'
       }
     });
-
+ 
     // 2. Send requests relative to the custom baseURL
     const response = await customContext.get('/posts/2');
     expect(response.status()).toBe(200);
     
     const body = await response.json();
     console.log(`[Custom Context] Title: ${body.title}`);
-
+ 
     // 3. Clean up and dispose of the custom context to release system resources
     await customContext.dispose();
   });
-
+ 
 });
 ```
 
@@ -118,12 +118,12 @@ npx playwright test tests/blog35_api_request_context.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [Default Context] Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
   ✓  1 tests/blog35_api_request_context.spec.ts:5:7 › Blog 35: APIRequestContext Deep Dive › Demonstrating default request context configuration (112ms)
 [Custom Context] Title: qui est esse
   ✓  2 tests/blog35_api_request_context.spec.ts:13:7 › Blog 35: APIRequestContext Deep Dive › Creating and using a custom APIRequestContext programmatically (679ms)
-
+ 
   2 passed (1.9s)
 ```
 
