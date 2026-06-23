@@ -46,33 +46,33 @@ Create a file named `api-tests.yml` and paste the following configuration into i
 
 ```yaml
 name: API Test Suite
-
+ 
 on: [push, pull_request]
-
+ 
 jobs:
   test:
     runs-on: ubuntu-latest
-
+ 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-
+ 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "20"
-
+ 
       - name: Install Dependencies
         run: npm ci
-
+ 
       - name: Start Mock Server
         run: npm start &
         env:
           PORT: 8080
-
+ 
       - name: Wait for Server to Boot
         run: npx wait-on http://localhost:8080/api/health
-
+ 
       - name: Run API Tests
         run: npm test
 ```
