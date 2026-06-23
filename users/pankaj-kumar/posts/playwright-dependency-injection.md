@@ -13,7 +13,7 @@ When building a large-scale test automation framework, the Page Object Model (PO
 test('Traditional Instantiation', async ({ page }) => {
   const loginPage = new LoginPage(page);
   const dashboardPage = new DashboardPage(page);
-
+ 
   await loginPage.login();
   await dashboardPage.verifyDashboard();
 });
@@ -40,15 +40,15 @@ Let's create two simple Page Object classes: `LoginPage` and `DashboardPage`.
 ```typescript
 class LoginPage {
   constructor(public page: any) {}
-
+ 
   async login() {
     console.log('LoginPage: Executing login workflow...');
   }
 }
-
+ 
 class DashboardPage {
   constructor(public page: any) {}
-
+ 
   async verifyDashboard() {
     console.log('DashboardPage: Verifying dashboard state...');
   }
@@ -63,13 +63,13 @@ To make Playwright aware of our page objects, we extend the base test using `bas
 
 ```typescript
 import { test as base, expect } from '@playwright/test';
-
+ 
 // Define the types of our dependencies (fixtures)
 type AppFixtures = {
   loginPage: LoginPage;
   dashboardPage: DashboardPage;
 };
-
+ 
 // Extend base test to inject page objects automatically
 export const test = base.extend<AppFixtures>({
   loginPage: async ({ page }, use) => {
@@ -92,9 +92,9 @@ Now, look how clean and boilerplate-free our test file becomes. We simply destru
 
 ```typescript
 import { test } from './fixtures'; // import our extended test
-
+ 
 test.describe('Blog 33: Dependency Injection', () => {
-
+ 
   test('DI through Fixtures', async ({ loginPage, dashboardPage }) => {
     console.log('Test started with injected dependencies.');
     
@@ -103,7 +103,7 @@ test.describe('Blog 33: Dependency Injection', () => {
     
     console.log('Test completed successfully via Dependency Injection!');
   });
-
+ 
 });
 ```
 
