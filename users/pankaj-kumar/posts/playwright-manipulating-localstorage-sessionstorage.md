@@ -31,33 +31,33 @@ Create a test file `tests/blog54_storage.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 54: Manipulating LocalStorage and SessionStorage', () => {
-
+ 
   test('Read, write and clear storage', async ({ page }) => {
     // Navigate to a valid domain so storage is not blocked by browser security restrictions
     await page.goto('https://example.com');
-
+ 
     // 1. Set values in LocalStorage & SessionStorage
     await page.evaluate(() => {
       localStorage.setItem('userTheme', 'dark-mode');
       sessionStorage.setItem('sessionToken', 'temp_xyz123');
     });
-
+ 
     // 2. Read values and assert
     const theme = await page.evaluate(() => localStorage.getItem('userTheme'));
     const token = await page.evaluate(() => sessionStorage.getItem('sessionToken'));
-
+ 
     expect(theme).toBe('dark-mode');
     expect(token).toBe('temp_xyz123');
     console.log(`[Storage] Read LocalStorage: ${theme}, SessionStorage: ${token}`);
-
+ 
     // 3. Clear LocalStorage and verify
     await page.evaluate(() => localStorage.clear());
     const clearedTheme = await page.evaluate(() => localStorage.getItem('userTheme'));
     expect(clearedTheme).toBeNull();
   });
-
+ 
 });
 ```
 
@@ -75,10 +75,10 @@ npx playwright test tests/blog54_storage.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Storage] Read LocalStorage: dark-mode, SessionStorage: temp_xyz123
   ✓  1 tests/blog54_storage.spec.ts:5:7 › Blog 54: Manipulating LocalStorage and SessionStorage › Read, write and clear storage (3.0s)
-
+ 
   1 passed (4.3s)
 ```
 
