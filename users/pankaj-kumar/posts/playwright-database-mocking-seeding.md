@@ -26,11 +26,11 @@ Create a test file `tests/blog45_db_seeding.spec.ts` showing how to use `beforeA
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 // Define simulated DB client with seed/teardown utility methods
 class DatabaseManager {
   private usersTable: Array<{ id: number; email: string; name: string }> = [];
-
+ 
   async seedData() {
     console.log('[DB Manager] Seeding mock user database records...');
     this.usersTable = [
@@ -38,31 +38,31 @@ class DatabaseManager {
       { id: 102, email: 'user102@example.com', name: 'Bob Johnson' }
     ];
   }
-
+ 
   async clearData() {
     console.log('[DB Manager] Cleaning up database (truncating tables)...');
     this.usersTable = [];
   }
-
+ 
   async getUser(id: number) {
     return this.usersTable.find(u => u.id === id);
   }
 }
-
+ 
 test.describe('Blog 45: Database Mocking & Seeding in Playwright', () => {
   let db: DatabaseManager;
-
+ 
   // Run before all tests to seed database
   test.beforeAll(async () => {
     db = new DatabaseManager();
     await db.seedData();
   });
-
+ 
   // Run after all tests to truncate database tables
   test.afterAll(async () => {
     await db.clearData();
   });
-
+ 
   test('Verify first seeded user can be fetched', async () => {
     const user = await db.getUser(101);
     expect(user).toBeDefined();
@@ -71,7 +71,7 @@ test.describe('Blog 45: Database Mocking & Seeding in Playwright', () => {
     
     console.log('[DB Seeding] Alice Smith verified successfully.');
   });
-
+ 
   test('Verify second seeded user can be fetched', async () => {
     const user = await db.getUser(102);
     expect(user).toBeDefined();
@@ -80,7 +80,7 @@ test.describe('Blog 45: Database Mocking & Seeding in Playwright', () => {
     
     console.log('[DB Seeding] Bob Johnson verified successfully.');
   });
-
+ 
 });
 ```
 
@@ -98,14 +98,14 @@ npx playwright test tests/blog45_db_seeding.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [DB Manager] Seeding mock user database records...
 [DB Seeding] Alice Smith verified successfully.
   ✓  1 tests/blog45_db_seeding.spec.ts:39:7 › Blog 45: Database Mocking & Seeding in Playwright › Verify first seeded user can be fetched (10ms)
 [DB Seeding] Bob Johnson verified successfully.
 [DB Manager] Cleaning up database (truncating tables)...
   ✓  2 tests/blog45_db_seeding.spec.ts:48:7 › Blog 45: Database Mocking & Seeding in Playwright › Verify second seeded user can be fetched (8ms)
-
+ 
   2 passed (1.2s)
 ```
 
