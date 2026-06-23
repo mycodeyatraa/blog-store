@@ -23511,5 +23511,41 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-652",
+    "slug": "playwright-pixel-perfect-visual-testing",
+    "title": "Pixel-Perfect Comparisons",
+    "description": "Learn how to configure pixel-perfect matching thresholds, color sensitivity levels, and maximum pixel difference options in Playwright TypeScript.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-pixel-perfect-visual-testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "03-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Visual Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Visual Testing",
+      "Thresholds",
+      "maxDiffPixels"
+    ],
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
