@@ -1263,7 +1263,8 @@
     "title": "Playwright TypeScript Database Testing",
     "description": "Learn how to connect Playwright to databases (PostgreSQL/MySQL), execute queries, seed mock data, and validate database state in end-to-end testing.",
     "articleIds": [
-      "post-644"
+      "post-644",
+      "post-645"
     ]
   }
 ]

@@ -23259,5 +23259,41 @@
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-645",
+    "slug": "playwright-database-queries",
+    "title": "Executing Database Queries in Tests",
+    "description": "Learn how to execute parameterized SELECT and INSERT SQL queries in Playwright tests using async/await, validate row results, and avoid SQL injection security risks.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-database-queries.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "27-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Database Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Database Testing",
+      "SQL Queries",
+      "pg"
+    ],
+    "series": "playwright-typescript-database-testing",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
