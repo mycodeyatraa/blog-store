@@ -27,35 +27,35 @@ Create a new test file `tests/blog57_new_page_event.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 57: Handling New Pages via context.on(page)', () => {
-
+ 
   test('Capture a new tab/window triggered by user action', async ({ context, page }) => {
     // 1. Navigate to a starting page
     await page.goto('https://example.com');
-
+ 
     // 2. Start waiting for the 'page' event before triggering the action
     const pagePromise = context.waitForEvent('page');
-
+ 
     // 3. Trigger the window opening via page.evaluate
     await page.evaluate(() => {
       window.open('https://playwright.dev', '_blank');
     });
-
+ 
     // 4. Await the new page to open
     const newPage = await pagePromise;
-
+ 
     // 5. Verify the new page is loaded and control it
     await newPage.waitForLoadState();
     await expect(newPage).toHaveTitle(/Playwright/);
-
+ 
     console.log(`Successfully intercepted new page: ${newPage.url()}`);
     expect(newPage.url()).toContain('playwright.dev');
-
+ 
     // Clean up
     await newPage.close();
   });
-
+ 
 });
 ```
 
@@ -73,10 +73,10 @@ npx playwright test tests/blog57_new_page_event.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully intercepted new page: https://playwright.dev/
   ✓  1 tests/blog57_new_page_event.spec.ts:5:7 › Blog 57: Handling New Pages via context.on(page) › Capture a new tab/window triggered by user action (824ms)
-
+ 
   1 passed (2.5s)
 ```
 
