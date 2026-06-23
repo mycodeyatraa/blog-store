@@ -32,7 +32,7 @@ Create a test file `tests/blog49_geolocation.spec.ts` demonstrating timezone and
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 49: Geolocation and Timezone Emulation in Playwright', () => {
   // Emulate Tokyo, Japan timezone and geolocation with permission granted
   test.use({
@@ -40,7 +40,7 @@ test.describe('Blog 49: Geolocation and Timezone Emulation in Playwright', () =>
     permissions: ['geolocation'],
     timezoneId: 'Asia/Tokyo'
   });
-
+ 
   test('Verify timezone and geolocation emulation', async ({ page }) => {
     // Navigate to a secure context website first
     await page.goto('https://example.com');
@@ -51,11 +51,11 @@ test.describe('Blog 49: Geolocation and Timezone Emulation in Playwright', () =>
       tzEl.id = 'tz-info';
       tzEl.innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
       document.body.appendChild(tzEl);
-
+ 
       const geoEl = document.createElement('div');
       geoEl.id = 'geo-info';
       document.body.appendChild(geoEl);
-
+ 
       navigator.geolocation.getCurrentPosition(pos => {
         geoEl.innerText = pos.coords.latitude.toFixed(4) + ',' + pos.coords.longitude.toFixed(4);
       }, err => {
@@ -67,13 +67,13 @@ test.describe('Blog 49: Geolocation and Timezone Emulation in Playwright', () =>
     const tzText = await page.textContent('#tz-info');
     expect(tzText).toBe('Asia/Tokyo');
     console.log('[Geo Emulation] Timezone verified:', tzText);
-
+ 
     // Wait for geolocation callback to resolve and check results
     await expect(page.locator('#geo-info')).toHaveText('35.6762,139.6503');
     const geoText = await page.textContent('#geo-info');
     console.log('[Geo Emulation] Geolocation verified:', geoText);
   });
-
+ 
 });
 ```
 
@@ -91,11 +91,11 @@ npx playwright test tests/blog49_geolocation.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Geo Emulation] Timezone verified: Asia/Tokyo
 [Geo Emulation] Geolocation verified: 35.6762,139.6503
   ✓  1 tests/blog49_geolocation.spec.ts:11:7 › Blog 49: Geolocation and Timezone Emulation in Playwright › Verify timezone and geolocation emulation (3.2s)
-
+ 
   1 passed (4.5s)
 ```
 
