@@ -28,10 +28,10 @@ Create a test file `tests/blog46_ui_db_validation.spec.ts` showing how to execut
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 class MockDbClient {
   private usersTable: Array<{ id: number; email: string; name: string }> = [];
-
+ 
   async query(queryText: string, params: any[]) {
     if (queryText.includes('INSERT')) {
       const newUser = { id: Math.floor(Math.random() * 1000), email: params[0], name: params[1] };
@@ -49,14 +49,14 @@ class MockDbClient {
     return { rows: [] };
   }
 }
-
+ 
 test.describe('Blog 46: UI + Database End-to-End Validation', () => {
   let db: MockDbClient;
-
+ 
   test.beforeAll(async () => {
     db = new MockDbClient();
   });
-
+ 
   test('Should perform user registration in UI and validate in DB', async ({ page }) => {
     // 1. Navigate to Registration Form page (simulated via data URL)
     await page.goto('data:text/html,<html><body><form id="reg"><input name="email" value="e2e@example.com"><input name="name" value="E2E User"><button type="submit">Submit</button></form></body></html>');
@@ -69,7 +69,7 @@ test.describe('Blog 46: UI + Database End-to-End Validation', () => {
     
     // Simulate UI action triggering backend write, which we verify by inserting to mock DB
     await db.query('INSERT INTO users (email, name) VALUES ($1, $2)', [email, name]);
-
+ 
     // 2. Direct Database query validation
     const selectQuery = 'SELECT id, email, name FROM users WHERE email = $1';
     const dbResult = await db.query(selectQuery, [email]);
@@ -79,7 +79,7 @@ test.describe('Blog 46: UI + Database End-to-End Validation', () => {
     expect(dbUser.email).toBe(email);
     expect(dbUser.name).toBe(name);
     console.log('[E2E DB Validation] Verified record in database successfully.');
-
+ 
     // 3. Cleanup DB state (Teardown)
     await db.query('DELETE FROM users WHERE email = $1', [email]);
     const postCleanupResult = await db.query(selectQuery, [email]);
@@ -103,11 +103,11 @@ npx playwright test tests/blog46_ui_db_validation.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [E2E DB Validation] Verified record in database successfully.
 [E2E DB Validation] Cleaned up record successfully.
   ✓  1 tests/blog46_ui_db_validation.spec.ts:25:7 › Blog 46: UI + Database End-to-End Validation › Should perform user registration in UI and validate in DB (389ms)
-
+ 
   1 passed (1.2s)
 ```
 
