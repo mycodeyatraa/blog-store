@@ -27,9 +27,9 @@ Create a test file `tests/blog40_hybrid_testing.spec.ts` to implement our hybrid
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 40: Hybrid Testing in Playwright', () => {
-
+ 
   test('By-passing UI Login using API state injection', async ({ page, context, request }) => {
     console.log('[Hybrid Test] Step 1: Performing API login to fetch session cookies...');
     
@@ -40,10 +40,10 @@ test.describe('Blog 40: Hybrid Testing in Playwright', () => {
         password: 'securePassword123'
       }
     });
-
+ 
     expect(loginResponse.status()).toBe(201); // Asserts API login success
     console.log('[Hybrid Test] API Login succeeded!');
-
+ 
     console.log('[Hybrid Test] Step 2: Injecting authentication cookies into browser context...');
     
     // Inject the authentication cookies directly into the browser context
@@ -57,7 +57,7 @@ test.describe('Blog 40: Hybrid Testing in Playwright', () => {
         secure: true
       }
     ]);
-
+ 
     console.log('[Hybrid Test] Step 3: Navigating directly to the dashboard page...');
     
     // Navigate straight to the protected profile page
@@ -66,7 +66,7 @@ test.describe('Blog 40: Hybrid Testing in Playwright', () => {
     
     console.log('[Hybrid Test] Navigated directly to profile page without using the UI Login form.');
   });
-
+ 
 });
 ```
 
@@ -92,14 +92,14 @@ npx playwright test tests/blog40_hybrid_testing.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Hybrid Test] Step 1: Performing API login to fetch session cookies...
 [Hybrid Test] API Login succeeded!
 [Hybrid Test] Step 2: Injecting authentication cookies into browser context...
 [Hybrid Test] Step 3: Navigating directly to the dashboard page...
 [Hybrid Test] Navigated directly to profile page without using the UI Login form.
   ✓  1 tests/blog40_hybrid_testing.spec.ts:5:7 › Blog 40: Hybrid Testing in Playwright › By-passing UI Login using API state injection (4.3s)
-
+ 
   1 passed (5.8s)
 ```
 
