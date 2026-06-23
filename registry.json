@@ -23618,5 +23618,40 @@
     "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-655",
+    "slug": "playwright-manipulating-localstorage-sessionstorage",
+    "title": "Manipulating LocalStorage & SessionStorage",
+    "description": "Learn how to read, write, and clear LocalStorage and SessionStorage values in Playwright TypeScript to test state-dependent application behavior.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-manipulating-localstorage-sessionstorage.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "06-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Advanced Context"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "LocalStorage",
+      "SessionStorage"
+    ],
+    "series": "playwright-typescript-advanced-contexts",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
