@@ -26,24 +26,24 @@ Create a test file `tests/blog39_api_auth.spec.ts` to implement our authenticati
 
 ```typescript
 import { test, expect, playwright } from '@playwright/test';
-
+ 
 test.describe('Blog 39: Authentication in API Testing', () => {
-
+ 
   test('Token-Based Authentication (Bearer Token)', async ({ request }) => {
     // 1. Fetch your API token (usually from process.env for security)
     const apiToken = process.env.API_TOKEN || 'secret-token-12345';
-
+ 
     // 2. Send request with the Authorization header
     const response = await request.get('https://jsonplaceholder.typicode.com/posts/1', {
       headers: {
         'Authorization': `Bearer ${apiToken}`
       }
     });
-
+ 
     expect(response.status()).toBe(200);
     console.log('Bearer token auth request executed successfully.');
   });
-
+ 
   test('Cookie-Based Authentication', async ({ playwright }) => {
     // 1. Create a custom APIRequestContext with injected cookies
     const authenticatedContext = await playwright.request.newContext({
@@ -53,17 +53,17 @@ test.describe('Blog 39: Authentication in API Testing', () => {
         'Cookie': 'sessionId=abc123xyz789; loggedIn=true'
       }
     });
-
+ 
     // 2. Send request within this authenticated context
     const response = await authenticatedContext.get('/posts/1');
     expect(response.status()).toBe(200);
-
+ 
     console.log('Cookie-based auth request executed successfully.');
-
+ 
     // 3. Dispose of the custom context
     await authenticatedContext.dispose();
   });
-
+ 
 });
 ```
 
@@ -90,12 +90,12 @@ npx playwright test tests/blog39_api_auth.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 Bearer token auth request executed successfully.
   ✓  1 tests/blog39_api_auth.spec.ts:5:7 › Blog 39: Authentication in API Testing › Token-Based Authentication (Bearer Token) (127ms)
 Cookie-based auth request executed successfully.
   ✓  2 tests/blog39_api_auth.spec.ts:20:7 › Blog 39: Authentication in API Testing › Cookie-Based Authentication (34ms)
-
+ 
   2 passed (1.3s)
 ```
 
