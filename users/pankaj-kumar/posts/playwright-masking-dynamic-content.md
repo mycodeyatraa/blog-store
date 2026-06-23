@@ -28,9 +28,9 @@ Create a test file `tests/blog52_masking.spec.ts` showing how to mask dynamic el
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 52: Masking Dynamic Elements in Visual Testing', () => {
-
+ 
   test('Capture screenshot masking dynamic elements', async ({ page }) => {
     // Navigate to a page with dynamic content (e.g. timestamp)
     await page.goto('data:text/html,<html><body>' +
@@ -44,7 +44,7 @@ test.describe('Blog 52: Masking Dynamic Elements in Visual Testing', () => {
     
     const container = page.locator('#container');
     const timestamp = page.locator('#timestamp');
-
+ 
     // Screenshot the container, but mask the dynamic timestamp element
     await expect(container).toHaveScreenshot('dashboard.png', {
       mask: [timestamp],
@@ -52,7 +52,7 @@ test.describe('Blog 52: Masking Dynamic Elements in Visual Testing', () => {
     });
     console.log('[Visual Masking] Container captured and dynamic element masked.');
   });
-
+ 
 });
 ```
 
@@ -76,10 +76,10 @@ npx playwright test tests/blog52_masking.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 [Visual Masking] Container captured and dynamic element masked.
   ✓  1 tests/blog52_masking.spec.ts:5:7 › Blog 52: Masking Dynamic Elements in Visual Testing › Capture screenshot masking dynamic elements (377ms)
-
+ 
   1 passed (1.6s)
 ```
 
