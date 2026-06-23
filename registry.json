@@ -22908,5 +22908,40 @@
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-635",
+    "slug": "playwright-custom-reporters",
+    "title": "Custom Playwright Test Reporters",
+    "description": "Learn how to build a custom test reporter in Playwright to format execution metrics, track test status, and output styled logs to the console.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-custom-reporters.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "17-Mar-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Reporting",
+      "Framework"
+    ],
+    "series": "playwright-typescript-framework",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
