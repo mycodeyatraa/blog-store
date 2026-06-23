@@ -23439,5 +23439,41 @@
     "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-650",
+    "slug": "playwright-geolocation-timezone",
+    "title": "Geolocation & Timezone Emulation",
+    "description": "Learn how to emulate different geographical locations and system timezones in Playwright, spoofing coordinates and automatically bypassing permission prompts.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-geolocation-timezone.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "readTime": "3 min read",
+    "date": "01-Apr-2025",
+    "draft": false,
+    "categories": [
+      "Playwright TypeScript",
+      "Mobile Emulation"
+    ],
+    "tags": [
+      "Playwright",
+      "TypeScript",
+      "Mobile Emulation",
+      "Geolocation",
+      "Timezone"
+    ],
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
