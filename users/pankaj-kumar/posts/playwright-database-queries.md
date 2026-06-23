@@ -38,7 +38,7 @@ Create a test file `tests/blog44_db_queries.spec.ts` showing how to execute and 
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 // Define a helper demonstrating database query execution
 class MockDbClient {
   async query(queryText: string, params?: any[]) {
@@ -67,14 +67,14 @@ class MockDbClient {
     return { rows: [] };
   }
 }
-
+ 
 test.describe('Blog 44: Executing Database Queries in Playwright', () => {
   let db: MockDbClient;
-
+ 
   test.beforeEach(() => {
     db = new MockDbClient();
   });
-
+ 
   test('Execute SELECT query to verify database records', async () => {
     const userId = 1;
     // Parameterized query to avoid SQL Injection
@@ -92,7 +92,7 @@ test.describe('Blog 44: Executing Database Queries in Playwright', () => {
     
     console.log('[DB Queries] SELECT query verification complete.');
   });
-
+ 
   test('Execute INSERT query to seed dynamic test user', async () => {
     const sql = 'INSERT INTO users (email, name, status) VALUES ($1, $2, $3)';
     const params = ['jane.doe@example.com', 'Jane Doe', 'ACTIVE'];
@@ -103,7 +103,7 @@ test.describe('Blog 44: Executing Database Queries in Playwright', () => {
     expect(result.rowCount).toBe(1);
     console.log('[DB Queries] INSERT query verification complete.');
   });
-
+ 
 });
 ```
 
@@ -121,7 +121,7 @@ npx playwright test tests/blog44_db_queries.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [Mock DB] Executing query: SELECT id, email, name, status FROM users WHERE id = $1
 [Mock DB] Bind parameters: [ 1 ]
 [DB Queries] SELECT query verification complete.
@@ -130,7 +130,7 @@ Running 2 tests using 1 worker
 [Mock DB] Bind parameters: [ 'jane.doe@example.com', 'Jane Doe', 'ACTIVE' ]
 [DB Queries] INSERT query verification complete.
   ✓  2 tests/blog44_db_queries.spec.ts:57:7 › Blog 44: Executing Database Queries in Playwright › Execute INSERT query to seed dynamic test user (6ms)
-
+ 
   2 passed (1.1s)
 ```
 
