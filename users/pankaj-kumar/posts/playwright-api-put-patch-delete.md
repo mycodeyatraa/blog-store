@@ -27,9 +27,9 @@ Create a test file `tests/blog38_api_put_patch_delete.spec.ts` to implement our 
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright', () => {
-
+ 
   test('PUT Request - Full Resource Update', async ({ request }) => {
     const updatedPayload = {
       id: 1,
@@ -37,36 +37,36 @@ test.describe('Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright', (
       body: 'This body replaces the previous body entirely.',
       userId: 1
     };
-
+ 
     // Send the PUT request with the full payload
     const response = await request.put('https://jsonplaceholder.typicode.com/posts/1', {
       data: updatedPayload
     });
-
+ 
     // Validate the response status is 200 OK
     expect(response.status()).toBe(200);
     expect(response.ok()).toBeTruthy();
-
+ 
     const body = await response.json();
     expect(body.title).toBe(updatedPayload.title);
     expect(body.body).toBe(updatedPayload.body);
     
     console.log('PUT Test Passed! Full resource updated successfully.');
   });
-
+ 
   test('PATCH Request - Partial Resource Update', async ({ request }) => {
     const partialPayload = {
       title: 'Updated Title via PATCH'
     };
-
+ 
     // Send the PATCH request with only the modified fields
     const response = await request.patch('https://jsonplaceholder.typicode.com/posts/1', {
       data: partialPayload
     });
-
+ 
     expect(response.status()).toBe(200);
     expect(response.ok()).toBeTruthy();
-
+ 
     const body = await response.json();
     expect(body.title).toBe(partialPayload.title);
     // Other properties should remain unchanged in the response
@@ -74,20 +74,20 @@ test.describe('Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright', (
     
     console.log('PATCH Test Passed! Partial resource updated successfully.');
   });
-
+ 
   test('DELETE Request - Resource Removal', async ({ request }) => {
     // Send the DELETE request targeting a specific resource ID
     const response = await request.delete('https://jsonplaceholder.typicode.com/posts/1');
-
+ 
     // Verify response status
     // Note: JSONPlaceholder returns 200 OK.
     // In many production APIs, a successful DELETE will return 204 No Content instead.
     expect(response.status()).toBe(200);
     expect(response.ok()).toBeTruthy();
-
+ 
     console.log('DELETE Test Passed! Resource deleted successfully.');
   });
-
+ 
 });
 ```
 
@@ -115,14 +115,14 @@ npx playwright test tests/blog38_api_put_patch_delete.spec.ts
 
 ```
 Running 3 tests using 1 worker
-
+ 
 PUT Test Passed! Full resource updated successfully.
   ✓  1 tests/blog38_api_put_patch_delete.spec.ts:5:7 › Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright › PUT Request - Full Resource Update (727ms)
 PATCH Test Passed! Partial resource updated successfully.
   ✓  2 tests/blog38_api_put_patch_delete.spec.ts:27:7 › Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright › PATCH Request - Partial Resource Update (637ms)
 DELETE Test Passed! Resource deleted successfully.
   ✓  3 tests/blog38_api_put_patch_delete.spec.ts:47:7 › Blog 38: Validating PUT, PATCH, and DELETE APIs in Playwright › DELETE Request - Resource Removal (232ms)
-
+ 
   3 passed (2.7s)
 ```
 
