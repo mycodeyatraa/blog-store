@@ -29,9 +29,9 @@ Create a test file `tests/blog36_api_get.spec.ts` to implement our GET API valid
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 36: Validating GET APIs in Playwright', () => {
-
+ 
   test('GET Request with Query Parameters', async ({ request }) => {
     // 1. Send GET request with query parameters (e.g., /posts?userId=1)
     const response = await request.get('https://jsonplaceholder.typicode.com/posts', {
@@ -39,15 +39,15 @@ test.describe('Blog 36: Validating GET APIs in Playwright', () => {
         userId: 1
       }
     });
-
+ 
     // 2. Validate the response status is 200 OK
     expect(response.status()).toBe(200);
     expect(response.ok()).toBeTruthy(); // Returns true for statuses in the 200-299 range
-
+ 
     // 3. Validate response headers
     const headers = response.headers();
     expect(headers['content-type']).toContain('application/json');
-
+ 
     // 4. Validate the response JSON body
     const posts = await response.json();
     
@@ -64,10 +64,10 @@ test.describe('Blog 36: Validating GET APIs in Playwright', () => {
       expect(post).toHaveProperty('title');
       expect(post).toHaveProperty('body');
     });
-
+ 
     console.log(`Successfully verified ${posts.length} posts for userId 1.`);
   });
-
+ 
 });
 ```
 
@@ -102,10 +102,10 @@ npx playwright test tests/blog36_api_get.spec.ts
 
 ```
 Running 1 test using 1 worker
-
+ 
 Successfully verified 10 posts for userId 1.
   ✓  1 tests/blog36_api_get.spec.ts:5:7 › Blog 36: Validating GET APIs in Playwright › GET Request with Query Parameters (806ms)
-
+ 
   1 passed (1.9s)
 ```
 
