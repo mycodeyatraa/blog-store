@@ -27,17 +27,17 @@ Create a test file `tests/blog53_evaluate.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 53: Executing Custom JavaScript with page.evaluate', () => {
-
+ 
   test('Evaluate simple expressions and return values', async ({ page }) => {
     await page.goto('data:text/html,<html><body><h1 id="title">Hello World</h1></body></html>');
-
+ 
     // 1. Get window properties
     const userAgent = await page.evaluate(() => navigator.userAgent);
     console.log(`[JS Evaluate] User Agent: ${userAgent}`);
     expect(userAgent).toBeTruthy();
-
+ 
     // 2. Query DOM attributes directly
     const titleText = await page.evaluate(() => {
       const heading = document.getElementById('title');
@@ -45,10 +45,10 @@ test.describe('Blog 53: Executing Custom JavaScript with page.evaluate', () => {
     });
     expect(titleText).toBe('Hello World');
   });
-
+ 
   test('Pass arguments to page.evaluate', async ({ page }) => {
     await page.goto('data:text/html,<html><body><div id="target">Original</div></body></html>');
-
+ 
     const newText = 'Playwright Evaluated Text';
     
     // Pass local variables into browser window evaluation context
@@ -56,11 +56,11 @@ test.describe('Blog 53: Executing Custom JavaScript with page.evaluate', () => {
       const el = document.getElementById('target');
       if (el) el.innerText = textToSet;
     }, newText);
-
+ 
     const actualText = await page.locator('#target').innerText();
     expect(actualText).toBe(newText);
   });
-
+ 
 });
 ```
 
@@ -78,11 +78,11 @@ npx playwright test tests/blog53_evaluate.spec.ts
 
 ```
 Running 2 tests using 1 worker
-
+ 
 [JS Evaluate] User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36
   ✓  1 tests/blog53_evaluate.spec.ts:5:7 › Blog 53: Executing Custom JavaScript with page.evaluate › Evaluate simple expressions and return values (224ms)
   ✓  2 tests/blog53_evaluate.spec.ts:21:7 › Blog 53: Executing Custom JavaScript with page.evaluate › Pass arguments to page.evaluate (174ms)
-
+ 
   2 passed (1.8s)
 ```
 
