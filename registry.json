@@ -24144,5 +24144,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-669",
+    "title": "Zero-Code Accessibility Audits with the Axe-Core CLI Tooling",
+    "slug": "accessibility-cli-tooling-axe-core",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to execute instant, ad-hoc WCAG accessibility scans on any public URL directly from your terminal using axe-core/cli.",
+    "date": "14-Apr-2025",
+    "readTime": "3 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility",
+      "CLI Tooling"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "cli"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/accessibility-cli-tooling-axe-core.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
