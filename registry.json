@@ -1539,11 +1539,11 @@
   },
   {
     "id": "post-659",
-    "title": "Visual Testing in Playwright TypeScript with Applitools Eyes",
-    "slug": "playwright-typescript-applitools-eyes-visual-testing",
+    "title": "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD",
+    "slug": "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
     "author": "Abhishek-sinha",
-    "excerpt": "Learn how to perform AI-powered visual assertions in Playwright TypeScript using Applitools Eyes.",
-    "date": "24-Jun-2026",
+    "excerpt": "A comprehensive guide to production-ready AWS \u2014 Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
+    "date": "31-May-2026",
     "category": "AWS",
     "categories": [
       "aws",
@@ -1554,15 +1554,19 @@
     "likes": 0,
     "commentsCount": 0,
     "tags": [
-      "playwright",
-      "typescript",
-      "applitools",
-      "visual testing"
+      "AWS",
+      "high-availability",
+      "monitoring",
+      "cost-optimization",
+      "CI/CD",
+      "devops",
+      "production",
+      "cloud-computing"
     ],
     "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-applitools-eyes-visual-testing.md",
-    "series": "playwright-typescript-visual-testing",
-    "seriesOrder": 8,
+    "contentPath": "users/Abhishek-sinha/posts/aws-production-high-availability-monitoring-cost-optimization-and-cicd.md",
+    "series": "aws-from-zero-to-production",
+    "seriesOrder": 5,
     "authorDetails": {
       "id": "Abhishek-sinha",
       "name": "Abhishek Sinha",
@@ -23795,5 +23799,43 @@
     },
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 6
+  },
+  {
+    "id": "post-660",
+    "title": "Visual Testing in Playwright TypeScript with Applitools Eyes",
+    "slug": "playwright-typescript-applitools-eyes-visual-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to perform AI-powered visual assertions in Playwright TypeScript using Applitools Eyes.",
+    "date": "24-Jun-2026",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "applitools",
+      "visual testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-applitools-eyes-visual-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
