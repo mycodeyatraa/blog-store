@@ -24225,5 +24225,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-671",
+    "title": "Introduction to Behavior-Driven Development (BDD)",
+    "slug": "introduction-to-bdd-behavior-driven-development",
+    "author": "pankaj-kumar",
+    "excerpt": "An introduction to Behavior-Driven Development, explaining the benefits of Gherkin syntax and collaborative testing architectures.",
+    "date": "16-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "BDD",
+      "Cucumber"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "bdd",
+      "cucumber",
+      "gherkin"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-bdd-behavior-driven-development.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
