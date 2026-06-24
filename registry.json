@@ -23912,5 +23912,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-663",
+    "title": "Percy Visual Testing with Playwright TypeScript",
+    "slug": "playwright-typescript-percy-visual-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Integrate Percy for robust visual regression testing in Playwright and catch UI bugs efficiently.",
+    "date": "08-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "percy",
+      "visual testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-percy-visual-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
