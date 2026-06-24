@@ -23761,5 +23761,43 @@
     "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "blog-9",
+    "title": "Handling Browser Dialogs (Alerts, Confirms, Prompts) in Playwright TypeScript",
+    "slug": "handling-browser-dialogs-alerts-confirms-prompts-in-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Handling JavaScript Alerts, Confirm Dialogs, and Prompts in Playwright TypeScript\n\n> \ud83d\udcc5 Last Updated: 24-Jun-2026\n\nNative browser alerts, confirmation boxes, and prompt boxes pose a unique challenge fo",
+    "date": "2026-06-24",
+    "readTime": "4 min read",
+    "category": "Playwright",
+    "categories": [
+      "Playwright",
+      "Typescript",
+      "Dialogs"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "tags": [
+      "playwright",
+      "typescript",
+      "dialogs",
+      "automation",
+      "testing"
+    ],
+    "draft": false,
+    "contentPath": "users/pankaj-kumar/posts/handling-browser-dialogs-alerts-confirms-prompts-in-playwright-typescript.md",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "series": "playwright-typescript-advanced-contexts",
+    "seriesOrder": 6
   }
 ]
