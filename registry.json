@@ -24305,5 +24305,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-673",
+    "title": "Organizing Feature Files and Cucumber Configurations",
+    "slug": "organizing-feature-files-cucumber-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn enterprise best practices for structuring your BDD Feature Files and mapping them dynamically using cucumber.js configurations.",
+    "date": "18-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "BDD",
+      "Cucumber"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "bdd",
+      "cucumber",
+      "architecture"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/organizing-feature-files-cucumber-playwright.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
