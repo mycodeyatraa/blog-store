@@ -1316,5 +1316,13 @@
       "post-669",
       "post-670"
     ]
+  },
+  {
+    "id": "playwright-typescript-bdd",
+    "title": "Playwright TypeScript BDD Integration",
+    "description": "Learn how to integrate Cucumber and Behavior-Driven Development (BDD) into your Playwright TypeScript architecture.",
+    "articleIds": [
+      "post-671"
+    ]
   }
 ]
