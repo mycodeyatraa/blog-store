@@ -24265,5 +24265,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-672",
+    "title": "Advanced Gherkin Syntax for Data-Driven Testing",
+    "slug": "advanced-gherkin-syntax-bdd-cucumber",
+    "author": "pankaj-kumar",
+    "excerpt": "Master the advanced features of Gherkin syntax including Scenario Outlines, Data Tables, Backgrounds, and Tags to build robust BDD frameworks.",
+    "date": "17-Apr-2025",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "BDD",
+      "Cucumber"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "bdd",
+      "cucumber",
+      "gherkin"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-gherkin-syntax-bdd-cucumber.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
