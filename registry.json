@@ -24184,5 +24184,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-670",
+    "title": "Building an Enterprise Accessibility Strategy in Playwright TypeScript",
+    "slug": "enterprise-accessibility-strategy-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Architect a scalable, global accessibility testing framework using Playwright custom fixtures and axe-core to enforce standardized enterprise compliance.",
+    "date": "15-Apr-2025",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility",
+      "Enterprise"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "enterprise",
+      "fixtures"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-accessibility-strategy-playwright-typescript.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
