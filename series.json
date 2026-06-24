@@ -1301,5 +1301,14 @@
     ],
     "status": "ongoing",
     "createdAt": "05-Apr-2025"
+  },
+  {
+    "id": "playwright-typescript-accessibility",
+    "title": "Accessibility Testing with Playwright TypeScript",
+    "slug": "accessibility-testing-playwright-typescript",
+    "description": "Learn how to build inclusive web applications by adding automated accessibility testing into your Playwright framework.",
+    "articleIds": [
+      "post-664"
+    ]
   }
 ]
