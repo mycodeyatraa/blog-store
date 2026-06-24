@@ -1,7 +1,7 @@
 ---
 title: Visual Testing in Playwright TypeScript with Applitools Eyes
-date: 24-Jun-2026
-lastUpdated: 24-Jun-2026
+date: 05-Apr-2025
+lastUpdated: 05-Apr-2025
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
