@@ -23874,5 +23874,43 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-662",
+    "title": "Mobile Web Device Emulation in Playwright TypeScript",
+    "slug": "playwright-typescript-mobile-web-device-emulation",
+    "author": "pankaj-kumar",
+    "excerpt": "Simulate iOS and Android devices, set custom user agents, and enable touch events for mobile web testing in Playwright.",
+    "date": "07-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Mobile"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "mobile emulation",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-mobile-web-device-emulation.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
