@@ -24104,5 +24104,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-668",
+    "title": "Generating HTML Accessibility Reports in Playwright TypeScript",
+    "slug": "playwright-typescript-accessibility-html-reports",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your axe-core accessibility scan results into beautiful, shareable HTML reports using axe-html-reporter.",
+    "date": "13-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "reporting",
+      "html"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-accessibility-html-reports.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
