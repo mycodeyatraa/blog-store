@@ -23837,5 +23837,42 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-661",
+    "title": "Responsive Testing with Playwright TypeScript: Viewports and Devices",
+    "slug": "playwright-typescript-responsive-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to automate responsive layout testing across Desktop, Tablet, and Mobile using Playwright viewports.",
+    "date": "06-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "responsive testing",
+      "mobile"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-responsive-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
