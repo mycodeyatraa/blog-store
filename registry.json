@@ -24385,5 +24385,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-675",
+    "title": "Advanced Step Definitions: DataTables and Outlines",
+    "slug": "advanced-step-definitions-datatables-cucumber",
+    "author": "pankaj-kumar",
+    "excerpt": "Supercharge your BDD automation by learning how to parse Gherkin Data Tables and dynamically extract parameter variables into Playwright TypeScript.",
+    "date": "20-Apr-2025",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "BDD",
+      "Cucumber"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "bdd",
+      "cucumber",
+      "step-definitions",
+      "datatables"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-step-definitions-datatables-cucumber.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
