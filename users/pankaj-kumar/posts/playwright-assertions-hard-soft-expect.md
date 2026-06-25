@@ -23,18 +23,18 @@ Create `tests/blog7_assertions.spec.ts` in your project:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test('Auto-retrying Hard Assertions', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/login');
-
+ 
   const formHeader = page.getByText('Login Portal');
   
   // Playwright will wait up to 5 seconds for this to become visible
   await expect(formHeader).toBeVisible();
-
+ 
   const usernameInput = page.locator('input#username');
   await expect(usernameInput).toBeEmpty();
-
+ 
   await usernameInput.fill('admin');
   await expect(usernameInput).toHaveValue('admin');
 });
@@ -70,7 +70,7 @@ This is where **Soft Assertions** come in. If a Soft Assertion fails, Playwright
 ```typescript
 test('Soft Assertions', async ({ page }) => {
   await page.goto('https://practice.mycodeyatra.com/#/login');
-
+ 
   const loginButton = page.getByRole('button', { name: 'Login' });
   
   // Use expect.soft() to prevent immediate crashes
@@ -92,7 +92,7 @@ Running 3 tests using 1 worker
   OK   2 Non-retrying Generic Assertions (0.1s)
 Test execution continued perfectly!
   OK   3 Soft Assertions (0.9s)
-
+ 
   3 passed (2.1s)
 ```
 
