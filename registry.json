@@ -24658,8 +24658,8 @@
       "full-stack"
     ],
     "contentPath": "users/pankaj-kumar/posts/full-stack-database-testing-playwright.md",
-    "series": "playwright-typescript-bdd",
-    "seriesOrder": 11,
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 1,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
