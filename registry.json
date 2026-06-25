@@ -25119,5 +25119,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-693",
+    "title": "Mastering the Playwright Built-in HTML Reporter",
+    "slug": "built-in-html-reporter-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Unlock the power of Playwright's native HTML reporter to automatically capture videos, screenshots, and the time-traveling Trace Viewer for zero-dependency debugging.",
+    "date": "08-May-2025",
+    "readTime": "4 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Debugging"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "reporting",
+      "html",
+      "trace-viewer",
+      "debugging"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/built-in-html-reporter-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
