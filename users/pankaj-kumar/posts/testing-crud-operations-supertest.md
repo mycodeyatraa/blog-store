@@ -113,7 +113,7 @@ PASS tests/crud.test.ts
     [PASS] 3. UPDATE (PUT) the user (6 ms)
     [PASS] 4. DELETE the user (4 ms)
     [PASS] 5. Verify user is DELETED (GET) (6 ms)
-
+ 
 Test Suites: 1 passed, 1 total
 Tests:       5 passed, 5 total
 Snapshots:   0 total
