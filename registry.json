@@ -25037,5 +25037,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-691",
+    "title": "Allure Reporting Basics in Playwright",
+    "slug": "allure-reporting-basics-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your Playwright test execution data into visually stunning, enterprise-grade interactive dashboards using the Allure Framework.",
+    "date": "06-May-2025",
+    "readTime": "5 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Allure"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "allure",
+      "reporting",
+      "dashboard",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/allure-reporting-basics-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
