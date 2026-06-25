@@ -24751,5 +24751,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-684",
+    "title": "MongoDB NoSQL Validation in Playwright",
+    "slug": "mongodb-nosql-database-testing-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to natively query MongoDB clusters, manipulate BSON documents, and seamlessly bypass UI setup steps using the official MongoDB Node.js driver.",
+    "date": "29-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Database"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "database",
+      "mongodb",
+      "nosql",
+      "full-stack"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mongodb-nosql-database-testing-playwright.md",
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
