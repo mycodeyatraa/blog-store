@@ -1331,7 +1331,14 @@
       "post-677",
       "post-678",
       "post-679",
-      "post-680",
+      "post-680"
+    ]
+  },
+  {
+    "id": "playwright-typescript-enterprise-validation",
+    "title": "Playwright TypeScript Enterprise Validation",
+    "description": "Master enterprise-level automation strategies including robust database testing, dynamic environment configurations, and external integrations.",
+    "articleIds": [
       "post-681"
     ]
   }
