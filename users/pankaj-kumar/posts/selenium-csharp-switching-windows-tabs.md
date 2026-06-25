@@ -121,16 +121,16 @@ Initializing ChromeDriver for Window Switching...
 Navigated to Primary Window.
 Original Window Handle: E454FB9A3B48541BBA87F1285AD7A2EE
 Original Window Title: MyCodeYatra | Test Automation Sandbox
-
+ 
 Opening a new tab...
 Total Windows open: 2
 Switching to the New Window...
 New Window Title: MyCodeYatra | The Premium Developer Blogging Network
-
+ 
 Closing the new window...
 Switching back to Original Window...
 Active Window Title after switching back: MyCodeYatra | Test Automation Sandbox
-
+ 
 Windows and Tabs script executed successfully!
 ```
 
