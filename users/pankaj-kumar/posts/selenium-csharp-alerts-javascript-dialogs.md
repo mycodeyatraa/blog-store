@@ -115,19 +115,19 @@ dotnet run
 ```text
 Initializing ChromeDriver for Alerts...
 Navigated to Form Practice Site.
-
+ 
 --- 1. HANDLING SIMPLE ALERTS ---
 Alert Text: Hello! I am a simple alert box!
 Simple Alert Accepted!
-
+ 
 --- 2. HANDLING CONFIRMATION ALERTS ---
 Confirm Alert Text: Do you want to proceed?
 Confirm Alert Dismissed (Cancelled)!
-
+ 
 --- 3. HANDLING PROMPT ALERTS ---
 Prompt Alert Text: Please enter your name:
 Prompt Alert text entered and Accepted!
-
+ 
 Alerts script executed successfully!
 ```
 
