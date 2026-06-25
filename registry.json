@@ -25406,5 +25406,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-700",
+    "title": "Enterprise Log Aggregation with Playwright",
+    "slug": "enterprise-log-aggregation-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to serialize Playwright browser console errors and network failures into structured `.jsonl` files for seamless ingestion into ELK, Datadog, or AWS CloudWatch.",
+    "date": "15-May-2025",
+    "readTime": "4 min read",
+    "category": "CI/CD & Cloud Execution",
+    "categories": [
+      "CI/CD & Cloud Execution",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "logging",
+      "elk",
+      "cloudwatch",
+      "observability"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-log-aggregation-playwright.md",
+    "series": "playwright-typescript-ci-cd-cloud",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
