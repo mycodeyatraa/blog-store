@@ -24996,5 +24996,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-690",
+    "title": "The Ultimate Enterprise Validation Strategy in Playwright",
+    "slug": "enterprise-validation-strategy-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Uncover the architectural blueprint for combining UI, API, Database, and Event-Driven assertions into a singular, bulletproof Hybrid E2E Test Strategy.",
+    "date": "05-May-2025",
+    "readTime": "5 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Best Practices"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "architecture",
+      "strategy",
+      "full-stack",
+      "enterprise"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-validation-strategy-playwright.md",
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
