@@ -21,7 +21,7 @@ A very common requirement is verifying that an element (like a tooltip or a subm
 
 ```kotlin
 package com.mycodeyatra.tests
-
+ 
 import com.mycodeyatra.utils.DriverManager
 import com.mycodeyatra.utils.waitForElementVisible
 import io.kotest.core.spec.style.StringSpec
@@ -30,20 +30,20 @@ import io.kotest.matchers.string.shouldContain
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.interactions.Actions
-
+ 
 class Blog21_ActionsTest : StringSpec({
-
+ 
     var driver: WebDriver? = null
-
+ 
     beforeSpec {
         driver = DriverManager.getHeadlessChromeDriver()
         driver?.manage()?.window()?.maximize()
     }
-
+ 
     afterSpec {
         driver?.quit()
     }
-
+ 
     "Perform Mouse Hover using Actions class" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
         
@@ -101,7 +101,7 @@ Waiting up to 10 seconds for element: By.cssSelector: .figure:nth-child(3) img
 Waiting up to 10 seconds for element: By.id: column-a
 Waiting up to 10 seconds for element: By.id: column-b
 Executed Drag and Drop via Actions API.
-
+ 
 Tests: 2, Passed: 2, Failed: 0
 ```
 
