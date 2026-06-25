@@ -25488,5 +25488,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-702",
+    "title": "The Tri-Layer Enterprise Reporting Architecture",
+    "slug": "enterprise-reporting-architecture-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Master the final stage of the automation lifecycle. Learn how to architect a reporting ecosystem that serves Developers, QA Engineers, and Executive Leadership simultaneously.",
+    "date": "17-May-2025",
+    "readTime": "4 min read",
+    "category": "CI/CD & Cloud Execution",
+    "categories": [
+      "CI/CD & Cloud Execution",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Architecture"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "architecture",
+      "reporting",
+      "allure",
+      "grafana"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-reporting-architecture-playwright.md",
+    "series": "playwright-typescript-ci-cd-cloud",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
