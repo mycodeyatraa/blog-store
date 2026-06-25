@@ -87,7 +87,7 @@ npx playwright test
 ```
 Running 6 tests using 4 workers
   6 passed (4.2s)
-
+ 
 To open last HTML report run:
   npx playwright show-report
 ```
