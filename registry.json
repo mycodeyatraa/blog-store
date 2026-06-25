@@ -24628,5 +24628,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-681",
+    "title": "Full-Stack Enterprise Validation: Database Testing with Playwright",
+    "slug": "full-stack-database-testing-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Elevate your test strategy by integrating PostgreSQL directly into your Playwright framework to seed data and assert backend states.",
+    "date": "26-Apr-2025",
+    "readTime": "5 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Database"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "database",
+      "postgres",
+      "sql",
+      "full-stack"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/full-stack-database-testing-playwright.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
