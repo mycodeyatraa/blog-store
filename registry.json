@@ -24955,5 +24955,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-689",
+    "title": "Spreadsheet Validation & Data-Driven Testing in Playwright",
+    "slug": "excel-validation-parsing-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Master intercepting Excel UI downloads and parsing `.xlsx` files into JSON arrays using SheetJS for native spreadsheet validation and dynamic Data-Driven tests.",
+    "date": "04-May-2025",
+    "readTime": "4 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "File Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "excel",
+      "downloads",
+      "parsing",
+      "data-driven"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/excel-validation-parsing-playwright.md",
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
