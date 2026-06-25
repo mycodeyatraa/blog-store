@@ -25283,5 +25283,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-697",
+    "title": "Building Custom Test Analytics in Playwright",
+    "slug": "custom-test-analytics-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Parse Playwright's native JSON reporter output to build custom analytics scripts that detect your slowest bottlenecks and generate failure heatmaps across your repository.",
+    "date": "12-May-2025",
+    "readTime": "4 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Performance"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "analytics",
+      "reporting",
+      "nodejs",
+      "metrics"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-test-analytics-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
