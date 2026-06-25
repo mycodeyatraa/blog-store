@@ -24792,5 +24792,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-685",
+    "title": "Mastering GraphQL API Testing in Playwright",
+    "slug": "graphql-api-testing-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to natively validate enterprise GraphQL architectures, execute dynamic queries, and trigger data mutations using Playwright's built-in API context.",
+    "date": "30-Apr-2025",
+    "readTime": "4 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "API Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "graphql",
+      "api",
+      "testing",
+      "backend"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/graphql-api-testing-playwright.md",
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
