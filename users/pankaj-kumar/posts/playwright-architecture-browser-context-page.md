@@ -65,7 +65,7 @@ If you were writing raw Playwright code, you would have to manually instantiate 
 
 ```typescript
 import { chromium } from 'playwright';
-
+ 
 (async () => {
   // 1. Launch the Browser
   const browser = await chromium.launch();
