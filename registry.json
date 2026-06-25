@@ -25652,5 +25652,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-706",
+    "title": "Scaling Playwright with BrowserStack Cloud Grids",
+    "slug": "browserstack-playwright-typescript-integration",
+    "author": "pankaj-kumar",
+    "excerpt": "Unlock massive parallel execution and cross-browser testing by routing Playwright CDP commands through secure WebSockets to the BrowserStack device farm.",
+    "date": "21-May-2025",
+    "readTime": "5 min read",
+    "category": "Docker & Grid Scaling",
+    "categories": [
+      "Docker & Grid Scaling",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Infrastructure"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "browserstack",
+      "cloud",
+      "scaling",
+      "parallel"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/browserstack-playwright-typescript-integration.md",
+    "series": "playwright-typescript-docker-scaling",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
