@@ -36,7 +36,7 @@ Scenario Outline: Applying promotional discount codes
   When the user applies the promo code "<PromoCode>"
   Then the final cart total should be "<FinalPrice>"
   And a discount message "<Message>" should be displayed
-
+ 
   Examples:
     | PromoCode     | FinalPrice | Message               |
     | SAVE10        | $900       | 10% discount applied! |
@@ -59,7 +59,7 @@ npx cucumber-js features/advanced-gherkin.feature --name "Applying promotional d
 ```text
 [Hook: BeforeAll] Bootstrapping Database Connections...
 [Hook: BeforeAll] Launching Playwright Browser Context...
-
+ 
 [Hook: Before] Starting Scenario: Applying promotional discount codes
 [Tagged Hook: @data-driven] Injecting test data into scenario context...
 [Setup] User authenticated successfully.
@@ -69,7 +69,7 @@ Applying Promo Code: SAVE10
 Asserting final price is $900
 Asserting discount message: 10% discount applied!
 [Hook: After] Scenario Applying promotional discount codes executed successfully.
-
+ 
 [Hook: Before] Starting Scenario: Applying promotional discount codes
 [Tagged Hook: @data-driven] Injecting test data into scenario context...
 [Setup] User authenticated successfully.
@@ -79,9 +79,9 @@ Applying Promo Code: BLACKFRIDAY
 Asserting final price is $800
 Asserting discount message: 20% discount applied!
 [Hook: After] Scenario Applying promotional discount codes executed successfully.
-
+ 
 ...
-
+ 
 3 scenarios (3 passed)
 27 steps (27 passed)
 ```
