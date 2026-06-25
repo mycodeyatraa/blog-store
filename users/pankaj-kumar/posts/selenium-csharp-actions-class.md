@@ -107,19 +107,19 @@ dotnet run
 ```text
 Initializing ChromeDriver for Actions Class...
 Navigated to Main Page.
-
+ 
 --- 1. MOUSE HOVER (MoveToElement) ---
 Successfully hovered over the Submit Button.
-
+ 
 --- 2. DOUBLE CLICK ---
 Successfully double-clicked the Clear Button.
-
+ 
 --- 3. RIGHT CLICK (ContextClick) ---
 Successfully right-clicked the Form Header.
-
+ 
 --- 4. KEYBOARD ACTIONS ---
 Typed text using Keyboard Shift: ACTIONS CLASS ROCKS
-
+ 
 Actions script executed successfully!
 ```
 
