@@ -25,13 +25,13 @@ To handle file downloads, we need to instruct our ChromeDriver where to save fil
 
 ```kotlin
 package com.mycodeyatra.utils
-
+ 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
-
+ 
 object DriverManager {
-
+ 
     fun getHeadlessChromeDriver(downloadDir: String? = null): WebDriver {
         println("Initializing Headless Chrome Driver for CI/CD...")
         
@@ -66,7 +66,7 @@ Now, let's write our Kotest specs. We will create a temporary directory before o
 
 ```kotlin
 package com.mycodeyatra.tests
-
+ 
 import com.mycodeyatra.utils.DriverManager
 import com.mycodeyatra.utils.waitForElementVisible
 import io.kotest.core.spec.style.StringSpec
@@ -76,12 +76,12 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import java.io.File
 import kotlin.io.path.createTempDirectory
-
+ 
 class Blog19_FileHandlingTest : StringSpec({
-
+ 
     var driver: WebDriver? = null
     lateinit var downloadDir: File
-
+ 
     beforeSpec {
         // Create a temporary directory for downloads
         downloadDir = createTempDirectory("selenium-downloads").toFile()
@@ -89,13 +89,13 @@ class Blog19_FileHandlingTest : StringSpec({
         driver = DriverManager.getHeadlessChromeDriver(downloadDir = downloadDir.absolutePath)
         driver?.manage()?.window()?.maximize()
     }
-
+ 
     afterSpec {
         driver?.quit()
         // Clean up downloaded files and directory after test
         downloadDir.deleteRecursively()
     }
-
+ 
     "Upload a file successfully using sendKeys" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
         
@@ -119,7 +119,7 @@ class Blog19_FileHandlingTest : StringSpec({
         // Clean up the dummy file
         tempFileToUpload.delete()
     }
-
+ 
     "Download a file and verify its presence" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
         
@@ -167,7 +167,7 @@ class Blog19_FileHandlingTest : StringSpec({
 Initializing Headless Chrome Driver for CI/CD...
 Waiting up to 10 seconds for element: By.id: uploaded-files
 File downloaded successfully: some-file.txt
-
+ 
 Tests: 2, Passed: 2, Failed: 0
 ```
 
