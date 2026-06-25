@@ -25570,5 +25570,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-704",
+    "title": "Integrating Playwright into GitHub Actions Node CI",
+    "slug": "github-actions-node-ci-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform Playwright into an automated Pull Request gatekeeper by configuring GitHub Actions workflows, optimizing Node.js dependency caching, and securely extracting HTML Report artifacts.",
+    "date": "19-May-2025",
+    "readTime": "4 min read",
+    "category": "Docker & Grid Scaling",
+    "categories": [
+      "Docker & Grid Scaling",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "github-actions",
+      "ci-cd",
+      "node",
+      "automation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/github-actions-node-ci-playwright.md",
+    "series": "playwright-typescript-docker-scaling",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
