@@ -1350,5 +1350,25 @@
       "post-689",
       "post-690"
     ]
+  },
+  {
+    "id": "playwright-typescript-allure-reporting",
+    "title": "Playwright TypeScript - Allure Reporting",
+    "description": "Master enterprise test reporting by integrating the Allure framework into your Playwright architecture to track trends, severities, and generate executive-ready dashboards.",
+    "author": "pankaj-kumar",
+    "category": "Reporting",
+    "tags": [
+      "playwright",
+      "typescript",
+      "allure",
+      "reporting",
+      "dashboard",
+      "testing"
+    ],
+    "articleIds": [
+      "post-691"
+    ],
+    "createdAt": "06-May-2025",
+    "updatedAt": "06-May-2025"
   }
 ]
