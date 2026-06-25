@@ -41,7 +41,7 @@ Inside your Playwright test file, you instantiate a connection pool. A pool mana
 ```typescript
 import { test, expect } from '@playwright/test';
 import { Pool } from 'pg';
-
+ 
 // Create a connection pool for the database
 const pool = new Pool({
   host: 'localhost',
@@ -50,9 +50,9 @@ const pool = new Pool({
   database: 'testdb',
   port: 5432,
 });
-
+ 
 test.describe('Database Validation Tests', () => {
-
+ 
   // Ensure the connection pool is cleanly closed after the suite finishes
   test.afterAll(async () => {
     await pool.end();
