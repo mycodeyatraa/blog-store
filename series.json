@@ -1377,5 +1377,25 @@
     ],
     "createdAt": "06-May-2025",
     "updatedAt": "06-May-2025"
+  },
+  {
+    "id": "playwright-typescript-ci-cd-cloud",
+    "title": "Playwright TypeScript - CI/CD & Cloud Execution",
+    "description": "Master cloud execution by embedding Playwright natively into CI/CD pipelines, Docker containers, and Cloud providers to achieve limitless scalability and 24/7 Production Monitoring.",
+    "author": "pankaj-kumar",
+    "category": "CI/CD & Cloud Execution",
+    "tags": [
+      "playwright",
+      "typescript",
+      "ci-cd",
+      "github-actions",
+      "monitoring",
+      "cloud"
+    ],
+    "articleIds": [
+      "post-699"
+    ],
+    "createdAt": "14-May-2025",
+    "updatedAt": "14-May-2025"
   }
 ]
