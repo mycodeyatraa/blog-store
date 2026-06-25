@@ -25160,5 +25160,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-694",
+    "title": "Custom Playwright Reporters for Dashboard Metrics",
+    "slug": "custom-reporters-dashboard-metrics-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Pipe your automation execution metrics directly into Datadog, Grafana, or Slack by building a custom Playwright Reporter class.",
+    "date": "09-May-2025",
+    "readTime": "4 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Observability"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "reporting",
+      "metrics",
+      "grafana",
+      "datadog"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-reporters-dashboard-metrics-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
