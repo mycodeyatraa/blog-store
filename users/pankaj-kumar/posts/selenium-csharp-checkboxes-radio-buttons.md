@@ -115,18 +115,18 @@ dotnet run
 ```text
 Initializing ChromeDriver for Checkboxes and Radio Buttons...
 Navigated to Form Practice Site.
-
+ 
 --- HANDLING RADIO BUTTONS ---
 Selecting 'Female' radio button...
 Is 'Female' selected? True
-
+ 
 --- HANDLING CHECKBOXES ---
 Is 'Automation' already selected? False
 Clicking 'Automation' checkbox...
 Clicking 'Testing' checkbox...
 Is 'Automation' selected now? True
 Is 'Testing' selected now? True
-
+ 
 Unchecking the 'Automation' checkbox...
 Is 'Automation' selected after unchecking? False
 Checkboxes and Radio Buttons script executed successfully!
