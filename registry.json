@@ -25734,5 +25734,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-708",
+    "title": "Scaling Playwright with LambdaTest Cloud Grids",
+    "slug": "lambdatest-playwright-typescript-integration",
+    "author": "pankaj-kumar",
+    "excerpt": "Deploy Playwright tests to the LambdaTest cloud using CDP WebSockets. Learn how to configure `LT:Options` and execute advanced SmartUI visual regression commands.",
+    "date": "23-May-2025",
+    "readTime": "4 min read",
+    "category": "Docker & Grid Scaling",
+    "categories": [
+      "Docker & Grid Scaling",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Infrastructure"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "lambdatest",
+      "cloud",
+      "scaling",
+      "parallel"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/lambdatest-playwright-typescript-integration.md",
+    "series": "playwright-typescript-docker-scaling",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
