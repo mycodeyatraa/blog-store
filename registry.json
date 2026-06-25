@@ -24915,5 +24915,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-688",
+    "title": "Validating and Parsing PDF Downloads in Playwright",
+    "slug": "pdf-validation-parsing-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Master enterprise document validation by intercepting UI downloads and parsing PDF text content natively in Node.js.",
+    "date": "03-May-2025",
+    "readTime": "4 min read",
+    "category": "Enterprise Validation",
+    "categories": [
+      "Enterprise Validation",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "File Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "pdf",
+      "downloads",
+      "parsing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/pdf-validation-parsing-playwright.md",
+    "series": "playwright-typescript-enterprise-validation",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
