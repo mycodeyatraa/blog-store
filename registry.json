@@ -25078,5 +25078,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-692",
+    "title": "Advanced Allure: Epic Mapping and Historical Trends",
+    "slug": "advanced-allure-reporting-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Elevate your Playwright reporting by mapping tests to Agile Epics, capturing dynamic data-driven parameters, and rendering historical trend graphs in CI/CD.",
+    "date": "07-May-2025",
+    "readTime": "5 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Allure"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "allure",
+      "advanced",
+      "agile",
+      "ci-cd"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/advanced-allure-reporting-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
