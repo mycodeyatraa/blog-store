@@ -25324,5 +25324,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-698",
+    "title": "Building Real-Time Slack Alerting Reporters in Playwright",
+    "slug": "custom-slack-reporters-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform Playwright into a proactive alerting engine by building a Custom Reporter that dispatches formatted failure notifications directly to Slack or MS Teams.",
+    "date": "13-May-2025",
+    "readTime": "4 min read",
+    "category": "Reporting",
+    "categories": [
+      "Reporting",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "reporting",
+      "slack",
+      "alerting",
+      "custom-reporters"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/custom-slack-reporters-playwright.md",
+    "series": "playwright-typescript-allure-reporting",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
