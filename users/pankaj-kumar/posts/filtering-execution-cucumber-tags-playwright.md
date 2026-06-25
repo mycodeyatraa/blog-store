@@ -82,16 +82,19 @@ Asserting cart total is: $99.00
 Cucumber supports boolean logic for advanced test filtering during pipeline execution:
 
 **OR Execution:** Run scenarios that have *either* tag.
+
 ```bash
 npx cucumber-js --tags "@smoke or @data-driven"
 ```
 
 **AND Execution:** Run scenarios that have *both* tags.
+
 ```bash
 npx cucumber-js --tags "@ecommerce and @smoke"
 ```
 
 **NOT Execution:** Run everything *except* flaky tests.
+
 ```bash
 npx cucumber-js --tags "not @flaky"
 ```
