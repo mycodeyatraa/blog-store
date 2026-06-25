@@ -21,21 +21,21 @@ Create a file at `tests/blog6_locators.spec.ts`:
 
 ```typescript
 import { test, expect } from '@playwright/test';
-
+ 
 test.describe('Blog 6: Locators Deep Dive', () => {
-
+ 
   test('Identify elements using CSS and XPath', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
-
+ 
     console.log('Using CSS Selector...');
     const usernameInput = page.locator('input#username');
     await usernameInput.fill('admin');
-
+ 
     console.log('Using XPath...');
     const passwordInput = page.locator('//input[@id="password"]');
     await passwordInput.fill('password123');
   });
-
+ 
 });
 ```
 
@@ -54,7 +54,7 @@ Playwright provides built-in `getBy...` methods to mimic this exact behavior.
 ```typescript
   test('Identify elements using user-centric locators', async ({ page }) => {
     await page.goto('https://practice.mycodeyatra.com/#/login');
-
+ 
     console.log('Using getByRole (Recommended)...');
     // Finds a button specifically labeled "Login"
     const loginButton = page.getByRole('button', { name: 'Login' });
@@ -62,7 +62,7 @@ Playwright provides built-in `getBy...` methods to mimic this exact behavior.
     console.log('Using getByText...');
     // Finds exact visible text on the page
     const formHeader = page.getByText('Login Portal');
-
+ 
     // Optional: Assert that they actually exist
     await expect(loginButton).toBeVisible();
     await expect(formHeader).toBeVisible();
@@ -91,7 +91,7 @@ Using XPath...
 Using getByRole (Recommended)...
 Using getByText...
   OK   2 Identify elements using user-centric locators (0.9s)
-
+ 
   2 passed (2.1s)
 ```
 
