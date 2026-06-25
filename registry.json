@@ -25611,5 +25611,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-705",
+    "title": "Executing Playwright in CircleCI and GitLab CI",
+    "slug": "circleci-gitlab-ci-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Expand your DevOps toolkit by porting your Playwright automation suite to enterprise CI platforms like CircleCI and GitLab CI using the official Microsoft Docker executor.",
+    "date": "20-May-2025",
+    "readTime": "4 min read",
+    "category": "Docker & Grid Scaling",
+    "categories": [
+      "Docker & Grid Scaling",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "CI/CD"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "circleci",
+      "gitlab",
+      "ci-cd",
+      "devops"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/circleci-gitlab-ci-playwright.md",
+    "series": "playwright-typescript-docker-scaling",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
