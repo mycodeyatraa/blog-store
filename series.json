@@ -1400,5 +1400,25 @@
     ],
     "createdAt": "14-May-2025",
     "updatedAt": "14-May-2025"
+  },
+  {
+    "id": "playwright-typescript-docker-scaling",
+    "title": "Playwright TypeScript - Docker & Grid Scaling",
+    "description": "Learn to containerize your Playwright suite with Docker, execute thousands of tests in parallel using Selenium Grid or Playwright Test Runners, and manage cloud infrastructure.",
+    "author": "pankaj-kumar",
+    "category": "Docker & Grid Scaling",
+    "tags": [
+      "playwright",
+      "typescript",
+      "docker",
+      "docker-compose",
+      "containers",
+      "ci-cd"
+    ],
+    "articleIds": [
+      "post-703"
+    ],
+    "createdAt": "18-May-2025",
+    "updatedAt": "18-May-2025"
   }
 ]
