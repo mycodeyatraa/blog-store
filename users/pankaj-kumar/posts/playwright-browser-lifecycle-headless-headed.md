@@ -44,7 +44,7 @@ Open your `playwright.config.ts` and locate the `use` block. Update it like this
 
 ```typescript
 import { defineConfig, devices } from '@playwright/test';
-
+ 
 export default defineConfig({
   // ... other configs ...
   
