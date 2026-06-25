@@ -24547,5 +24547,45 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-679",
+    "title": "Data-Driven Testing using Cucumber Scenario Outlines",
+    "slug": "data-driven-testing-cucumber-scenario-outlines-playwright",
+    "author": "pankaj-kumar",
+    "excerpt": "Scale your automation test coverage exponentially by utilizing Gherkin Examples tables and Scenario Outlines for Data-Driven Testing.",
+    "date": "24-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "BDD",
+      "Cucumber"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "bdd",
+      "cucumber",
+      "data-driven"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/data-driven-testing-cucumber-scenario-outlines-playwright.md",
+    "series": "playwright-typescript-bdd",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
