@@ -17,23 +17,23 @@ Let's update our `WebDriverExtensions.kt` to include these utilities:
 
 ```kotlin
 package com.mycodeyatra.utils
-
+ 
 import org.openqa.selenium.By
 import org.openqa.selenium.OutputType
 import org.openqa.selenium.TakesScreenshot
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import java.io.File
-
+ 
 // ... Existing Wait Extensions ...
-
+ 
 // Extension to take a screenshot of the entire visible viewport
 fun WebDriver.takeScreenshot(destinationFile: File) {
     println("Taking full page screenshot and saving to: ${destinationFile.absolutePath}")
     val screenshotFile = (this as TakesScreenshot).getScreenshotAs(OutputType.FILE)
     screenshotFile.copyTo(destinationFile, overwrite = true)
 }
-
+ 
 // Extension to take a screenshot of a specific element only
 fun WebElement.takeElementScreenshot(destinationFile: File) {
     println("Taking element screenshot and saving to: ${destinationFile.absolutePath}")
@@ -48,7 +48,7 @@ Now let's write Kotest specifications to demonstrate both features. We will use 
 
 ```kotlin
 package com.mycodeyatra.tests
-
+ 
 import com.mycodeyatra.utils.DriverManager
 import com.mycodeyatra.utils.takeElementScreenshot
 import com.mycodeyatra.utils.takeScreenshot
@@ -59,25 +59,25 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import java.io.File
 import kotlin.io.path.createTempDirectory
-
+ 
 class Blog20_ScreenshotsTest : StringSpec({
-
+ 
     var driver: WebDriver? = null
     lateinit var screenshotDir: File
-
+ 
     beforeSpec {
         // Create a temporary directory for our screenshots
         screenshotDir = createTempDirectory("selenium-screenshots").toFile()
         driver = DriverManager.getHeadlessChromeDriver()
         driver?.manage()?.window()?.maximize()
     }
-
+ 
     afterSpec {
         driver?.quit()
         // Clean up our temporary directory
         screenshotDir.deleteRecursively()
     }
-
+ 
     "Take a full viewport screenshot" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
         
@@ -90,7 +90,7 @@ class Blog20_ScreenshotsTest : StringSpec({
         fullScreenshotFile.shouldExist()
         println("Full screenshot size: ${fullScreenshotFile.length()} bytes")
     }
-
+ 
     "Take an element-level screenshot" {
         val webDriver = driver ?: throw IllegalStateException("Driver not initialized")
         
@@ -120,7 +120,7 @@ Full screenshot size: 45210 bytes
 Waiting up to 10 seconds for element: By.id: login
 Taking element screenshot and saving to: /tmp/selenium-screenshots1234/login_form.png
 Element screenshot size: 12050 bytes
-
+ 
 Tests: 2, Passed: 2, Failed: 0
 ```
 
