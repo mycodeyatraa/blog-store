@@ -31,14 +31,14 @@ Create a `mock.feature` file. We define the routes using `pathMatches` and `meth
 ```gherkin
 # src/test/java/com/mycodeyatra/karate/mock/mock.feature
 Feature: Standalone Karate Mock Server
-
+ 
   Background:
     * configure cors = true
-
+ 
   Scenario: pathMatches('/greeting') && methodIs('get')
     * def response = { message: 'Hello from Karate Mock Server!' }
     * def responseStatus = 200
-
+ 
   Scenario: pathMatches('/users') && methodIs('post')
     * def response = { id: '#(java.util.UUID.randomUUID().toString())', status: 'created' }
     * def responseStatus = 201
@@ -50,25 +50,25 @@ We can start this server dynamically in our JUnit suite on an ephemeral open por
 ```java
 // src/test/java/com/mycodeyatra/karate/mock/MockRunner.java
 package com.mycodeyatra.karate.mock;
-
+ 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import com.intuit.karate.core.MockServer;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-
+ 
 class MockRunner {
     @Test
     void testMock() {
         // Spin up the mock server on an open random port!
         MockServer server = MockServer.feature("classpath:.../mock.feature").http(0).build();
         int port = server.getPort();
-
+ 
         // Pass the port into our test feature
         Results results = Runner.path("classpath:.../test-mock.feature")
                 .systemProperty("mockPort", port + "")
                 .parallel(1);
-
+ 
         assertEquals(0, results.getFailCount());
         server.stop();
     }
@@ -82,13 +82,13 @@ Create `.github/workflows/karate-ci.yml`:
 
 ```yaml
 name: Karate API Tests CI
-
+ 
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+ 
 jobs:
   test:
     runs-on: ubuntu-latest
