@@ -25365,5 +25365,46 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-699",
+    "title": "Synthetic Monitoring: Using Playwright in CI/CD to Monitor Production",
+    "slug": "synthetic-monitoring-playwright-github-actions",
+    "author": "pankaj-kumar",
+    "excerpt": "Upgrade your automation suite into a mission-critical Synthetic Monitoring tool using GitHub Actions Cron jobs, Slack webhooks, and targeted `@smoke` tags.",
+    "date": "14-May-2025",
+    "readTime": "5 min read",
+    "category": "CI/CD & Cloud Execution",
+    "categories": [
+      "CI/CD & Cloud Execution",
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "DevOps"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "ci-cd",
+      "github-actions",
+      "monitoring",
+      "cloud"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/synthetic-monitoring-playwright-github-actions.md",
+    "series": "playwright-typescript-ci-cd-cloud",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
