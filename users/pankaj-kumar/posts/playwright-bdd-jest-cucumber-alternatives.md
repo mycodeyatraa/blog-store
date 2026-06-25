@@ -31,10 +31,10 @@ Instead of writing global step definitions, you map feature files directly to Je
 
 ```typescript
 import { loadFeature, defineFeature } from 'jest-cucumber';
-
+ 
 // 1. Load the specific feature file
 const feature = loadFeature('./features/login.feature');
-
+ 
 // 2. Define the feature mappings
 defineFeature(feature, (test) => {
   
@@ -44,11 +44,11 @@ defineFeature(feature, (test) => {
     given(/^the user navigates to the login page$/, () => {
       // Playwright navigation logic
     });
-
+ 
     when(/^the user enters valid credentials$/, () => {
       // Playwright form filling logic
     });
-
+ 
     then(/^they should be redirected to the dashboard$/, () => {
       // Jest / Playwright assertions
     });
@@ -70,13 +70,13 @@ It works by generating native Playwright `.spec.ts` files out of your `.feature`
 ```typescript
 import { createBdd } from 'playwright-bdd';
 import { expect } from '@playwright/test';
-
+ 
 const { Given, When, Then } = createBdd();
-
+ 
 Given('I navigate to the homepage', async ({ page }) => {
   await page.goto('/');
 });
-
+ 
 Then('I see the logo', async ({ page }) => {
   await expect(page.locator('#logo')).toBeVisible();
 });
