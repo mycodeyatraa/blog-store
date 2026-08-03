@@ -1,6 +1,6 @@
 ---
 title: Unlocking the Protocol: MCP Integration
-date: 17-Feb-2025
+date: 04-Feb-2026
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
