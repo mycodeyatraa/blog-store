@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["karate", "gatling", "performance", "load-testing", "scalability"]
+tags: [karate, gatling, performance, load-testing, scalability]
 category: API Karate
-categories: ["API Karate", "Performance Testing", "Gatling"]
+categories: [API Karate, Performance Testing, Gatling]
 excerpt: >-
   Turn functional tests into load tests instantly! Reuse Karate API feature files with Gatling for high-concurrency performance validation.
 readTime: 8 min read

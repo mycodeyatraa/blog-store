@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "fakerjs", "test-data", "factories", "fixtures"]
+tags: [supertest, fakerjs, test-data, factories, fixtures]
 category: API Supertest
-categories: ["API Supertest", "Node.js", "Express"]
+categories: [API Supertest, Node.js, Express]
 excerpt: >-
   Eliminate hardcoded test data! Build modular data factories with @faker-js/faker and Supertest for dynamic API testing.
 readTime: 8 min read

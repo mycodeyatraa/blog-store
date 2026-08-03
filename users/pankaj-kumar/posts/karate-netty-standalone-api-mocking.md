@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["karate", "netty", "mocking", "api-testing", "standalone"]
+tags: [karate, netty, mocking, api-testing, standalone]
 category: API Karate
-categories: ["API Karate", "API Testing", "Mocking"]
+categories: [API Karate, API Testing, Mocking]
 excerpt: >-
   Build high-performance mock servers without Java server code! Harness Karate Netty to mock HTTP endpoints dynamically.
 readTime: 8 min read

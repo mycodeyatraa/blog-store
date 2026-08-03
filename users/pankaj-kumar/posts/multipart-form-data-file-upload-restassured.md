@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "file-upload", "multipart", "api-testing"]
+tags: [restassured, java, file-upload, multipart, api-testing]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Automate file upload endpoints easily! Learn how to send multipart form-data requests and verify file downloads with REST-Assured.
 readTime: 7 min read

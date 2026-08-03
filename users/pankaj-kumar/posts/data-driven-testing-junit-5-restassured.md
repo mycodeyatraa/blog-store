@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "junit5", "data-driven", "parameterized"]
+tags: [restassured, java, junit5, data-driven, parameterized]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Run scalable parameterized API tests! Harness JUnit 5 @ParameterizedTest, @CsvSource, and @MethodSource with REST-Assured.
 readTime: 8 min read

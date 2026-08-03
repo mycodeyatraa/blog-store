@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["karate", "oauth2", "sso", "authentication", "jwt"]
+tags: [karate, oauth2, sso, authentication, jwt]
 category: API Karate
-categories: ["API Karate", "API Testing", "Security"]
+categories: [API Karate, API Testing, Security]
 excerpt: >-
   Automate secure API authentication! Learn how to handle OAuth 2.0 token exchanges, JWT headers, and SSO flows in Karate.
 readTime: 8 min read

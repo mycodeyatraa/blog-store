@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["karate", "parallel-execution", "reporting", "cucumber-reports", "ci-cd"]
+tags: [karate, parallel-execution, reporting, cucumber-reports, ci-cd]
 category: API Karate
-categories: ["API Karate", "API Testing", "Reporting"]
+categories: [API Karate, API Testing, Reporting]
 excerpt: >-
   Slash execution times! Scale Karate tests with multi-threaded parallel execution and generate rich Cucumber HTML reports.
 readTime: 8 min read

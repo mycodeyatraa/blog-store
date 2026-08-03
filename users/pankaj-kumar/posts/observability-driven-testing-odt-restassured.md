@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "observability", "odt", "opentelemetry", "tracing"]
+tags: [restassured, java, observability, odt, opentelemetry, tracing]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Shift from basic HTTP status checks to trace-based assertions! Implement Observability-Driven Testing with OpenTelemetry and REST-Assured.
 readTime: 8 min read

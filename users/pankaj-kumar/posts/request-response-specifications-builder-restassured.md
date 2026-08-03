@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "specifications", "builder-pattern", "clean-code"]
+tags: [restassured, java, specifications, builder-pattern, clean-code]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Eliminate boilerplate code! Build reusable RequestSpecBuilder and ResponseSpecBuilder templates in REST-Assured.
 readTime: 8 min read

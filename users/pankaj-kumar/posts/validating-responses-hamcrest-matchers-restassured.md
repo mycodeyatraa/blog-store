@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "hamcrest", "assertions", "matchers"]
+tags: [restassured, java, hamcrest, assertions, matchers]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Write fluent, human-readable API assertions! Master Hamcrest matchers for complex JSON response validation in REST-Assured.
 readTime: 8 min read

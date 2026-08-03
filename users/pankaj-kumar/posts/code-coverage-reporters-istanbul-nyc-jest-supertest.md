@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "jest", "coverage", "istanbul", "nyc", "reporting"]
+tags: [supertest, jest, coverage, istanbul, nyc, reporting]
 category: API Supertest
-categories: ["API Supertest", "Node.js", "Express"]
+categories: [API Supertest, Node.js, Express]
 excerpt: >-
   Measure API test quality! Configure Istanbul/nyc coverage reports and HTML test dashboards in Jest and Supertest.
 readTime: 8 min read

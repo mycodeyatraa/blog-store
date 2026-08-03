@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "github-actions", "cicd", "devops", "pipeline"]
+tags: [supertest, github-actions, cicd, devops, pipeline]
 category: API Supertest
-categories: ["API Supertest", "Node.js", "Express"]
+categories: [API Supertest, Node.js, Express]
 excerpt: >-
   Automate API testing on every PR! Configure GitHub Actions workflows to execute Supertest API suites and upload coverage artifacts.
 readTime: 8 min read

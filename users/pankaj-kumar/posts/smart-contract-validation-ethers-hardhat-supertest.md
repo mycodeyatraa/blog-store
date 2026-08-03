@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "smart-contracts", "ethersjs", "hardhat", "solidity"]
+tags: [supertest, smart-contracts, ethersjs, hardhat, solidity]
 category: API Supertest
-categories: ["API Supertest", "Web3", "Blockchain"]
+categories: [API Supertest, Web3, Blockchain]
 excerpt: >-
   Validate on-chain smart contract state! Combine Ethers.js and Hardhat with Supertest to test Web3 backend integrations.
 readTime: 8 min read

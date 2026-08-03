@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "blockchain", "anvil", "ganache", "web3-testing"]
+tags: [supertest, blockchain, anvil, ganache, web3-testing]
 category: API Supertest
-categories: ["API Supertest", "Web3", "Blockchain"]
+categories: [API Supertest, Web3, Blockchain]
 excerpt: >-
   Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites.
 readTime: 8 min read

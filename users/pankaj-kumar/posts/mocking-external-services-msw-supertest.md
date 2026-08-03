@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "msw", "mocking", "api-testing", "express"]
+tags: [supertest, msw, mocking, api-testing, express]
 category: API Supertest
-categories: ["API Supertest", "Node.js", "Express"]
+categories: [API Supertest, Node.js, Express]
 excerpt: >-
   Isolate microservices under test! Integrate Mock Service Worker (MSW) to stub third-party APIs during Supertest integration tests.
 readTime: 8 min read

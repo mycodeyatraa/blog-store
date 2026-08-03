@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "jackson", "gson", "json", "serialization"]
+tags: [restassured, java, jackson, gson, json, serialization]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Master payload serialization and deserialization! Learn how to integrate Jackson and Gson with REST-Assured for seamless POJO mapping.
 readTime: 8 min read

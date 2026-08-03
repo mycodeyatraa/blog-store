@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["restassured", "java", "oauth2", "jwt", "bearer-token", "security"]
+tags: [restassured, java, oauth2, jwt, bearer-token, security]
 category: REST-Assured
-categories: ["REST-Assured", "API Testing", "Java"]
+categories: [REST-Assured, API Testing, Java]
 excerpt: >-
   Secure your API automation! Learn how to handle OAuth 2.0 client credentials, Bearer tokens, and JWT authentication in REST-Assured.
 readTime: 8 min read

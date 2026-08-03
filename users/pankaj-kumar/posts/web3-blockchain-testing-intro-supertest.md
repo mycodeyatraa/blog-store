@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["supertest", "web3", "blockchain", "ethereum", "dapps"]
+tags: [supertest, web3, blockchain, ethereum, dapps]
 category: API Supertest
-categories: ["API Supertest", "Web3", "Blockchain"]
+categories: [API Supertest, Web3, Blockchain]
 excerpt: >-
   Bridge Web2 and Web3 testing! Learn how to validate JSON-RPC Ethereum endpoints and smart contract gateway APIs using Supertest.
 readTime: 8 min read
