@@ -1521,18 +1521,20 @@
   {
     "id": "selenium-csharp-fundamentals",
     "title": "Selenium C# Fundamentals",
-    "description": "Master the basics of Selenium WebDriver with C# .NET. Learn element locators, browser interactions, and handling complex UI components.",
+    "description": "Master core Selenium WebDriver automation using C#, NUnit, and Chrome DevTools Protocol.",
     "articleIds": [
-      "post-462",
-      "post-463",
-      "post-464",
-      "post-465",
-      "post-466",
-      "post-467",
-      "post-468",
-      "post-469",
-      "post-470",
-      "post-471"
+      "post-496",
+      "post-495",
+      "post-494",
+      "post-493",
+      "post-492",
+      "post-491",
+      "post-490",
+      "post-489",
+      "post-488",
+      "post-487",
+      "post-486",
+      "post-485"
     ],
     "author": "pankaj-kumar",
     "authorDetails": {
@@ -1541,48 +1543,28 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "posts": [
-      "post-462",
-      "post-463",
-      "post-464",
-      "post-465",
-      "post-466",
-      "post-467",
-      "post-468",
-      "post-469",
-      "post-470",
-      "post-471"
-    ]
+      "post-496",
+      "post-495",
+      "post-494",
+      "post-493",
+      "post-492",
+      "post-491",
+      "post-490",
+      "post-489",
+      "post-488",
+      "post-487",
+      "post-486",
+      "post-485"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "status": "completed",
+    "createdAt": "01-Jan-2025"
   },
   {
     "id": "selenium-csharp-test-frameworks",
-    "title": "Selenium C# Test Frameworks",
-    "description": "Structure your test automation with NUnit. Master assertions, Test Fixtures, and Data-Driven Testing (DDT) using Excel and JSON.",
+    "title": "Selenium C# Framework Design & Patterns",
+    "description": "Build scalable Page Object Model (POM), BaseTest, and WebDriver Factory frameworks in .NET.",
     "articleIds": [
-      "post-475",
-      "post-474",
-      "post-472",
-      "post-473"
-    ],
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    },
-    "posts": [
-      "post-475",
-      "post-474",
-      "post-472",
-      "post-473"
-    ]
-  },
-  {
-    "id": "selenium-csharp-framework-design",
-    "title": "Selenium C# Framework Design",
-    "description": "Build Enterprise-grade automation frameworks. Learn the Page Object Model (POM), Fluent Method Chaining, and reusable components.",
-    "articleIds": [
-      "post-486",
-      "post-485",
       "post-484",
       "post-483",
       "post-482",
@@ -1591,7 +1573,9 @@
       "post-479",
       "post-478",
       "post-477",
-      "post-476"
+      "post-476",
+      "post-475",
+      "post-474"
     ],
     "author": "pankaj-kumar",
     "authorDetails": {
@@ -1600,8 +1584,6 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "posts": [
-      "post-486",
-      "post-485",
       "post-484",
       "post-483",
       "post-482",
@@ -1610,60 +1592,13 @@
       "post-479",
       "post-478",
       "post-477",
-      "post-476"
-    ]
-  },
-  {
-    "id": "selenium-csharp-bdd-reqnroll",
-    "title": "BDD Automation with Reqnroll (Selenium C#)",
-    "description": "Master Behavior-Driven Development (BDD) in C# using Reqnroll (the modern successor to SpecFlow) to create business-readable, automated test specifications.",
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    },
-    "articleIds": [
-      "post-490",
-      "post-489",
-      "post-488",
-      "post-487"
+      "post-476",
+      "post-475",
+      "post-474"
     ],
-    "posts": [
-      "post-490",
-      "post-489",
-      "post-488",
-      "post-487"
-    ]
-  },
-  {
-    "id": "ai-powered-testing-semantic-kernel",
-    "title": "AI-Powered Testing with Semantic Kernel & C#",
-    "description": "Break into the most advanced tier of automation engineering by embedding Large Language Models (LLMs) directly into your C# framework using Microsoft's Semantic Kernel.",
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    },
-    "articleIds": [
-      "post-496",
-      "post-495",
-      "post-494",
-      "post-493",
-      "post-492",
-      "post-491"
-    ],
-    "posts": [
-      "post-496",
-      "post-495",
-      "post-494",
-      "post-493",
-      "post-492",
-      "post-491"
-    ]
+    "status": "completed",
+    "createdAt": "15-Feb-2025"
   },
   {
     "id": "git-and-github-zero-to-production",
@@ -2348,6 +2283,43 @@
       "post-716",
       "post-717",
       "post-718"
+    ]
+  },
+  {
+    "id": "selenium-csharp-bdd-and-ai",
+    "title": "Selenium C# BDD Reqnroll & Semantic Kernel AI",
+    "description": "Master Gherkin BDD with Reqnroll and AI-driven automation using Microsoft Semantic Kernel in C#.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_csharp.png",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "01-Mar-2025",
+    "articleIds": [
+      "post-462",
+      "post-463",
+      "post-464",
+      "post-465",
+      "post-466",
+      "post-467",
+      "post-468",
+      "post-469",
+      "post-470",
+      "post-471",
+      "post-472",
+      "post-473"
+    ],
+    "posts": [
+      "post-462",
+      "post-463",
+      "post-464",
+      "post-465",
+      "post-466",
+      "post-467",
+      "post-468",
+      "post-469",
+      "post-470",
+      "post-471",
+      "post-472",
+      "post-473"
     ]
   }
 ]
