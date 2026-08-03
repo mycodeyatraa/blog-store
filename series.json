@@ -9,10 +9,17 @@
       "blog-6",
       "blog-7",
       "blog-8",
-      "blog-9"
+      "post-659"
     ],
     "status": "completed",
-    "createdAt": "31-May-2026"
+    "createdAt": "31-May-2026",
+    "posts": [
+      "blog-5",
+      "blog-6",
+      "blog-7",
+      "blog-8",
+      "post-659"
+    ]
   },
   {
     "id": "playwright-with-java-zero-to-automation",
@@ -23,7 +30,10 @@
       "blog-4"
     ],
     "status": "ongoing",
-    "createdAt": "31-May-2026"
+    "createdAt": "31-May-2026",
+    "posts": [
+      "blog-4"
+    ]
   },
   {
     "id": "postman-api-automation-mastery",
@@ -48,7 +58,24 @@
       "blog-39"
     ],
     "status": "ongoing",
-    "createdAt": "02-Jan-2025"
+    "createdAt": "02-Jan-2025",
+    "posts": [
+      "blog-11",
+      "blog-12",
+      "blog-13",
+      "blog-14",
+      "blog-15",
+      "blog-16",
+      "blog-17",
+      "blog-18",
+      "blog-19",
+      "blog-20",
+      "blog-21",
+      "blog-22",
+      "blog-37",
+      "blog-38",
+      "blog-39"
+    ]
   },
   {
     "id": "mock-api-server-mastery",
@@ -72,7 +99,23 @@
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
-    "createdAt": "14-Jan-2025"
+    "createdAt": "14-Jan-2025",
+    "posts": [
+      "blog-23",
+      "blog-24",
+      "blog-25",
+      "blog-26",
+      "blog-27",
+      "blog-28",
+      "blog-29",
+      "blog-30",
+      "blog-31",
+      "blog-32",
+      "blog-33",
+      "blog-34",
+      "blog-35",
+      "blog-36"
+    ]
   },
   {
     "id": "java-restassured-api-testing",
@@ -100,7 +143,27 @@
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
-    "createdAt": "30-Jan-2025"
+    "createdAt": "30-Jan-2025",
+    "posts": [
+      "blog-40",
+      "blog-41",
+      "blog-42",
+      "blog-43",
+      "blog-44",
+      "blog-45",
+      "blog-46",
+      "blog-47",
+      "blog-48",
+      "blog-49",
+      "blog-50",
+      "blog-51",
+      "blog-52",
+      "blog-53",
+      "blog-54",
+      "blog-55",
+      "blog-56",
+      "blog-57"
+    ]
   },
   {
     "id": "nodejs-supertest-api-testing",
@@ -115,14 +178,6 @@
       "blog-supertest-6",
       "blog-supertest-7",
       "blog-supertest-8",
-      "blog-supertest-17",
-      "blog-supertest-18",
-      "blog-supertest-19",
-      "blog-supertest-20",
-      "blog-supertest-21",
-      "blog-supertest-22",
-      "blog-supertest-23",
-      "blog-supertest-24",
       "blog-supertest-9",
       "blog-supertest-10",
       "blog-supertest-11",
@@ -130,7 +185,15 @@
       "blog-supertest-13",
       "blog-supertest-14",
       "blog-supertest-15",
-      "blog-supertest-16"
+      "blog-supertest-16",
+      "blog-supertest-17",
+      "blog-supertest-18",
+      "blog-supertest-19",
+      "blog-supertest-20",
+      "blog-supertest-21",
+      "blog-supertest-22",
+      "blog-supertest-23",
+      "blog-supertest-24"
     ],
     "author": "pankaj-kumar",
     "status": "ongoing",
@@ -144,14 +207,6 @@
       "blog-supertest-6",
       "blog-supertest-7",
       "blog-supertest-8",
-      "blog-supertest-17",
-      "blog-supertest-18",
-      "blog-supertest-19",
-      "blog-supertest-20",
-      "blog-supertest-21",
-      "blog-supertest-22",
-      "blog-supertest-23",
-      "blog-supertest-24",
       "blog-supertest-9",
       "blog-supertest-10",
       "blog-supertest-11",
@@ -159,7 +214,15 @@
       "blog-supertest-13",
       "blog-supertest-14",
       "blog-supertest-15",
-      "blog-supertest-16"
+      "blog-supertest-16",
+      "blog-supertest-17",
+      "blog-supertest-18",
+      "blog-supertest-19",
+      "blog-supertest-20",
+      "blog-supertest-21",
+      "blog-supertest-22",
+      "blog-supertest-23",
+      "blog-supertest-24"
     ]
   },
   {
@@ -184,6 +247,18 @@
       "blog-karate-8",
       "blog-karate-9",
       "blog-karate-10"
+    ],
+    "posts": [
+      "blog-karate-1",
+      "blog-karate-2",
+      "blog-karate-3",
+      "blog-karate-4",
+      "blog-karate-5",
+      "blog-karate-6",
+      "blog-karate-7",
+      "blog-karate-8",
+      "blog-karate-9",
+      "blog-karate-10"
     ]
   },
   {
@@ -195,7 +270,10 @@
       "blog-58"
     ],
     "status": "ongoing",
-    "createdAt": "07-Jun-2026"
+    "createdAt": "07-Jun-2026",
+    "posts": [
+      "blog-58"
+    ]
   },
   {
     "id": "kafka-api-testing",
@@ -209,6 +287,23 @@
       "event-driven"
     ],
     "articleIds": [
+      "blog-kafka-1",
+      "blog-kafka-2",
+      "blog-kafka-3",
+      "blog-kafka-4",
+      "blog-kafka-5",
+      "blog-kafka-6",
+      "blog-kafka-7",
+      "blog-kafka-8",
+      "blog-kafka-9",
+      "blog-kafka-10",
+      "blog-kafka-11",
+      "blog-kafka-12",
+      "blog-kafka-13",
+      "blog-kafka-14",
+      "blog-kafka-15"
+    ],
+    "posts": [
       "blog-kafka-1",
       "blog-kafka-2",
       "blog-kafka-3",
@@ -252,17 +347,54 @@
       "blog-selenium-java-18",
       "blog-selenium-java-19",
       "blog-selenium-java-20",
-      "blog-selenium-java-21",
-      "blog-8"
+      "blog-selenium-java-21"
     ],
     "status": "In Progress",
-    "createdAt": "01-Jul-2024"
+    "createdAt": "01-Jul-2024",
+    "posts": [
+      "blog-selenium-java-1",
+      "blog-selenium-java-2",
+      "blog-selenium-java-3",
+      "blog-selenium-java-4",
+      "blog-selenium-java-5",
+      "blog-selenium-java-6",
+      "blog-selenium-java-7",
+      "blog-selenium-java-8",
+      "blog-selenium-java-9",
+      "blog-selenium-java-10",
+      "blog-selenium-java-11",
+      "blog-selenium-java-12",
+      "blog-selenium-java-13",
+      "blog-selenium-java-14",
+      "blog-selenium-java-15",
+      "blog-selenium-java-16",
+      "blog-selenium-java-17",
+      "blog-selenium-java-18",
+      "blog-selenium-java-19",
+      "blog-selenium-java-20",
+      "blog-selenium-java-21"
+    ]
   },
   {
     "id": "selenium-framework-design-and-patterns-in-java",
     "title": "Selenium Framework Design & Patterns in Java",
     "description": "Learn advanced design patterns, utility structures, logging, dependency injection, and framework design using Selenium with Java.",
     "articleIds": [
+      "blog-selenium-java-22",
+      "blog-selenium-java-23",
+      "blog-selenium-java-24",
+      "blog-selenium-java-25",
+      "blog-selenium-java-26",
+      "blog-selenium-java-27",
+      "blog-selenium-java-28",
+      "blog-selenium-java-29",
+      "blog-selenium-java-30",
+      "blog-selenium-java-31",
+      "blog-selenium-java-32",
+      "blog-selenium-java-33",
+      "blog-selenium-java-34"
+    ],
+    "posts": [
       "blog-selenium-java-22",
       "blog-selenium-java-23",
       "blog-selenium-java-24",
@@ -289,7 +421,12 @@
       "blog-selenium-java-37"
     ],
     "status": "ongoing",
-    "createdAt": "15-Aug-2026"
+    "createdAt": "15-Aug-2026",
+    "posts": [
+      "blog-selenium-java-35",
+      "blog-selenium-java-36",
+      "blog-selenium-java-37"
+    ]
   },
   {
     "id": "selenium-advanced-authentication-mastery",
@@ -309,7 +446,19 @@
       "blog-selenium-java-auth-4"
     ],
     "status": "ongoing",
-    "createdAt": "22-Aug-2024"
+    "createdAt": "22-Aug-2024",
+    "posts": [
+      "blog-selenium-java-38",
+      "blog-selenium-java-39",
+      "blog-selenium-java-40",
+      "blog-selenium-java-41",
+      "blog-selenium-java-42",
+      "blog-selenium-java-43",
+      "blog-selenium-java-auth-1",
+      "blog-selenium-java-auth-2",
+      "blog-selenium-java-auth-3",
+      "blog-selenium-java-auth-4"
+    ]
   },
   {
     "id": "selenium-advanced-security-testing",
@@ -324,7 +473,14 @@
       "blog-selenium-java-48"
     ],
     "status": "ongoing",
-    "createdAt": "08-Sep-2024"
+    "createdAt": "08-Sep-2024",
+    "posts": [
+      "blog-selenium-java-44",
+      "blog-selenium-java-45",
+      "blog-selenium-java-46",
+      "blog-selenium-java-47",
+      "blog-selenium-java-48"
+    ]
   },
   {
     "id": "selenium-advanced-visual-testing",
@@ -340,7 +496,15 @@
       "blog-selenium-java-54"
     ],
     "status": "ongoing",
-    "createdAt": "25-Sep-2024"
+    "createdAt": "25-Sep-2024",
+    "posts": [
+      "blog-selenium-java-49",
+      "blog-selenium-java-50",
+      "blog-selenium-java-51",
+      "blog-selenium-java-52",
+      "blog-selenium-java-53",
+      "blog-selenium-java-54"
+    ]
   },
   {
     "id": "selenium-advanced-accessibility-testing",
@@ -355,7 +519,14 @@
       "blog-selenium-java-59"
     ],
     "status": "ongoing",
-    "createdAt": "15-Oct-2024"
+    "createdAt": "15-Oct-2024",
+    "posts": [
+      "blog-selenium-java-55",
+      "blog-selenium-java-56",
+      "blog-selenium-java-57",
+      "blog-selenium-java-58",
+      "blog-selenium-java-59"
+    ]
   },
   {
     "id": "selenium-python-foundations",
@@ -375,7 +546,19 @@
       "blog-selenium-python-10"
     ],
     "status": "ongoing",
-    "createdAt": "01-Nov-2024"
+    "createdAt": "01-Nov-2024",
+    "posts": [
+      "blog-selenium-python-1",
+      "blog-selenium-python-2",
+      "blog-selenium-python-3",
+      "blog-selenium-python-4",
+      "blog-selenium-python-5",
+      "blog-selenium-python-6",
+      "blog-selenium-python-7",
+      "blog-selenium-python-8",
+      "blog-selenium-python-9",
+      "blog-selenium-python-10"
+    ]
   },
   {
     "id": "selenium-python-core-ui-automation",
@@ -396,13 +579,35 @@
       "blog-selenium-python-21"
     ],
     "status": "In Progress",
-    "createdAt": "01-Dec-2024"
+    "createdAt": "01-Dec-2024",
+    "posts": [
+      "blog-selenium-python-11",
+      "blog-selenium-python-12",
+      "blog-selenium-python-13",
+      "blog-selenium-python-14",
+      "blog-selenium-python-15",
+      "blog-selenium-python-16",
+      "blog-selenium-python-17",
+      "blog-selenium-python-18",
+      "blog-selenium-python-19",
+      "blog-selenium-python-20",
+      "blog-selenium-python-21"
+    ]
   },
   {
     "id": "selenium-python-test-design",
     "title": "Selenium Python: Test Design & Architecture",
     "description": "Master advanced UI automation design patterns including Page Object Model, Data-Driven Testing, and custom Framework architecture in Python.",
     "articleIds": [
+      "blog-selenium-python-22",
+      "blog-selenium-python-23",
+      "blog-selenium-python-24",
+      "blog-selenium-python-25",
+      "blog-selenium-python-26",
+      "blog-selenium-python-27",
+      "blog-selenium-python-sp-1"
+    ],
+    "posts": [
       "blog-selenium-python-22",
       "blog-selenium-python-23",
       "blog-selenium-python-24",
@@ -424,6 +629,15 @@
       "blog-selenium-python-32",
       "blog-selenium-python-33",
       "blog-selenium-python-88"
+    ],
+    "posts": [
+      "blog-selenium-python-28",
+      "blog-selenium-python-29",
+      "blog-selenium-python-30",
+      "blog-selenium-python-31",
+      "blog-selenium-python-32",
+      "blog-selenium-python-33",
+      "blog-selenium-python-88"
     ]
   },
   {
@@ -431,6 +645,18 @@
     "title": "Python API Testing with Requests",
     "description": "Master backend automation in Python using the powerful Requests library. Learn how to validate JSON, handle OAuth, build data-driven suites, and integrate API testing with your Selenium framework.",
     "articleIds": [
+      "blog-selenium-python-34",
+      "blog-selenium-python-35",
+      "blog-selenium-python-36",
+      "blog-selenium-python-37",
+      "blog-selenium-python-38",
+      "blog-selenium-python-39",
+      "blog-selenium-python-40",
+      "blog-selenium-python-41",
+      "blog-selenium-python-42",
+      "blog-selenium-python-43"
+    ],
+    "posts": [
       "blog-selenium-python-34",
       "blog-selenium-python-35",
       "blog-selenium-python-36",
@@ -457,6 +683,17 @@
       "blog-selenium-python-50",
       "blog-selenium-python-51",
       "blog-selenium-python-89"
+    ],
+    "posts": [
+      "blog-selenium-python-44",
+      "blog-selenium-python-45",
+      "blog-selenium-python-46",
+      "blog-selenium-python-47",
+      "blog-selenium-python-48",
+      "blog-selenium-python-49",
+      "blog-selenium-python-50",
+      "blog-selenium-python-51",
+      "blog-selenium-python-89"
     ]
   },
   {
@@ -469,6 +706,13 @@
       "blog-selenium-python-54",
       "blog-selenium-python-55",
       "blog-selenium-python-56"
+    ],
+    "posts": [
+      "blog-selenium-python-52",
+      "blog-selenium-python-53",
+      "blog-selenium-python-54",
+      "blog-selenium-python-55",
+      "blog-selenium-python-56"
     ]
   },
   {
@@ -476,6 +720,14 @@
     "title": "Selenium Python Visual Testing",
     "description": "Learn how to detect CSS regressions and broken UI elements using pixel matching algorithms and AI visual testing tools.",
     "articleIds": [
+      "blog-selenium-python-57",
+      "blog-selenium-python-58",
+      "blog-selenium-python-59",
+      "blog-selenium-python-60",
+      "blog-selenium-python-61",
+      "blog-selenium-python-62"
+    ],
+    "posts": [
       "blog-selenium-python-57",
       "blog-selenium-python-58",
       "blog-selenium-python-59",
@@ -495,6 +747,14 @@
       "blog-selenium-python-66",
       "blog-selenium-python-67",
       "blog-selenium-python-68"
+    ],
+    "posts": [
+      "blog-selenium-python-63",
+      "blog-selenium-python-64",
+      "blog-selenium-python-65",
+      "blog-selenium-python-66",
+      "blog-selenium-python-67",
+      "blog-selenium-python-68"
     ]
   },
   {
@@ -502,6 +762,21 @@
     "title": "Selenium Python Behavior-Driven Development",
     "description": "Master Behavior-Driven Development (BDD) using Python! Learn Gherkin syntax, pytest-bdd, feature files, step definitions, and Data-Driven Scenario Outlines.",
     "articleIds": [
+      "blog-selenium-python-69",
+      "blog-selenium-python-70",
+      "blog-selenium-python-71",
+      "blog-selenium-python-72",
+      "blog-selenium-python-bdd-5",
+      "blog-selenium-python-bdd-6",
+      "blog-selenium-python-bdd-7",
+      "blog-selenium-python-bdd-8",
+      "blog-selenium-python-bdd-9",
+      "blog-selenium-python-bdd-10",
+      "blog-selenium-python-bdd-11",
+      "blog-selenium-python-bdd-12",
+      "blog-selenium-python-bdd-13"
+    ],
+    "posts": [
       "blog-selenium-python-69",
       "blog-selenium-python-70",
       "blog-selenium-python-71",
@@ -532,6 +807,18 @@
       "blog-selenium-python-ent-2",
       "blog-selenium-python-ent-3",
       "blog-selenium-python-ent-4"
+    ],
+    "posts": [
+      "blog-selenium-python-73",
+      "blog-selenium-python-74",
+      "blog-selenium-python-75",
+      "blog-selenium-python-76",
+      "blog-selenium-python-77",
+      "blog-selenium-python-78",
+      "blog-selenium-python-ent-1",
+      "blog-selenium-python-ent-2",
+      "blog-selenium-python-ent-3",
+      "blog-selenium-python-ent-4"
     ]
   },
   {
@@ -539,6 +826,13 @@
     "title": "Selenium Python Reporting & Observability",
     "description": "Transform automated test output into enterprise intelligence! Learn advanced Allure, pytest-html, custom metrics, and CI/CD dashboard integrations.",
     "articleIds": [
+      "blog-selenium-python-79",
+      "blog-selenium-python-80",
+      "blog-selenium-python-81",
+      "blog-selenium-python-82",
+      "blog-selenium-python-rep-5"
+    ],
+    "posts": [
       "blog-selenium-python-79",
       "blog-selenium-python-80",
       "blog-selenium-python-81",
@@ -553,6 +847,10 @@
     "articleIds": [
       "blog-selenium-python-83",
       "blog-selenium-python-84"
+    ],
+    "posts": [
+      "blog-selenium-python-83",
+      "blog-selenium-python-84"
     ]
   },
   {
@@ -560,6 +858,14 @@
     "title": "Selenium Python AI Automation",
     "description": "Welcome to the future of QA! Learn how to integrate Large Language Models (LLMs), LangChain, and autonomous AI Agents into your test automation framework to auto-generate code and self-heal broken locators.",
     "articleIds": [
+      "blog-selenium-python-85",
+      "blog-selenium-python-86",
+      "blog-selenium-python-87",
+      "blog-selenium-python-ai-1",
+      "blog-selenium-python-ai-2",
+      "blog-selenium-python-ai-3"
+    ],
+    "posts": [
       "blog-selenium-python-85",
       "blog-selenium-python-86",
       "blog-selenium-python-87",
@@ -581,6 +887,16 @@
       "blog-selenium-python-accessibility-6",
       "blog-selenium-python-accessibility-7",
       "blog-selenium-python-a11y-1"
+    ],
+    "posts": [
+      "blog-selenium-python-90",
+      "blog-selenium-python-accessibility-2",
+      "blog-selenium-python-accessibility-3",
+      "blog-selenium-python-accessibility-4",
+      "blog-selenium-python-accessibility-5",
+      "blog-selenium-python-accessibility-6",
+      "blog-selenium-python-accessibility-7",
+      "blog-selenium-python-a11y-1"
     ]
   },
   {
@@ -592,6 +908,12 @@
       "blog-selenium-java-bdd-2",
       "blog-selenium-java-bdd-3",
       "blog-selenium-java-bdd-4"
+    ],
+    "posts": [
+      "blog-selenium-java-bdd-1",
+      "blog-selenium-java-bdd-2",
+      "blog-selenium-java-bdd-3",
+      "blog-selenium-java-bdd-4"
     ]
   },
   {
@@ -599,6 +921,14 @@
     "title": "Selenium TypeScript Foundations",
     "description": "Master UI Automation using modern TypeScript. Learn how to configure Node.js, Jest, and Selenium WebDriver to build highly scalable enterprise frameworks.",
     "articleIds": [
+      "blog-selenium-ts-foundations-1",
+      "blog-selenium-ts-foundations-2",
+      "blog-selenium-ts-foundations-3",
+      "blog-selenium-ts-foundations-4",
+      "blog-selenium-ts-foundations-5",
+      "blog-selenium-ts-foundations-6"
+    ],
+    "posts": [
       "blog-selenium-ts-foundations-1",
       "blog-selenium-ts-foundations-2",
       "blog-selenium-ts-foundations-3",
@@ -623,6 +953,19 @@
       "blog-selenium-ts-core-9",
       "blog-selenium-ts-core-10",
       "blog-selenium-ts-core-11"
+    ],
+    "posts": [
+      "blog-selenium-ts-core-1",
+      "blog-selenium-ts-core-2",
+      "blog-selenium-ts-core-3",
+      "blog-selenium-ts-core-4",
+      "blog-selenium-ts-core-5",
+      "blog-selenium-ts-core-6",
+      "blog-selenium-ts-core-7",
+      "blog-selenium-ts-core-8",
+      "blog-selenium-ts-core-9",
+      "blog-selenium-ts-core-10",
+      "blog-selenium-ts-core-11"
     ]
   },
   {
@@ -636,6 +979,14 @@
       "blog-selenium-ts-arch-4",
       "blog-selenium-ts-arch-5",
       "blog-selenium-ts-arch-6"
+    ],
+    "posts": [
+      "blog-selenium-ts-arch-1",
+      "blog-selenium-ts-arch-2",
+      "blog-selenium-ts-arch-3",
+      "blog-selenium-ts-arch-4",
+      "blog-selenium-ts-arch-5",
+      "blog-selenium-ts-arch-6"
     ]
   },
   {
@@ -643,6 +994,14 @@
     "title": "TypeScript Framework Utilities & Configuration",
     "description": "Learn to scale your test automation framework by building reusable Utility classes, Environment Configuration Management, and robust Logging.",
     "articleIds": [
+      "blog-selenium-ts-phase4-1",
+      "blog-selenium-ts-phase4-2",
+      "blog-selenium-ts-phase4-3",
+      "blog-selenium-ts-phase4-4",
+      "blog-selenium-ts-phase4-5",
+      "blog-selenium-ts-phase4-6"
+    ],
+    "posts": [
       "blog-selenium-ts-phase4-1",
       "blog-selenium-ts-phase4-2",
       "blog-selenium-ts-phase4-3",
@@ -676,6 +1035,28 @@
       "blog-selenium-ts-phase6-12",
       "blog-selenium-ts-phase6-13",
       "blog-selenium-ts-phase6-14"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase5-1",
+      "blog-selenium-ts-phase5-2",
+      "blog-selenium-ts-phase5-3",
+      "blog-selenium-ts-phase5-4",
+      "blog-selenium-ts-phase5-5",
+      "blog-selenium-ts-phase5-6",
+      "blog-selenium-ts-phase6-1",
+      "blog-selenium-ts-phase6-2",
+      "blog-selenium-ts-phase6-3",
+      "blog-selenium-ts-phase6-4",
+      "blog-selenium-ts-phase6-5",
+      "blog-selenium-ts-phase6-6",
+      "blog-selenium-ts-phase6-7",
+      "blog-selenium-ts-phase6-8",
+      "blog-selenium-ts-phase6-9",
+      "blog-selenium-ts-phase6-10",
+      "blog-selenium-ts-phase6-11",
+      "blog-selenium-ts-phase6-12",
+      "blog-selenium-ts-phase6-13",
+      "blog-selenium-ts-phase6-14"
     ]
   },
   {
@@ -688,6 +1069,13 @@
       "blog-selenium-ts-phase7-3",
       "blog-selenium-ts-phase7-4",
       "blog-selenium-ts-phase7-5"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase7-1",
+      "blog-selenium-ts-phase7-2",
+      "blog-selenium-ts-phase7-3",
+      "blog-selenium-ts-phase7-4",
+      "blog-selenium-ts-phase7-5"
     ]
   },
   {
@@ -695,6 +1083,14 @@
     "title": "TypeScript Visual Automation Testing",
     "description": "Ensure pixel-perfect UI across all browsers by integrating Visual Regression Testing, Applitools Eyes, and Percy into your Selenium framework.",
     "articleIds": [
+      "blog-selenium-ts-phase8-1",
+      "blog-selenium-ts-phase8-2",
+      "blog-selenium-ts-phase8-3",
+      "blog-selenium-ts-phase8-4",
+      "blog-selenium-ts-phase8-5",
+      "blog-selenium-ts-phase8-6"
+    ],
+    "posts": [
       "blog-selenium-ts-phase8-1",
       "blog-selenium-ts-phase8-2",
       "blog-selenium-ts-phase8-3",
@@ -715,6 +1111,15 @@
       "blog-selenium-ts-phase9-5",
       "blog-selenium-ts-phase9-6",
       "blog-selenium-ts-phase9-7"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase9-1",
+      "blog-selenium-ts-phase9-2",
+      "blog-selenium-ts-phase9-3",
+      "blog-selenium-ts-phase9-4",
+      "blog-selenium-ts-phase9-5",
+      "blog-selenium-ts-phase9-6",
+      "blog-selenium-ts-phase9-7"
     ]
   },
   {
@@ -725,13 +1130,25 @@
       "blog-selenium-ts-phase10-1",
       "blog-selenium-ts-phase10-2",
       "blog-selenium-ts-phase10-3",
-      "blog-selenium-ts-phase10-scenario-outlines",
       "blog-selenium-ts-phase10-4",
       "blog-selenium-ts-phase10-5",
       "blog-selenium-ts-phase10-6",
       "blog-selenium-ts-phase10-7",
       "blog-selenium-ts-phase10-8",
-      "blog-selenium-ts-phase10-9"
+      "blog-selenium-ts-phase10-9",
+      "blog-selenium-ts-phase10-scenario-outlines"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase10-1",
+      "blog-selenium-ts-phase10-2",
+      "blog-selenium-ts-phase10-3",
+      "blog-selenium-ts-phase10-4",
+      "blog-selenium-ts-phase10-5",
+      "blog-selenium-ts-phase10-6",
+      "blog-selenium-ts-phase10-7",
+      "blog-selenium-ts-phase10-8",
+      "blog-selenium-ts-phase10-9",
+      "blog-selenium-ts-phase10-scenario-outlines"
     ]
   },
   {
@@ -739,7 +1156,16 @@
     "title": "TypeScript CI/CD & DevOps Integration",
     "description": "Take your Selenium automation to the cloud! Learn to build robust Continuous Integration pipelines using GitHub Actions, manage secrets, and execute cross-browser testing inside Docker containers.",
     "articleIds": [
-      "blog-selenium-ts-phase11-1",
+      "blog-selenium-ts-phase11-2",
+      "blog-selenium-ts-phase11-3",
+      "blog-selenium-ts-phase11-4",
+      "blog-selenium-ts-phase11-5",
+      "blog-selenium-ts-phase11-6",
+      "blog-selenium-ts-phase11-7",
+      "blog-selenium-ts-phase11-8",
+      "blog-selenium-ts-phase11-9"
+    ],
+    "posts": [
       "blog-selenium-ts-phase11-2",
       "blog-selenium-ts-phase11-3",
       "blog-selenium-ts-phase11-4",
@@ -763,6 +1189,16 @@
       "blog-selenium-ts-phase12-6",
       "blog-selenium-ts-phase12-7",
       "blog-selenium-ts-phase12-8"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase12-1",
+      "blog-selenium-ts-phase12-2",
+      "blog-selenium-ts-phase12-3",
+      "blog-selenium-ts-phase12-4",
+      "blog-selenium-ts-phase12-5",
+      "blog-selenium-ts-phase12-6",
+      "blog-selenium-ts-phase12-7",
+      "blog-selenium-ts-phase12-8"
     ]
   },
   {
@@ -770,6 +1206,12 @@
     "title": "TypeScript QA Observability & Enterprise Monitoring",
     "description": "Gain real-time visibility into your test automation framework. Master APM integrations, log aggregation strategies, and design highly scalable observability architectures for your CI/CD pipelines.",
     "articleIds": [
+      "blog-selenium-ts-phase13-1",
+      "blog-selenium-ts-phase13-2",
+      "blog-selenium-ts-phase13-3",
+      "blog-selenium-ts-phase13-4"
+    ],
+    "posts": [
       "blog-selenium-ts-phase13-1",
       "blog-selenium-ts-phase13-2",
       "blog-selenium-ts-phase13-3",
@@ -789,6 +1231,16 @@
       "blog-selenium-ts-phase14-6",
       "blog-selenium-ts-phase14-7",
       "blog-selenium-ts-phase14-8"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase14-1",
+      "blog-selenium-ts-phase14-2",
+      "blog-selenium-ts-phase14-3",
+      "blog-selenium-ts-phase14-4",
+      "blog-selenium-ts-phase14-5",
+      "blog-selenium-ts-phase14-6",
+      "blog-selenium-ts-phase14-7",
+      "blog-selenium-ts-phase14-8"
     ]
   },
   {
@@ -796,6 +1248,14 @@
     "title": "TypeScript QA AI & Autonomous Agents",
     "description": "The final frontier. Master Prompt Engineering, implement AI-driven Self-Healing locators, and build fully Autonomous Testing Agents using LangChain and MCP integration.",
     "articleIds": [
+      "blog-selenium-ts-phase15-1",
+      "blog-selenium-ts-phase15-2",
+      "blog-selenium-ts-phase15-3",
+      "blog-selenium-ts-phase15-4",
+      "blog-selenium-ts-phase15-5",
+      "blog-selenium-ts-phase15-6"
+    ],
+    "posts": [
       "blog-selenium-ts-phase15-1",
       "blog-selenium-ts-phase15-2",
       "blog-selenium-ts-phase15-3",
@@ -819,6 +1279,18 @@
       "blog-selenium-ts-phase16-8",
       "blog-selenium-ts-phase16-9",
       "blog-selenium-ts-phase16-10"
+    ],
+    "posts": [
+      "blog-selenium-ts-phase11-1",
+      "blog-selenium-ts-phase16-2",
+      "blog-selenium-ts-phase16-3",
+      "blog-selenium-ts-phase16-4",
+      "blog-selenium-ts-phase16-5",
+      "blog-selenium-ts-phase16-6",
+      "blog-selenium-ts-phase16-7",
+      "blog-selenium-ts-phase16-8",
+      "blog-selenium-ts-phase16-9",
+      "blog-selenium-ts-phase16-10"
     ]
   },
   {
@@ -830,6 +1302,12 @@
       "blog-selenium-python-analytics-2",
       "blog-selenium-python-analytics-3",
       "blog-selenium-python-analytics-4"
+    ],
+    "posts": [
+      "blog-selenium-python-analytics-1",
+      "blog-selenium-python-analytics-2",
+      "blog-selenium-python-analytics-3",
+      "blog-selenium-python-analytics-4"
     ]
   },
   {
@@ -837,6 +1315,12 @@
     "title": "Python QA Observability",
     "description": "Integrating Pytest with APM tools like Datadog and Log Aggregation.",
     "articleIds": [
+      "blog-selenium-python-obs-1",
+      "blog-selenium-python-obs-2",
+      "blog-selenium-python-obs-3",
+      "blog-selenium-python-obs-4"
+    ],
+    "posts": [
       "blog-selenium-python-obs-1",
       "blog-selenium-python-obs-2",
       "blog-selenium-python-obs-3",
@@ -853,6 +1337,13 @@
       "blog-selenium-java-security-3",
       "blog-selenium-java-security-4",
       "blog-selenium-java-security-5"
+    ],
+    "posts": [
+      "blog-selenium-java-security-1",
+      "blog-selenium-java-security-2",
+      "blog-selenium-java-security-3",
+      "blog-selenium-java-security-4",
+      "blog-selenium-java-security-5"
     ]
   },
   {
@@ -860,6 +1351,14 @@
     "title": "Selenium Java Visual Testing",
     "description": "Learn how to detect CSS rendering bugs and perform pixel-perfect AI image comparisons in Java.",
     "articleIds": [
+      "blog-selenium-java-visual-1",
+      "blog-selenium-java-visual-2",
+      "blog-selenium-java-visual-3",
+      "blog-selenium-java-visual-4",
+      "blog-selenium-java-visual-5",
+      "blog-selenium-java-visual-6"
+    ],
+    "posts": [
       "blog-selenium-java-visual-1",
       "blog-selenium-java-visual-2",
       "blog-selenium-java-visual-3",
@@ -881,6 +1380,16 @@
       "blog-selenium-java-a11y-6",
       "blog-selenium-java-a11y-7",
       "blog-selenium-java-a11y-8"
+    ],
+    "posts": [
+      "blog-selenium-java-a11y-1",
+      "blog-selenium-java-a11y-2",
+      "blog-selenium-java-a11y-3",
+      "blog-selenium-java-a11y-4",
+      "blog-selenium-java-a11y-5",
+      "blog-selenium-java-a11y-6",
+      "blog-selenium-java-a11y-7",
+      "blog-selenium-java-a11y-8"
     ]
   },
   {
@@ -894,6 +1403,14 @@
       "blog-selenium-java-db-4",
       "blog-selenium-java-db-5",
       "blog-selenium-java-db-6"
+    ],
+    "posts": [
+      "blog-selenium-java-db-1",
+      "blog-selenium-java-db-2",
+      "blog-selenium-java-db-3",
+      "blog-selenium-java-db-4",
+      "blog-selenium-java-db-5",
+      "blog-selenium-java-db-6"
     ]
   },
   {
@@ -901,6 +1418,12 @@
     "title": "Selenium Java Enterprise File & Event Validation",
     "description": "Go beyond the browser. Learn how to automate Email inboxes, parse PDF documents, and validate Excel files directly within your Selenium framework.",
     "articleIds": [
+      "blog-selenium-java-validation-1",
+      "blog-selenium-java-validation-2",
+      "blog-selenium-java-validation-3",
+      "blog-selenium-java-validation-4"
+    ],
+    "posts": [
       "blog-selenium-java-validation-1",
       "blog-selenium-java-validation-2",
       "blog-selenium-java-validation-3",
@@ -920,6 +1443,16 @@
       "blog-selenium-java-reporting-6",
       "blog-selenium-java-reporting-7",
       "blog-selenium-java-reporting-8"
+    ],
+    "posts": [
+      "blog-selenium-java-reporting-1",
+      "blog-selenium-java-reporting-2",
+      "blog-selenium-java-reporting-3",
+      "blog-selenium-java-reporting-4",
+      "blog-selenium-java-reporting-5",
+      "blog-selenium-java-reporting-6",
+      "blog-selenium-java-reporting-7",
+      "blog-selenium-java-reporting-8"
     ]
   },
   {
@@ -927,6 +1460,12 @@
     "title": "Selenium Java Cloud & CI/CD",
     "description": "Deploy your automation framework to the enterprise. Master Slack alerting, Datadog monitoring, Docker Grid, and Jenkins pipelines.",
     "articleIds": [
+      "blog-selenium-java-cicd-1",
+      "blog-selenium-java-cicd-2",
+      "blog-selenium-java-cicd-3",
+      "blog-selenium-java-cicd-4"
+    ],
+    "posts": [
       "blog-selenium-java-cicd-1",
       "blog-selenium-java-cicd-2",
       "blog-selenium-java-cicd-3",
@@ -946,6 +1485,16 @@
       "blog-selenium-java-cicd-10",
       "blog-selenium-java-cicd-11",
       "blog-selenium-java-cicd-12"
+    ],
+    "posts": [
+      "blog-selenium-java-cicd-5",
+      "blog-selenium-java-cicd-6",
+      "blog-selenium-java-cicd-7",
+      "blog-selenium-java-cicd-8",
+      "blog-selenium-java-cicd-9",
+      "blog-selenium-java-cicd-10",
+      "blog-selenium-java-cicd-11",
+      "blog-selenium-java-cicd-12"
     ]
   },
   {
@@ -953,6 +1502,14 @@
     "title": "Selenium Java AI in Automation",
     "description": "Step into the future. Learn how to use Large Language Models, AI Test Generation, Auto-healing Locators, and Autonomous Agents in Java.",
     "articleIds": [
+      "blog-selenium-java-ai-1",
+      "blog-selenium-java-ai-2",
+      "blog-selenium-java-ai-3",
+      "blog-selenium-java-ai-4",
+      "blog-selenium-java-ai-5",
+      "blog-selenium-java-ai-6"
+    ],
+    "posts": [
       "blog-selenium-java-ai-1",
       "blog-selenium-java-ai-2",
       "blog-selenium-java-ai-3",
@@ -982,48 +1539,79 @@
       "name": "Pankaj Kumar",
       "role": "Automation Architect",
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    }
+    },
+    "posts": [
+      "post-462",
+      "post-463",
+      "post-464",
+      "post-465",
+      "post-466",
+      "post-467",
+      "post-468",
+      "post-469",
+      "post-470",
+      "post-471"
+    ]
   },
   {
     "id": "selenium-csharp-test-frameworks",
     "title": "Selenium C# Test Frameworks",
     "description": "Structure your test automation with NUnit. Master assertions, Test Fixtures, and Data-Driven Testing (DDT) using Excel and JSON.",
     "articleIds": [
-      "post-472",
-      "post-473",
+      "post-475",
       "post-474",
-      "post-475"
+      "post-472",
+      "post-473"
     ],
     "author": "pankaj-kumar",
     "authorDetails": {
       "name": "Pankaj Kumar",
       "role": "Automation Architect",
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    }
+    },
+    "posts": [
+      "post-475",
+      "post-474",
+      "post-472",
+      "post-473"
+    ]
   },
   {
     "id": "selenium-csharp-framework-design",
     "title": "Selenium C# Framework Design",
     "description": "Build Enterprise-grade automation frameworks. Learn the Page Object Model (POM), Fluent Method Chaining, and reusable components.",
     "articleIds": [
-      "post-476",
-      "post-477",
-      "post-478",
-      "post-479",
-      "post-480",
-      "post-481",
-      "post-482",
-      "post-483",
-      "post-484",
+      "post-486",
       "post-485",
-      "post-486"
+      "post-484",
+      "post-483",
+      "post-482",
+      "post-481",
+      "post-480",
+      "post-479",
+      "post-478",
+      "post-477",
+      "post-476"
     ],
     "author": "pankaj-kumar",
     "authorDetails": {
       "name": "Pankaj Kumar",
       "role": "Automation Architect",
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    }
+    },
+    "posts": [
+      "post-486",
+      "post-485",
+      "post-484",
+      "post-483",
+      "post-482",
+      "post-481",
+      "post-480",
+      "post-479",
+      "post-478",
+      "post-477",
+      "post-476"
+    ]
   },
   {
     "id": "selenium-csharp-bdd-reqnroll",
@@ -1037,10 +1625,16 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "articleIds": [
-      "post-487",
-      "post-488",
+      "post-490",
       "post-489",
-      "post-490"
+      "post-488",
+      "post-487"
+    ],
+    "posts": [
+      "post-490",
+      "post-489",
+      "post-488",
+      "post-487"
     ]
   },
   {
@@ -1055,12 +1649,20 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "articleIds": [
-      "post-491",
-      "post-492",
-      "post-493",
-      "post-494",
+      "post-496",
       "post-495",
-      "post-496"
+      "post-494",
+      "post-493",
+      "post-492",
+      "post-491"
+    ],
+    "posts": [
+      "post-496",
+      "post-495",
+      "post-494",
+      "post-493",
+      "post-492",
+      "post-491"
     ]
   },
   {
@@ -1072,7 +1674,10 @@
       "blog-6"
     ],
     "status": "ongoing",
-    "createdAt": "2026-06-21"
+    "createdAt": "2026-06-21",
+    "posts": [
+      "blog-6"
+    ]
   },
   {
     "id": "selenium-kotlin-zero-to-automation",
@@ -1086,14 +1691,38 @@
       "Automation"
     ],
     "articleIds": [
-      "post-497",
-      "post-498",
-      "post-499",
-      "post-500",
-      "post-501",
-      "post-502",
-      "post-503",
       "post-504",
+      "post-503",
+      "post-502",
+      "post-501",
+      "post-500",
+      "post-499",
+      "post-498",
+      "post-497",
+      "post-505",
+      "post-506",
+      "post-507",
+      "post-508",
+      "post-509",
+      "post-511",
+      "post-512",
+      "post-513",
+      "post-514",
+      "post-515",
+      "post-516",
+      "post-517",
+      "post-518",
+      "post-519"
+    ],
+    "posts": [
+      "post-504",
+      "post-503",
+      "post-502",
+      "post-501",
+      "post-500",
+      "post-499",
+      "post-498",
+      "post-497",
       "post-505",
       "post-506",
       "post-507",
@@ -1128,6 +1757,13 @@
       "post-522",
       "post-523",
       "post-524"
+    ],
+    "posts": [
+      "post-520",
+      "post-521",
+      "post-522",
+      "post-523",
+      "post-524"
     ]
   },
   {
@@ -1144,6 +1780,15 @@
       "CI/CD"
     ],
     "articleIds": [
+      "post-525",
+      "post-526",
+      "post-527",
+      "post-528",
+      "post-529",
+      "post-530",
+      "post-531"
+    ],
+    "posts": [
       "post-525",
       "post-526",
       "post-527",
@@ -1169,6 +1814,18 @@
       "post-539",
       "post-540",
       "post-541"
+    ],
+    "posts": [
+      "post-532",
+      "post-533",
+      "post-534",
+      "post-535",
+      "post-536",
+      "post-537",
+      "post-538",
+      "post-539",
+      "post-540",
+      "post-541"
     ]
   },
   {
@@ -1177,6 +1834,17 @@
     "description": "Transition from basic scripts to robust, architecturally sound test automation frameworks using Page Object Models and RSpec hooks.",
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
     "articleIds": [
+      "post-542",
+      "post-543",
+      "post-544",
+      "post-545",
+      "post-546",
+      "post-547",
+      "post-548",
+      "post-549",
+      "post-550"
+    ],
+    "posts": [
       "post-542",
       "post-543",
       "post-544",
@@ -1210,6 +1878,24 @@
       "post-564",
       "post-565",
       "post-566"
+    ],
+    "posts": [
+      "post-551",
+      "post-552",
+      "post-553",
+      "post-554",
+      "post-555",
+      "post-556",
+      "post-557",
+      "post-558",
+      "post-559",
+      "post-560",
+      "post-561",
+      "post-562",
+      "post-563",
+      "post-564",
+      "post-565",
+      "post-566"
     ]
   },
   {
@@ -1227,7 +1913,18 @@
       "post-608",
       "post-609"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-601",
+      "post-602",
+      "post-603",
+      "post-604",
+      "post-605",
+      "post-606",
+      "post-607",
+      "post-608",
+      "post-609"
+    ]
   },
   {
     "id": "playwright-typescript-core-ui",
@@ -1248,7 +1945,22 @@
       "post-621",
       "post-627"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-610",
+      "post-611",
+      "post-612",
+      "post-613",
+      "post-614",
+      "post-615",
+      "post-616",
+      "post-617",
+      "post-618",
+      "post-619",
+      "post-620",
+      "post-621",
+      "post-627"
+    ]
   },
   {
     "id": "playwright-typescript-test-design",
@@ -1259,7 +1971,12 @@
       "post-623",
       "post-624"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-622",
+      "post-623",
+      "post-624"
+    ]
   },
   {
     "id": "playwright-typescript-framework",
@@ -1273,7 +1990,15 @@
       "post-634",
       "post-635"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-629",
+      "post-630",
+      "post-631",
+      "post-633",
+      "post-634",
+      "post-635"
+    ]
   },
   {
     "id": "playwright-typescript-api-testing",
@@ -1291,7 +2016,19 @@
       "post-642",
       "post-643"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-625",
+      "post-626",
+      "post-636",
+      "post-637",
+      "post-638",
+      "post-639",
+      "post-640",
+      "post-641",
+      "post-642",
+      "post-643"
+    ]
   },
   {
     "id": "playwright-typescript-visual-testing",
@@ -1310,7 +2047,20 @@
       "post-662",
       "post-663"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-628",
+      "post-648",
+      "post-649",
+      "post-650",
+      "post-651",
+      "post-652",
+      "post-653",
+      "post-660",
+      "post-661",
+      "post-662",
+      "post-663"
+    ]
   },
   {
     "id": "playwright-typescript-database-testing",
@@ -1322,7 +2072,13 @@
       "post-646",
       "post-647"
     ],
-    "status": "completed"
+    "status": "completed",
+    "posts": [
+      "post-644",
+      "post-645",
+      "post-646",
+      "post-647"
+    ]
   },
   {
     "id": "playwright-typescript-advanced-contexts",
@@ -1335,10 +2091,18 @@
       "post-656",
       "post-657",
       "post-658",
-      "blog-9"
+      "post-659"
     ],
     "status": "ongoing",
-    "createdAt": "05-Apr-2025"
+    "createdAt": "05-Apr-2025",
+    "posts": [
+      "post-654",
+      "post-655",
+      "post-656",
+      "post-657",
+      "post-658",
+      "post-659"
+    ]
   },
   {
     "id": "playwright-typescript-accessibility",
@@ -1346,6 +2110,15 @@
     "slug": "accessibility-testing-playwright-typescript",
     "description": "Learn how to build inclusive web applications by adding automated accessibility testing into your Playwright framework.",
     "articleIds": [
+      "post-664",
+      "post-665",
+      "post-666",
+      "post-667",
+      "post-668",
+      "post-669",
+      "post-670"
+    ],
+    "posts": [
       "post-664",
       "post-665",
       "post-666",
@@ -1370,6 +2143,18 @@
       "post-678",
       "post-679",
       "post-680"
+    ],
+    "posts": [
+      "post-671",
+      "post-672",
+      "post-673",
+      "post-674",
+      "post-675",
+      "post-676",
+      "post-677",
+      "post-678",
+      "post-679",
+      "post-680"
     ]
   },
   {
@@ -1377,6 +2162,18 @@
     "title": "Playwright TypeScript Enterprise Validation",
     "description": "Master enterprise-level automation strategies including robust database testing, dynamic environment configurations, and external integrations.",
     "articleIds": [
+      "post-681",
+      "post-682",
+      "post-683",
+      "post-684",
+      "post-685",
+      "post-686",
+      "post-687",
+      "post-688",
+      "post-689",
+      "post-690"
+    ],
+    "posts": [
       "post-681",
       "post-682",
       "post-683",
@@ -1414,7 +2211,17 @@
       "post-698"
     ],
     "createdAt": "06-May-2025",
-    "updatedAt": "06-May-2025"
+    "updatedAt": "06-May-2025",
+    "posts": [
+      "post-691",
+      "post-692",
+      "post-693",
+      "post-694",
+      "post-695",
+      "post-696",
+      "post-697",
+      "post-698"
+    ]
   },
   {
     "id": "playwright-typescript-ci-cd-cloud",
@@ -1437,7 +2244,13 @@
       "post-702"
     ],
     "createdAt": "14-May-2025",
-    "updatedAt": "14-May-2025"
+    "updatedAt": "14-May-2025",
+    "posts": [
+      "post-699",
+      "post-700",
+      "post-701",
+      "post-702"
+    ]
   },
   {
     "id": "playwright-typescript-docker-scaling",
@@ -1463,7 +2276,16 @@
       "post-709"
     ],
     "createdAt": "18-May-2025",
-    "updatedAt": "18-May-2025"
+    "updatedAt": "18-May-2025",
+    "posts": [
+      "post-703",
+      "post-704",
+      "post-705",
+      "post-706",
+      "post-707",
+      "post-708",
+      "post-709"
+    ]
   },
   {
     "id": "playwright-typescript-ai",
@@ -1477,6 +2299,14 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "articleIds": [
+      "post-710",
+      "post-711",
+      "post-712",
+      "post-713",
+      "post-714",
+      "post-715"
+    ],
+    "posts": [
       "post-710",
       "post-711",
       "post-712",
@@ -1497,6 +2327,11 @@
       "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
     },
     "articleIds": [
+      "post-716",
+      "post-717",
+      "post-718"
+    ],
+    "posts": [
       "post-716",
       "post-717",
       "post-718"
