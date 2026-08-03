@@ -41,19 +41,19 @@ class Actor:
     def __init__(self, name):
         self.name = name
         self.abilities = {}
-        
+# ---
     def can(self, ability):
         self.abilities[type(ability)] = ability
         return self
-        
+# ---
     def attempts_to(self, *tasks):
         for task in tasks:
             task.perform_as(self)
- 
+# ---
 class BrowseTheWeb:
     def __init__(self, driver):
         self.driver = driver
-        
+# ---
     @staticmethod
     def as_actor(actor):
         return actor.abilities[BrowseTheWeb]
