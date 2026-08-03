@@ -34,7 +34,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to capture visual evidence of test failures using Selenium's TakesScreenshot interface, including full-page and specific element captures."
   },
   {
     "id": "post-503",
@@ -71,7 +73,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to bypass native OS dialogs to seamlessly upload files and manage automated downloads using Kotlin and Selenium."
   },
   {
     "id": "post-502",
@@ -109,7 +113,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Navigate multiple browser tabs and deeply nested iFrames flawlessly using Kotlin's expressive collection filters and WebDriver's context switching."
   },
   {
     "id": "post-501",
@@ -146,7 +152,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to interact with browser alerts and inject raw Javascript into the page using Kotlin's smart casting and extension functions."
   },
   {
     "id": "post-500",
@@ -183,7 +191,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Eliminate flaky tests by replacing Thread.sleep() with robust WebDriverWait strategies, enhanced by Kotlin Extension functions for maximum readability."
   },
   {
     "id": "post-499",
@@ -221,7 +231,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master standard dropdowns using the Selenium Select class and leverage Kotlin's powerful Collection API to handle multiple checkboxes with ease!"
   },
   {
     "id": "post-498",
@@ -258,7 +270,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Discover how Kotlin's extension functions and idiomatic syntax can dramatically reduce boilerplate when locating and interacting with WebElements!"
   },
   {
     "id": "post-497",
@@ -295,7 +309,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Start your journey into modern Test Automation by setting up Selenium WebDriver with Kotlin, Maven, and the Kotest framework!"
   },
   {
     "id": "post-496",
@@ -335,7 +351,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "A final look at where the Test Automation industry is heading. How the convergence of C#, Selenium, and Large Language Models is changing the landscape forever."
   },
   {
     "id": "post-495",
@@ -374,7 +392,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to build a conversational AI Test Assistant in C# using Semantic Kernel's ChatHistory to answer QA questions, generate test cases, and explain code!"
   },
   {
     "id": "post-494",
@@ -413,7 +433,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Stop digging through massive stack traces! Learn how to use AI to automatically summarize C# Selenium test failures into clear, human-readable English."
   },
   {
     "id": "post-493",
@@ -453,7 +475,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Discover the holy grail of test automation: Self-Healing tests! Learn how to use Semantic Kernel to automatically find new XPaths when the UI changes."
   },
   {
     "id": "post-492",
@@ -492,7 +516,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Escape the limitations of static test data! Learn how to use Semantic Kernel and OpenAI to generate thousands of dynamic, edge-case testing permutations on the fly."
   },
   {
     "id": "post-491",
@@ -532,7 +558,9 @@
     "series": "ai-powered-testing-semantic-kernel",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Welcome to the future of testing! Learn how to integrate Large Language Models (LLMs) into your C# Selenium framework using Microsoft's Semantic Kernel."
   },
   {
     "id": "post-490",
@@ -573,7 +601,9 @@
     "series": "selenium-csharp-bdd-reqnroll",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to orchestrate complex BDD test suites by categorizing tests with Tags and executing precise setup logic using Reqnroll Hooks."
   },
   {
     "id": "post-489",
@@ -613,7 +643,9 @@
     "series": "selenium-csharp-bdd-reqnroll",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master data-driven testing in Behavior-Driven Development! Learn how to use Scenario Outlines and Data Tables to pass complex data into your Reqnroll C# steps."
   },
   {
     "id": "post-488",
@@ -653,7 +685,9 @@
     "series": "selenium-csharp-bdd-reqnroll",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to bridge the gap between English Gherkin files and C# Selenium code using Reqnroll Step Definitions and powerful Context Injection."
   },
   {
     "id": "post-487",
@@ -693,7 +727,9 @@
     "series": "selenium-csharp-bdd-reqnroll",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to integrate BDD into your Selenium C# Framework using Reqnroll, the modern, official successor to SpecFlow, and write your first Gherkin Feature File."
   },
   {
     "id": "post-486",
@@ -731,7 +767,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Take your framework to the cloud! Learn how to configure GitHub Actions to automatically run your entire Selenium C# test suite whenever developers push new code."
   },
   {
     "id": "post-485",
@@ -769,7 +807,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to perform Data-Driven Testing by reading credentials from an Excel file (.xlsx) using the powerful EPPlus NuGet package in C#."
   },
   {
     "id": "post-484",
@@ -807,7 +847,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to automatically capture screenshots when a Selenium C# test fails and embed them directly into your ExtentReports HTML dashboard for immediate visual debugging."
   },
   {
     "id": "post-483",
@@ -845,7 +887,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to integrate ExtentReports into your Selenium C# framework to generate beautiful, interactive HTML dashboards for your automation runs."
   },
   {
     "id": "post-482",
@@ -882,7 +926,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Eliminate boilerplate code from your test classes by building a robust BaseTest class that handles Browser Factory initialization and Teardown automatically."
   },
   {
     "id": "post-481",
@@ -919,7 +965,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to build a Global Configuration Manager in C# using Microsoft.Extensions.Configuration to dynamically read environment variables and URLs."
   },
   {
     "id": "post-480",
@@ -957,7 +1005,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Stop hardcoding ChromeDriver! Learn how to implement the Factory Design Pattern to dynamically launch Chrome, Firefox, or Edge based on configuration."
   },
   {
     "id": "post-479",
@@ -995,7 +1045,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Evolve your Selenium C# framework by breaking down Page Objects into reusable UI Components (like Navbars and Footers) using the Component Object Model."
   },
   {
     "id": "post-478",
@@ -1033,7 +1085,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master synchronization in your Selenium C# Page Object Model using WebDriverWait and Fluent Waits to eliminate flaky tests."
   },
   {
     "id": "post-477",
@@ -1071,7 +1125,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Take your Selenium C# Page Object Model to the next level by implementing the Fluent Design Pattern for elegant, readable method chaining."
   },
   {
     "id": "post-476",
@@ -1109,7 +1165,9 @@
     "series": "selenium-csharp-framework-design",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to structure your Selenium C# test automation framework using the Page Object Model (POM) design pattern for maximum reusability and maintenance."
   },
   {
     "id": "post-475",
@@ -1148,7 +1206,9 @@
     "series": "selenium-csharp-test-frameworks",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to implement Data-Driven Testing (DDT) in Selenium C# by reading JSON files using the native System.Text.Json library."
   },
   {
     "id": "post-474",
@@ -1187,7 +1247,9 @@
     "series": "selenium-csharp-test-frameworks",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to implement Data-Driven Testing (DDT) in Selenium C# using NUnit's TestCaseSource and EPPlus to read test data dynamically from an Excel file."
   },
   {
     "id": "post-462",
@@ -19101,7 +19163,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master Selenium C# locators. Learn how to locate web elements using By.Id, By.Name, By.CssSelector, and By.XPath with real-world examples."
   },
   {
     "id": "post-464",
@@ -19139,7 +19203,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn the core interactions in Selenium C#. Master the use of .Click(), .SendKeys(), and .Clear() to interact with web forms, buttons, and text fields."
   },
   {
     "id": "post-465",
@@ -19176,7 +19242,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master dropdown interactions in Selenium C#. Learn how to use the SelectElement class to select options by text, value, and index, including multi-select dropdowns."
   },
   {
     "id": "post-466",
@@ -19213,7 +19281,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to expertly handle checkboxes and radio buttons in Selenium C#. Understand how to use the .Selected property to verify state before clicking."
   },
   {
     "id": "post-467",
@@ -19251,7 +19321,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master Selenium C# synchronization. Learn the vital differences between Implicit Wait and Explicit Wait (WebDriverWait) to build stable, flake-free automation scripts."
   },
   {
     "id": "post-468",
@@ -19288,7 +19360,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master Javascript Alerts, Confirms, and Prompts using Selenium C#. Learn how to use driver.SwitchTo().Alert() to read text, accept, dismiss, and send keys."
   },
   {
     "id": "post-469",
@@ -19325,7 +19399,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master multi-window automation in Selenium C#. Learn how to handle multiple browser tabs, navigate between them using WindowHandles, and safely close active tabs."
   },
   {
     "id": "post-470",
@@ -19362,7 +19438,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to master HTML iFrames in Selenium C#. Understand how to switch into an iframe, interact with elements, and safely return to the default content."
   },
   {
     "id": "post-471",
@@ -19400,7 +19478,9 @@
     "series": "selenium-csharp-fundamentals",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Master complex interactions in Selenium C# using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining."
   },
   {
     "id": "post-472",
@@ -19438,7 +19518,9 @@
     "series": "selenium-csharp-test-frameworks",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to structure and run your Selenium C# tests using the NUnit framework. Covers installation and core attributes like [TestFixture], [SetUp], [Test], and [TearDown]."
   },
   {
     "id": "post-473",
@@ -19476,7 +19558,9 @@
     "series": "selenium-csharp-test-frameworks",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium C#",
+    "excerpt": "Learn how to write robust validations in your Selenium scripts using the modern NUnit constraint model."
   },
   {
     "title": "Advanced Interactions using Action Chains in Selenium Kotlin",
@@ -19514,7 +19598,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master complex interactions in Selenium Kotlin using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining."
   },
   {
     "id": "blog-6",
@@ -19588,7 +19674,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Take your Selenium tests to the enterprise level. Learn how to implement Data-Driven Testing (DDT) using Kotlin Data Classes to run the same test across multiple datasets automatically."
   },
   {
     "id": "post-507",
@@ -19625,7 +19713,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Keep your test code clean and strictly separated from your test data. Learn how to parse JSON payloads directly into Kotlin Data Classes using Jackson."
   },
   {
     "id": "post-508",
@@ -19662,7 +19752,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Discover how Kotlin's concise syntax, primary constructors, and properties make implementing the Page Object Model design pattern cleaner and more efficient than ever before."
   },
   {
     "id": "post-509",
@@ -19699,7 +19791,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 13,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Discover why Selenium's PageFactory is outdated for modern SPAs, and learn how to use Kotlin's built-in lazy evaluation to create robust, dynamic locators."
   },
   {
     "id": "post-511",
@@ -19736,7 +19830,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 15,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Ditch the flaky Thread.sleep() and Implicit Waits! Learn how to build highly readable Explicit and Fluent Waits using powerful Kotlin Extension Functions."
   },
   {
     "id": "post-512",
@@ -19773,7 +19869,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 16,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "A comprehensive guide on switching context in Selenium. Learn how to handle embedded Iframes and multi-tab workflows seamlessly using Kotlin Extensions."
   },
   {
     "id": "post-513",
@@ -19810,7 +19908,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 17,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Bypass UI limitations, force-click hidden elements, and extract internal DOM state using the JavascriptExecutor interface mapped seamlessly to Kotlin Extension Functions."
   },
   {
     "id": "post-514",
@@ -19848,7 +19948,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 18,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Prepare your Selenium Kotlin framework for enterprise CI/CD environments like Jenkins and GitHub Actions by mastering Headless execution and Sandbox bypasses."
   },
   {
     "id": "post-515",
@@ -19884,7 +19986,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 19,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master file handling in Selenium Kotlin by learning how to seamlessly upload files using sendKeys and download files by configuring ChromeOptions."
   },
   {
     "id": "post-516",
@@ -19920,7 +20024,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 20,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to capture crucial visual evidence during automation. This post covers full-page and element-level screenshots using Selenium Kotlin."
   },
   {
     "id": "post-517",
@@ -19957,7 +20063,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 21,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Take control of complex user interactions in Selenium Kotlin by mastering the Actions class to perform mouse hovers and drag-and-drop operations."
   },
   {
     "id": "post-518",
@@ -19994,7 +20102,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 22,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Overcome NoSuchElementException issues by mastering iFrame context switching in Selenium Kotlin. Learn how to navigate nested frame hierarchies effortlessly."
   },
   {
     "id": "post-519",
@@ -20031,7 +20141,9 @@
     "series": "selenium-kotlin-zero-to-automation",
     "seriesOrder": 23,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master window handles in Selenium Kotlin to seamlessly switch between multiple browser tabs and windows during automated testing."
   },
   {
     "id": "post-520",
@@ -20068,7 +20180,9 @@
     "series": "selenium-framework-design-and-patterns-in-kotlin",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Transition from messy, unmaintainable scripts to scalable architecture. Learn how to implement the Page Object Model (POM) design pattern in Selenium Kotlin."
   },
   {
     "id": "post-521",
@@ -20105,7 +20219,9 @@
     "series": "selenium-framework-design-and-patterns-in-kotlin",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to implement powerful Data-Driven Testing (DDT) in Selenium Kotlin by leveraging Kotlin collections and Kotest dynamic test generation."
   },
   {
     "id": "post-522",
@@ -20142,7 +20258,9 @@
     "series": "selenium-framework-design-and-patterns-in-kotlin",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master the Driver Factory design pattern in Kotlin using ThreadLocal to achieve thread-safe WebDriver instantiation for parallel test execution."
   },
   {
     "id": "post-523",
@@ -20178,7 +20296,9 @@
     "series": "selenium-framework-design-and-patterns-in-kotlin",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Discover why the traditional Java Builder Pattern is obsolete in Kotlin, and learn how to use Data Classes to dynamically generate test data for Selenium."
   },
   {
     "id": "post-524",
@@ -20215,7 +20335,9 @@
     "series": "selenium-framework-design-and-patterns-in-kotlin",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Elevate your automation architecture by implementing a lightweight Screenplay Pattern in Kotlin, focusing on Actions, Tasks, and Actors rather than bare Page Objects."
   },
   {
     "id": "post-525",
@@ -20252,7 +20374,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to implement Behavior-Driven Development (BDD) in Kotlin natively using Kotest's BehaviorSpec, eliminating the need for bulky external Cucumber dependencies."
   },
   {
     "id": "post-526",
@@ -20289,7 +20413,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Expand your automation framework's capabilities by integrating RestAssured with Kotlin and Kotest to perform robust API validations alongside your UI tests."
   },
   {
     "id": "post-527",
@@ -20326,7 +20452,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Detect pixel-level UI changes in your web application by integrating AShot for Visual Regression Testing directly inside your Kotlin automation framework."
   },
   {
     "id": "post-528",
@@ -20363,7 +20491,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Learn how to decouple your test execution from your local machine by spinning up a Selenium Grid using Docker Compose and executing Kotest specs remotely."
   },
   {
     "id": "post-529",
@@ -20400,7 +20530,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Automate your testing lifecycle by integrating your Kotest Selenium framework with GitHub Actions. Learn how to trigger test runs on every pull request automatically!"
   },
   {
     "id": "post-530",
@@ -20437,7 +20569,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Slash your test suite execution time by refactoring your Driver Manager for cross-browser support and executing tests simultaneously across Chrome, Firefox, and Edge using Kotest's parallel engine."
   },
   {
     "id": "post-531",
@@ -20474,7 +20608,9 @@
     "series": "selenium-kotlin-advanced-scenarios",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Kotlin",
+    "excerpt": "Master the Chrome DevTools Protocol (CDP) using Selenium 4 and Kotlin. Learn how to emulate device geolocation and intercept network requests on the fly."
   },
   {
     "id": "post-532",
@@ -20510,7 +20646,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Kickstart your automation journey! Learn how to install Ruby, configure the Selenium WebDriver gem, and set up your first RSpec test project."
   },
   {
     "id": "post-533",
@@ -20546,7 +20684,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Understand exactly how the W3C WebDriver Protocol communicates between Ruby and the browser, and write a detailed script to fetch live page metrics."
   },
   {
     "id": "post-534",
@@ -20582,7 +20722,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Learn how to uniquely identify and interact with web elements using Selenium's 8 built-in locator strategies in Ruby."
   },
   {
     "id": "post-535",
@@ -20618,7 +20760,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Conquer stubborn, dynamic web elements using Advanced XPath Axes like parent, following-sibling, and contains() in Selenium Ruby."
   },
   {
     "id": "post-536",
@@ -20654,7 +20798,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop using sleep! Learn how to stabilize your Ruby test automation suite using Implicit and Explicit Waits with Selenium WebDriver."
   },
   {
     "id": "post-537",
@@ -20690,7 +20836,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Master advanced UI synchronization. Learn to write your own custom polling conditions to wait for exact application states using Selenium::WebDriver::Wait."
   },
   {
     "id": "post-538",
@@ -20726,7 +20874,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Go beyond basic clicking and typing. Learn how to master Checkboxes, validate Radio Buttons, and manipulate Native Select Dropdowns using Selenium's Select class in Ruby."
   },
   {
     "id": "post-539",
@@ -20762,7 +20912,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Go beyond clicking. Learn how to simulate complex physical interactions like hover, double-click, and drag-and-drop using the ActionBuilder class in Ruby."
   },
   {
     "id": "post-540",
@@ -20798,7 +20950,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Master the SwitchTo API in Ruby. Learn how to accept, dismiss, and extract text from un-inspectable JavaScript alert popups."
   },
   {
     "id": "post-541",
@@ -20834,7 +20988,9 @@
     "series": "selenium-ruby-fundamentals",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Master the SwitchTo API to handle complex web architectures. Learn how to seamlessly jump between multiple browser tabs and nested iFrames in Selenium Ruby."
   },
   {
     "id": "post-542",
@@ -20870,7 +21026,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop writing spaghetti code! Learn how to architect your test automation framework using the Page Object Model design pattern in Ruby."
   },
   {
     "id": "post-543",
@@ -20906,7 +21064,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Make your Page Objects blazingly fast. Learn how to implement Ruby's ||= operator for lazy evaluation and WebElement caching."
   },
   {
     "id": "post-544",
@@ -20942,7 +21102,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop duplicating WebDriver initialization! Learn how to use RSpec before(:each) and after(:each) hooks to cleanly manage your Selenium browser sessions."
   },
   {
     "id": "post-545",
@@ -20978,7 +21140,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Scale your test framework by extracting WebDriver lifecycle hooks into a global spec_helper.rb file."
   },
   {
     "id": "post-546",
@@ -21014,7 +21178,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop hardcoding test data! Learn how to read from CSV files and dynamically execute RSpec tests using multiple datasets in Ruby."
   },
   {
     "id": "post-547",
@@ -21050,7 +21216,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Level up your Data-Driven Testing. Learn how to parse complex, hierarchical JSON files natively in Ruby to feed dynamic data into your RSpec suite."
   },
   {
     "id": "post-548",
@@ -21086,7 +21254,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Go beyond simple equality checks. Learn how to use RSpec's powerful built-in matchers to validate UI states like visibility, text matching, and element presence."
   },
   {
     "id": "post-549",
@@ -21122,7 +21292,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop running your entire test suite for every minor change. Learn how to use RSpec metadata tags to isolate and execute specific subsets of your automated tests."
   },
   {
     "id": "post-550",
@@ -21158,7 +21330,9 @@
     "series": "selenium-ruby-intermediate",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Never guess why a test failed again. Learn how to configure RSpec to automatically capture a screenshot of the browser exactly when an assertion fails."
   },
   {
     "id": "post-551",
@@ -21194,7 +21368,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Bypass complex UI restrictions by injecting and executing raw JavaScript code directly into the browser using Selenium Ruby."
   },
   {
     "id": "post-552",
@@ -21230,7 +21406,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop using blunt implicit waits and Thread.sleep. Learn how to use Selenium's explicit WebDriverWait to dynamically synchronize with complex web elements."
   },
   {
     "id": "post-553",
@@ -21266,7 +21444,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Learn how to bypass the native OS file picker window to upload files seamlessly, and configure Chrome to automatically download files without prompting."
   },
   {
     "id": "post-554",
@@ -21302,7 +21482,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Master the Selenium ActionBuilder API to replicate complex human interactions like mouse hovering, double-clicking, and drag-and-drop in Ruby."
   },
   {
     "id": "post-555",
@@ -21338,7 +21520,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Prepare your Selenium framework for the cloud. Learn how to execute Ruby tests in headless mode and configure essential ChromeOptions for Jenkins and GitHub Actions."
   },
   {
     "id": "post-556",
@@ -21374,7 +21558,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop waiting hours for your test suite to finish. Learn how to configure the parallel_tests gem to run multiple RSpec tests simultaneously across CPU cores."
   },
   {
     "id": "post-557",
@@ -21410,7 +21596,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop hardcoding passwords into your framework! Learn how to use the dotenv gem to securely manage environment-specific URLs, usernames, and passwords."
   },
   {
     "id": "post-558",
@@ -21446,7 +21634,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "When clicking a link opens a new tab, Selenium doesn't automatically follow it. Learn how to manage window handles and switch context seamlessly in Ruby."
   },
   {
     "id": "post-559",
@@ -21481,7 +21671,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Conquer the most notorious challenge in UI automation. Learn how to identify embedded iFrames and switch Selenium's context to interact with them."
   },
   {
     "id": "post-560",
@@ -21516,7 +21708,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Native JavaScript popups cannot be inspected or clicked normally. Learn how to accept, dismiss, and read text from browser alerts in Ruby."
   },
   {
     "id": "post-561",
@@ -21552,7 +21746,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Go beyond UI testing. Learn how to use the Chrome DevTools Protocol (CDP) in Ruby to intercept, mock, and manipulate HTTP network traffic."
   },
   {
     "id": "post-562",
@@ -21588,7 +21784,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop reading messy terminal output. Learn how to generate beautiful, shareable HTML test execution reports for your management team using RSpec formatters."
   },
   {
     "id": "post-563",
@@ -21624,7 +21822,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 13,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Don't just test the UI. Learn how to connect to a SQL database in Ruby to verify that your Selenium form submissions actually saved the data."
   },
   {
     "id": "post-564",
@@ -21660,7 +21860,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 14,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Speed up your test execution by seeding test data via REST APIs. Learn how to use the rest-client gem to perform HTTP GET and POST requests directly in Ruby."
   },
   {
     "id": "post-565",
@@ -21696,7 +21898,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 15,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "Stop duplicating locators across hundreds of files! Learn how to implement the Page Object Model (POM) to create a clean, maintainable, and scalable test architecture."
   },
   {
     "id": "post-566",
@@ -21732,7 +21936,9 @@
     "series": "selenium-ruby-advanced",
     "seriesOrder": 16,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Selenium Ruby",
+    "excerpt": "The grand finale! Learn how to integrate your Selenium Ruby framework into a Jenkins CI/CD pipeline to achieve truly automated, continuous testing."
   },
   {
     "id": "post-601",
@@ -21767,7 +21973,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Welcome to the future of test automation! Learn what makes Playwright the ultimate modern testing framework and why pairing it with TypeScript provides unmatched enterprise scalability."
   },
   {
     "id": "post-602",
@@ -21803,7 +22011,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Before writing our first line of code, let's settle the ultimate debate. Discover the architectural differences between Playwright, Selenium, and Cypress, and find out why Playwright with TypeScript is the clear winner for modern enterprise automation."
   },
   {
     "id": "post-603",
@@ -21839,7 +22049,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Get your hands dirty! Learn how to install Node.js, initialize a Playwright project from scratch, and understand the core scaffolding generated by Microsoft's init command."
   },
   {
     "id": "post-604",
@@ -21875,7 +22087,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Master the core building blocks of Playwright. Learn how the Browser, BrowserContext, and Page objects interact, and why BrowserContexts make Playwright significantly faster than legacy frameworks."
   },
   {
     "id": "post-605",
@@ -21911,7 +22125,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Master Playwright's execution environment. Learn how to toggle between Headless and Headed modes, utilize the UI Mode for debugging, and manage browser resources effectively."
   },
   {
     "id": "post-606",
@@ -21947,7 +22163,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Stop relying on brittle CSS and XPath! Discover Playwright's modern approach to element identification using Role, Text, and user-centric locator strategies."
   },
   {
     "id": "post-607",
@@ -21983,7 +22201,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to validate application state using the built-in expect library. Discover the difference between Hard and Soft assertions, and understand auto-retrying matchers."
   },
   {
     "id": "post-608",
@@ -22019,7 +22239,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "It's time to build a real test! We will combine our knowledge of user-centric locators and auto-retrying assertions to build a complete End-to-End Login scenario."
   },
   {
     "id": "post-609",
@@ -22055,7 +22277,9 @@
     "series": "playwright-typescript-foundations",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Stop using console.log() to debug! Discover Playwright's revolutionary Trace Viewer, VS Code Inspector, and learn how to effortlessly debug failing test executions."
   },
   {
     "id": "post-610",
@@ -22091,7 +22315,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Web pages are complex. When simple locators aren't enough, learn how to chain locators together and use advanced filtering techniques (like hasText) to find nested elements."
   },
   {
     "id": "post-611",
@@ -22127,7 +22353,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "What happens when a locator returns 50 elements instead of just 1? Learn how to iterate through elements and select specific items using first(), last(), nth(), and all()."
   },
   {
     "id": "post-612",
@@ -22163,7 +22391,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Master form interactions! Learn how to seamlessly select options from both native <select> menus and modern custom dropdowns using Playwright."
   },
   {
     "id": "post-613",
@@ -22199,7 +22429,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to robustly interact with checkboxes and radio buttons in Playwright using .check() and .uncheck(), and how to assert their status."
   },
   {
     "id": "post-614",
@@ -22235,7 +22467,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Web browsers throw native popups that can block your automation. Learn how Playwright seamlessly dismisses or accepts JavaScript alerts, prompts, and confirmation dialogs."
   },
   {
     "id": "post-615",
@@ -22271,7 +22505,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Say goodbye to Thread.sleep()! Learn how Playwright's revolutionary auto-waiting seamlessly handles dynamic loading, progress bars, and network requests."
   },
   {
     "id": "post-616",
@@ -22307,7 +22543,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Modern applications often open links in new tabs. Discover how Playwright makes context switching between multiple browser windows and tabs incredibly easy."
   },
   {
     "id": "post-617",
@@ -22342,7 +22580,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "iFrames hide elements from normal locators. Learn how Playwright penetrates iFrames seamlessly using frame locators without complex context switching."
   },
   {
     "id": "post-618",
@@ -22377,7 +22617,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Shadow DOM encapsulation blocks most automation tools. Discover how Playwright automatically pierces the Shadow DOM to locate your Web Components."
   },
   {
     "id": "post-619",
@@ -22413,7 +22655,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Testing file systems can be tricky. Learn how Playwright intercepts downloads and handles file uploads without triggering native OS file dialogs."
   },
   {
     "id": "post-620",
@@ -22449,7 +22693,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Go beyond simple clicks. Learn how to simulate complex mouse gestures like hovering, right-clicking for context menus, and drag-and-drop operations."
   },
   {
     "id": "post-621",
@@ -22484,7 +22730,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Master your test suite execution. Learn how to isolate specific tests, skip broken tests, and mark failing tests as expected using Playwright annotations."
   },
   {
     "id": "post-627",
@@ -22519,7 +22767,9 @@
     "series": "playwright-typescript-core-ui",
     "seriesOrder": 13,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Need to test a chat application or multi-user workflow? Learn how to spawn and manage multiple isolated browser contexts simultaneously."
   },
   {
     "id": "post-622",
@@ -22555,7 +22805,9 @@
     "series": "playwright-typescript-test-design",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Stop writing duplicate setup code. Learn how to use Playwright's hooks (beforeEach/afterEach) and built-in fixtures to keep your tests DRY."
   },
   {
     "id": "post-623",
@@ -22590,7 +22842,9 @@
     "series": "playwright-typescript-test-design",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Take your test architecture to the next level. Learn how to extend Playwright to create your own custom, reusable fixtures like pre-authenticated pages."
   },
   {
     "id": "post-624",
@@ -22626,7 +22880,9 @@
     "series": "playwright-typescript-test-design",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Scale your test automation safely. Discover how the Page Object Model drastically reduces maintenance by separating locators from test logic."
   },
   {
     "id": "post-629",
@@ -22661,7 +22917,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to master the playwright.config.ts file to manage global setups, timeouts, multiple environments, and reporter configurations for enterprise scaling."
   },
   {
     "id": "post-630",
@@ -22696,7 +22954,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Tracing and Console Logs are great, but enterprise frameworks need persistent, structured logging. Learn how to implement a custom logging framework in Playwright."
   },
   {
     "id": "post-631",
@@ -22731,7 +22991,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Connect the dots! Learn how to combine Page Objects, Fixtures, Configuration, and Logging into a cohesive, scalable enterprise architecture."
   },
   {
     "id": "post-633",
@@ -22766,7 +23028,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to seamlessly switch your Playwright tests between Dev, QA, and Production environments using dotenv and global configuration patterns."
   },
   {
     "id": "post-625",
@@ -22801,7 +23065,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Playwright isn't just for UI testing. Learn how to use Playwright's built-in APIRequestContext to send HTTP requests, validate API responses, and setup test data directly."
   },
   {
     "id": "post-626",
@@ -22837,7 +23103,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Stop relying on unstable backends. Learn how to intercept network requests and mock API responses directly in Playwright."
   },
   {
     "id": "post-628",
@@ -22872,7 +23140,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Go beyond checking text. Learn how to catch visual bugs (like broken CSS or misaligned elements) using Playwright's built-in image comparison features."
   },
   {
     "id": "post-634",
@@ -22907,7 +23177,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to use Playwright's built-in fixture system as a Dependency Injection (DI) container to eliminate boilerplates and coupling in Page Object Model (POM)."
   },
   {
     "id": "post-635",
@@ -22942,7 +23214,9 @@
     "series": "playwright-typescript-framework",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to build a custom test reporter in Playwright to format execution metrics, track test status, and output styled logs to the console."
   },
   {
     "id": "post-636",
@@ -22977,7 +23251,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to use, configure, and manually instantiate Playwright's APIRequestContext to handle multiple base URLs, custom headers, and dynamic session states in API tests."
   },
   {
     "id": "post-637",
@@ -23012,7 +23288,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to send HTTP GET requests with query parameters, validate response headers, parse response bodies, and perform schema/property assertions in Playwright."
   },
   {
     "id": "post-638",
@@ -23047,7 +23325,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to automate HTTP POST requests in Playwright, send JSON payloads, configure headers, and validate resource creation responses."
   },
   {
     "id": "post-639",
@@ -23082,7 +23362,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to perform HTTP updates and resource deletions using Playwright's PUT, PATCH, and DELETE request configurations, and how to write assertions against success criteria."
   },
   {
     "id": "post-640",
@@ -23117,7 +23399,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to handle Bearer Token authorization and cookie-based session management in Playwright API tests, keeping credentials secure."
   },
   {
     "id": "post-641",
@@ -23152,7 +23436,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to accelerate web UI tests in Playwright by bypassing UI login forms using direct API requests to inject authorization states and session cookies."
   },
   {
     "id": "post-642",
@@ -23187,7 +23473,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to perform API Contract Testing in Playwright by validating JSON response schemas using the Ajv validator package."
   },
   {
     "id": "post-643",
@@ -23222,7 +23510,9 @@
     "series": "playwright-typescript-api-testing",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to structure a clean, scaleable API testing framework in Playwright using the Service Object Model (SOM) to encapsulate request logic and endpoints."
   },
   {
     "id": "post-644",
@@ -23258,7 +23548,9 @@
     "series": "playwright-typescript-database-testing",
     "seriesOrder": 1,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to establish connections to MySQL and PostgreSQL databases within your Playwright TypeScript test automation framework, load credentials securely, and handle connection errors."
   },
   {
     "id": "post-645",
@@ -23294,7 +23586,9 @@
     "series": "playwright-typescript-database-testing",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to execute parameterized SELECT and INSERT SQL queries in Playwright tests using async/await, validate row results, and avoid SQL injection security risks."
   },
   {
     "id": "post-646",
@@ -23330,7 +23624,9 @@
     "series": "playwright-typescript-database-testing",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to seed and mock databases with custom test datasets before executing tests, and set up automatic hooks for schema setup and data teardown."
   },
   {
     "id": "post-647",
@@ -23366,7 +23662,9 @@
     "series": "playwright-typescript-database-testing",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to build end-to-end testing flows in Playwright that execute user registration in the UI, verify database writes, and tear down test state."
   },
   {
     "id": "post-648",
@@ -23402,7 +23700,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 2,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to emulate mobile devices in Playwright TypeScript by configuring viewports, user agents, device scale factors, and utilizing pre-packaged device configurations."
   },
   {
     "id": "post-649",
@@ -23438,7 +23738,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 3,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to enable and test mobile touch gestures in Playwright TypeScript, including dispatching taps and managing touch-enabled browsers."
   },
   {
     "id": "post-650",
@@ -23474,7 +23776,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 4,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to emulate different geographical locations and system timezones in Playwright, spoofing coordinates and automatically bypassing permission prompts."
   },
   {
     "id": "post-651",
@@ -23510,7 +23814,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to perform visual regression testing in Playwright TypeScript, capturing element-level screenshots and managing reference baselines."
   },
   {
     "id": "post-652",
@@ -23546,7 +23852,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to configure pixel-perfect matching thresholds, color sensitivity levels, and maximum pixel difference options in Playwright TypeScript."
   },
   {
     "id": "post-653",
@@ -23582,7 +23890,9 @@
     "series": "playwright-typescript-visual-testing",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to use masking and element hiding in Playwright TypeScript to exclude dynamic web content (like times, dates, and ads) from visual regression checks."
   },
   {
     "id": "post-654",
@@ -23617,7 +23927,9 @@
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to execute custom JavaScript scripts inside the browser context using page.evaluate in Playwright TypeScript."
   },
   {
     "id": "post-655",
@@ -23652,7 +23964,9 @@
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to read, write, and clear LocalStorage and SessionStorage values in Playwright TypeScript to test state-dependent application behavior."
   },
   {
     "id": "post-656",
@@ -23688,7 +24002,9 @@
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to add, inspect, and clear browser cookies at the context level in Playwright TypeScript."
   },
   {
     "id": "post-657",
@@ -23724,7 +24040,9 @@
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to open, coordinate, and control multiple browser tabs and pages inside a single Browser Context in Playwright TypeScript."
   },
   {
     "id": "post-658",
@@ -23760,7 +24078,9 @@
     "series": "playwright-typescript-advanced-contexts",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "Playwright TypeScript",
+    "excerpt": "Learn how to capture and control new tabs and pop-up windows opened automatically by user actions in Playwright TypeScript."
   },
   {
     "id": "post-659",
@@ -26349,7 +26669,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 5,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Master payload serialization and deserialization! Learn how to integrate Jackson and Gson with REST-Assured for seamless POJO mapping."
   },
   {
     "id": "post-721",
@@ -26386,7 +26708,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 6,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Write fluent, human-readable API assertions! Master Hamcrest matchers for complex JSON response validation in REST-Assured."
   },
   {
     "id": "post-722",
@@ -26424,7 +26748,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 7,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Secure your API automation! Learn how to handle OAuth 2.0 client credentials, Bearer tokens, and JWT authentication in REST-Assured."
   },
   {
     "id": "post-723",
@@ -26461,7 +26787,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 8,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Automate file upload endpoints easily! Learn how to send multipart form-data requests and verify file downloads with REST-Assured."
   },
   {
     "id": "post-724",
@@ -26498,7 +26826,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Run scalable parameterized API tests! Harness JUnit 5 @ParameterizedTest, @CsvSource, and @MethodSource with REST-Assured."
   },
   {
     "id": "post-725",
@@ -26535,7 +26865,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Eliminate boilerplate code! Build reusable RequestSpecBuilder and ResponseSpecBuilder templates in REST-Assured."
   },
   {
     "id": "post-726",
@@ -26572,7 +26904,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Design an enterprise-grade REST-Assured framework! Implement Singleton managers, client wrappers, and Allure logging."
   },
   {
     "id": "post-727",
@@ -26610,7 +26944,9 @@
     "series": "rest-assured-zero-to-hero",
     "seriesOrder": 16,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "REST-Assured",
+    "excerpt": "Shift from basic HTTP status checks to trace-based assertions! Implement Observability-Driven Testing with OpenTelemetry and REST-Assured."
   },
   {
     "id": "blog-karate-11",
@@ -26647,7 +26983,9 @@
     "series": "karate-framework-zero-to-hero",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Karate",
+    "excerpt": "Build high-performance mock servers without Java server code! Harness Karate Netty to mock HTTP endpoints dynamically."
   },
   {
     "id": "blog-karate-12",
@@ -26684,7 +27022,9 @@
     "series": "karate-framework-zero-to-hero",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Karate",
+    "excerpt": "Turn functional tests into load tests instantly! Reuse Karate API feature files with Gatling for high-concurrency performance validation."
   },
   {
     "id": "blog-karate-13",
@@ -26721,7 +27061,9 @@
     "series": "karate-framework-zero-to-hero",
     "seriesOrder": 13,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Karate",
+    "excerpt": "Automate secure API authentication! Learn how to handle OAuth 2.0 token exchanges, JWT headers, and SSO flows in Karate."
   },
   {
     "id": "blog-karate-14",
@@ -26758,7 +27100,9 @@
     "series": "karate-framework-zero-to-hero",
     "seriesOrder": 14,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Karate",
+    "excerpt": "Slash execution times! Scale Karate tests with multi-threaded parallel execution and generate rich Cucumber HTML reports."
   },
   {
     "id": "blog-supertest-17",
@@ -26796,7 +27140,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 9,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Build bulletproof REST APIs! Learn how to validate 4xx/5xx HTTP status codes, error payloads, and negative edge cases with Supertest and Jest."
   },
   {
     "id": "blog-supertest-18",
@@ -26833,7 +27179,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 10,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Eliminate hardcoded test data! Build modular data factories with @faker-js/faker and Supertest for dynamic API testing."
   },
   {
     "id": "blog-supertest-19",
@@ -26870,7 +27218,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 11,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Isolate microservices under test! Integrate Mock Service Worker (MSW) to stub third-party APIs during Supertest integration tests."
   },
   {
     "id": "blog-supertest-20",
@@ -26908,7 +27258,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 12,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Measure API test quality! Configure Istanbul/nyc coverage reports and HTML test dashboards in Jest and Supertest."
   },
   {
     "id": "blog-supertest-21",
@@ -26945,7 +27297,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 13,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Automate API testing on every PR! Configure GitHub Actions workflows to execute Supertest API suites and upload coverage artifacts."
   },
   {
     "id": "blog-supertest-22",
@@ -26982,7 +27336,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 14,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Bridge Web2 and Web3 testing! Learn how to validate JSON-RPC Ethereum endpoints and smart contract gateway APIs using Supertest."
   },
   {
     "id": "blog-supertest-23",
@@ -27019,7 +27375,9 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 15,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Validate on-chain smart contract state! Combine Ethers.js and Hardhat with Supertest to test Web3 backend integrations."
   },
   {
     "id": "blog-supertest-24",
@@ -27056,6 +27414,8 @@
     "series": "nodejs-supertest-api-testing",
     "seriesOrder": 16,
     "likes": 0,
-    "commentsCount": 0
+    "commentsCount": 0,
+    "category": "API Supertest",
+    "excerpt": "Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites."
   }
 ]
