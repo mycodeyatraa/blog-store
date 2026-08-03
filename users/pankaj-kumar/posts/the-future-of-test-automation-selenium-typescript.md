@@ -1,6 +1,6 @@
 ---
 title: The Architect's Horizon: The Future of Test Automation
-date: 20-Feb-2025
+date: 07-Feb-2026
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
