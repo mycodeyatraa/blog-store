@@ -105,7 +105,7 @@
   {
     "id": "nodejs-supertest-api-testing",
     "title": "Mastering NodeJS API Testing with SuperTest",
-    "description": "A complete 16-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
+    "description": "A complete 24-part masterclass on building enterprise-grade API test automation frameworks using SuperTest, Jest, and TypeScript.",
     "articleIds": [
       "blog-supertest-1",
       "blog-supertest-2",
@@ -115,6 +115,14 @@
       "blog-supertest-6",
       "blog-supertest-7",
       "blog-supertest-8",
+      "blog-supertest-17",
+      "blog-supertest-18",
+      "blog-supertest-19",
+      "blog-supertest-20",
+      "blog-supertest-21",
+      "blog-supertest-22",
+      "blog-supertest-23",
+      "blog-supertest-24",
       "blog-supertest-9",
       "blog-supertest-10",
       "blog-supertest-11",
