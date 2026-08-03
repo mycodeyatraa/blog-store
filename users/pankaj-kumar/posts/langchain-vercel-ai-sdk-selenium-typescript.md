@@ -1,6 +1,6 @@
 ---
 title: Enterprise Orchestration: LangChain.js & Vercel AI SDK
-date: 19-Feb-2025
+date: 06-Feb-2026
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
