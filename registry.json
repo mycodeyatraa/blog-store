@@ -15181,7 +15181,7 @@
     "slug": "ai-self-healing-locators-selenium-typescript",
     "author": "pankaj-kumar",
     "excerpt": "Solve the oldest problem in automation. Learn how to wrap WebDriver in a custom TypeScript HealNet class that uses Machine Learning to dynamically fix broken CSS selectors at runtime.",
-    "date": "16-Feb-2025",
+    "date": "03-Feb-2026",
     "readTime": "4 min read",
     "category": "Selenium TypeScript",
     "categories": [
