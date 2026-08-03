@@ -26759,5 +26759,303 @@
     "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-17",
+    "slug": "error-handling-edge-cases-supertest",
+    "title": "Error Handling & Status Codes: Testing Negative Edge Cases in Supertest",
+    "description": "Build bulletproof REST APIs! Learn how to validate 4xx/5xx HTTP status codes, error payloads, and negative edge cases with Supertest and Jest.",
+    "contentPath": "users/pankaj-kumar/posts/error-handling-edge-cases-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "28-Feb-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Node.js",
+      "Express"
+    ],
+    "tags": [
+      "supertest",
+      "nodejs",
+      "express",
+      "jest",
+      "error-handling",
+      "edge-cases"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 17,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-18",
+    "slug": "creating-fixtures-data-factories-faker-supertest",
+    "title": "Dynamic Test Data: Fixtures & Data Factories with Faker.js in Supertest",
+    "description": "Eliminate hardcoded test data! Build modular data factories with @faker-js/faker and Supertest for dynamic API testing.",
+    "contentPath": "users/pankaj-kumar/posts/creating-fixtures-data-factories-faker-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "01-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Node.js",
+      "Express"
+    ],
+    "tags": [
+      "supertest",
+      "fakerjs",
+      "test-data",
+      "factories",
+      "fixtures"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 18,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-19",
+    "slug": "mocking-external-services-msw-supertest",
+    "title": "Mocking External Services with MSW (Mock Service Worker) in Supertest",
+    "description": "Isolate microservices under test! Integrate Mock Service Worker (MSW) to stub third-party APIs during Supertest integration tests.",
+    "contentPath": "users/pankaj-kumar/posts/mocking-external-services-msw-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "02-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Node.js",
+      "Express"
+    ],
+    "tags": [
+      "supertest",
+      "msw",
+      "mocking",
+      "api-testing",
+      "express"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 19,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-20",
+    "slug": "code-coverage-reporters-istanbul-nyc-jest-supertest",
+    "title": "Generating Code Coverage & Test Reports with Jest & Supertest",
+    "description": "Measure API test quality! Configure Istanbul/nyc coverage reports and HTML test dashboards in Jest and Supertest.",
+    "contentPath": "users/pankaj-kumar/posts/code-coverage-reporters-istanbul-nyc-jest-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "03-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Node.js",
+      "Express"
+    ],
+    "tags": [
+      "supertest",
+      "jest",
+      "coverage",
+      "istanbul",
+      "nyc",
+      "reporting"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 20,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-21",
+    "slug": "cicd-pipeline-integration-github-actions-supertest",
+    "title": "Supertest CI/CD Integration: GitHub Actions & DevOps Pipelines",
+    "description": "Automate API testing on every PR! Configure GitHub Actions workflows to execute Supertest API suites and upload coverage artifacts.",
+    "contentPath": "users/pankaj-kumar/posts/cicd-pipeline-integration-github-actions-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "04-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Node.js",
+      "Express"
+    ],
+    "tags": [
+      "supertest",
+      "github-actions",
+      "cicd",
+      "devops",
+      "pipeline"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 21,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-22",
+    "slug": "web3-blockchain-testing-intro-supertest",
+    "title": "Web3 & Blockchain Testing Intro: Testing Decentralized Apps with Supertest",
+    "description": "Bridge Web2 and Web3 testing! Learn how to validate JSON-RPC Ethereum endpoints and smart contract gateway APIs using Supertest.",
+    "contentPath": "users/pankaj-kumar/posts/web3-blockchain-testing-intro-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "05-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Web3",
+      "Blockchain"
+    ],
+    "tags": [
+      "supertest",
+      "web3",
+      "blockchain",
+      "ethereum",
+      "dapps"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 22,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-23",
+    "slug": "smart-contract-validation-ethers-hardhat-supertest",
+    "title": "Smart Contract Validation: Ethers.js & Hardhat with Supertest",
+    "description": "Validate on-chain smart contract state! Combine Ethers.js and Hardhat with Supertest to test Web3 backend integrations.",
+    "contentPath": "users/pankaj-kumar/posts/smart-contract-validation-ethers-hardhat-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "06-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Web3",
+      "Blockchain"
+    ],
+    "tags": [
+      "supertest",
+      "smart-contracts",
+      "ethersjs",
+      "hardhat",
+      "solidity"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 23,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-supertest-24",
+    "slug": "mocking-blockchain-transactions-anvil-ganache-supertest",
+    "title": "Mocking Blockchain Transactions: Local Anvil & Ganache Node Testing",
+    "description": "Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites.",
+    "contentPath": "users/pankaj-kumar/posts/mocking-blockchain-transactions-anvil-ganache-supertest.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
+    "readTime": "8 min read",
+    "date": "07-Mar-2026",
+    "draft": false,
+    "categories": [
+      "API Supertest",
+      "Web3",
+      "Blockchain"
+    ],
+    "tags": [
+      "supertest",
+      "blockchain",
+      "anvil",
+      "ganache",
+      "web3-testing"
+    ],
+    "series": "supertest-express-zero-to-hero",
+    "seriesOrder": 24,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
