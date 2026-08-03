@@ -26159,5 +26159,157 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "blog-selenium-python-sp-1",
+    "title": "Decoupling User Actions: The Screenplay Pattern in Selenium Python",
+    "slug": "screenplay-pattern-selenium-python-automation",
+    "author": "pankaj-kumar",
+    "excerpt": "Transition from Page Objects to actors, abilities, and tasks. Learn how to write cleaner, more maintainable Selenium Python tests with the Screenplay Pattern.",
+    "date": "12-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Test Design",
+    "categories": [
+      "Selenium Python",
+      "Test Design",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "screenplay-pattern",
+      "architecture",
+      "design-patterns"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/screenplay-pattern-selenium-python-automation.md",
+    "series": "selenium-python-test-design",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "blog-selenium-python-a11y-1",
+    "title": "Enforcing Inclusion: Accessibility Testing Basics in Python",
+    "slug": "accessibility-testing-basics-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Shift left on inclusion. Learn the fundamentals of accessibility testing compliance checks and automated accessibility audits using Python.",
+    "date": "13-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Accessibility",
+    "categories": [
+      "Selenium Python",
+      "Accessibility",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "accessibility",
+      "wcag",
+      "inclusive"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/accessibility-testing-basics-selenium-python.md",
+    "series": "selenium-python-accessibility",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "blog-selenium-python-bdd-13",
+    "title": "Defining Behavior: Understanding Gherkin Syntax in Python BDD",
+    "slug": "gherkin-syntax-pytest-bdd-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Bridge the gap between business and technology. Learn how to construct clean, unambiguous Gherkin feature files using Given, When, Then syntax.",
+    "date": "14-Feb-2026",
+    "readTime": "4 min read",
+    "category": "BDD",
+    "categories": [
+      "Selenium Python",
+      "BDD",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "bdd",
+      "gherkin",
+      "cucumber"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/gherkin-syntax-pytest-bdd-selenium-python.md",
+    "series": "selenium-python-bdd",
+    "seriesOrder": 13,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "blog-selenium-python-rep-5",
+    "title": "Stunning Dashboards: Allure Reporting Basics in Python",
+    "slug": "allure-reporting-basics-pytest-selenium-python",
+    "author": "pankaj-kumar",
+    "excerpt": "Upgrade your console output to stunning visual reports. Learn how to configure, generate, and view interactive Allure reports with pytest.",
+    "date": "15-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Reporting",
+    "categories": [
+      "Selenium Python",
+      "Reporting",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "selenium",
+      "python",
+      "allure",
+      "reporting",
+      "dashboards"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/allure-reporting-basics-pytest-selenium-python.md",
+    "series": "selenium-python-reporting",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]
