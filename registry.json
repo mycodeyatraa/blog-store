@@ -25816,5 +25816,348 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-710",
+    "title": "Prompt to Test: AI-Driven Test Generation in Playwright",
+    "slug": "ai-driven-test-generation-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Generate full end-to-end Playwright test suites using structured natural language prompts. Harness LLMs to write clean, modular Page Objects and assertions automatically.",
+    "date": "02-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "ai",
+      "codestart",
+      "openai"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-driven-test-generation-playwright-typescript.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-711",
+    "title": "Zero Test Failures: AI Self-Healing Locators in Playwright",
+    "slug": "ai-self-healing-locators-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Say goodbye to flaky locators. Learn how to implement self-healing test runs by calling LLMs dynamically to resolve broken selectors during execution.",
+    "date": "03-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "ai",
+      "self-healing",
+      "locators"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/ai-self-healing-locators-playwright-typescript.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-712",
+    "title": "Unifying Systems: Model Context Protocol (MCP) in Playwright",
+    "slug": "mcp-model-context-protocol-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Integrate Claude's Model Context Protocol (MCP) into Playwright. Enable AI models to read, execute, and refactor tests by interacting with local and remote resources.",
+    "date": "04-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "mcp",
+      "protocol",
+      "integration"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mcp-model-context-protocol-playwright-typescript.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-713",
+    "title": "Autonomous Playwright Agents: Building Self-Driving QA Loops",
+    "slug": "autonomous-playwright-agents-typescript-react",
+    "author": "pankaj-kumar",
+    "excerpt": "Implement the ReAct architecture in TypeScript. Build an autonomous agent that reads Jira tasks, writes Playwright tests, and resolves failures automatically.",
+    "date": "05-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "ai",
+      "agents",
+      "react",
+      "autonomous"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/autonomous-playwright-agents-typescript-react.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-714",
+    "title": "The AI Horizon: Future of Test Automation in 2026 and Beyond",
+    "slug": "future-of-test-automation-playwright-typescript-ai",
+    "author": "pankaj-kumar",
+    "excerpt": "Explore the trends shaping software quality. Delve into autonomous regression suites, AI-designed specifications, and next-gen observability platforms.",
+    "date": "06-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "ai",
+      "future",
+      "trends"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/future-of-test-automation-playwright-typescript-ai.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-715",
+    "title": "Building QA Chains: LangChain.js & Vercel AI SDK in Playwright",
+    "slug": "langchain-js-vercel-ai-sdk-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Construct advanced QA chains and multi-agent systems using LangChain.js and Vercel's AI SDK inside your TypeScript framework.",
+    "date": "07-Feb-2026",
+    "readTime": "4 min read",
+    "category": "AI in Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "AI in Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "langchain",
+      "sdk",
+      "ai"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/langchain-js-vercel-ai-sdk-playwright-typescript.md",
+    "series": "playwright-typescript-ai",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-716",
+    "title": "Isolating UI: Playwright Component Testing Intro",
+    "slug": "playwright-component-testing-intro-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Go beyond end-to-end testing. Learn how to compile and test individual React, Vue, or Svelte components in complete isolation using Playwright CT.",
+    "date": "08-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Component Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "Component Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "components",
+      "react",
+      "isolation"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-component-testing-intro-typescript.md",
+    "series": "playwright-typescript-component-testing",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-717",
+    "title": "Mocking State: Mocking Component Props & State in Playwright CT",
+    "slug": "mocking-component-props-state-playwright-ct",
+    "author": "pankaj-kumar",
+    "excerpt": "Master data boundary testing. Learn how to mock props, component state, context providers, and network requests inside Playwright CT.",
+    "date": "09-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Component Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "Component Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "components",
+      "mocking",
+      "state"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/mocking-component-props-state-playwright-ct.md",
+    "series": "playwright-typescript-component-testing",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-718",
+    "title": "Pixel-Perfect Components: Visual Component Regression in Playwright",
+    "slug": "visual-component-regression-testing-playwright-ct",
+    "author": "pankaj-kumar",
+    "excerpt": "Capture component-level screenshots and compare them against pixel baselines to capture layout regressions automatically.",
+    "date": "10-Feb-2026",
+    "readTime": "4 min read",
+    "category": "Component Testing",
+    "categories": [
+      "Playwright TypeScript",
+      "Component Testing",
+      "UI Automation"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "components",
+      "visual",
+      "regression"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/visual-component-regression-testing-playwright-ct.md",
+    "series": "playwright-typescript-component-testing",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
   }
 ]

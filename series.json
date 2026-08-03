@@ -1426,5 +1426,42 @@
     ],
     "createdAt": "18-May-2025",
     "updatedAt": "18-May-2025"
+  },
+  {
+    "id": "playwright-typescript-ai",
+    "title": "Playwright TypeScript QA AI & Autonomous Agents",
+    "description": "The final frontier. Master Prompt Engineering, implement AI-driven Self-Healing locators, and build fully Autonomous Testing Agents using LangChain and MCP integration.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-710",
+      "post-711",
+      "post-712",
+      "post-713",
+      "post-714",
+      "post-715"
+    ]
+  },
+  {
+    "id": "playwright-typescript-component-testing",
+    "title": "Playwright TypeScript Component Testing Mastery",
+    "description": "Phase 16 of Playwright TS series focusing on isolation testing, component state mocking, and visual regressions.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-716",
+      "post-717",
+      "post-718"
+    ]
   }
 ]
