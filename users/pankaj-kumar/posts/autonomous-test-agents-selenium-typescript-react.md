@@ -1,6 +1,6 @@
 ---
 title: Handing Over the Keys: Autonomous Test Agents
-date: 18-Feb-2025
+date: 05-Feb-2026
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
