@@ -9,31 +9,30 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["playwright", "typescript", "components", "visual", "regression"]
+tags: ["playwright", "typescript", "visual-testing", "component-testing", "screenshots"]
 category: Component Testing
-categories: ["Playwright TypeScript", "Component Testing", "UI Automation"]
+categories: ["Playwright TypeScript", "Component Testing", "Visual Regression"]
 excerpt: >-
-  Capture component-level screenshots and compare them against pixel baselines to capture layout regressions automatically.
-readTime: 4 min read
+  Catch UI regressions at the component level! Combine Playwright CT screenshot matching with visual snapshot baselines.
+readTime: 8 min read
 ---
 
 # Pixel-Perfect Components: Visual Component Regression in Playwright
 
-Component-level visual regression guarantees that CSS modifications do not break key visual layouts in isolated modules.
+Visual regressions occur when CSS changes break component styling unexpectedly across different viewports or themes. Combining **Playwright CT** with snapshot matching (`toHaveScreenshot()`) isolates visual diffs at the individual component level.
 
 ---
 
-## 1. Performing Component Visual Assertions
+## 1. Visual Snapshot Test Example
 
-Use the standard snapshot matching API on isolated component handles:
-
-```typescript
+```tsx
 import { test, expect } from '@playwright/experimental-ct-react';
-import Header from '../src/components/Header';
-test('header layout matches visual baseline', async ({ mount }) => {
-  const component = await mount(<Header user="Pankaj Kumar" />);
-  await expect(component).toHaveScreenshot('header-baseline.png');
+import { NavigationBar } from './NavigationBar';
+ 
+test('should match dark mode visual baseline screenshot', async ({ mount }) => {
+  const component = await mount(<NavigationBar theme="dark" />);
+ 
+  // Assert component matches saved golden PNG snapshot
+  await expect(component).toHaveScreenshot('nav-dark-mode.png');
 });
 ```
-
-This prevents visual layout shifts from shipping undetected.

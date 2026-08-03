@@ -1,5 +1,5 @@
 ---
-title: Isolating UI: Playwright Component Testing Intro
+title: Isolating UI Components: Playwright Component Testing Introduction
 date: 08-Feb-2026
 lastUpdated: 08-Feb-2026
 author: pankaj-kumar
@@ -9,26 +9,24 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["playwright", "typescript", "components", "react", "isolation"]
+tags: ["playwright", "typescript", "component-testing", "react", "frontend"]
 category: Component Testing
-categories: ["Playwright TypeScript", "Component Testing", "UI Automation"]
+categories: ["Playwright TypeScript", "Component Testing", "React"]
 excerpt: >-
-  Go beyond end-to-end testing. Learn how to compile and test individual React, Vue, or Svelte components in complete isolation using Playwright CT.
-readTime: 4 min read
+  Test frontend components in isolation! Learn how Playwright Component Testing (CT) mounts React and Vue components directly in real browser environments.
+readTime: 8 min read
 ---
 
-# Isolating UI: Playwright Component Testing Intro
+# Isolating UI Components: Playwright Component Testing Introduction
 
-Playwright Component Testing (Playwright CT) allows you to test web components in isolation without launching your entire web server.
+Traditional End-to-End (E2E) testing requires spinning up backend servers, databases, and full web applications. **Playwright Component Testing (CT)** allows developers to mount individual UI components (React, Vue, Svelte) inside a real browser context instantly.
 
 ---
 
-## 1. Setting up Playwright CT
-
-Initialize component testing in your repository:
+## 1. Setting Up Playwright CT
 
 ```bash
-npm init playwright@latest -- --ct
+npm init playwright-ct@latest
 ```
 
 ---
@@ -37,14 +35,21 @@ npm init playwright@latest -- --ct
 
 Mount and assert on components directly:
 
-```typescript
+**src/components/Button.test.tsx**
+
+```tsx
 import { test, expect } from '@playwright/experimental-ct-react';
-import Button from '../src/components/Button';
-test('should render button and respond to clicks', async ({ mount }) => {
-  const component = await mount(<Button label="Click Me" />);
-  await expect(component).toContainText('Click Me');
+import { Button } from './Button';
+ 
+test('should render button with correct label and handle click events', async ({ mount }) => {
+  let clicked = false;
+  
+  const component = await mount(
+    <Button label="Submit Order" onClick={() => { clicked = true; }} />
+  );
+ 
+  await expect(component).toContainText('Submit Order');
   await component.click();
+  expect(clicked).toBe(true);
 });
 ```
-
-This approach yields incredibly fast, isolated feedback loops.

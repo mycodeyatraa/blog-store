@@ -1,5 +1,5 @@
 ---
-title: Mocking State: Mocking Component Props & State in Playwright CT
+title: Mocking Component Props & State in Playwright CT
 date: 09-Feb-2026
 lastUpdated: 09-Feb-2026
 author: pankaj-kumar
@@ -9,35 +9,37 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["playwright", "typescript", "components", "mocking", "state"]
+tags: ["playwright", "typescript", "component-testing", "mocking", "react"]
 category: Component Testing
-categories: ["Playwright TypeScript", "Component Testing", "UI Automation"]
+categories: ["Playwright TypeScript", "Component Testing", "Mocking"]
 excerpt: >-
-  Master data boundary testing. Learn how to mock props, component state, context providers, and network requests inside Playwright CT.
-readTime: 4 min read
+  Master state and prop injection in Playwright Component Testing! Validate complex UI states without backend dependencies.
+readTime: 7 min read
 ---
 
-# Mocking State: Mocking Component Props & State in Playwright CT
+# Mocking Component Props & State in Playwright CT
 
-To test edges and error cases, we must feed custom props and mock application state (Redux, Contexts) into our mounted components.
+Testing edge-case UI states (e.g., error banners, loading skeletons, disabled buttons) is difficult when relying on live API responses. **Playwright CT** makes it effortless to pass custom props and stub internal state directly.
 
 ---
 
-## 1. Mocking Props and Context
+## 1. Mocking Complex Props in React Component Tests
 
-Below is an execution sample mocking state:
-
-```typescript
+```tsx
 import { test, expect } from '@playwright/experimental-ct-react';
-import ShoppingCart from '../src/components/ShoppingCart';
-test('should display cart total matching custom state', async ({ mount }) => {
-  const component = await mount(
-    <ShoppingCart 
-      initialItems={[{ id: 1, name: 'Book', price: 10 }]} 
-    />
-  );
-  await expect(component.locator('.total')).toHaveText('$10.00');
+import { UserProfileCard } from './UserProfileCard';
+ 
+test('should display danger badge for suspended user accounts', async ({ mount }) => {
+  const mockUser = {
+    id: 101,
+    name: 'Pankaj Kumar',
+    status: 'SUSPENDED',
+    roles: ['ADMIN']
+  };
+ 
+  const component = await mount(<UserProfileCard user={mockUser} />);
+ 
+  await expect(component.getByTestId('status-badge')).toHaveText('Account Suspended');
+  await expect(component.getByTestId('status-badge')).toHaveClass(/badge-danger/);
 });
 ```
-
-This guarantees tests stay robust against backend network failures.
