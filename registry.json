@@ -26312,5 +26312,304 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     }
+  },
+  {
+    "id": "post-720",
+    "slug": "json-parsing-jackson-gson-restassured",
+    "title": "JSON Parsing with Jackson & Gson in REST-Assured",
+    "description": "Master payload serialization and deserialization! Learn how to integrate Jackson and Gson with REST-Assured for seamless POJO mapping.",
+    "contentPath": "users/pankaj-kumar/posts/json-parsing-jackson-gson-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "16-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "jackson",
+      "gson",
+      "json",
+      "serialization"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-721",
+    "slug": "validating-responses-hamcrest-matchers-restassured",
+    "title": "Validating Responses with Hamcrest Matchers in REST-Assured",
+    "description": "Write fluent, human-readable API assertions! Master Hamcrest matchers for complex JSON response validation in REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/validating-responses-hamcrest-matchers-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "17-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "hamcrest",
+      "assertions",
+      "matchers"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-722",
+    "slug": "handling-authentication-jwt-oauth-restassured",
+    "title": "Handling Authentication: OAuth 2.0, Bearer Tokens & JWT in REST-Assured",
+    "description": "Secure your API automation! Learn how to handle OAuth 2.0 client credentials, Bearer tokens, and JWT authentication in REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/handling-authentication-jwt-oauth-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "18-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "oauth2",
+      "jwt",
+      "bearer-token",
+      "security"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-723",
+    "slug": "multipart-form-data-file-upload-restassured",
+    "title": "Multi-part Form Data & File Upload in REST-Assured",
+    "description": "Automate file upload endpoints easily! Learn how to send multipart form-data requests and verify file downloads with REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/multipart-form-data-file-upload-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "19-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "file-upload",
+      "multipart",
+      "api-testing"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-724",
+    "slug": "data-driven-testing-junit-5-restassured",
+    "title": "Data-Driven Testing with JUnit 5 & REST-Assured",
+    "description": "Run scalable parameterized API tests! Harness JUnit 5 @ParameterizedTest, @CsvSource, and @MethodSource with REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/data-driven-testing-junit-5-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "20-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "junit5",
+      "data-driven",
+      "parameterized"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-725",
+    "slug": "request-response-specifications-builder-restassured",
+    "title": "Request & Response Specification Builders in REST-Assured",
+    "description": "Eliminate boilerplate code! Build reusable RequestSpecBuilder and ResponseSpecBuilder templates in REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/request-response-specifications-builder-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "21-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "specifications",
+      "builder-pattern",
+      "clean-code"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-726",
+    "slug": "creating-custom-api-framework-restassured",
+    "title": "Creating a Custom Enterprise API Framework in REST-Assured",
+    "description": "Design an enterprise-grade REST-Assured framework! Implement Singleton managers, client wrappers, and Allure logging.",
+    "contentPath": "users/pankaj-kumar/posts/creating-custom-api-framework-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "22-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "framework-design",
+      "architecture",
+      "patterns"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-727",
+    "slug": "observability-driven-testing-odt-restassured",
+    "title": "Observability-Driven Testing (ODT) in REST-Assured",
+    "description": "Shift from basic HTTP status checks to trace-based assertions! Implement Observability-Driven Testing with OpenTelemetry and REST-Assured.",
+    "contentPath": "users/pankaj-kumar/posts/observability-driven-testing-odt-restassured.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/rest_assured.png",
+    "readTime": "8 min read",
+    "date": "23-Feb-2026",
+    "draft": false,
+    "categories": [
+      "REST-Assured",
+      "API Testing",
+      "Java"
+    ],
+    "tags": [
+      "restassured",
+      "java",
+      "observability",
+      "odt",
+      "opentelemetry",
+      "tracing"
+    ],
+    "series": "rest-assured-zero-to-hero",
+    "seriesOrder": 16,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
