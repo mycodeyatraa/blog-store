@@ -18,15 +18,15 @@ readTime: 4 min read
 ---
 
 # Autonomous Playwright Agents: Building Self-Driving QA Loops
- 
+
 An autonomous test agent operates in a continuous loop: reasoning, taking actions, observing results, and deciding the next step until the objective is reached.
- 
+
 ---
 
 ## 1. The Autonomous Agent Loop
- 
+
 Below is a template for an autonomous ReAct loop:
- 
+
 ```typescript
 async function runAutonomousQaLoop(objective: string, context: string = '') {
   const prompt = `Objective: ${objective}. Context: ${context}. Respond with Thought, Action, Action_Input.`;
@@ -38,5 +38,5 @@ async function runAutonomousQaLoop(objective: string, context: string = '') {
   await runAutonomousQaLoop(objective, context + `\nResult: ${result}`);
 }
 ```
- 
+
 This hands-off strategy represents the pinnacle of AI-driven test automation architecture.

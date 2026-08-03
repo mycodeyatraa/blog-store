@@ -18,24 +18,24 @@ readTime: 4 min read
 ---
 
 # Decoupling User Actions: The Screenplay Pattern in Selenium Python
- 
+
 The Screenplay Pattern is a user-centric approach to test automation that emphasizes actors, their abilities, and the tasks they perform.
- 
+
 ---
 
 ## 1. Actor, Ability, and Task Model
- 
+
 Instead of modeling tests around pages, we structure them around actors:
 - **Actor:** Who is executing the action (e.g., Pankaj).
 - **Ability:** What the actor can do (e.g., Browse the Web using Selenium WebDriver).
 - **Task:** High-level actions the actor performs (e.g., Add Item to Cart).
- 
+
 ---
 
 ## 2. Implementing Screenplay in Python
- 
+
 Here is a clean implementation of the Screenplay Pattern structure:
- 
+
 ```python
 class Actor:
     def __init__(self, name):
@@ -58,5 +58,5 @@ class BrowseTheWeb:
     def as_actor(actor):
         return actor.abilities[BrowseTheWeb]
 ```
- 
+
 This structural shift makes your automation code decoupled, highly reusable, and readable.

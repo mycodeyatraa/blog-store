@@ -18,15 +18,15 @@ readTime: 4 min read
 ---
 
 # Zero Test Failures: AI Self-Healing Locators in Playwright
- 
+
 Locators break when UI code changes. A self-healing framework detects locator failures, calls an LLM with the page snapshot, generates a corrected locator, and resumes execution seamlessly.
- 
+
 ---
 
 ## 1. Self-Healing Wrapper in Playwright
- 
+
 We can construct a helper to intercept locator timeouts:
- 
+
 ```typescript
 import { Page, Locator } from '@playwright/test';
 import { OpenAI } from 'openai';
@@ -45,5 +45,5 @@ async function getHealedLocator(page: Page, brokenSelector: string): Promise<Loc
   }
 }
 ```
- 
+
 This prevents transient locator changes from failing your CI execution pipelines.

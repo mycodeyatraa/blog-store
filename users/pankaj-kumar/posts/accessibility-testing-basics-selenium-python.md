@@ -18,19 +18,19 @@ readTime: 4 min read
 ---
 
 # Enforcing Inclusion: Accessibility Testing Basics in Python
- 
+
 Accessibility testing ensures your application is usable by individuals with disabilities, aligning with WCAG compliance guidelines.
- 
+
 ---
 
 ## 1. Key Compliance Areas
- 
+
 - **Keyboard Navigation:** Confirm all interactive elements can be reached via Tab key.
 - **Color Contrast:** Validate text contrast ratios against background elements.
 - **ARIA Roles:** Check that assistive technologies can interpret UI elements correctly.
- 
+
 ---
 
 ## 2. Setting Up Audits
- 
+
 By injecting validation checks into our baseline automation suite, we flag compliance regressions before code reaches production environments.

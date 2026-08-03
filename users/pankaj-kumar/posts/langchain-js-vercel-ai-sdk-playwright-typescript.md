@@ -18,15 +18,15 @@ readTime: 4 min read
 ---
 
 # Building QA Chains: LangChain.js & Vercel AI SDK in Playwright
- 
+
 Using professional frameworks like LangChain.js and the Vercel AI SDK allows us to build structured workflows for complex verification tasks.
- 
+
 ---
 
 ## 1. Structured Text Generation with Vercel AI SDK
- 
+
 Generate structured validations directly from execution logs:
- 
+
 ```typescript
 import { generateText } from 'ai';
 import { openai } from '@ai-sdk/openai';
@@ -38,5 +38,5 @@ async function analyzePlaywrightLogs(logs: string) {
   console.log('Analysis:', text);
 }
 ```
- 
+
 These tools elevate simple scripts into robust, cognitive pipeline steps.

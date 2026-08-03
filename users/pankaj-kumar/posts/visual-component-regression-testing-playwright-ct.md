@@ -18,15 +18,15 @@ readTime: 4 min read
 ---
 
 # Pixel-Perfect Components: Visual Component Regression in Playwright
- 
+
 Component-level visual regression guarantees that CSS modifications do not break key visual layouts in isolated modules.
- 
+
 ---
 
 ## 1. Performing Component Visual Assertions
- 
+
 Use the standard snapshot matching API on isolated component handles:
- 
+
 ```typescript
 import { test, expect } from '@playwright/experimental-ct-react';
 import Header from '../src/components/Header';
@@ -35,5 +35,5 @@ test('header layout matches visual baseline', async ({ mount }) => {
   await expect(component).toHaveScreenshot('header-baseline.png');
 });
 ```
- 
+
 This prevents visual layout shifts from shipping undetected.

@@ -18,15 +18,15 @@ readTime: 4 min read
 ---
 
 # Mocking State: Mocking Component Props & State in Playwright CT
- 
+
 To test edges and error cases, we must feed custom props and mock application state (Redux, Contexts) into our mounted components.
- 
+
 ---
 
 ## 1. Mocking Props and Context
- 
+
 Below is an execution sample mocking state:
- 
+
 ```typescript
 import { test, expect } from '@playwright/experimental-ct-react';
 import ShoppingCart from '../src/components/ShoppingCart';
@@ -39,5 +39,5 @@ test('should display cart total matching custom state', async ({ mount }) => {
   await expect(component.locator('.total')).toHaveText('$10.00');
 });
 ```
- 
+
 This guarantees tests stay robust against backend network failures.

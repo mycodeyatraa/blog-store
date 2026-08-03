@@ -18,24 +18,24 @@ readTime: 4 min read
 ---
 
 # Prompt to Test: AI-Driven Test Generation in Playwright
- 
+
 Automating test generation is no longer a futuristic dream. With modern LLMs, we can translate raw product requirements directly into clean, executable Playwright TypeScript test cases.
- 
+
 ---
 
 ## 1. Structured Prompts for Test Generation
- 
+
 To get high-quality code from an LLM, your prompt must contain:
 1. The **Page HTML** (or DOM layout).
 2. The **User Story** or requirement description.
 3. The **Style Guide** (e.g., use Page Object Model, import Playwright test, use locator assertions).
- 
+
 ---
 
 ## 2. Dynamic Playwright Code Generator
- 
+
 Here is how we programmatically request an LLM to generate a test:
- 
+
 ```typescript
 import { OpenAI } from 'openai';
 import * as fs from 'fs';
@@ -53,5 +53,5 @@ async function generateTest(userStory: string, domLayout: string) {
   fs.writeFileSync('tests/generated.spec.ts', code);
 }
 ```
- 
+
 By integrating this generator into your workflow, you can accelerate framework scaffolding and coverage from day one.

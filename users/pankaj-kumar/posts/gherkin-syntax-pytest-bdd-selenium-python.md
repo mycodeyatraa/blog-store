@@ -18,22 +18,22 @@ readTime: 4 min read
 ---
 
 # Defining Behavior: Understanding Gherkin Syntax in Python BDD
- 
+
 Gherkin uses structured English to write specifications that serve as executable documentation.
- 
+
 ---
 
 ## 1. Standard Gherkin Structure
- 
+
 A standard feature file contains:
 - **Feature:** A high-level description of user value.
 - **Scenario:** A specific execution pathway.
 - **Steps:** Statements starting with Given, When, Then, And, or But.
- 
+
 ---
 
 ## 2. Code Example
- 
+
 ```gherkin
 Feature: Shopping Cart Validation
   Scenario: Add item to cart
@@ -41,5 +41,5 @@ Feature: Shopping Cart Validation
     When the user clicks the add to cart button
     Then the cart badge count should increase by 1
 ```
- 
+
 Writing descriptive Gherkin files is essential for business-facing automation success.

@@ -18,28 +18,28 @@ readTime: 4 min read
 ---
 
 # Stunning Dashboards: Allure Reporting Basics in Python
- 
+
 Allure Framework is a flexible, lightweight multi-language test report tool designed to show clean execution dashboards.
- 
+
 ---
 
 ## 1. Setting Up Allure in Pytest
- 
+
 Install the allure-pytest library:
- 
+
 ```bash
 pip install allure-pytest
 ```
- 
+
 ---
 
 ## 2. Generating Reports
- 
+
 Run your tests and specify the results directory:
- 
+
 ```bash
 pytest --alluredir=allure-results
 allure serve allure-results
 ```
- 
+
 This transforms text logs into interactive, executive-ready dashboard interfaces.

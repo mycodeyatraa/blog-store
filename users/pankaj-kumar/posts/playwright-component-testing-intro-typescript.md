@@ -18,25 +18,25 @@ readTime: 4 min read
 ---
 
 # Isolating UI: Playwright Component Testing Intro
- 
+
 Playwright Component Testing (Playwright CT) allows you to test web components in isolation without launching your entire web server.
- 
+
 ---
 
 ## 1. Setting up Playwright CT
- 
+
 Initialize component testing in your repository:
- 
+
 ```bash
 npm init playwright@latest -- --ct
 ```
- 
+
 ---
 
 ## 2. Writing a Component Test
- 
+
 Mount and assert on components directly:
- 
+
 ```typescript
 import { test, expect } from '@playwright/experimental-ct-react';
 import Button from '../src/components/Button';
@@ -46,5 +46,5 @@ test('should render button and respond to clicks', async ({ mount }) => {
   await component.click();
 });
 ```
- 
+
 This approach yields incredibly fast, isolated feedback loops.
