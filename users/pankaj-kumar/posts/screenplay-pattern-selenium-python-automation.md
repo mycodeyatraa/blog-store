@@ -9,9 +9,9 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: ["selenium", "python", "screenplay-pattern", "architecture", "design-patterns"]
-category: Test Design
-categories: ["Selenium Python", "Test Design", "UI Automation"]
+tags: ["selenium", "python", "page-object-model", "pom", "framework", "architecture"]
+category: Framework Architecture
+categories: ["Framework Architecture", "Selenium", "Python"]
 excerpt: >-
   Transition from Page Objects to actors, abilities, and tasks. Learn how to write cleaner, more maintainable Selenium Python tests with the Screenplay Pattern.
 readTime: 4 min read
@@ -26,8 +26,11 @@ The Screenplay Pattern is a user-centric approach to test automation that emphas
 ## 1. Actor, Ability, and Task Model
  
 Instead of modeling tests around pages, we structure them around actors:
+
 - **Actor:** Who is executing the action (e.g., Pankaj).
+
 - **Ability:** What the actor can do (e.g., Browse the Web using Selenium WebDriver).
+
 - **Task:** High-level actions the actor performs (e.g., Add Item to Cart).
  
 ---

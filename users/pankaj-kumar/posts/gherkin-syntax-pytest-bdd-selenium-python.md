@@ -10,8 +10,8 @@ authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
 tags: ["selenium", "python", "bdd", "gherkin", "cucumber"]
-category: BDD
-categories: ["Selenium Python", "BDD", "UI Automation"]
+category: Behavior Driven Development
+categories: ["Behavior Driven Development", "Python", "Automation"]
 excerpt: >-
   Bridge the gap between business and technology. Learn how to construct clean, unambiguous Gherkin feature files using Given, When, Then syntax.
 readTime: 4 min read
@@ -26,8 +26,11 @@ Gherkin uses structured English to write specifications that serve as executable
 ## 1. Standard Gherkin Structure
  
 A standard feature file contains:
+
 - **Feature:** A high-level description of user value.
+
 - **Scenario:** A specific execution pathway.
+
 - **Steps:** Statements starting with Given, When, Then, And, or But.
  
 ---

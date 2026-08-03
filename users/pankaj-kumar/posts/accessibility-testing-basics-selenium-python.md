@@ -10,8 +10,8 @@ authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
 tags: ["selenium", "python", "accessibility", "wcag", "inclusive"]
-category: Accessibility
-categories: ["Selenium Python", "Accessibility", "UI Automation"]
+category: Accessibility Testing
+categories: ["Accessibility Testing", "Python", "Automation"]
 excerpt: >-
   Shift left on inclusion. Learn the fundamentals of accessibility testing compliance checks and automated accessibility audits using Python.
 readTime: 4 min read
@@ -25,8 +25,11 @@ Accessibility testing ensures your application is usable by individuals with dis
 
 ## 1. Key Compliance Areas
  
+
 - **Keyboard Navigation:** Confirm all interactive elements can be reached via Tab key.
+
 - **Color Contrast:** Validate text contrast ratios against background elements.
+
 - **ARIA Roles:** Check that assistive technologies can interpret UI elements correctly.
  
 ---
