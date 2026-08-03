@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Model Context Protocol (MCP) provides a standard interface for connecting AI models to external tools, databases, and local environments.
  
+---
+
 ## 1. Connecting Playwright to MCP Servers
  
 By exposing Playwright as an MCP tool, an AI agent can execute tests and inspect outputs directly:

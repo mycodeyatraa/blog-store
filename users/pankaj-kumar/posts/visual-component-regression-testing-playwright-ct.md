@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Component-level visual regression guarantees that CSS modifications do not break key visual layouts in isolated modules.
  
+---
+
 ## 1. Performing Component Visual Assertions
  
 Use the standard snapshot matching API on isolated component handles:

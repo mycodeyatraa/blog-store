@@ -21,6 +21,8 @@ readTime: 4 min read
  
 As software engineering scales, manual framework maintenance becomes unsustainable. AI models are shifting from developer assistants to key system operators.
  
+---
+
 ## 1. Paradigm Shift
  
 - **From Scripts to Objectives:** Engineers will define *what* to test, and AI will figure out *how*.

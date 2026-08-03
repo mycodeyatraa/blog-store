@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Allure Framework is a flexible, lightweight multi-language test report tool designed to show clean execution dashboards.
  
+---
+
 ## 1. Setting Up Allure in Pytest
  
 Install the allure-pytest library:
@@ -29,6 +31,8 @@ Install the allure-pytest library:
 pip install allure-pytest
 ```
  
+---
+
 ## 2. Generating Reports
  
 Run your tests and specify the results directory:

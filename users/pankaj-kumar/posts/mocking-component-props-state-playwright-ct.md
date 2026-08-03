@@ -21,6 +21,8 @@ readTime: 4 min read
  
 To test edges and error cases, we must feed custom props and mock application state (Redux, Contexts) into our mounted components.
  
+---
+
 ## 1. Mocking Props and Context
  
 Below is an execution sample mocking state:

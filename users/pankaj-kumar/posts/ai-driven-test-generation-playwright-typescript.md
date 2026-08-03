@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Automating test generation is no longer a futuristic dream. With modern LLMs, we can translate raw product requirements directly into clean, executable Playwright TypeScript test cases.
  
+---
+
 ## 1. Structured Prompts for Test Generation
  
 To get high-quality code from an LLM, your prompt must contain:
@@ -28,6 +30,8 @@ To get high-quality code from an LLM, your prompt must contain:
 2. The **User Story** or requirement description.
 3. The **Style Guide** (e.g., use Page Object Model, import Playwright test, use locator assertions).
  
+---
+
 ## 2. Dynamic Playwright Code Generator
  
 Here is how we programmatically request an LLM to generate a test:

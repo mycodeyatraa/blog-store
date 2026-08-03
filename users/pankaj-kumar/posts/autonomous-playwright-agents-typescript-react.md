@@ -21,6 +21,8 @@ readTime: 4 min read
  
 An autonomous test agent operates in a continuous loop: reasoning, taking actions, observing results, and deciding the next step until the objective is reached.
  
+---
+
 ## 1. The Autonomous Agent Loop
  
 Below is a template for an autonomous ReAct loop:

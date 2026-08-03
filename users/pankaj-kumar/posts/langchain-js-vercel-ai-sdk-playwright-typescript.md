@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Using professional frameworks like LangChain.js and the Vercel AI SDK allows us to build structured workflows for complex verification tasks.
  
+---
+
 ## 1. Structured Text Generation with Vercel AI SDK
  
 Generate structured validations directly from execution logs:

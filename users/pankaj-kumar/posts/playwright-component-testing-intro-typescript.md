@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Playwright Component Testing (Playwright CT) allows you to test web components in isolation without launching your entire web server.
  
+---
+
 ## 1. Setting up Playwright CT
  
 Initialize component testing in your repository:
@@ -29,6 +31,8 @@ Initialize component testing in your repository:
 npm init playwright@latest -- --ct
 ```
  
+---
+
 ## 2. Writing a Component Test
  
 Mount and assert on components directly:

@@ -21,6 +21,8 @@ readTime: 4 min read
  
 Locators break when UI code changes. A self-healing framework detects locator failures, calls an LLM with the page snapshot, generates a corrected locator, and resumes execution seamlessly.
  
+---
+
 ## 1. Self-Healing Wrapper in Playwright
  
 We can construct a helper to intercept locator timeouts:
