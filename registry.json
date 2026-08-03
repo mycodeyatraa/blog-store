@@ -3732,7 +3732,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/testing-file-uploads-downloads-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 9,
+    "seriesOrder": 17,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3771,7 +3771,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/handling-request-timeouts-chaos-testing-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 10,
+    "seriesOrder": 18,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3810,7 +3810,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/integrating-faker-js-test-data-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 11,
+    "seriesOrder": 19,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3850,7 +3850,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/setting-up-global-setup-teardown-hooks-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 12,
+    "seriesOrder": 20,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3889,7 +3889,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/mocking-axios-fetch-requests-jest-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 13,
+    "seriesOrder": 21,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3928,7 +3928,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/generating-test-coverage-reports-jest-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 14,
+    "seriesOrder": 22,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -3967,7 +3967,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/configuring-cicd-jest-supertest-github-actions.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 15,
+    "seriesOrder": 23,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -4006,7 +4006,7 @@
     "draft": false,
     "contentPath": "users/pankaj-kumar/posts/best-practices-folder-architecture-supertest.md",
     "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 16,
+    "seriesOrder": 24,
     "authorDetails": {
       "id": "pankaj-kumar",
       "name": "Pankaj Kumar",
@@ -26793,8 +26793,8 @@
       "error-handling",
       "edge-cases"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 17,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0
   },
@@ -26830,8 +26830,8 @@
       "factories",
       "fixtures"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 18,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
   },
@@ -26867,8 +26867,8 @@
       "api-testing",
       "express"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 19,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
   },
@@ -26905,8 +26905,8 @@
       "nyc",
       "reporting"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 20,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
   },
@@ -26942,8 +26942,8 @@
       "devops",
       "pipeline"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 21,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0
   },
@@ -26979,8 +26979,8 @@
       "ethereum",
       "dapps"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 22,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0
   },
@@ -27016,8 +27016,8 @@
       "hardhat",
       "solidity"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 23,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 15,
     "likes": 0,
     "commentsCount": 0
   },
@@ -27053,8 +27053,8 @@
       "ganache",
       "web3-testing"
     ],
-    "series": "supertest-express-zero-to-hero",
-    "seriesOrder": 24,
+    "series": "nodejs-supertest-api-testing",
+    "seriesOrder": 16,
     "likes": 0,
     "commentsCount": 0
   }
