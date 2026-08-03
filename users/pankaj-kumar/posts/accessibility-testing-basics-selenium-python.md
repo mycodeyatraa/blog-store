@@ -25,11 +25,8 @@ Accessibility testing ensures your application is usable by individuals with dis
 
 ## 1. Key Compliance Areas
  
-
 - **Keyboard Navigation:** Confirm all interactive elements can be reached via Tab key.
-
 - **Color Contrast:** Validate text contrast ratios against background elements.
-
 - **ARIA Roles:** Check that assistive technologies can interpret UI elements correctly.
  
 ---

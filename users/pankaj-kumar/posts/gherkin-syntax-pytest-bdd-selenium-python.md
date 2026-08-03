@@ -26,11 +26,8 @@ Gherkin uses structured English to write specifications that serve as executable
 ## 1. Standard Gherkin Structure
  
 A standard feature file contains:
-
 - **Feature:** A high-level description of user value.
-
 - **Scenario:** A specific execution pathway.
-
 - **Steps:** Statements starting with Given, When, Then, And, or But.
  
 ---

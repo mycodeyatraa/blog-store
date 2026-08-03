@@ -26,11 +26,8 @@ The Screenplay Pattern is a user-centric approach to test automation that emphas
 ## 1. Actor, Ability, and Task Model
  
 Instead of modeling tests around pages, we structure them around actors:
-
 - **Actor:** Who is executing the action (e.g., Pankaj).
-
 - **Ability:** What the actor can do (e.g., Browse the Web using Selenium WebDriver).
-
 - **Task:** High-level actions the actor performs (e.g., Add Item to Cart).
  
 ---
