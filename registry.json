@@ -26611,5 +26611,153 @@
     "seriesOrder": 16,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "blog-karate-11",
+    "slug": "karate-netty-standalone-api-mocking",
+    "title": "Karate Netty: Mocking APIs Easily with Karate Standalone",
+    "description": "Build high-performance mock servers without Java server code! Harness Karate Netty to mock HTTP endpoints dynamically.",
+    "contentPath": "users/pankaj-kumar/posts/karate-netty-standalone-api-mocking.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/karate.png",
+    "readTime": "8 min read",
+    "date": "24-Feb-2026",
+    "draft": false,
+    "categories": [
+      "API Karate",
+      "API Testing",
+      "Mocking"
+    ],
+    "tags": [
+      "karate",
+      "netty",
+      "mocking",
+      "api-testing",
+      "standalone"
+    ],
+    "series": "karate-framework-zero-to-hero",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-karate-12",
+    "slug": "karate-gatling-load-testing-reuse",
+    "title": "Karate Gatling: Reusing Functional API Tests for Performance Testing",
+    "description": "Turn functional tests into load tests instantly! Reuse Karate API feature files with Gatling for high-concurrency performance validation.",
+    "contentPath": "users/pankaj-kumar/posts/karate-gatling-load-testing-reuse.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/karate.png",
+    "readTime": "8 min read",
+    "date": "25-Feb-2026",
+    "draft": false,
+    "categories": [
+      "API Karate",
+      "Performance Testing",
+      "Gatling"
+    ],
+    "tags": [
+      "karate",
+      "gatling",
+      "performance",
+      "load-testing",
+      "scalability"
+    ],
+    "series": "karate-framework-zero-to-hero",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-karate-13",
+    "slug": "advanced-authentication-oauth-sso-karate",
+    "title": "Advanced Authentication: OAuth 2.0 & SSO in Karate",
+    "description": "Automate secure API authentication! Learn how to handle OAuth 2.0 token exchanges, JWT headers, and SSO flows in Karate.",
+    "contentPath": "users/pankaj-kumar/posts/advanced-authentication-oauth-sso-karate.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/karate.png",
+    "readTime": "8 min read",
+    "date": "26-Feb-2026",
+    "draft": false,
+    "categories": [
+      "API Karate",
+      "API Testing",
+      "Security"
+    ],
+    "tags": [
+      "karate",
+      "oauth2",
+      "sso",
+      "authentication",
+      "jwt"
+    ],
+    "series": "karate-framework-zero-to-hero",
+    "seriesOrder": 13,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "blog-karate-14",
+    "slug": "parallel-execution-reporting-karate",
+    "title": "Parallel Execution & Custom Reporting in Karate",
+    "description": "Slash execution times! Scale Karate tests with multi-threaded parallel execution and generate rich Cucumber HTML reports.",
+    "contentPath": "users/pankaj-kumar/posts/parallel-execution-reporting-karate.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/karate.png",
+    "readTime": "8 min read",
+    "date": "27-Feb-2026",
+    "draft": false,
+    "categories": [
+      "API Karate",
+      "API Testing",
+      "Reporting"
+    ],
+    "tags": [
+      "karate",
+      "parallel-execution",
+      "reporting",
+      "cucumber-reports",
+      "ci-cd"
+    ],
+    "series": "karate-framework-zero-to-hero",
+    "seriesOrder": 14,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
