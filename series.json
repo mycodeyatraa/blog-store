@@ -1780,7 +1780,6 @@
       "CI/CD"
     ],
     "articleIds": [
-      "post-525",
       "post-526",
       "post-527",
       "post-528",
@@ -1789,7 +1788,6 @@
       "post-531"
     ],
     "posts": [
-      "post-525",
       "post-526",
       "post-527",
       "post-528",
@@ -1801,9 +1799,10 @@
   {
     "id": "selenium-ruby-fundamentals",
     "title": "Selenium Ruby Fundamentals",
-    "description": "Master the absolute basics of browser automation using Selenium 4, Ruby, and RSpec.",
+    "description": "Master core Selenium WebDriver automation using Ruby, RSpec, and Chrome DevTools Protocol.",
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
     "articleIds": [
+      "post-525",
       "post-532",
       "post-533",
       "post-534",
@@ -1813,9 +1812,14 @@
       "post-538",
       "post-539",
       "post-540",
-      "post-541"
+      "post-541",
+      "post-542",
+      "post-543",
+      "post-544",
+      "post-545"
     ],
     "posts": [
+      "post-525",
       "post-532",
       "post-533",
       "post-534",
@@ -1825,36 +1829,58 @@
       "post-538",
       "post-539",
       "post-540",
-      "post-541"
-    ]
+      "post-541",
+      "post-542",
+      "post-543",
+      "post-544",
+      "post-545"
+    ],
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "01-Jan-2025"
   },
   {
     "id": "selenium-ruby-intermediate",
-    "title": "Selenium Ruby Intermediate",
-    "description": "Transition from basic scripts to robust, architecturally sound test automation frameworks using Page Object Models and RSpec hooks.",
+    "title": "Selenium Ruby Intermediate Automation",
+    "description": "Learn advanced synchronization, mouse/keyboard actions, iFrames, windows, and JavaScript execution in Ruby.",
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_java.png",
     "articleIds": [
-      "post-542",
-      "post-543",
-      "post-544",
-      "post-545",
       "post-546",
       "post-547",
       "post-548",
       "post-549",
-      "post-550"
+      "post-550",
+      "post-551",
+      "post-552",
+      "post-553",
+      "post-554",
+      "post-555",
+      "post-556",
+      "post-557",
+      "post-558",
+      "post-559",
+      "post-560"
     ],
     "posts": [
-      "post-542",
-      "post-543",
-      "post-544",
-      "post-545",
       "post-546",
       "post-547",
       "post-548",
       "post-549",
-      "post-550"
-    ]
+      "post-550",
+      "post-551",
+      "post-552",
+      "post-553",
+      "post-554",
+      "post-555",
+      "post-556",
+      "post-557",
+      "post-558",
+      "post-559",
+      "post-560"
+    ],
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "15-Feb-2025"
   },
   {
     "id": "selenium-ruby-advanced",
@@ -2336,5 +2362,73 @@
       "post-717",
       "post-718"
     ]
+  },
+  {
+    "id": "selenium-ruby-framework-design",
+    "title": "Selenium Ruby Framework Design & Patterns",
+    "description": "Build scalable Page Object Model (POM) and Capybara frameworks with RSpec test runners.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "01-Mar-2025",
+    "articleIds": [
+      "post-561",
+      "post-562",
+      "post-563",
+      "post-564",
+      "post-565",
+      "post-566",
+      "post-730",
+      "post-731"
+    ],
+    "posts": [
+      "post-561",
+      "post-562",
+      "post-563",
+      "post-564",
+      "post-565",
+      "post-566",
+      "post-730",
+      "post-731"
+    ]
+  },
+  {
+    "id": "selenium-ruby-bdd-cucumber",
+    "title": "Behavior-Driven Development with Cucumber-Ruby",
+    "description": "Master Gherkin syntax, Cucumber-Ruby step definitions, and scenario outlines with RSpec.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "15-Mar-2025",
+    "articleIds": [],
+    "posts": []
+  },
+  {
+    "id": "selenium-ruby-api-and-database",
+    "title": "Ruby API & Database Testing Integration",
+    "description": "Automate REST API validation and SQL database assertions using RestClient, Airborne, and Ruby Sequel.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "01-Apr-2025",
+    "articleIds": [],
+    "posts": []
+  },
+  {
+    "id": "selenium-ruby-security-and-visual",
+    "title": "Selenium Ruby Security, Visual & Accessibility Testing",
+    "description": "Enforce WCAG accessibility, visual regression with Percy, and OWASP security testing in Ruby.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "15-Apr-2025",
+    "articleIds": [],
+    "posts": []
+  },
+  {
+    "id": "selenium-ruby-cicd-and-ai",
+    "title": "Selenium Ruby CI/CD Pipelines & AI Automation",
+    "description": "Integrate Ruby test suites into GitHub Actions, Docker grids, and AI self-healing test flows.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "01-May-2025",
+    "articleIds": [],
+    "posts": []
   }
 ]

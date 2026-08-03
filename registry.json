@@ -20371,7 +20371,7 @@
       "Kotest",
       "BehaviorSpec"
     ],
-    "series": "selenium-kotlin-advanced-scenarios",
+    "series": "selenium-ruby-fundamentals",
     "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0,
@@ -20644,7 +20644,7 @@
       "Automation"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 1,
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20682,7 +20682,7 @@
       "WebDriver"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 2,
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20720,7 +20720,7 @@
       "CSS"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 3,
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20758,7 +20758,7 @@
       "WebElements"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 4,
+    "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20796,7 +20796,7 @@
       "Synchronization"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 5,
+    "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20834,7 +20834,7 @@
       "Synchronization"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 6,
+    "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20872,7 +20872,7 @@
       "WebElements"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 7,
+    "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20910,7 +20910,7 @@
       "Keyboard"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 8,
+    "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20948,7 +20948,7 @@
       "JavaScript"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 9,
+    "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -20986,7 +20986,7 @@
       "SwitchTo"
     ],
     "series": "selenium-ruby-fundamentals",
-    "seriesOrder": 10,
+    "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21023,8 +21023,8 @@
       "Page Object Model",
       "Framework Architecture"
     ],
-    "series": "selenium-ruby-intermediate",
-    "seriesOrder": 1,
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21061,8 +21061,8 @@
       "Lazy Evaluation",
       "Caching"
     ],
-    "series": "selenium-ruby-intermediate",
-    "seriesOrder": 2,
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21099,8 +21099,8 @@
       "Hooks",
       "Lifecycle"
     ],
-    "series": "selenium-ruby-intermediate",
-    "seriesOrder": 3,
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21137,8 +21137,8 @@
       "spec_helper",
       "Configuration"
     ],
-    "series": "selenium-ruby-intermediate",
-    "seriesOrder": 4,
+    "series": "selenium-ruby-fundamentals",
+    "seriesOrder": 15,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21176,7 +21176,7 @@
       "RSpec"
     ],
     "series": "selenium-ruby-intermediate",
-    "seriesOrder": 5,
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21214,7 +21214,7 @@
       "RSpec"
     ],
     "series": "selenium-ruby-intermediate",
-    "seriesOrder": 6,
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21252,7 +21252,7 @@
       "Matchers"
     ],
     "series": "selenium-ruby-intermediate",
-    "seriesOrder": 7,
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21290,7 +21290,7 @@
       "Test Execution"
     ],
     "series": "selenium-ruby-intermediate",
-    "seriesOrder": 8,
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21328,7 +21328,7 @@
       "Debugging"
     ],
     "series": "selenium-ruby-intermediate",
-    "seriesOrder": 9,
+    "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21365,8 +21365,8 @@
       "execute_script",
       "Advanced"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 1,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21403,8 +21403,8 @@
       "Explicit Waits",
       "WebDriverWait"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 2,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 7,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21441,8 +21441,8 @@
       "File Download",
       "Chrome Options"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 3,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21479,8 +21479,8 @@
       "Mouse Actions",
       "Drag and Drop"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 4,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 9,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21517,8 +21517,8 @@
       "ChromeOptions",
       "CI/CD"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 5,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21555,8 +21555,8 @@
       "RSpec",
       "Optimization"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 6,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21593,8 +21593,8 @@
       "Dotenv",
       "Security"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 7,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21631,8 +21631,8 @@
       "Tabs",
       "Context Switching"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 8,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21668,8 +21668,8 @@
       "iFrames",
       "Context Switching"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 9,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21705,8 +21705,8 @@
       "Alerts",
       "JavaScript Prompts"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 10,
+    "series": "selenium-ruby-intermediate",
+    "seriesOrder": 15,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21743,8 +21743,8 @@
       "Network Interception",
       "API Mocking"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 11,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 1,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21781,8 +21781,8 @@
       "HTML",
       "RSpec"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 12,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21819,8 +21819,8 @@
       "SQL",
       "mysql2"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 13,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 3,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21857,8 +21857,8 @@
       "Rest-Client",
       "Data Seeding"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 14,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21895,8 +21895,8 @@
       "POM",
       "Architecture"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 15,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -21933,8 +21933,8 @@
       "CI/CD",
       "DevOps"
     ],
-    "series": "selenium-ruby-advanced",
-    "seriesOrder": 16,
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 6,
     "likes": 0,
     "commentsCount": 0,
     "category": "Selenium Ruby",
@@ -27417,5 +27417,84 @@
     "commentsCount": 0,
     "category": "API Supertest",
     "excerpt": "Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites."
+  },
+  {
+    "id": "post-730",
+    "slug": "cucumber-ruby-bdd-framework-basics",
+    "title": "Behavior-Driven Development: Cucumber-Ruby Basics & RSpec",
+    "description": "Harness Cucumber in its native Ruby environment! Build modular BDD feature files and RSpec step definitions with Selenium Ruby.",
+    "excerpt": "Harness Cucumber in its native Ruby environment! Build modular BDD feature files and RSpec step definitions with Selenium Ruby.",
+    "contentPath": "users/pankaj-kumar/posts/cucumber-ruby-bdd-framework-basics.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_ruby.png",
+    "readTime": "8 min read",
+    "date": "29-Feb-2026",
+    "draft": false,
+    "category": "Selenium Ruby",
+    "categories": [
+      "Selenium Ruby",
+      "BDD",
+      "Cucumber"
+    ],
+    "tags": [
+      "selenium",
+      "ruby",
+      "cucumber",
+      "rspec",
+      "bdd",
+      "gherkin"
+    ],
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-731",
+    "slug": "rspec-capybara-alternative-selenium-ruby",
+    "title": "Capybara vs. Native Selenium: Building RSpec Web Test Suites",
+    "description": "Compare native Selenium WebDriver against Capybara in Ruby! Learn when to use Capybara DSL vs pure Selenium in RSpec.",
+    "excerpt": "Compare native Selenium WebDriver against Capybara in Ruby! Learn when to use Capybara DSL vs pure Selenium in RSpec.",
+    "contentPath": "users/pankaj-kumar/posts/rspec-capybara-alternative-selenium-ruby.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/selenium_ruby.png",
+    "readTime": "8 min read",
+    "date": "01-Mar-2026",
+    "draft": false,
+    "category": "Selenium Ruby",
+    "categories": [
+      "Selenium Ruby",
+      "RSpec",
+      "Capybara"
+    ],
+    "tags": [
+      "selenium",
+      "ruby",
+      "rspec",
+      "capybara",
+      "framework"
+    ],
+    "series": "selenium-ruby-framework-design",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
