@@ -1,6 +1,6 @@
 ---
 title: The Prompt Engineer: AI Test Generation
-date: 15-Feb-2025
+date: 02-Feb-2026
 lastUpdated: 12-Jun-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
