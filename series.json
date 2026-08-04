@@ -2485,5 +2485,30 @@
       "plw_jv_dependency_injection",
       "plw_jv_custom_junit5_extensions"
     ]
+  },
+  {
+    "id": "playwright-java-api-testing",
+    "slug": "playwright-java-api-testing",
+    "title": "Playwright Java API Automation & Auth",
+    "description": "Master native API testing, HTTP REST methods, token authentication, API mocking, and hybrid API+UI automation in Playwright Java.",
+    "category": "Playwright Java API Automation & Auth",
+    "categories": [
+      "Playwright Java API Automation & Auth",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "api-testing",
+      "rest-api",
+      "authentication"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "status": "completed",
+    "createdAt": "04-Feb-2026",
+    "posts": [],
+    "articleIds": []
   }
 ]
