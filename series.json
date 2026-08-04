@@ -2400,5 +2400,40 @@
       "post-plw-java-foundations-9",
       "post-plw-java-foundations-10"
     ]
+  },
+  {
+    "id": "playwright-java-core-ui",
+    "title": "Playwright Java Core UI Automation",
+    "description": "Master core UI automation in Playwright Java: wait strategies, tables, iFrames, Shadow DOM, file transfers, overlays, and parallel execution.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "12-Jan-2026",
+    "articleIds": [
+      "post-plw-java-core-ui-1",
+      "post-plw-java-core-ui-2",
+      "post-plw-java-core-ui-3",
+      "post-plw-java-core-ui-4",
+      "post-plw-java-core-ui-5",
+      "post-plw-java-core-ui-6",
+      "post-plw-java-core-ui-7",
+      "post-plw-java-core-ui-8",
+      "post-plw-java-core-ui-9",
+      "post-plw-java-core-ui-10",
+      "post-plw-java-core-ui-11"
+    ],
+    "posts": [
+      "post-plw-java-core-ui-1",
+      "post-plw-java-core-ui-2",
+      "post-plw-java-core-ui-3",
+      "post-plw-java-core-ui-4",
+      "post-plw-java-core-ui-5",
+      "post-plw-java-core-ui-6",
+      "post-plw-java-core-ui-7",
+      "post-plw-java-core-ui-8",
+      "post-plw-java-core-ui-9",
+      "post-plw-java-core-ui-10",
+      "post-plw-java-core-ui-11"
+    ]
   }
 ]

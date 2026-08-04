@@ -27896,5 +27896,445 @@
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-1",
+    "slug": "wait-strategies-playwright-java-core-ui",
+    "title": "Wait Strategies - Playwright Java Core UI",
+    "description": "Master Wait Strategies in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Wait Strategies in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/wait-strategies-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "12-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-2",
+    "slug": "forms-handling-playwright-java-core-ui",
+    "title": "Forms Handling - Playwright Java Core UI",
+    "description": "Master Forms Handling in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Forms Handling in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/forms-handling-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "13-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-3",
+    "slug": "alerts-dialogs-playwright-java-core-ui",
+    "title": "Alerts & Dialogs - Playwright Java Core UI",
+    "description": "Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/alerts-dialogs-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "14-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-4",
+    "slug": "file-upload-playwright-java-core-ui",
+    "title": "File Upload - Playwright Java Core UI",
+    "description": "Master File Upload in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master File Upload in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/file-upload-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "15-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-5",
+    "slug": "file-download-playwright-java-core-ui",
+    "title": "File Download - Playwright Java Core UI",
+    "description": "Master File Download in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master File Download in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/file-download-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "16-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-6",
+    "slug": "windows-tabs-playwright-java-core-ui",
+    "title": "Windows & Tabs - Playwright Java Core UI",
+    "description": "Master Windows & Tabs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Windows & Tabs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/windows-tabs-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "17-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-7",
+    "slug": "frames-iframes-playwright-java-core-ui",
+    "title": "Frames & iFrames - Playwright Java Core UI",
+    "description": "Master Frames & iFrames in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Frames & iFrames in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/frames-iframes-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "18-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-8",
+    "slug": "shadow-dom-playwright-java-core-ui",
+    "title": "Shadow DOM - Playwright Java Core UI",
+    "description": "Master Shadow DOM in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Shadow DOM in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/shadow-dom-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "19-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-9",
+    "slug": "network-monitoring-playwright-java-core-ui",
+    "title": "Network Monitoring - Playwright Java Core UI",
+    "description": "Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/network-monitoring-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "20-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-10",
+    "slug": "parallel-execution-playwright-java-core-ui",
+    "title": "Parallel Execution - Playwright Java Core UI",
+    "description": "Master Parallel Execution in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Parallel Execution in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/parallel-execution-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "21-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-core-ui-11",
+    "slug": "cross-browser-testing-playwright-java-core-ui",
+    "title": "Cross-Browser Testing - Playwright Java Core UI",
+    "description": "Master Cross-Browser Testing in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Cross-Browser Testing in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/cross-browser-testing-playwright-java-core-ui.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "22-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Core UI",
+    "categories": [
+      "Playwright Java Core UI",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "ui-automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-core-ui",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
