@@ -67,24 +67,20 @@ Before Playwright performs an action on a locator, it automatically waits for th
 
 When automating complex dynamic UI components (such as lazy-loaded data widgets at `https://practice.mycodeyatra.com/widgets`), Playwright provides targeted wait methods:
 
-### 1. Wait for Element State (`Locator.waitFor()`)
 ```java
+// 1. Wait for Element State (Locator.waitFor())
 Locator widget = page.locator("#dynamic-widget");
 widget.waitFor(new Locator.WaitForOptions()
     .setState(WaitForSelectorState.VISIBLE)
     .setTimeout(10000));
-```
-
-### 2. Wait for Network Response (`Page.waitForResponse()`)
-```java
+ 
+// 2. Wait for Network Response (Page.waitForResponse())
 Response response = page.waitForResponse("**/api/widgets/data", () -> {
     page.click("#load-widget-btn");
 });
 assertThat(response.status()).isEqualTo(200);
-```
-
-### 3. Wait for Page Navigation (`Page.waitForURL()`)
-```java
+ 
+// 3. Wait for Page Navigation (Page.waitForURL())
 page.click("#submit-btn");
 page.waitForURL("**/dashboard");
 ```
