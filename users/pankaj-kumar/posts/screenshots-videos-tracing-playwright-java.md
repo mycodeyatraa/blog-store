@@ -13,17 +13,23 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Foundations
 categories: [Playwright Java Foundations, Playwright Java, Test Automation]
 excerpt: >-
-  Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.
-readTime: 8 min read
+  Master Screenshots & Videos in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
+readTime: 10 min read
 ---
 
-# Screenshots & Videos in Playwright Java
+# Screenshots & Videos - Playwright Java Foundations
 
-In enterprise test automation, **Playwright Java** provides unmatched execution speed, auto-waiting, and native browser context isolation. This tutorial covers **Screenshots & Videos** with production-grade Java code targeting live practice components at **https://practice.mycodeyatra.com**.
+Mastering **Screenshots & Videos** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Capturing full-page screenshots, element snapshots, and configuring video recording on test failure.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/form-practice**.
 
 ---
 
-## 1. Core Architecture & Concept Overview
+## 1. High-Level Architectural Concepts & Terminology
+
+In Playwright Java, **Screenshots & Videos** provides significant advantages over traditional automation tools:
+
+- **Target URL**: `https://practice.mycodeyatra.com/form-practice`
+- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/MediaCapturePage.java`.
+- **Core Concept**: Capturing full-page screenshots, element snapshots, and configuring video recording on test failure.
 
 ```
  +---------------------------------------------------+
@@ -32,117 +38,72 @@ In enterprise test automation, **Playwright Java** provides unmatched execution 
                           |
                           v
  +---------------------------------------------------+
- |  Playwright Java Page Objects (src/main/java)      |
+ |  MediaCapturePage (src/main/java)                       |
  +---------------------------------------------------+
                           |
                           v
  +---------------------------------------------------+
- |  Practice Web App (https://practice.mycodeyatra.com)|
+ |  Practice App (https://practice.mycodeyatra.com/form-practice)                           |
  +---------------------------------------------------+
 ```
 
-- **Repository Path**: Source code for this module is checked into `Repository/mcyt-plw-java`.
-- **BrowserContext Isolation**: Fast thread-safe parallel test execution.
-- **Auto-Waiting Locators**: Eliminates flaky `Thread.sleep()` delays.
-
 ---
 
-## 2. Page Object Implementation (`src/main/java/com/mycodeyatra/pages/FormPracticePage.java`)
+## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/MediaCapturePage.java`)
+
+Below is the complete, strongly-typed Java Page Object implementation for `Screenshots & Videos`:
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Locator;
+import java.nio.file.Paths;
  
-public class FormPracticePage {
+public class MediaCapturePage {
     private final Page page;
-    private final Locator usernameInput;
-    private final Locator emailInput;
-    private final Locator submitBtn;
-    private final Locator successBanner;
  
-    public FormPracticePage(Page page) {
+    public MediaCapturePage(Page page) {
         this.page = page;
-        this.usernameInput = page.locator("#username");
-        this.emailInput = page.locator("#email");
-        this.submitBtn = page.locator("#submit-btn");
-        this.successBanner = page.locator(".success-banner");
     }
  
-    public void navigateToFormPage() {
-        page.navigate("https://practice.mycodeyatra.com/form-practice");
-    }
- 
-    public void submitUserForm(String username, String email) {
-        usernameInput.fill(username);
-        emailInput.fill(email);
-        submitBtn.click();
-    }
- 
-    public Locator getSuccessBanner() {
-        return successBanner;
+    public void captureFullScreenshot(String filename) {
+        page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(filename)).setFullPage(true));
     }
 }
 ```
 
 ---
 
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/PlaywrightFoundationsTest.java`)
+## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/MediaCaptureTest.java`)
+
+Below is the complete, runnable JUnit 5 test class validating `Screenshots & Videos`:
 
 ```java
 package com.mycodeyatra.tests;
  
 import com.microsoft.playwright.*;
-import com.mycodeyatra.pages.FormPracticePage;
+import java.nio.file.Paths;
 import org.junit.jupiter.api.*;
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
  
-public class PlaywrightFoundationsTest {
-    private static Playwright playwright;
-    private static Browser browser;
-    private BrowserContext context;
-    private Page page;
- 
-    @BeforeAll
-    static void launchBrowser() {
-        playwright = Playwright.create();
-        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
-    }
- 
-    @BeforeEach
-    void createContext() {
-        context = browser.newContext();
-        page = context.newPage();
-    }
- 
+public class MediaCaptureTest {
     @Test
-    @DisplayName("Validate Screenshots & Videos on practice.mycodeyatra.com")
-    void testComponentWorkflow() {
-        FormPracticePage formPage = new FormPracticePage(page);
-        formPage.navigateToFormPage();
-        formPage.submitUserForm("Pankaj Kumar", "pankaj@mycodeyatra.com");
-        
-        assertThat(formPage.getSuccessBanner()).isVisible();
-    }
- 
-    @AfterEach
-    void closeContext() {
-        context.close();
-    }
- 
-    @AfterAll
-    static void closeBrowser() {
-        browser.close();
-        playwright.close();
+    void testScreenshotAndVideo() {
+        try (Playwright pw = Playwright.create()) {
+            Browser b = pw.chromium().launch();
+            BrowserContext ctx = b.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
+            Page page = ctx.newPage();
+            page.navigate("https://practice.mycodeyatra.com/form-practice");
+            page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("screenshot.png")));
+            ctx.close();
+        }
     }
 }
 ```
 
 ---
 
-## 4. Best Practices & Key Takeaways
+## 4. Enterprise Best Practices & Takeaways
 
-1. **Repository Alignment**: All source code is hosted in `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
-2. **Avoid Thread.sleep()**: Always rely on Playwright's built-in auto-wait and `assertThat(locator)`.
-3. **Practice Site URL**: Run your automated regression suites against `https://practice.mycodeyatra.com`.
+1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
+2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
+3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.

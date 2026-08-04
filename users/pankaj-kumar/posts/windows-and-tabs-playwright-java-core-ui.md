@@ -1,7 +1,7 @@
 ---
-title: Alerts & Dialogs - Playwright Java Core UI
-date: 14-Jan-2026
-lastUpdated: 14-Jan-2026
+title: Windows & Tabs - Playwright Java Core UI
+date: 17-Jan-2026
+lastUpdated: 17-Jan-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
@@ -13,23 +13,23 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
+  Master Windows & Tabs in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
 readTime: 10 min read
 ---
 
-# Alerts & Dialogs - Playwright Java Core UI
+# Windows & Tabs - Playwright Java Core UI
 
-Mastering **Alerts & Dialogs** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Handling JavaScript alerts, confirm prompts, prompt inputs, and modal popups using page.onDialog listeners.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/overlays**.
+Mastering **Windows & Tabs** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Managing multi-tab popups, new browser windows, and context switching with context.waitForPage().** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/overlays**.
 
 ---
 
 ## 1. High-Level Architectural Concepts & Terminology
 
-In Playwright Java, **Alerts & Dialogs** provides significant advantages over traditional automation tools:
+In Playwright Java, **Windows & Tabs** provides significant advantages over traditional automation tools:
 
 - **Target URL**: `https://practice.mycodeyatra.com/overlays`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/DialogsPage.java`.
-- **Core Concept**: Handling JavaScript alerts, confirm prompts, prompt inputs, and modal popups using page.onDialog listeners.
+- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/MultiTabWindowPage.java`.
+- **Core Concept**: Managing multi-tab popups, new browser windows, and context switching with context.waitForPage().
 
 ```
  +---------------------------------------------------+
@@ -38,7 +38,7 @@ In Playwright Java, **Alerts & Dialogs** provides significant advantages over tr
                           |
                           v
  +---------------------------------------------------+
- |  DialogsPage (src/main/java)                       |
+ |  MultiTabWindowPage (src/main/java)                       |
  +---------------------------------------------------+
                           |
                           v
@@ -49,52 +49,53 @@ In Playwright Java, **Alerts & Dialogs** provides significant advantages over tr
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/DialogsPage.java`)
+## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/MultiTabWindowPage.java`)
 
-Below is the complete, strongly-typed Java Page Object implementation for `Alerts & Dialogs`:
+Below is the complete, strongly-typed Java Page Object implementation for `Windows & Tabs`:
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
  
-public class DialogsPage {
+public class MultiTabWindowPage {
     private final Page page;
  
-    public DialogsPage(Page page) {
+    public MultiTabWindowPage(Page page) {
         this.page = page;
     }
  
-    public void triggerAlertAndAccept() {
-        page.onDialog(dialog -> {
-            System.out.println("Dialog message: " + dialog.message());
-            dialog.accept();
+    public Page openNewTab() {
+        return page.context().waitForPage(() -> {
+            page.click("#open-tab-btn");
         });
-        page.click("#trigger-alert-btn");
     }
 }
 ```
 
 ---
 
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/DialogsTest.java`)
+## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/MultiTabWindowTest.java`)
 
-Below is the complete, runnable JUnit 5 test class validating `Alerts & Dialogs`:
+Below is the complete, runnable JUnit 5 test class validating `Windows & Tabs`:
 
 ```java
 package com.mycodeyatra.tests;
  
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
  
-public class DialogsTest {
+public class MultiTabWindowTest {
     @Test
-    void testAlertDialog() {
+    void testNewTab() {
         try (Playwright pw = Playwright.create()) {
             Browser b = pw.chromium().launch();
-            Page page = b.newPage();
+            BrowserContext ctx = b.newContext();
+            Page page = ctx.newPage();
             page.navigate("https://practice.mycodeyatra.com/overlays");
-            page.onDialog(Dialog::accept);
+            Page newPage = ctx.waitForPage(() -> page.click("#open-new-window-btn"));
+            assertThat(newPage).hasTitle("MyCodeYatra Practice Site");
         }
     }
 }

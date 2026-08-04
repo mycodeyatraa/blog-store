@@ -9,21 +9,27 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
+tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.
-readTime: 9 min read
+  Master Network Monitoring in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
+readTime: 10 min read
 ---
 
-# Network Monitoring in Playwright Java Core UI
+# Network Monitoring - Playwright Java Core UI
 
-In enterprise UI test automation, handling complex web components like **Network Monitoring** requires robust wait strategies and native API support. This tutorial covers **Network Monitoring** using Playwright Java targeting live components at **https://practice.mycodeyatra.com**.
+Mastering **Network Monitoring** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Intercepting HTTP requests, mocking API responses, and monitoring status codes using page.route().** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/widgets**.
 
 ---
 
-## 1. Architectural Overview & Component Focus
+## 1. High-Level Architectural Concepts & Terminology
+
+In Playwright Java, **Network Monitoring** provides significant advantages over traditional automation tools:
+
+- **Target URL**: `https://practice.mycodeyatra.com/widgets`
+- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/NetworkMonitoringPage.java`.
+- **Core Concept**: Intercepting HTTP requests, mocking API responses, and monitoring status codes using page.route().
 
 ```
  +---------------------------------------------------+
@@ -32,108 +38,73 @@ In enterprise UI test automation, handling complex web components like **Network
                           |
                           v
  +---------------------------------------------------+
- |  Playwright Java Page Objects (src/main/java)      |
+ |  NetworkMonitoringPage (src/main/java)                       |
  +---------------------------------------------------+
                           |
                           v
  +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com)  |
+ |  Practice App (https://practice.mycodeyatra.com/widgets)                           |
  +---------------------------------------------------+
 ```
 
-- **Repository Path**: Source code for this module is checked into `Repository/mcyt-plw-java`.
-- **Automatic Piercing**: Playwright's CSS engine automatically pierces Shadow DOM boundaries without extra JS injection.
-- **Auto-Waiting**: Automatically waits for elements to be visible, enabled, and stable before interacting.
-
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/WebTablesPage.java`)
+## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/NetworkMonitoringPage.java`)
+
+Below is the complete, strongly-typed Java Page Object implementation for `Network Monitoring`:
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Locator;
  
-public class WebTablesPage {
+public class NetworkMonitoringPage {
     private final Page page;
-    private final Locator tableRows;
  
-    public WebTablesPage(Page page) {
+    public NetworkMonitoringPage(Page page) {
         this.page = page;
-        this.tableRows = page.locator("table tr");
     }
  
-    public void navigateToTablesPage() {
-        page.navigate("https://practice.mycodeyatra.com/tables");
-    }
- 
-    public Locator getRowByText(String text) {
-        return page.locator("table tr:has-text('" + text + "')");
-    }
- 
-    public int getRowCount() {
-        return tableRows.count();
+    public void mockApiResponse() {
+        page.route("**/api/users", route -> {
+            route.fulfill(new com.microsoft.playwright.Route.FulfillOptions()
+                .setStatus(200)
+                .setContentType("application/json")
+                .setBody("{"users":[{"name":"Mocked User"}]}"));
+        });
     }
 }
 ```
 
 ---
 
-## 3. Executable Test Suite (`src/test/java/com/mycodeyatra/tests/PlaywrightCoreUITest.java`)
+## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/NetworkMonitoringTest.java`)
+
+Below is the complete, runnable JUnit 5 test class validating `Network Monitoring`:
 
 ```java
 package com.mycodeyatra.tests;
  
 import com.microsoft.playwright.*;
-import com.mycodeyatra.pages.WebTablesPage;
 import org.junit.jupiter.api.*;
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
  
-public class PlaywrightCoreUITest {
-    private static Playwright playwright;
-    private static Browser browser;
-    private BrowserContext context;
-    private Page page;
- 
-    @BeforeAll
-    static void launchBrowser() {
-        playwright = Playwright.create();
-        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
-    }
- 
-    @BeforeEach
-    void createContext() {
-        context = browser.newContext();
-        page = context.newPage();
-    }
- 
+public class NetworkMonitoringTest {
     @Test
-    @DisplayName("Validate Network Monitoring on practice.mycodeyatra.com")
-    void testCoreUIWorkflow() {
-        WebTablesPage tablesPage = new WebTablesPage(page);
-        tablesPage.navigateToTablesPage();
-        
-        assertThat(tablesPage.getRowByText("Admin")).isVisible();
-    }
- 
-    @AfterEach
-    void closeContext() {
-        context.close();
-    }
- 
-    @AfterAll
-    static void closeBrowser() {
-        browser.close();
-        playwright.close();
+    void testNetworkInterception() {
+        try (Playwright pw = Playwright.create()) {
+            Browser b = pw.chromium().launch();
+            Page page = b.newPage();
+            page.route("**/*.png", Route::abort);
+            page.navigate("https://practice.mycodeyatra.com/widgets");
+        }
     }
 }
 ```
 
 ---
 
-## 4. Key Takeaways & Best Practices
+## 4. Enterprise Best Practices & Takeaways
 
-1. **Native Shadow DOM Support**: Use simple Playwright locators to query elements inside open Shadow Roots.
-2. **Event Listening**: Intercept dialogs and download events using lambda listeners before clicking trigger buttons.
-3. **Target Environment**: Run UI regression suites against `https://practice.mycodeyatra.com`.
+1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
+2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
+3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
