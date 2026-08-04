@@ -13,72 +13,45 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Foundations
 categories: [Playwright Java Foundations, Playwright Java, Test Automation]
 excerpt: >-
-  Master Assertions in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Master web-first assertions in Playwright Java using PlaywrightAssertions.assertThat() with automatic polling and retries.
+readTime: 9 min read
 ---
 
 # Assertions - Playwright Java Foundations
 
-Mastering **Assertions** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Mastering web-first assertions with PlaywrightAssertions.assertThat(locator) auto-retrying checks.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/form-practice**.
+Traditional assertions in testing frameworks (such as `assertEquals` or `assertTrue` in JUnit) evaluate conditions instantaneously. If an element takes 200 milliseconds to appear on screen, standard assertions fail immediately.
+
+Playwright Java introduces **Web-First Assertions** via `PlaywrightAssertions.assertThat()`, which automatically poll and retry assertions until the condition is met or a timeout expires.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
-
-In Playwright Java, **Assertions** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/form-practice`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/AssertionsPage.java`.
-- **Core Concept**: Mastering web-first assertions with PlaywrightAssertions.assertThat(locator) auto-retrying checks.
+## 1. Web-First Assertions vs Generic Assertions
 
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  AssertionsPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/form-practice)                           |
- +---------------------------------------------------+
+GENERIC JUNIT ASSERTION (Brittle):
+assertTrue(page.locator(".banner").isVisible()); // Fails if banner appears 50ms later!
+ 
+PLAYWRIGHT WEB-FIRST ASSERTION (Robust & Auto-Retrying):
+assertThat(page.locator(".banner")).isVisible(); // Automatically polls for up to 5 seconds!
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/AssertionsPage.java`)
+## 2. Comprehensive Assertions Reference
 
-Below is the complete, strongly-typed Java Page Object implementation for `Assertions`:
-
-```java
-package com.mycodeyatra.pages;
- 
-import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Locator;
- 
-public class AssertionsPage {
-    private final Page page;
-    private final Locator successMessage;
- 
-    public AssertionsPage(Page page) {
-        this.page = page;
-        this.successMessage = page.locator(".success-banner");
-    }
- 
-    public Locator getSuccessBanner() {
-        return successMessage;
-    }
-}
-```
+| Assertion Method | Validation Target |
+| :--- | :--- |
+| `assertThat(locator).isVisible()` | Element is visible in DOM |
+| `assertThat(locator).isEnabled()` | Element is not disabled |
+| `assertThat(locator).hasText("Submit")` | Element contains exact/partial text |
+| `assertThat(locator).hasValue("John")` | Form input has specific value |
+| `assertThat(locator).hasCount(5)` | List contains exactly N elements |
+| `assertThat(page).hasURL(".../dashboard")` | Page URL matches expected string/pattern |
+| `assertThat(page).hasTitle("MyCodeYatra")` | Page title matches expected title |
 
 ---
 
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/AssertionsTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Assertions`:
+## 3. Production Test Suite (`src/test/java/com/mycodeyatra/tests/AssertionsTest.java`)
 
 ```java
 package com.mycodeyatra.tests;
@@ -88,23 +61,49 @@ import org.junit.jupiter.api.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
  
 public class AssertionsTest {
+    private static Playwright playwright;
+    private static Browser browser;
+    private Page page;
+ 
+    @BeforeAll
+    static void setup() {
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+    }
+ 
+    @BeforeEach
+    void init() {
+        page = browser.newPage();
+        page.navigate("https://practice.mycodeyatra.com/form-practice");
+    }
+ 
     @Test
-    void testWebFirstAssertions() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/form-practice");
-            assertThat(page.locator("#username")).isEnabled();
-            assertThat(page.locator("#username")).isEmpty();
-        }
+    @DisplayName("Validate Web-First Assertions on Form Practice")
+    void testAssertions() {
+        assertThat(page.locator("#username")).isEnabled();
+        assertThat(page.locator("#username")).isEmpty();
+ 
+        page.fill("#username", "Pankaj Kumar");
+        assertThat(page.locator("#username")).hasValue("Pankaj Kumar");
+    }
+ 
+    @AfterEach
+    void cleanup() {
+        page.close();
+    }
+ 
+    @AfterAll
+    static void teardown() {
+        browser.close();
+        playwright.close();
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 4. Key Takeaways
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Always Use `PlaywrightAssertions.assertThat()`**: Avoid static JUnit/TestNG assertions for DOM elements.
+2. **Custom Timeouts**: Pass `new LocatorAssertions.IsVisibleOptions().setTimeout(10000)` for slow network operations.
+

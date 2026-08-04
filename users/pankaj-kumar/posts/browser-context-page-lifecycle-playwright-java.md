@@ -13,65 +13,42 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Foundations
 categories: [Playwright Java Foundations, Playwright Java, Test Automation]
 excerpt: >-
-  Master Browser Lifecycle in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Master Playwright, Browser, BrowserContext, and Page lifecycles to achieve 100% thread-safe parallel test isolation.
+readTime: 9 min read
 ---
 
 # Browser Lifecycle - Playwright Java Foundations
 
-Mastering **Browser Lifecycle** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Managing Playwright, Browser, BrowserContext, and Page lifecycles for isolated parallel test execution.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/sandbox**.
+In modern automated testing, state pollution between tests (such as leftover cookies or session storage) causes non-deterministic flakiness. Playwright Java solves this with its lightweight `BrowserContext` lifecycle model.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
+## 1. The Power of BrowserContext Isolation
 
-In Playwright Java, **Browser Lifecycle** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/sandbox`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/BrowserLifecyclePage.java`.
-- **Core Concept**: Managing Playwright, Browser, BrowserContext, and Page lifecycles for isolated parallel test execution.
+In legacy Selenium frameworks, achieving test isolation required launching a brand new browser process (`new ChromeDriver()`) for every test—a slow operation consuming hundreds of megabytes of RAM.
 
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  BrowserLifecyclePage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/sandbox)                           |
- +---------------------------------------------------+
+SELENIUM APPROACH (Slow & Heavy):
+Test 1 -> New Chrome Process (RAM: 400MB, Time: 3s)
+Test 2 -> New Chrome Process (RAM: 400MB, Time: 3s)
+ 
+PLAYWRIGHT APPROACH (Fast & Lightweight):
+Single Browser Process (RAM: 200MB)
+ ├── Context 1 (RAM: 5MB, Time: 15ms) -> Test 1
+ └── Context 2 (RAM: 5MB, Time: 15ms) -> Test 2
 ```
+
+A `BrowserContext` operates like an incognito window. It has its own:
+- Cookies and HTTP Headers
+- LocalStorage and SessionStorage
+- Cache and IndexedDB databases
+- Permissions and Geolocation settings
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/BrowserLifecyclePage.java`)
+## 2. Production Lifecycle Base Class (`src/test/java/com/mycodeyatra/tests/BaseTest.java`)
 
-Below is the complete, strongly-typed Java Page Object implementation for `Browser Lifecycle`:
-
-```java
-package com.mycodeyatra.pages;
- 
-import com.microsoft.playwright.Page;
- 
-public class BrowserLifecyclePage {
-    private final Page page;
- 
-    public BrowserLifecyclePage(Page page) {
-        this.page = page;
-    }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/BrowserLifecycleTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Browser Lifecycle`:
+Here is the standard JUnit 5 lifecycle class used in enterprise frameworks:
 
 ```java
 package com.mycodeyatra.tests;
@@ -79,29 +56,44 @@ package com.mycodeyatra.tests;
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;
  
-public class BrowserLifecycleTest {
-    @Test
-    void testContextIsolation() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            BrowserContext ctx1 = b.newContext();
-            BrowserContext ctx2 = b.newContext();
-            Page p1 = ctx1.newPage();
-            Page p2 = ctx2.newPage();
-            p1.navigate("https://practice.mycodeyatra.com/sandbox");
-            p2.navigate("https://practice.mycodeyatra.com/login");
-            ctx1.close();
-            ctx2.close();
-            b.close();
-        }
+public abstract class BaseTest {
+    protected static Playwright playwright;
+    protected static Browser browser;
+    protected BrowserContext context;
+    protected Page page;
+ 
+    @BeforeAll
+    static void launchBrowser() {
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+    }
+ 
+    @BeforeEach
+    void createContext() {
+        // Creates a fresh incognito context per test
+        context = browser.newContext(new Browser.NewContextOptions()
+            .setViewportSize(1920, 1080)
+            .setIgnoreHTTPSErrors(true));
+        page = context.newPage();
+    }
+ 
+    @AfterEach
+    void closeContext() {
+        context.close(); // Instantly clears cookies and local storage
+    }
+ 
+    @AfterAll
+    static void closeBrowser() {
+        browser.close();
+        playwright.close();
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 3. Key Takeaways
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Never Share Contexts Across Tests**: Always call `browser.newContext()` inside `@BeforeEach`.
+2. **Explicit Teardown**: Always close contexts in `@AfterEach` to free up system memory immediately.
+

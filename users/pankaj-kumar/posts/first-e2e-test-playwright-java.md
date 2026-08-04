@@ -13,99 +13,115 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Foundations
 categories: [Playwright Java Foundations, Playwright Java, Test Automation]
 excerpt: >-
-  Master First E2E Test in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
+  Build a complete end-to-end user registration and submission flow targeting live components at practice.mycodeyatra.com.
 readTime: 10 min read
 ---
 
 # First E2E Test - Playwright Java Foundations
 
-Mastering **First E2E Test** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Building an end-to-end user registration and submission flow targeting practice.mycodeyatra.com.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/form-practice**.
+Building a complete end-to-end (E2E) test requires bringing together page objects, user interactions, web-first assertions, and clean JUnit 5 test fixtures.
+
+In this tutorial, we will automate a real-world user registration workflow targeting **https://practice.mycodeyatra.com/form-practice**.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
-
-In Playwright Java, **First E2E Test** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/form-practice`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/FirstE2EPage.java`.
-- **Core Concept**: Building an end-to-end user registration and submission flow targeting practice.mycodeyatra.com.
-
-```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  FirstE2EPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/form-practice)                           |
- +---------------------------------------------------+
-```
-
----
-
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/FirstE2EPage.java`)
-
-Below is the complete, strongly-typed Java Page Object implementation for `First E2E Test`:
+## 1. Page Object Design (`src/main/java/com/mycodeyatra/pages/FirstE2EPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Locator;
  
 public class FirstE2EPage {
     private final Page page;
+    private final Locator usernameInput;
+    private final Locator emailInput;
+    private final Locator submitBtn;
+    private final Locator successBanner;
  
     public FirstE2EPage(Page page) {
         this.page = page;
+        this.usernameInput = page.locator("#username");
+        this.emailInput = page.locator("#email");
+        this.submitBtn = page.locator("#submit-btn");
+        this.successBanner = page.locator(".success-banner");
     }
  
-    public void fillForm(String name, String email) {
-        page.fill("#username", name);
-        page.fill("#email", email);
-        page.click("#submit-btn");
+    public void navigateToForm() {
+        page.navigate("https://practice.mycodeyatra.com/form-practice");
+    }
+ 
+    public void fillAndSubmitForm(String username, String email) {
+        usernameInput.fill(username);
+        emailInput.fill(email);
+        submitBtn.click();
+    }
+ 
+    public Locator getSuccessBanner() {
+        return successBanner;
     }
 }
 ```
 
 ---
 
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/FirstE2ETest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `First E2E Test`:
+## 2. Executable Test Suite (`src/test/java/com/mycodeyatra/tests/FirstE2ETest.java`)
 
 ```java
 package com.mycodeyatra.tests;
  
 import com.microsoft.playwright.*;
+import com.mycodeyatra.pages.FirstE2EPage;
 import org.junit.jupiter.api.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
  
+@DisplayName("End-to-End User Submission Test")
 public class FirstE2ETest {
+    private static Playwright playwright;
+    private static Browser browser;
+    private BrowserContext context;
+    private Page page;
+ 
+    @BeforeAll
+    static void launch() {
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+    }
+ 
+    @BeforeEach
+    void setup() {
+        context = browser.newContext();
+        page = context.newPage();
+    }
+ 
     @Test
-    void testFormE2E() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/form-practice");
-            page.fill("#username", "Pankaj");
-            page.fill("#email", "pankaj@mycodeyatra.com");
-            page.click("#submit-btn");
-            assertThat(page.locator(".success-banner")).isVisible();
-        }
+    @DisplayName("Verify Successful Form Submission")
+    void testFormSubmissionE2E() {
+        FirstE2EPage e2ePage = new FirstE2EPage(page);
+        e2ePage.navigateToForm();
+        e2ePage.fillAndSubmitForm("Pankaj Kumar", "pankaj@mycodeyatra.com");
+ 
+        assertThat(e2ePage.getSuccessBanner()).isVisible();
+    }
+ 
+    @AfterEach
+    void teardown() {
+        context.close();
+    }
+ 
+    @AfterAll
+    static void closeAll() {
+        browser.close();
+        playwright.close();
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 3. Key Takeaways
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Keep Tests Focused**: Each `@Test` method should validate a single business flow.
+2. **Encapsulate Locators**: Never expose `Locator` definitions directly in your test classes.
+
