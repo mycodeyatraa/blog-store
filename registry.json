@@ -27498,12 +27498,12 @@
     "commentsCount": 0
   },
   {
-    "id": "what-is-playwright-with-java-foundations",
-    "slug": "what-is-playwright-with-java-foundations",
+    "id": "what-is-playwright-with-java",
+    "slug": "what-is-playwright-with-java",
     "title": "What is Playwright with Java? - Playwright Java Foundations",
     "description": "Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/what-is-playwright-with-java-foundations.md",
+    "contentPath": "users/pankaj-kumar/posts/what-is-playwright-with-java.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27538,12 +27538,12 @@
     "commentsCount": 0
   },
   {
-    "id": "playwright-vs-selenium-vs-cypress-java",
-    "slug": "playwright-vs-selenium-vs-cypress-java",
+    "id": "playwright-vs-selenium-vs-cypress",
+    "slug": "playwright-vs-selenium-vs-cypress",
     "title": "Playwright vs Selenium vs Cypress - Playwright Java Foundations",
     "description": "Master Playwright vs Selenium vs Cypress in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Playwright vs Selenium vs Cypress in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-vs-selenium-vs-cypress-java.md",
+    "contentPath": "users/pankaj-kumar/posts/playwright-vs-selenium-vs-cypress.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27578,12 +27578,12 @@
     "commentsCount": 0
   },
   {
-    "id": "setup-playwright-java-maven-junit5",
-    "slug": "setup-playwright-java-maven-junit5",
+    "id": "setup-playwright-plus-java-project",
+    "slug": "setup-playwright-plus-java-project",
     "title": "Setup Playwright + Java Project - Playwright Java Foundations",
     "description": "Master Setup Playwright + Java Project in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Setup Playwright + Java Project in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/setup-playwright-java-maven-junit5.md",
+    "contentPath": "users/pankaj-kumar/posts/setup-playwright-plus-java-project.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27618,12 +27618,12 @@
     "commentsCount": 0
   },
   {
-    "id": "playwright-java-architecture-deep-dive",
-    "slug": "playwright-java-architecture-deep-dive",
+    "id": "playwright-architecture",
+    "slug": "playwright-architecture",
     "title": "Playwright Architecture - Playwright Java Foundations",
     "description": "Master Playwright Architecture in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Playwright Architecture in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-java-architecture-deep-dive.md",
+    "contentPath": "users/pankaj-kumar/posts/playwright-architecture.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27658,12 +27658,12 @@
     "commentsCount": 0
   },
   {
-    "id": "browser-context-page-lifecycle-playwright-java",
-    "slug": "browser-context-page-lifecycle-playwright-java",
+    "id": "browser-lifecycle",
+    "slug": "browser-lifecycle",
     "title": "Browser Lifecycle - Playwright Java Foundations",
     "description": "Master Browser Lifecycle in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Browser Lifecycle in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/browser-context-page-lifecycle-playwright-java.md",
+    "contentPath": "users/pankaj-kumar/posts/browser-lifecycle.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27698,12 +27698,12 @@
     "commentsCount": 0
   },
   {
-    "id": "locators-deep-dive-playwright-java",
-    "slug": "locators-deep-dive-playwright-java",
+    "id": "locators-deep-dive",
+    "slug": "locators-deep-dive",
     "title": "Locators Deep Dive - Playwright Java Foundations",
     "description": "Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/locators-deep-dive-playwright-java.md",
+    "contentPath": "users/pankaj-kumar/posts/locators-deep-dive.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27738,12 +27738,12 @@
     "commentsCount": 0
   },
   {
-    "id": "playwright-java-assertions-and-expect",
-    "slug": "playwright-java-assertions-and-expect",
+    "id": "assertions",
+    "slug": "assertions",
     "title": "Assertions - Playwright Java Foundations",
     "description": "Master Assertions in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Assertions in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/playwright-java-assertions-and-expect.md",
+    "contentPath": "users/pankaj-kumar/posts/assertions.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27778,12 +27778,12 @@
     "commentsCount": 0
   },
   {
-    "id": "first-e2e-test-playwright-java",
-    "slug": "first-e2e-test-playwright-java",
+    "id": "first-e2e-test",
+    "slug": "first-e2e-test",
     "title": "First E2E Test - Playwright Java Foundations",
     "description": "Master First E2E Test in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master First E2E Test in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/first-e2e-test-playwright-java.md",
+    "contentPath": "users/pankaj-kumar/posts/first-e2e-test.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27818,12 +27818,12 @@
     "commentsCount": 0
   },
   {
-    "id": "debugging-tools-inspector-trace-viewer-playwright-java",
-    "slug": "debugging-tools-inspector-trace-viewer-playwright-java",
+    "id": "debugging-tools",
+    "slug": "debugging-tools",
     "title": "Debugging Tools - Playwright Java Foundations",
     "description": "Master Debugging Tools in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Debugging Tools in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/debugging-tools-inspector-trace-viewer-playwright-java.md",
+    "contentPath": "users/pankaj-kumar/posts/debugging-tools.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27858,12 +27858,12 @@
     "commentsCount": 0
   },
   {
-    "id": "screenshots-videos-tracing-playwright-java",
-    "slug": "screenshots-videos-tracing-playwright-java",
+    "id": "screenshots-and-videos",
+    "slug": "screenshots-and-videos",
     "title": "Screenshots & Videos - Playwright Java Foundations",
     "description": "Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/screenshots-videos-tracing-playwright-java.md",
+    "contentPath": "users/pankaj-kumar/posts/screenshots-and-videos.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27898,12 +27898,12 @@
     "commentsCount": 0
   },
   {
-    "id": "wait-strategies-playwright-java-core-ui",
-    "slug": "wait-strategies-playwright-java-core-ui",
+    "id": "wait-strategies",
+    "slug": "wait-strategies",
     "title": "Wait Strategies - Playwright Java Core UI",
     "description": "Master Wait Strategies in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Wait Strategies in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/wait-strategies-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/wait-strategies.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27938,12 +27938,12 @@
     "commentsCount": 0
   },
   {
-    "id": "forms-handling-playwright-java-core-ui",
-    "slug": "forms-handling-playwright-java-core-ui",
+    "id": "forms-handling",
+    "slug": "forms-handling",
     "title": "Forms Handling - Playwright Java Core UI",
     "description": "Master Forms Handling in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Forms Handling in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/forms-handling-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/forms-handling.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -27978,12 +27978,12 @@
     "commentsCount": 0
   },
   {
-    "id": "alerts-dialogs-playwright-java-core-ui",
-    "slug": "alerts-dialogs-playwright-java-core-ui",
+    "id": "alerts-and-dialogs",
+    "slug": "alerts-and-dialogs",
     "title": "Alerts & Dialogs - Playwright Java Core UI",
     "description": "Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/alerts-dialogs-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/alerts-and-dialogs.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28018,12 +28018,12 @@
     "commentsCount": 0
   },
   {
-    "id": "file-upload-playwright-java-core-ui",
-    "slug": "file-upload-playwright-java-core-ui",
+    "id": "file-upload",
+    "slug": "file-upload",
     "title": "File Upload - Playwright Java Core UI",
     "description": "Master File Upload in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master File Upload in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/file-upload-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/file-upload.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28058,12 +28058,12 @@
     "commentsCount": 0
   },
   {
-    "id": "file-download-playwright-java-core-ui",
-    "slug": "file-download-playwright-java-core-ui",
+    "id": "file-download",
+    "slug": "file-download",
     "title": "File Download - Playwright Java Core UI",
     "description": "Master File Download in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master File Download in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/file-download-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/file-download.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28098,12 +28098,12 @@
     "commentsCount": 0
   },
   {
-    "id": "windows-tabs-playwright-java-core-ui",
-    "slug": "windows-tabs-playwright-java-core-ui",
+    "id": "windows-and-tabs",
+    "slug": "windows-and-tabs",
     "title": "Windows & Tabs - Playwright Java Core UI",
     "description": "Master Windows & Tabs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Windows & Tabs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/windows-tabs-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/windows-and-tabs.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28138,12 +28138,12 @@
     "commentsCount": 0
   },
   {
-    "id": "frames-iframes-playwright-java-core-ui",
-    "slug": "frames-iframes-playwright-java-core-ui",
+    "id": "frames-and-iframes",
+    "slug": "frames-and-iframes",
     "title": "Frames & iFrames - Playwright Java Core UI",
     "description": "Master Frames & iFrames in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Frames & iFrames in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/frames-iframes-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/frames-and-iframes.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28178,12 +28178,12 @@
     "commentsCount": 0
   },
   {
-    "id": "shadow-dom-playwright-java-core-ui",
-    "slug": "shadow-dom-playwright-java-core-ui",
+    "id": "shadow-dom",
+    "slug": "shadow-dom",
     "title": "Shadow DOM - Playwright Java Core UI",
     "description": "Master Shadow DOM in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Shadow DOM in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/shadow-dom-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/shadow-dom.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28218,12 +28218,12 @@
     "commentsCount": 0
   },
   {
-    "id": "network-monitoring-playwright-java-core-ui",
-    "slug": "network-monitoring-playwright-java-core-ui",
+    "id": "network-monitoring",
+    "slug": "network-monitoring",
     "title": "Network Monitoring - Playwright Java Core UI",
     "description": "Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/network-monitoring-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/network-monitoring.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28258,12 +28258,12 @@
     "commentsCount": 0
   },
   {
-    "id": "parallel-execution-playwright-java-core-ui",
-    "slug": "parallel-execution-playwright-java-core-ui",
+    "id": "parallel-execution",
+    "slug": "parallel-execution",
     "title": "Parallel Execution - Playwright Java Core UI",
     "description": "Master Parallel Execution in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Parallel Execution in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/parallel-execution-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/parallel-execution.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28298,12 +28298,12 @@
     "commentsCount": 0
   },
   {
-    "id": "cross-browser-testing-playwright-java-core-ui",
-    "slug": "cross-browser-testing-playwright-java-core-ui",
+    "id": "cross-browser-testing",
+    "slug": "cross-browser-testing",
     "title": "Cross-Browser Testing - Playwright Java Core UI",
     "description": "Master Cross-Browser Testing in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
     "excerpt": "Master Cross-Browser Testing in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
-    "contentPath": "users/pankaj-kumar/posts/cross-browser-testing-playwright-java-core-ui.md",
+    "contentPath": "users/pankaj-kumar/posts/cross-browser-testing.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
