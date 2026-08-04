@@ -19418,9 +19418,9 @@
     "excerpt": "Master complex interactions in Selenium Kotlin using the Actions class. Learn how to perform Mouse Hovers, Double Clicks, Right Clicks, and Keyboard Chaining."
   },
   {
-    "id": "blog-6",
+    "id": "blog-git-6",
     "title": "Git Essentials: Mastering the Core Workflow and the Three States",
-    "slug": "git-essentials-mastering-the-core-workflow-and-the-three-states",
+    "slug": "blog-git-6",
     "author": "Abhishek-sinha",
     "excerpt": "Your code is a living organism.. It evolves daily, branches into experimental features, and, occasionally, breaks in unexpected ways..",
     "date": "2026-06-21",
@@ -23898,9 +23898,9 @@
     "excerpt": "Learn how to capture and control new tabs and pop-up windows opened automatically by user actions in Playwright TypeScript."
   },
   {
-    "id": "post-659",
+    "id": "post-plw-ts-659",
     "title": "Handling Browser Dialogs (Alerts, Confirms, Prompts) in Playwright TypeScript",
-    "slug": "handling-browser-dialogs-alerts-confirms-prompts-in-playwright-typescript",
+    "slug": "post-plw-ts-659",
     "author": "pankaj-kumar",
     "excerpt": "Handling JavaScript Alerts, Confirm Dialogs, and Prompts in Playwright TypeScript\n\n> \ud83d\udcc5 Last Updated: 24-Jun-2026\n\nNative browser alerts, confirmation boxes, and prompt boxes pose a unique challenge fo",
     "date": "2026-06-24",
@@ -26795,7 +26795,7 @@
       "api-testing",
       "standalone"
     ],
-    "series": "karate-framework-zero-to-hero",
+    "series": "karate-api-testing",
     "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0,
@@ -26834,7 +26834,7 @@
       "load-testing",
       "scalability"
     ],
-    "series": "karate-framework-zero-to-hero",
+    "series": "karate-api-testing",
     "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0,
@@ -26873,7 +26873,7 @@
       "authentication",
       "jwt"
     ],
-    "series": "karate-framework-zero-to-hero",
+    "series": "karate-api-testing",
     "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0,
@@ -26912,7 +26912,7 @@
       "cucumber-reports",
       "ci-cd"
     ],
-    "series": "karate-framework-zero-to-hero",
+    "series": "karate-api-testing",
     "seriesOrder": 14,
     "likes": 0,
     "commentsCount": 0,
