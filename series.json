@@ -2367,5 +2367,38 @@
       "post-530",
       "post-531"
     ]
+  },
+  {
+    "id": "playwright-java-foundations",
+    "title": "Playwright Java Foundations",
+    "description": "Master Playwright Java setup, browser context lifecycle, auto-waiting locators, web-first assertions, and trace viewer debugging.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "createdAt": "02-Jan-2026",
+    "articleIds": [
+      "post-plw-java-foundations-1",
+      "post-plw-java-foundations-2",
+      "post-plw-java-foundations-3",
+      "post-plw-java-foundations-4",
+      "post-plw-java-foundations-5",
+      "post-plw-java-foundations-6",
+      "post-plw-java-foundations-7",
+      "post-plw-java-foundations-8",
+      "post-plw-java-foundations-9",
+      "post-plw-java-foundations-10"
+    ],
+    "posts": [
+      "post-plw-java-foundations-1",
+      "post-plw-java-foundations-2",
+      "post-plw-java-foundations-3",
+      "post-plw-java-foundations-4",
+      "post-plw-java-foundations-5",
+      "post-plw-java-foundations-6",
+      "post-plw-java-foundations-7",
+      "post-plw-java-foundations-8",
+      "post-plw-java-foundations-9",
+      "post-plw-java-foundations-10"
+    ]
   }
 ]

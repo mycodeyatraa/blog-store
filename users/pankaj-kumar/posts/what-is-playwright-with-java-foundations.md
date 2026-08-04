@@ -1,7 +1,7 @@
 ---
-title: Locators Deep Dive - Playwright Java Foundations
-date: 07-Jan-2026
-lastUpdated: 07-Jan-2026
+title: What is Playwright with Java? - Playwright Java Foundations
+date: 02-Jan-2026
+lastUpdated: 02-Jan-2026
 author: pankaj-kumar
 authorName: Pankaj Kumar
 authorRole: Automation Architect
@@ -13,13 +13,13 @@ tags: [playwright, java, junit5, automation, testing, mycodeyatra]
 category: Playwright Java Foundations
 categories: [Playwright Java Foundations, Playwright Java, Test Automation]
 excerpt: >-
-  Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.
+  Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.
 readTime: 8 min read
 ---
 
-# Locators Deep Dive in Playwright Java
+# What is Playwright with Java? in Playwright Java
 
-In enterprise test automation, **Playwright Java** provides unmatched execution speed, auto-waiting, and native browser context isolation. This tutorial covers **Locators Deep Dive** with production-grade Java code targeting live practice components at **https://practice.mycodeyatra.com**.
+In enterprise test automation, **Playwright Java** provides unmatched execution speed, auto-waiting, and native browser context isolation. This tutorial covers **What is Playwright with Java?** with production-grade Java code targeting live practice components at **https://practice.mycodeyatra.com**.
 
 ---
 
@@ -117,7 +117,7 @@ public class PlaywrightFoundationsTest {
     }
  
     @Test
-    @DisplayName("Validate Locators Deep Dive on practice.mycodeyatra.com")
+    @DisplayName("Validate What is Playwright with Java? on practice.mycodeyatra.com")
     void testComponentWorkflow() {
         FormPracticePage formPage = new FormPracticePage(page);
         formPage.navigateToFormPage();

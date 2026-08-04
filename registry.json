@@ -27496,5 +27496,405 @@
     "seriesOrder": 8,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-1",
+    "slug": "what-is-playwright-with-java-foundations",
+    "title": "What is Playwright with Java? - Playwright Java Foundations",
+    "description": "Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/what-is-playwright-with-java-foundations.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "02-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-2",
+    "slug": "playwright-vs-selenium-vs-cypress-java",
+    "title": "Playwright vs Selenium vs Cypress - Playwright Java Foundations",
+    "description": "Master Playwright vs Selenium vs Cypress in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Playwright vs Selenium vs Cypress in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-vs-selenium-vs-cypress-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "03-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-3",
+    "slug": "setup-playwright-java-maven-junit5",
+    "title": "Setup Playwright + Java Project - Playwright Java Foundations",
+    "description": "Master Setup Playwright + Java Project in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Setup Playwright + Java Project in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/setup-playwright-java-maven-junit5.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "04-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-4",
+    "slug": "playwright-java-architecture-deep-dive",
+    "title": "Playwright Architecture - Playwright Java Foundations",
+    "description": "Master Playwright Architecture in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Playwright Architecture in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-java-architecture-deep-dive.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "05-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-5",
+    "slug": "browser-context-page-lifecycle-playwright-java",
+    "title": "Browser Lifecycle - Playwright Java Foundations",
+    "description": "Master Browser Lifecycle in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Browser Lifecycle in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/browser-context-page-lifecycle-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "06-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-6",
+    "slug": "locators-deep-dive-playwright-java",
+    "title": "Locators Deep Dive - Playwright Java Foundations",
+    "description": "Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/locators-deep-dive-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "07-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-7",
+    "slug": "playwright-java-assertions-and-expect",
+    "title": "Assertions - Playwright Java Foundations",
+    "description": "Master Assertions in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Assertions in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-java-assertions-and-expect.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "08-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-8",
+    "slug": "first-e2e-test-playwright-java",
+    "title": "First E2E Test - Playwright Java Foundations",
+    "description": "Master First E2E Test in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master First E2E Test in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/first-e2e-test-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "09-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-9",
+    "slug": "debugging-tools-inspector-trace-viewer-playwright-java",
+    "title": "Debugging Tools - Playwright Java Foundations",
+    "description": "Master Debugging Tools in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Debugging Tools in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/debugging-tools-inspector-trace-viewer-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "10-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-plw-java-foundations-10",
+    "slug": "screenshots-videos-tracing-playwright-java",
+    "title": "Screenshots & Videos - Playwright Java Foundations",
+    "description": "Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "excerpt": "Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
+    "contentPath": "users/pankaj-kumar/posts/screenshots-videos-tracing-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "8 min read",
+    "date": "11-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Foundations",
+    "categories": [
+      "Playwright Java Foundations",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "testing",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-foundations",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
