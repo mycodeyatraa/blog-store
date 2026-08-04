@@ -9,54 +9,65 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Network Monitoring in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
+  Intercept HTTP requests, mock REST API payloads, abort slow assets, and inspect response status codes with page.route().
 readTime: 10 min read
 ---
 
 # Network Monitoring - Playwright Java Core UI
 
-Mastering **Network Monitoring** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Intercepting HTTP requests, mocking API responses, and monitoring status codes using page.route().** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/widgets**.
+Modern UI applications depend heavily on backend REST APIs. Testing edge cases (such as 500 Server Errors, 401 Unauthorized timeouts, or slow network responses) in live environments can be challenging.
+
+Playwright Java provides built-in network interception APIs via `page.route()`.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
-
-In Playwright Java, **Network Monitoring** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/widgets`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/NetworkMonitoringPage.java`.
-- **Core Concept**: Intercepting HTTP requests, mocking API responses, and monitoring status codes using page.route().
+## 1. Network Interception Use Cases
 
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  NetworkMonitoringPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/widgets)                           |
- +---------------------------------------------------+
+                                 Page Request Sent
+                                        |
+                                        v
+                       +----------------------------------+
+                       |     Playwright page.route()      |
+                       +----------------------------------+
+                        /               |                \
+                       v                v                 v
+                route.fulfill()   route.continue()   route.abort()
+               (Mock JSON Body)   (Modify Headers)  (Block Images/Ads)
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/NetworkMonitoringPage.java`)
+## 2. Network Interception Examples
 
-Below is the complete, strongly-typed Java Page Object implementation for `Network Monitoring`:
+### 1. Mock REST API Response (`route.fulfill()`)
+```java
+page.route("**/api/users", route -> {
+    route.fulfill(new Route.FulfillOptions()
+        .setStatus(200)
+        .setContentType("application/json")
+        .setBody("{"users": [{"id": 1, "name": "Mocked User"}]}"));
+});
+```
+
+### 2. Block Heavy Image Assets for High-Speed Runs (`route.abort()`)
+```java
+page.route("**/*.{png,jpg,jpeg,svg}", Route::abort);
+```
+
+---
+
+## 3. Production Page Object (`src/main/java/com/mycodeyatra/pages/NetworkMonitoringPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Route;
  
 public class NetworkMonitoringPage {
     private final Page page;
@@ -65,46 +76,21 @@ public class NetworkMonitoringPage {
         this.page = page;
     }
  
-    public void mockApiResponse() {
-        page.route("**/api/users", route -> {
-            route.fulfill(new com.microsoft.playwright.Route.FulfillOptions()
+    public void navigateAndMock() {
+        page.route("**/api/config", route -> {
+            route.fulfill(new Route.FulfillOptions()
                 .setStatus(200)
-                .setContentType("application/json")
-                .setBody("{"users":[{"name":"Mocked User"}]}"));
+                .setBody("{"featureEnabled": true}"));
         });
+        page.navigate("https://practice.mycodeyatra.com/widgets");
     }
 }
 ```
 
 ---
 
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/NetworkMonitoringTest.java`)
+## 4. Key Takeaways
 
-Below is the complete, runnable JUnit 5 test class validating `Network Monitoring`:
+1. **Mock Early**: Attach `page.route()` handlers prior to executing navigation or button triggers.
+2. **Clean Mock Teardown**: Unroute handlers via `page.unroute()` when finished.
 
-```java
-package com.mycodeyatra.tests;
- 
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.*;
- 
-public class NetworkMonitoringTest {
-    @Test
-    void testNetworkInterception() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.route("**/*.png", Route::abort);
-            page.navigate("https://practice.mycodeyatra.com/widgets");
-        }
-    }
-}
-```
-
----
-
-## 4. Enterprise Best Practices & Takeaways
-
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.

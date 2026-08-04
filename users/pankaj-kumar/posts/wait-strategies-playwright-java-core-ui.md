@@ -9,101 +9,127 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Wait Strategies in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Master Playwright Java auto-waiting mechanics, explicit locator options, network response waiting, and custom state conditions.
+readTime: 9 min read
 ---
 
 # Wait Strategies - Playwright Java Core UI
 
-Mastering **Wait Strategies** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Comparing Playwright auto-waiting against explicit waitForSelector, waitForResponse, and state checks.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/widgets**.
+Flakiness in automated UI testing is almost always caused by improper wait management. Traditional Selenium WebDriver frameworks relied on complex `WebDriverWait` rules or anti-pattern `Thread.sleep()` pauses to handle dynamic AJAX calls.
+
+Playwright Java eliminates 95% of wait-related flakiness through built-in **Auto-Waiting** while providing explicit APIs for network and state synchronization.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
+## 1. Playwright Auto-Waiting Engine
 
-In Playwright Java, **Wait Strategies** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/widgets`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/WaitStrategiesPage.java`.
-- **Core Concept**: Comparing Playwright auto-waiting against explicit waitForSelector, waitForResponse, and state checks.
+Before Playwright performs an action on a locator, it automatically waits for the element to pass 5 actionability checks:
 
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  WaitStrategiesPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/widgets)                           |
- +---------------------------------------------------+
+                          Action Called (e.g. locator.click())
+                                           |
+                                           v
+                          +----------------------------------+
+                          | Is Attached to DOM?             |
+                          +----------------------------------+
+                                           | Yes
+                                           v
+                          +----------------------------------+
+                          | Is Visible in Viewport?          |
+                          +----------------------------------+
+                                           | Yes
+                                           v
+                          +----------------------------------+
+                          | Is Stable (Finished Animating)?  |
+                          +----------------------------------+
+                                           | Yes
+                                           v
+                          +----------------------------------+
+                          | Receives Pointer Events?        |
+                          +----------------------------------+
+                                           | Yes
+                                           v
+                          +----------------------------------+
+                          | Is Enabled (Not Disabled)?       |
+                          +----------------------------------+
+                                           | Yes
+                                           v
+                                    Action Executed!
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/WaitStrategiesPage.java`)
+## 2. Explicit Waiting Techniques
 
-Below is the complete, strongly-typed Java Page Object implementation for `Wait Strategies`:
+When automating complex dynamic UI components (such as lazy-loaded data widgets at `https://practice.mycodeyatra.com/widgets`), Playwright provides targeted wait methods:
+
+### 1. Wait for Element State (`Locator.waitFor()`)
+```java
+Locator widget = page.locator("#dynamic-widget");
+widget.waitFor(new Locator.WaitForOptions()
+    .setState(WaitForSelectorState.VISIBLE)
+    .setTimeout(10000));
+```
+
+### 2. Wait for Network Response (`Page.waitForResponse()`)
+```java
+Response response = page.waitForResponse("**/api/widgets/data", () -> {
+    page.click("#load-widget-btn");
+});
+assertThat(response.status()).isEqualTo(200);
+```
+
+### 3. Wait for Page Navigation (`Page.waitForURL()`)
+```java
+page.click("#submit-btn");
+page.waitForURL("**/dashboard");
+```
+
+---
+
+## 3. Production Page Object (`src/main/java/com/mycodeyatra/pages/WaitStrategiesPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Locator;
+import com.microsoft.playwright.options.WaitForSelectorState;
  
 public class WaitStrategiesPage {
     private final Page page;
-    private final Locator dynamicCard;
+    private final Locator loadBtn;
+    private final Locator resultCard;
  
     public WaitStrategiesPage(Page page) {
         this.page = page;
-        this.dynamicCard = page.locator("#dynamic-content");
+        this.loadBtn = page.locator("#load-btn");
+        this.resultCard = page.locator(".widget-card");
     }
  
-    public void waitForDynamicCard() {
-        dynamicCard.waitFor(new Locator.WaitForOptions().setState(com.microsoft.playwright.options.WaitForSelectorState.VISIBLE));
+    public void navigateToWidgets() {
+        page.navigate("https://practice.mycodeyatra.com/widgets");
     }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/WaitStrategiesTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Wait Strategies`:
-
-```java
-package com.mycodeyatra.tests;
  
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.*;
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+    public void loadDynamicWidget() {
+        loadBtn.click();
+        resultCard.waitFor(new Locator.WaitForOptions().setState(WaitForSelectorState.VISIBLE));
+    }
  
-public class WaitStrategiesTest {
-    @Test
-    void testDynamicWait() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/widgets");
-            assertThat(page.locator(".widget-card")).isVisible();
-        }
+    public Locator getResultCard() {
+        return resultCard;
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 4. Summary & Best Practices
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Never use `Thread.sleep()`**: Rely on Playwright's native auto-waiting and `assertThat(locator)`.
+2. **Wait for Network Responses**: Use `page.waitForResponse()` for lazy-loaded REST data components.
+

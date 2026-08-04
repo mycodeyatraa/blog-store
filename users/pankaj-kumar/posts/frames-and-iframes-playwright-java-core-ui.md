@@ -9,102 +9,73 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Frames & iFrames in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Interact with embedded iFrames and nested frame structures using frameLocator() without driver context switching.
+readTime: 9 min read
 ---
 
 # Frames & iFrames - Playwright Java Core UI
 
-Mastering **Frames & iFrames** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Interacting with nested iFrames using page.frameLocator() without manual driver frame switching.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/frames**.
+Automating iFrames (such as payment gateways, reCAPTCHA widgets, or embedded video players) was historically error-prone in Selenium due to manual `driver.switchTo().frame()` state switching.
+
+Playwright Java introduces **Frame Locators**, allowing seamless inline querying inside iFrames.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
+## 1. FrameLocator vs Legacy Frame Switching
 
-In Playwright Java, **Frames & iFrames** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/frames`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/FramesPage.java`.
-- **Core Concept**: Interacting with nested iFrames using page.frameLocator() without manual driver frame switching.
-
-```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  FramesPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/frames)                           |
- +---------------------------------------------------+
+```java
+// LEGACY SELENIUM (Stateful & Fragile):
+driver.switchTo().frame("payment-frame");
+driver.findElement(By.ID, "card-num").sendKeys("4111...");
+driver.switchTo().defaultContent(); // Must switch back manually!
+ 
+// PLAYWRIGHT JAVA (Declarative & Auto-Waiting):
+FrameLocator frame = page.frameLocator("#payment-frame");
+frame.locator("#card-num").fill("4111...");
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/FramesPage.java`)
-
-Below is the complete, strongly-typed Java Page Object implementation for `Frames & iFrames`:
+## 2. Production Page Object (`src/main/java/com/mycodeyatra/pages/FramesPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.FrameLocator;
+import com.microsoft.playwright.Locator;
  
 public class FramesPage {
     private final Page page;
-    private final FrameLocator frameLocator;
+    private final FrameLocator singleFrame;
  
     public FramesPage(Page page) {
         this.page = page;
-        this.frameLocator = page.frameLocator("#myFrame");
+        this.singleFrame = page.frameLocator("#single-frame");
     }
  
-    public void fillInsideFrame(String text) {
-        frameLocator.locator("#frame-input").fill(text);
+    public void navigateToFrames() {
+        page.navigate("https://practice.mycodeyatra.com/frames");
     }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/FramesTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Frames & iFrames`:
-
-```java
-package com.mycodeyatra.tests;
  
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.*;
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+    public void fillFrameInput(String text) {
+        singleFrame.locator("#frame-input").fill(text);
+    }
  
-public class FramesTest {
-    @Test
-    void testIFrameInteraction() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/frames");
-            FrameLocator frame = page.frameLocator("#single-frame");
-            assertThat(frame.locator("h2")).isVisible();
-        }
+    public Locator getFrameHeading() {
+        return singleFrame.locator("h2");
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 3. Key Takeaways
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Nested iFrames**: Chain `frameLocator()` calls cleanly: `page.frameLocator("#outer").frameLocator("#inner").locator("button")`.
+2. **Auto-Waiting**: Frame locators automatically wait for the iFrame to load and attach to DOM.
+

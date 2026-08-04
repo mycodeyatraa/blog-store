@@ -9,49 +9,45 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Shadow DOM in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Pierce open Shadow DOM elements natively using Playwright locators without shadowRoot JavaScript execution.
+readTime: 9 min read
 ---
 
 # Shadow DOM - Playwright Java Core UI
 
-Mastering **Shadow DOM** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Piercing open Shadow DOM elements natively using Playwright locators without shadowRoot JS execution.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/shadow-dom**.
+Web Components and Shadow DOM encapsulate DOM trees to prevent CSS leaking. However, encapsulated Shadow Roots hide elements from traditional XPath and CSS selectors in Selenium.
+
+Playwright's CSS selector engine **automatically pierces open Shadow DOM roots** by default.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
+## 1. Native Shadow DOM Piercing
 
-In Playwright Java, **Shadow DOM** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/shadow-dom`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/ShadowDomPage.java`.
-- **Core Concept**: Piercing open Shadow DOM elements natively using Playwright locators without shadowRoot JS execution.
-
+```html
+<!-- DOM Structure -->
+<user-card id="host">
+  #shadow-root (open)
+    <button class="edit-btn">Edit Profile</button>
+</user-card>
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  ShadowDomPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/shadow-dom)                           |
- +---------------------------------------------------+
+
+In Playwright Java, you locate elements inside Shadow DOM with simple CSS selectors:
+
+```java
+// Automatically pierces open shadow root!
+page.locator("user-card .edit-btn").click();
+ 
+// Explicit shadow piercing combinator (>>)
+page.locator("#host >> button.edit-btn").click();
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/ShadowDomPage.java`)
-
-Below is the complete, strongly-typed Java Page Object implementation for `Shadow DOM`:
+## 2. Production Page Object (`src/main/java/com/mycodeyatra/pages/ShadowDomPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
@@ -61,49 +57,26 @@ import com.microsoft.playwright.Locator;
  
 public class ShadowDomPage {
     private final Page page;
-    private final Locator shadowButton;
+    private final Locator shadowInput;
  
     public ShadowDomPage(Page page) {
         this.page = page;
-        this.shadowButton = page.locator("#shadow-host >> button");
+        this.shadowInput = page.locator("shadow-host >> #inside-input");
     }
  
-    public void clickShadowBtn() {
-        shadowButton.click();
+    public void navigateToShadowDom() {
+        page.navigate("https://practice.mycodeyatra.com/shadow-dom");
     }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/ShadowDomTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Shadow DOM`:
-
-```java
-package com.mycodeyatra.tests;
  
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.*;
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
- 
-public class ShadowDomTest {
-    @Test
-    void testShadowDOM() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/shadow-dom");
-            assertThat(page.locator("shadow-host >> .shadow-content")).isVisible();
-        }
+    public void fillShadowField(String text) {
+        shadowInput.fill(text);
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 3. Summary
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+Playwright eliminates custom `executeScript("return arguments[0].shadowRoot...")` workarounds entirely.
+

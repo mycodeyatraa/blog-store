@@ -9,101 +9,92 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Handle JavaScript alerts, confirm dialogs, prompt popups, and modal dialogs natively using page.onDialog() event handlers.
+readTime: 9 min read
 ---
 
 # Alerts & Dialogs - Playwright Java Core UI
 
-Mastering **Alerts & Dialogs** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Handling JavaScript alerts, confirm prompts, prompt inputs, and modal popups using page.onDialog listeners.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/overlays**.
+JavaScript dialogs (`alert()`, `confirm()`, `prompt()`) freeze browser execution until closed. Unlike Selenium WebDriver which requires switching driver focus via `driver.switchTo().alert()`, Playwright Java automatically dismisses all dialogs by default and provides clean event listeners for customized handling.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
-
-In Playwright Java, **Alerts & Dialogs** provides significant advantages over traditional automation tools:
-
-- **Target URL**: `https://practice.mycodeyatra.com/overlays`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/DialogsPage.java`.
-- **Core Concept**: Handling JavaScript alerts, confirm prompts, prompt inputs, and modal popups using page.onDialog listeners.
+## 1. Playwright Dialog Event Handling Model
 
 ```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  DialogsPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/overlays)                           |
- +---------------------------------------------------+
+        Browser Dialog Triggered (alert / confirm / prompt)
+                                 |
+                                 v
+        Playwright `page.onDialog(dialog -> { ... })`
+                                 |
+           +---------------------+---------------------+
+           |                     |                     |
+           v                     v                     v
+   dialog.accept()        dialog.dismiss()      dialog.accept("input")
+   (Accept Alert/Confirm) (Dismiss Confirm)      (Submit Prompt Text)
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/DialogsPage.java`)
+## 2. Dialog Automation Examples
 
-Below is the complete, strongly-typed Java Page Object implementation for `Alerts & Dialogs`:
+### 1. Accept Alert Dialog
+```java
+page.onDialog(dialog -> {
+    System.out.println("Alert Message: " + dialog.message());
+    dialog.accept();
+});
+page.click("#trigger-alert-btn");
+```
+
+### 2. Enter Text in Prompt Dialog
+```java
+page.onDialog(dialog -> {
+    dialog.accept("Pankaj Kumar");
+});
+page.click("#trigger-prompt-btn");
+```
+
+---
+
+## 3. Production Page Object (`src/main/java/com/mycodeyatra/pages/DialogsPage.java`)
 
 ```java
 package com.mycodeyatra.pages;
  
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Locator;
  
 public class DialogsPage {
     private final Page page;
+    private final Locator alertBtn;
+    private final Locator promptBtn;
  
     public DialogsPage(Page page) {
         this.page = page;
+        this.alertBtn = page.locator("#alert-btn");
+        this.promptBtn = page.locator("#prompt-btn");
     }
  
-    public void triggerAlertAndAccept() {
-        page.onDialog(dialog -> {
-            System.out.println("Dialog message: " + dialog.message());
-            dialog.accept();
-        });
-        page.click("#trigger-alert-btn");
+    public void navigateToOverlays() {
+        page.navigate("https://practice.mycodeyatra.com/overlays");
     }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/DialogsTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Alerts & Dialogs`:
-
-```java
-package com.mycodeyatra.tests;
  
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.*;
- 
-public class DialogsTest {
-    @Test
-    void testAlertDialog() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/overlays");
-            page.onDialog(Dialog::accept);
-        }
+    public void triggerAlertWithAutoAccept() {
+        page.onDialog(dialog -> dialog.accept());
+        alertBtn.click();
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 4. Key Takeaways
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+1. **Register Listeners Before Clicking**: Always attach `page.onDialog()` listeners before executing the action that triggers the dialog.
+2. **Auto-Dismiss Default**: If no listener is registered, Playwright automatically dismisses dialogs so tests do not hang.
+

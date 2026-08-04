@@ -9,104 +9,91 @@ authorAvatar: https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/use
 authorBio: Automation Architect
 authorGithub: https://github.com/pankajhyd
 authorLinkedin: https://www.linkedin.com/in/pankaj-kumar-94a2b227/
-tags: [playwright, java, junit5, automation, testing, mycodeyatra]
+tags: [playwright, java, junit5, automation, ui-automation, mycodeyatra]
 category: Playwright Java Core UI
 categories: [Playwright Java Core UI, Playwright Java, Test Automation]
 excerpt: >-
-  Master Parallel Execution in Playwright Java! Learn production-grade implementation targeting practice.mycodeyatra.com.
-readTime: 10 min read
+  Configure JUnit 5 parallel thread execution with isolated BrowserContexts for 10x faster regression suite runs.
+readTime: 9 min read
 ---
 
 # Parallel Execution - Playwright Java Core UI
 
-Mastering **Parallel Execution** is an essential milestone in building robust, enterprise-grade Playwright Java test automation frameworks. This tutorial dives deep into **Configuring JUnit 5 thread-safe parallel execution with isolated BrowserContexts for high-speed runs.** with complete, executable code targeting live components at **https://practice.mycodeyatra.com/sandbox**.
+Executing regression test suites sequentially is the biggest bottleneck in modern CI/CD pipelines. Playwright Java's lightweight `BrowserContext` architecture allows running dozens of tests concurrently without memory exhaustion.
 
 ---
 
-## 1. High-Level Architectural Concepts & Terminology
+## 1. JUnit 5 Parallel Configuration
 
-In Playwright Java, **Parallel Execution** provides significant advantages over traditional automation tools:
+Enable parallel test execution in JUnit 5 by creating `src/test/resources/junit-platform.properties`:
 
-- **Target URL**: `https://practice.mycodeyatra.com/sandbox`
-- **Repository Integration**: Source code is checked into `Repository/mcyt-plw-java/src/main/java/com/mycodeyatra/pages/ParallelExecutionPage.java`.
-- **Core Concept**: Configuring JUnit 5 thread-safe parallel execution with isolated BrowserContexts for high-speed runs.
-
-```
- +---------------------------------------------------+
- |  JUnit 5 Test Suite (@Test / PlaywrightAssertions) |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  ParallelExecutionPage (src/main/java)                       |
- +---------------------------------------------------+
-                          |
-                          v
- +---------------------------------------------------+
- |  Practice App (https://practice.mycodeyatra.com/sandbox)                           |
- +---------------------------------------------------+
+```properties
+# Enable parallel test execution
+junit.jupiter.execution.parallel.enabled=true
+ 
+# Execute tests concurrently across classes and methods
+junit.jupiter.execution.parallel.mode.default=concurrent
+junit.jupiter.execution.parallel.mode.classes.default=concurrent
+ 
+# Set thread pool strategy to dynamic CPU core multiplier
+junit.jupiter.execution.parallel.config.strategy=dynamic
+junit.jupiter.execution.parallel.config.dynamic.factor=1.0
 ```
 
 ---
 
-## 2. Production Page Object Implementation (`src/main/java/com/mycodeyatra/pages/ParallelExecutionPage.java`)
-
-Below is the complete, strongly-typed Java Page Object implementation for `Parallel Execution`:
-
-```java
-package com.mycodeyatra.pages;
- 
-import com.microsoft.playwright.Page;
- 
-public class ParallelExecutionPage {
-    private final Page page;
- 
-    public ParallelExecutionPage(Page page) {
-        this.page = page;
-    }
-}
-```
-
----
-
-## 3. Executable JUnit 5 Test Suite (`src/test/java/com/mycodeyatra/tests/ParallelExecutionTest.java`)
-
-Below is the complete, runnable JUnit 5 test class validating `Parallel Execution`:
+## 2. Thread-Safe Base Test Architecture
 
 ```java
 package com.mycodeyatra.tests;
  
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.parallel.Execution;
-import org.junit.jupiter.api.parallel.ExecutionMode;
  
-@Execution(ExecutionMode.CONCURRENT)
-public class ParallelExecutionTest {
-    @Test
-    void testParallelSuite1() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/sandbox");
-        }
+public abstract class ParallelBaseTest {
+    private static Playwright playwright;
+    private static Browser browser;
+ 
+    // ThreadLocal ensures each test thread gets its own isolated context and page
+    private final ThreadLocal<BrowserContext> threadContext = new ThreadLocal<>();
+    private final ThreadLocal<Page> threadPage = new ThreadLocal<>();
+ 
+    @BeforeAll
+    static void startBrowser() {
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
     }
  
-    @Test
-    void testParallelSuite2() {
-        try (Playwright pw = Playwright.create()) {
-            Browser b = pw.chromium().launch();
-            Page page = b.newPage();
-            page.navigate("https://practice.mycodeyatra.com/form-practice");
-        }
+    @BeforeEach
+    void initThreadContext() {
+        BrowserContext context = browser.newContext();
+        threadContext.set(context);
+        threadPage.set(context.newPage());
+    }
+ 
+    protected Page getPage() {
+        return threadPage.get();
+    }
+ 
+    @AfterEach
+    void closeThreadContext() {
+        threadPage.get().close();
+        threadContext.get().close();
+        threadPage.remove();
+        threadContext.remove();
+    }
+ 
+    @AfterAll
+    static void stopBrowser() {
+        browser.close();
+        playwright.close();
     }
 }
 ```
 
 ---
 
-## 4. Enterprise Best Practices & Takeaways
+## 3. Summary
 
-1. **Avoid Hardcoded Sleeps**: Always rely on Playwright's native auto-waiting and web-first assertions.
-2. **Reuse BrowserContexts**: Utilize `@BeforeEach` to spawn isolated browser contexts for thread-safe parallel execution.
-3. **Continuous Integration**: Keep all test assets synchronized with your local repository at `D:/MyCodeYatra/AILearning2026/Repository/mcyt-plw-java`.
+Using `ThreadLocal<BrowserContext>` guarantees zero cross-test state leakage during high-speed parallel test runs.
+
