@@ -1289,155 +1289,6 @@
     }
   },
   {
-    "id": "blog-1",
-    "title": "Redis in System Design: From Caching to Distributed Locking",
-    "slug": "redis-in-system-design-from-caching-to-distributed-locking",
-    "author": "Abhishek-sinha",
-    "excerpt": "Redis is an in-memory data structure store that powers some of the highest-throughput systems in production.. From caching to real-time leaderboards, its versatility makes it a cornerstone of modern s",
-    "date": "30-May-2026",
-    "readTime": "4 min read",
-    "category": "Redis",
-    "categories": [
-      "Redis",
-      "System Design",
-      "Caching"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "redis",
-      "system-design",
-      "caching",
-      "database",
-      "backend"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/redis-in-system-design-from-caching-to-distributed-locking.md",
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-2",
-    "title": "PostgreSQL vs MongoDB vs Redis: Choosing the Right Database for Your System Design",
-    "slug": "postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design",
-    "author": "Abhishek-sinha",
-    "excerpt": "Choosing the right database is one of the most critical decisions in system design.. PostgreSQL, MongoDB, and Redis each excel in different scenarios \u2014 and understanding their strengths is the differe",
-    "date": "30-May-2026",
-    "readTime": "3 min read",
-    "category": "Postgresql",
-    "categories": [
-      "Postgresql",
-      "Mongodb",
-      "Redis"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "postgresql",
-      "mongodb",
-      "redis",
-      "system-design",
-      "database",
-      "backend",
-      "nosql",
-      "sql"
-    ],
-    "draft": false,
-    "contentPath": "users/Abhishek-sinha/posts/postgresql-vs-mongodb-vs-redis-choosing-the-right-database-for-your-system-design.md",
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-3",
-    "title": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming",
-    "slug": "apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming",
-    "author": "Abhishek-sinha",
-    "date": "30-May-2026",
-    "tags": [
-      "zookeeper",
-      "kafka",
-      "system-design",
-      "distributed-systems",
-      "microservices",
-      "event-streaming"
-    ],
-    "category": "Zookeeper",
-    "categories": [
-      "Zookeeper",
-      "Kafka",
-      "System Design"
-    ],
-    "excerpt": "Apache Zookeeper and Kafka: Distributed Coordination Meets Event Streaming\n\nWhen building distributed systems, two names come up constantly \u2014 Apache Zookeeper and Apache Kafka.. They solve very differ",
-    "readTime": "5 min read",
-    "contentPath": "users/Abhishek-sinha/posts/apache-zookeeper-and-kafka-distributed-coordination-meets-event-streaming.md",
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "authorDetails": {
-      "id": "Abhishek-sinha",
-      "name": "Abhishek Sinha",
-      "role": "Full Stack And Mobile Developer",
-      "avatar": "https://avatars.githubusercontent.com/abhisheksinha20p",
-      "bio": "Full Stack And Mobile Developer",
-      "github": "https://github.com/abhisheksinha20p",
-      "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
-    }
-  },
-  {
-    "id": "blog-4",
-    "title": "Playwright with Java - Zero to Automation: Introduction & Setup",
-    "slug": "playwright-with-java-zero-to-automation-introduction-setup",
-    "author": "pankaj-kumar",
-    "excerpt": "Get started with Playwright and Java from scratch. Learn what Playwright is, why it beats Selenium, and set up your first real project with Maven - including writing and running your first test.",
-    "date": "31-May-2026",
-    "readTime": "8 min read",
-    "category": "Playwright",
-    "categories": [
-      "Playwright",
-      "Java",
-      "Automation Testing"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "playwright",
-      "java",
-      "automation-testing",
-      "e2e-testing"
-    ],
-    "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/playwright-with-java-zero-to-automation-introduction-setup.md",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "series": null,
-    "seriesOrder": 1
-  },
-  {
     "id": "blog-5",
     "title": "AWS Fundamentals: IAM, VPC, EC2, and S3",
     "slug": "aws-fundamentals-iam-vpc-ec2-and-s3",
@@ -1638,42 +1489,6 @@
       "github": "https://github.com/abhisheksinha20p",
       "linkedin": "https://www.linkedin.com/in/abhishek-sinha-0897aa23b/"
     }
-  },
-  {
-    "id": "blog-10",
-    "date": "30-May-2026",
-    "contentPath": "users/pankaj-kumar/posts/ai-usage-in-mobile-automation-beyond-basic-test-scripts.md",
-    "title": "AI Usage in Mobile Automation: Beyond Basic Test Scripts",
-    "draft": false,
-    "likes": 0,
-    "tags": [
-      "AI",
-      "mobile automation",
-      "test automation",
-      "self-healing",
-      "Appium"
-    ],
-    "excerpt": "AI in mobile automation isn't just about generating tests-it's about creating intelligent, self-healing systems that adapt to app changes while reducing maintenance overhead by up to 80%. Mobile application testing has reached a critical inflection point.",
-    "categories": [
-      "Ai",
-      "Mobile Automation",
-      "Test Automation"
-    ],
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/avatar.jpg",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/",
-      "role": "Automation Architect",
-      "bio": "Automation Architect"
-    },
-    "author": "pankaj-kumar",
-    "slug": "ai-usage-in-mobile-automation-beyond-basic-test-scripts",
-    "readTime": "11 min read",
-    "category": "Ai",
-    "commentsCount": 0,
-    "image": ""
   },
   {
     "id": "blog-11",
@@ -28334,6 +28149,486 @@
     ],
     "series": "playwright-java-core-ui",
     "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_data_driven_testing",
+    "slug": "plw_jv_data_driven_testing",
+    "title": "Data Driven Testing - Playwright Java Design Patterns",
+    "description": "Implement data-driven testing in Playwright Java using JUnit 5 @ParameterizedTest, @CsvSource, @MethodSource, and JSON test data providers.",
+    "excerpt": "Implement data-driven testing in Playwright Java using JUnit 5 @ParameterizedTest, @CsvSource, @MethodSource, and JSON test data providers.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_data_driven_testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "23-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_page_object_model",
+    "slug": "plw_jv_page_object_model",
+    "title": "Page Object Model - Playwright Java Design Patterns",
+    "description": "Design clean, maintainable Page Object Model (POM) and Fluent POM architectures in Playwright Java.",
+    "excerpt": "Design clean, maintainable Page Object Model (POM) and Fluent POM architectures in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_page_object_model.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "24-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_factory_pattern",
+    "slug": "plw_jv_factory_pattern",
+    "title": "Factory Pattern - Playwright Java Design Patterns",
+    "description": "Implement the Factory Creational Pattern for dynamic Browser and BrowserContext instantiation in Playwright Java.",
+    "excerpt": "Implement the Factory Creational Pattern for dynamic Browser and BrowserContext instantiation in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_factory_pattern.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "25-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_builder_pattern",
+    "slug": "plw_jv_builder_pattern",
+    "title": "Builder Pattern - Playwright Java Design Patterns",
+    "description": "Construct complex test data payloads using the Builder Pattern in Playwright Java automation.",
+    "excerpt": "Construct complex test data payloads using the Builder Pattern in Playwright Java automation.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_builder_pattern.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "26-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_screenplay_pattern",
+    "slug": "plw_jv_screenplay_pattern",
+    "title": "Screenplay Pattern - Playwright Java Design Patterns",
+    "description": "Implement SOLID principles in QA using the Actor-Task-Ability Screenplay Pattern in Playwright Java.",
+    "excerpt": "Implement SOLID principles in QA using the Actor-Task-Ability Screenplay Pattern in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_screenplay_pattern.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "27-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_junit5_lifecycle_fixtures",
+    "slug": "plw_jv_junit5_lifecycle_fixtures",
+    "title": "JUnit 5 Lifecycle & Test Fixtures - Playwright Java Design Patterns",
+    "description": "Master JUnit 5 test lifecycle annotations (@BeforeAll, @BeforeEach, @TempDir, @Nested) in Playwright Java.",
+    "excerpt": "Master JUnit 5 test lifecycle annotations (@BeforeAll, @BeforeEach, @TempDir, @Nested) in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_junit5_lifecycle_fixtures.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "28-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_utility_framework",
+    "slug": "plw_jv_utility_framework",
+    "title": "Utility Framework - Playwright Java Design Patterns",
+    "description": "Build reusable utility wrappers for retries, JavaScript execution, element highlighting, and random data generation.",
+    "excerpt": "Build reusable utility wrappers for retries, JavaScript execution, element highlighting, and random data generation.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_utility_framework.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "29-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_configuration_management",
+    "slug": "plw_jv_configuration_management",
+    "title": "Configuration Management - Playwright Java Design Patterns",
+    "description": "Design type-safe configuration loaders reading config.properties, environment variables, and CLI overrides.",
+    "excerpt": "Design type-safe configuration loaders reading config.properties, environment variables, and CLI overrides.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_configuration_management.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "30-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_logging_framework",
+    "slug": "plw_jv_logging_framework",
+    "title": "Logging Framework - Playwright Java Design Patterns",
+    "description": "Integrate SLF4J and Logback logging for colored terminal logs, file appenders, and Playwright action tracking.",
+    "excerpt": "Integrate SLF4J and Logback logging for colored terminal logs, file appenders, and Playwright action tracking.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_logging_framework.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "31-Jan-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_framework_architecture",
+    "slug": "plw_jv_framework_architecture",
+    "title": "Framework Architecture - Playwright Java Design Patterns",
+    "description": "Design an end-to-end multi-layer Playwright Java framework combining Pages, Drivers, Utilities, and Listeners.",
+    "excerpt": "Design an end-to-end multi-layer Playwright Java framework combining Pages, Drivers, Utilities, and Listeners.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_framework_architecture.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "01-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_dependency_injection",
+    "slug": "plw_jv_dependency_injection",
+    "title": "Dependency Injection - Playwright Java Design Patterns",
+    "description": "Manage Page Object and Configuration Bean instantiation using Dependency Injection (DI) principles.",
+    "excerpt": "Manage Page Object and Configuration Bean instantiation using Dependency Injection (DI) principles.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_dependency_injection.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "02-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_custom_junit5_extensions",
+    "slug": "plw_jv_custom_junit5_extensions",
+    "title": "Custom JUnit 5 Extensions - Playwright Java Design Patterns",
+    "description": "Build custom JUnit 5 Extensions implementing TestWatcher to capture automatic failure screenshots and traces.",
+    "excerpt": "Build custom JUnit 5 Extensions implementing TestWatcher to capture automatic failure screenshots and traces.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_custom_junit5_extensions.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "03-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Design Patterns",
+    "categories": [
+      "Playwright Java Design Patterns",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "design-patterns",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-test-design",
+    "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
   }
