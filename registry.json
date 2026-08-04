@@ -27498,7 +27498,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-1",
+    "id": "what-is-playwright-with-java-foundations",
     "slug": "what-is-playwright-with-java-foundations",
     "title": "What is Playwright with Java? - Playwright Java Foundations",
     "description": "Master What is Playwright with Java? in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27538,7 +27538,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-2",
+    "id": "playwright-vs-selenium-vs-cypress-java",
     "slug": "playwright-vs-selenium-vs-cypress-java",
     "title": "Playwright vs Selenium vs Cypress - Playwright Java Foundations",
     "description": "Master Playwright vs Selenium vs Cypress in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27578,7 +27578,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-3",
+    "id": "setup-playwright-java-maven-junit5",
     "slug": "setup-playwright-java-maven-junit5",
     "title": "Setup Playwright + Java Project - Playwright Java Foundations",
     "description": "Master Setup Playwright + Java Project in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27618,7 +27618,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-4",
+    "id": "playwright-java-architecture-deep-dive",
     "slug": "playwright-java-architecture-deep-dive",
     "title": "Playwright Architecture - Playwright Java Foundations",
     "description": "Master Playwright Architecture in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27658,7 +27658,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-5",
+    "id": "browser-context-page-lifecycle-playwright-java",
     "slug": "browser-context-page-lifecycle-playwright-java",
     "title": "Browser Lifecycle - Playwright Java Foundations",
     "description": "Master Browser Lifecycle in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27698,7 +27698,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-6",
+    "id": "locators-deep-dive-playwright-java",
     "slug": "locators-deep-dive-playwright-java",
     "title": "Locators Deep Dive - Playwright Java Foundations",
     "description": "Master Locators Deep Dive in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27738,7 +27738,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-7",
+    "id": "playwright-java-assertions-and-expect",
     "slug": "playwright-java-assertions-and-expect",
     "title": "Assertions - Playwright Java Foundations",
     "description": "Master Assertions in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27778,7 +27778,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-8",
+    "id": "first-e2e-test-playwright-java",
     "slug": "first-e2e-test-playwright-java",
     "title": "First E2E Test - Playwright Java Foundations",
     "description": "Master First E2E Test in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27818,7 +27818,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-9",
+    "id": "debugging-tools-inspector-trace-viewer-playwright-java",
     "slug": "debugging-tools-inspector-trace-viewer-playwright-java",
     "title": "Debugging Tools - Playwright Java Foundations",
     "description": "Master Debugging Tools in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27858,7 +27858,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-foundations-10",
+    "id": "screenshots-videos-tracing-playwright-java",
     "slug": "screenshots-videos-tracing-playwright-java",
     "title": "Screenshots & Videos - Playwright Java Foundations",
     "description": "Master Screenshots & Videos in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27898,7 +27898,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-1",
+    "id": "wait-strategies-playwright-java-core-ui",
     "slug": "wait-strategies-playwright-java-core-ui",
     "title": "Wait Strategies - Playwright Java Core UI",
     "description": "Master Wait Strategies in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27938,7 +27938,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-2",
+    "id": "forms-handling-playwright-java-core-ui",
     "slug": "forms-handling-playwright-java-core-ui",
     "title": "Forms Handling - Playwright Java Core UI",
     "description": "Master Forms Handling in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -27978,7 +27978,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-3",
+    "id": "alerts-dialogs-playwright-java-core-ui",
     "slug": "alerts-dialogs-playwright-java-core-ui",
     "title": "Alerts & Dialogs - Playwright Java Core UI",
     "description": "Master Alerts & Dialogs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28018,7 +28018,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-4",
+    "id": "file-upload-playwright-java-core-ui",
     "slug": "file-upload-playwright-java-core-ui",
     "title": "File Upload - Playwright Java Core UI",
     "description": "Master File Upload in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28058,7 +28058,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-5",
+    "id": "file-download-playwright-java-core-ui",
     "slug": "file-download-playwright-java-core-ui",
     "title": "File Download - Playwright Java Core UI",
     "description": "Master File Download in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28098,7 +28098,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-6",
+    "id": "windows-tabs-playwright-java-core-ui",
     "slug": "windows-tabs-playwright-java-core-ui",
     "title": "Windows & Tabs - Playwright Java Core UI",
     "description": "Master Windows & Tabs in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28138,7 +28138,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-7",
+    "id": "frames-iframes-playwright-java-core-ui",
     "slug": "frames-iframes-playwright-java-core-ui",
     "title": "Frames & iFrames - Playwright Java Core UI",
     "description": "Master Frames & iFrames in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28178,7 +28178,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-8",
+    "id": "shadow-dom-playwright-java-core-ui",
     "slug": "shadow-dom-playwright-java-core-ui",
     "title": "Shadow DOM - Playwright Java Core UI",
     "description": "Master Shadow DOM in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28218,7 +28218,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-9",
+    "id": "network-monitoring-playwright-java-core-ui",
     "slug": "network-monitoring-playwright-java-core-ui",
     "title": "Network Monitoring - Playwright Java Core UI",
     "description": "Master Network Monitoring in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28258,7 +28258,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-10",
+    "id": "parallel-execution-playwright-java-core-ui",
     "slug": "parallel-execution-playwright-java-core-ui",
     "title": "Parallel Execution - Playwright Java Core UI",
     "description": "Master Parallel Execution in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
@@ -28298,7 +28298,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-plw-java-core-ui-11",
+    "id": "cross-browser-testing-playwright-java-core-ui",
     "slug": "cross-browser-testing-playwright-java-core-ui",
     "title": "Cross-Browser Testing - Playwright Java Core UI",
     "description": "Master Cross-Browser Testing in Playwright Java! Learn production-grade implementation with hands-on practice.mycodeyatra.com tutorials.",
