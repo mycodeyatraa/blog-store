@@ -28713,5 +28713,46 @@
     "seriesOrder": 2,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_post_apis",
+    "slug": "plw_jv_post_apis",
+    "title": "POST APIs - Playwright Java API Automation & Auth",
+    "description": "Create REST resources using HTTP POST requests, JSON payloads, and HTTP 201 Created assertions.",
+    "excerpt": "Create REST resources using HTTP POST requests, JSON payloads, and HTTP 201 Created assertions.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_post_apis.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "06-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java API Automation & Auth",
+    "categories": [
+      "Playwright Java API Automation & Auth",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "api-testing",
+      "rest-api",
+      "authentication",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-api-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
