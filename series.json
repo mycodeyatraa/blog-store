@@ -19,7 +19,8 @@
       "blog-7",
       "blog-8",
       "post-659"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "playwright-with-java-zero-to-automation",
@@ -265,7 +266,8 @@
       "blog-plw-java-114",
       "blog-plw-java-115",
       "blog-plw-java-116"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "postman-api-automation-mastery",
@@ -307,7 +309,8 @@
       "blog-37",
       "blog-38",
       "blog-39"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "mock-api-server-mastery",
@@ -347,7 +350,8 @@
       "blog-34",
       "blog-35",
       "blog-36"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "java-restassured-api-testing",
@@ -395,7 +399,8 @@
       "blog-55",
       "blog-56",
       "blog-57"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "nodejs-supertest-api-testing",
@@ -455,7 +460,8 @@
       "blog-supertest-22",
       "blog-supertest-23",
       "blog-supertest-24"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "karate-api-testing",
@@ -505,7 +511,8 @@
     "createdAt": "07-Jun-2026",
     "posts": [
       "blog-58"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "kafka-api-testing",
@@ -605,7 +612,8 @@
       "blog-selenium-java-19",
       "blog-selenium-java-20",
       "blog-selenium-java-21"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-framework-design-and-patterns-in-java",
@@ -640,7 +648,8 @@
       "blog-selenium-java-32",
       "blog-selenium-java-33",
       "blog-selenium-java-34"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-api-hybrid-framework",
@@ -658,7 +667,8 @@
       "blog-selenium-java-35",
       "blog-selenium-java-36",
       "blog-selenium-java-37"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-advanced-authentication-mastery",
@@ -690,7 +700,8 @@
       "blog-selenium-java-auth-2",
       "blog-selenium-java-auth-3",
       "blog-selenium-java-auth-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-advanced-security-testing",
@@ -712,7 +723,8 @@
       "blog-selenium-java-46",
       "blog-selenium-java-47",
       "blog-selenium-java-48"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-advanced-visual-testing",
@@ -736,7 +748,8 @@
       "blog-selenium-java-52",
       "blog-selenium-java-53",
       "blog-selenium-java-54"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-advanced-accessibility-testing",
@@ -758,7 +771,8 @@
       "blog-selenium-java-57",
       "blog-selenium-java-58",
       "blog-selenium-java-59"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-foundations",
@@ -790,7 +804,8 @@
       "blog-selenium-python-8",
       "blog-selenium-python-9",
       "blog-selenium-python-10"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-core-ui-automation",
@@ -824,7 +839,8 @@
       "blog-selenium-python-19",
       "blog-selenium-python-20",
       "blog-selenium-python-21"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-test-design",
@@ -847,7 +863,8 @@
       "blog-selenium-python-26",
       "blog-selenium-python-27",
       "blog-selenium-python-sp-1"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-framework",
@@ -870,7 +887,8 @@
       "blog-selenium-python-32",
       "blog-selenium-python-33",
       "blog-selenium-python-88"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-api-testing",
@@ -899,7 +917,8 @@
       "blog-selenium-python-41",
       "blog-selenium-python-42",
       "blog-selenium-python-43"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-authentication",
@@ -926,7 +945,8 @@
       "blog-selenium-python-50",
       "blog-selenium-python-51",
       "blog-selenium-python-89"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-security",
@@ -945,7 +965,8 @@
       "blog-selenium-python-54",
       "blog-selenium-python-55",
       "blog-selenium-python-56"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-visual-testing",
@@ -966,7 +987,8 @@
       "blog-selenium-python-60",
       "blog-selenium-python-61",
       "blog-selenium-python-62"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-cicd",
@@ -987,7 +1009,8 @@
       "blog-selenium-python-66",
       "blog-selenium-python-67",
       "blog-selenium-python-68"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-bdd",
@@ -1022,7 +1045,8 @@
       "blog-selenium-python-bdd-11",
       "blog-selenium-python-bdd-12",
       "blog-selenium-python-bdd-13"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-enterprise",
@@ -1051,7 +1075,8 @@
       "blog-selenium-python-ent-2",
       "blog-selenium-python-ent-3",
       "blog-selenium-python-ent-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-reporting",
@@ -1070,7 +1095,8 @@
       "blog-selenium-python-81",
       "blog-selenium-python-82",
       "blog-selenium-python-rep-5"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-cloud-grids",
@@ -1083,7 +1109,8 @@
     "posts": [
       "blog-selenium-python-83",
       "blog-selenium-python-84"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-ai-automation",
@@ -1104,7 +1131,8 @@
       "blog-selenium-python-ai-1",
       "blog-selenium-python-ai-2",
       "blog-selenium-python-ai-3"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-accessibility",
@@ -1129,7 +1157,8 @@
       "blog-selenium-python-accessibility-6",
       "blog-selenium-python-accessibility-7",
       "blog-selenium-python-a11y-1"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-bdd",
@@ -1146,7 +1175,8 @@
       "blog-selenium-java-bdd-2",
       "blog-selenium-java-bdd-3",
       "blog-selenium-java-bdd-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-foundations",
@@ -1167,7 +1197,8 @@
       "blog-selenium-ts-foundations-4",
       "blog-selenium-ts-foundations-5",
       "blog-selenium-ts-foundations-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-core-automation",
@@ -1198,7 +1229,8 @@
       "blog-selenium-ts-core-9",
       "blog-selenium-ts-core-10",
       "blog-selenium-ts-core-11"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-advanced-architecture",
@@ -1219,7 +1251,8 @@
       "blog-selenium-ts-arch-4",
       "blog-selenium-ts-arch-5",
       "blog-selenium-ts-arch-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-framework-utilities",
@@ -1240,7 +1273,8 @@
       "blog-selenium-ts-phase4-4",
       "blog-selenium-ts-phase4-5",
       "blog-selenium-ts-phase4-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-api-testing",
@@ -1289,7 +1323,8 @@
       "blog-selenium-ts-phase6-12",
       "blog-selenium-ts-phase6-13",
       "blog-selenium-ts-phase6-14"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-security-testing",
@@ -1308,7 +1343,8 @@
       "blog-selenium-ts-phase7-3",
       "blog-selenium-ts-phase7-4",
       "blog-selenium-ts-phase7-5"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-visual-testing",
@@ -1329,7 +1365,8 @@
       "blog-selenium-ts-phase8-4",
       "blog-selenium-ts-phase8-5",
       "blog-selenium-ts-phase8-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-accessibility-testing",
@@ -1352,7 +1389,8 @@
       "blog-selenium-ts-phase9-5",
       "blog-selenium-ts-phase9-6",
       "blog-selenium-ts-phase9-7"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-bdd-cucumber",
@@ -1381,7 +1419,8 @@
       "blog-selenium-ts-phase10-8",
       "blog-selenium-ts-phase10-9",
       "blog-selenium-ts-phase10-scenario-outlines"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-ci-cd",
@@ -1406,7 +1445,8 @@
       "blog-selenium-ts-phase11-7",
       "blog-selenium-ts-phase11-8",
       "blog-selenium-ts-phase11-9"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-reporting",
@@ -1431,7 +1471,8 @@
       "blog-selenium-ts-phase12-6",
       "blog-selenium-ts-phase12-7",
       "blog-selenium-ts-phase12-8"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-observability",
@@ -1448,7 +1489,8 @@
       "blog-selenium-ts-phase13-2",
       "blog-selenium-ts-phase13-3",
       "blog-selenium-ts-phase13-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-devops",
@@ -1473,7 +1515,8 @@
       "blog-selenium-ts-phase14-6",
       "blog-selenium-ts-phase14-7",
       "blog-selenium-ts-phase14-8"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-ai",
@@ -1494,7 +1537,8 @@
       "blog-selenium-ts-phase15-4",
       "blog-selenium-ts-phase15-5",
       "blog-selenium-ts-phase15-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ts-enterprise-validation",
@@ -1523,7 +1567,8 @@
       "blog-selenium-ts-phase16-8",
       "blog-selenium-ts-phase16-9",
       "blog-selenium-ts-phase16-10"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-analytics-reporting",
@@ -1540,7 +1585,8 @@
       "blog-selenium-python-analytics-2",
       "blog-selenium-python-analytics-3",
       "blog-selenium-python-analytics-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-python-observability",
@@ -1557,7 +1603,8 @@
       "blog-selenium-python-obs-2",
       "blog-selenium-python-obs-3",
       "blog-selenium-python-obs-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-security-testing",
@@ -1576,7 +1623,8 @@
       "blog-selenium-java-security-3",
       "blog-selenium-java-security-4",
       "blog-selenium-java-security-5"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-visual-testing",
@@ -1597,7 +1645,8 @@
       "blog-selenium-java-visual-4",
       "blog-selenium-java-visual-5",
       "blog-selenium-java-visual-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-accessibility-testing",
@@ -1622,7 +1671,8 @@
       "blog-selenium-java-a11y-6",
       "blog-selenium-java-a11y-7",
       "blog-selenium-java-a11y-8"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-database-testing",
@@ -1643,7 +1693,8 @@
       "blog-selenium-java-db-4",
       "blog-selenium-java-db-5",
       "blog-selenium-java-db-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-enterprise-validation",
@@ -1660,7 +1711,8 @@
       "blog-selenium-java-validation-2",
       "blog-selenium-java-validation-3",
       "blog-selenium-java-validation-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-reporting-analytics",
@@ -1685,7 +1737,8 @@
       "blog-selenium-java-reporting-6",
       "blog-selenium-java-reporting-7",
       "blog-selenium-java-reporting-8"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-cloud-cicd-monitoring",
@@ -1702,7 +1755,8 @@
       "blog-selenium-java-cicd-2",
       "blog-selenium-java-cicd-3",
       "blog-selenium-java-cicd-4"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-execution-cicd-pipelines",
@@ -1727,7 +1781,8 @@
       "blog-selenium-java-cicd-10",
       "blog-selenium-java-cicd-11",
       "blog-selenium-java-cicd-12"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-java-ai-automation",
@@ -1748,7 +1803,8 @@
       "blog-selenium-java-ai-4",
       "blog-selenium-java-ai-5",
       "blog-selenium-java-ai-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-csharp-fundamentals",
@@ -1844,7 +1900,8 @@
     "createdAt": "2026-06-21",
     "posts": [
       "blog-6"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
     "id": "selenium-ruby-fundamentals",
@@ -1985,7 +2042,8 @@
       "post-607",
       "post-608",
       "post-609"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-core-ui",
@@ -2021,7 +2079,8 @@
       "post-620",
       "post-621",
       "post-627"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-test-design",
@@ -2037,7 +2096,8 @@
       "post-622",
       "post-623",
       "post-624"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-framework",
@@ -2059,7 +2119,8 @@
       "post-633",
       "post-634",
       "post-635"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-api-testing",
@@ -2089,7 +2150,8 @@
       "post-641",
       "post-642",
       "post-643"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-visual-testing",
@@ -2121,7 +2183,8 @@
       "post-661",
       "post-662",
       "post-663"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-database-testing",
@@ -2139,7 +2202,8 @@
       "post-645",
       "post-646",
       "post-647"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-advanced-contexts",
@@ -2163,7 +2227,8 @@
       "post-657",
       "post-658",
       "post-659"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-accessibility",
@@ -2187,7 +2252,8 @@
       "post-668",
       "post-669",
       "post-670"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-bdd",
@@ -2216,7 +2282,8 @@
       "post-678",
       "post-679",
       "post-680"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-enterprise-validation",
@@ -2245,7 +2312,8 @@
       "post-688",
       "post-689",
       "post-690"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-allure-reporting",
@@ -2282,7 +2350,8 @@
       "post-696",
       "post-697",
       "post-698"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-ci-cd-cloud",
@@ -2311,7 +2380,8 @@
       "post-700",
       "post-701",
       "post-702"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-docker-scaling",
@@ -2346,7 +2416,8 @@
       "post-707",
       "post-708",
       "post-709"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
     "id": "playwright-typescript-ai",
