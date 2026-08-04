@@ -28795,5 +28795,46 @@
     "seriesOrder": 4,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_delete_apis",
+    "slug": "plw_jv_delete_apis",
+    "title": "DELETE APIs - Playwright Java API Automation & Auth",
+    "description": "Remove backend resources using HTTP DELETE requests and verify HTTP 204 No Content status.",
+    "excerpt": "Remove backend resources using HTTP DELETE requests and verify HTTP 204 No Content status.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_delete_apis.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "08-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java API Automation & Auth",
+    "categories": [
+      "Playwright Java API Automation & Auth",
+      "Playwright Java",
+      "Test Automation"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "api-testing",
+      "rest-api",
+      "authentication",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-api-testing",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
