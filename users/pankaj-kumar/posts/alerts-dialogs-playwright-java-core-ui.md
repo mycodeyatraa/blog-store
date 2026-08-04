@@ -42,17 +42,15 @@ JavaScript dialogs (`alert()`, `confirm()`, `prompt()`) freeze browser execution
 
 ## 2. Dialog Automation Examples
 
-### 1. Accept Alert Dialog
 ```java
+// 1. Accept Alert Dialog
 page.onDialog(dialog -> {
     System.out.println("Alert Message: " + dialog.message());
     dialog.accept();
 });
 page.click("#trigger-alert-btn");
-```
-
-### 2. Enter Text in Prompt Dialog
-```java
+ 
+// 2. Enter Text in Prompt Dialog
 page.onDialog(dialog -> {
     dialog.accept("Pankaj Kumar");
 });
