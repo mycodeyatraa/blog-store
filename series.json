@@ -23,21 +23,6 @@
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
   {
-    "id": "playwright-with-java-zero-to-automation",
-    "title": "Playwright with Java - Zero to Automation",
-    "description": "A hands-on series that takes complete beginners from writing their first test to building a full AI-assisted automation framework using Playwright and Java. No prior testing experience needed.",
-    "author": "pankaj-kumar",
-    "articleIds": [
-      "blog-4"
-    ],
-    "status": "completed",
-    "createdAt": "31-May-2026",
-    "posts": [
-      "blog-4"
-    ],
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
-  },
-  {
     "id": "postman-api-automation-mastery",
     "title": "Postman API Automation Mastery",
     "description": "A complete roadmap to mastering API testing with Postman. Learn everything from basic workspace organization to advanced CI/CD integration, schema validation, and data-driven testing using Newman.",
