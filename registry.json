@@ -29094,5 +29094,195 @@
     "seriesOrder": 13,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-817",
+    "slug": "security-headers-validation-in-playwright-csharp",
+    "title": "Security Headers Validation in Playwright C#",
+    "description": "Audit enterprise security headers (HSTS, X-Frame-Options, X-Content-Type-Options) automatically using Playwright C# response interception.",
+    "excerpt": "Audit enterprise security headers (HSTS, X-Frame-Options, X-Content-Type-Options) automatically using Playwright C# response interception.",
+    "contentPath": "users/pankaj-kumar/posts/security-headers-validation-in-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "20-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Security Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Security Headers",
+      "HSTS",
+      "OWASP"
+    ],
+    "series": "playwright-csharp-security-testing",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-818",
+    "slug": "content-security-policy-csp-automated-checks-playwright-csharp",
+    "title": "Content Security Policy (CSP) Automated Checks in Playwright C#",
+    "description": "Validate Content Security Policy (CSP) directives and catch script injection violations using Playwright C# page console listeners.",
+    "excerpt": "Validate Content Security Policy (CSP) directives and catch script injection violations using Playwright C# page console listeners.",
+    "contentPath": "users/pankaj-kumar/posts/content-security-policy-csp-automated-checks-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "21-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "CSP Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "CSP",
+      "Security",
+      "XSS"
+    ],
+    "series": "playwright-csharp-security-testing",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-819",
+    "slug": "jwt-token-security-verification-playwright-csharp",
+    "title": "JWT Token Security Verification in Playwright C#",
+    "description": "Inspect and verify JWT token structure, expiration claims, and signature headers using Playwright C# API requests.",
+    "excerpt": "Inspect and verify JWT token structure, expiration claims, and signature headers using Playwright C# API requests.",
+    "contentPath": "users/pankaj-kumar/posts/jwt-token-security-verification-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "22-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Security Verification"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "JWT",
+      "Security",
+      "Tokens"
+    ],
+    "series": "playwright-csharp-security-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-820",
+    "slug": "owasp-top-10-automated-security-sweeps-playwright-csharp",
+    "title": "OWASP Top 10 Automated Security Sweeps in Playwright C#",
+    "description": "Automate security sweeps in Playwright C# testing for common OWASP Top 10 vulnerabilities like XSS and broken access control.",
+    "excerpt": "Automate security sweeps in Playwright C# testing for common OWASP Top 10 vulnerabilities like XSS and broken access control.",
+    "contentPath": "users/pankaj-kumar/posts/owasp-top-10-automated-security-sweeps-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "23-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "OWASP Security"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "OWASP",
+      "XSS",
+      "Security Sweeps"
+    ],
+    "series": "playwright-csharp-security-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-821",
+    "slug": "enterprise-authentication-security-patterns-playwright-csharp",
+    "title": "Enterprise Authentication Security Patterns in Playwright C#",
+    "description": "Implement secure credential handling, environment variable isolation, and auth security patterns in Playwright C#.",
+    "excerpt": "Implement secure credential handling, environment variable isolation, and auth security patterns in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/enterprise-authentication-security-patterns-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "24-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Security Patterns"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Security Patterns",
+      "Credentials",
+      "Isolation"
+    ],
+    "series": "playwright-csharp-security-testing",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
