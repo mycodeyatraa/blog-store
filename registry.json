@@ -23858,432 +23858,6 @@
     "seriesOrder": 6
   },
   {
-    "id": "post-660",
-    "title": "Visual Testing in Playwright TypeScript with Applitools Eyes",
-    "slug": "playwright-typescript-applitools-eyes-visual-testing",
-    "author": "pankaj-kumar",
-    "excerpt": "Learn how to perform AI-powered visual assertions in Playwright TypeScript using Applitools Eyes.",
-    "date": "05-Apr-2025",
-    "readTime": "6 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Visual Testing"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "applitools",
-      "visual testing"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-applitools-eyes-visual-testing.md",
-    "series": "playwright-typescript-visual-testing",
-    "seriesOrder": 8,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-661",
-    "title": "Responsive Testing with Playwright TypeScript: Viewports and Devices",
-    "slug": "playwright-typescript-responsive-testing",
-    "author": "pankaj-kumar",
-    "excerpt": "Learn how to automate responsive layout testing across Desktop, Tablet, and Mobile using Playwright viewports.",
-    "date": "06-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "responsive testing",
-      "mobile"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-responsive-testing.md",
-    "series": "playwright-typescript-visual-testing",
-    "seriesOrder": 9,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-662",
-    "title": "Mobile Web Device Emulation in Playwright TypeScript",
-    "slug": "playwright-typescript-mobile-web-device-emulation",
-    "author": "pankaj-kumar",
-    "excerpt": "Simulate iOS and Android devices, set custom user agents, and enable touch events for mobile web testing in Playwright.",
-    "date": "07-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Mobile"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "mobile emulation",
-      "testing"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-mobile-web-device-emulation.md",
-    "series": "playwright-typescript-visual-testing",
-    "seriesOrder": 10,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-663",
-    "title": "Percy Visual Testing with Playwright TypeScript",
-    "slug": "playwright-typescript-percy-visual-testing",
-    "author": "pankaj-kumar",
-    "excerpt": "Integrate Percy for robust visual regression testing in Playwright and catch UI bugs efficiently.",
-    "date": "08-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Visual Testing"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "percy",
-      "visual testing"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-percy-visual-testing.md",
-    "series": "playwright-typescript-visual-testing",
-    "seriesOrder": 11,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-664",
-    "title": "Accessibility Testing Basics in Playwright TypeScript",
-    "slug": "playwright-typescript-accessibility-basics",
-    "author": "pankaj-kumar",
-    "excerpt": "Learn how to use axe-core to find WCAG accessibility violations directly within your Playwright test suites.",
-    "date": "09-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "accessibility",
-      "axe-core"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-accessibility-basics.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 1,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-665",
-    "title": "Advanced Axe Integration in Playwright TypeScript",
-    "slug": "playwright-typescript-advanced-axe-integration",
-    "author": "pankaj-kumar",
-    "excerpt": "Learn how to filter accessibility rules, include specific elements, and exclude legacy components using axe-core.",
-    "date": "10-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-advanced-axe-integration.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 2,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-666",
-    "title": "ARIA Validation in Playwright TypeScript using Axe-Core Tags",
-    "slug": "playwright-typescript-aria-validation",
-    "author": "pankaj-kumar",
-    "excerpt": "Use axe-core tags to strictly validate ARIA properties and semantic compliance in your automated accessibility tests.",
-    "date": "11-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility",
-      "aria"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-aria-validation.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 3,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-667",
-    "title": "Automated Color Contrast Testing in Playwright TypeScript",
-    "slug": "playwright-typescript-color-contrast-accessibility",
-    "author": "pankaj-kumar",
-    "excerpt": "Leverage axe-core to mathematically validate UI color contrast ratios automatically within your test suites.",
-    "date": "12-Apr-2025",
-    "readTime": "5 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility",
-      "color-contrast"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-color-contrast-accessibility.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 4,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-668",
-    "title": "Generating HTML Accessibility Reports in Playwright TypeScript",
-    "slug": "playwright-typescript-accessibility-html-reports",
-    "author": "pankaj-kumar",
-    "excerpt": "Transform your axe-core accessibility scan results into beautiful, shareable HTML reports using axe-html-reporter.",
-    "date": "13-Apr-2025",
-    "readTime": "4 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility",
-      "reporting",
-      "html"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-accessibility-html-reports.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 5,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-669",
-    "title": "Zero-Code Accessibility Audits with the Axe-Core CLI Tooling",
-    "slug": "accessibility-cli-tooling-axe-core",
-    "author": "pankaj-kumar",
-    "excerpt": "Learn how to execute instant, ad-hoc WCAG accessibility scans on any public URL directly from your terminal using axe-core/cli.",
-    "date": "14-Apr-2025",
-    "readTime": "3 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility",
-      "CLI Tooling"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility",
-      "cli"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/accessibility-cli-tooling-axe-core.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 6,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "post-670",
-    "title": "Building an Enterprise Accessibility Strategy in Playwright TypeScript",
-    "slug": "enterprise-accessibility-strategy-playwright-typescript",
-    "author": "pankaj-kumar",
-    "excerpt": "Architect a scalable, global accessibility testing framework using Playwright custom fixtures and axe-core to enforce standardized enterprise compliance.",
-    "date": "15-Apr-2025",
-    "readTime": "5 min read",
-    "category": "UI Automation",
-    "categories": [
-      "UI Automation",
-      "Playwright",
-      "TypeScript",
-      "Accessibility",
-      "Enterprise"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "draft": false,
-    "tags": [
-      "playwright",
-      "typescript",
-      "axe-core",
-      "accessibility",
-      "enterprise",
-      "fixtures"
-    ],
-    "contentPath": "users/pankaj-kumar/posts/enterprise-accessibility-strategy-playwright-typescript.md",
-    "series": "playwright-typescript-accessibility",
-    "seriesOrder": 7,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
     "id": "post-671",
     "title": "Introduction to Behavior-Driven Development (BDD)",
     "slug": "introduction-to-bdd-behavior-driven-development",
@@ -28832,6 +28406,424 @@
     ],
     "series": "playwright-java-accessibility-testing",
     "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-660",
+    "slug": "introduction-to-bdd-playwright-java-cucumber",
+    "title": "Introduction to BDD with Playwright Java and Cucumber-JVM",
+    "description": "Discover the fundamentals of Behavior-Driven Development (BDD) using Playwright Java and Cucumber-JVM. Align technical delivery with business objectives.",
+    "excerpt": "Discover the fundamentals of Behavior-Driven Development (BDD) using Playwright Java and Cucumber-JVM. Align technical delivery with business objectives.",
+    "contentPath": "users/pankaj-kumar/posts/introduction-to-bdd-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "10-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "BDD"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "BDD",
+      "Cucumber",
+      "Overview"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-661",
+    "slug": "gherkin-syntax-playwright-java-cucumber",
+    "title": "Mastering Gherkin Syntax in Playwright Java Frameworks",
+    "description": "Learn how to write unambiguous Gherkin feature specifications using Given, When, Then, And, and But keywords for Playwright Java automation.",
+    "excerpt": "Learn how to write unambiguous Gherkin feature specifications using Given, When, Then, And, and But keywords for Playwright Java automation.",
+    "contentPath": "users/pankaj-kumar/posts/gherkin-syntax-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "11-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Gherkin"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Gherkin",
+      "Cucumber",
+      "Syntax"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-662",
+    "slug": "feature-files-playwright-java-cucumber",
+    "title": "Structuring Feature Files in Production Playwright Java Frameworks",
+    "description": "Organize feature files, manage directory layouts, enforce naming conventions, and format business scenarios effectively in Playwright Java projects.",
+    "excerpt": "Organize feature files, manage directory layouts, enforce naming conventions, and format business scenarios effectively in Playwright Java projects.",
+    "contentPath": "users/pankaj-kumar/posts/feature-files-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "12-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Feature Files"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Feature Files",
+      "Architecture"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-663",
+    "slug": "step-definitions-playwright-java-cucumber",
+    "title": "Writing Robust Step Definitions with Playwright Java",
+    "description": "Master step definition patterns, parameter matching, expression types, and Playwright Page Object integration in Cucumber-JVM.",
+    "excerpt": "Master step definition patterns, parameter matching, expression types, and Playwright Page Object integration in Cucumber-JVM.",
+    "contentPath": "users/pankaj-kumar/posts/step-definitions-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "13-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Step Definitions"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Step Definitions",
+      "Regex"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-664",
+    "slug": "hooks-playwright-java-cucumber",
+    "title": "Managing Lifecycle Hooks in Playwright Java Cucumber Suites",
+    "description": "Configure @Before, @After, @BeforeAll, and @AfterAll hooks to manage Playwright BrowserContext, page initialization, trace recording, and failure screenshots.",
+    "excerpt": "Configure @Before, @After, @BeforeAll, and @AfterAll hooks to manage Playwright BrowserContext, page initialization, trace recording, and failure screenshots.",
+    "contentPath": "users/pankaj-kumar/posts/hooks-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "14-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Hooks"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Hooks",
+      "Lifecycle"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-665",
+    "slug": "scenario-context-playwright-java-cucumber",
+    "title": "Sharing Scenario Context in Playwright Java Cucumber",
+    "description": "Share dynamic state between step definitions using Dependency Injection (PicoContainer) in Playwright Java Cucumber automation frameworks.",
+    "excerpt": "Share dynamic state between step definitions using Dependency Injection (PicoContainer) in Playwright Java Cucumber automation frameworks.",
+    "contentPath": "users/pankaj-kumar/posts/scenario-context-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "15-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Scenario Context"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "PicoContainer",
+      "Context"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-666",
+    "slug": "tags-filtering-playwright-java-cucumber",
+    "title": "Categorizing and Filtering Tests with Cucumber Tags in Java",
+    "description": "Filter, group, and execute targeted test subsets (Smoke, Regression, Sanity, Flaky) using Cucumber tags and Maven command-line parameters in Playwright Java.",
+    "excerpt": "Filter, group, and execute targeted test subsets (Smoke, Regression, Sanity, Flaky) using Cucumber tags and Maven command-line parameters in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/tags-filtering-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "16-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Tags"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Tags",
+      "CLI"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-667",
+    "slug": "scenario-outlines-playwright-java-cucumber",
+    "title": "Data-Driven Testing using Scenario Outlines in Playwright Java",
+    "description": "Implement data-driven BDD tests using Scenario Outlines and Examples tables in Cucumber-JVM with Playwright Java.",
+    "excerpt": "Implement data-driven BDD tests using Scenario Outlines and Examples tables in Cucumber-JVM with Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/scenario-outlines-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "17-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Scenario Outlines"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Scenario Outlines",
+      "Data Driven"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-668",
+    "slug": "living-documentation-playwright-java-cucumber",
+    "title": "Generating Living Documentation and HTML Reports with Cucumber Java",
+    "description": "Generate interactive HTML reports, Allure BDD documentation, and living test artifacts from Playwright Java Cucumber executions.",
+    "excerpt": "Generate interactive HTML reports, Allure BDD documentation, and living test artifacts from Playwright Java Cucumber executions.",
+    "contentPath": "users/pankaj-kumar/posts/living-documentation-playwright-java-cucumber.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "18-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Living Documentation"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Reporting",
+      "Allure"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-669",
+    "slug": "bdd-framework-design-playwright-java",
+    "title": "Architecting an Enterprise BDD Framework with Playwright Java",
+    "description": "Design a scalable, production-grade BDD automation framework combining Playwright Java, Cucumber-JVM, POM, and CI/CD pipelines.",
+    "excerpt": "Design a scalable, production-grade BDD automation framework combining Playwright Java, Cucumber-JVM, POM, and CI/CD pipelines.",
+    "contentPath": "users/pankaj-kumar/posts/bdd-framework-design-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "19-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Framework Design"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "Architecture",
+      "Design Patterns"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-670",
+    "slug": "junit-5-parameterized-bdd-playwright-java",
+    "title": "JUnit 5 Parameterized BDD with Playwright Java",
+    "description": "Learn how to combine JUnit 5 parameterized tests with Cucumber BDD concepts in Playwright Java frameworks for hybrid automation setups.",
+    "excerpt": "Learn how to combine JUnit 5 parameterized tests with Cucumber BDD concepts in Playwright Java frameworks for hybrid automation setups.",
+    "contentPath": "users/pankaj-kumar/posts/junit-5-parameterized-bdd-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "7 min read",
+    "date": "20-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "JUnit 5"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "JUnit 5",
+      "BDD",
+      "Parameterized"
+    ],
+    "series": "playwright-java-bdd-cucumber",
+    "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
   }
