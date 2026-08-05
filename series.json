@@ -2651,8 +2651,32 @@
       "Gherkin"
     ],
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
-    "posts": [],
-    "articleIds": [],
+    "posts": [
+      "post-660",
+      "post-661",
+      "post-662",
+      "post-663",
+      "post-664",
+      "post-665",
+      "post-666",
+      "post-667",
+      "post-668",
+      "post-669",
+      "post-670"
+    ],
+    "articleIds": [
+      "post-660",
+      "post-661",
+      "post-662",
+      "post-663",
+      "post-664",
+      "post-665",
+      "post-666",
+      "post-667",
+      "post-668",
+      "post-669",
+      "post-670"
+    ],
     "createdAt": "05-Aug-2026"
   }
 ]
