@@ -2,7 +2,7 @@
   {
     "id": "aws-from-zero-to-production",
     "title": "AWS From Zero to Production",
-    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD — designed for developers transitioning from theory to real-world AWS deployments.",
+    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
     "author": "Abhishek-sinha",
     "articleIds": [
       "blog-5",
@@ -2718,5 +2718,54 @@
       "post-742"
     ],
     "createdAt": "05-Aug-2026"
+  },
+  {
+    "id": "playwright-java-enterprise-data",
+    "slug": "playwright-java-enterprise-data",
+    "title": "Playwright Java Enterprise Data & Database Verification",
+    "description": "Master enterprise data testing and verification with Playwright Java across relational databases (MySQL, PostgreSQL), NoSQL (MongoDB), GraphQL, Kafka messaging streams, transactional emails, PDF reports, and Excel data engines.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Database Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Database",
+      "Kafka",
+      "Email",
+      "PDF",
+      "Excel"
+    ],
+    "createdAt": "15-Aug-2026",
+    "articleIds": [
+      "post-732",
+      "post-733",
+      "post-734",
+      "post-735",
+      "post-736",
+      "post-737",
+      "post-738",
+      "post-739",
+      "post-740",
+      "post-741"
+    ],
+    "posts": [
+      "post-732",
+      "post-733",
+      "post-734",
+      "post-735",
+      "post-736",
+      "post-737",
+      "post-738",
+      "post-739",
+      "post-740",
+      "post-741"
+    ]
   }
 ]
