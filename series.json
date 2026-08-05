@@ -2767,5 +2767,58 @@
       "post-740",
       "post-741"
     ]
+  },
+  {
+    "id": "playwright-java-reporting-obs",
+    "slug": "playwright-java-reporting-obs",
+    "title": "Playwright Java Reporting & Observability",
+    "description": "Master enterprise reporting and observability with Playwright Java. Learn to configure Allure Reports, custom dashboard metrics, Maven Surefire HTML reports, flaky test detection, failure analysis, Logstash aggregation, and monitoring integrations.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Reporting"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Allure",
+      "Logstash",
+      "Metrics",
+      "Surefire",
+      "Observability"
+    ],
+    "createdAt": "25-Aug-2026",
+    "articleIds": [
+      "post-743",
+      "post-744",
+      "post-745",
+      "post-746",
+      "post-747",
+      "post-748",
+      "post-749",
+      "post-750",
+      "post-751",
+      "post-752",
+      "post-753",
+      "post-754"
+    ],
+    "posts": [
+      "post-743",
+      "post-744",
+      "post-745",
+      "post-746",
+      "post-747",
+      "post-748",
+      "post-749",
+      "post-750",
+      "post-751",
+      "post-752",
+      "post-753",
+      "post-754"
+    ]
   }
 ]
