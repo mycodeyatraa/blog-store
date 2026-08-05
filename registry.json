@@ -3817,84 +3817,6 @@
     }
   },
   {
-    "id": "blog-supertest-15",
-    "title": "Configuring CI/CD for Jest/SuperTest",
-    "slug": "configuring-cicd-jest-supertest-github-actions",
-    "author": "pankaj-kumar",
-    "excerpt": "Never merge a broken API again. Learn how to configure GitHub Actions to automatically execute your SuperTest suite on every pull request.",
-    "date": "05-Mar-2025",
-    "readTime": "5 min read",
-    "category": "API Testing",
-    "categories": [
-      "API Testing",
-      "NodeJS",
-      "DevOps",
-      "Automation"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "supertest",
-      "jest",
-      "ci-cd",
-      "github-actions",
-      "devops"
-    ],
-    "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/configuring-cicd-jest-supertest-github-actions.md",
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 23,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
-    "id": "blog-supertest-16",
-    "title": "Best Practices & Folder Architecture",
-    "slug": "best-practices-folder-architecture-supertest",
-    "author": "pankaj-kumar",
-    "excerpt": "Scale your API testing frameworks to thousands of tests. Discover the ultimate enterprise folder architecture and coding standards for SuperTest suites.",
-    "date": "06-Mar-2025",
-    "readTime": "5 min read",
-    "category": "API Testing",
-    "categories": [
-      "API Testing",
-      "NodeJS",
-      "Software Architecture",
-      "Enterprise"
-    ],
-    "image": "",
-    "likes": 0,
-    "commentsCount": 0,
-    "tags": [
-      "supertest",
-      "jest",
-      "architecture",
-      "best-practices",
-      "clean-code"
-    ],
-    "draft": false,
-    "contentPath": "users/pankaj-kumar/posts/best-practices-folder-architecture-supertest.md",
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 24,
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    }
-  },
-  {
     "id": "blog-karate-1",
     "title": "Introduction to Karate DSL",
     "slug": "introduction-to-karate-dsl",
@@ -26920,320 +26842,6 @@
     "excerpt": "Slash execution times! Scale Karate tests with multi-threaded parallel execution and generate rich Cucumber HTML reports."
   },
   {
-    "id": "blog-supertest-17",
-    "slug": "error-handling-edge-cases-supertest",
-    "title": "Error Handling & Status Codes: Testing Negative Edge Cases in Supertest",
-    "description": "Build bulletproof REST APIs! Learn how to validate 4xx/5xx HTTP status codes, error payloads, and negative edge cases with Supertest and Jest.",
-    "contentPath": "users/pankaj-kumar/posts/error-handling-edge-cases-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "28-Feb-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Node.js",
-      "Express"
-    ],
-    "tags": [
-      "supertest",
-      "nodejs",
-      "express",
-      "jest",
-      "error-handling",
-      "edge-cases"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 9,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Build bulletproof REST APIs! Learn how to validate 4xx/5xx HTTP status codes, error payloads, and negative edge cases with Supertest and Jest."
-  },
-  {
-    "id": "blog-supertest-18",
-    "slug": "creating-fixtures-data-factories-faker-supertest",
-    "title": "Dynamic Test Data: Fixtures & Data Factories with Faker.js in Supertest",
-    "description": "Eliminate hardcoded test data! Build modular data factories with @faker-js/faker and Supertest for dynamic API testing.",
-    "contentPath": "users/pankaj-kumar/posts/creating-fixtures-data-factories-faker-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "01-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Node.js",
-      "Express"
-    ],
-    "tags": [
-      "supertest",
-      "fakerjs",
-      "test-data",
-      "factories",
-      "fixtures"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 10,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Eliminate hardcoded test data! Build modular data factories with @faker-js/faker and Supertest for dynamic API testing."
-  },
-  {
-    "id": "blog-supertest-19",
-    "slug": "mocking-external-services-msw-supertest",
-    "title": "Mocking External Services with MSW (Mock Service Worker) in Supertest",
-    "description": "Isolate microservices under test! Integrate Mock Service Worker (MSW) to stub third-party APIs during Supertest integration tests.",
-    "contentPath": "users/pankaj-kumar/posts/mocking-external-services-msw-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "02-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Node.js",
-      "Express"
-    ],
-    "tags": [
-      "supertest",
-      "msw",
-      "mocking",
-      "api-testing",
-      "express"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 11,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Isolate microservices under test! Integrate Mock Service Worker (MSW) to stub third-party APIs during Supertest integration tests."
-  },
-  {
-    "id": "blog-supertest-20",
-    "slug": "code-coverage-reporters-istanbul-nyc-jest-supertest",
-    "title": "Generating Code Coverage & Test Reports with Jest & Supertest",
-    "description": "Measure API test quality! Configure Istanbul/nyc coverage reports and HTML test dashboards in Jest and Supertest.",
-    "contentPath": "users/pankaj-kumar/posts/code-coverage-reporters-istanbul-nyc-jest-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "03-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Node.js",
-      "Express"
-    ],
-    "tags": [
-      "supertest",
-      "jest",
-      "coverage",
-      "istanbul",
-      "nyc",
-      "reporting"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 12,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Measure API test quality! Configure Istanbul/nyc coverage reports and HTML test dashboards in Jest and Supertest."
-  },
-  {
-    "id": "blog-supertest-21",
-    "slug": "cicd-pipeline-integration-github-actions-supertest",
-    "title": "Supertest CI/CD Integration: GitHub Actions & DevOps Pipelines",
-    "description": "Automate API testing on every PR! Configure GitHub Actions workflows to execute Supertest API suites and upload coverage artifacts.",
-    "contentPath": "users/pankaj-kumar/posts/cicd-pipeline-integration-github-actions-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "04-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Node.js",
-      "Express"
-    ],
-    "tags": [
-      "supertest",
-      "github-actions",
-      "cicd",
-      "devops",
-      "pipeline"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 13,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Automate API testing on every PR! Configure GitHub Actions workflows to execute Supertest API suites and upload coverage artifacts."
-  },
-  {
-    "id": "blog-supertest-22",
-    "slug": "web3-blockchain-testing-intro-supertest",
-    "title": "Web3 & Blockchain Testing Intro: Testing Decentralized Apps with Supertest",
-    "description": "Bridge Web2 and Web3 testing! Learn how to validate JSON-RPC Ethereum endpoints and smart contract gateway APIs using Supertest.",
-    "contentPath": "users/pankaj-kumar/posts/web3-blockchain-testing-intro-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "05-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Web3",
-      "Blockchain"
-    ],
-    "tags": [
-      "supertest",
-      "web3",
-      "blockchain",
-      "ethereum",
-      "dapps"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 14,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Bridge Web2 and Web3 testing! Learn how to validate JSON-RPC Ethereum endpoints and smart contract gateway APIs using Supertest."
-  },
-  {
-    "id": "blog-supertest-23",
-    "slug": "smart-contract-validation-ethers-hardhat-supertest",
-    "title": "Smart Contract Validation: Ethers.js & Hardhat with Supertest",
-    "description": "Validate on-chain smart contract state! Combine Ethers.js and Hardhat with Supertest to test Web3 backend integrations.",
-    "contentPath": "users/pankaj-kumar/posts/smart-contract-validation-ethers-hardhat-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "06-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Web3",
-      "Blockchain"
-    ],
-    "tags": [
-      "supertest",
-      "smart-contracts",
-      "ethersjs",
-      "hardhat",
-      "solidity"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 15,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Validate on-chain smart contract state! Combine Ethers.js and Hardhat with Supertest to test Web3 backend integrations."
-  },
-  {
-    "id": "blog-supertest-24",
-    "slug": "mocking-blockchain-transactions-anvil-ganache-supertest",
-    "title": "Mocking Blockchain Transactions: Local Anvil & Ganache Node Testing",
-    "description": "Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites.",
-    "contentPath": "users/pankaj-kumar/posts/mocking-blockchain-transactions-anvil-ganache-supertest.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/supertest.png",
-    "readTime": "8 min read",
-    "date": "07-Mar-2026",
-    "draft": false,
-    "categories": [
-      "API Supertest",
-      "Web3",
-      "Blockchain"
-    ],
-    "tags": [
-      "supertest",
-      "blockchain",
-      "anvil",
-      "ganache",
-      "web3-testing"
-    ],
-    "series": "nodejs-supertest-api-testing",
-    "seriesOrder": 16,
-    "likes": 0,
-    "commentsCount": 0,
-    "category": "API Supertest",
-    "excerpt": "Run fast local Web3 tests! Mock local blockchain transactions using Anvil / Ganache in Supertest integration suites."
-  },
-  {
     "id": "post-730",
     "slug": "cucumber-ruby-bdd-framework-basics",
     "title": "Behavior-Driven Development: Cucumber-Ruby Basics & RSpec",
@@ -28833,6 +28441,396 @@
       "mycodeyatra"
     ],
     "series": "playwright-java-api-testing",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_vis_testing_baselines",
+    "slug": "plw_jv_vis_testing_baselines",
+    "title": "Visual Testing & Baseline Management - Playwright Java Visual Testing",
+    "description": "Capture pixel-perfect screenshot comparisons and manage visual baseline snapshots in Playwright Java.",
+    "excerpt": "Capture pixel-perfect screenshot comparisons and manage visual baseline snapshots in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_vis_testing_baselines.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "14-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-visual-testing",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_vis_applitools_eyes",
+    "slug": "plw_jv_vis_applitools_eyes",
+    "title": "Applitools Eyes Visual AI Integration - Playwright Java Visual Testing",
+    "description": "Integrate Applitools Eyes Visual AI engine for cross-browser visual assertions in Playwright Java.",
+    "excerpt": "Integrate Applitools Eyes Visual AI engine for cross-browser visual assertions in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_vis_applitools_eyes.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "15-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-visual-testing",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_vis_responsive_testing",
+    "slug": "plw_jv_vis_responsive_testing",
+    "title": "Responsive Breakpoints & Viewport Testing - Playwright Java Visual Testing",
+    "description": "Test responsive CSS layout breakpoints across desktop, tablet, and mobile viewports in Playwright Java.",
+    "excerpt": "Test responsive CSS layout breakpoints across desktop, tablet, and mobile viewports in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_vis_responsive_testing.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "16-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-visual-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_vis_device_emulation",
+    "slug": "plw_jv_vis_device_emulation",
+    "title": "Mobile Web Device Emulation - Playwright Java Visual Testing",
+    "description": "Emulate iPhone, iPad, and Android mobile web viewports and touch gestures natively in Playwright Java.",
+    "excerpt": "Emulate iPhone, iPad, and Android mobile web viewports and touch gestures natively in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_vis_device_emulation.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "17-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-visual-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_vis_percy_visual",
+    "slug": "plw_jv_vis_percy_visual",
+    "title": "Percy Visual Testing & Cloud Audits - Playwright Java Visual Testing",
+    "description": "Integrate Percy for cloud visual regression testing across browsers and resolutions in Playwright Java.",
+    "excerpt": "Integrate Percy for cloud visual regression testing across browsers and resolutions in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_vis_percy_visual.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "18-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-visual-testing",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_a11y_basics_axe",
+    "slug": "plw_jv_a11y_basics_axe",
+    "title": "Accessibility Basics & Axe-core Engine - Playwright Java Accessibility Testing",
+    "description": "Automate WCAG 2.1 accessibility audits and integrate axe-core scanning in Playwright Java.",
+    "excerpt": "Automate WCAG 2.1 accessibility audits and integrate axe-core scanning in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_a11y_basics_axe.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "19-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-accessibility-testing",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_a11y_aria_validation",
+    "slug": "plw_jv_a11y_aria_validation",
+    "title": "ARIA Validation & Accessible Locators - Playwright Java Accessibility Testing",
+    "description": "Validate ARIA roles, attributes, and screen-reader accessibility locators in Playwright Java.",
+    "excerpt": "Validate ARIA roles, attributes, and screen-reader accessibility locators in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_a11y_aria_validation.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "20-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-accessibility-testing",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_a11y_color_contrast",
+    "slug": "plw_jv_a11y_color_contrast",
+    "title": "Color Contrast Testing & WCAG Compliance - Playwright Java Accessibility Testing",
+    "description": "Audit 4.5:1 text color contrast ratios programmatically to ensure WCAG 2.1 compliance in Playwright Java.",
+    "excerpt": "Audit 4.5:1 text color contrast ratios programmatically to ensure WCAG 2.1 compliance in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_a11y_color_contrast.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "21-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-accessibility-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_a11y_html_reports",
+    "slug": "plw_jv_a11y_html_reports",
+    "title": "WCAG Compliance HTML & JSON Audit Reports - Playwright Java Accessibility Testing",
+    "description": "Export formatted HTML and JSON accessibility violation reports for CI/CD pipelines in Playwright Java.",
+    "excerpt": "Export formatted HTML and JSON accessibility violation reports for CI/CD pipelines in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_a11y_html_reports.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "22-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-accessibility-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "plw_jv_a11y_enterprise_cli",
+    "slug": "plw_jv_a11y_enterprise_cli",
+    "title": "Enterprise Accessibility Strategy & CLI Tooling - Playwright Java Accessibility Testing",
+    "description": "Architect an enterprise accessibility testing strategy combining Pa11y, Lighthouse, and Playwright Java.",
+    "excerpt": "Architect an enterprise accessibility testing strategy combining Pa11y, Lighthouse, and Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_a11y_enterprise_cli.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "readTime": "9 min read",
+    "date": "23-Feb-2026",
+    "draft": false,
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation",
+      "mycodeyatra"
+    ],
+    "series": "playwright-java-accessibility-testing",
     "seriesOrder": 5,
     "likes": 0,
     "commentsCount": 0

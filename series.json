@@ -173,17 +173,7 @@
       "blog-supertest-11",
       "blog-supertest-12",
       "blog-supertest-13",
-      "blog-supertest-14",
-      "blog-supertest-15",
-      "blog-supertest-16",
-      "blog-supertest-17",
-      "blog-supertest-18",
-      "blog-supertest-19",
-      "blog-supertest-20",
-      "blog-supertest-21",
-      "blog-supertest-22",
-      "blog-supertest-23",
-      "blog-supertest-24"
+      "blog-supertest-14"
     ],
     "author": "pankaj-kumar",
     "status": "completed",
@@ -202,17 +192,7 @@
       "blog-supertest-11",
       "blog-supertest-12",
       "blog-supertest-13",
-      "blog-supertest-14",
-      "blog-supertest-15",
-      "blog-supertest-16",
-      "blog-supertest-17",
-      "blog-supertest-18",
-      "blog-supertest-19",
-      "blog-supertest-20",
-      "blog-supertest-21",
-      "blog-supertest-22",
-      "blog-supertest-23",
-      "blog-supertest-24"
+      "blog-supertest-14"
     ],
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
   },
@@ -1887,23 +1867,6 @@
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
-    "id": "playwright-typescript-test-design",
-    "title": "Playwright TypeScript Test Design Patterns",
-    "description": "Optimize your test structures using advanced test design patterns. Master custom fixtures, setup/teardown hooks, and clean Page Object Models (POM).",
-    "articleIds": [
-      "post-622",
-      "post-623",
-      "post-624"
-    ],
-    "status": "completed",
-    "posts": [
-      "post-622",
-      "post-623",
-      "post-624"
-    ],
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
-  },
-  {
     "id": "playwright-typescript-framework",
     "title": "Playwright TypeScript Framework Architecture",
     "description": "Build a production-ready automation framework. Learn configuration management, custom logging, clean folder structures, environment-specific runs, and Dependency Injection.",
@@ -2259,29 +2222,6 @@
     "status": "completed"
   },
   {
-    "id": "playwright-typescript-component-testing",
-    "title": "Playwright TypeScript Component Testing Mastery",
-    "description": "Phase 16 of Playwright TS series focusing on isolation testing, component state mocking, and visual regressions.",
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
-    },
-    "articleIds": [
-      "post-716",
-      "post-717",
-      "post-718"
-    ],
-    "posts": [
-      "post-716",
-      "post-717",
-      "post-718"
-    ],
-    "status": "completed"
-  },
-  {
     "id": "selenium-csharp-bdd-and-ai",
     "title": "Selenium C# BDD Reqnroll & Semantic Kernel AI",
     "description": "Master Gherkin BDD with Reqnroll and AI-driven automation using Microsoft Semantic Kernel in C#.",
@@ -2619,6 +2559,76 @@
       "post-725",
       "post-726",
       "post-727"
+    ]
+  },
+  {
+    "id": "playwright-java-visual-testing",
+    "slug": "playwright-java-visual-testing",
+    "title": "Playwright Java Visual Testing",
+    "description": "Master Playwright Java Visual Testing in Playwright Java with enterprise-grade framework practices.",
+    "category": "Playwright Java Visual Testing",
+    "categories": [
+      "Playwright Java Visual Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "status": "completed",
+    "createdAt": "14-Feb-2026",
+    "posts": [
+      "plw_jv_vis_testing_baselines",
+      "plw_jv_vis_applitools_eyes",
+      "plw_jv_vis_responsive_testing",
+      "plw_jv_vis_device_emulation",
+      "plw_jv_vis_percy_visual"
+    ],
+    "articleIds": [
+      "plw_jv_vis_testing_baselines",
+      "plw_jv_vis_applitools_eyes",
+      "plw_jv_vis_responsive_testing",
+      "plw_jv_vis_device_emulation",
+      "plw_jv_vis_percy_visual"
+    ]
+  },
+  {
+    "id": "playwright-java-accessibility-testing",
+    "slug": "playwright-java-accessibility-testing",
+    "title": "Playwright Java Accessibility Testing",
+    "description": "Master Playwright Java Accessibility Testing in Playwright Java with enterprise-grade framework practices.",
+    "category": "Playwright Java Accessibility Testing",
+    "categories": [
+      "Playwright Java Accessibility Testing",
+      "Playwright Java",
+      "Quality Assurance"
+    ],
+    "tags": [
+      "playwright",
+      "java",
+      "junit5",
+      "automation"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
+    "status": "completed",
+    "createdAt": "14-Feb-2026",
+    "posts": [
+      "plw_jv_a11y_basics_axe",
+      "plw_jv_a11y_aria_validation",
+      "plw_jv_a11y_color_contrast",
+      "plw_jv_a11y_html_reports",
+      "plw_jv_a11y_enterprise_cli"
+    ],
+    "articleIds": [
+      "plw_jv_a11y_basics_axe",
+      "plw_jv_a11y_aria_validation",
+      "plw_jv_a11y_color_contrast",
+      "plw_jv_a11y_html_reports",
+      "plw_jv_a11y_enterprise_cli"
     ]
   }
 ]
