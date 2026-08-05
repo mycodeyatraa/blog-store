@@ -2929,5 +2929,55 @@
       "post-779",
       "post-780"
     ]
+  },
+  {
+    "id": "playwright-csharp-core-ui",
+    "slug": "playwright-csharp-core-ui",
+    "title": "Playwright C# Core UI Automation",
+    "description": "Master core UI automation with Playwright C#. Learn auto-wait mechanisms, complex forms, native dialogs, file upload/download, iFrames, Shadow DOM, network interception, and parallel execution.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Core UI"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      ".NET",
+      "Forms",
+      "iFrames",
+      "Parallel"
+    ],
+    "createdAt": "12-Feb-2026",
+    "articleIds": [
+      "post-781",
+      "post-782",
+      "post-783",
+      "post-784",
+      "post-785",
+      "post-786",
+      "post-787",
+      "post-788",
+      "post-789",
+      "post-790",
+      "post-791"
+    ],
+    "posts": [
+      "post-781",
+      "post-782",
+      "post-783",
+      "post-784",
+      "post-785",
+      "post-786",
+      "post-787",
+      "post-788",
+      "post-789",
+      "post-790",
+      "post-791"
+    ]
   }
 ]
