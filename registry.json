@@ -28143,5 +28143,461 @@
     "seriesOrder": 11,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-792",
+    "slug": "data-driven-testing-csv-json-excel-playwright-csharp",
+    "title": "Data-Driven Testing with CSV, JSON & Excel in Playwright C#",
+    "description": "Build parameterized data-driven test suites in Playwright C# using JSON, CSV, and Excel input sources with NUnit TestCaseSource.",
+    "excerpt": "Build parameterized data-driven test suites in Playwright C# using JSON, CSV, and Excel input sources with NUnit TestCaseSource.",
+    "contentPath": "users/pankaj-kumar/posts/data-driven-testing-csv-json-excel-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "23-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Design Patterns"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Data Driven",
+      "NUnit",
+      "JSON"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-793",
+    "slug": "page-object-model-pom-playwright-csharp",
+    "title": "Page Object Model (POM) in Playwright C#",
+    "description": "Design clean Page Object Model (POM) classes in Playwright C# using encapsulation and locator properties.",
+    "excerpt": "Design clean Page Object Model (POM) classes in Playwright C# using encapsulation and locator properties.",
+    "contentPath": "users/pankaj-kumar/posts/page-object-model-pom-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "24-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Page Object Model"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "POM",
+      "Page Objects",
+      "Architecture"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-794",
+    "slug": "factory-pattern-driver-page-management-playwright-csharp",
+    "title": "Factory Pattern for Driver & Page Management in Playwright C#",
+    "description": "Implement Factory pattern classes in C# to manage browser engine instantiation and Page Object initialization.",
+    "excerpt": "Implement Factory pattern classes in C# to manage browser engine instantiation and Page Object initialization.",
+    "contentPath": "users/pankaj-kumar/posts/factory-pattern-driver-page-management-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "25-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Design Patterns"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Factory Pattern",
+      "Browser Factory",
+      "Architecture"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-795",
+    "slug": "builder-pattern-test-data-generation-playwright-csharp",
+    "title": "Builder Pattern for Test Data Generation in Playwright C#",
+    "description": "Construct complex, customizable test data models in C# using Fluent Builder patterns for Playwright test suites.",
+    "excerpt": "Construct complex, customizable test data models in C# using Fluent Builder patterns for Playwright test suites.",
+    "contentPath": "users/pankaj-kumar/posts/builder-pattern-test-data-generation-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "26-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Design Patterns"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Builder Pattern",
+      "Test Data",
+      "Fluent"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-796",
+    "slug": "screenplay-pattern-architecture-dotnet-playwright-csharp",
+    "title": "Screenplay Pattern Architecture in .NET for Playwright C#",
+    "description": "Implement Screenplay Pattern in Playwright C#: Actors, Abilities, Tasks, Actions, and Questions for scalable test frameworks.",
+    "excerpt": "Implement Screenplay Pattern in Playwright C#: Actors, Abilities, Tasks, Actions, and Questions for scalable test frameworks.",
+    "contentPath": "users/pankaj-kumar/posts/screenplay-pattern-architecture-dotnet-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "27-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Screenplay Pattern"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Screenplay",
+      "Actors",
+      "Architecture"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-797",
+    "slug": "nunit-xunit-test-lifecycle-shared-context-playwright-csharp",
+    "title": "NUnit/xUnit Test Lifecycle & Shared Context in Playwright C#",
+    "description": "Master NUnit `[SetUp]` / `[OneTimeSetUp]` and xUnit `IClassFixture` lifecycle state sharing in Playwright C#.",
+    "excerpt": "Master NUnit `[SetUp]` / `[OneTimeSetUp]` and xUnit `IClassFixture` lifecycle state sharing in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/nunit-xunit-test-lifecycle-shared-context-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "28-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Test Lifecycle"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "NUnit",
+      "xUnit",
+      "Lifecycle"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-798",
+    "slug": "utility-framework-architecture-playwright-csharp",
+    "title": "Utility Framework Architecture in Playwright C#",
+    "description": "Build reusable utility classes for Playwright C# frameworks: date formatters, string generators, and file helpers.",
+    "excerpt": "Build reusable utility classes for Playwright C# frameworks: date formatters, string generators, and file helpers.",
+    "contentPath": "users/pankaj-kumar/posts/utility-framework-architecture-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "01-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Utilities"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Utilities",
+      "Helpers",
+      "Architecture"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-799",
+    "slug": "configuration-management-appsettings-json-playwright-csharp",
+    "title": "Configuration Management with appsettings.json in Playwright C#",
+    "description": "Manage environment settings, URLs, timeouts, and credentials using `appsettings.json` and `Microsoft.Extensions.Configuration` in C#.",
+    "excerpt": "Manage environment settings, URLs, timeouts, and credentials using `appsettings.json` and `Microsoft.Extensions.Configuration` in C#.",
+    "contentPath": "users/pankaj-kumar/posts/configuration-management-appsettings-json-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "02-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Configuration"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "appsettings.json",
+      "Configuration",
+      ".NET"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-800",
+    "slug": "logging-framework-integration-serilog-nlog-playwright-csharp",
+    "title": "Logging Framework Integration with Serilog & NLog in Playwright C#",
+    "description": "Integrate Serilog structured logging into Playwright C# test frameworks for console, file, and JSON log outputs.",
+    "excerpt": "Integrate Serilog structured logging into Playwright C# test frameworks for console, file, and JSON log outputs.",
+    "contentPath": "users/pankaj-kumar/posts/logging-framework-integration-serilog-nlog-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "03-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Logging"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Serilog",
+      "NLog",
+      "Logging"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-801",
+    "slug": "enterprise-framework-project-structure-playwright-csharp",
+    "title": "Enterprise Framework Project Structure in Playwright C#",
+    "description": "Organize clean, scalable Playwright C# solution structures separating pages, tests, config, data, and utilities.",
+    "excerpt": "Organize clean, scalable Playwright C# solution structures separating pages, tests, config, data, and utilities.",
+    "contentPath": "users/pankaj-kumar/posts/enterprise-framework-project-structure-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "04-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Framework Design"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Architecture",
+      "Project Structure",
+      "Clean Code"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-802",
+    "slug": "dependency-injection-autofac-microsoft-extensions-playwright-csharp",
+    "title": "Dependency Injection with Autofac & Microsoft.Extensions.DependencyInjection in Playwright C#",
+    "description": "Inject Page Objects, configuration, and services using Microsoft.Extensions.DependencyInjection in Playwright C#.",
+    "excerpt": "Inject Page Objects, configuration, and services using Microsoft.Extensions.DependencyInjection in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/dependency-injection-autofac-microsoft-extensions-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "05-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Dependency Injection"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Dependency Injection",
+      "Autofac",
+      "DI"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-803",
+    "slug": "custom-nunit-xunit-attributes-test-extensions-playwright-csharp",
+    "title": "Custom NUnit/xUnit Attributes & Test Extensions in Playwright C#",
+    "description": "Build custom C# test attributes for retries, execution tagging, and failure reporting extensions in NUnit and xUnit.",
+    "excerpt": "Build custom C# test attributes for retries, execution tagging, and failure reporting extensions in NUnit and xUnit.",
+    "contentPath": "users/pankaj-kumar/posts/custom-nunit-xunit-attributes-test-extensions-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "06-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Test Extensions"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Attributes",
+      "NUnit",
+      "Extensions"
+    ],
+    "series": "playwright-csharp-test-design",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
