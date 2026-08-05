@@ -25868,356 +25868,6 @@
     }
   },
   {
-    "id": "post-732",
-    "slug": "introduction-to-bdd-playwright-java-cucumber",
-    "title": "Introduction to BDD with Playwright Java and Cucumber-JVM",
-    "description": "Discover the fundamentals of Behavior-Driven Development (BDD) using Playwright Java and Cucumber-JVM. Align technical delivery with business objectives.",
-    "excerpt": "Discover the fundamentals of Behavior-Driven Development (BDD) using Playwright Java and Cucumber-JVM. Align technical delivery with business objectives.",
-    "contentPath": "users/pankaj-kumar/posts/introduction-to-bdd-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "BDD"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "BDD",
-      "Cucumber",
-      "Overview"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-733",
-    "slug": "gherkin-syntax-playwright-java-cucumber",
-    "title": "Mastering Gherkin Syntax in Playwright Java Frameworks",
-    "description": "Learn how to write unambiguous Gherkin feature specifications using Given, When, Then, And, and But keywords for Playwright Java automation.",
-    "excerpt": "Learn how to write unambiguous Gherkin feature specifications using Given, When, Then, And, and But keywords for Playwright Java automation.",
-    "contentPath": "users/pankaj-kumar/posts/gherkin-syntax-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Gherkin"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Gherkin",
-      "Cucumber",
-      "Syntax"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-734",
-    "slug": "feature-files-playwright-java-cucumber",
-    "title": "Structuring Feature Files in Production Playwright Java Frameworks",
-    "description": "Organize feature files, manage directory layouts, enforce naming conventions, and format business scenarios effectively in Playwright Java projects.",
-    "excerpt": "Organize feature files, manage directory layouts, enforce naming conventions, and format business scenarios effectively in Playwright Java projects.",
-    "contentPath": "users/pankaj-kumar/posts/feature-files-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Feature Files"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Feature Files",
-      "Architecture"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-735",
-    "slug": "step-definitions-playwright-java-cucumber",
-    "title": "Writing Robust Step Definitions with Playwright Java",
-    "description": "Master step definition patterns, parameter matching, expression types, and Playwright Page Object integration in Cucumber-JVM.",
-    "excerpt": "Master step definition patterns, parameter matching, expression types, and Playwright Page Object integration in Cucumber-JVM.",
-    "contentPath": "users/pankaj-kumar/posts/step-definitions-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Step Definitions"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Step Definitions",
-      "Regex"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-736",
-    "slug": "hooks-playwright-java-cucumber",
-    "title": "Managing Lifecycle Hooks in Playwright Java Cucumber Suites",
-    "description": "Configure @Before, @After, @BeforeAll, and @AfterAll hooks to manage Playwright BrowserContext, page initialization, trace recording, and failure screenshots.",
-    "excerpt": "Configure @Before, @After, @BeforeAll, and @AfterAll hooks to manage Playwright BrowserContext, page initialization, trace recording, and failure screenshots.",
-    "contentPath": "users/pankaj-kumar/posts/hooks-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Hooks"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Hooks",
-      "Lifecycle"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-737",
-    "slug": "scenario-context-playwright-java-cucumber",
-    "title": "Sharing Scenario Context in Playwright Java Cucumber",
-    "description": "Share dynamic state between step definitions using Dependency Injection (PicoContainer) in Playwright Java Cucumber automation frameworks.",
-    "excerpt": "Share dynamic state between step definitions using Dependency Injection (PicoContainer) in Playwright Java Cucumber automation frameworks.",
-    "contentPath": "users/pankaj-kumar/posts/scenario-context-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Scenario Context"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "PicoContainer",
-      "Context"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-738",
-    "slug": "tags-filtering-playwright-java-cucumber",
-    "title": "Categorizing and Filtering Tests with Cucumber Tags in Java",
-    "description": "Filter, group, and execute targeted test subsets (Smoke, Regression, Sanity, Flaky) using Cucumber tags and Maven command-line parameters in Playwright Java.",
-    "excerpt": "Filter, group, and execute targeted test subsets (Smoke, Regression, Sanity, Flaky) using Cucumber tags and Maven command-line parameters in Playwright Java.",
-    "contentPath": "users/pankaj-kumar/posts/tags-filtering-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Tags"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Tags",
-      "CLI"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-739",
-    "slug": "scenario-outlines-playwright-java-cucumber",
-    "title": "Data-Driven Testing using Scenario Outlines in Playwright Java",
-    "description": "Implement data-driven BDD tests using Scenario Outlines and Examples tables in Cucumber-JVM with Playwright Java.",
-    "excerpt": "Implement data-driven BDD tests using Scenario Outlines and Examples tables in Cucumber-JVM with Playwright Java.",
-    "contentPath": "users/pankaj-kumar/posts/scenario-outlines-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Scenario Outlines"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Scenario Outlines",
-      "Data Driven"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-740",
-    "slug": "living-documentation-playwright-java-cucumber",
-    "title": "Generating Living Documentation and HTML Reports with Cucumber Java",
-    "description": "Generate interactive HTML reports, Allure BDD documentation, and living test artifacts from Playwright Java Cucumber executions.",
-    "excerpt": "Generate interactive HTML reports, Allure BDD documentation, and living test artifacts from Playwright Java Cucumber executions.",
-    "contentPath": "users/pankaj-kumar/posts/living-documentation-playwright-java-cucumber.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Living Documentation"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Reporting",
-      "Allure"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
-    "id": "post-741",
-    "slug": "bdd-framework-design-playwright-java",
-    "title": "Architecting an Enterprise BDD Framework with Playwright Java",
-    "description": "Design a scalable, production-grade BDD automation framework combining Playwright Java, Cucumber-JVM, POM, and CI/CD pipelines.",
-    "excerpt": "Design a scalable, production-grade BDD automation framework combining Playwright Java, Cucumber-JVM, POM, and CI/CD pipelines.",
-    "contentPath": "users/pankaj-kumar/posts/bdd-framework-design-playwright-java.md",
-    "author": "pankaj-kumar",
-    "authorDetails": {
-      "id": "pankaj-kumar",
-      "name": "Pankaj Kumar",
-      "role": "Automation Architect",
-      "avatar": "users/pankaj-kumar/images/pankaj.JPG",
-      "bio": "Automation Architect",
-      "github": "https://github.com/pankajhyd",
-      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
-    },
-    "image": "users/pankaj-kumar/images/pankaj.JPG",
-    "readTime": "7 min read",
-    "date": "05-Aug-2026",
-    "draft": false,
-    "categories": [
-      "Automation Testing",
-      "Playwright Java",
-      "Framework Design"
-    ],
-    "tags": [
-      "Playwright",
-      "Java",
-      "Cucumber",
-      "Architecture",
-      "Design Patterns"
-    ],
-    "series": "playwright-java-bdd-cucumber"
-  },
-  {
     "id": "post-742",
     "slug": "junit-5-parameterized-bdd-playwright-java",
     "title": "JUnit 5 Parameterized BDD with Playwright Java",
@@ -26251,5 +25901,385 @@
       "Parameterized"
     ],
     "series": "playwright-java-bdd-cucumber"
+  },
+  {
+    "id": "post-732",
+    "slug": "database-testing-in-playwright-java-frameworks",
+    "title": "Database Testing in Playwright Java Frameworks",
+    "description": "Architect enterprise database validation in Playwright Java. Learn JDBC connection pooling, test data preparation, and state assertions.",
+    "excerpt": "Architect enterprise database validation in Playwright Java. Learn JDBC connection pooling, test data preparation, and state assertions.",
+    "contentPath": "users/pankaj-kumar/posts/database-testing-in-playwright-java-frameworks.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "15-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Database Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "JDBC",
+      "Database",
+      "Enterprise"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-733",
+    "slug": "mysql-testing-with-playwright-java",
+    "title": "MySQL Testing with Playwright Java",
+    "description": "Integrate MySQL Database verification into Playwright Java automation. Master transaction validation, stored procedure execution, and table assertions.",
+    "excerpt": "Integrate MySQL Database verification into Playwright Java automation. Master transaction validation, stored procedure execution, and table assertions.",
+    "contentPath": "users/pankaj-kumar/posts/mysql-testing-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "16-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "MySQL"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "MySQL",
+      "JDBC",
+      "Database"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-734",
+    "slug": "postgresql-testing-with-playwright-java",
+    "title": "PostgreSQL Testing with Playwright Java",
+    "description": "Validate complex PostgreSQL transactions, JSONB columns, and schema updates alongside Playwright Java web automation.",
+    "excerpt": "Validate complex PostgreSQL transactions, JSONB columns, and schema updates alongside Playwright Java web automation.",
+    "contentPath": "users/pankaj-kumar/posts/postgresql-testing-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "17-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "PostgreSQL"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "PostgreSQL",
+      "JSONB",
+      "SQL"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-735",
+    "slug": "mongodb-validation-in-playwright-java",
+    "title": "MongoDB Validation in Playwright Java",
+    "description": "Perform NoSQL document assertions in Playwright Java test frameworks using the official MongoDB Sync Java Driver.",
+    "excerpt": "Perform NoSQL document assertions in Playwright Java test frameworks using the official MongoDB Sync Java Driver.",
+    "contentPath": "users/pankaj-kumar/posts/mongodb-validation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "18-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "MongoDB"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "MongoDB",
+      "NoSQL",
+      "BSON"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-736",
+    "slug": "graphql-testing-with-playwright-java",
+    "title": "GraphQL Testing with Playwright Java",
+    "description": "Execute and validate GraphQL queries and mutations alongside Playwright Java APIRequestContext without third-party HTTP clients.",
+    "excerpt": "Execute and validate GraphQL queries and mutations alongside Playwright Java APIRequestContext without third-party HTTP clients.",
+    "contentPath": "users/pankaj-kumar/posts/graphql-testing-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "19-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "GraphQL"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "GraphQL",
+      "APIRequestContext",
+      "API"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-737",
+    "slug": "kafka-validation-in-playwright-java",
+    "title": "Kafka Validation in Playwright Java",
+    "description": "Verify event-driven message publishing on Apache Kafka topics triggered by Playwright Java browser user flows.",
+    "excerpt": "Verify event-driven message publishing on Apache Kafka topics triggered by Playwright Java browser user flows.",
+    "contentPath": "users/pankaj-kumar/posts/kafka-validation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "20-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Kafka"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Kafka",
+      "Event Driven",
+      "Messaging"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-738",
+    "slug": "email-validation-in-playwright-java",
+    "title": "Email Validation in Playwright Java",
+    "description": "Automate registration verification links and OTP codes using Mailpit / Mailhog APIs combined with Playwright Java.",
+    "excerpt": "Automate registration verification links and OTP codes using Mailpit / Mailhog APIs combined with Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/email-validation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "21-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Email Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Email",
+      "Mailpit",
+      "OTP"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-739",
+    "slug": "pdf-validation-in-playwright-java",
+    "title": "PDF Validation in Playwright Java",
+    "description": "Download and validate generated PDF documents using Apache PDFBox integrated with Playwright Java file downloads.",
+    "excerpt": "Download and validate generated PDF documents using Apache PDFBox integrated with Playwright Java file downloads.",
+    "contentPath": "users/pankaj-kumar/posts/pdf-validation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "22-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "PDF Validation"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "PDF",
+      "PDFBox",
+      "Download"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-740",
+    "slug": "excel-validation-in-playwright-java",
+    "title": "Excel Validation in Playwright Java",
+    "description": "Download and parse Excel spreadsheets (.xlsx) using Apache POI in Playwright Java test scripts.",
+    "excerpt": "Download and parse Excel spreadsheets (.xlsx) using Apache POI in Playwright Java test scripts.",
+    "contentPath": "users/pankaj-kumar/posts/excel-validation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "23-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Excel Validation"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Excel",
+      "Apache POI",
+      "Spreadsheet"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-741",
+    "slug": "enterprise-data-validation-strategy-in-playwright-java",
+    "title": "Enterprise Data Validation Strategy in Playwright Java",
+    "description": "Unify relational databases, NoSQL, Kafka, API, and file exports into an enterprise Playwright Java data testing architecture.",
+    "excerpt": "Unify relational databases, NoSQL, Kafka, API, and file exports into an enterprise Playwright Java data testing architecture.",
+    "contentPath": "users/pankaj-kumar/posts/enterprise-data-validation-strategy-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "24-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Enterprise Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Enterprise",
+      "Architecture",
+      "Data Testing"
+    ],
+    "series": "playwright-java-enterprise-data",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
