@@ -3031,5 +3031,59 @@
       "post-802",
       "post-803"
     ]
+  },
+  {
+    "id": "playwright-csharp-api-testing",
+    "slug": "playwright-csharp-api-testing",
+    "title": "Playwright C# API Automation & Auth",
+    "description": "Master REST API automation, authentication, and session management in Playwright C#. Learn IAPIRequestContext, CRUD operations, JWT/OAuth, storage state reuse, and Azure AD / Okta SSO integration.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "APIRequestContext",
+      "JWT",
+      "OAuth",
+      "SSO"
+    ],
+    "createdAt": "07-Mar-2026",
+    "articleIds": [
+      "post-804",
+      "post-805",
+      "post-806",
+      "post-807",
+      "post-808",
+      "post-809",
+      "post-810",
+      "post-811",
+      "post-812",
+      "post-813",
+      "post-814",
+      "post-815",
+      "post-816"
+    ],
+    "posts": [
+      "post-804",
+      "post-805",
+      "post-806",
+      "post-807",
+      "post-808",
+      "post-809",
+      "post-810",
+      "post-811",
+      "post-812",
+      "post-813",
+      "post-814",
+      "post-815",
+      "post-816"
+    ]
   }
 ]
