@@ -26737,5 +26737,613 @@
     "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-755",
+    "slug": "docker-containerization-for-playwright-java",
+    "title": "Docker Containerization for Playwright Java",
+    "description": "Containerize Playwright Java automation suites using official Playwright Docker images to eliminate environment drift across CI runners.",
+    "excerpt": "Containerize Playwright Java automation suites using official Playwright Docker images to eliminate environment drift across CI runners.",
+    "contentPath": "users/pankaj-kumar/posts/docker-containerization-for-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "06-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Docker"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Docker",
+      "Containers",
+      "DevOps"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-756",
+    "slug": "github-actions-pipelines-for-playwright-java",
+    "title": "GitHub Actions Pipelines for Playwright Java",
+    "description": "Build high-speed GitHub Actions CI pipelines for Playwright Java with parallel matrix jobs, artifact upload, and caching.",
+    "excerpt": "Build high-speed GitHub Actions CI pipelines for Playwright Java with parallel matrix jobs, artifact upload, and caching.",
+    "contentPath": "users/pankaj-kumar/posts/github-actions-pipelines-for-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "07-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "GitHub Actions"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "GitHub Actions",
+      "CI/CD",
+      "Pipelines"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-757",
+    "slug": "gitlab-ci-azure-devops-integration-for-playwright-java",
+    "title": "GitLab CI & Azure DevOps Integration for Playwright Java",
+    "description": "Configure enterprise GitLab CI/CD pipelines and Azure DevOps YAML pipelines for automated Playwright Java execution.",
+    "excerpt": "Configure enterprise GitLab CI/CD pipelines and Azure DevOps YAML pipelines for automated Playwright Java execution.",
+    "contentPath": "users/pankaj-kumar/posts/gitlab-ci-azure-devops-integration-for-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "08-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "CI/CD"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "GitLab CI",
+      "Azure DevOps",
+      "DevOps"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-758",
+    "slug": "browserstack-integration-with-playwright-java",
+    "title": "BrowserStack Integration with Playwright Java",
+    "description": "Scale Playwright Java execution across real cloud devices and browsers using BrowserStack Automate integration.",
+    "excerpt": "Scale Playwright Java execution across real cloud devices and browsers using BrowserStack Automate integration.",
+    "contentPath": "users/pankaj-kumar/posts/browserstack-integration-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "09-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "BrowserStack"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "BrowserStack",
+      "Cloud",
+      "Grid"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-759",
+    "slug": "sauce-labs-integration-with-playwright-java",
+    "title": "Sauce Labs Integration with Playwright Java",
+    "description": "Run Playwright Java test suites at scale on the Sauce Labs Cloud Grid with session logging and video recordings.",
+    "excerpt": "Run Playwright Java test suites at scale on the Sauce Labs Cloud Grid with session logging and video recordings.",
+    "contentPath": "users/pankaj-kumar/posts/sauce-labs-integration-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "10-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Sauce Labs"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "SauceLabs",
+      "Cloud",
+      "Grid"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-760",
+    "slug": "lambdatest-integration-with-playwright-java",
+    "title": "LambdaTest Integration with Playwright Java",
+    "description": "Execute Playwright Java automation tests concurrently across 3000+ real browser environments using LambdaTest Smart UI.",
+    "excerpt": "Execute Playwright Java automation tests concurrently across 3000+ real browser environments using LambdaTest Smart UI.",
+    "contentPath": "users/pankaj-kumar/posts/lambdatest-integration-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "11-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "LambdaTest"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "LambdaTest",
+      "Cloud",
+      "Grid"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-761",
+    "slug": "maven-multi-module-profiles-for-playwright-java",
+    "title": "Maven Multi-Module Profiles for Playwright Java",
+    "description": "Structure enterprise Playwright Java projects into modular Maven architectures with environment-specific execution profiles.",
+    "excerpt": "Structure enterprise Playwright Java projects into modular Maven architectures with environment-specific execution profiles.",
+    "contentPath": "users/pankaj-kumar/posts/maven-multi-module-profiles-for-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "12-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Maven Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Maven",
+      "Multi-Module",
+      "Profiles"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-762",
+    "slug": "ai-test-generation-with-playwright-java",
+    "title": "AI Test Generation with Playwright Java",
+    "description": "Generate robust Playwright Java test scripts using Playwright Codegen and LLM prompt engineering.",
+    "excerpt": "Generate robust Playwright Java test scripts using Playwright Codegen and LLM prompt engineering.",
+    "contentPath": "users/pankaj-kumar/posts/ai-test-generation-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "13-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "AI Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "AI",
+      "Codegen",
+      "Prompt Engineering"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-763",
+    "slug": "ai-locator-healing-with-playwright-java",
+    "title": "AI Locator Healing with Playwright Java",
+    "description": "Implement self-healing locator fallback mechanisms in Playwright Java using DOM fuzzy matching and LLM healing logic.",
+    "excerpt": "Implement self-healing locator fallback mechanisms in Playwright Java using DOM fuzzy matching and LLM healing logic.",
+    "contentPath": "users/pankaj-kumar/posts/ai-locator-healing-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "14-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Self-Healing AI"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Self-Healing",
+      "AI",
+      "Locators"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-764",
+    "slug": "mcp-integration-with-playwright-java",
+    "title": "MCP Integration with Playwright Java",
+    "description": "Connect Playwright Java test suites to Model Context Protocol (MCP) servers for AI-assisted test execution and context inspection.",
+    "excerpt": "Connect Playwright Java test suites to Model Context Protocol (MCP) servers for AI-assisted test execution and context inspection.",
+    "contentPath": "users/pankaj-kumar/posts/mcp-integration-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "15-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "MCP"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "MCP",
+      "AI Protocol",
+      "Automation"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-765",
+    "slug": "autonomous-test-agents-with-playwright-java",
+    "title": "Autonomous Test Agents with Playwright Java",
+    "description": "Build autonomous testing agents that explore web applications, discover user flows, and assert state using Playwright Java.",
+    "excerpt": "Build autonomous testing agents that explore web applications, discover user flows, and assert state using Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/autonomous-test-agents-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "16-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Autonomous AI"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "AI Agents",
+      "Autonomous",
+      "Exploratory"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-766",
+    "slug": "future-of-test-automation-with-playwright-java",
+    "title": "Future of Test Automation with Playwright Java",
+    "description": "Explore upcoming paradigms in software testing: hybrid AI-human automation, predictive flakiness models, and shift-right observability.",
+    "excerpt": "Explore upcoming paradigms in software testing: hybrid AI-human automation, predictive flakiness models, and shift-right observability.",
+    "contentPath": "users/pankaj-kumar/posts/future-of-test-automation-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "17-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Future Trends"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "AI",
+      "Future",
+      "Observability"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-767",
+    "slug": "langchain4j-for-test-automation-in-playwright-java",
+    "title": "LangChain4j for Test Automation in Playwright Java",
+    "description": "Integrate LangChain4j into Playwright Java frameworks to build LLM-powered test assertion and validation engines.",
+    "excerpt": "Integrate LangChain4j into Playwright Java frameworks to build LLM-powered test assertion and validation engines.",
+    "contentPath": "users/pankaj-kumar/posts/langchain4j-for-test-automation-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "18-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "LangChain4j"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "LangChain4j",
+      "LLM",
+      "AI"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 13,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-768",
+    "slug": "playwright-component-testing-intro-in-java",
+    "title": "Playwright Component Testing Intro in Java",
+    "description": "Test isolated web components (React, Vue, Web Components) using Playwright Java Component Testing capabilities.",
+    "excerpt": "Test isolated web components (React, Vue, Web Components) using Playwright Java Component Testing capabilities.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-component-testing-intro-in-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "19-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Component Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Component Testing",
+      "React",
+      "Frontend"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 14,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-769",
+    "slug": "mocking-component-props-state-in-playwright-java",
+    "title": "Mocking Component Props & State in Playwright Java",
+    "description": "Mock component props, state callbacks, and API dependencies in Playwright Java component test suites.",
+    "excerpt": "Mock component props, state callbacks, and API dependencies in Playwright Java component test suites.",
+    "contentPath": "users/pankaj-kumar/posts/mocking-component-props-state-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "20-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Component Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Component",
+      "Props",
+      "Mocking"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 15,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-770",
+    "slug": "visual-component-regression-with-playwright-java",
+    "title": "Visual Component Regression with Playwright Java",
+    "description": "Capture pixel-perfect visual snapshots of individual components using Playwright Java locator screenshot matching.",
+    "excerpt": "Capture pixel-perfect visual snapshots of individual components using Playwright Java locator screenshot matching.",
+    "contentPath": "users/pankaj-kumar/posts/visual-component-regression-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "21-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Visual Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Visual Testing",
+      "Component",
+      "Regression"
+    ],
+    "series": "playwright-java-cicd-docker-ai",
+    "seriesOrder": 16,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
