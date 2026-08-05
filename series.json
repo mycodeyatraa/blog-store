@@ -2461,12 +2461,12 @@
       "plw_jv_builder_pattern",
       "plw_jv_screenplay_pattern",
       "plw_jv_junit5_lifecycle_fixtures",
-      "plw_jv_utility_framework",
-      "plw_jv_configuration_management",
-      "plw_jv_logging_framework",
+      "plw_jv_bdd_intro_gherkin_features",
+      "plw_jv_bdd_step_defs_hooks",
+      "plw_jv_bdd_context_tags",
       "plw_jv_framework_architecture",
-      "plw_jv_dependency_injection",
-      "plw_jv_custom_junit5_extensions"
+      "plw_jv_bdd_outlines_living_docs",
+      "plw_jv_bdd_framework_junit5"
     ],
     "articleIds": [
       "plw_jv_data_driven_testing",
@@ -2475,12 +2475,12 @@
       "plw_jv_builder_pattern",
       "plw_jv_screenplay_pattern",
       "plw_jv_junit5_lifecycle_fixtures",
-      "plw_jv_utility_framework",
-      "plw_jv_configuration_management",
-      "plw_jv_logging_framework",
+      "plw_jv_bdd_intro_gherkin_features",
+      "plw_jv_bdd_step_defs_hooks",
+      "plw_jv_bdd_context_tags",
       "plw_jv_framework_architecture",
-      "plw_jv_dependency_injection",
-      "plw_jv_custom_junit5_extensions"
+      "plw_jv_bdd_outlines_living_docs",
+      "plw_jv_bdd_framework_junit5"
     ]
   },
   {

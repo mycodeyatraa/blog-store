@@ -28001,12 +28001,12 @@
     "commentsCount": 0
   },
   {
-    "id": "plw_jv_utility_framework",
-    "slug": "plw_jv_utility_framework",
-    "title": "Utility Framework - Playwright Java Design Patterns",
-    "description": "Build reusable utility wrappers for retries, JavaScript execution, element highlighting, and random data generation.",
-    "excerpt": "Build reusable utility wrappers for retries, JavaScript execution, element highlighting, and random data generation.",
-    "contentPath": "users/pankaj-kumar/posts/plw_jv_utility_framework.md",
+    "id": "plw_jv_bdd_intro_gherkin_features",
+    "slug": "plw_jv_bdd_intro_gherkin_features",
+    "title": "BDD Intro, Gherkin Syntax & Feature Files - Playwright Java Design Patterns",
+    "description": "Master BDD principles, Given-When-Then Gherkin syntax, and write user story feature files in Playwright Java.",
+    "excerpt": "Master BDD principles, Given-When-Then Gherkin syntax, and write user story feature files in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_bdd_intro_gherkin_features.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28019,7 +28019,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
     "readTime": "9 min read",
-    "date": "29-Jan-2026",
+    "date": "24-Feb-2026",
     "draft": false,
     "category": "Playwright Java Design Patterns",
     "categories": [
@@ -28041,12 +28041,12 @@
     "commentsCount": 0
   },
   {
-    "id": "plw_jv_configuration_management",
-    "slug": "plw_jv_configuration_management",
-    "title": "Configuration Management - Playwright Java Design Patterns",
-    "description": "Design type-safe configuration loaders reading config.properties, environment variables, and CLI overrides.",
-    "excerpt": "Design type-safe configuration loaders reading config.properties, environment variables, and CLI overrides.",
-    "contentPath": "users/pankaj-kumar/posts/plw_jv_configuration_management.md",
+    "id": "plw_jv_bdd_step_defs_hooks",
+    "slug": "plw_jv_bdd_step_defs_hooks",
+    "title": "Step Definitions, Glue Code & Hooks - Playwright Java Design Patterns",
+    "description": "Implement Cucumber step definition glue code and manage test lifecycle fixtures with @Before and @After hooks in Playwright Java.",
+    "excerpt": "Implement Cucumber step definition glue code and manage test lifecycle fixtures with @Before and @After hooks in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_bdd_step_defs_hooks.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28059,7 +28059,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
     "readTime": "9 min read",
-    "date": "30-Jan-2026",
+    "date": "25-Feb-2026",
     "draft": false,
     "category": "Playwright Java Design Patterns",
     "categories": [
@@ -28081,12 +28081,12 @@
     "commentsCount": 0
   },
   {
-    "id": "plw_jv_logging_framework",
-    "slug": "plw_jv_logging_framework",
-    "title": "Logging Framework - Playwright Java Design Patterns",
-    "description": "Integrate SLF4J and Logback logging for colored terminal logs, file appenders, and Playwright action tracking.",
-    "excerpt": "Integrate SLF4J and Logback logging for colored terminal logs, file appenders, and Playwright action tracking.",
-    "contentPath": "users/pankaj-kumar/posts/plw_jv_logging_framework.md",
+    "id": "plw_jv_bdd_context_tags",
+    "slug": "plw_jv_bdd_context_tags",
+    "title": "Scenario Context, State Sharing & Tags - Playwright Java Design Patterns",
+    "description": "Share test context between steps using PicoContainer DI and filter test runs with Cucumber tags in Playwright Java.",
+    "excerpt": "Share test context between steps using PicoContainer DI and filter test runs with Cucumber tags in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_bdd_context_tags.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28099,7 +28099,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
     "readTime": "9 min read",
-    "date": "31-Jan-2026",
+    "date": "26-Feb-2026",
     "draft": false,
     "category": "Playwright Java Design Patterns",
     "categories": [
@@ -28161,12 +28161,12 @@
     "commentsCount": 0
   },
   {
-    "id": "plw_jv_dependency_injection",
-    "slug": "plw_jv_dependency_injection",
-    "title": "Dependency Injection - Playwright Java Design Patterns",
-    "description": "Manage Page Object and Configuration Bean instantiation using Dependency Injection (DI) principles.",
-    "excerpt": "Manage Page Object and Configuration Bean instantiation using Dependency Injection (DI) principles.",
-    "contentPath": "users/pankaj-kumar/posts/plw_jv_dependency_injection.md",
+    "id": "plw_jv_bdd_outlines_living_docs",
+    "slug": "plw_jv_bdd_outlines_living_docs",
+    "title": "Scenario Outlines, Data Tables & Living Docs - Playwright Java Design Patterns",
+    "description": "Run data-driven BDD tests with Scenario Outlines and generate rich HTML living documentation in Playwright Java.",
+    "excerpt": "Run data-driven BDD tests with Scenario Outlines and generate rich HTML living documentation in Playwright Java.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_bdd_outlines_living_docs.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28179,7 +28179,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
     "readTime": "9 min read",
-    "date": "02-Feb-2026",
+    "date": "27-Feb-2026",
     "draft": false,
     "category": "Playwright Java Design Patterns",
     "categories": [
@@ -28201,12 +28201,12 @@
     "commentsCount": 0
   },
   {
-    "id": "plw_jv_custom_junit5_extensions",
-    "slug": "plw_jv_custom_junit5_extensions",
-    "title": "Custom JUnit 5 Extensions - Playwright Java Design Patterns",
-    "description": "Build custom JUnit 5 Extensions implementing TestWatcher to capture automatic failure screenshots and traces.",
-    "excerpt": "Build custom JUnit 5 Extensions implementing TestWatcher to capture automatic failure screenshots and traces.",
-    "contentPath": "users/pankaj-kumar/posts/plw_jv_custom_junit5_extensions.md",
+    "id": "plw_jv_bdd_framework_junit5",
+    "slug": "plw_jv_bdd_framework_junit5",
+    "title": "BDD Framework Architecture & JUnit 5 Integration - Playwright Java Design Patterns",
+    "description": "Build an enterprise multi-layer BDD framework combining Playwright Java, Cucumber-JVM, and JUnit 5 parallel execution.",
+    "excerpt": "Build an enterprise multi-layer BDD framework combining Playwright Java, Cucumber-JVM, and JUnit 5 parallel execution.",
+    "contentPath": "users/pankaj-kumar/posts/plw_jv_bdd_framework_junit5.md",
     "author": "pankaj-kumar",
     "authorDetails": {
       "id": "pankaj-kumar",
@@ -28219,7 +28219,7 @@
     },
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png",
     "readTime": "9 min read",
-    "date": "03-Feb-2026",
+    "date": "28-Feb-2026",
     "draft": false,
     "category": "Playwright Java Design Patterns",
     "categories": [
