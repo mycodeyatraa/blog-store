@@ -2881,5 +2881,53 @@
       "post-769",
       "post-770"
     ]
+  },
+  {
+    "id": "playwright-csharp-foundations",
+    "slug": "playwright-csharp-foundations",
+    "title": "Playwright C# Foundations",
+    "description": "Master modern web automation with Playwright C# and .NET SDK. Learn project setup, architecture, browser lifecycle, locators, assertions with NUnit/xUnit, and debugging tools.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      ".NET",
+      "NUnit",
+      "xUnit",
+      "Foundations"
+    ],
+    "createdAt": "02-Feb-2026",
+    "articleIds": [
+      "post-771",
+      "post-772",
+      "post-773",
+      "post-774",
+      "post-775",
+      "post-776",
+      "post-777",
+      "post-778",
+      "post-779",
+      "post-780"
+    ],
+    "posts": [
+      "post-771",
+      "post-772",
+      "post-773",
+      "post-774",
+      "post-775",
+      "post-776",
+      "post-777",
+      "post-778",
+      "post-779",
+      "post-780"
+    ]
   }
 ]
