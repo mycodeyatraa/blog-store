@@ -28599,5 +28599,500 @@
     "seriesOrder": 12,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-804",
+    "slug": "apirequestcontext-fundamentals-playwright-csharp",
+    "title": "APIRequestContext Fundamentals in Playwright C#",
+    "description": "Execute high-speed HTTP REST API requests using Playwright C# IAPIRequestContext without third-party HTTP clients.",
+    "excerpt": "Execute high-speed HTTP REST API requests using Playwright C# IAPIRequestContext without third-party HTTP clients.",
+    "contentPath": "users/pankaj-kumar/posts/apirequestcontext-fundamentals-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "07-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "APIRequestContext",
+      "REST API",
+      "HTTP"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-805",
+    "slug": "validating-get-api-requests-playwright-csharp",
+    "title": "Validating GET API Requests in Playwright C#",
+    "description": "Execute and validate HTTP GET API responses, status codes, and JSON schemas in Playwright C#.",
+    "excerpt": "Execute and validate HTTP GET API responses, status codes, and JSON schemas in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/validating-get-api-requests-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "08-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "GET API",
+      "JSON",
+      "Schema Validation"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-806",
+    "slug": "executing-post-api-mutations-playwright-csharp",
+    "title": "Executing POST API Mutations in Playwright C#",
+    "description": "Construct and send HTTP POST API requests with JSON payloads in Playwright C# for resource creation.",
+    "excerpt": "Construct and send HTTP POST API requests with JSON payloads in Playwright C# for resource creation.",
+    "contentPath": "users/pankaj-kumar/posts/executing-post-api-mutations-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "09-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "POST API",
+      "Mutations",
+      "JSON Payload"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-807",
+    "slug": "put-patch-api-endpoint-validation-playwright-csharp",
+    "title": "PUT & PATCH API Endpoint Validation in Playwright C#",
+    "description": "Update full and partial backend entity states using HTTP PUT and PATCH requests in Playwright C#.",
+    "excerpt": "Update full and partial backend entity states using HTTP PUT and PATCH requests in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/put-patch-api-endpoint-validation-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "10-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "PUT API",
+      "PATCH API",
+      "Updates"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-808",
+    "slug": "delete-api-resource-cleanup-playwright-csharp",
+    "title": "DELETE API Resource Cleanup in Playwright C#",
+    "description": "Clean up test data resources after automation runs using HTTP DELETE requests in Playwright C#.",
+    "excerpt": "Clean up test data resources after automation runs using HTTP DELETE requests in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/delete-api-resource-cleanup-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "11-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Automation"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "DELETE API",
+      "Resource Cleanup",
+      "Teardown"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-809",
+    "slug": "api-authentication-jwt-oauth-playwright-csharp",
+    "title": "API Authentication with JWT & OAuth in Playwright C#",
+    "description": "Authenticate API requests using Bearer JWT tokens and OAuth credentials in Playwright C# APIRequestContext.",
+    "excerpt": "Authenticate API requests using Bearer JWT tokens and OAuth credentials in Playwright C# APIRequestContext.",
+    "contentPath": "users/pankaj-kumar/posts/api-authentication-jwt-oauth-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "12-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Authentication"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "JWT",
+      "OAuth",
+      "API Auth"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-810",
+    "slug": "hybrid-testing-blending-api-ui-contexts-playwright-csharp",
+    "title": "Hybrid Testing: Blending API & UI Contexts in Playwright C#",
+    "description": "Speed up test execution by bypassing login UIs with API authentication state injection in Playwright C#.",
+    "excerpt": "Speed up test execution by bypassing login UIs with API authentication state injection in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/hybrid-testing-blending-api-ui-contexts-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "13-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Hybrid Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Hybrid Testing",
+      "API + UI",
+      "Performance"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-811",
+    "slug": "network-route-interception-api-mocking-playwright-csharp",
+    "title": "Network Route Interception & API Mocking in Playwright C#",
+    "description": "Intercept browser HTTP traffic and inject mock JSON responses using `Page.RouteAsync` in Playwright C#.",
+    "excerpt": "Intercept browser HTTP traffic and inject mock JSON responses using `Page.RouteAsync` in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/network-route-interception-api-mocking-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "14-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Mocking"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Route Interception",
+      "API Mocking",
+      "Network"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-812",
+    "slug": "openapi-swagger-contract-testing-playwright-csharp",
+    "title": "OpenAPI & Swagger Contract Testing in Playwright C#",
+    "description": "Validate API response structures against OpenAPI/Swagger specification contracts in Playwright C#.",
+    "excerpt": "Validate API response structures against OpenAPI/Swagger specification contracts in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/openapi-swagger-contract-testing-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "15-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Contract Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "OpenAPI",
+      "Swagger",
+      "Contract Testing"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-813",
+    "slug": "reusable-api-framework-architecture-playwright-csharp",
+    "title": "Reusable API Framework Architecture in Playwright C#",
+    "description": "Design clean API Service Client classes in C# to encapsulate REST endpoints and request serialization.",
+    "excerpt": "Design clean API Service Client classes in C# to encapsulate REST endpoints and request serialization.",
+    "contentPath": "users/pankaj-kumar/posts/reusable-api-framework-architecture-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "16-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "API Framework"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "API Framework",
+      "Service Clients",
+      "Architecture"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-814",
+    "slug": "storage-state-session-reuse-playwright-csharp",
+    "title": "Storage State Session Reuse in Playwright C#",
+    "description": "Save and load authenticated browser storage state JSON files in Playwright C# to bypass login UI steps.",
+    "excerpt": "Save and load authenticated browser storage state JSON files in Playwright C# to bypass login UI steps.",
+    "contentPath": "users/pankaj-kumar/posts/storage-state-session-reuse-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "17-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Storage State"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Storage State",
+      "Session Reuse",
+      "Auth"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-815",
+    "slug": "authentication-cookie-session-management-playwright-csharp",
+    "title": "Authentication Cookie & Session Management in Playwright C#",
+    "description": "Inspect, add, and clear browser cookies and session storage programmatically in Playwright C#.",
+    "excerpt": "Inspect, add, and clear browser cookies and session storage programmatically in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/authentication-cookie-session-management-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "18-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Cookies"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Cookies",
+      "Session",
+      "Storage"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-816",
+    "slug": "sso-enterprise-mfa-patterns-azure-ad-okta-playwright-csharp",
+    "title": "SSO & Enterprise MFA Patterns (Azure AD / Okta) in Playwright C#",
+    "description": "Automate Single Sign-On (SSO) login flows and handle OTP multi-factor authentication (MFA) in Playwright C#.",
+    "excerpt": "Automate Single Sign-On (SSO) login flows and handle OTP multi-factor authentication (MFA) in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/sso-enterprise-mfa-patterns-azure-ad-okta-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "19-Mar-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "SSO & MFA"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "SSO",
+      "Azure AD",
+      "Okta",
+      "MFA"
+    ],
+    "series": "playwright-csharp-api-testing",
+    "seriesOrder": 13,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
