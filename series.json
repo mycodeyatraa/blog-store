@@ -3085,5 +3085,44 @@
       "post-815",
       "post-816"
     ]
+  },
+  {
+    "id": "playwright-csharp-security-testing",
+    "slug": "playwright-csharp-security-testing",
+    "title": "Playwright C# Security & Headers",
+    "description": "Master web security validation in Playwright C#. Learn to audit security headers (Strict-Transport-Security, X-Frame-Options), Content Security Policy (CSP), JWT token validation, OWASP Top 10 automated sweeps, and enterprise auth patterns.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Security Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Security",
+      "HSTS",
+      "CSP",
+      "OWASP",
+      "JWT"
+    ],
+    "createdAt": "20-Mar-2026",
+    "articleIds": [
+      "post-817",
+      "post-818",
+      "post-819",
+      "post-820",
+      "post-821"
+    ],
+    "posts": [
+      "post-817",
+      "post-818",
+      "post-819",
+      "post-820",
+      "post-821"
+    ]
   }
 ]
