@@ -2979,5 +2979,57 @@
       "post-790",
       "post-791"
     ]
+  },
+  {
+    "id": "playwright-csharp-test-design",
+    "slug": "playwright-csharp-test-design",
+    "title": "Playwright C# Design Patterns & Architecture",
+    "description": "Master enterprise automation architecture in Playwright C#. Learn Page Object Model, Data-Driven Testing, Factory & Builder patterns, Screenplay pattern, appsettings.json config, Serilog logging, and Autofac Dependency Injection.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Design Patterns"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "POM",
+      "Serilog",
+      "Autofac",
+      "Screenplay"
+    ],
+    "createdAt": "23-Feb-2026",
+    "articleIds": [
+      "post-792",
+      "post-793",
+      "post-794",
+      "post-795",
+      "post-796",
+      "post-797",
+      "post-798",
+      "post-799",
+      "post-800",
+      "post-801",
+      "post-802",
+      "post-803"
+    ],
+    "posts": [
+      "post-792",
+      "post-793",
+      "post-794",
+      "post-795",
+      "post-796",
+      "post-797",
+      "post-798",
+      "post-799",
+      "post-800",
+      "post-801",
+      "post-802",
+      "post-803"
+    ]
   }
 ]
