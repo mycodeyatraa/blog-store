@@ -26281,5 +26281,461 @@
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-743",
+    "slug": "allure-basics-in-playwright-java-frameworks",
+    "title": "Allure Basics in Playwright Java Frameworks",
+    "description": "Integrate Allure Reporting into Playwright Java with JUnit 5. Capture test steps, screenshots, and execution metadata.",
+    "excerpt": "Integrate Allure Reporting into Playwright Java with JUnit 5. Capture test steps, screenshots, and execution metadata.",
+    "contentPath": "users/pankaj-kumar/posts/allure-basics-in-playwright-java-frameworks.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "25-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Allure Reporting"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Allure",
+      "JUnit 5",
+      "Reporting"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-744",
+    "slug": "advanced-allure-integration-in-playwright-java",
+    "title": "Advanced Allure Integration in Playwright Java",
+    "description": "Master advanced Allure features in Playwright Java: environment properties, link annotations, historical trend tracking, and custom attachments.",
+    "excerpt": "Master advanced Allure features in Playwright Java: environment properties, link annotations, historical trend tracking, and custom attachments.",
+    "contentPath": "users/pankaj-kumar/posts/advanced-allure-integration-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "26-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Allure Reporting"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Allure",
+      "Advanced",
+      "Trends"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-745",
+    "slug": "custom-reports-in-playwright-java",
+    "title": "Custom Reports in Playwright Java",
+    "description": "Build lightweight custom HTML and JSON test reporters for Playwright Java frameworks using custom JUnit 5 extensions.",
+    "excerpt": "Build lightweight custom HTML and JSON test reporters for Playwright Java frameworks using custom JUnit 5 extensions.",
+    "contentPath": "users/pankaj-kumar/posts/custom-reports-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "27-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Custom Reports"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Custom Reporter",
+      "JUnit 5",
+      "HTML"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-746",
+    "slug": "dashboard-metrics-with-playwright-java",
+    "title": "Dashboard Metrics with Playwright Java",
+    "description": "Capture metrics such as pass rates, execution duration, and flaky counts, converting execution data into Grafana / Kibana dashboard format.",
+    "excerpt": "Capture metrics such as pass rates, execution duration, and flaky counts, converting execution data into Grafana / Kibana dashboard format.",
+    "contentPath": "users/pankaj-kumar/posts/dashboard-metrics-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "28-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Metrics"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Metrics",
+      "Dashboard",
+      "Grafana"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-747",
+    "slug": "failure-analysis-with-playwright-java",
+    "title": "Failure Analysis with Playwright Java",
+    "description": "Automate root cause failure classification (UI timeout vs backend error) using Playwright Java traces and exception categorization.",
+    "excerpt": "Automate root cause failure classification (UI timeout vs backend error) using Playwright Java traces and exception categorization.",
+    "contentPath": "users/pankaj-kumar/posts/failure-analysis-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "29-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Failure Analysis"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Debugging",
+      "Traces",
+      "Failures"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-748",
+    "slug": "flaky-test-detection-in-playwright-java",
+    "title": "Flaky Test Detection in Playwright Java",
+    "description": "Detect, isolate, and quarantine flaky automation tests in Playwright Java using JUnit 5 retry extensions.",
+    "excerpt": "Detect, isolate, and quarantine flaky automation tests in Playwright Java using JUnit 5 retry extensions.",
+    "contentPath": "users/pankaj-kumar/posts/flaky-test-detection-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "30-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Flaky Tests"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Flaky Tests",
+      "Retry",
+      "Quarantine"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-749",
+    "slug": "test-analytics-with-playwright-java",
+    "title": "Test Analytics with Playwright Java",
+    "description": "Track test execution trends, suite velocity, and failure hotspots over time in Playwright Java automation repositories.",
+    "excerpt": "Track test execution trends, suite velocity, and failure hotspots over time in Playwright Java automation repositories.",
+    "contentPath": "users/pankaj-kumar/posts/test-analytics-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "31-Aug-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Analytics"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Analytics",
+      "Trends",
+      "Velocity"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-750",
+    "slug": "maven-surefire-html-reports-with-playwright-java",
+    "title": "Maven Surefire HTML Reports with Playwright Java",
+    "description": "Generate standard Maven Surefire HTML reports for Playwright Java test runs using maven-surefire-report-plugin.",
+    "excerpt": "Generate standard Maven Surefire HTML reports for Playwright Java test runs using maven-surefire-report-plugin.",
+    "contentPath": "users/pankaj-kumar/posts/maven-surefire-html-reports-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "01-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Maven Surefire"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Maven",
+      "Surefire",
+      "Plugin"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-751",
+    "slug": "monitoring-integrations-with-playwright-java",
+    "title": "Monitoring Integrations with Playwright Java",
+    "description": "Integrate Datadog, New Relic, and Sentry APM tracing headers into Playwright Java HTTP and browser requests.",
+    "excerpt": "Integrate Datadog, New Relic, and Sentry APM tracing headers into Playwright Java HTTP and browser requests.",
+    "contentPath": "users/pankaj-kumar/posts/monitoring-integrations-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "02-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Monitoring"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Datadog",
+      "NewRelic",
+      "APM"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-752",
+    "slug": "observability-strategy-in-playwright-java",
+    "title": "Observability Strategy in Playwright Java",
+    "description": "Design a unified enterprise observability strategy combining logs, metrics, and distributed traces into a Playwright Java architecture.",
+    "excerpt": "Design a unified enterprise observability strategy combining logs, metrics, and distributed traces into a Playwright Java architecture.",
+    "contentPath": "users/pankaj-kumar/posts/observability-strategy-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "03-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Observability"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Observability",
+      "Logs",
+      "Traces"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-753",
+    "slug": "reporting-architecture-in-playwright-java",
+    "title": "Reporting Architecture in Playwright Java",
+    "description": "Design an extensible enterprise reporting architecture decoupling execution logic from report generation engines.",
+    "excerpt": "Design an extensible enterprise reporting architecture decoupling execution logic from report generation engines.",
+    "contentPath": "users/pankaj-kumar/posts/reporting-architecture-in-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "04-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Architecture",
+      "Reporting",
+      "Design Pattern"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-754",
+    "slug": "log-aggregation-logstash-with-playwright-java",
+    "title": "Log Aggregation (Logstash) with Playwright Java",
+    "description": "Stream structured JSON logs from Playwright Java using Log4j2 directly into Logstash and the ELK stack.",
+    "excerpt": "Stream structured JSON logs from Playwright Java using Log4j2 directly into Logstash and the ELK stack.",
+    "contentPath": "users/pankaj-kumar/posts/log-aggregation-logstash-with-playwright-java.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "05-Sep-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "Logstash"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Logstash",
+      "ELK",
+      "Log4j2"
+    ],
+    "series": "playwright-java-reporting-obs",
+    "seriesOrder": 12,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
