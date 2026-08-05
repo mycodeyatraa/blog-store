@@ -27725,5 +27725,423 @@
     "seriesOrder": 10,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-781",
+    "slug": "wait-strategies-and-auto-waiting-playwright-csharp",
+    "title": "Wait Strategies & Auto-Waiting in Playwright C#",
+    "description": "Master Playwright C# built-in auto-waiting actionability checks. Eliminate arbitrary Thread.Sleep calls forever.",
+    "excerpt": "Master Playwright C# built-in auto-waiting actionability checks. Eliminate arbitrary Thread.Sleep calls forever.",
+    "contentPath": "users/pankaj-kumar/posts/wait-strategies-and-auto-waiting-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "12-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Core UI"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Auto-Wait",
+      "Actionability",
+      "Waits"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-782",
+    "slug": "form-handling-inputs-dropdowns-checkboxes-playwright-csharp",
+    "title": "Form Handling: Inputs, Dropdowns & Checkboxes in Playwright C#",
+    "description": "Automate complex web forms in Playwright C#: text inputs, multi-select dropdowns, checkboxes, and radio buttons.",
+    "excerpt": "Automate complex web forms in Playwright C#: text inputs, multi-select dropdowns, checkboxes, and radio buttons.",
+    "contentPath": "users/pankaj-kumar/posts/form-handling-inputs-dropdowns-checkboxes-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "13-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Forms"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Forms",
+      "Inputs",
+      "Dropdowns"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-783",
+    "slug": "handling-dialogs-alerts-prompts-playwright-csharp",
+    "title": "Handling Dialogs, Alerts & Prompts in Playwright C#",
+    "description": "Handle browser dialogs, JavaScript alerts, confirms, and prompts automatically using Playwright C# event listeners.",
+    "excerpt": "Handle browser dialogs, JavaScript alerts, confirms, and prompts automatically using Playwright C# event listeners.",
+    "contentPath": "users/pankaj-kumar/posts/handling-dialogs-alerts-prompts-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "14-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Dialogs"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Dialogs",
+      "Alerts",
+      "Prompts"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-784",
+    "slug": "file-upload-automation-in-playwright-csharp",
+    "title": "File Upload Automation in Playwright C#",
+    "description": "Automate single and multiple file uploads in Playwright C# using `SetInputFilesAsync` and `RunAndWaitForFileChooserAsync`.",
+    "excerpt": "Automate single and multiple file uploads in Playwright C# using `SetInputFilesAsync` and `RunAndWaitForFileChooserAsync`.",
+    "contentPath": "users/pankaj-kumar/posts/file-upload-automation-in-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "15-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "File Upload"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "File Upload",
+      "FileChooser",
+      "Files"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-785",
+    "slug": "file-download-interception-and-validation-playwright-csharp",
+    "title": "File Download Interception & Validation in Playwright C#",
+    "description": "Intercept and validate file download streams (PDF, CSV, ZIP) in Playwright C# using `RunAndWaitForDownloadAsync`.",
+    "excerpt": "Intercept and validate file download streams (PDF, CSV, ZIP) in Playwright C# using `RunAndWaitForDownloadAsync`.",
+    "contentPath": "users/pankaj-kumar/posts/file-download-interception-and-validation-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "16-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "File Download"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "File Download",
+      "Download",
+      "Files"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-786",
+    "slug": "managing-multi-window-multi-tab-contexts-playwright-csharp",
+    "title": "Managing Multi-Window & Multi-Tab Contexts in Playwright C#",
+    "description": "Automate new browser tabs and popup windows in Playwright C# using `RunAndWaitForPageAsync`.",
+    "excerpt": "Automate new browser tabs and popup windows in Playwright C# using `RunAndWaitForPageAsync`.",
+    "contentPath": "users/pankaj-kumar/posts/managing-multi-window-multi-tab-contexts-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "17-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Multi-Window"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Multi-Tab",
+      "New Page",
+      "Context"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-787",
+    "slug": "handling-frames-nested-iframes-playwright-csharp",
+    "title": "Handling Frames & Nested iFrames in Playwright C#",
+    "description": "Automate iframe content and nested frames in Playwright C# seamlessly using `FrameLocator`.",
+    "excerpt": "Automate iframe content and nested frames in Playwright C# seamlessly using `FrameLocator`.",
+    "contentPath": "users/pankaj-kumar/posts/handling-frames-nested-iframes-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "18-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "iFrames"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "iFrame",
+      "FrameLocator",
+      "Frames"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-788",
+    "slug": "shadow-dom-automation-with-csharp-playwright",
+    "title": "Shadow DOM Automation with C# in Playwright",
+    "description": "Automate open and closed Shadow DOM web components effortlessly in Playwright C# without custom JavaScript piercing.",
+    "excerpt": "Automate open and closed Shadow DOM web components effortlessly in Playwright C# without custom JavaScript piercing.",
+    "contentPath": "users/pankaj-kumar/posts/shadow-dom-automation-with-csharp-playwright.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "19-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Shadow DOM"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Shadow DOM",
+      "Web Components",
+      "DOM"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-789",
+    "slug": "network-monitoring-event-interception-playwright-csharp",
+    "title": "Network Monitoring & Event Interception in Playwright C#",
+    "description": "Monitor HTTP requests, mock API responses, and block unwanted network assets (ads, images) in Playwright C#.",
+    "excerpt": "Monitor HTTP requests, mock API responses, and block unwanted network assets (ads, images) in Playwright C#.",
+    "contentPath": "users/pankaj-kumar/posts/network-monitoring-event-interception-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "20-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Network"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Network",
+      "Route",
+      "Mocking"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-790",
+    "slug": "parallel-test-execution-nunit-xunit-playwright-csharp",
+    "title": "Parallel Test Execution with NUnit & xUnit in Playwright C#",
+    "description": "Execute Playwright C# test suites concurrently across multiple CPU threads using NUnit and xUnit parallelization.",
+    "excerpt": "Execute Playwright C# test suites concurrently across multiple CPU threads using NUnit and xUnit parallelization.",
+    "contentPath": "users/pankaj-kumar/posts/parallel-test-execution-nunit-xunit-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "21-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Parallel Execution"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Parallel",
+      "NUnit",
+      "xUnit"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-791",
+    "slug": "cross-browser-matrix-testing-playwright-csharp",
+    "title": "Cross-Browser Matrix Testing in Playwright C#",
+    "description": "Run Playwright C# tests seamlessly across Chromium, Firefox, and WebKit (Safari engine) matrix combinations.",
+    "excerpt": "Run Playwright C# tests seamlessly across Chromium, Firefox, and WebKit (Safari engine) matrix combinations.",
+    "contentPath": "users/pankaj-kumar/posts/cross-browser-matrix-testing-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "22-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Cross-Browser"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Cross-Browser",
+      "Chromium",
+      "Firefox"
+    ],
+    "series": "playwright-csharp-core-ui",
+    "seriesOrder": 11,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
