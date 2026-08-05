@@ -19,72 +19,26 @@ readTime: 9 min read
 
 # APIRequestContext - Playwright Java API Automation & Auth
 
-Playwright is not just a UI testing framework—it includes a high-performance HTTP client engine via `APIRequestContext`. This enables executing backend REST API tests, seeding test data, and validating API endpoints without launching browser instances.
+Playwright Java provides the `APIRequestContext` interface to execute HTTP REST requests directly against backend microservices without launching a browser instance.
 
 ---
 
-## 1. APIRequestContext Architecture
-
-```
-            +----------------------------------------------------+
-            |            Java Application (JVM)                  |
-            |     Playwright.create().request().newContext()     |
-            +----------------------------------------------------+
-                                      |
-                           HTTP / HTTPS Protocol
-                                      |
-                                      v
-            +----------------------------------------------------+
-            |      Backend REST API (https://practice...)        |
-            +----------------------------------------------------+
-```
-
----
-
-## 2. APIRequestContext Configuration Examples
+## 1. Core APIRequestContext Setup
 
 ```java
-// 1. Creating Isolated APIRequestContext
 Playwright playwright = Playwright.create();
-APIRequestContext apiContext = playwright.request().newContext(new APIRequest.NewContextOptions()
+APIRequestContext request = playwright.request().newContext(new APIRequest.NewContextOptions()
     .setBaseURL("https://practice.mycodeyatra.com")
-    .setExtraHTTPHeaders(Map.of(
-        "Content-Type", "application/json",
-        "Accept", "application/json"
-    ))
-    .setTimeout(10000));
+    .setExtraHTTPHeaders(Map.of("Accept", "application/json")));
  
-// 2. Executing GET Request
-APIResponse response = apiContext.get("/api/users");
+APIResponse response = request.get("/api/health");
 assertThat(response.status()).isEqualTo(200);
 ```
 
 ---
 
-## 3. Production API Client (`src/main/java/com/mycodeyatra/pages/api/APIRequestContextPage.java`)
+## 2. Key Takeaways
 
-```java
-package com.mycodeyatra.pages.api;
- 
-import com.microsoft.playwright.APIRequestContext;
-import com.microsoft.playwright.APIResponse;
- 
-public class APIRequestContextPage {
-    private final APIRequestContext request;
- 
-    public APIRequestContextPage(APIRequestContext request) {
-        this.request = request;
-    }
- 
-    public APIResponse fetchUsers() {
-        return request.get("/api/users");
-    }
-}
-```
+1. **Zero Browser Overhead**: Execute backend API assertions instantly without UI rendering delays.
+2. **Global Headers**: Inject base URLs and headers globally across test suites.
 
----
-
-## 4. Key Takeaways
-
-1. **Lightweight Execution**: Running API tests via `APIRequestContext` consumes <5% of the RAM required by browser instances.
-2. **Dispose Contexts**: Always call `apiContext.dispose()` after test runs to release connection pools.

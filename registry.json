@@ -28676,9 +28676,9 @@
   {
     "id": "plw_jv_get_apis",
     "slug": "plw_jv_get_apis",
-    "title": "GET APIs - Playwright Java API Automation & Auth",
-    "description": "Automate HTTP GET requests, query parameters, response headers, and JSON body assertions in Playwright Java.",
-    "excerpt": "Automate HTTP GET requests, query parameters, response headers, and JSON body assertions in Playwright Java.",
+    "title": "GET APIs & POST Payloads - Playwright Java API Automation & Auth",
+    "description": "Execute HTTP GET and POST requests, pass query parameters, and validate JSON response bodies in Playwright Java.",
+    "excerpt": "Execute HTTP GET and POST requests, pass query parameters, and validate JSON response bodies in Playwright Java.",
     "contentPath": "users/pankaj-kumar/posts/plw_jv_get_apis.md",
     "author": "pankaj-kumar",
     "authorDetails": {
@@ -28717,9 +28717,9 @@
   {
     "id": "plw_jv_post_apis",
     "slug": "plw_jv_post_apis",
-    "title": "POST APIs - Playwright Java API Automation & Auth",
-    "description": "Create REST resources using HTTP POST requests, JSON payloads, and HTTP 201 Created assertions.",
-    "excerpt": "Create REST resources using HTTP POST requests, JSON payloads, and HTTP 201 Created assertions.",
+    "title": "PUT, PATCH & DELETE Operations - Playwright Java API Automation & Auth",
+    "description": "Update existing resources using PUT and PATCH methods, and destroy records using DELETE requests in Playwright Java.",
+    "excerpt": "Update existing resources using PUT and PATCH methods, and destroy records using DELETE requests in Playwright Java.",
     "contentPath": "users/pankaj-kumar/posts/plw_jv_post_apis.md",
     "author": "pankaj-kumar",
     "authorDetails": {
@@ -28758,9 +28758,9 @@
   {
     "id": "plw_jv_put_patch_apis",
     "slug": "plw_jv_put_patch_apis",
-    "title": "PUT/PATCH APIs - Playwright Java API Automation & Auth",
-    "description": "Update backend resources using HTTP PUT (full replacement) and PATCH (partial update) in Playwright Java.",
-    "excerpt": "Update backend resources using HTTP PUT (full replacement) and PATCH (partial update) in Playwright Java.",
+    "title": "Authentication APIs & Hybrid Testing - Playwright Java API Automation & Auth",
+    "description": "Authenticate API requests using Bearer JWT tokens and speed up E2E tests by injecting session cookies into BrowserContext.",
+    "excerpt": "Authenticate API requests using Bearer JWT tokens and speed up E2E tests by injecting session cookies into BrowserContext.",
     "contentPath": "users/pankaj-kumar/posts/plw_jv_put_patch_apis.md",
     "author": "pankaj-kumar",
     "authorDetails": {
@@ -28799,9 +28799,9 @@
   {
     "id": "plw_jv_delete_apis",
     "slug": "plw_jv_delete_apis",
-    "title": "DELETE APIs - Playwright Java API Automation & Auth",
-    "description": "Remove backend resources using HTTP DELETE requests and verify HTTP 204 No Content status.",
-    "excerpt": "Remove backend resources using HTTP DELETE requests and verify HTTP 204 No Content status.",
+    "title": "API Mocking, Contract Testing & Framework Architecture - Playwright Java API Automation & Auth",
+    "description": "Intercept browser network requests, validate JSON schema contracts, and build an enterprise REST API testing framework in Playwright Java.",
+    "excerpt": "Intercept browser network requests, validate JSON schema contracts, and build an enterprise REST API testing framework in Playwright Java.",
     "contentPath": "users/pankaj-kumar/posts/plw_jv_delete_apis.md",
     "author": "pankaj-kumar",
     "authorDetails": {

@@ -1,5 +1,5 @@
 ---
-title: DELETE APIs - Playwright Java API Automation & Auth
+title: API Mocking, Contract Testing & Framework Architecture - Playwright Java API Automation & Auth
 date: 08-Feb-2026
 lastUpdated: 08-Feb-2026
 author: pankaj-kumar
@@ -13,57 +13,33 @@ tags: [playwright, java, junit5, api-testing, rest-api, authentication, mycodeya
 category: Playwright Java API Automation & Auth
 categories: [Playwright Java API Automation & Auth, Playwright Java, Test Automation]
 excerpt: >-
-  Remove backend resources using HTTP DELETE requests and verify HTTP 204 No Content status.
+  Intercept browser network requests, validate JSON schema contracts, and build an enterprise REST API testing framework in Playwright Java.
 readTime: 9 min read
 ---
 
-# DELETE APIs - Playwright Java API Automation & Auth
+# API Mocking, Contract Testing & Framework Architecture - Playwright Java API Automation & Auth
 
-HTTP DELETE requests remove specified resources from backend databases. 
-
-Validating DELETE requests involves verifying that the server returns HTTP `204 No Content` or `200 OK`, followed by confirming that subsequent GET requests return `404 Not Found`.
+Intercept network calls with `page.route()`, validate JSON response contracts, and construct a multi-layer API testing framework in Playwright Java.
 
 ---
 
-## 1. DELETE Automation & Negative Verification
+## 1. API Mocking & Framework Design
 
 ```java
-// 1. Send DELETE Request
-APIResponse deleteResponse = apiContext.delete("/api/users/101");
-assertThat(deleteResponse.status()).isEqualTo(204);
+// 1. Network Interception & Mocking
+page.route("**/api/user", route -> {
+    route.fulfill(new Route.FulfillOptions().setStatus(200).setBody("{\"user\": \"Mocked Admin\"}"));
+});
  
-// 2. Negative Verification (Confirm Resource No Longer Exists)
-APIResponse getResponse = apiContext.get("/api/users/101");
-assertThat(getResponse.status()).isEqualTo(404);
+// 2. Schema Assertion
+APIResponse response = request.get("/api/user");
+assertThat(response.text()).contains("user");
 ```
 
 ---
 
-## 2. Production API Client (`src/main/java/com/mycodeyatra/pages/api/DeleteAPIsPage.java`)
+## 2. Key Takeaways
 
-```java
-package com.mycodeyatra.pages.api;
- 
-import com.microsoft.playwright.APIRequestContext;
-import com.microsoft.playwright.APIResponse;
- 
-public class DeleteAPIsPage {
-    private final APIRequestContext request;
- 
-    public DeleteAPIsPage(APIRequestContext request) {
-        this.request = request;
-    }
- 
-    public APIResponse removeUser(int userId) {
-        return request.delete("/api/users/" + userId);
-    }
-}
-```
-
----
-
-## 3. Key Takeaways
-
-1. **Verify 204 vs 200**: Standard REST APIs return `204 No Content` when no body is returned after deletion.
-2. **Chain GET Request**: Always perform a follow-up GET request to confirm resource deletion.
+1. **Route Interception**: Test UI error handling with zero backend database changes.
+2. **Enterprise Layering**: Decouple Request Builders, Page Objects, and Assertions.
 

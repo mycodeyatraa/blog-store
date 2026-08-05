@@ -1,5 +1,5 @@
 ---
-title: POST APIs - Playwright Java API Automation & Auth
+title: PUT, PATCH & DELETE Operations - Playwright Java API Automation & Auth
 date: 06-Feb-2026
 lastUpdated: 06-Feb-2026
 author: pankaj-kumar
@@ -13,62 +13,33 @@ tags: [playwright, java, junit5, api-testing, rest-api, authentication, mycodeya
 category: Playwright Java API Automation & Auth
 categories: [Playwright Java API Automation & Auth, Playwright Java, Test Automation]
 excerpt: >-
-  Create REST resources using HTTP POST requests, JSON payloads, and HTTP 201 Created assertions.
+  Update existing resources using PUT and PATCH methods, and destroy records using DELETE requests in Playwright Java.
 readTime: 9 min read
 ---
 
-# POST APIs - Playwright Java API Automation & Auth
+# PUT, PATCH & DELETE Operations - Playwright Java API Automation & Auth
 
-HTTP POST requests send payload data to a REST server to create new backend resources (such as registering a new user or submitting an order).
-
-Playwright Java handles JSON serialization natively via `RequestOptions.create().setData(payload)`.
+HTTP PUT replaces entire resources, HTTP PATCH performs partial updates, and HTTP DELETE removes resources.
 
 ---
 
-## 1. POST Request Automation Flow
+## 1. Update and Delete Flow
 
 ```java
-// 1. Construct JSON Payload String or Map
-String userPayload = "{\"name\": \"Pankaj Kumar\", \"email\": \"pankaj@mycodeyatra.com\", \"role\": \"Architect\"}";
+// 1. PUT Update
+APIResponse putResp = request.put("/api/users/1", RequestOptions.create()
+    .setData("{\"name\": \"Jane Doe\"}"));
+assertThat(putResp.status()).isEqualTo(200);
  
-// 2. Send POST Request
-APIResponse response = apiContext.post("/api/users", RequestOptions.create()
-    .setHeader("Content-Type", "application/json")
-    .setData(userPayload));
- 
-// 3. Validate HTTP 201 Created Status
-assertThat(response.status()).isEqualTo(201);
-assertThat(response.text()).contains("id");
+// 2. DELETE Operation
+APIResponse deleteResp = request.delete("/api/users/1");
+assertThat(deleteResp.status()).isEqualTo(204);
 ```
 
 ---
 
-## 2. Production API Client (`src/main/java/com/mycodeyatra/pages/api/PostAPIsPage.java`)
+## 2. Key Takeaways
 
-```java
-package com.mycodeyatra.pages.api;
- 
-import com.microsoft.playwright.APIRequestContext;
-import com.microsoft.playwright.APIResponse;
-import com.microsoft.playwright.options.RequestOptions;
- 
-public class PostAPIsPage {
-    private final APIRequestContext request;
- 
-    public PostAPIsPage(APIRequestContext request) {
-        this.request = request;
-    }
- 
-    public APIResponse createNewUser(String jsonPayload) {
-        return request.post("/api/users", RequestOptions.create().setData(jsonPayload));
-    }
-}
-```
-
----
-
-## 3. Key Takeaways
-
-1. **Set `Content-Type` Header**: Always specify `application/json` when posting structured JSON payloads.
-2. **Assert `201 Created`**: Validate that the backend returns standard HTTP status `201` for new entity creation.
+1. **Idempotency**: Ensure test cleanup via DELETE operations in `@AfterEach`.
+2. **Status Codes**: Assert 200 OK for updates and 204 No Content for deletions.
 
