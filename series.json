@@ -2,7 +2,7 @@
   {
     "id": "aws-from-zero-to-production",
     "title": "AWS From Zero to Production",
-    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD \u2014 designed for developers transitioning from theory to real-world AWS deployments.",
+    "description": "A comprehensive AWS series covering fundamentals (IAM, VPC, EC2, S3) through production-grade architecture, monitoring, and CI/CD — designed for developers transitioning from theory to real-world AWS deployments.",
     "author": "Abhishek-sinha",
     "articleIds": [
       "blog-5",
@@ -1867,6 +1867,23 @@
     "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
   },
   {
+    "id": "playwright-typescript-test-design",
+    "title": "Playwright TypeScript Test Design Patterns",
+    "description": "Optimize your test structures using advanced test design patterns. Master custom fixtures, setup/teardown hooks, and clean Page Object Models (POM).",
+    "articleIds": [
+      "post-622",
+      "post-623",
+      "post-624"
+    ],
+    "status": "completed",
+    "posts": [
+      "post-622",
+      "post-623",
+      "post-624"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_java.png"
+  },
+  {
     "id": "playwright-typescript-framework",
     "title": "Playwright TypeScript Framework Architecture",
     "description": "Build a production-ready automation framework. Learn configuration management, custom logging, clean folder structures, environment-specific runs, and Dependency Injection.",
@@ -2218,6 +2235,29 @@
       "post-713",
       "post-714",
       "post-715"
+    ],
+    "status": "completed"
+  },
+  {
+    "id": "playwright-typescript-component-testing",
+    "title": "Playwright TypeScript Component Testing Mastery",
+    "description": "Phase 16 of Playwright TS series focusing on isolation testing, component state mocking, and visual regressions.",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/playwright_ts.png",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG"
+    },
+    "articleIds": [
+      "post-716",
+      "post-717",
+      "post-718"
+    ],
+    "posts": [
+      "post-716",
+      "post-717",
+      "post-718"
     ],
     "status": "completed"
   },
@@ -2650,32 +2690,32 @@
       "BDD",
       "Gherkin"
     ],
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "posts": [
-      "post-660",
-      "post-661",
-      "post-662",
-      "post-663",
-      "post-664",
-      "post-665",
-      "post-666",
-      "post-667",
-      "post-668",
-      "post-669",
-      "post-670"
+      "post-732",
+      "post-733",
+      "post-734",
+      "post-735",
+      "post-736",
+      "post-737",
+      "post-738",
+      "post-739",
+      "post-740",
+      "post-741",
+      "post-742"
     ],
     "articleIds": [
-      "post-660",
-      "post-661",
-      "post-662",
-      "post-663",
-      "post-664",
-      "post-665",
-      "post-666",
-      "post-667",
-      "post-668",
-      "post-669",
-      "post-670"
+      "post-732",
+      "post-733",
+      "post-734",
+      "post-735",
+      "post-736",
+      "post-737",
+      "post-738",
+      "post-739",
+      "post-740",
+      "post-741",
+      "post-742"
     ],
     "createdAt": "05-Aug-2026"
   }

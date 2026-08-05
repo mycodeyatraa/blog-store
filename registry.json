@@ -1293,7 +1293,7 @@
     "title": "AWS Fundamentals: IAM, VPC, EC2, and S3",
     "slug": "aws-fundamentals-iam-vpc-ec2-and-s3",
     "author": "Abhishek-sinha",
-    "excerpt": "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n> Key insight: Mastering these four AWS services \u2014 IAM, VPC, EC2, and S3 \u2014 gives you the foundation to build 90% of cloud architectures.. Everything else exten",
+    "excerpt": "AWS Fundamentals: IAM, VPC, EC2, and S3\n\n> Key insight: Mastering these four AWS services — IAM, VPC, EC2, and S3 — gives you the foundation to build 90% of cloud architectures.. Everything else exten",
     "date": "31-May-2026",
     "readTime": "6 min read",
     "category": "Aws",
@@ -1331,7 +1331,7 @@
     "title": "AWS Compute: EC2, Lambda, ECS, and EKS",
     "slug": "aws-compute-ec2-lambda-ecs-and-eks",
     "author": "Abhishek-sinha",
-    "excerpt": "A practical guide to AWS compute services \u2014 EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes \u2014 with decision framework for choosing the right service.",
+    "excerpt": "A practical guide to AWS compute services — EC2 Auto Scaling, Lambda serverless functions, ECS Fargate containers, and EKS Kubernetes — with decision framework for choosing the right service.",
     "date": "31-May-2026",
     "category": "AWS",
     "categories": [
@@ -1373,7 +1373,7 @@
     "title": "AWS Storage & Databases: S3, RDS, DynamoDB, and ElastiCache",
     "slug": "aws-storage-and-databases-s3-rds-dynamodb-and-elasticache",
     "author": "Abhishek-sinha",
-    "excerpt": "A practical guide to AWS storage and database services \u2014 S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
+    "excerpt": "A practical guide to AWS storage and database services — S3 deep dive with lifecycle policies, RDS Multi-AZ and Aurora, DynamoDB table design, and ElastiCache caching strategies.",
     "date": "31-May-2026",
     "category": "AWS",
     "categories": [
@@ -1414,7 +1414,7 @@
     "title": "AWS Networking & Security: VPC Deep Dive, Route53, CloudFront, and WAF",
     "slug": "aws-networking-and-security-vpc-deep-dive-route53-cloudfront-and-waf",
     "author": "Abhishek-sinha",
-    "excerpt": "A deep dive into AWS networking and security \u2014 advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
+    "excerpt": "A deep dive into AWS networking and security — advanced VPC patterns with Transit Gateway and VPC Endpoints, Route53 routing policies and DNS failover, CloudFront content delivery with OAI, and WAF/Shield application protection.",
     "date": "31-May-2026",
     "category": "AWS",
     "categories": [
@@ -1455,7 +1455,7 @@
     "title": "AWS Production: High Availability, Monitoring, Cost Optimization, and CI/CD",
     "slug": "aws-production-high-availability-monitoring-cost-optimization-and-cicd",
     "author": "Abhishek-sinha",
-    "excerpt": "A comprehensive guide to production-ready AWS \u2014 Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
+    "excerpt": "A comprehensive guide to production-ready AWS — Multi-AZ high availability architectures, CloudWatch monitoring with the four golden signals, cost optimization with Savings Plans and lifecycle policies, and automated CI/CD pipelines with blue/green deployments.",
     "date": "31-May-2026",
     "category": "AWS",
     "categories": [
@@ -1945,7 +1945,7 @@
     "title": "Setting Up Your Local Sandbox: Running the Mock API Server via Node.js",
     "slug": "setting-up-your-local-sandbox-running-the-mock-api-server-via-nodejs",
     "author": "pankaj-kumar",
-    "excerpt": "When you're diving into API testing\u2014whether you're using RestAssured, Supertest, Postman, or Karate\u2014the absolute best way to learn is by having your own local sandbox.",
+    "excerpt": "When you're diving into API testing—whether you're using RestAssured, Supertest, Postman, or Karate—the absolute best way to learn is by having your own local sandbox.",
     "date": "14-Jan-2025",
     "readTime": "3 min read",
     "category": "API Testing",
@@ -14586,7 +14586,7 @@
     "title": "The Master Blueprint: Reporting Architecture",
     "slug": "reporting-architecture-observability-selenium",
     "author": "pankaj-kumar",
-    "excerpt": "Pulling it all together. Visualize the complete Enterprise QA pipeline\u2014from execution layers to data aggregation layers, connecting Docker, GitHub Actions, ELK, and Datadog.",
+    "excerpt": "Pulling it all together. Visualize the complete Enterprise QA pipeline—from execution layers to data aggregation layers, connecting Docker, GitHub Actions, ELK, and Datadog.",
     "date": "06-Feb-2025",
     "readTime": "4 min read",
     "category": "Selenium TypeScript",
@@ -23824,7 +23824,7 @@
     "title": "Handling Browser Dialogs (Alerts, Confirms, Prompts) in Playwright TypeScript",
     "slug": "post-plw-ts-659",
     "author": "pankaj-kumar",
-    "excerpt": "Handling JavaScript Alerts, Confirm Dialogs, and Prompts in Playwright TypeScript\n\n> \ud83d\udcc5 Last Updated: 24-Jun-2026\n\nNative browser alerts, confirmation boxes, and prompt boxes pose a unique challenge fo",
+    "excerpt": "Handling JavaScript Alerts, Confirm Dialogs, and Prompts in Playwright TypeScript\n\n> 📅 Last Updated: 24-Jun-2026\n\nNative browser alerts, confirmation boxes, and prompt boxes pose a unique challenge fo",
     "date": "2026-06-24",
     "readTime": "4 min read",
     "category": "Playwright",
@@ -28411,6 +28411,432 @@
   },
   {
     "id": "post-660",
+    "title": "Visual Testing in Playwright TypeScript with Applitools Eyes",
+    "slug": "playwright-typescript-applitools-eyes-visual-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to perform AI-powered visual assertions in Playwright TypeScript using Applitools Eyes.",
+    "date": "05-Apr-2025",
+    "readTime": "6 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "applitools",
+      "visual testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-applitools-eyes-visual-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 8,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-661",
+    "title": "Responsive Testing with Playwright TypeScript: Viewports and Devices",
+    "slug": "playwright-typescript-responsive-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to automate responsive layout testing across Desktop, Tablet, and Mobile using Playwright viewports.",
+    "date": "06-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "responsive testing",
+      "mobile"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-responsive-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 9,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-662",
+    "title": "Mobile Web Device Emulation in Playwright TypeScript",
+    "slug": "playwright-typescript-mobile-web-device-emulation",
+    "author": "pankaj-kumar",
+    "excerpt": "Simulate iOS and Android devices, set custom user agents, and enable touch events for mobile web testing in Playwright.",
+    "date": "07-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Mobile"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "mobile emulation",
+      "testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-mobile-web-device-emulation.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 10,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-663",
+    "title": "Percy Visual Testing with Playwright TypeScript",
+    "slug": "playwright-typescript-percy-visual-testing",
+    "author": "pankaj-kumar",
+    "excerpt": "Integrate Percy for robust visual regression testing in Playwright and catch UI bugs efficiently.",
+    "date": "08-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Visual Testing"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "percy",
+      "visual testing"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-percy-visual-testing.md",
+    "series": "playwright-typescript-visual-testing",
+    "seriesOrder": 11,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-664",
+    "title": "Accessibility Testing Basics in Playwright TypeScript",
+    "slug": "playwright-typescript-accessibility-basics",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to use axe-core to find WCAG accessibility violations directly within your Playwright test suites.",
+    "date": "09-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "accessibility",
+      "axe-core"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-accessibility-basics.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 1,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-665",
+    "title": "Advanced Axe Integration in Playwright TypeScript",
+    "slug": "playwright-typescript-advanced-axe-integration",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to filter accessibility rules, include specific elements, and exclude legacy components using axe-core.",
+    "date": "10-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-advanced-axe-integration.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 2,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-666",
+    "title": "ARIA Validation in Playwright TypeScript using Axe-Core Tags",
+    "slug": "playwright-typescript-aria-validation",
+    "author": "pankaj-kumar",
+    "excerpt": "Use axe-core tags to strictly validate ARIA properties and semantic compliance in your automated accessibility tests.",
+    "date": "11-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "aria"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-aria-validation.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 3,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-667",
+    "title": "Automated Color Contrast Testing in Playwright TypeScript",
+    "slug": "playwright-typescript-color-contrast-accessibility",
+    "author": "pankaj-kumar",
+    "excerpt": "Leverage axe-core to mathematically validate UI color contrast ratios automatically within your test suites.",
+    "date": "12-Apr-2025",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "color-contrast"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-color-contrast-accessibility.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 4,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-668",
+    "title": "Generating HTML Accessibility Reports in Playwright TypeScript",
+    "slug": "playwright-typescript-accessibility-html-reports",
+    "author": "pankaj-kumar",
+    "excerpt": "Transform your axe-core accessibility scan results into beautiful, shareable HTML reports using axe-html-reporter.",
+    "date": "13-Apr-2025",
+    "readTime": "4 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "reporting",
+      "html"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/playwright-typescript-accessibility-html-reports.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 5,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-669",
+    "title": "Zero-Code Accessibility Audits with the Axe-Core CLI Tooling",
+    "slug": "accessibility-cli-tooling-axe-core",
+    "author": "pankaj-kumar",
+    "excerpt": "Learn how to execute instant, ad-hoc WCAG accessibility scans on any public URL directly from your terminal using axe-core/cli.",
+    "date": "14-Apr-2025",
+    "readTime": "3 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility",
+      "CLI Tooling"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "cli"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/accessibility-cli-tooling-axe-core.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 6,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-670",
+    "title": "Building an Enterprise Accessibility Strategy in Playwright TypeScript",
+    "slug": "enterprise-accessibility-strategy-playwright-typescript",
+    "author": "pankaj-kumar",
+    "excerpt": "Architect a scalable, global accessibility testing framework using Playwright custom fixtures and axe-core to enforce standardized enterprise compliance.",
+    "date": "15-Apr-2025",
+    "readTime": "5 min read",
+    "category": "UI Automation",
+    "categories": [
+      "UI Automation",
+      "Playwright",
+      "TypeScript",
+      "Accessibility",
+      "Enterprise"
+    ],
+    "image": "",
+    "likes": 0,
+    "commentsCount": 0,
+    "draft": false,
+    "tags": [
+      "playwright",
+      "typescript",
+      "axe-core",
+      "accessibility",
+      "enterprise",
+      "fixtures"
+    ],
+    "contentPath": "users/pankaj-kumar/posts/enterprise-accessibility-strategy-playwright-typescript.md",
+    "series": "playwright-typescript-accessibility",
+    "seriesOrder": 7,
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    }
+  },
+  {
+    "id": "post-732",
     "slug": "introduction-to-bdd-playwright-java-cucumber",
     "title": "Introduction to BDD with Playwright Java and Cucumber-JVM",
     "description": "Discover the fundamentals of Behavior-Driven Development (BDD) using Playwright Java and Cucumber-JVM. Align technical delivery with business objectives.",
@@ -28426,9 +28852,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "10-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28448,7 +28874,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-661",
+    "id": "post-733",
     "slug": "gherkin-syntax-playwright-java-cucumber",
     "title": "Mastering Gherkin Syntax in Playwright Java Frameworks",
     "description": "Learn how to write unambiguous Gherkin feature specifications using Given, When, Then, And, and But keywords for Playwright Java automation.",
@@ -28464,9 +28890,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "11-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28486,7 +28912,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-662",
+    "id": "post-734",
     "slug": "feature-files-playwright-java-cucumber",
     "title": "Structuring Feature Files in Production Playwright Java Frameworks",
     "description": "Organize feature files, manage directory layouts, enforce naming conventions, and format business scenarios effectively in Playwright Java projects.",
@@ -28502,9 +28928,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "12-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28524,7 +28950,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-663",
+    "id": "post-735",
     "slug": "step-definitions-playwright-java-cucumber",
     "title": "Writing Robust Step Definitions with Playwright Java",
     "description": "Master step definition patterns, parameter matching, expression types, and Playwright Page Object integration in Cucumber-JVM.",
@@ -28540,9 +28966,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "13-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28562,7 +28988,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-664",
+    "id": "post-736",
     "slug": "hooks-playwright-java-cucumber",
     "title": "Managing Lifecycle Hooks in Playwright Java Cucumber Suites",
     "description": "Configure @Before, @After, @BeforeAll, and @AfterAll hooks to manage Playwright BrowserContext, page initialization, trace recording, and failure screenshots.",
@@ -28578,9 +29004,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "14-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28600,7 +29026,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-665",
+    "id": "post-737",
     "slug": "scenario-context-playwright-java-cucumber",
     "title": "Sharing Scenario Context in Playwright Java Cucumber",
     "description": "Share dynamic state between step definitions using Dependency Injection (PicoContainer) in Playwright Java Cucumber automation frameworks.",
@@ -28616,9 +29042,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "15-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28638,7 +29064,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-666",
+    "id": "post-738",
     "slug": "tags-filtering-playwright-java-cucumber",
     "title": "Categorizing and Filtering Tests with Cucumber Tags in Java",
     "description": "Filter, group, and execute targeted test subsets (Smoke, Regression, Sanity, Flaky) using Cucumber tags and Maven command-line parameters in Playwright Java.",
@@ -28654,9 +29080,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "16-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28676,7 +29102,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-667",
+    "id": "post-739",
     "slug": "scenario-outlines-playwright-java-cucumber",
     "title": "Data-Driven Testing using Scenario Outlines in Playwright Java",
     "description": "Implement data-driven BDD tests using Scenario Outlines and Examples tables in Cucumber-JVM with Playwright Java.",
@@ -28692,9 +29118,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "17-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28714,7 +29140,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-668",
+    "id": "post-740",
     "slug": "living-documentation-playwright-java-cucumber",
     "title": "Generating Living Documentation and HTML Reports with Cucumber Java",
     "description": "Generate interactive HTML reports, Allure BDD documentation, and living test artifacts from Playwright Java Cucumber executions.",
@@ -28730,9 +29156,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "18-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28752,7 +29178,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-669",
+    "id": "post-741",
     "slug": "bdd-framework-design-playwright-java",
     "title": "Architecting an Enterprise BDD Framework with Playwright Java",
     "description": "Design a scalable, production-grade BDD automation framework combining Playwright Java, Cucumber-JVM, POM, and CI/CD pipelines.",
@@ -28768,9 +29194,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "19-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
@@ -28790,7 +29216,7 @@
     "commentsCount": 0
   },
   {
-    "id": "post-670",
+    "id": "post-742",
     "slug": "junit-5-parameterized-bdd-playwright-java",
     "title": "JUnit 5 Parameterized BDD with Playwright Java",
     "description": "Learn how to combine JUnit 5 parameterized tests with Cucumber BDD concepts in Playwright Java frameworks for hybrid automation setups.",
@@ -28806,9 +29232,9 @@
       "github": "https://github.com/pankajhyd",
       "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
     },
-    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
     "readTime": "7 min read",
-    "date": "20-Aug-2026",
+    "date": "05-Aug-2026",
     "draft": false,
     "categories": [
       "Automation Testing",
