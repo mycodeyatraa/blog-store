@@ -27345,5 +27345,385 @@
     "seriesOrder": 16,
     "likes": 0,
     "commentsCount": 0
+  },
+  {
+    "id": "post-771",
+    "slug": "what-is-playwright-with-csharp",
+    "title": "What is Playwright with C#?",
+    "description": "Discover Playwright C# for modern web automation. Learn how native .NET async/await and CDP integration deliver resilient browser testing.",
+    "excerpt": "Discover Playwright C# for modern web automation. Learn how native .NET async/await and CDP integration deliver resilient browser testing.",
+    "contentPath": "users/pankaj-kumar/posts/what-is-playwright-with-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "02-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Foundations"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      ".NET",
+      "Automation",
+      "Overview"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 1,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-772",
+    "slug": "playwright-vs-selenium-vs-cypress-csharp",
+    "title": "Playwright vs Selenium vs Cypress in .NET",
+    "description": "Evaluate Playwright C# against Selenium WebDriver and Cypress in the .NET ecosystem across speed, auto-waiting, and multi-tab features.",
+    "excerpt": "Evaluate Playwright C# against Selenium WebDriver and Cypress in the .NET ecosystem across speed, auto-waiting, and multi-tab features.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-vs-selenium-vs-cypress-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "03-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Tool Comparison"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Selenium",
+      "Cypress",
+      "Comparison"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 2,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-773",
+    "slug": "setup-playwright-csharp-project",
+    "title": "Setting Up a Playwright C# Project",
+    "description": "Step-by-step guide to installing Microsoft.Playwright NuGet packages and executing `playwright.ps1 install` in .NET 8 / 9 solutions.",
+    "excerpt": "Step-by-step guide to installing Microsoft.Playwright NuGet packages and executing `playwright.ps1 install` in .NET 8 / 9 solutions.",
+    "contentPath": "users/pankaj-kumar/posts/setup-playwright-csharp-project.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "04-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Project Setup"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "NuGet",
+      ".NET",
+      "Setup"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 3,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-774",
+    "slug": "playwright-csharp-architecture",
+    "title": "Playwright C# Architecture",
+    "description": "Understand the internal architecture of Playwright C#: Playwright Driver Node process, RPC protocol, and BrowserContext isolation.",
+    "excerpt": "Understand the internal architecture of Playwright C#: Playwright Driver Node process, RPC protocol, and BrowserContext isolation.",
+    "contentPath": "users/pankaj-kumar/posts/playwright-csharp-architecture.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "05-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Architecture"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Architecture",
+      "BrowserContext",
+      "CDP"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 4,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-775",
+    "slug": "browser-lifecycle-and-resource-management-csharp",
+    "title": "Browser Lifecycle & Resource Management in C#",
+    "description": "Manage Playwright C# browser lifecycles cleanly using `await using` resource disposal and NUnit setup/teardown hooks.",
+    "excerpt": "Manage Playwright C# browser lifecycles cleanly using `await using` resource disposal and NUnit setup/teardown hooks.",
+    "contentPath": "users/pankaj-kumar/posts/browser-lifecycle-and-resource-management-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "06-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Lifecycle"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Lifecycle",
+      "Resource Management",
+      "Dispose"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 5,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-776",
+    "slug": "locators-deep-dive-in-playwright-csharp",
+    "title": "Locators Deep Dive in Playwright C#",
+    "description": "Master Playwright C# locators: `GetByRole`, `GetByText`, `GetByLabel`, `GetByTestId`, and strict mode locators.",
+    "excerpt": "Master Playwright C# locators: `GetByRole`, `GetByText`, `GetByLabel`, `GetByTestId`, and strict mode locators.",
+    "contentPath": "users/pankaj-kumar/posts/locators-deep-dive-in-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "07-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Locators"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Locators",
+      "GetByRole",
+      "Strict Mode"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 6,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-777",
+    "slug": "assertions-with-nunit-and-xunit-in-playwright-csharp",
+    "title": "Assertions with NUnit and xUnit in Playwright C#",
+    "description": "Master web-first retrying assertions in Playwright C# using `Expect(Locator)` for resilient test suites.",
+    "excerpt": "Master web-first retrying assertions in Playwright C# using `Expect(Locator)` for resilient test suites.",
+    "contentPath": "users/pankaj-kumar/posts/assertions-with-nunit-and-xunit-in-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "08-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Assertions"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Assertions",
+      "NUnit",
+      "xUnit"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 7,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-778",
+    "slug": "building-your-first-e2e-test-in-playwright-csharp",
+    "title": "Building Your First E2E Test in Playwright C#",
+    "description": "Construct an end-to-end user checkout workflow in Playwright C# using NUnit and Page Objects.",
+    "excerpt": "Construct an end-to-end user checkout workflow in Playwright C# using NUnit and Page Objects.",
+    "contentPath": "users/pankaj-kumar/posts/building-your-first-e2e-test-in-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "09-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "E2E Testing"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "E2E",
+      "NUnit",
+      "Workflow"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 8,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-779",
+    "slug": "debugging-tools-playwright-inspector-vs-debugger-csharp",
+    "title": "Debugging Tools: Playwright Inspector & VS Debugger in C#",
+    "description": "Debug Playwright C# tests using Playwright Inspector, Trace Viewer, and Visual Studio breakpoint debugging.",
+    "excerpt": "Debug Playwright C# tests using Playwright Inspector, Trace Viewer, and Visual Studio breakpoint debugging.",
+    "contentPath": "users/pankaj-kumar/posts/debugging-tools-playwright-inspector-vs-debugger-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "10-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Debugging"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Debugging",
+      "Inspector",
+      "Trace Viewer"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 9,
+    "likes": 0,
+    "commentsCount": 0
+  },
+  {
+    "id": "post-780",
+    "slug": "capturing-screenshots-and-video-evidence-playwright-csharp",
+    "title": "Capturing Screenshots & Video Evidence in Playwright C#",
+    "description": "Capture full-page screenshots, element screenshots, and video recordings in Playwright C# for test audit trails.",
+    "excerpt": "Capture full-page screenshots, element screenshots, and video recordings in Playwright C# for test audit trails.",
+    "contentPath": "users/pankaj-kumar/posts/capturing-screenshots-and-video-evidence-playwright-csharp.md",
+    "author": "pankaj-kumar",
+    "authorDetails": {
+      "id": "pankaj-kumar",
+      "name": "Pankaj Kumar",
+      "role": "Automation Architect",
+      "avatar": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/users/pankaj-kumar/images/pankaj.JPG",
+      "bio": "Automation Architect",
+      "github": "https://github.com/pankajhyd",
+      "linkedin": "https://www.linkedin.com/in/pankaj-kumar-94a2b227/"
+    },
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "readTime": "8 min read",
+    "date": "11-Feb-2026",
+    "draft": false,
+    "categories": [
+      "Automation Testing",
+      "Playwright C#",
+      "Evidence Collection"
+    ],
+    "tags": [
+      "Playwright",
+      "C#",
+      "Screenshots",
+      "Video",
+      "Evidence"
+    ],
+    "series": "playwright-csharp-foundations",
+    "seriesOrder": 10,
+    "likes": 0,
+    "commentsCount": 0
   }
 ]
