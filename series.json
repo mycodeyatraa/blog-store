@@ -2630,5 +2630,29 @@
       "plw_jv_a11y_html_reports",
       "plw_jv_a11y_enterprise_cli"
     ]
+  },
+  {
+    "id": "playwright-java-bdd-cucumber",
+    "slug": "playwright-java-bdd-cucumber",
+    "title": "Playwright Java BDD with Cucumber-JVM",
+    "description": "Master Playwright Java BDD with Cucumber-JVM, featuring Gherkin feature files, step definitions, hooks, scenario context sharing, scenario outlines, and living documentation.",
+    "author": "pankaj-kumar",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Cucumber",
+      "BDD",
+      "Gherkin"
+    ],
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "posts": [],
+    "articleIds": [],
+    "createdAt": "05-Aug-2026"
   }
 ]
