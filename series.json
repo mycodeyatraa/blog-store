@@ -2820,5 +2820,66 @@
       "post-753",
       "post-754"
     ]
+  },
+  {
+    "id": "playwright-java-cicd-docker-ai",
+    "slug": "playwright-java-cicd-docker-ai",
+    "title": "Playwright Java CI/CD, Docker Grid & AI Automation",
+    "description": "Master enterprise execution scaling, CI/CD pipelines (GitHub Actions, GitLab, Azure), cloud grids (BrowserStack, SauceLabs, LambdaTest), AI-driven self-healing locators, LangChain4j integration, and Playwright Java Component Testing.",
+    "author": "pankaj-kumar",
+    "image": "https://raw.githubusercontent.com/mycodeyatraa/blog-store/main/assets/playwright-logo.svg",
+    "status": "completed",
+    "category": null,
+    "categories": [
+      "Automation Testing",
+      "Playwright Java",
+      "CI/CD & AI"
+    ],
+    "tags": [
+      "Playwright",
+      "Java",
+      "Docker",
+      "GitHub Actions",
+      "Cloud",
+      "AI",
+      "Component Testing"
+    ],
+    "createdAt": "06-Sep-2026",
+    "articleIds": [
+      "post-755",
+      "post-756",
+      "post-757",
+      "post-758",
+      "post-759",
+      "post-760",
+      "post-761",
+      "post-762",
+      "post-763",
+      "post-764",
+      "post-765",
+      "post-766",
+      "post-767",
+      "post-768",
+      "post-769",
+      "post-770"
+    ],
+    "posts": [
+      "post-755",
+      "post-756",
+      "post-757",
+      "post-758",
+      "post-759",
+      "post-760",
+      "post-761",
+      "post-762",
+      "post-763",
+      "post-764",
+      "post-765",
+      "post-766",
+      "post-767",
+      "post-768",
+      "post-769",
+      "post-770"
+    ]
   }
 ]
